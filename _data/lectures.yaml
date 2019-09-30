@@ -1,0 +1,21 @@
+-
+  date: 2020-01-17
+  title: Text Adventures
+  slides:
+  readings:
+    - 
+      title: Action Castle (first adventure in the Parsely book)
+      authors: Jared A Sorensen
+      optional: false
+      url: http://www.memento-mori.com/parsely-products/
+  videos:
+    -
+      authors: Jared A Sorensen
+      url: https://www.youtube.com/watch?v=zbC_bSysbrA
+      title: Action Castle at PAX East 2011
+      length: 12 minutes 
+    -  
+      authors: adventuron.io
+      url: https://www.youtube.com/watch?v=zbC_bSysbrA
+      title: Create A Text Adventure Game in 30 Minutes (Tutorial)
+      length: 35 minutes 
