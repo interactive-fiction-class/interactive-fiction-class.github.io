@@ -1,7 +1,7 @@
 ---
 title: CIS 700 - Interactive Fiction and Text Generation - University of Pennsylvania
 layout: default
-img: 
+img: play-if-card.png
 active_tab: main_page 
 ---
 
