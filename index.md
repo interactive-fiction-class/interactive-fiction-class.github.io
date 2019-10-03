@@ -49,14 +49,14 @@ Course number
 : CIS 700 - Interactive Fiction and Text Generation 
 
 Website
-: [interactive-fiction-class.org](https://interactive-fiction-class.org/)
+: [interactive-fiction-class.org](http://interactive-fiction-class.org/)
 
 Instructors
 : [Daphne Ippolito](https://www.seas.upenn.edu/~daphnei/)
 : [Chris Callison-Burch](https://www.cis.upenn.edu/~ccb/)
 
 Discussion Forum
-: [Piazza](http://piazza.com/upenn/fall2019/cis521)
+: [Piazza](http://piazza.com/upenn/spring2020/XXXX)
 
 Time and place
 : Fridays xxx TBD
