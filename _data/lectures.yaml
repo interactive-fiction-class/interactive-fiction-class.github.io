@@ -1,6 +1,7 @@
 -
   date: 2020-01-17
-  title: Text Adventures
+  title: Text Adventure Games
+  description: Introduction to text adventure games. We discuss what these games are and the parsing of user input.
   slides:
   readings:
     - 
@@ -20,7 +21,7 @@
       title: Action Castle at PAX East 2011
       length: 12 minutes 
     -  
-      authors: adventuron.io
+      authors: adventuron.io (maybe talk about http://textadventures.co.uk/ instead)
       url: https://www.youtube.com/watch?v=zbC_bSysbrA
       title: Create A Text Adventure Game in 30 Minutes (Tutorial)
       length: 35 minutes 
@@ -30,23 +31,154 @@
       url: https://overcast.fm/+Q4tzqKDpE
       title: Episode 117&colon; Zork
       length: 1 hour and 45 minutes 
+  homework: Implement your own small text adventure game with at least 10 actions and a parser that is more flexible than exact string matching.
 -
-  date: 2020-01-17
-  title: 
+  date: 2010-01-17
+  title: Thereom Proving for Text Adventure Games
+  description: More of the theory behind these games, parsing user input, and so on.
+
   slides:
   readings:
-    - 
-      title: 
-      authors: 
-      optional: 
-      url:  
+    -
+      title: TODO
+      authors: TODO
+      optional: TODO
+      url: TODO
 -
-  date: 2020-01-17
-  title: 
+  date: 2010-01-24
+  title: Introduction to Reinforcement Learning (guest lecture).
+  description: Also with a discussion of how RL can be used to solve text adventure games.
+  slides: 
+  readings:
+    -
+      title: "TextWorld: A Learning Environment for Text-based Games"
+      authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine1, James Moore1, Matthew Hausknecht1, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischle
+      url: https://arxiv.org/pdf/1806.11532.pdf
+    -
+      title: "What Can You Do with a Rock? Affordance Extraction via Word Embeddings"
+      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
+      optional: false
+      url: https://www.ijcai.org/proceedings/2017/0144.pdf
+  homework: Modify one of the TextWorld baseline systems.
+-
+  date: 2010-01-31
+  title: Extracting Narrative Structure
   slides:
   readings:
-    - 
-      title: 
-      authors: 
-      optional: 
-      url:  
+    -
+      title: Morphology of the Folktale, ch 2,skim ch 3-9, ch 8a-8b
+      authors: V Propp
+      optional: false
+      url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf
+-
+  date: 2010-02-7
+  title: Unconditioned Text Generation
+  description: Explain how the models work, show off interactive demos.
+  slides:
+  readings:
+    -
+      title: Summarizing Wikipedia
+      authors: TODO
+      optional: TODO
+      url: TODO    
+    -
+      title: Hierarchical Story Generation
+      authors: TODO
+      optional: TODO
+      url: TODO    
+    -
+      title: The Illustrated GPT-2 (Visualizing Transformer Language Models)
+      authors: Jay Alammar
+      optional: false
+      url: http://jalammar.github.io/illustrated-gpt2/
+  homework: Fine-tune a large language model on any text domin of choice. Discuss strengths/weaknesses of generated text.
+-
+  date: 2010-02-14
+  title: Conditoned Text Generation
+  slides:
+  readings:
+    -
+      title: TODO
+      authors: TODO
+      optional: TODO
+      url: TODO
+-
+  date: 2010-02-21
+  title: TODO
+  slides:
+  readings:
+    -
+      title: TODO
+      authors: TODO
+      optional: TODO
+      url: TODO
+-
+  date: 2010-03-6
+  title: TODO
+  slides:
+  readings:
+    -
+      title: TODO
+      authors: TODO
+      optional: TODO
+      url: TODO
+-
+  date: 2010-03-20
+  title: TODO
+  slides:
+  readings:
+    -
+      title: TODO
+      authors: TODO
+      optional: TODO
+      url: TODO
+-
+  date: 2010-03-27
+  title: TODO
+  slides:
+  readings:
+    -
+      title: TODO
+      authors: TODO
+      optional: TODO
+      url: TODO
+-
+  date: 2010-04-3
+  title: TODO
+  slides:
+  readings:
+    -
+      title: TODO
+      authors: TODO
+      optional: TODO
+      url: TODO
+-
+  date: 2010-04-10
+  title: TODO
+  slides:
+  readings:
+    -
+      title: TODO
+      authors: TODO
+      optional: TODO
+      url: TODO
+-
+  date: 2010-04-17
+  title: TODO
+  slides:
+  readings:
+    -
+      title: TODO
+      authors: TODO
+      optional: TODO
+      url: TODO
+-
+  date: 2010-04-24
+  title: TODO
+  slides:
+  readings:
+    -
+      title: TODO
+      authors: TODO
+      optional: TODO
+      url: TODO

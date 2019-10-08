@@ -43,10 +43,15 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 
 
 
-
-
 Course number
 : CIS 700 - Interactive Fiction and Text Generation 
+
+**Summary**
+: This class will cover four broad areas.
+* Text Adventure Games - How they are implemented and how we can build agents that automatically solve them.
+* Narrative Understanding - Extracting narrative structure (schemas, morphology) from text
+* Unconditioned Text Generation - Generating natural-sounding text
+* Conditioned Text Generation - Generating text that follows a desired style, narrative arc, or other attribute.
 
 Website
 : [interactive-fiction-class.org](http://interactive-fiction-class.org/)
@@ -56,7 +61,7 @@ Instructors
 : [Chris Callison-Burch](https://www.cis.upenn.edu/~ccb/)
 
 Discussion Forum
-: [Piazza](http://piazza.com/upenn/spring2020/XXXX)
+: [Mailing List](https://groups.google.com/d/forum/cis700-2019-iftg)
 
 Time and place
 : Fridays xxx TBD
@@ -69,13 +74,14 @@ Textbooks
 : [$10](http://www.drivethrurpg.com/product/108028/Dungeon-World)-[$25](https://www.burningwheel.com/dungeon-world-1/) [Dungeon World](https://dungeon-world.com/) by Sage LaTorra and Adam Koebel
 : Optional $31 [Dungeon Master's Guide - Dungeons & Dragons 5th edition Core Rulebook](https://www.amazon.com/Dungeons-Dragons-Dungeon-Rulebook-Roleplaying/dp/0786965622/) by Wizards of the Coast
 
-
 Grading
-: TBD
-
+: There will be three homeworks and a final project. In addition, you will be required to present a paper from the required reading in class.
+* 10% Paper presentation
+* 45% Homeworks (3 at 15% each)
+* 45% Final project
 
 Collaboration Policy
-: Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments, and teams of 3-5 for the final project. 
+: Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments, and teams of 2-4 for the final project. 
 
 Late Day Policy
 : Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. 
