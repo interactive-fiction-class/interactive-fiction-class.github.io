@@ -94,7 +94,7 @@
   homework: Fine-tune a large language model on any text domin of choice. Discuss strengths/weaknesses of generated text.
 -
   date: 2010-02-14
-  title: Conditoned Text Generation
+  title: Text Generation with Style Control
   slides:
   readings:
     -
@@ -104,7 +104,7 @@
       url: TODO
 -
   date: 2010-02-21
-  title: TODO
+  title: Datasets for Story Generation / Intro to final project
   slides:
   readings:
     -
@@ -114,7 +114,7 @@
       url: TODO
 -
   date: 2010-03-6
-  title: TODO
+  title: Text Generation with Knowledge Grounding
   slides:
   readings:
     -
@@ -124,7 +124,7 @@
       url: TODO
 -
   date: 2010-03-20
-  title: TODO
+  title: Text Generation with Narrative Control
   slides:
   readings:
     -
@@ -134,7 +134,7 @@
       url: TODO
 -
   date: 2010-03-27
-  title: TODO
+  title: Human-Computer-Interaction for Collaborative Story Generation
   slides:
   readings:
     -
