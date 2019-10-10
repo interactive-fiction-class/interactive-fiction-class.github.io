@@ -104,16 +104,6 @@
   slides:
   readings:
     -
-      title: TODO
-      authors: TODO
-      optional: TODO
-      url: TODO
--
-  date: 2010-02-21
-  title: Text Generation with Style Control
-  slides:
-  readings:
-    -
       title: Hierarchical Neural Story Generation
       authors: Angela Fan, Mike Lewis, Yann Dauphin
       optional: false
@@ -123,6 +113,16 @@
       authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
       optional: false
       url: https://arxiv.org/pdf/1909.10705.pdf
+-
+  date: 2010-02-21
+  title: Text Generation with Controllable Attributes
+  slides:
+  readings:
+    -
+      title: Defending Against Neural Fake News
+      authors: Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi, Franziska Roesner, Yejin Choi
+      optional: false
+      url: https://arxiv.org/abs/1905.12616
 -
   date: 2010-03-6
   title: Text Generation with Knowledge Grounding
