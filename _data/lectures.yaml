@@ -63,10 +63,16 @@
 -
   date: 2010-01-31
   title: Extracting Narrative Structure
+  description: How to ectract schemas or other forms of narrative structure from a text.
   slides:
   readings:
     -
-      title: Morphology of the Folktale, ch 2,skim ch 3-9, ch 8a-8b
+      title: Unsupervised Learning of Narrative Schemas and their Participants
+      authors: Nathanael Chambers and Dan Jurafsky
+      optional: false
+      url: https://www.aclweb.org/anthology/P09-1068.pdf
+    -
+      title: Morphology of the Folktale, ch 2, skim ch 3-9, ch 8a-8b
       authors: V Propp
       optional: false
       url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf
@@ -94,16 +100,6 @@
   homework: Fine-tune a large language model on any text domin of choice. Discuss strengths/weaknesses of generated text.
 -
   date: 2010-02-14
-  title: Text Generation with Style Control
-  slides:
-  readings:
-    -
-      title: TODO
-      authors: TODO
-      optional: TODO
-      url: TODO
--
-  date: 2010-02-21
   title: Datasets for Story Generation / Intro to final project
   slides:
   readings:
@@ -113,15 +109,30 @@
       optional: TODO
       url: TODO
 -
+  date: 2010-02-21
+  title: Text Generation with Style Control
+  slides:
+  readings:
+    -
+      title: Hierarchical Neural Story Generation
+      authors: Angela Fan, Mike Lewis, Yann Dauphin
+      optional: false
+      url: https://www.aclweb.org/anthology/P18-1082.pdf
+    -
+      title: Do Massively Pretrained Language Models Make Better Storytellers?
+      authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
+      optional: false
+      url: https://arxiv.org/pdf/1909.10705.pdf
+-
   date: 2010-03-6
   title: Text Generation with Knowledge Grounding
   slides:
   readings:
     -
-      title: TODO
-      authors: TODO
-      optional: TODO
-      url: TODO
+      title: "Barack’s Wife Hillary: Using Knowledge Graphs for Fact-Aware Language Modeling
+      authors: Robert L. Logan IV, Nelson F. Liu†, Matthew E. Peters, Matt Gardner, Sameer Singh
+      optional: false
+      url: https://www.aclweb.org/anthology/P19-1598.pdf
 -
   date: 2010-03-20
   title: Text Generation with Narrative Control
@@ -144,7 +155,8 @@
       url: TODO
 -
   date: 2010-04-3
-  title: TODO
+  title: Mixed Media
+  description: How can we add computer vision or audio into the interactive pipeline?
   slides:
   readings:
     -
@@ -154,7 +166,7 @@
       url: TODO
 -
   date: 2010-04-10
-  title: TODO
+  title: Biases in Language Models
   slides:
   readings:
     -
@@ -174,7 +186,7 @@
       url: TODO
 -
   date: 2010-04-24
-  title: TODO
+  title: Final Presenttions
   slides:
   readings:
     -
