@@ -79,6 +79,18 @@
       url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
       year: 2006
     -
+      title: Commonsense Reasoning for Natural Language Understanding&colon; A Survey of Benchmarks, Resources, and Approaches
+      authors: Shane Storks, Qiaozi Gao, Joyce Y. Chai
+      optional: TODO
+      url: https://arxiv.org/abs/1904.01172
+      year: 2019
+    -
+      title: AI2 Common Sense leaderboards
+      authors: Allen Institute for Artificial Intelligence
+      optional: TODO
+      url: https://leaderboard.allenai.org
+      year: 2019
+    -
       title: NaturalLI&colon; Natural Logic Inference for Common Sense Reasoning
       authors: Gabor Angeli and Chris Manning
       optional: TODO
@@ -217,7 +229,7 @@
       optional: false
       url: https://www.aclweb.org/anthology/P19-1598.pdf
     -
-      title: Plan-And-Write: Towards Better Automatic Storytelling
+      title: Plan-And-Write&colon; Towards Better Automatic Storytelling
       authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao1 and Rui Yan
       optional: false
       url: https://www.cs.jhu.edu/~npeng/papers/AAAI19-story-planning.pdf
