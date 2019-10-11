@@ -178,7 +178,7 @@
 -
   date: 2010-02-14
   title: Datasets for Story Generation / Intro to final project
-  description: Walk-through of fine-tunung a large language model.
+  description: Walk-through of fine-tuning a large language model.
   slides:
   readings:
     -
@@ -208,7 +208,7 @@
       url: https://arxiv.org/pdf/1909.05858.pdf
 -
   date: 2010-03-6
-  title: Text Generation with Knowledge Grounding
+  title: Text Generation with Knowledge Grounding and Narrative Control
   slides:
   readings:
     -
@@ -216,16 +216,22 @@
       authors: Robert L. Logan IV, Nelson F. Liu†, Matthew E. Peters, Matt Gardner, Sameer Singh
       optional: false
       url: https://www.aclweb.org/anthology/P19-1598.pdf
+    -
+      title: Plan-And-Write: Towards Better Automatic Storytelling
+      authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao1 and Rui Yan
+      optional: false
+      url: https://www.cs.jhu.edu/~npeng/papers/AAAI19-story-planning.pdf
+    -
+      title: Neural Text Generation in Stories Using Entity Representations as Context
+      authors: Elizabeth Clark, Yangfeng Ji, Noah A. Smith
+      optional: false
+      url: https://www.aclweb.org/anthology/N18-1204.pdf
 -
   date: 2010-03-20
-  title: Text Generation with Narrative Control
+  title: TODO
   slides:
   readings:
     -
-      title: TODO
-      authors: TODO
-      optional: TODO
-      url: TODO
 -
   date: 2010-03-27
   title: Human-Computer-Interaction for Collaborative Story Generation
