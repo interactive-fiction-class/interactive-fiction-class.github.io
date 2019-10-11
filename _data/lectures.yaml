@@ -60,10 +60,30 @@
   slides:
   readings:
     -
-      title: TODO
-      authors: TODO
+      title: Common Sense Reasoning – From Cyc to Intelligent Assistant
+      authors: Kathy Panton, Cynthia Matuszek, Douglas Lenat, Dave Schneider, Michael Witbrock, Nick Siegel, and Blake Shepard
       optional: TODO
-      url: TODO
+      url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
+      year: 2006
+    -
+      title: ConceptNet — A Practical Commonsense Reasoning Tool-Kit
+      authors: H Liu and P Singh
+      optional: TODO
+      url: https://link.springer.com/article/10.1023/B:BTTJ.0000047600.45421.6d
+      year: 2006
+      software: http://conceptnet.io
+    -
+      title: Machine Common Sense Concept Paper
+      authors: David Gunning
+      optional: TODO
+      url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
+      year: 2006
+    -
+      title: NaturalLI&colon; Natural Logic Inference for Common Sense Reasoning
+      authors: Gabor Angeli and Chris Manning
+      optional: TODO
+      url: https://www.aclweb.org/anthology/D14-1059.pdf
+      year: 2018
 -
   date: 2010-01-24
   title: Introduction to Reinforcement Learning (guest lecture).
@@ -72,7 +92,7 @@
   readings:
     -
       title: TextWorld&colon; A Learning Environment for Text-based Games
-      authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine1, James Moore1, Matthew Hausknecht1, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischle
+      authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischle
       url: https://arxiv.org/pdf/1806.11532.pdf
   homework: Modify one of the TextWorld baseline systems.
 -
