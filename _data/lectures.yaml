@@ -158,7 +158,7 @@
 -
   date: 2010-02-14
   title: Datasets for Story Generation / Intro to final project
-  description: Walk-through of fine-tunung a large language model.
+  description: Walk-through of fine-tuning a large language model.
   slides:
   readings:
     -
@@ -202,10 +202,10 @@
   slides:
   readings:
     -
-      title: TODO
-      authors: TODO
-      optional: TODO
-      url: TODO
+      title: Plan-And-Write: Towards Better Automatic Storytelling
+      authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao1 and Rui Yan
+      optional: false
+      url: https://www.cs.jhu.edu/~npeng/papers/AAAI19-story-planning.pdf
 -
   date: 2010-03-27
   title: Human-Computer-Interaction for Collaborative Story Generation
