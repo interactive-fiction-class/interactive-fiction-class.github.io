@@ -49,9 +49,10 @@ Course number
 **Summary**
 : This class will cover four broad areas.
 * Text Adventure Games - How they are implemented and how we can build agents that automatically solve them.
+* Common-sense Reasoning - TODO
 * Narrative Understanding - Extracting narrative structure (schemas, morphology) from text
-* Unconditioned Text Generation - Generating natural-sounding text
-* Conditioned Text Generation - Generating text that follows a desired style, narrative arc, or other attribute.
+* Text Generation - Generating natural-sounding text that follows a desired style, narrative arc, or other attribute.
+* Chatbots / Dialog Systems - TODO
 
 Website
 : [interactive-fiction-class.org](http://interactive-fiction-class.org/)
