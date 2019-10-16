@@ -47,7 +47,7 @@ Course number
 : CIS 700 - Interactive Fiction and Text Generation 
 
 Course Description
-: In this course, we will study how natural language processing is used to develop interactive and creative text applications. We will first cover text adventure games, which require natural language understanding both to build and to train automatic agents to solve. We will then learn about common-sense reasoning tasks and the extraction of narrative structure from stories. Finally, we will discuss natural language generation, both in the context of dialog agents and story generation. We will touch upon human-computer interaction, biases in language models, and other topics.
+: In this course, we will study how natural language processing is used to develop interactive and creative text applications. We will first cover text adventure games, which are interesting for artificial intelligence research since to succeed at a such games an AI agent needs to understand language, perform common-sense reasoning, and interact with objects in a constrained world.   We cover approaches to interpreting user input via a natural language understanding component called the "parser".  We will discuss various strategies for representing a world and modeling how it changes based on user interaction. Next, we will also cover topics like common-sense reasoning tasks, and extracting of narrative structure from stories. Finally, we will discuss natural language generation, both in the context of dialog agents and story generation.  We will touch upon human-computer interaction, biases in language models, and other topics.
 
 
 <!-- 
