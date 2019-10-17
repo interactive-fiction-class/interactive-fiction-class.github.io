@@ -1,14 +1,8 @@
 -
   date: 2020-01-17
   title: Text Adventure Games
-  description: Introduction to text adventure games. We discuss what these games are and the parsing of user input.
+  description: Introduction to text adventure games. We discuss what these games are and the parsing of user input.  Text adventure games interesting for artificial intelligence research since to succeed at a such games an AI agent needs to understand language, perform common-sense reasoning, and interact with objects in a constrained world.   
   slides:
-  readings:
-    - 
-      title: Action Castle (first adventure in the Parsely book)
-      authors: Jared A Sorensen
-      optional: false
-      url: http://www.memento-mori.com/parsely-products/
   videos:
     -
       authors: Jason Scott
@@ -33,88 +27,164 @@
       length: 1 hour and 45 minutes 
   homework: Implement your own small text adventure game with at least 10 actions and a parser that is more flexible than exact string matching.
 -
-  date: 2010-01-17
-  title: World Representation
-  description: How to represent the world and the space of possible responses. TODO: Twisty little passages.
-
+  date: 2020-01-24
+  title: World Representations 
+  description: How to represent the world and the space of possible responses. Theorom Proving.  
   slides:
   readings:
     -
-      title: Put My Galakmid Coin into the Dispenser and Kick It: Computational Linguistics and Theorem Proving in a Computer Game
+      title: Put My Galakmid Coin into the Dispenser and Kick It&colon; Computational Linguistics and Theorem Proving in a Computer Game
       authors: TODO
       optional: TODO
       url: https://link.springer.com/article/10.1023/B:JLLI.0000024734.80591.30
     -
-      title: "What Can You Do with a Rock? Affordance Extraction via Word Embeddings"
+      title: What Can You Do with a Rock? Affordance Extraction via Word Embeddings
       authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
       optional: false
       url: https://www.ijcai.org/proceedings/2017/0144.pdf
--
-  date: 2010-01-17 to move down
-  title: Common-sense Reasoning
-  description: Why this is hard, etc.
-
-  slides:
-  readings:
     -
-      title: TODO
-      authors: TODO
-      optional: TODO
-      url: TODO
+      title: What are Affordances?
+      authors: Interaction Design Foundation
+      optional: true
+      url: https://www.interaction-design.org/literature/topics/affordances
 -
-  date: 2010-01-24
+-
+  date: 2020-01-31
   title: Introduction to Reinforcement Learning (guest lecture).
   description: Also with a discussion of how RL can be used to solve text adventure games.
   slides: 
   readings:
     -
-      title: "TextWorld: A Learning Environment for Text-based Games"
-      authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine1, James Moore1, Matthew Hausknecht1, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischle
+      title: TextWorld&colon; A Learning Environment for Text-based Games
+      authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischle
+      year: 2017
       url: https://arxiv.org/pdf/1806.11532.pdf
   homework: Modify one of the TextWorld baseline systems.
 -
-  date: 2010-01-31
+  date: 2020-02-07
+  title: Reinforcement Learning for Solving Text-Adventure Games
+  readings:
+    -
+      title: Language Understanding for Text-based Games Using Deep Reinforcement Learning
+      authors: Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
+      required: true
+      url: https://arxiv.org/abs/1506.08941
+    -
+      title: Deep Reinforcement Learning with a Natural Language Action Space
+      authors: Ji He, Jianshu Chen†, Xiaodong He, Jianfeng Gao, Lihong Li
+      url: https://arxiv.org/abs/1511.04636
+      required: true
+    -
+      title: Learn What Not to Learn: Action Elimination with Deep Reinforcement Learning
+      authors: Tom Zahavy, Matan Haroush, Nadav Merlis, Daniel J. Mankowitz, Shie Mannor
+      year: 2019
+      required: true
+      url: https://arxiv.org/abs/1809.02121
+-
+  date: 2020-02-14
+  title: Common-sense Reasoning
+  description: Why this is hard, etc.
+  slides:
+  readings:
+    -
+      title: Common Sense Reasoning – From Cyc to Intelligent Assistant
+      authors: Kathy Panton, Cynthia Matuszek, Douglas Lenat, Dave Schneider, Michael Witbrock, Nick Siegel, and Blake Shepard
+      optional: TODO
+      url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
+      year: 2006
+    -
+      title: ConceptNet — A Practical Commonsense Reasoning Tool-Kit
+      authors: H Liu and P Singh
+      optional: TODO
+      url: https://link.springer.com/article/10.1023/B:BTTJ.0000047600.45421.6d
+      year: 2006
+      software: http://conceptnet.io
+    -
+      title: Machine Common Sense Concept Paper
+      authors: David Gunning
+      optional: TODO
+      url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
+      year: 2006
+    -
+      title: Commonsense Reasoning for Natural Language Understanding&colon; A Survey of Benchmarks, Resources, and Approaches
+      authors: Shane Storks, Qiaozi Gao, Joyce Y. Chai
+      optional: TODO
+      url: https://arxiv.org/abs/1904.01172
+      year: 2019
+    -
+      title: AI2 Common Sense leaderboards
+      authors: Allen Institute for Artificial Intelligence
+      optional: TODO
+      url: https://leaderboard.allenai.org
+      year: 2019
+    -
+      title: NaturalLI&colon; Natural Logic Inference for Common Sense Reasoning
+      authors: Gabor Angeli and Chris Manning
+      optional: TODO
+      url: https://www.aclweb.org/anthology/D14-1059.pdf
+      year: 2018
+-
+  date: 2020-02-21
   title: Extracting Narrative Structure
   description: How to ectract schemas or other forms of narrative structure from a text.
   slides:
   readings:
+    -
+      title: Morphology of the Folktale, ch 2, skim ch 3-9, ch 8a-8b
+      authors: V Propp
+      optional: false
+      url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf
     -
       title: Unsupervised Learning of Narrative Schemas and their Participants
       authors: Nathanael Chambers and Dan Jurafsky
       optional: false
       url: https://www.aclweb.org/anthology/P09-1068.pdf
     -
-      title: Morphology of the Folktale, ch 2, skim ch 3-9, ch 8a-8b
-      authors: V Propp
+      title: Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts
+      authors: Annie Louis, Charles Sutton
+      year: 2018
       optional: false
-      url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf
 -
-  date: 2010-02-7
+  date: 2020-02-28
+  title: History of Story-telling and Artificial Intelligence
+  description: Classic AI approaches to Story Telling
+  slides:
+  readings:
+    -
+      title: Creating characters in a story-telling universe
+      authors: Michael Lebowitz
+      year: 1984
+      optional: false
+      url: https://academiccommons.columbia.edu/doi/10.7916/D8736ZV9/download
+    -
+      title: Story-telling as planning and learning
+      authors: Michael Lebowitz
+      year: 1985
+      optional: false
+      url: https://academiccommons.columbia.edu/doi/10.7916/D8K362MH/download
+    -
+      title: Narrative Planning&colon; Balancing Plot and Character
+      authors: Mark Riedl and Michael Young
+      optional: TODO
+      url: https://www.jair.org/index.php/jair/article/download/10669/25501
+      year: 2020
+    -
+      title: Interactive Drama, Art and Artificial Intelligence
+      authors: Michael Mateas
+      optional: TODO
+      url: https://www.cs.cmu.edu/~dgroup/papers/CMU-CS-02-206.pdf
+      year: 2002
+-
+  date: 2020-03-6
   title: Unconditioned Text Generation
   description: Explain how the models work, show off interactive demos.
   slides:
   readings:
     -
-      title: Summarizing Wikipedia
-      authors: TODO
-      optional: TODO
-      url: TODO    
-    -
-      title: Hierarchical Story Generation
-      authors: TODO
-      optional: TODO
-      url: TODO    
-    -
-      title: The Illustrated GPT-2 (Visualizing Transformer Language Models)
-      authors: Jay Alammar
+      title: Generating Wikipedia by Summarizing Long Sequences
+      authors: Peter J. Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, Noam Shazeer
       optional: false
-      url: http://jalammar.github.io/illustrated-gpt2/
--
-  date: 2010-02-14
-  title: Datasets for Story Generation / Intro to final project
-  description: Walk-through of fine-tunung a large language model.
-  slides:
-  readings:
+      url: https://arxiv.org/abs/1801.10198
     -
       title: Hierarchical Neural Story Generation
       authors: Angela Fan, Mike Lewis, Yann Dauphin
@@ -125,10 +195,28 @@
       authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
       optional: false
       url: https://arxiv.org/pdf/1909.10705.pdf
+    -
+      title: The Illustrated GPT-2 (Visualizing Transformer Language Models)
+      authors: Jay Alammar
+      optional: false
+      url: http://jalammar.github.io/illustrated-gpt2/
   homework: Fine-tune a large language model on any text domin of choice. Discuss strengths/weaknesses of generated text.
 -
-  date: 2010-02-21
-  title: Text Generation with Controllable Attributes
+  date: 2020-03-20
+  title: Dialog Systems and Chatbots
+  description: Building more interesting NPCs
+  slides:
+  readings:
+    -
+      title: Learning to Speak and Act in a Fantasy Text Adventure Game
+      authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
+      optional: false
+      url: https://arxiv.org/abs/1903.03094
+      software: https://parl.ai/projects/light/
+-
+  date: 2020-03-27
+  title: Text Generation with Controllable Attributes + Introduction to Final Project
+  description: Walk-through of fine-tuning a large language model.
   slides:
   readings:
     -
@@ -137,41 +225,70 @@
       optional: false
       url: https://arxiv.org/abs/1905.12616
     -
-      title: TODO
+      title: CTRL&colon; A Conditional Transformer Language Model for Controllable Generation
+      authors: Nitish Shirish Keskar, Bryan McCann, Lav R. Varshney, Caiming Xiong, Richard Socher
       url: https://arxiv.org/pdf/1909.05858.pdf
+  homework: Final project
 -
-  date: 2010-03-6
-  title: Text Generation with Knowledge Grounding
+  date: 2020-04-03
+  title: Text Generation with Knowledge Grounding and Narrative Control
   slides:
   readings:
     -
-      title: "Barack’s Wife Hillary: Using Knowledge Graphs for Fact-Aware Language Modeling
+      title: Barack’s Wife Hillary&colon; Using Knowledge Graphs for Fact-Aware Language Modeling
       authors: Robert L. Logan IV, Nelson F. Liu†, Matthew E. Peters, Matt Gardner, Sameer Singh
       optional: false
       url: https://www.aclweb.org/anthology/P19-1598.pdf
--
-  date: 2010-03-20
-  title: Text Generation with Narrative Control
-  slides:
-  readings:
     -
-      title: TODO
-      authors: TODO
-      optional: TODO
-      url: TODO
+      title: Plan-And-Write&colon; Towards Better Automatic Storytelling
+      authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao1 and Rui Yan
+      optional: false
+      url: https://www.cs.jhu.edu/~npeng/papers/AAAI19-story-planning.pdf
+    -
+      title: Neural Text Generation in Stories Using Entity Representations as Context
+      authors: Elizabeth Clark, Yangfeng Ji, Noah A. Smith
+      optional: false
+      url: https://www.aclweb.org/anthology/N18-1204.pdf
 -
-  date: 2010-03-27
+  date: 2020-04-10
   title: Human-Computer-Interaction for Collaborative Story Generation
   slides:
   readings:
     -
       title: Hamlet on the Holodock
       authors: TODO
+      optional: true
+      url: TODO
+    -
+      title: Wide Ruled&colon; A Friendly Interface to Author-Goal Based Story Generation
+      authors: TODO
       optional: TODO
       url: TODO
+    -
+      title: Authoring issues beyond tools
+      authors: Ulrike Spierling and Nicolas Szilas
+      optional: TODO
+      url: https://archive-ouverte.unige.ch/unige:48231/ATTACHMENT01
+      year: 2009
+    -
+      title: Towards A Crowdsourced Solution For The Authoring Bottleneck In Interactive Narratives
+      authors: Michael Kriegel
+      optional: TODO
+      url: https://pdfs.semanticscholar.org/ad58/46444cb2e3e1592c248a9025fb0aa27b26df.pdf?_ga=2.160251069.1632072483.1570807801-2103101463.1569528845
+      year: 2015
+    -
+      title: Creative Writing with a Machine in the Loop: Case Studies on Slogans and Stories
+      authors: Elizabeth Clark, Anne Spencer Ross, Chenhao Tan, Yangfeng Ji, Noah A Smith
+      url: http://yangfengji.net/publication/papers/clark2018creative.pdf
+      year: 2018
+    -
+      title: Pedagogically structured game-based training: Development of the elect bilat simulation.
+      url: http://ict.usc.edu/pubs/PEDAGOGICALLY%20STRUCTURED%20GAME-BASED%20TRAINING-%20DEVELOPMENT%20OF%20THE%20ELECT%20BILAT%20SIMULATION.pdf
+      year: 2006
+      authors: Randall W. Hill, James Belanich, H. Chad Lane, Mark Core, Melissa Dixon, Eric Forbell, Julia Kim, John Hart
 -
-  date: 2010-04-3
-  title: Mixed Media
+  date: 2020-04-17
+  title: Undesirable Biases in Language Models
   description: How can we add computer vision or audio into the interactive pipeline?
   slides:
   readings:
@@ -181,28 +298,7 @@
       optional: TODO
       url: TODO
 -
-  date: 2010-04-10
-  title: Undesirable Biases in Language Models
-  slides:
-  readings:
-    -
-      title: TODO
-      authors: TODO
-      optional: TODO
-      url: TODO
--
-  date: 2010-04-17
-  title: Dialog Systems and Chatbots
-  description: Building more interesting NPCs, should go just after language models
-  slides:
-  readings:
-    -
-      title: Learning to Speak and Act in a Fantasy Text Adventure Game
-      authors: TODO
-      optional: TODO
-      url: https://arxiv.org/pdf/1903.03094.pdf
--
-  date: 2010-04-24
+  date: 2020-04-24
   title: Final Presentations
   slides:
   readings:
