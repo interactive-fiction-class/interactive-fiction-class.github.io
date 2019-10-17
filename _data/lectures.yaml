@@ -3,12 +3,6 @@
   title: Text Adventure Games
   description: Introduction to text adventure games. We discuss what these games are and the parsing of user input.  Text adventure games interesting for artificial intelligence research since to succeed at a such games an AI agent needs to understand language, perform common-sense reasoning, and interact with objects in a constrained world.   
   slides:
-  readings:
-    - 
-      title: Action Castle (first adventure in the Parsely book)
-      authors: Jared A Sorensen
-      optional: false
-      url: http://www.memento-mori.com/parsely-products/
   videos:
     -
       authors: Jason Scott
@@ -33,9 +27,9 @@
       length: 1 hour and 45 minutes 
   homework: Implement your own small text adventure game with at least 10 actions and a parser that is more flexible than exact string matching.
 -
-  date: 2010-01-17
+  date: 2020-01-24
   title: World Representations 
-  description: How to represent the world and the space of possible responses.  Theorom Proving.  
+  description: How to represent the world and the space of possible responses. Theorom Proving.  
   slides:
   readings:
     -
@@ -54,7 +48,40 @@
       optional: true
       url: https://www.interaction-design.org/literature/topics/affordances
 -
-  date: 2010-01-17
+-
+  date: 2020-01-31
+  title: Introduction to Reinforcement Learning (guest lecture).
+  description: Also with a discussion of how RL can be used to solve text adventure games.
+  slides: 
+  readings:
+    -
+      title: TextWorld&colon; A Learning Environment for Text-based Games
+      authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischle
+      year: 2017
+      url: https://arxiv.org/pdf/1806.11532.pdf
+  homework: Modify one of the TextWorld baseline systems.
+-
+  date: 2020-02-07
+  title: Reinforcement Learning for Solving Text-Adventure Games
+  readings:
+    -
+      title: Language Understanding for Text-based Games Using Deep Reinforcement Learning
+      authors: Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
+      required: true
+      url: https://arxiv.org/abs/1506.08941
+    -
+      title: Deep Reinforcement Learning with a Natural Language Action Space
+      authors: Ji He, Jianshu Chen†, Xiaodong He, Jianfeng Gao, Lihong Li
+      url: https://arxiv.org/abs/1511.04636
+      required: true
+    -
+      title: Learn What Not to Learn: Action Elimination with Deep Reinforcement Learning
+      authors: Tom Zahavy, Matan Haroush, Nadav Merlis, Daniel J. Mankowitz, Shie Mannor
+      year: 2019
+      required: true
+      url: https://arxiv.org/abs/1809.02121
+-
+  date: 2020-02-14
   title: Common-sense Reasoning
   description: Why this is hard, etc.
   slides:
@@ -97,18 +124,7 @@
       url: https://www.aclweb.org/anthology/D14-1059.pdf
       year: 2018
 -
-  date: 2010-01-24
-  title: Introduction to Reinforcement Learning (guest lecture).
-  description: Also with a discussion of how RL can be used to solve text adventure games.
-  slides: 
-  readings:
-    -
-      title: TextWorld&colon; A Learning Environment for Text-based Games
-      authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischle
-      url: https://arxiv.org/pdf/1806.11532.pdf
-  homework: Modify one of the TextWorld baseline systems.
--
-  date: 2010-01-31
+  date: 2020-02-21
   title: Extracting Narrative Structure
   description: How to ectract schemas or other forms of narrative structure from a text.
   slides:
@@ -123,9 +139,14 @@
       authors: Nathanael Chambers and Dan Jurafsky
       optional: false
       url: https://www.aclweb.org/anthology/P09-1068.pdf
+    -
+      title: Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts
+      authors: Annie Louis, Charles Sutton
+      year: 2018
+      optional: false
 -
-  date: 2010-01-31
-  title: Story-telling and Artificial Intelligence
+  date: 2020-02-28
+  title: History of Story-telling and Artificial Intelligence
   description: Classic AI approaches to Story Telling
   slides:
   readings:
@@ -146,7 +167,7 @@
       authors: Mark Riedl and Michael Young
       optional: TODO
       url: https://www.jair.org/index.php/jair/article/download/10669/25501
-      year: 2010
+      year: 2020
     -
       title: Interactive Drama, Art and Artificial Intelligence
       authors: Michael Mateas
@@ -154,16 +175,15 @@
       url: https://www.cs.cmu.edu/~dgroup/papers/CMU-CS-02-206.pdf
       year: 2002
 -
-  date: 2010-02-7
+  date: 2020-03-6
   title: Unconditioned Text Generation
   description: Explain how the models work, show off interactive demos.
   slides:
   readings:
     -
-      title: TODO - Summarizing Wikipedia
-      title: TODO - is this the one you mean? - Generating Wikipedia by Summarizing Long Sequences
+      title: Generating Wikipedia by Summarizing Long Sequences
       authors: Peter J. Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, Noam Shazeer
-      optional: TODO
+      optional: false
       url: https://arxiv.org/abs/1801.10198
     -
       title: Hierarchical Neural Story Generation
@@ -171,12 +191,18 @@
       optional: false
       url: https://www.aclweb.org/anthology/P18-1082.pdf
     -
+      title: Do Massively Pretrained Language Models Make Better Storytellers?
+      authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
+      optional: false
+      url: https://arxiv.org/pdf/1909.10705.pdf
+    -
       title: The Illustrated GPT-2 (Visualizing Transformer Language Models)
       authors: Jay Alammar
       optional: false
       url: http://jalammar.github.io/illustrated-gpt2/
+  homework: Fine-tune a large language model on any text domin of choice. Discuss strengths/weaknesses of generated text.
 -
-  date: 2010-04-17
+  date: 2020-03-20
   title: Dialog Systems and Chatbots
   description: Building more interesting NPCs
   slides:
@@ -188,25 +214,9 @@
       url: https://arxiv.org/abs/1903.03094
       software: https://parl.ai/projects/light/
 -
-  date: 2010-02-14
-  title: Datasets for Story Generation / Intro to final project
+  date: 2020-03-27
+  title: Text Generation with Controllable Attributes + Introduction to Final Project
   description: Walk-through of fine-tuning a large language model.
-  slides:
-  readings:
-    -
-      title: Hierarchical Neural Story Generation
-      authors: Angela Fan, Mike Lewis, Yann Dauphin
-      optional: false
-      url: https://www.aclweb.org/anthology/P18-1082.pdf
-    -
-      title: Do Massively Pretrained Language Models Make Better Storytellers?
-      authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
-      optional: false
-      url: https://arxiv.org/pdf/1909.10705.pdf
-  homework: Fine-tune a large language model on any text domin of choice. Discuss strengths/weaknesses of generated text.
--
-  date: 2010-02-21
-  title: Text Generation with Controllable Attributes
   slides:
   readings:
     -
@@ -218,8 +228,9 @@
       title: CTRL&colon; A Conditional Transformer Language Model for Controllable Generation
       authors: Nitish Shirish Keskar, Bryan McCann, Lav R. Varshney, Caiming Xiong, Richard Socher
       url: https://arxiv.org/pdf/1909.05858.pdf
+  homework: Final project
 -
-  date: 2010-03-6
+  date: 2020-04-03
   title: Text Generation with Knowledge Grounding and Narrative Control
   slides:
   readings:
@@ -239,13 +250,7 @@
       optional: false
       url: https://www.aclweb.org/anthology/N18-1204.pdf
 -
-  date: 2010-03-20
-  title: TODO
-  slides:
-  readings:
-    -
--
-  date: 2010-03-27
+  date: 2020-04-10
   title: Human-Computer-Interaction for Collaborative Story Generation
   slides:
   readings:
@@ -271,9 +276,19 @@
       optional: TODO
       url: https://pdfs.semanticscholar.org/ad58/46444cb2e3e1592c248a9025fb0aa27b26df.pdf?_ga=2.160251069.1632072483.1570807801-2103101463.1569528845
       year: 2015
+    -
+      title: Creative Writing with a Machine in the Loop: Case Studies on Slogans and Stories
+      authors: Elizabeth Clark, Anne Spencer Ross, Chenhao Tan, Yangfeng Ji, Noah A Smith
+      url: http://yangfengji.net/publication/papers/clark2018creative.pdf
+      year: 2018
+    -
+      title: Pedagogically structured game-based training: Development of the elect bilat simulation.
+      url: http://ict.usc.edu/pubs/PEDAGOGICALLY%20STRUCTURED%20GAME-BASED%20TRAINING-%20DEVELOPMENT%20OF%20THE%20ELECT%20BILAT%20SIMULATION.pdf
+      year: 2006
+      authors: Randall W. Hill, James Belanich, H. Chad Lane, Mark Core, Melissa Dixon, Eric Forbell, Julia Kim, John Hart
 -
-  date: 2010-04-3
-  title: Mixed Media
+  date: 2020-04-17
+  title: Undesirable Biases in Language Models
   description: How can we add computer vision or audio into the interactive pipeline?
   slides:
   readings:
@@ -283,17 +298,7 @@
       optional: TODO
       url: TODO
 -
-  date: 2010-04-10
-  title: Undesirable Biases in Language Models
-  slides:
-  readings:
-    -
-      title: TODO
-      authors: TODO
-      optional: TODO
-      url: TODO
--
-  date: 2010-04-24
+  date: 2020-04-24
   title: Final Presentations
   slides:
   readings:
