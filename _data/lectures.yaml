@@ -292,6 +292,16 @@
   slides:
   readings:
     -
+      title: Understanding Comics
+      authors: Scott McCloud
+      optional: TODO
+      url: https://www.amazon.com/Understanding-Comics-Invisible-Scott-McCloud/
+    -
+      title: The Amazing Mysteries of the Gutter&colon; Drawing Inferences Between Panels in Comic Book Narratives
+      authors: Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis
+      optional: TODO
+      url: http://openaccess.thecvf.com/content_cvpr_2017/html/Iyyer_The_Amazing_Mysteries_CVPR_2017_paper.html
+    -
       title: Visual Storytelling
       authors: Ting-Hao Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell
       optional: TODO
