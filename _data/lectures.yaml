@@ -47,11 +47,6 @@
       authors: Interaction Design Foundation
       optional: true
       url: https://www.interaction-design.org/literature/topics/affordances
-    - 
-      title: Aligning Books and Movies&colon; Towards Story-like Visual Explanations by Watching Movies and Reading Books
-      authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
-      optional: TODO
-      url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf
 -
   date: 2020-01-31
   title: Introduction to Reinforcement Learning (guest lecture).
@@ -292,15 +287,20 @@
       authors: Randall W. Hill, James Belanich, H. Chad Lane, Mark Core, Melissa Dixon, Eric Forbell, Julia Kim, John Hart
 -
   date: 2020-04-17
-  title: Undesirable Biases in Language Models
+  title: A picture is worth a thousand words
   description: How can we add computer vision or audio into the interactive pipeline?
   slides:
   readings:
     -
-      title: TODO
-      authors: TODO
+      title: Visual Storytelling
+      authors: Ting-Hao Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell
       optional: TODO
-      url: TODO
+      url: https://www.aclweb.org/anthology/N16-1147v2.pdf
+    -
+      title: Aligning Books and Movies&colon; Towards Story-like Visual Explanations by Watching Movies and Reading Books
+      authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
+      optional: TODO
+      url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf
 -
   date: 2020-04-24
   title: Final Presentations
