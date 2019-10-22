@@ -79,7 +79,7 @@
       url: https://arxiv.org/abs/1511.04636
       required: true
     -
-      title: Learn What Not to Learn: Action Elimination with Deep Reinforcement Learning
+      title: Learn What Not to Learn&colon; Action Elimination with Deep Reinforcement Learning
       authors: Tom Zahavy, Matan Haroush, Nadav Merlis, Daniel J. Mankowitz, Shie Mannor
       year: 2019
       required: true
@@ -144,7 +144,7 @@
       optional: false
       url: https://www.aclweb.org/anthology/P09-1068.pdf
     -
-      title: Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts
+      title: Deep Dungeons and Dragons&colon; Learning Character-Action Interactions from Role-Playing Game Transcripts
       authors: Annie Louis, Charles Sutton
       year: 2018
       optional: false
@@ -281,12 +281,12 @@
       url: https://pdfs.semanticscholar.org/ad58/46444cb2e3e1592c248a9025fb0aa27b26df.pdf?_ga=2.160251069.1632072483.1570807801-2103101463.1569528845
       year: 2015
     -
-      title: Creative Writing with a Machine in the Loop: Case Studies on Slogans and Stories
+      title: Creative Writing with a Machine in the Loop&colon; Case Studies on Slogans and Stories
       authors: Elizabeth Clark, Anne Spencer Ross, Chenhao Tan, Yangfeng Ji, Noah A Smith
       url: http://yangfengji.net/publication/papers/clark2018creative.pdf
       year: 2018
     -
-      title: Pedagogically structured game-based training: Development of the elect bilat simulation.
+      title: Pedagogically structured game-based training&colon; Development of the elect bilat simulation.
       url: http://ict.usc.edu/pubs/PEDAGOGICALLY%20STRUCTURED%20GAME-BASED%20TRAINING-%20DEVELOPMENT%20OF%20THE%20ELECT%20BILAT%20SIMULATION.pdf
       year: 2006
       authors: Randall W. Hill, James Belanich, H. Chad Lane, Mark Core, Melissa Dixon, Eric Forbell, Julia Kim, John Hart
