@@ -47,7 +47,11 @@
       authors: Interaction Design Foundation
       optional: true
       url: https://www.interaction-design.org/literature/topics/affordances
--
+    - 
+      title: Aligning Books and Movies&colon; Towards Story-like Visual Explanations by Watching Movies and Reading Books
+      authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
+      optional: TODO
+      url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf
 -
   date: 2020-01-31
   title: Introduction to Reinforcement Learning (guest lecture).
