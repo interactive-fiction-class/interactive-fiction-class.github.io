@@ -1,5 +1,5 @@
 -
-  date: 2020-01-17
+  date: 2020-01-16
   title: Text Adventure Games
   description: Introduction to text adventure games. We discuss what these games are and the parsing of user input.  Text adventure games interesting for artificial intelligence research since to succeed at a such games an AI agent needs to understand language, perform common-sense reasoning, and interact with objects in a constrained world.   
   slides:
@@ -27,7 +27,7 @@
       length: 1 hour and 45 minutes 
   homework: Implement your own small text adventure game with at least 10 actions and a parser that is more flexible than exact string matching.
 -
-  date: 2020-01-24
+  date: 2020-01-23
   title: World Representations 
   description: How to represent the world and the space of possible responses. Theorom Proving.  
   slides:
@@ -48,7 +48,7 @@
       optional: true
       url: https://www.interaction-design.org/literature/topics/affordances
 -
-  date: 2020-01-31
+  date: 2020-01-30
   title: Introduction to Reinforcement Learning (guest lecture).
   description: Also with a discussion of how RL can be used to solve text adventure games.
   slides: 
@@ -60,7 +60,7 @@
       url: https://arxiv.org/pdf/1806.11532.pdf
   homework: Modify one of the TextWorld baseline systems.
 -
-  date: 2020-02-07
+  date: 2020-02-06
   title: Reinforcement Learning for Solving Text-Adventure Games
   readings:
     -
@@ -80,7 +80,7 @@
       required: true
       url: https://arxiv.org/abs/1809.02121
 -
-  date: 2020-02-14
+  date: 2020-02-13
   title: Common-sense Reasoning
   description: Why this is hard, etc.
   slides:
@@ -123,7 +123,7 @@
       url: https://www.aclweb.org/anthology/D14-1059.pdf
       year: 2018
 -
-  date: 2020-02-21
+  date: 2020-02-20
   title: Extracting Narrative Structure
   description: How to ectract schemas or other forms of narrative structure from a text.
   slides:
@@ -144,7 +144,7 @@
       year: 2018
       optional: false
 -
-  date: 2020-02-28
+  date: 2020-02-27
   title: History of Story-telling and Artificial Intelligence
   description: Classic AI approaches to Story Telling
   slides:
@@ -174,7 +174,7 @@
       url: https://www.cs.cmu.edu/~dgroup/papers/CMU-CS-02-206.pdf
       year: 2002
 -
-  date: 2020-03-6
+  date: 2020-03-05
   title: Unconditioned Text Generation
   description: Explain how the models work, show off interactive demos.
   slides:
@@ -201,7 +201,7 @@
       url: http://jalammar.github.io/illustrated-gpt2/
   homework: Fine-tune a large language model on any text domin of choice. Discuss strengths/weaknesses of generated text.
 -
-  date: 2020-03-20
+  date: 2020-03-19
   title: Dialog Systems and Chatbots
   description: Building more interesting NPCs
   slides:
@@ -213,7 +213,7 @@
       url: https://arxiv.org/abs/1903.03094
       software: https://parl.ai/projects/light/
 -
-  date: 2020-03-27
+  date: 2020-03-26
   title: Text Generation with Controllable Attributes + Introduction to Final Project
   description: Walk-through of fine-tuning a large language model.
   slides:
@@ -229,7 +229,7 @@
       url: https://arxiv.org/pdf/1909.05858.pdf
   homework: Final project
 -
-  date: 2020-04-03
+  date: 2020-04-02
   title: Text Generation with Knowledge Grounding and Narrative Control
   slides:
   readings:
@@ -249,7 +249,7 @@
       optional: false
       url: https://www.aclweb.org/anthology/N18-1204.pdf
 -
-  date: 2020-04-10
+  date: 2020-04-09
   title: Human-Computer-Interaction for Collaborative Story Generation
   slides:
   readings:
@@ -286,7 +286,7 @@
       year: 2006
       authors: Randall W. Hill, James Belanich, H. Chad Lane, Mark Core, Melissa Dixon, Eric Forbell, Julia Kim, John Hart
 -
-  date: 2020-04-17
+  date: 2020-04-16
   title: A picture is worth a thousand words
   description: How can we add computer vision or audio into the interactive pipeline?
   slides:
@@ -312,7 +312,7 @@
       optional: TODO
       url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf
 -
-  date: 2020-04-24
+  date: 2020-04-23
   title: Final Presentations
   slides:
   readings:
