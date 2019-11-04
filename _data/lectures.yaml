@@ -3,6 +3,17 @@
   title: Text Adventure Games
   description: Introduction to text adventure games. We discuss what these games are and the parsing of user input.  Text adventure games interesting for artificial intelligence research since to succeed at a such games an AI agent needs to understand language, perform common-sense reasoning, and interact with objects in a constrained world.   
   slides:
+  readings:
+    -
+      title: Adventuron Classroom
+      authors: Chris Ainsley / Adventuron Software Limited
+      optional: TODO
+      url: https://adventuron.io/classroom/
+    -
+      title: Writing Interactive Fiction with Twine&colon; Play Inside a Story
+      authors: Melissa Ford
+      optional: true
+      url: https://www.amazon.com/Writing-Interactive-Fiction-Twine-Melissa-ebook-dp-B01ERR2TN2/dp/B01ERR2TN2/
   videos:
     -
       authors: Jason Scott
