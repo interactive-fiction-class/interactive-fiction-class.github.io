@@ -75,12 +75,15 @@ Time and place
 Office hours
 : by appointment
 
+<!--
 Textbooks
 : $20-30 [Parsley](http://www.memento-mori.com/parsely-products/) by Jared A Sorensen
 : [$10](http://www.drivethrurpg.com/product/108028/Dungeon-World)-[$25](https://www.burningwheel.com/dungeon-world-1/) [Dungeon World](https://dungeon-world.com/) by Sage LaTorra and Adam Koebel
 : Optional $31 [Dungeon Master's Guide - Dungeons & Dragons 5th edition Core Rulebook](https://www.amazon.com/Dungeons-Dragons-Dungeon-Rulebook-Roleplaying/dp/0786965622/) by Wizards of the Coast
+-->
 
 Grading
+: TBD. Below is a sample grading rubric, which will change.
 : There will be three homeworks and a final project. In addition, you will be required to present a paper from the required reading in class.
 * 10% Paper presentation
 * 45% Homeworks 
