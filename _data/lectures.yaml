@@ -58,6 +58,16 @@
       authors: Interaction Design Foundation
       optional: true
       url: https://www.interaction-design.org/literature/topics/affordances
+    -
+      title: Integrating Know-How into the Linked Data Cloud. Knowledge Engineering and Knowledge Management
+      authors: Paolo Pareti, Benoit Testu, Ryutaro Ichise, Ewan Klein and Adam Barker
+      optional: true
+      url: https://www.interaction-design.org/literature/topics/affordances
+    -
+      title: WikiHow&colon; A Large Scale Text Summarization Dataset
+      authors: Mahnaz Koupaee and William Yang Wang
+      optional: true
+      url: https://arxiv.org/abs/1810.09305
 -
   date: 2020-01-30
   title: Introduction to Reinforcement Learning (guest lecture).
