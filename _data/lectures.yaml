@@ -14,6 +14,16 @@
       authors: Melissa Ford
       optional: true
       url: https://www.amazon.com/Writing-Interactive-Fiction-Twine-Melissa-ebook-dp-B01ERR2TN2/dp/B01ERR2TN2/
+    -
+      title: Infocom's Z-machine
+      authors: Wikipedia
+      optional: true
+      url: https://en.wikipedia.org/wiki/Z-machine
+    -
+      title: SCUMM&colon; Script Creation Utility for Maniac Mansion
+      authors: Wikipedia
+      optional: true
+      url: https://en.wikipedia.org/wiki/SCUMM
   videos:
     -
       authors: Jason Scott
