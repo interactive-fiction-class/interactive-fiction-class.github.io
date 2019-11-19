@@ -6,7 +6,7 @@ active_tab: main_page
 ---
 
 
-<div class="alert alert-danger" markdown="1">
+<div class="alert alert-info" markdown="1">
 If you're interested in joining this course (CIS 700-008), [you can sign yourself up for the waitlist](https://forms.cis.upenn.edu/waitlist/index.php).  Note that the number of spots will be limited. 
 </div>
 
