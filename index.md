@@ -68,7 +68,7 @@ Discussion Forum
 : [Mailing List](https://groups.google.com/d/forum/cis700-2019-iftg)
 
 Time and place
-: Spring 2019, Thursdays from 1:30-4:30pm (3401 Walnut room 401B)
+: Spring 2019, Thursdays from 1:30-4:30pm (Towne 327 Active Learning Classroom)
 
 Office hours
 : by appointment
