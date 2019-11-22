@@ -342,6 +342,11 @@
       authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
       optional: TODO
       url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf
+    -
+      title: COIN&colon; A Large-Scale Dataset for COprehensive INstructional video analysis
+      authors: Yansong Tang, Dajun Ding, Yongming Rao, Yu Zheng, Danyang Zhang, Lili Zhao, Jiwen Lu, Jie Zhou
+      optional: TODO
+      url: https://coin-dataset.github.io
 -
   date: 2020-04-23
   title: Final Presentations
