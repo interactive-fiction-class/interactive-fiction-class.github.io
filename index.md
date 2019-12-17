@@ -39,6 +39,9 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 
 
 
+<div class="alert alert-success" markdown="1">
+A great example of what you could build if you take this class is the [AI Dungeon](https://www.aidungeon.io/), which is an interactive fiction game  that was developed by a student at BYU using [Open AI's GPT-2](https://openai.com/blog/better-language-models/) large scale language model.
+</div>
 
 
 Course number
@@ -46,6 +49,9 @@ Course number
 
 Course Description
 : In this course, we will study how natural language processing is used to develop interactive and creative text applications. We will first cover text adventure games, which are interesting for artificial intelligence research since to succeed at a such games an AI agent needs to understand language, perform common-sense reasoning, and interact with objects in a constrained world.   We cover approaches to interpreting user input via a natural language understanding component called the "parser".  We will discuss various strategies for representing a world and modeling how it changes based on user interaction. Next, we will also cover topics like common-sense reasoning tasks, and extracting of narrative structure from stories. Finally, we will discuss natural language generation, both in the context of dialog agents and story generation.  We will touch upon human-computer interaction, biases in language models, and other topics.
+
+
+
 
 
 <!-- 
