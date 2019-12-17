@@ -9,6 +9,11 @@ active_tab: main_page
 
 ## Data
 
+* [FanFiction Archive](https://archive.org/details/fanfictiondotnet_repack)
+
+## Code
+
+* [AI Dungeon 2](https://github.com/AIDungeon/AIDungeon)
 
 ## Tutorials 
 
@@ -17,3 +22,10 @@ active_tab: main_page
 ## Inspiration
 
 * [Actual Play Podcasts](https://www.polygon.com/podcasts/2018/9/26/17860176/best-dungeons-dragons-dd-podcasts-tabletop-gaming) - my favorite is The Adventure Zone
+* Play games on [Roll 20](https://roll20.net/)
+* [chooseyourstory.com](http://chooseyourstory.com)
+
+
+## Feelies
+
+* [Print graph paper](http://print-graph-paper.com)
