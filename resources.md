@@ -9,7 +9,8 @@ active_tab: main_page
 
 ## Data
 
-* [FanFiction Archive](https://archive.org/details/fanfictiondotnet_repack)
+* [FanFiction Archive](https://archive.org/details/fanfictiondotnet_repack) - used in [Beyond Canonical Texts: A Computational Analysis of Fanfiction](https://www.aclweb.org/anthology/D16-1218.pdf) and [Harry Potter and the Action Prediction Challenge from Natural Language](https://www.aclweb.org/anthology/N19-1218.pdf)
+* [roleplayerguild.com](roleplayerguild.com) - used in [Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts](https://www.aclweb.org/anthology/N18-2111.pdf)
 
 ## Code
 
