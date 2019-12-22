@@ -165,6 +165,11 @@
   slides:
   readings:
     -
+      title: The Hero's Journey
+      authors: Wikipedia
+      optional: false
+      url: https://en.wikipedia.org/wiki/Hero's_journey
+    -
       title: Morphology of the Folktale, ch 2, skim ch 3-9, ch 8a-8b
       authors: V Propp
       optional: false

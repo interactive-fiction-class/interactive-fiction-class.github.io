@@ -1,7 +1,7 @@
 ---
 title: CIS 700-008 - Interactive Fiction and Text Generation - University of Pennsylvania
 layout: default
-img: play-if-card.png
+img: heroes_journey.png
 active_tab: main_page 
 ---
 
