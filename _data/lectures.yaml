@@ -168,7 +168,7 @@
       title: Morphology of the Folktale, ch 2, skim ch 3-9, ch 8a-8b
       authors: V Propp
       optional: false
-      url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf
+      url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf 
     -
       title: Unsupervised Learning of Narrative Schemas and their Participants
       authors: Nathanael Chambers and Dan Jurafsky
@@ -179,9 +179,25 @@
       authors: Annie Louis, Charles Sutton
       year: 2018
       optional: false
--
+    - 
+      title: Beyond Canonical Texts&colon; A Computational Analysis of Fanfiction
+      authors: Smitha Milli and David Bamman
+      year: 2016
+      url: https://www.aclweb.org/anthology/D16-1218.pdf
+      optional: false
+  videos:
+    -
+      authors: Leiden University - Faculty of Humanities
+      url: https://www.youtube.com/watch?v=V5RyV-s0yhU
+      title: Vladimir Propp, the structure of fairy tales
+      length: 12 minutes
+    -
+      authors: TED-Ed - Matthew Winkler
+      url: https://www.youtube.com/watch?v=Hhk4N9A0oCA
+      title: What makes a hero?
+      length: 5 minutes 
   date: 2020-02-27
-  title: History of Story-telling and Artificial Intelligence
+  title: History of Story-telling in Artificial Intelligence
   description: Classic AI approaches to Story Telling
   slides:
   readings:
