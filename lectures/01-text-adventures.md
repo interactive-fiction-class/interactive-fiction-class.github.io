@@ -8,7 +8,6 @@ active_tab: lectures
 release_date: 2019-08-27
 due_date: 2019-09-10 23:59:00EDT
 read:
-
 watch:
     -
       authors: Jason Scott
@@ -16,6 +15,11 @@ watch:
       title: GET LAMP&colon; The Text Adventure Documentary
       length: 2 hours 
 play:
+    -
+      title: Varicella
+      authors: Adam Cadre
+      url: http://adamcadre.ac/if/varicella.html
+      optional: false
     - 
       title: Action Castle (first adventure in the Parsely book)
       authors: Jared A Sorensen

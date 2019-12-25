@@ -1,8 +1,29 @@
 -
-  date: 2020-01-17
+  date: 2020-01-16
   title: Text Adventure Games
   description: Introduction to text adventure games. We discuss what these games are and the parsing of user input.  Text adventure games interesting for artificial intelligence research since to succeed at a such games an AI agent needs to understand language, perform common-sense reasoning, and interact with objects in a constrained world.   
   slides:
+  readings:
+    -
+      title: Adventuron Classroom
+      authors: Chris Ainsley / Adventuron Software Limited
+      optional: TODO
+      url: https://adventuron.io/classroom/
+    -
+      title: Writing Interactive Fiction with Twine&colon; Play Inside a Story
+      authors: Melissa Ford
+      optional: true
+      url: https://www.amazon.com/Writing-Interactive-Fiction-Twine-Melissa-ebook-dp-B01ERR2TN2/dp/B01ERR2TN2/
+    -
+      title: Infocom's Z-machine
+      authors: Wikipedia
+      optional: true
+      url: https://en.wikipedia.org/wiki/Z-machine
+    -
+      title: SCUMM&colon; Script Creation Utility for Maniac Mansion
+      authors: Wikipedia
+      optional: true
+      url: https://en.wikipedia.org/wiki/SCUMM
   videos:
     -
       authors: Jason Scott
@@ -27,14 +48,14 @@
       length: 1 hour and 45 minutes 
   homework: Implement your own small text adventure game with at least 10 actions and a parser that is more flexible than exact string matching.
 -
-  date: 2020-01-24
+  date: 2020-01-23
   title: World Representations 
   description: How to represent the world and the space of possible responses. Theorom Proving.  
   slides:
   readings:
     -
       title: Put My Galakmid Coin into the Dispenser and Kick It&colon; Computational Linguistics and Theorem Proving in a Computer Game
-      authors: TODO
+      authors: Alexander Koller, Ralph Debusmann, Malte Gabsdil, and Kristina Striegnitz
       optional: TODO
       url: https://link.springer.com/article/10.1023/B:JLLI.0000024734.80591.30
     -
@@ -43,13 +64,27 @@
       optional: false
       url: https://www.ijcai.org/proceedings/2017/0144.pdf
     -
+      title: Threat, Explore, Barter, Puzzle&colon; A Semantically-Informed Algorithm for Extracting Interaction Modes
+      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
+      optional: false
+      url: https://www.semanticscholar.org/paper/Threat%2C-Explore%2C-Barter%2C-Puzzle%3A-A-Algorithm-for-Fulda-Ricks/05b4551bfe45fe336f75544b4a777428e1f62695
+    -
       title: What are Affordances?
       authors: Interaction Design Foundation
       optional: true
       url: https://www.interaction-design.org/literature/topics/affordances
+    -
+      title: Integrating Know-How into the Linked Data Cloud. Knowledge Engineering and Knowledge Management
+      authors: Paolo Pareti, Benoit Testu, Ryutaro Ichise, Ewan Klein and Adam Barker
+      optional: true
+      url: https://www.interaction-design.org/literature/topics/affordances
+    -
+      title: WikiHow&colon; A Large Scale Text Summarization Dataset
+      authors: Mahnaz Koupaee and William Yang Wang
+      optional: true
+      url: https://arxiv.org/abs/1810.09305
 -
--
-  date: 2020-01-31
+  date: 2020-01-30
   title: Introduction to Reinforcement Learning (guest lecture).
   description: Also with a discussion of how RL can be used to solve text adventure games.
   slides: 
@@ -61,7 +96,7 @@
       url: https://arxiv.org/pdf/1806.11532.pdf
   homework: Modify one of the TextWorld baseline systems.
 -
-  date: 2020-02-07
+  date: 2020-02-06
   title: Reinforcement Learning for Solving Text-Adventure Games
   readings:
     -
@@ -75,13 +110,13 @@
       url: https://arxiv.org/abs/1511.04636
       required: true
     -
-      title: Learn What Not to Learn: Action Elimination with Deep Reinforcement Learning
+      title: Learn What Not to Learn&colon; Action Elimination with Deep Reinforcement Learning
       authors: Tom Zahavy, Matan Haroush, Nadav Merlis, Daniel J. Mankowitz, Shie Mannor
       year: 2019
       required: true
       url: https://arxiv.org/abs/1809.02121
 -
-  date: 2020-02-14
+  date: 2020-02-13
   title: Common-sense Reasoning
   description: Why this is hard, etc.
   slides:
@@ -124,29 +159,50 @@
       url: https://www.aclweb.org/anthology/D14-1059.pdf
       year: 2018
 -
-  date: 2020-02-21
+  date: 2020-02-20
   title: Extracting Narrative Structure
   description: How to ectract schemas or other forms of narrative structure from a text.
   slides:
   readings:
     -
+      title: The Hero's Journey
+      authors: Wikipedia
+      optional: false
+      url: https://en.wikipedia.org/wiki/Hero's_journey
+    -
       title: Morphology of the Folktale, ch 2, skim ch 3-9, ch 8a-8b
       authors: V Propp
       optional: false
-      url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf
+      url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf 
     -
       title: Unsupervised Learning of Narrative Schemas and their Participants
       authors: Nathanael Chambers and Dan Jurafsky
       optional: false
       url: https://www.aclweb.org/anthology/P09-1068.pdf
     -
-      title: Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts
+      title: Deep Dungeons and Dragons&colon; Learning Character-Action Interactions from Role-Playing Game Transcripts
       authors: Annie Louis, Charles Sutton
       year: 2018
       optional: false
--
-  date: 2020-02-28
-  title: History of Story-telling and Artificial Intelligence
+    - 
+      title: Beyond Canonical Texts&colon; A Computational Analysis of Fanfiction
+      authors: Smitha Milli and David Bamman
+      year: 2016
+      url: https://www.aclweb.org/anthology/D16-1218.pdf
+      optional: false
+  videos:
+    -
+      authors: Leiden University - Faculty of Humanities
+      url: https://www.youtube.com/watch?v=V5RyV-s0yhU
+      title: Vladimir Propp, the structure of fairy tales
+      length: 12 minutes
+    -
+      authors: TED-Ed - Matthew Winkler
+      url: https://www.youtube.com/watch?v=Hhk4N9A0oCA
+      title: What makes a hero?
+      length: 5 minutes 
+  date: 2020-02-27
+  title: History of Story-telling in Artificial Intelligence
   description: Classic AI approaches to Story Telling
   slides:
   readings:
@@ -162,6 +218,13 @@
       year: 1985
       optional: false
       url: https://academiccommons.columbia.edu/doi/10.7916/D8K362MH/download
+    - 
+      title: Gameplay, Interactive Drama, and Training&colon; Authoring Edutainment Stories for Online Players (AESOP)
+      authors: Barry G. Silverman, Michael Johns, Ransom Weaver, Josh Mosley
+      year: 1985
+      optional: false
+      url: https://academiccommons.columbia.edu/doi/10.7916/D8K362MH/download
+
     -
       title: Narrative Planning&colon; Balancing Plot and Character
       authors: Mark Riedl and Michael Young
@@ -175,7 +238,7 @@
       url: https://www.cs.cmu.edu/~dgroup/papers/CMU-CS-02-206.pdf
       year: 2002
 -
-  date: 2020-03-6
+  date: 2020-03-05
   title: Unconditioned Text Generation
   description: Explain how the models work, show off interactive demos.
   slides:
@@ -202,7 +265,7 @@
       url: http://jalammar.github.io/illustrated-gpt2/
   homework: Fine-tune a large language model on any text domin of choice. Discuss strengths/weaknesses of generated text.
 -
-  date: 2020-03-20
+  date: 2020-03-19
   title: Dialog Systems and Chatbots
   description: Building more interesting NPCs
   slides:
@@ -214,7 +277,7 @@
       url: https://arxiv.org/abs/1903.03094
       software: https://parl.ai/projects/light/
 -
-  date: 2020-03-27
+  date: 2020-03-26
   title: Text Generation with Controllable Attributes + Introduction to Final Project
   description: Walk-through of fine-tuning a large language model.
   slides:
@@ -230,7 +293,7 @@
       url: https://arxiv.org/pdf/1909.05858.pdf
   homework: Final project
 -
-  date: 2020-04-03
+  date: 2020-04-02
   title: Text Generation with Knowledge Grounding and Narrative Control
   slides:
   readings:
@@ -250,7 +313,7 @@
       optional: false
       url: https://www.aclweb.org/anthology/N18-1204.pdf
 -
-  date: 2020-04-10
+  date: 2020-04-09
   title: Human-Computer-Interaction for Collaborative Story Generation
   slides:
   readings:
@@ -277,28 +340,48 @@
       url: https://pdfs.semanticscholar.org/ad58/46444cb2e3e1592c248a9025fb0aa27b26df.pdf?_ga=2.160251069.1632072483.1570807801-2103101463.1569528845
       year: 2015
     -
-      title: Creative Writing with a Machine in the Loop: Case Studies on Slogans and Stories
+      title: Creative Writing with a Machine in the Loop&colon; Case Studies on Slogans and Stories
       authors: Elizabeth Clark, Anne Spencer Ross, Chenhao Tan, Yangfeng Ji, Noah A Smith
       url: http://yangfengji.net/publication/papers/clark2018creative.pdf
       year: 2018
     -
-      title: Pedagogically structured game-based training: Development of the elect bilat simulation.
+      title: Pedagogically structured game-based training&colon; Development of the elect bilat simulation.
       url: http://ict.usc.edu/pubs/PEDAGOGICALLY%20STRUCTURED%20GAME-BASED%20TRAINING-%20DEVELOPMENT%20OF%20THE%20ELECT%20BILAT%20SIMULATION.pdf
       year: 2006
       authors: Randall W. Hill, James Belanich, H. Chad Lane, Mark Core, Melissa Dixon, Eric Forbell, Julia Kim, John Hart
 -
-  date: 2020-04-17
-  title: Undesirable Biases in Language Models
+  date: 2020-04-16
+  title: A picture is worth a thousand words
   description: How can we add computer vision or audio into the interactive pipeline?
   slides:
   readings:
     -
-      title: TODO
-      authors: TODO
+      title: Understanding Comics
+      authors: Scott McCloud
       optional: TODO
-      url: TODO
+      url: https://www.amazon.com/Understanding-Comics-Invisible-Scott-McCloud/
+    -
+      title: The Amazing Mysteries of the Gutter&colon; Drawing Inferences Between Panels in Comic Book Narratives
+      authors: Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis
+      optional: TODO
+      url: http://openaccess.thecvf.com/content_cvpr_2017/html/Iyyer_The_Amazing_Mysteries_CVPR_2017_paper.html
+    -
+      title: Visual Storytelling
+      authors: Ting-Hao Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell
+      optional: TODO
+      url: https://www.aclweb.org/anthology/N16-1147v2.pdf
+    -
+      title: Aligning Books and Movies&colon; Towards Story-like Visual Explanations by Watching Movies and Reading Books
+      authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
+      optional: TODO
+      url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf
+    -
+      title: COIN&colon; A Large-Scale Dataset for COprehensive INstructional video analysis
+      authors: Yansong Tang, Dajun Ding, Yongming Rao, Yu Zheng, Danyang Zhang, Lili Zhao, Jiwen Lu, Jie Zhou
+      optional: TODO
+      url: https://coin-dataset.github.io
 -
-  date: 2020-04-24
+  date: 2020-04-23
   title: Final Presentations
   slides:
   readings:

@@ -1,0 +1,52 @@
+---
+title: CIS 700-008 - Interactive Fiction and Text Generation - University of Pennsylvania
+layout: default
+img: play-if-card.png
+active_tab: main_page 
+---
+
+# Term Project ideas
+
+
+## Genesis
+
+> You are God.  It's your job to create the heavens and the earth. Everything is formless and empty.  It is dark now.
+>
+> \>"Let there be light." 
+>
+> There is now light.  A new day starts.  It's morning.  The new sun shines down on an empty planet. 
+>
+> \>"Make an ocean."
+>
+> You create an ocean.  The Earth's surface is now covered in water.  The sun shines off the water's surface.  
+>
+> \>"Create some continents."
+> 
+> Several contients raise out of the ocean's depths.  There are now continuous expanses of land.  They have nothing on them.
+>
+> \>"Cover the continents in plants."
+>
+> The land is now covered in vegetation.  There are seed-bearing plants and trees that bear fruit. 
+>
+> \>Eat some fruit.
+>
+> You pluck an apple from a tree and consume it.  It tastes divine. There is a seed in your mouth.
+>
+> \>Swallow seed.
+
+
+## Star Trek text adventure 
+
+Model the mechanics of the ship, NPCs have designated roles like science officer, etc.
+
+## "Puzzle"/challenge generation from Wikihow 
+
+## Schema
+
+Generate from schema / Extract schema / match schema
+
+## Poetry Generator
+
+## Compelling NPCs
+
+## Modelling time
