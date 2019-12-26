@@ -78,9 +78,9 @@ In addition to the story requirements, we ask that you take advantage of at leas
 Some possible ideas are:
 
 * Using word2vec similarity to allow the parser to do "fuzzy" matching of similar words.
-* Using a modern dependency parser to extract the verb and object from a command.
-* A guardswoman NPC who will only let you pass if you (complement her)[https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis].
-* An ogre who will only marry you if (you tell him a joke)[https://ccc.inaoep.mx/~villasen/bib/LEARNING%20TO%20LAUGH%20(AUTOMATICALLY).pdf].
+* Using a modern dependency parser to extract the verb and object from a user input.
+* A guardswoman NPC who will only let you pass if you [complement her](https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis).
+* An ogre who will only marry you if [you tell him a joke](https://ccc.inaoep.mx/~villasen/bib/LEARNING%20TO%20LAUGH%20(AUTOMATICALLY).pdf).
 
 You wil likely find (Spacy)[https://spacy.io/usage/facts-figures] or (NLTK)[https://www.nltk.org/] useful for completing this task.
 
