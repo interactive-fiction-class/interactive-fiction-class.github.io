@@ -82,9 +82,9 @@ Some possible ideas are:
 * A guardswoman NPC who will only let you pass if you [complement her](https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis).
 * An ogre who will only marry you if [you tell him a joke](https://ccc.inaoep.mx/~villasen/bib/LEARNING%20TO%20LAUGH%20(AUTOMATICALLY).pdf).
 
-You wil likely find (Spacy)[https://spacy.io/usage/facts-figures] or (NLTK)[https://www.nltk.org/] useful for completing this task.
+You wil likely find [Spacy](https://spacy.io/usage/facts-figures) or [NLTK](https://www.nltk.org/) useful for completing this task.
 
-## 7. What to submit
+## What to submit
 
 1. An instance of your game that *I can run easily*. This can be a Google Colab, a Unix command-line program, or a website link. If running your game requires me to install non-standard dependencies, you should include a detailed README. 
 
