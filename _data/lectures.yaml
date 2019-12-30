@@ -174,12 +174,16 @@
       authors: V Propp
       optional: false
       url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf 
-
     -
       title: "Defining Narrative" chapter in The Cambridge Introduction to Narrative (2nd Edition)
       authors: H. Porter Abbot
       optional: false
       url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/45F0B7D16F447F02F8E5A4CC133F9A24/9780511816932c2_p13-27_CBO.pdf/defining_narrative.pdf
+    -
+      title: Understanding Comics (page 84-85)
+      authors: Scott McCloud
+      optional: false
+      url: assets/readings/understanding_comics-pages-84-85.pdf
     -
       title: Unsupervised Learning of Narrative Schemas and their Participants
       authors: Nathanael Chambers and Dan Jurafsky
