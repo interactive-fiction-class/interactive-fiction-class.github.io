@@ -7,6 +7,17 @@ active_tab: main_page
 
 # Term Project ideas
 
+## State tracking in the world
+
+One place where older Infocom-style text adventure games do better than modern games like  AI Dungeon 2 is in their ability to keep track of the state of the world.  What objects are in the player's inventory?  What room are we in?  Where can we go from here? What tools are required to unlock a door?
+
+## Changing from 3rd person to 1st or 2nd person perspectives
+
+
+
+## Monomyth
+
+
 
 ## Genesis
 
