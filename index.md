@@ -70,8 +70,10 @@ Instructors
 : [Daphne Ippolito](https://www.seas.upenn.edu/~daphnei/)
 : [Chris Callison-Burch](https://www.cis.upenn.edu/~ccb/)
 
+Our emails are respectively daphnei and ccb at seas.upenn.edu. **Please include CIS700 in the subject line of any emails about the class.**
+
 Discussion Forum
-: [Mailing List](https://groups.google.com/d/forum/cis700-2019-iftg)
+: [Slack](http://cis700-ifatg.slack.com/)
 
 Time and place
 : Spring 2019, Thursdays from 1:30-4:30pm (Towne 327 Active Learning Classroom)
@@ -89,9 +91,9 @@ Textbooks
 Grading
 : TBD. Below is a sample grading rubric, which will change.
 : There will be three homeworks and a final project. In addition, you will be required to present a paper from the required reading in class.
-* 10% Paper presentation
-* 45% Homeworks 
-* 45% Final project
+* 10% Class participation
+* 50% Homeworks 
+* 40% Final project
 
 Collaboration Policy
 : Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments, and teams of 2-4 for the final project. 
