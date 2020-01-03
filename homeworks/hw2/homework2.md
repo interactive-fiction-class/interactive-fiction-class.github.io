@@ -1,12 +1,12 @@
 ---
 layout: default
-img: File:Zork_I_box_art.jpg
+img: zork.jpg
 img_link: https://en.wikipedia.org/wiki/Zork#/media/
 caption: Zork, an early intractive fiction game released in 1977.
-title: CIS 521 Homework 1 "Play a Text-Adventure Game"
+title: CIS 521 Homework 2 "Build a Text-Adventure Game"
 active_tab: homework
-release_date: 2020-01-01 14:59:00EDT
-due_date: 2020-01-30 14:59:00EDT
+release_date: 2020-01-16 
+due_date: 2020-01-30 23:59:00EST
 materials:
     - 
 submission_link: https://www.gradescope.com/courses/59562

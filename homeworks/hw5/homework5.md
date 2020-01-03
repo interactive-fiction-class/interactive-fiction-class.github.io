@@ -5,11 +5,11 @@ img_link: http://www.explainxkcd.com/wiki/index.php/1427:_iOS_Keyboard
 caption: Movie quotes according to autocomplete
 title: CIS 521 Homework 5 "Generate with a Fine-Tuned Language Model"
 active_tab: homework
-release_date: 2019-08-27
-due_date: 2019-01-30 14:59:00EDT
+release_date: 2020-02-27
+due_date: 2019-03-19 23:59:00EST
 materials:
     - 
-submission_link: https://www.gradescope.com/courses/59562
+submission_link: https://www.gradescope.com/courses/78405
 ---
 
 <!-- Check whether the assignment is ready to release -->
