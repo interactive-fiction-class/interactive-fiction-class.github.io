@@ -1,52 +1,33 @@
 -
   date: 2020-01-16
-  title: Text Adventure Games
-  description: Introduction to text adventure games. We discuss what these games are and the parsing of user input.  Text adventure games interesting for artificial intelligence research since to succeed at a such games an AI agent needs to understand language, perform common-sense reasoning, and interact with objects in a constrained world.   
+  title: Text Adventure Games + Intro to Class
+  activity: Play a text adventure game
   slides:
   readings:
+    -
+      authors: Jason Scott
+      url: https://www.youtube.com/watch?v=LRhbcDzbGSU
+      title: GET LAMP&colon; The Text Adventure Documentary
+      length: 2 hours 
+  optional:
     -
       title: Adventuron Classroom
       authors: Chris Ainsley / Adventuron Software Limited
       optional: TODO
       url: https://adventuron.io/classroom/
     -
-      title: Writing Interactive Fiction with Twine&colon; Play Inside a Story
-      authors: Melissa Ford
-      optional: true
-      url: https://www.amazon.com/Writing-Interactive-Fiction-Twine-Melissa-ebook-dp-B01ERR2TN2/dp/B01ERR2TN2/
-    -
-      title: Infocom's Z-machine
-      authors: Wikipedia
-      optional: true
-      url: https://en.wikipedia.org/wiki/Z-machine
-    -
-      title: SCUMM&colon; Script Creation Utility for Maniac Mansion
-      authors: Wikipedia
-      optional: true
-      url: https://en.wikipedia.org/wiki/SCUMM
-  videos:
-    -
-      authors: Jason Scott
-      url: https://www.youtube.com/watch?v=LRhbcDzbGSU
-      title: GET LAMP&colon; The Text Adventure Documentary
-      length: 2 hours 
-    -
       authors: Jared Sorensen
       url: https://www.youtube.com/watch?v=zbC_bSysbrA
       title: Action Castle at PAX East 2011
       length: 12 minutes 
     -  
-      authors: adventuron.io (maybe talk about http://textadventures.co.uk/ instead)
+      authors: adventuron.io
       url: https://www.youtube.com/watch?v=zbC_bSysbrA
       title: Create A Text Adventure Game in 30 Minutes (Tutorial)
       length: 35 minutes 
-  podcasts:
     -
-      authors: Retronauts
-      url: https://overcast.fm/+Q4tzqKDpE
-      title: Episode 117&colon; Zork
-      length: 1 hour and 45 minutes 
-  homework: Implement your own small text adventure game with at least 10 actions and a parser that is more flexible than exact string matching.
+      title: http://textadventures.co.uk/
+      title: Create a Text Adventure Game
 -
   date: 2020-01-23
   title: Guest lecture 
@@ -55,17 +36,24 @@
   description: 
   slides:
   readings:
+  homework: Play a Text Adventure Game
 -
   date: 2020-01-30
-  title: Introduction to Reinforcement Learning (guest lecture) /  Reinforcement Learning for Solving Text-Adventure Games
-  description: Also with a discussion of how RL can be used to solve text adventure games.
+  title: Introduction to Reinforcement Learning + Using RL for Solving Text-Adventure Games. Guest lecture by Clark Zhang.
+  activity: Play HW1 games
   slides: 
   readings:
+    -
+      title: Reinforcement Learning, An Introduction, Sections 3.1-3.3
+      utl: http://www.incompleteideas.net/book/bookdraft2017nov5.pdf
+      year: 2017
+      authors: Richard S. Sutton and Andrew G. Barto
     -
       title: TextWorld&colon; A Learning Environment for Text-based Games
       authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischle
       year: 2017
       url: https://arxiv.org/pdf/1806.11532.pdf 
+  optional:
     -
       title: Language Understanding for Text-based Games Using Deep Reinforcement Learning
       authors: Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
@@ -82,84 +70,77 @@
       year: 2019
       required: true
       url: https://arxiv.org/abs/1809.02121
-  homework: Modify one of the TextWorld baseline systems.
+  homework: Build a Text Adventure Game
 -
   date: 2020-02-06
   title: World Representations 
-  description: How to represent the world and the space of possible responses. Theorom Proving.  
+  activity: Work on RL homework
   slides:
   readings:
-    -
-      title: Put My Galakmid Coin into the Dispenser and Kick It&colon; Computational Linguistics and Theorem Proving in a Computer Game
-      authors: Alexander Koller, Ralph Debusmann, Malte Gabsdil, and Kristina Striegnitz
-      optional: TODO
-      url: https://link.springer.com/article/10.1023/B:JLLI.0000024734.80591.30
-    -
-      title: What Can You Do with a Rock? Affordance Extraction via Word Embeddings
-      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
-      optional: false
-      url: https://www.ijcai.org/proceedings/2017/0144.pdf
-    -
-      title: Threat, Explore, Barter, Puzzle&colon; A Semantically-Informed Algorithm for Extracting Interaction Modes
-      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
-      optional: false
-      url: https://www.semanticscholar.org/paper/Threat%2C-Explore%2C-Barter%2C-Puzzle%3A-A-Algorithm-for-Fulda-Ricks/05b4551bfe45fe336f75544b4a777428e1f62695
     -
       title: What are Affordances?
       authors: Interaction Design Foundation
-      optional: true
+      optional: false
       url: https://www.interaction-design.org/literature/topics/affordances
     -
-      title: Integrating Know-How into the Linked Data Cloud. Knowledge Engineering and Knowledge Management
-      authors: Paolo Pareti, Benoit Testu, Ryutaro Ichise, Ewan Klein and Adam Barker
-      optional: true
-      url: https://www.interaction-design.org/literature/topics/affordances
+    title: What Can You Do with a Rock? Affordance Extraction via Word Embeddings
+    authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
+    optional: false
+    url: https://www.ijcai.org/proceedings/2017/0144.pdf
+  optional:
     -
-      title: WikiHow&colon; A Large Scale Text Summarization Dataset
-      authors: Mahnaz Koupaee and William Yang Wang
+      title: Put My Galakmid Coin into the Dispenser and Kick It&colon; Computational Linguistics and Theorem Proving in a Computer Game
+      authors: Alexander Koller, Ralph Debusmann, Malte Gabsdil, and Kristina Striegnitz
       optional: true
-      url: https://arxiv.org/abs/1810.09305
+      url: https://link.springer.com/article/10.1023/B:JLLI.0000024734.80591.30
+    -
+      title: Threat, Explore, Barter, Puzzle&colon; A Semantically-Informed Algorithm for Extracting Interaction Modes
+      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
+      optional: true
+      url: https://www.semanticscholar.org/paper/Threat%2C-Explore%2C-Barter%2C-Puzzle%3A-A-Algorithm-for-Fulda-Ricks/05b4551bfe45fe336f75544b4a777428e1f62695
+    -
 -
   date: 2020-02-13
   title: Common-sense Reasoning
-  description: Why this is hard, etc.
+  homework: TextWorld
   slides:
   readings:
     -
+      title: Machine Common Sense Concept Paper
+      authors: David Gunning
+      optional: False
+      url: https://arxiv.org/abs/1810.07528
+      year: 2018
+    -
       title: Common Sense Reasoning – From Cyc to Intelligent Assistant
       authors: Kathy Panton, Cynthia Matuszek, Douglas Lenat, Dave Schneider, Michael Witbrock, Nick Siegel, and Blake Shepard
-      optional: TODO
+      optional: False
       url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
       year: 2006
+  optional:
+    -
+      title: Commonsense Reasoning for Natural Language Understanding&colon; A Survey of Benchmarks, Resources, and Approaches
+      authors: Shane Storks, Qiaozi Gao, Joyce Y. Chai
+      optional: True
+      url: https://arxiv.org/abs/1904.01172
+      year: 2019
     -
       title: ConceptNet — A Practical Commonsense Reasoning Tool-Kit
       authors: H Liu and P Singh
-      optional: TODO
+      optional: True
       url: https://link.springer.com/article/10.1023/B:BTTJ.0000047600.45421.6d
       year: 2006
       software: http://conceptnet.io
     -
-      title: Machine Common Sense Concept Paper
-      authors: David Gunning
-      optional: TODO
-      url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
-      year: 2006
-    -
-      title: Commonsense Reasoning for Natural Language Understanding&colon; A Survey of Benchmarks, Resources, and Approaches
-      authors: Shane Storks, Qiaozi Gao, Joyce Y. Chai
-      optional: TODO
-      url: https://arxiv.org/abs/1904.01172
-      year: 2019
-    -
       title: AI2 Common Sense leaderboards
       authors: Allen Institute for Artificial Intelligence
-      optional: TODO
+      optional: True
       url: https://leaderboard.allenai.org
       year: 2019
     -
       title: NaturalLI&colon; Natural Logic Inference for Common Sense Reasoning
       authors: Gabor Angeli and Chris Manning
-      optional: TODO
+      optional: True
       url: https://www.aclweb.org/anthology/D14-1059.pdf
       year: 2018
 -
@@ -169,42 +150,43 @@
   slides:
   readings:
     -
-      title: The Hero's Journey
-      authors: Wikipedia
-      optional: false
-      url: https://en.wikipedia.org/wiki/Hero's_journey
-    -
-      title: Morphology of the Folktale, ch 2, skim ch 3-9, ch 8a-8b
-      authors: V Propp
-      optional: false
-      url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf 
-    -
       title: Defining Narrative chapter in The Cambridge Introduction to Narrative (2nd Edition)
       authors: H. Porter Abbot
       optional: false
       url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/45F0B7D16F447F02F8E5A4CC133F9A24/9780511816932c2_p13-27_CBO.pdf/defining_narrative.pdf
     -
-      title: Understanding Comics (page 84-85)
-      authors: Scott McCloud
+      title: Morphology of the Folktale, ch 2, ch 8a-8b
+      authors: V Propp
       optional: false
-      url: assets/readings/understanding_comics-pages-84-85.pdf
+      url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf 
+  optional:
+    -
+      title: The Hero's Journey
+      authors: Wikipedia
+      optional: true
+      url: https://en.wikipedia.org/wiki/Hero's_journey
     -
       title: Unsupervised Learning of Narrative Schemas and their Participants
       authors: Nathanael Chambers and Dan Jurafsky
-      optional: false
+      optional: true
       url: https://www.aclweb.org/anthology/P09-1068.pdf
+    -
+      title: Understanding Comics (page 84-85)
+      authors: Scott McCloud
+      optional: true
+      url: assets/readings/understanding_comics-pages-84-85.pdf
     -
       title: Deep Dungeons and Dragons&colon; Learning Character-Action Interactions from Role-Playing Game Transcripts
       authors: Annie Louis, Charles Sutton
       year: 2018
-      optional: false
+      url: https://www.aclweb.org/anthology/N18-2111/
+      optional: true
     - 
       title: Beyond Canonical Texts&colon; A Computational Analysis of Fanfiction
       authors: Smitha Milli and David Bamman
       year: 2016
       url: https://www.aclweb.org/anthology/D16-1218.pdf
-      optional: false
-  videos:
+      optional: true
     -
       authors: Leiden University - Faculty of Humanities
       url: https://www.youtube.com/watch?v=V5RyV-s0yhU
