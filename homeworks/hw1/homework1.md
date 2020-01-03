@@ -6,7 +6,7 @@ caption: Zork, an early intractive fiction game released in 1977.
 title: CIS 521 Homework 1 "Play a Text-Adventure Game"
 active_tab: homework
 release_date: 2020-01-01 14:59:00EDT
-due_date: 2020-01-30 14:59:00EDT
+due_date: 2020-01-23 14:59:00EDT
 materials:
     - 
 submission_link: https://www.gradescope.com/courses/59562
@@ -54,42 +54,25 @@ You can download the materials for this assignment here:
 Links to tutorials and other Python resources are posted on the [schedule page](/lectures.html) in the Python Review parts.</div>
 
 
-Homework 1: Build a Text Adventure Game
+Homework 1: Play a Text Adventure Game
 =============================================================
 
 
 ## Instructions
 
-In this home, you will play a small text-adventure game. It can be on any topic or telling any story of your choice. This homework can be completed in groups of up to 2 people. We will play some of the games in class, so the more creative/exciting you make it, the better!
+In this home, you will play a couple text-adventure games, and answer some questions about them. This is **not** a partner homework; you should complete it on your own.
 
-Since this is a graduate-level class, we leave the implementation details open-ended. You may use any programming language or platform of your choice. However, we have put together a small Python library which may be useful. TODO: Add link here
+1. Play the text adventure game [Bronze](http://iplayif.com/?story=http://www.ifarchive.org/if-archive/games/zcode/Bronze.zblorb), either until you win it or you have spent over an hour on it.
+2. Play [AI Dungeon 2](https://colab.sandbox.google.com/github/nickwalton/AIDungeon/blob/master/AIDungeon_2.ipynb), a machine-generated text adventure.
+3. Answer the quetions in the following section.
 
-### Story Requirements
-Your game should include all of the following:
+### Questions
+1. Were you able to beat Bronze?
+2. What do you perceive are the challenges in designing a text adventure game as compared to non-interactive fiction?
+3. While AI Dungeon 2 is fun to play, it clearly gets a lot of things wrong. What is the system lacking as compared to hand-crafted games?
+4. If you had near-infinite resources (for GPUs, to build datasets, to collect human annotations, etc.), how would you propose to improve AI Dungeon to make it more fun to play?
 
-* The ability to take as input arbitrary strings. In other words, the user must be able to type commands like "take the octopus from the tank" rather than the game providing a multiple choice list of possible options.
-* At least 3 "rooms"
-* At least 3 objects that can be interacted with. These can be doors, keys, tools, octupi, etc.
-* At least one "win" state and at least one "lose" state.
-
-### NLP Requirements
-In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and NLP in general have evolved tremendously from the 1970s.
-In addition to the story requirements, we ask that you take advantage of at least **two** advancements from the last four decades of NLP research to either make your parser more intelligent than simple string matching or to otherwise improve the game-playing experience.
-Some possible ideas are:
-
-* Using word2vec similarity to allow the parser to do "fuzzy" matching of similar words.
-* Using a modern dependency parser to extract the verb and object from a user input.
-* A guardswoman NPC who will only let you pass if you [complement her](https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis).
-* An ogre who will only marry you if [you tell him a joke](https://ccc.inaoep.mx/~villasen/bib/LEARNING%20TO%20LAUGH%20(AUTOMATICALLY).pdf).
-
-You will likely find (Spacy)[https://spacy.io/usage/facts-figures], (NLTK)[https://www.nltk.org/], or (AllenNLP)[https://github.com/allenai/allennlp] useful for completing this task.
 
 ## What to submit
 
-1. An instance of your game that *I can run easily*. This can be a Google Colab, a Unix command-line program, or a website link. If running your game requires me to install non-standard dependencies, you should include a detailed README. 
-
-2. A link to your code, ideally as a Github repository or Google Colab.
-
-3. A report that describes how you used **two** advancements in NLP to improve the quality of your game. You should cite relevent papers, and explain how you are using the methods introduced in them.
-
-If you are submitting a Google Colab or IPython notebook, you can include your report as part of the notebook itself, and all you need to submit is a single notebook link. Likewise, if you are using a Github repository, you can put your report into the README, and all you need to submit is the Github link.
+Submit a PDF containing the question answers.
