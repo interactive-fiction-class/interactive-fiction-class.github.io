@@ -104,6 +104,13 @@ The lecture schedule will be updated as the term progresses.
           {% endfor %}
         {% endif %}
       </td>
+       <td>
+        {% if lecture.homework %} 
+          {% for homework in lecture.homework %}
+          {{homework}}
+          {% endfor %}
+        {% endif %}
+      </td>
     </tr>
     {% endfor %}
     
