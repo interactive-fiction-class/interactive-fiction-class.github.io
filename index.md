@@ -91,7 +91,7 @@ Textbooks
 Grading
 : TBD. Below is a sample grading rubric, which will change.
 : There will be three homeworks and a final project. In addition, you will be required to present a paper from the required reading in class.
-* 10% Paper presentation
+* 10% Class participation
 * 50% Homeworks 
 * 40% Final project
 
