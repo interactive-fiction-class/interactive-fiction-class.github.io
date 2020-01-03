@@ -24,7 +24,8 @@ The lecture schedule will be updated as the term progresses.
       <th>Date</th> 
       <th>Topic</th>
       <th>Required Readings</th>
-      <th>Supplemental Videos</th>
+      <th>Supplemental Material</th>
+      <th>Homework Due</th>
     </tr>
   </thead>
   <tbody>
