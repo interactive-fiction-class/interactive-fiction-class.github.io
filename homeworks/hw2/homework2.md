@@ -3,10 +3,10 @@ layout: default
 img: File:Zork_I_box_art.jpg
 img_link: https://en.wikipedia.org/wiki/Zork#/media/
 caption: Zork, an early intractive fiction game released in 1977.
-title: CIS 521 Homework 1 "Play a Text-Adventure Game"
+title: CIS 521 Homework 1 "Build a Text-Adventure Game"
 active_tab: homework
 release_date: 2019-08-27
-due_date: 2019-01-23 14:59:00EDT
+due_date: 2019-01-30 14:59:00EDT
 materials:
     - 
 submission_link: https://www.gradescope.com/courses/59562
@@ -60,7 +60,7 @@ Homework 1: Build a Text Adventure Game
 
 ## Instructions
 
-In this home, you will play a small text-adventure game. It can be on any topic or telling any story of your choice. This homework can be completed in groups of up to 2 people. We will play some of the games in class, so the more creative/exciting you make it, the better!
+In this home, you will build a small text-adventure game. It can be on any topic or telling any story of your choice. This homework can be completed in groups of up to 2 people. We will play some of the games in class, so the more creative/exciting you make it, the better!
 
 Since this is a graduate-level class, we leave the implementation details open-ended. You may use any programming language or platform of your choice. However, we have put together a small Python library which may be useful. TODO: Add link here
 
