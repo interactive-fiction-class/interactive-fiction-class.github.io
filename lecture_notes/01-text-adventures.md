@@ -4,25 +4,6 @@ img: zork.jpg
 caption: You are likely to be eaten by a Grue
 title: Notes for "Twisty Little Passages: An Approach to Interactive Fiction" by Nick Montfort
 active_tab: lectures
-read:
-watch:
-    -
-      authors: Jason Scott
-      url: https://www.youtube.com/watch?v=LRhbcDzbGSU
-      title: GET LAMP&colon; The Text Adventure Documentary
-      length: 2 hours 
-play:
-    -
-      title: Varicella
-      authors: Adam Cadre
-      url: http://adamcadre.ac/if/varicella.html
-      optional: false
-    - 
-      title: Action Castle (first adventure in the Parsely book)
-      authors: Jared A Sorensen
-      optional: false
-      when: in_class
-      url: http://www.memento-mori.com/parsely-products/
 ---
 
 # Interactive fiction page from Wikipedia

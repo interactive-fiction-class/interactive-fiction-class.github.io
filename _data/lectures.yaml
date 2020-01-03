@@ -3,6 +3,7 @@
   title: Text Adventure Games
   description: Introduction to text adventure games. We discuss what these games are and the parsing of user input.  Text adventure games interesting for artificial intelligence research since to succeed at a such games an AI agent needs to understand language, perform common-sense reasoning, and interact with objects in a constrained world.   
   slides:
+  lecture_notes: 01-text-adventures.html
   readings:
     -
       title: Adventuron Classroom
