@@ -70,8 +70,10 @@ Instructors
 : [Daphne Ippolito](https://www.seas.upenn.edu/~daphnei/)
 : [Chris Callison-Burch](https://www.cis.upenn.edu/~ccb/)
 
+Our emails are respectively daphnei and ccb at seas.upenn.edu. **Please include CIS700 in the subject line of any emails about the class.**
+
 Discussion Forum
-: [Mailing List](https://groups.google.com/d/forum/cis700-2019-iftg)
+: [Slack](http://cis700-ifatg.slack.com/)
 
 Time and place
 : Spring 2019, Thursdays from 1:30-4:30pm (Towne 327 Active Learning Classroom)
