@@ -80,4 +80,4 @@ In this home, you will play a couple text-adventure games, and answer some quest
 
 ## What to submit
 
-Submit a PDF containing the question answers.
+Submit a PDF to Gradescope containing the answers to the questions.
