@@ -26,6 +26,9 @@ active_tab: main_page
 * Play games on [Roll 20](https://roll20.net/)
 * [chooseyourstory.com](http://chooseyourstory.com)
 
+## Other Courses
+
+* Nick Montfort's [Interactive Narrative](https://nickm.com/classes/interactive_narrative/2019_fall/) course at MIT
 
 ## Feelies
 

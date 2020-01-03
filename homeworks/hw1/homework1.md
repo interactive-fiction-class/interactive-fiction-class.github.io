@@ -79,17 +79,25 @@ Your game should include all of the following:
 
 ### NLP Requirements
 In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and NLP in general have evolved tremendously from the 1970s.
+<<<<<<< HEAD
 In addition to the story requirements, we ask that you take advantage of at least **two** advantancement from the last four decades of NLP research to either make your parser more intelligent that simple string matching or to otherwise improve the game-playing sequence.
+=======
+In addition to the story requirements, we ask that you take advantage of at least **two** advancements from the last four decades of NLP research to either make your parser more intelligent that simple string matching or to otherwise improve the game-playing experience.
+>>>>>>> 61681dc3e78d3d826081bb89e4b7e70a3d9884c2
 Some possible ideas are:
 
 * Using word2vec similarity to allow the parser to do "fuzzy" matching of similar words.
-* Using a moden dependency parser to extract the verb and object from a command.
-* A guardswoman NPC who will only let you pass if you (complement her)[https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis].
-* A prince who will only marry you if (you tell him a joke)[https://ccc.inaoep.mx/~villasen/bib/LEARNING%20TO%20LAUGH%20(AUTOMATICALLY).pdf].
+* Using a modern dependency parser to extract the verb and object from a user input.
+* A guardswoman NPC who will only let you pass if you [complement her](https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis).
+* An ogre who will only marry you if [you tell him a joke](https://ccc.inaoep.mx/~villasen/bib/LEARNING%20TO%20LAUGH%20(AUTOMATICALLY).pdf).
 
+<<<<<<< HEAD
 You will likely find (Spacy)[https://spacy.io/usage/facts-figures], (NLTK)[https://www.nltk.org/], or (AllenNLP)[https://github.com/allenai/allennlp] useful for completing this task.
+=======
+You wil likely find [Spacy](https://spacy.io/usage/facts-figures) or [NLTK](https://www.nltk.org/) useful for completing this task.
+>>>>>>> 61681dc3e78d3d826081bb89e4b7e70a3d9884c2
 
-## 7. What to submit
+## What to submit
 
 1. An instance of your game that *I can run easily*. This can be a Google Colab, a Unix command-line program, or a website link. If running your game requires me to install non-standard dependencies, you should include a detailed README. 
 

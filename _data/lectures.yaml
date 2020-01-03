@@ -49,6 +49,42 @@
   homework: Implement your own small text adventure game with at least 10 actions and a parser that is more flexible than exact string matching.
 -
   date: 2020-01-23
+  title: Guest lecture 
+  speaker: Nick Montfort 
+  speaker_url: https://nickm.com
+  description: 
+  slides:
+  readings:
+-
+  date: 2020-01-30
+  title: Introduction to Reinforcement Learning (guest lecture) /  Reinforcement Learning for Solving Text-Adventure Games
+  description: Also with a discussion of how RL can be used to solve text adventure games.
+  slides: 
+  readings:
+    -
+      title: TextWorld&colon; A Learning Environment for Text-based Games
+      authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischle
+      year: 2017
+      url: https://arxiv.org/pdf/1806.11532.pdf 
+    -
+      title: Language Understanding for Text-based Games Using Deep Reinforcement Learning
+      authors: Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
+      required: true
+      url: https://arxiv.org/abs/1506.08941
+    -
+      title: Deep Reinforcement Learning with a Natural Language Action Space
+      authors: Ji He, Jianshu Chen†, Xiaodong He, Jianfeng Gao, Lihong Li
+      url: https://arxiv.org/abs/1511.04636
+      required: true
+    -
+      title: Learn What Not to Learn&colon; Action Elimination with Deep Reinforcement Learning
+      authors: Tom Zahavy, Matan Haroush, Nadav Merlis, Daniel J. Mankowitz, Shie Mannor
+      year: 2019
+      required: true
+      url: https://arxiv.org/abs/1809.02121
+  homework: Modify one of the TextWorld baseline systems.
+-
+  date: 2020-02-06
   title: World Representations 
   description: How to represent the world and the space of possible responses. Theorom Proving.  
   slides:
@@ -83,38 +119,6 @@
       authors: Mahnaz Koupaee and William Yang Wang
       optional: true
       url: https://arxiv.org/abs/1810.09305
--
-  date: 2020-01-30
-  title: Introduction to Reinforcement Learning (guest lecture).
-  description: Also with a discussion of how RL can be used to solve text adventure games.
-  slides: 
-  readings:
-    -
-      title: TextWorld&colon; A Learning Environment for Text-based Games
-      authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischle
-      year: 2017
-      url: https://arxiv.org/pdf/1806.11532.pdf
-  homework: Modify one of the TextWorld baseline systems.
--
-  date: 2020-02-06
-  title: Reinforcement Learning for Solving Text-Adventure Games
-  readings:
-    -
-      title: Language Understanding for Text-based Games Using Deep Reinforcement Learning
-      authors: Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
-      required: true
-      url: https://arxiv.org/abs/1506.08941
-    -
-      title: Deep Reinforcement Learning with a Natural Language Action Space
-      authors: Ji He, Jianshu Chen†, Xiaodong He, Jianfeng Gao, Lihong Li
-      url: https://arxiv.org/abs/1511.04636
-      required: true
-    -
-      title: Learn What Not to Learn&colon; Action Elimination with Deep Reinforcement Learning
-      authors: Tom Zahavy, Matan Haroush, Nadav Merlis, Daniel J. Mankowitz, Shie Mannor
-      year: 2019
-      required: true
-      url: https://arxiv.org/abs/1809.02121
 -
   date: 2020-02-13
   title: Common-sense Reasoning
@@ -174,6 +178,16 @@
       authors: V Propp
       optional: false
       url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf 
+    -
+      title: Defining Narrative chapter in The Cambridge Introduction to Narrative (2nd Edition)
+      authors: H. Porter Abbot
+      optional: false
+      url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/45F0B7D16F447F02F8E5A4CC133F9A24/9780511816932c2_p13-27_CBO.pdf/defining_narrative.pdf
+    -
+      title: Understanding Comics (page 84-85)
+      authors: Scott McCloud
+      optional: false
+      url: assets/readings/understanding_comics-pages-84-85.pdf
     -
       title: Unsupervised Learning of Narrative Schemas and their Participants
       authors: Nathanael Chambers and Dan Jurafsky
