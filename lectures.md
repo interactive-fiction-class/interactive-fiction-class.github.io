@@ -22,7 +22,8 @@ The lecture schedule will be updated as the term progresses.
   <thead>
     <tr>
       <th>Date</th> 
-      <th>Topic</th>
+      <th>Lecture Topic</th>
+      <th>Activity</th>
       <th>Required Readings</th>
       <th>Supplemental Material</th>
       <th>Homework Due</th>
@@ -77,7 +78,11 @@ The lecture schedule will be updated as the term progresses.
           by {{ lecture.speaker }}
           {% endif %}
 	    {% endif %}
-
+      </td>
+      <td>
+        {% if lecture.activity %} 
+          {{lecture.activity}}
+        {% endif %}
       </td>
       <td>
         {% if lecture.readings %} 
@@ -95,20 +100,18 @@ The lecture schedule will be updated as the term progresses.
         {% endif %}
       </td>
        <td>
-        {% if lecture.videos %} 
-          {% for video in lecture.videos %}
-          {% if video.authors %} {{ video.authors }}, {% endif %}
+        {% if lecture.optional %} 
+          {% for optional in lecture.optional %}
+          {% if optional.authors %} {{ optional.authors }}, {% endif %}
           <a href="{{ video.url }}">{{ video.title }}</a> 
-          {% if video.length %} ({{ video.length }}) {% endif %}
+          {% if optional.length %} ({{ optional.length }}) {% endif %}
             <br />
           {% endfor %}
         {% endif %}
       </td>
-       <td>
+      <td>
         {% if lecture.homework %} 
-          {% for homework in lecture.homework %}
-          {{homework}}
-          {% endfor %}
+          {{lecture.homework}}
         {% endif %}
       </td>
     </tr>
