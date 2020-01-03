@@ -5,8 +5,8 @@ img_link: https://en.wikipedia.org/wiki/Zork#/media/
 caption: Zork, an early intractive fiction game released in 1977.
 title: CIS 521 Homework 1 "Build a Text-Adventure Game"
 active_tab: homework
-release_date: 2019-08-27
-due_date: 2019-01-30 14:59:00EDT
+release_date: 2020-01-01 14:59:00EDT
+due_date: 2020-01-30 14:59:00EDT
 materials:
     - 
 submission_link: https://www.gradescope.com/courses/59562
@@ -74,7 +74,7 @@ Your game should include all of the following:
 
 ### NLP Requirements
 In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and NLP in general have evolved tremendously from the 1970s.
-In addition to the story requirements, we ask that you take advantage of at least one advantancement from the last four decades of NLP research to either make your parser more intelligent that simple string matching or to otherwise improve the game-playing sequence.
+In addition to the story requirements, we ask that you take advantage of at least **two** advantancement from the last four decades of NLP research to either make your parser more intelligent that simple string matching or to otherwise improve the game-playing sequence.
 Some possible ideas are:
 
 * Using word2vec similarity to allow the parser to do "fuzzy" matching of similar words.
@@ -82,7 +82,7 @@ Some possible ideas are:
 * A guardswoman NPC who will only let you pass if you (complement her)[https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis].
 * A prince who will only marry you if (you tell him a joke)[https://ccc.inaoep.mx/~villasen/bib/LEARNING%20TO%20LAUGH%20(AUTOMATICALLY).pdf].
 
-You wil likely find (Spacy)[https://spacy.io/usage/facts-figures] or (NLTK)[https://www.nltk.org/] useful for completing this task.
+You will likely find (Spacy)[https://spacy.io/usage/facts-figures], (NLTK)[https://www.nltk.org/], or (AllenNLP)[https://github.com/allenai/allennlp] useful for completing this task.
 
 ## 7. What to submit
 
@@ -90,6 +90,6 @@ You wil likely find (Spacy)[https://spacy.io/usage/facts-figures] or (NLTK)[http
 
 2. A link to your code, ideally as a Github repository or Google Colab.
 
-3. A report that describes how you used advancements in NLP to improve the quality of your game. You should cite relevent papers, and explain how you are using the methods introduced in them.
+3. A report that describes how you used **two** advancements in NLP to improve the quality of your game. You should cite relevent papers, and explain how you are using the methods introduced in them.
 
 If you are submitting a Google Colab or IPython notebook, you can include your report as part of the notebook itself, and all you need to submit is a single notebook link. Likewise, if you are using a Github repository, you can put your report into the README, and all you need to submit is the Github link.
