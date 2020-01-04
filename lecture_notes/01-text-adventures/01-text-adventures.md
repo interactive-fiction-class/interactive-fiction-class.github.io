@@ -25,19 +25,62 @@ readings:
 
 # Text Adventure Lecture Notes
 
-This course is going to focus on using techniques from artificial intelligence in order to create [Interactive fiction](https://en.wikipedia.org/wiki/Interactive_fiction).
+This course is going to focus on using techniques from artificial intelligence in order to create [Interactive fiction](https://en.wikipedia.org/wiki/Interactive_fiction). 
+One kind of interactive fiction are [text adventure games](https://en.wikipedia.org/wiki/Adventure_game), which are computer game that pre-dated the advent of computer graphics.  The interface for text adventure games was text-only.  The players could input text command to navigate the environment, and manipulate objects in it. Game would describe what happens via text output.  Here is an example of the the game play in classic game Zork (lines that begin with a > are the player's input):
 
-> Interactive fiction is software simulating environments in which players use text commands to control characters and influence the environment. Works of interactive fiction can be understood as literary narratives or as a form of computer game.  The most common types of interactive fiction computer games are [text adventures](https://en.wikipedia.org/wiki/Adventure_game), a type of adventure game where the entire interface can be "text-only".   The term interactive fiction can also be used to refer to digital versions of literary works that are not read in a linear fashion, where the reader is instead given choices at different points in the text; these decisions determine the flow and outcome of the story. The most famous example of this form of printed fiction is the [Choose Your Own Adventure book series](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure).
+```
+South of House
+You are facing the south side of a white house.  There is no door here, and all the windows are barred.
+
+>examine house
+The house is a beautiful colonial house which is painted white.  It is clear that the owners must have been extremely wealthy.
+
+>go east
+Behind House
+You are behind the white house.  In one corner of the house there is a small window which is slightly ajar.
+
+>open window
+With great effort, you open the window far enough to allow entry.
+
+>climb through window
+You can't see any such thing.
+
+>enter house
+Kitchen
+You are in the kitchen of the white house.  A table seems to have been used recently for the preparation of food.  A passage leads to the west and a dark staircase can be seen leading upward.  To the east is a small window which is open.
+On the table is an elongated brown sack, smelling of hot peppers.
+A bottle is sitting on the table.
+The glass bottle contains:
+ A quantity of water
+
+>open sack
+You open the brown sack, revealing a clove of garlic and a lunch.
+
+>eat lunch
+(first taking the lunch)
+Thank you very much.  It really hit the spot.
+```
+<!--
+[Zork](https://en.wikipedia.org/wiki/Zork) was developed between 1977 and 1979, and it was first commercially sold in 1980 by Infocom.  It sold 378,000 copies by 1986. 
+-->
+
+# Excerpts from Relevant Wikipedia Articles
+
+Interactive fiction is software simulating environments in which players use text commands to control characters and influence the environment. Works of interactive fiction can be understood as literary narratives or as a form of computer game.  The most common types of interactive fiction computer games are [text adventures](https://en.wikipedia.org/wiki/Adventure_game), a type of adventure game where the entire interface can be "text-only".   The term interactive fiction can also be used to refer to digital versions of literary works that are not read in a linear fashion, where the reader is instead given choices at different points in the text; these decisions determine the flow and outcome of the story. The most famous example of this form of printed fiction is the [Choose Your Own Adventure book series](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure).
 
 ## Text adventures
 
-Text adventures are one of the oldest types of computer games and form a subset of the adventure genre. The player uses text input to control the game, and the game state is relayed to the player via text output.   Zork I is one of the most famous text adventure games.It was first commercially sold in 1980 by Infocom, and it sold sold 378,000 copies by 1986. 
+Text adventures are one of the oldest types of computer games. The player uses text input to control the game, and the game state is relayed to the player via text output.   Zork I is one of the most famous text adventure games. It was first commercially sold in 1980 by Infocom, and it sold sold 378,000 copies by 1986. 
+
+
+### The players 
 
 Input is usually provided by the player in the form of simple sentences such as "get key" or "go east", which are interpreted by a text parser. Parsers may vary in sophistication; the first text adventure parsers could only handle two-word sentences in the form of verb-noun pairs. Later parsers, such as those built on ZIL (Zork Implementation Language), could understand complete sentences. Later parsers could handle increasing levels of complexity parsing sentences such as "open the red box with the green key then go north". This level of complexity is the standard for works of interactive fiction today.
 
-Despite their lack of graphics, text adventures include a physical dimension where players move between rooms or location. The intrictate connection between locations were often maze-like, and thus players must maintain their own map by drawing a graph of the game's locations on paper. 
+Despite their lack of graphics, text adventures include a physical dimension where players move between rooms or locations. The intrictate connection between locations were often maze-like, and thus players would often create their own map of the game by drawing a graph of the locations on paper. 
 
-## Writing style
+
+### Writing style
 
 Interactive fiction features two distinct modes of writing: the player input and the game output. Player input is expected to be in simple command form (in linguistics sentences in command form are called _imperative sentences_). A typical command could be:
 
@@ -52,9 +95,9 @@ A typical response might look something like this, the response to "look in tea 
 
 Some IF works dispense with second-person narrative entirely, opting for a first-person perspective ('I') or even placing the player in the position of an observer, rather than a direct participant.
 
-## History
+### History
 
-### 1960s and 70s
+#### 1960s and 70s
 
 
 The software programs ELIZA (1964–1966) and SHRDLU (1968–1970) were examples of early interactive natural language understanding.  Both programs used natural language processing (NLP) to take input from their user and respond in a virtual and conversational manner. ELIZA simulated a psychotherapist that appeared to provide human-like responses to the user's input, while SHRDLU employed an artificial intelligence that could move virtual objects around an environment and respond to questions asked about the environment's shape. The development of effective natural language processing is an important part of interactive fiction development.
@@ -69,17 +112,10 @@ In order to make its games easy to port to many computer systems, Infocom develo
 
 Interactive fiction became a standard product for many software companies. By 1982 Softline wrote that "the demands of the market are weighted heavily toward hi-res graphics" in games like Sierra's The Wizard and the Princess and its imitators. Such graphic adventures became the dominant form of the genre on computers with graphics, like the Apple II.[17] By 1982 Adventure International began releasing versions of its games with graphics.[17] The company went bankrupt in 1985. Synapse Software and Acornsoft were also closed in 1985. Leaving Infocom as the leading company producing text-only adventure games on the Apple II with sophisticated parsers and writing, and still advertising its lack of graphics as a virtue.[17] The company was bought by Activision in 1986 after the failure of Cornerstone, Infocom's database software program, and stopped producing text adventures a few years later. Soon after Telaium/Trillium also closed.
 
+By the mid-1980s, the video game consoles were much higher performance than the computer systems that text adventure games were originally developed on.  Video game consoles allowed for the addition of graphics and sound to games, and video games eclipsed the popularity of text adventure games.
 
-During the 1990s[edit]
-Legend Entertainment was founded by Bob Bates and Mike Verdu in 1989. It started out from the ashes of Infocom. The text adventures produced by Legend Entertainment used (high-resolution) graphics as well as sound. Some of their titles include Eric the Unready, the Spellcasting series and Gateway (based on Frederik Pohl's novels).
 
-The last text adventure created by Legend Entertainment was Gateway II (1992), while the last game ever created by Legend was Unreal II: The Awakening (2003) – the well-known first-person shooter action game using the Unreal Engine for both impressive graphics and realistic physics. In 2004, Legend Entertainment was acquired by Atari, who published Unreal II and released for both Microsoft Windows and Microsoft's Xbox.
-
-Many other companies such as Level 9 Computing, Magnetic Scrolls, Delta 4 and Zenobi had closed by 1992.
-
-In 1991 and 1992, Activision released The Lost Treasures of Infocom in two volumes, a collection containing most of Infocom's games, followed in 1996 by Classic Text Adventure Masterpieces of Infocom.
-
-Modern era[edit]
+### Modern era
 After the decline of the commercial interactive fiction market in the 1990s, an online community eventually formed around the medium. In 1987, the Usenet newsgroup rec.arts.int-fiction was created, and was soon followed by rec.games.int-fiction. By custom, the topic of rec.arts.int-fiction is interactive fiction authorship and programming, while rec.games.int-fiction encompasses topics related to playing interactive fiction games, such as hint requests and game reviews. As of late 2011, discussions between writers have mostly moved from rec.arts.int-fiction to the Interactive Fiction Community Forum.[22]
 
 One of the most important early developments was the reverse-engineering of Infocom's Z-Code format and Z-Machine virtual machine in 1987 by a group of enthusiasts called the InfoTaskForce and the subsequent development of an interpreter for Z-Code story files. As a result, it became possible to play Infocom's work on modern computers.
