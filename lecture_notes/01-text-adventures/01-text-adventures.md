@@ -2,13 +2,32 @@
 layout: default
 img: zork.jpg
 caption: You are likely to be eaten by a Grue
-title: Notes for "Twisty Little Passages: An Approach to Interactive Fiction" by Nick Montfort
+title: Text Adventure Lecture Notes 
 active_tab: lectures
+readings:
+-
+   title: Interactive fiction
+   authors: Wikipedia
+   type: online
+   id: wikipedia-interactive-fiction
+   year: 2020
+   url: https://en.wikipedia.org/wiki/Interactive_fiction
+-
+   title: Twisty Little Passages&colon; An Approach to Interactive Fiction
+   authors: Nick Montfort
+   type: book
+   publisher: The MIT Press
+   id: twisty-little-passages
+   year: 2003
+   url: https://www.amazon.com/Twisty-Little-Passages-Approach-Interactive-ebook/dp/B005363IMS/
 ---
 
-# Interactive fiction page from Wikipedia
 
-[Interactive fiction](https://en.wikipedia.org/wiki/Interactive_fiction), often abbreviated IF, is software simulating environments in which players use text commands to control characters and influence the environment. Works of interactive fiction can be understood as literary narratives or as a form of computer game.  The most common types of interactive fiction computer games are [text adventures](https://en.wikipedia.org/wiki/Adventure_game), a type of adventure game where the entire interface can be "text-only".   The term interactive fiction can also be used to refer to digital versions of literary works that are not read in a linear fashion, where the reader is instead given choices at different points in the text; these decisions determine the flow and outcome of the story. The most famous example of this form of printed fiction is the [Choose Your Own Adventure book series](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure).
+# Text Adventure Lecture Notes
+
+This course is going to focus on using techniques from artificial intelligence in order to create [Interactive fiction](https://en.wikipedia.org/wiki/Interactive_fiction).
+
+> Interactive fiction is software simulating environments in which players use text commands to control characters and influence the environment. Works of interactive fiction can be understood as literary narratives or as a form of computer game.  The most common types of interactive fiction computer games are [text adventures](https://en.wikipedia.org/wiki/Adventure_game), a type of adventure game where the entire interface can be "text-only".   The term interactive fiction can also be used to refer to digital versions of literary works that are not read in a linear fashion, where the reader is instead given choices at different points in the text; these decisions determine the flow and outcome of the story. The most famous example of this form of printed fiction is the [Choose Your Own Adventure book series](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure).
 
 ## Text adventures
 
@@ -459,3 +478,64 @@ The interactor tor can type English input such as go to the barn rather than e o
 early Adventure did not even recognize a simple, full English sentence such as go to the barn.
 
 Because of the improved movement scheme, mapmaking is not necessary,
+
+
+
+## Recommended readings
+
+<table>
+   {% for publication in page.readings %}
+    <tr>
+      <td>
+  {% if publication.url %}
+    <a href="{{ publication.url }}">{{ publication.title }}.</a>
+        {% else %}
+    {{ publication.title }}.
+  {% endif %}
+  {{ publication.authors }}.
+  {% if publication.publisher %} {{ publication.publisher }}. {% endif %}
+  {{ publication.venue }}  {{ publication.year }}.
+
+  {% if publication.abstract %}
+  <!-- abstract button -->
+  <a data-toggle="modal" href="#{{publication.id}}-abstract" class="label label-success">Abstract</a>
+  <!-- /.abstract button -->
+  <!-- abstract content -->
+  <div id="{{publication.id}}-abstract" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="{{publication.id}}">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="{{publication.id}}">{{publication.title}}</h4>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+        {{publication.abstract}}
+        </div><!-- /.modal-body -->
+  </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+  </div><!-- /.abstract-content -->
+  {% endif %}
+    {% if publication.bibtex %}
+  <!-- bibtex button -->
+  <a data-toggle="modal" href="#{{publication.id}}-bibtex" class="label label-default">BibTex</a>
+  <!-- /.bibtex button -->
+  <!-- bibtex content -->
+  <div id="{{publication.id}}-bibtex" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="{{publication.id}}">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="{{publication.id}}">{{publication.title}}</h4>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+     <pre>{{publication.bibtex}}
+           </pre>
+        </div><!-- /.modal-body -->
+  </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+  </div><!-- /.bibtex-content -->
+  {% endif %}
+</td></tr>
+  {% endfor %}
+</table>
+

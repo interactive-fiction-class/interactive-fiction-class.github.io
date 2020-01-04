@@ -3,7 +3,7 @@
   title: Text Adventure Games + Intro to Class
   activity: Play a text adventure game
   slides:
-  lecture_notes: 01-text-adventures.html
+  lecture_notes: 01-text-adventures/01-text-adventures.html
   readings:
     -
       authors: Jason Scott
