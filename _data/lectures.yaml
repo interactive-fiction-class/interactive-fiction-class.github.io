@@ -37,6 +37,16 @@
   description: 
   slides:
   readings:
+    -
+      title: Riddle Machines&colon The History and Nature of Interactive Fiction
+      url: https://nickm.com/if/riddle_machines.html
+      year: 2007
+      authors: Nick Montfort
+    -
+      title: Curveship's Automatic Narrative Style
+      url: https://nickm.com/if/montfort_fdg_2011.pdf
+      year: 2011
+      authors: Nick Montfort
   homework: Play a Text Adventure Game
 -
   date: 2020-01-30
@@ -46,7 +56,7 @@
   readings:
     -
       title: Reinforcement Learning, An Introduction, Sections 3.1-3.3
-      utl: http://www.incompleteideas.net/book/bookdraft2017nov5.pdf
+      url: http://www.incompleteideas.net/book/bookdraft2017nov5.pdf
       year: 2017
       authors: Richard S. Sutton and Andrew G. Barto
     -
