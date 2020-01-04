@@ -84,10 +84,10 @@
       optional: false
       url: https://www.interaction-design.org/literature/topics/affordances
     -
-    title: What Can You Do with a Rock? Affordance Extraction via Word Embeddings
-    authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
-    optional: false
-    url: https://www.ijcai.org/proceedings/2017/0144.pdf
+      title: What Can You Do with a Rock? Affordance Extraction via Word Embeddings
+      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
+      optional: false
+      url: https://www.ijcai.org/proceedings/2017/0144.pdf
   optional:
     -
       title: Put My Galakmid Coin into the Dispenser and Kick It&colon; Computational Linguistics and Theorem Proving in a Computer Game
