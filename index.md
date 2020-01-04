@@ -89,14 +89,16 @@ Textbooks
 -->
 
 Grading
-: TBD. Below is a sample grading rubric, which will change.
-: There will be three homeworks and a final project. In addition, you will be required to present a paper from the required reading in class.
-* 10% Class participation
+: There will be five homeworks and a final project. In addition, you will be required to present a paper in class.
+* 10% Presentation
 * 50% Homeworks 
 * 40% Final project
+
+Paper Presentations
+During class, each student must prepare a 10-15 minute presentation on a paper of their choice. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (eg. by 3PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
 
 Collaboration Policy
 : Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments, and teams of 2-4 for the final project. 
 
 Late Day Policy
-: Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. 
+: Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the final project, which must be finished by the final day of class, or on the paper presentations**
