@@ -95,7 +95,7 @@ Grading
 * 40% Final project
 
 Paper Presentations
-During class, each student must prepare a 10-15 minute presentation on a paper of their choice. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (eg. by 3PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
+Over the course of the semester, each student must prepare a 10-15 minute presentation on a research paper relevant to the course. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (eg. by 3PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
 
 Collaboration Policy
 : Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments, and teams of 2-4 for the final project. 
