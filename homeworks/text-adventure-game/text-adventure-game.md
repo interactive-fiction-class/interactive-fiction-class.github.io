@@ -14,6 +14,12 @@ materials:
         name: Text Adventure Game (Python Notebook viewable on Google Colab)
         url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb
 submission_link: https://www.gradescope.com/courses/78405
+readings:
+    -
+      title: Adventuron Classroom
+      authors: Chris Ainsley / Adventuron Software Limited
+      url: https://adventuron.io/classroom/
+      note: This is a tutorial aimed at teaching elementary school kids how to program by writing a text adventure game.  I modeled our text adventure game after this Adventuron system.
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -90,12 +96,20 @@ You will likely find (Spacy)[https://spacy.io/usage/facts-figures], (NLTK)[https
 
 ## What to submit
 
-0. Save your game as an [Google Colab notebook in Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb).   
+1. You should save your game as [Python notebook in Github].  You can use [Google Colab to view Python Notebooks on Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb).  We recommend that you use Colab to test and debug your notebook, since that's how we are going to play your game.
 
-1. An instance of your game that *I can run easily*. This can be a Google Colab, a Unix command-line program, or a website link. If running your game requires me to install non-standard dependencies, you should include a detailed README. 
-
-2. A link to your code, ideally as a Github repository or Google Colab.
+2. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. 
 
 3. A report that describes how you used **two** advancements in NLP to improve the quality of your game. You should cite relevent papers, and explain how you are using the methods introduced in them.
 
 If you are submitting a Google Colab or IPython notebook, you can include your report as part of the notebook itself, and all you need to submit is a single notebook link. Likewise, if you are using a Github repository, you can put your report into the README, and all you need to submit is the Github link.
+
+
+
+{% if page.readings %} 
+## Recommended readings
+{% for reading in page.readings %}
+* {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a>.  _{{ reading.note }}_
+{% endfor %}
+{% endif %}
+
