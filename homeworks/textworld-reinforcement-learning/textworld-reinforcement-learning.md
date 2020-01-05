@@ -3,7 +3,9 @@ layout: default
 img: TextWorld.jpg
 img_link: https://www.microsoft.com/en-us/research/project/textworld/
 caption: Microsoft TextWorld is an open-source, extensible engine that both generates and simulates text games.
-title: CIS 521 Homework 2 "TextWorld / Reinforcement Learning"
+title: TextWorld / Reinforcement Learning
+type: Homework
+number: 2
 active_tab: homework
 release_date: 2019-08-27
 due_date: 2019-01-30 14:59:00EDT
@@ -50,7 +52,7 @@ You can download the materials for this assignment here:
 {% endif %}
 
 
-Homework 2: TextWorld / Reinforcement Learning
+{{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
 

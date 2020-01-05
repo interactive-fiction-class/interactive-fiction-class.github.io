@@ -3,10 +3,11 @@ layout: default
 img: zork.jpg
 img_link: https://en.wikipedia.org/wiki/Zork#/media/
 caption: Zork, an early intractive fiction game released in 1977.
-title: CIS 521 Homework 1 "Play a Text-Adventure Game"
+title: In-Class Activity 1 "Play Text-Adventure Games"
+type: in-class
 active_tab: homework
-release_date: 2020-01-16
-due_date: 2020-01-23 23:59:00EST
+release_date: 2020-01-04
+due_date: 2020-01-16 23:59:00EST
 materials:
     - 
         name: Bronze, A Fractured Fairy Tale by Emily Short
@@ -55,11 +56,8 @@ You can download the materials for this assignment here:
 {% endif %}
 
 
-<div class="alert alert-info" markdown="span">
-Links to tutorials and other Python resources are posted on the [schedule page](/lectures.html) in the Python Review parts.</div>
 
-
-Homework 1: Play a Text Adventure Game
+In Class Activity 1: Play Text Adventure Games
 =============================================================
 
 

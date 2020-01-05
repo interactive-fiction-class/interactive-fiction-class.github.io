@@ -3,7 +3,9 @@ layout: default
 img: swag.png
 img_link: https://leaderboard.allenai.org/swag/submissions/get-started
 caption: SWAG is a dataset for studying grounded commonsense inference.
-title: CIS 521 Homework 4 "Commonsense Reasoning"
+title: Commonsense Reasoning
+type: Homework
+number: 4
 active_tab: homework
 release_date: 2020-01-30
 due_date: 2020-03-13 23:59:00EST
@@ -51,6 +53,6 @@ You can download the materials for this assignment here:
 
 
 
-Homework 3: Commonsense Reasoning with SWAG
+{{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 

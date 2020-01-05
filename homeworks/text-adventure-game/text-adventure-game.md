@@ -3,7 +3,9 @@ layout: default
 img: zork.jpg
 img_link: https://en.wikipedia.org/wiki/Zork#/media/
 caption: Zork, an early intractive fiction game released in 1977.
-title: CIS 521 Homework 1 "Build a Text-Adventure Game"
+title: Build a Text-Adventure Game
+type: Homework
+number: 2
 active_tab: homework
 release_date: 2020-01-16 
 due_date: 2020-01-30 23:59:00EST
@@ -54,7 +56,7 @@ You can download the materials for this assignment here:
 Links to tutorials and other Python resources are posted on the [schedule page](/lectures.html) in the Python Review parts.</div>
 
 
-Homework 1: Build a Text Adventure Game
+{{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
 

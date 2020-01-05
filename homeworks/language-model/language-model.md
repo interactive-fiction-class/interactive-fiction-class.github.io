@@ -3,7 +3,9 @@ layout: default
 img: ios_keyboard.png
 img_link: http://www.explainxkcd.com/wiki/index.php/1427:_iOS_Keyboard
 caption: Movie quotes according to autocomplete
-title: CIS 521 Homework 4 "Generate with a Fine-Tuned Language Model"
+title: Generate Text with a Fine-Tuned Language Model
+type: Homework
+number: 4
 active_tab: homework
 release_date: 2020-02-27
 due_date: 2019-03-19 23:59:00EST
@@ -50,6 +52,5 @@ You can download the materials for this assignment here:
 {% endif %}
 
 
-
-Homework 4: Generate with a Fine-Tuned Language Model
+{{page.type}} {{page.number}}: {{page.title}}
 =============================================================
