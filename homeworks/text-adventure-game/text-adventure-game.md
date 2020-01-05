@@ -5,7 +5,7 @@ img_link: https://en.wikipedia.org/wiki/Zork#/media/
 caption: Zork, an early intractive fiction game released in 1977.
 title: Build a Text-Adventure Game
 type: Homework
-number: 2
+number: 1
 active_tab: homework
 release_date: 2020-01-16 
 due_date: 2020-01-30 23:59:00EST
