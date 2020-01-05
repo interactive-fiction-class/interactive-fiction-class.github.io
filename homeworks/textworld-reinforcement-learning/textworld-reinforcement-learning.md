@@ -1,15 +1,15 @@
 ---
 layout: default
-img: swag.png
-img_link: https://leaderboard.allenai.org/swag/submissions/get-started
-caption: SWAG is a dataset for studying grounded commonsense inference.
-title: CIS 521 Homework 4 "Commonsense Reasoning"
+img: TextWorld.jpg
+img_link: https://www.microsoft.com/en-us/research/project/textworld/
+caption: Microsoft TextWorld is an open-source, extensible engine that both generates and simulates text games.
+title: CIS 521 Homework 2 "TextWorld / Reinforcement Learning"
 active_tab: homework
-release_date: 2020-01-30
-due_date: 2020-03-13 23:59:00EST
+release_date: 2019-08-27
+due_date: 2019-01-30 14:59:00EDT
 materials:
     - 
-submission_link: https://www.gradescope.com/courses/78405/
+submission_link: https://www.gradescope.com/courses/78405
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -50,7 +50,9 @@ You can download the materials for this assignment here:
 {% endif %}
 
 
-
-Homework 4: Commonsense Reasoning with SWAG
+Homework 2: TextWorld / Reinforcement Learning
 =============================================================
+
+
+## Instructions
 

@@ -1,12 +1,12 @@
 ---
 layout: default
-img: TextWorld.jpg
-img_link: https://www.microsoft.com/en-us/research/project/textworld/
-caption: Microsoft TextWorld is an open-source, extensible engine that both generates and simulates text games.
-title: CIS 521 Homework 3 "TextWorld / Reinforcement Learning"
+img: ios_keyboard.png
+img_link: http://www.explainxkcd.com/wiki/index.php/1427:_iOS_Keyboard
+caption: Movie quotes according to autocomplete
+title: CIS 521 Homework 4 "Generate with a Fine-Tuned Language Model"
 active_tab: homework
-release_date: 2019-08-27
-due_date: 2019-01-30 14:59:00EDT
+release_date: 2020-02-27
+due_date: 2019-03-19 23:59:00EST
 materials:
     - 
 submission_link: https://www.gradescope.com/courses/78405
@@ -50,9 +50,6 @@ You can download the materials for this assignment here:
 {% endif %}
 
 
-Homework 3: TextWorld / Reinforcement Learning
+
+Homework 4: Generate with a Fine-Tuned Language Model
 =============================================================
-
-
-## Instructions
-

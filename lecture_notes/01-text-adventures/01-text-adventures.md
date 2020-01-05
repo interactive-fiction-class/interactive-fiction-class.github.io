@@ -60,9 +60,27 @@ You open the brown sack, revealing a clove of garlic and a lunch.
 (first taking the lunch)
 Thank you very much.  It really hit the spot.
 ```
-<!--
+
 [Zork](https://en.wikipedia.org/wiki/Zork) was developed between 1977 and 1979, and it was first commercially sold in 1980 by Infocom.  It sold 378,000 copies by 1986. 
+
+
+
+## Artifical Intelligence
+
+
+Microsoft Research has a project called [Textworld](https://www.youtube.com/watch?v=WVIIigrPUJs), which uses text-based games for artifical intelligence research, because:
+
+> Text-based games are great tools for AI research because to succeed at a text-based game an AI needs to understand language, perform common-sense reasoning, deal with a combinatorial action space and overcome common reinforcement learning problems like partial observability and rewards sparsity. These skills are ultimately key skills needed for artificial general intelligence.
+
+<!--
+Another potential innovative claim is that Game World are a great thing to study, since they have a defined semantics and are a closed-world system so it is easier to ground language into their semantics.  Here’s another quote from the Textworld video:
+
+"In Textworld you can quickly and easily generate a large distribution of training games while controlling for various aspects of the game such as the quest complexity, the vocabulary, the action and state space, the reward density, and the amount of information provided to agents."
+I love tasks 1 and 2!  
+
+For collecting the data, you could potentially use crowdsourcing.  Facebook instrumented ParlAI to collect conversations on MTurk.  They used it in several papers including this one: [Learning to Speak and Act in a Fantasy Text Adventure Game](https://arxiv.org/abs/1903.03094).
 -->
+
 
 # Excerpts from Relevant Wikipedia Articles
 
@@ -116,7 +134,8 @@ By the mid-1980s, the video game consoles were much higher performance than the 
 
 
 ### Modern era
-After the decline of the commercial interactive fiction market in the 1990s, an online community eventually formed around the medium. In 1987, the Usenet newsgroup rec.arts.int-fiction was created, and was soon followed by rec.games.int-fiction. By custom, the topic of rec.arts.int-fiction is interactive fiction authorship and programming, while rec.games.int-fiction encompasses topics related to playing interactive fiction games, such as hint requests and game reviews. As of late 2011, discussions between writers have mostly moved from rec.arts.int-fiction to the Interactive Fiction Community Forum.[22]
+
+After the decline of the commercial interactive fiction market in the 1990s, an online community eventually formed around the medium. In 1987, the Usenet newsgroup rec.arts.int-fiction was created, and was soon followed by rec.games.int-fiction. By custom, the topic of rec.arts.int-fiction is interactive fiction authorship and programming, while rec.games.int-fiction encompasses topics related to playing interactive fiction games, such as hint requests and game reviews. As of late 2011, discussions between writers have mostly moved from rec.arts.int-fiction to the Interactive Fiction Community Forum.
 
 One of the most important early developments was the reverse-engineering of Infocom's Z-Code format and Z-Machine virtual machine in 1987 by a group of enthusiasts called the InfoTaskForce and the subsequent development of an interpreter for Z-Code story files. As a result, it became possible to play Infocom's work on modern computers.
 
@@ -515,6 +534,62 @@ early Adventure did not even recognize a simple, full English sentence such as g
 
 Because of the improved movement scheme, mapmaking is not necessary,
 
+
+## Post from the IF Archive
+
+When I was looking through the [Interactive Fiction Archive](https://ifarchive.info/indexes/if-archive.html), I found this post in the usenet group rec.arts.int-fiction from 1992.  It discusses the idea of a program that could automatically generate an adventure, which is pretty much what we're aiming to do in this course.  A response to the post says it won't be possible for another 20-50 years, which places us in the right predicted timeline.  
+
+```
+Path: gmd.de!jvnc.net!rutgers!ub!acsu.buffalo.edu!goetz
+From: goetz@acsu.buffalo.edu (Phil Goetz)
+Newsgroups: rec.arts.int-fiction
+Subject: Re: Adventure generators (skippable)
+Message-ID: <Bwv8yu.ACp@acsu.buffalo.edu>
+Date: 29 Oct 92 04:40:05 GMT
+References: <appelo.720194795@dutiag> <BwsqpC.Bpw@mentor.cc.purdue.edu>
+Sender: nntp@acsu.buffalo.edu
+Organization: State University of New York at Buffalo/Comp Sci
+Lines: 37
+Nntp-Posting-Host: dubhe.cs.buffalo.edu
+
+In article <BwsqpC.Bpw@mentor.cc.purdue.edu> morpheus@sage.cc.purdue.edu (Morpheus Nosferatu) writes:
+>Has anyone ever worked on, or even heard of, an adventure generator?
+>
+>I'm not talking about an adventure design language like TADS or Alan,
+>but rather a stand-alone adventure generator that produces complete
+>adventures, where the user need only give a minimal degree of input,
+>such as the level of complexity, type of adventure (mystery, treasure
+>hunt, etc.), size of adventure, and so forth?
+>...
+>But as anyone ever heard of someone trying to come up with a generator
+>whigh would produce infocom-style text adventures?  I can just imagine
+>what kind of limitations it would have, but I'm curious to know if
+>anyone has tried this, and if so what degree of success they've had.
+
+No.  I know some IF guys (David Graves?) are working on programs
+that are supposed to be story generators, that can create a new story on
+the fly given the user's actions.  But A) the stuff they are talking about
+is not, in my opinion, as sophisticated as an Infocom adventure, and
+B) I doubt they're going to have much success anyway, since the problem
+is too hard at present.
+
+The generator you speak of is not written, not being written, and not
+anywhere on the horizon.  In 50 years, maybe.  In 20, definitely not.
+The problem of writing interesting stories, which adhere to someone's
+definition of a plot (with goal explanations, conflict, resolution,
+comlication, climax, etc., all occuring at appropriate intervals)
+is very hard, and I don't expect a solution soon.
+But the problem of writing clever puzzles involves much greater
+creativity, and I have seen NO evidence that ANYBODY has a clue in
+these creativity issues; the most you will find in the field are a
+few vague theories of creativity.
+
+This problem is what Stuart Shapiro calls "AI-complete":  Solving it
+would be equivalent to solving all the other problems of AI.
+
+Phil
+goetz@cs.buffalo.edu
+``` 
 
 
 ## Recommended readings
