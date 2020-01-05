@@ -11,6 +11,8 @@ release_date: 2020-01-16
 due_date: 2020-01-30 23:59:00EST
 materials:
     - 
+        name: Text Adventure Game (Python Notebook viewable on Google Colab)
+        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb
 submission_link: https://www.gradescope.com/courses/78405
 ---
 
