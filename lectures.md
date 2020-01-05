@@ -25,7 +25,7 @@ The lecture schedule will be updated as the term progresses.
       <th>Lecture Topic</th>
       <th>Activity</th>
       <th>Required Readings</th>
-      <th>Supplemental Material</th>
+      <th>Supplemental Readings</th>
       <th>Homework Due</th>
     </tr>
   </thead>
@@ -58,7 +58,7 @@ The lecture schedule will be updated as the term progresses.
 
     <!-- End create a HTML anchor for the most recent lecture -->
       <td width="14%">{{ lecture.date | date: '%a, %b %-d, %Y' }}</td>
-      <td width="30%">
+      <td width="16%">
          {{ lecture.title }} 
 
 
@@ -84,34 +84,44 @@ The lecture schedule will be updated as the term progresses.
           {% endif %}
 	    {% endif %}
       </td>
-      <td>
+      <td width="12%">
         {% if lecture.activity %} 
           {{lecture.activity}}
         {% endif %}
       </td>
       <td>
         {% if lecture.readings %} 
+        <ul>
           {% for reading in lecture.readings %}
-          {% if reading.url %}
-              {% if reading.optional %}<b>Optional:</b> {% endif %}
-              {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a> 
-            <br />
-          {% else %}
-              {% if reading.optional %}<b>Optional</b> {% endif %}
-             {{ reading.authors }}, {{ reading.title }} 
-            <br />
-          {% endif %}
+            <li>
+            {% if reading.url %}
+                {% if reading.optional %}<b>Optional:</b> {% endif %}
+                {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a> 
+              <br />
+            {% else %}
+                {% if reading.optional %}<b>Optional</b> {% endif %}
+               {{ reading.authors }}, {{ reading.title }} 
+              <br />
+            {% endif %}
+            </li>
           {% endfor %}
+        </ul>
         {% endif %}
       </td>
        <td>
         {% if lecture.optional %} 
-          {% for optional in lecture.optional %}
-          {% if optional.authors %} {{ optional.authors }}, {% endif %}
-          <a href="{{ video.url }}">{{ video.title }}</a> 
-          {% if optional.length %} ({{ optional.length }}) {% endif %}
-            <br />
+        <ul>
+          {% for reading in lecture.optional %}
+            <li>
+            {% if reading.url %}
+                {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a> 
+              <br />
+            {% else %}
+               {{ reading.authors }}, {{ reading.title }} 
+            {% endif %}
+            </li>
           {% endfor %}
+        </ul>
         {% endif %}
       </td>
       <td>
