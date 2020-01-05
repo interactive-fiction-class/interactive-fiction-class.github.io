@@ -16,8 +16,11 @@ active_tab: main_page
 
 ## Code
 
-* [Hugging Face Transformer Library](https://github.com/huggingface/transformers)
+
 * [AI Dungeon 2](https://github.com/AIDungeon/AIDungeon)
+* [Hugging Face Transformer Library](https://github.com/huggingface/transformers) - Hugging Face provides state-of-the-art general-purpose neural language model architectures like BERT, GPT-2, and others. 
+* [AllenNLP](https://allennlp.org) - Deep learning for NLP with state of the art models
+* [Spacy](https://spacy.io) - Industrial-Strength Natural Language Processing in Python
 
 ## Tutorials 
 
