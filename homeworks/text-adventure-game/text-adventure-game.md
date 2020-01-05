@@ -88,6 +88,8 @@ You will likely find (Spacy)[https://spacy.io/usage/facts-figures], (NLTK)[https
 
 ## What to submit
 
+0. Save your game as an [Google Colab notebook in Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb).   
+
 1. An instance of your game that *I can run easily*. This can be a Google Colab, a Unix command-line program, or a website link. If running your game requires me to install non-standard dependencies, you should include a detailed README. 
 
 2. A link to your code, ideally as a Github repository or Google Colab.
