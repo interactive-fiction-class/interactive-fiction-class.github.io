@@ -47,11 +47,11 @@
       url: https://nickm.com/if/montfort_fdg_2011.pdf
       year: 2011
       authors: Nick Montfort
-  homework: Play a Text Adventure Game
+  homework: HW1A
 -
   date: 2020-01-30
-  title: Introduction to Reinforcement Learning + Using RL for Solving Text-Adventure Games. Guest lecture by Clark Zhang.
-  activity: Play HW1 games
+  title: Introduction to Reinforcement Learning 
+  activity: Play HW1 games, TextWorld tutorial
   slides: 
   readings:
     -
@@ -81,7 +81,7 @@
       year: 2019
       required: true
       url: https://arxiv.org/abs/1809.02121
-  homework: Build a Text Adventure Game
+  homework: HW1B 
 -
   date: 2020-02-06
   title: World Representations 
@@ -113,7 +113,7 @@
 -
   date: 2020-02-13
   title: Common-sense Reasoning
-  homework: TextWorld
+  homework: HW2
   slides:
   readings:
     -
@@ -238,11 +238,11 @@
       authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
       optional: false
       url: https://arxiv.org/pdf/1909.10705.pdf
-  homework: SWAG
+  homework: HW3
 -
   date: 2020-03-05
-  title: Controllable Text Generation + Generated Text Detection + Introduction to Final Project
-  activity: Walk-through fine-tuning GPT-2
+  title: Controllable Text Generation + Generated Text Detection
+  activity: Walk-through fine-tuning GPT-2, final project brainstorm
   slides:
   readings:
     -
@@ -290,7 +290,7 @@
       authors: Iulian V. Serban, Alessandro Sordoni, Yoshua Bengio, Aaron Courville, Joelle Pineau
       url: https://arxiv.org/abs/1507.04808
       year: 2015
-  homework: Fine-tuned language model
+  homework: HW4
 -
   date: 2020-03-26
   title: Text Generation with Knowledge Grounding and Narrative Control + Bias in Language Models
@@ -311,6 +311,7 @@
       authors: Elizabeth Clark, Yangfeng Ji, Noah A. Smith
       optional: true
       url: https://www.aclweb.org/anthology/N18-1204.pdf
+  homework: Proposal
 -
   date: 2020-04-02
   title: Human-Computer-Interaction for Collaborative Story Generation
@@ -353,7 +354,7 @@
   date: 2020-04-09
   title: Computer Vision, Speech, and other Multimodal Connections
   slides:
-  readings:
+  optional:
     -
       title: The Amazing Mysteries of the Gutter&colon; Drawing Inferences Between Panels in Comic Book Narratives
       authors: Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis
