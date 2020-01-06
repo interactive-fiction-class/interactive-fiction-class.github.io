@@ -70,7 +70,7 @@ In this homework assignment, you will write your own classic text adventure game
 
 ### Starter code
 
-We have provided starter code for [a basic text adventure game](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb).  You should save a copy this Python Notebook to your own Google drive, and modify it however you want.  Since this is a graduate-level class, we leave the implementation details open-ended.
+We have provided [starter code for a basic text adventure game](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb).  You should save a copy this Python Notebook to your own Google drive, and modify it however you want.  Since this is a graduate-level class, we leave the implementation details open-ended.
 
 ### Game 1: Action Castle
 
