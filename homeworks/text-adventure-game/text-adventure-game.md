@@ -68,7 +68,7 @@ You can download the materials for this assignment here:
 
 In this homework assignment, you will write your own classic text adventure game.  This homework can be completed in groups of up to 2 people.  You will implement two text adventure games.  One will be a re-implementation of the __Action Castle__ game, and one will be a game that you design yourself. The game that you design can be on any topic, or can tell any story of your choice.  We will play the games that you design during class, and part of your grade will be awarded based on how creative/exciting your classmates think your game is.
 
-### Provided code
+### Starter code
 
 We have provided starter code for [a basic text adventure game](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb).  You should save a copy this Python Notebook to your own Google drive, and modify it however you want.  Since this is a graduate-level class, we leave the implementation details open-ended.
 
@@ -82,24 +82,25 @@ You should modify the provided code to:
 1. Create 13 locations for Action Castle (Cottage, Garden Path, Fishing Pond, Winding Path, 
 Top of the Tall Tree, Drawbridge, Courtyard, Tower Stairs, Tower, 
 Dungeon Stairs, Dungeon, Great Feasting Hall, Throne Room).
-2. Create items for the game (fishing poll, rosebush, club, fish, the troll etc.)
-3. Implement a parser that handles the actions that are possible in the game.
-
-
+2. Create items for the game (fishing poll, rosebush, club, fish, the troll etc.).
+3. Update the code so that it can handle the actions/commands/preconditions that are described by the Action Castle module.
 
 
 ### Game 2: Your Own Creation 
 
 Your game should include all of the following:
 
-* The ability to take as input arbitrary strings. In other words, the user must be able to type commands like "take the octopus from the tank" rather than the game providing a multiple choice list of possible options.
 * At least 3 "rooms"
 * At least 3 objects that can be interacted with. These can be doors, keys, tools, octupi, etc.
 * At least one "win" state and at least one "lose" state.
 
 ### NLP Requirements
-In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and NLP in general have evolved tremendously from the 1970s.
-In addition to the story requirements, we ask that you take advantage of at least **two** advancements from the last four decades of NLP research to either make your parser more intelligent than simple string matching or to otherwise improve the game-playing experience.
+In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and naural language processing (NL) in general have evolved tremendously from the 1970s.
+
+We would like you to use NLP and machine learning to update the keyword-based parser in our sample code to be able to more robustly handle any input from the user.  In other words, the user should be able to type commands like _"pluck the rose"_ or _"pick a flower from the rosebush"_ instead of the single one command that it currently recognizes _"pick rose"_.  Similarly, the player should be able to say _"leave the cottage"_ intead of _"out"_.  To do so, we recommend that you start by updating the ```get_player_intent``` function in the ```Parser```, to be a multi-class text classifier.
+
+We ask that you take advantage of at least **two** advancements from the last four decades of NLP research to either make your parser more intelligent than simple string matching or to otherwise improve the game-playing experience.
+
 Some possible ideas are:
 
 * Using word2vec similarity to allow the parser to do "fuzzy" matching of similar words.
