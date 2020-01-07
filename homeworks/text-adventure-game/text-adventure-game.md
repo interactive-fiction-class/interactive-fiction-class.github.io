@@ -94,9 +94,15 @@ Dungeon Stairs, Dungeon, Great Feasting Hall, Throne Room).
 
 Your game should include all of the following:
 
-* At least 3 "rooms"
-* At least 3 objects that can be interacted with. These can be doors, keys, tools, ogres, etc.
+* At least 3 Locations
+* At least 3 Items that can be interacted with. These can be doors, keys, tools, ogres, etc.
+* At least one "puzzle" where there are certain preconditions that must be met before the player can make forward progress.
 * At least one "win" state and at least one "lose" state.
+
+Optionally, you can think about adding other elements to your game, like:
+* Scoring
+* Changes over time
+* Interesting non-player characters
 
 We will play your game in class on January 23, and your classmates will help to grade this assignment based on how fun/creative/interesting your game is.  Be creative!  For inspiration, we recommend searching Pinterest for cross-section maps.  Here are some that we like:
 
