@@ -25,6 +25,7 @@ active_tab: main_page
 ## Tutorials 
 
 [How To Make Custom AI-Generated Text With GPT-2](https://minimaxir.com/2019/09/howto-gpt2/) by [Max Woolf](https://minimaxir.com)
+[BERT End to End (Fine-tuning + Predicting) in 5 minutes](https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb)
 
 ## Inspiration
 
