@@ -137,7 +137,7 @@ Some possible ideas are:
 * A guardswoman NPC who will only let you pass if you [complement her](https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis).
 * An ogre who will only marry you if [you tell him a joke](https://ccc.inaoep.mx/~villasen/bib/LEARNING%20TO%20LAUGH%20(AUTOMATICALLY).pdf).
 
-You will likely find (Spacy)[https://spacy.io/usage/facts-figures], (NLTK)[https://www.nltk.org/], or (AllenNLP)[https://github.com/allenai/allennlp] useful for completing this task.
+There are serveral good NLP toolkits that you can use for this part of the homeowrk:  [Spacy](https://spacy.io/usage/facts-figures), [NLTK](https://www.nltk.org/), or [AllenNLP](https://github.com/allenai/allennlp).
 
 ## What to submit
 
@@ -146,7 +146,7 @@ You should submit a link to a Github repository which contains the following.
 
 1. A colab to run Action Adventure. (You can use [Google Colab to view Python Notebooks on Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb))
 2. A colab to run the initial version of your game.
-3. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. 
+3. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It shold be a plain text file with one command per line.
 
 ### Milestone 2 (Due 1/30/2020)
 We will grade the same Github link provided in Milestone 1. Your code should now include two NLP improvements to the game you started creating in Milestone 1. In addition to the requirements from Milestone 1, your repository should now also include:
