@@ -98,7 +98,7 @@ Your game should include all of the following:
 * At least 3 objects that can be interacted with. These can be doors, keys, tools, ogres, etc.
 * At least one "win" state and at least one "lose" state.
 
-We will play your game in class on January 23, and your classmates will help to grade this assignment based on how fun/creative/interesting your game is.  Be creative!  For inspiration, we recommend searching Pintress for cross-section maps.  Here are some that we like:
+We will play your game in class on January 23, and your classmates will help to grade this assignment based on how fun/creative/interesting your game is.  Be creative!  For inspiration, we recommend searching Pinterest for cross-section maps.  Here are some that we like:
 
 <div class="container-fluid">
   <div class="row">
