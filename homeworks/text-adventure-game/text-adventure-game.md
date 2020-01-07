@@ -20,6 +20,10 @@ readings:
       authors: Chris Ainsley / Adventuron Software Limited
       url: https://adventuron.io/classroom/
       note: This is a tutorial aimed at teaching elementary school kids how to program by writing a text adventure game.  I modeled our text adventure game after this Adventuron system.
+    -
+      title: How to Make a Text-Based Adventure - Commands and Parser
+      authors: The Hitchhiker's Guide to the Galaxy (H2G2)
+      url: https://h2g2.com/edited_entry/A20600641
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -108,7 +112,7 @@ We will play your game in class on January 23, and your classmates will help to 
 <a href="inspiration/oubliette.png"><img src="inspiration/oubliette.png" style="height: 100%; width: 100%; max-width: 250px"></a>
 </div>
 <div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px; height: 350px;">
-<a href="inspiration/storm-king.jpg"><img src="inspiration/storm-king.jpg" style="height: 100%; width: 100%; max-width: 250px"></a>
+<a href="inspiration/storm-king.jpg"><img src="inspiration/storm-king-small.jpg" style="height: 100%; width: 100%; max-width: 250px"></a>
 </div>
 <div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px; height: 350px;">
 <a href="inspiration/mars.pdf"><img src="inspiration/mars.jpg" style="height: 100%; width: 100%; max-width: 250px"></a>
