@@ -8,7 +8,7 @@ type: Homework
 number: 1
 active_tab: homework
 release_date: 2020-01-16 
-due_date: 2020-01-30 23:59:00EST
+due_date: 2020-01-30 13:30:00EST
 materials:
     - 
         name: Text Adventure Game (Python Notebook viewable on Google Colab)
@@ -60,31 +60,47 @@ You can download the materials for this assignment here:
 {% endif %}
 
 
-<div class="alert alert-info" markdown="span">
-Links to tutorials and other Python resources are posted on the [schedule page](/lectures.html) in the Python Review parts.</div>
-
-
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
 
 ## Instructions
 
-In this home, you will play a small text-adventure game. It can be on any topic or telling any story of your choice. This homework can be completed in groups of up to 2 people. We will play some of the games in class, so the more creative/exciting you make it, the better!
+In this homework assignment, you will write your own classic text adventure game.  This homework can be completed in groups of up to 2 people.  You will implement two text adventure games.  One will be a re-implementation of the __Action Castle__ game, and one will be a game that you design yourself. The game that you design can be on any topic, or can tell any story of your choice.  We will play the games that you design during class, and part of your grade will be awarded based on how creative/exciting your classmates think your game is.
 
-Since this is a graduate-level class, we leave the implementation details open-ended. You may use any programming language or platform of your choice. However, we have put together a small Python library which may be useful. TODO: Add link here
+### Starter code
 
-### Story Requirements
+We have provided [starter code for a basic text adventure game](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb).  You are free modify it however you want, and bring in any dependencies you feel will be useful.
+
+### Task 1: Implement Action Castle
+
+Action Castle is a game by Jared A. Sorensen.  It is included in his book [Parsley](http://www.memento-mori.com/parsely-products/parsely-pdf), which is a collection of games inspired by the text-adventures of the 1980s.  Parsley is a party game where you take on the role of the parser, and the players shout out commands like GO NORTH, LIGHT LAMP or GET SWORD.  You obtusely follow player's commands, simulating a computer's limited vocabulary.  The effect is suprisingly hilarious and fun. 
+
+We got Jared's permission to distribute the Action Castle module in class, and you can also [buy the Parsley book for $20](http://www.memento-mori.com/parsely-products/parsely-pdf) if you'd like to support an awesome indy game developer.
+
+You should modify the provided code to:
+1. Create the 13 locations from Action Castle (Cottage, Garden Path, Fishing Pond, Winding Path, 
+Top of the Tall Tree, Drawbridge, Courtyard, Tower Stairs, Tower, 
+Dungeon Stairs, Dungeon, Great Feasting Hall, Throne Room).
+2. Create the items for the game (fishing poll, rosebush, club, fish, the troll etc.).
+3. Update the code so that it can handle the actions/commands/preconditions that are described by the Action Castle module.
+
+
+### Task 2: Implement Your Own Creation
+
 Your game should include all of the following:
 
-* The ability to take as input arbitrary strings. In other words, the user must be able to type commands like "take the octopus from the tank" rather than the game providing a multiple choice list of possible options.
 * At least 3 "rooms"
-* At least 3 objects that can be interacted with. These can be doors, keys, tools, octupi, etc.
+* At least 3 objects that can be interacted with. These can be doors, keys, tools, ogres, etc.
 * At least one "win" state and at least one "lose" state.
 
-### NLP Requirements
-In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and NLP in general have evolved tremendously from the 1970s.
-In addition to the story requirements, we ask that you take advantage of at least **two** advancements from the last four decades of NLP research to either make your parser more intelligent than simple string matching or to otherwise improve the game-playing experience.
+### Task 3: Improve Your Game with NLP
+In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and naural language processing (NL) in general have evolved tremendously from the 1970s.
+
+We would like you to use NLP and machine learning to update the keyword-based parser in our sample code to be able to more robustly handle any input from the user.  In other words, the user should be able to type commands like _"pluck the rose"_ or _"pick a flower from the rosebush"_ instead of the single one command that it currently recognizes _"pick rose"_.  Similarly, the player should be able to say _"leave the cottage"_ intead of _"out"_.  To do so, we recommend that you start by updating the ```get_player_intent``` function in the ```Parser```, to be a multi-class text classifier.
+
+We ask that you take advantage of at least **two** advancements from the last four decades of NLP research to either make your parser more intelligent than simple string matching or to otherwise improve the game-playing experience.
+
 Some possible ideas are:
 
 * Using word2vec similarity to allow the parser to do "fuzzy" matching of similar words.
@@ -96,15 +112,17 @@ You will likely find (Spacy)[https://spacy.io/usage/facts-figures], (NLTK)[https
 
 ## What to submit
 
-1. You should save your game as [Python notebook in Github].  You can use [Google Colab to view Python Notebooks on Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb).  We recommend that you use Colab to test and debug your notebook, since that's how we are going to play your game.
+### Milestone 1 (Due 1/23/2020)
+You should submit a link to a Github repository which contains the following.
 
-2. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. 
+1. A colab to run Action Adventure. (You can use [Google Colab to view Python Notebooks on Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb))
+2. A colab to run the initial version of your game.
+3. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. 
 
-3. A report that describes how you used **two** advancements in NLP to improve the quality of your game. You should cite relevent papers, and explain how you are using the methods introduced in them.
+### Milestone 2 (Due 1/30/2020)
+We will grade the same Github link provided in Milestone 1. Your code should now include two NLP improvements to the game you started creating in Milestone 1. In addition to the requirements from Milestone 1, your repository should now also include:
 
-If you are submitting a Google Colab or IPython notebook, you can include your report as part of the notebook itself, and all you need to submit is a single notebook link. Likewise, if you are using a Github repository, you can put your report into the README, and all you need to submit is the Github link.
-
-
+1. A report called either `report.pdf` or `report.md` that describes how you used **two** advancements in NLP to improve the quality of your game. You should cite relevent papers, and explain how you are using the methods introduced in them.
 
 {% if page.readings %} 
 ## Recommended readings
