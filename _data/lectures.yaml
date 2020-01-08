@@ -1,9 +1,12 @@
 -
   date: 2020-01-16
   title: Text Adventure Games + Intro to Class
-  activity: Play a text adventure game
   slides:
   lecture_notes: 01-text-adventures/01-text-adventures.html
+  activities: 
+    -
+      title: Play a text adventure game
+      url: play-text-adventures/play-text-adventures.html
   readings:
     -
       authors: Jason Scott
@@ -33,6 +36,9 @@
   speaker_url: https://nickm.com/me.html
   description: 
   slides:
+  activities: 
+    -
+      title: Play HW1 games
   readings:
     -
       title: Riddle Machines&colon; The History and Nature of Interactive Fiction
@@ -48,7 +54,9 @@
 -
   date: 2020-01-30
   title: Introduction to Reinforcement Learning 
-  activity: Play HW1 games, TextWorld tutorial
+  activities: 
+    -
+      title: TextWorld tutorial
   slides: 
   readings:
     -
@@ -82,7 +90,9 @@
 -
   date: 2020-02-06
   title: World Representations 
-  activity: Work on RL homework
+  activities: 
+    -
+      title: Work on RL homework
   slides:
   readings:
     -
@@ -239,7 +249,9 @@
 -
   date: 2020-03-05
   title: Controllable Text Generation + Generated Text Detection
-  activity: Walk-through fine-tuning GPT-2, final project brainstorm
+  activities: 
+    -
+      title: Walk-through fine-tuning GPT-2, final project brainstorm
   slides:
   readings:
     -
