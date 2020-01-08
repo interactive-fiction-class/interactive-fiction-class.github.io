@@ -89,6 +89,11 @@ Dungeon Stairs, Dungeon, Great Feasting Hall, Throne Room).
 2. Create the items for the game (fishing poll, rosebush, club, fish, the troll etc.).
 3. Update the code so that it can handle the actions/commands/preconditions that are described by the Action Castle module.
 
+<div class="alert alert-warning" markdown="1">
+Need a hint on how to get started? I as able to re-implement the whole of the Action Castle game$$^*$$ using the starter code by modifying the ```build_game``` function, the ```check_preconditions``` function, and by adding a few new methods to the [Special functions section](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb#scrollTo=YNrsHhpMTC8w).  None of the other starter code needed to be modified. It took me about 5 hours total.  
+
+$$^*$$Except for this part: _The ghost will reach out for the player to stop his heart if the player lingers here._ I skipped that part of the game.
+</div>
 
 ### Task 2: Implement Your Own Creation
 
@@ -129,6 +134,11 @@ We will play your game in class on January 23, and your classmates will help to 
   </div>
 </div>
 
+
+<div class="alert alert-warning" markdown="1">
+Hint: I recommend drawing out on your game on [graph paper](http://print-graph-paper.com/) before you get started.
+</div>
+
 ### Task 3: Improve Your Game with NLP
 In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and naural language processing (NL) in general have evolved tremendously from the 1970s.
 
@@ -144,6 +154,9 @@ Some possible ideas are:
 * An ogre who will only marry you if [you tell him a joke](https://ccc.inaoep.mx/~villasen/bib/LEARNING%20TO%20LAUGH%20(AUTOMATICALLY).pdf).
 
 There are serveral good NLP toolkits that you can use for this part of the homeowrk:  [Spacy](https://spacy.io/usage/facts-figures), [NLTK](https://www.nltk.org/), or [AllenNLP](https://github.com/allenai/allennlp).
+
+
+
 
 ## What to submit
 
