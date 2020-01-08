@@ -52,6 +52,10 @@
       authors: Nick Montfort
   homework: HW1A
 -
+  date: 2020-01-28
+  title: Course Selection Period ends
+  type: no_lecture
+-
   date: 2020-01-30
   title: Introduction to Reinforcement Learning 
   activities: 
@@ -238,11 +242,13 @@
       url: https://www.youtube.com/watch?v=Hhk4N9A0oCA
       title: What makes a hero?
       length: 5 minutes 
--
-  date: 2020-02-27
   title: TBD
 -
-  date: 2020-03-05
+  date: 2020-01-24
+  title: Drop Period ends
+  type: no_lecture
+-
+  date: 2020-02-27
   title: Controllable Text Generation + Generated Text Detection
   activities: 
     -
@@ -271,7 +277,7 @@
       year: 2019
       optional: True
 -
-  date: 2020-03-19
+  date: 2020-03-05
   title: Dialog Systems and Chatbots
   description: Building more interesting NPCs
   slides:
@@ -301,7 +307,11 @@
       year: 2015
   homework: HW4
 -
-  date: 2020-03-26
+  date: 2020-03-12
+  title: No class (Spring Break)
+  type: no_lecture      
+-
+  date: 2020-03-19
   title: Text Generation with Knowledge Grounding and Narrative Control + Bias in Language Models
   slides:
   optional:
@@ -322,7 +332,11 @@
       url: https://www.aclweb.org/anthology/N18-1204.pdf
   homework: Proposal
 -
-  date: 2020-04-02
+  date: 2020-03-20
+  title: Grade Type Change Deadline
+  type: no_lecture      
+-
+  date: 2020-03-26
   title: Human-Computer-Interaction for Collaborative Story Generation
   slides:
   optional:
@@ -360,7 +374,11 @@
       authors: Mariet Theune, Sander Faas, Anton Nijholt, and Dirk Heylen
       url: https://wwwhome.ewi.utwente.nl/~anijholt/artikelen/tidse2003.pdf
 -
-  date: 2020-04-09
+  date: 2020-03-30
+  title: Last day to withdraw from a course
+  type: no_lecture      
+-
+  date: 2020-04-02
   title: Computer Vision, Speech, and other Multimodal Connections
   slides:
   optional:
@@ -386,7 +404,7 @@
       url: https://ieeexplore.ieee.org/abstract/document/8683682/authors#authors
       optional: True
 -
-  date: 2020-04-16
+  date: 2020-04-09
   title: History of Story-telling in Artificial Intelligence
   description: Classic AI approaches to Story Telling
   slides:
@@ -422,6 +440,10 @@
       optional: TODO
       url: https://www.cs.cmu.edu/~dgroup/papers/CMU-CS-02-206.pdf
       year: 2002
+-
+  date: 2020-04-16
+  title: TBD
+  slides:
 -
   date: 2020-04-23
   title: Final Presentations

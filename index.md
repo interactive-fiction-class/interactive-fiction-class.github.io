@@ -77,6 +77,8 @@ Discussion Forum
 
 Time and place
 : Spring 2019, Thursdays from 1:30-4:30pm in Towne 327 (the Active Learning Classroom)
+: First day of class is January 16, 2020
+: Last day of class is April 23, 2020
 
 Office hours
 : by appointment
