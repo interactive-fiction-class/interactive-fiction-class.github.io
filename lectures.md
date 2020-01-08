@@ -85,9 +85,13 @@ The lecture schedule will be updated as the term progresses.
 	    {% endif %}
       </td>
       <td width="12%">
-        {% if lecture.activity %} 
-          {{lecture.activity}}
-        {% endif %}
+          {% for activity in lecture.activities %}
+            {% if activity.url %}
+              <a href="in_class_activities/{{ activity.url }}">{{ activity.title }}</a> 
+            {% else %}
+              {{ activity.title }}
+            {% endif %}
+          {% endfor %}
       </td>
       <td>
         {% if lecture.readings %} 
