@@ -139,38 +139,14 @@ We will play your game in class on January 23, and your classmates will help to 
 Hint: I recommend drawing out on your game on [graph paper](http://print-graph-paper.com/) before you get started.
 </div>
 
-### Task 3: Improve Your Game with NLP
-In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and naural language processing (NL) in general have evolved tremendously from the 1970s.
-
-We would like you to use NLP and machine learning to update the keyword-based parser in our sample code to be able to more robustly handle any input from the user.  In other words, the user should be able to type commands like _"pluck the rose"_ or _"pick a flower from the rosebush"_ instead of the single one command that it currently recognizes _"pick rose"_.  Similarly, the player should be able to say _"leave the cottage"_ intead of _"out"_.  To do so, we recommend that you start by updating the ```get_player_intent``` function in the ```Parser```, to be a multi-class text classifier.
-
-We ask that you take advantage of at least **two** advancements from the last four decades of NLP research to either make your parser more intelligent than simple string matching or to otherwise improve the game-playing experience.
-
-Some possible ideas are:
-
-* Using word2vec similarity to allow the parser to do "fuzzy" matching of similar words.
-* Using a modern dependency parser to extract the verb and object from a user input.
-* A guardswoman NPC who will only let you pass if you [complement her](https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis).
-* An ogre who will only marry you if [you tell him a joke](https://ccc.inaoep.mx/~villasen/bib/LEARNING%20TO%20LAUGH%20(AUTOMATICALLY).pdf).
-
-There are serveral good NLP toolkits that you can use for this part of the homeowrk:  [Spacy](https://spacy.io/usage/facts-figures), [NLTK](https://www.nltk.org/), or [AllenNLP](https://github.com/allenai/allennlp).
-
-
-
-
 ## What to submit
 
-### Milestone 1 (Due 1/23/2020)
 You should submit a link to a Github repository which contains the following.
 
-1. A colab to run Action Adventure. (You can use [Google Colab to view Python Notebooks on Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb))
+1. A colab to run Action Castle. (You can use [Google Colab to view Python Notebooks on Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb))
 2. A colab to run the initial version of your game.
 3. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It shold be a plain text file with one command per line.
-
-### Milestone 2 (Due 1/30/2020)
-We will grade the same Github link provided in Milestone 1. Your code should now include two NLP improvements to the game you started creating in Milestone 1. In addition to the requirements from Milestone 1, your repository should now also include:
-
-1. A report called either `report.pdf` or `report.md` that describes how you used **two** advancements in NLP to improve the quality of your game. You should cite relevent papers, and explain how you are using the methods introduced in them.
+4. A short paragraph describing your game, and why you picked that topic.
 
 {% if page.readings %} 
 ## Recommended readings
