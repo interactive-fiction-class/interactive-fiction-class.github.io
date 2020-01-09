@@ -104,6 +104,7 @@
   homework_due: 
     - 
       title: HW2&colon; NLP for text adventures
+      url: nlp-for-text-adventures/nlp-for-text-adventures.html
 -
   date: 2020-02-06
   title: Unconditioned Text Generation
@@ -259,7 +260,6 @@
       url: https://www.youtube.com/watch?v=Hhk4N9A0oCA
       title: What makes a hero?
       length: 5 minutes 
-  title: TBD
 -
   date: 2020-01-24
   title: Drop Period ends
