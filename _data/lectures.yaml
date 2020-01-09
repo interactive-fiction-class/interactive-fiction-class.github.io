@@ -9,26 +9,33 @@
       url: play-text-adventures/play-text-adventures.html
   readings:
     -
+      authors: Wikipedia
+      url: https://en.wikipedia.org/wiki/Interactive_fiction
+      title: Interactive Fiction      
+    -
+      authors: The Hitchhiker’s Guide to the Galaxy (H2G2)
+      url: https://h2g2.com/edited_entry/A20600641
+      title: How to Make a Text-Based Adventure&colon; Commands and Parser
+  optional:
+    -
       authors: Jason Scott
       url: https://www.youtube.com/watch?v=LRhbcDzbGSU
       title: GET LAMP&colon; The Text Adventure Documentary
       length: 2 hours 
-  optional:
     -
       title: Adventuron Classroom
       authors: Chris Ainsley / Adventuron Software Limited
-      optional: TODO
       url: https://adventuron.io/classroom/
-    -
-      authors: Jared Sorensen
-      url: https://www.youtube.com/watch?v=zbC_bSysbrA
-      title: Action Castle at PAX East 2011
-      length: 12 minutes 
     -  
       authors: adventuron.io
       url: https://www.youtube.com/watch?v=zbC_bSysbrA
       title: Create A Text Adventure Game in 30 Minutes (Tutorial)
       length: 35 minutes 
+    -
+      authors: Jared Sorensen
+      url: https://www.youtube.com/watch?v=zbC_bSysbrA
+      title: Action Castle at PAX East 2011
+      length: 12 minutes 
 -
   date: 2020-01-23
   title: Guest lecture 
@@ -50,7 +57,11 @@
       url: https://nickm.com/if/montfort_fdg_2011.pdf
       year: 2011
       authors: Nick Montfort
-  homework: HW1A
+  homework_due:   
+    -
+      title: HW1&colon; Build a Text-Adventure Game
+      url: text-adventure-game/text-adventure-game.html
+      note: We will play your game in class, so be sure to have it done before class begins.
 -
   date: 2020-01-28
   title: Course Selection Period ends
@@ -90,7 +101,9 @@
       year: 2019
       required: true
       url: https://arxiv.org/abs/1809.02121
-  homework: HW1B 
+  homework_due: 
+    - 
+      title: HW2&colon; NLP for text adventures
 -
   date: 2020-02-06
   title: Unconditioned Text Generation
@@ -121,11 +134,15 @@
       authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
       optional: false
       url: https://arxiv.org/pdf/1909.10705.pdf
-  homework: HW3
+  homework_due: 
+    -
+      title: HW3
 -
   date: 2020-02-13
   title: Common-sense Reasoning / World Representations
-  homework: HW2
+  homework_due: 
+    - 
+      title: HW4
   slides:
   readings:
     -
@@ -305,7 +322,9 @@
       authors: Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, Bill Dolan
       url: https://arxiv.org/abs/1510.03055
       year: 2015
-  homework: HW4
+  homework_due: 
+    - 
+      title: HW4
 -
   date: 2020-03-12
   title: No class (Spring Break)
@@ -330,7 +349,9 @@
       authors: Elizabeth Clark, Yangfeng Ji, Noah A. Smith
       optional: true
       url: https://www.aclweb.org/anthology/N18-1204.pdf
-  homework: Proposal
+  homework_due: 
+    - 
+      title: Proposal
 -
   date: 2020-03-20
   title: Grade Type Change Deadline
