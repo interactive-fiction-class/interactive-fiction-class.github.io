@@ -80,14 +80,14 @@ You can download the materials for this assignment here:
 
 In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and naural language processing (NLP) in general have evolved tremendously since the 1970s. NLP is a vibrant subfield of artificial intelligence.  One of the goals of NLP is to allow computers to understand commands spoken in human language.  This enables technologies like Amazon Alexa, Apple’s Siri or Google’s Assistant.
 
-Instead of forcing the players of your game to usse commands in the strict `verb object` syntax like 
+In early interactive fiction games, players were forced to use commands with a strict `verb object` syntax.  They can only say things like. 
 
 ```
 "Pick rose"
 "Smell rose"
 ```
 
-we are going to use NLP to will allow players to say something more elaborate like
+We are going to use NLP to will allow players to say something more elaborate like
 
 ```
 "Pluck a fresh bloom from the rosebush, and inhale its scent."
