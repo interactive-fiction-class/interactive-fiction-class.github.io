@@ -63,11 +63,13 @@ In Class Activity 1: Play Text Adventure Games
 
 ## Instructions
 
-In this home, you will play a couple text-adventure games, and answer some questions about them. This is **not** a partner homework; you should complete it on your own.
+Today in class, you will play a couple text-adventure games, and answer some questions about them. 
 
 1. Play the text adventure game [Bronze](http://iplayif.com/?story=http://www.ifarchive.org/if-archive/games/zcode/Bronze.zblorb), either until you win it or you have spent over an hour on it.  Draw a map of the game as you go.
 2. Play [AI Dungeon 2](https://colab.sandbox.google.com/github/nickwalton/AIDungeon/blob/master/AIDungeon_2.ipynb), a machine-generated text adventure.
 3. Answer the quetions in the following section.
+
+
 
 ### Questions
 1. Were you able to beat Bronze?
