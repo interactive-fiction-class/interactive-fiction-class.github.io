@@ -19,6 +19,13 @@ If you're interested in joining this course (CIS 700-008), [you can sign yoursel
 {% capture release_date %}{{page.release_date | date: '%s'}}{% endcapture %}
 {% capture due_date %}{{page.due_date | date: '%s'}}{% endcapture %}
 {% if release_date < now and due_date >= now %}
+{% if page.type == "in-class" %}
+<!-- In class activity -->
+<div class="alert alert-info">
+The in-class activity for {{ page.due_date | date: "%A %b %-d" }} will be to <a href="{{page.url}}">{{ page.title }}</a>.  
+</div>
+{% else %}
+<!-- Homework assignment -->
 <div class="alert alert-info">
 <a href="{{page.url}}">{{ page.title }}</a> has been released.  
 {% if page.deliverables %}
@@ -32,6 +39,7 @@ The assignment has multiple deliverables.
 It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
 {% endif %}
 </div>
+{% endif %}
 {% endif %}
 {% endif %}
 {% endfor %}
