@@ -3,7 +3,7 @@ layout: default
 img: zork.jpg
 img_link: https://en.wikipedia.org/wiki/Zork#/media/
 caption: Zork, an early intractive fiction game released in 1977.
-title: In-Class Activity 1 "Play Text-Adventure Games"
+title: Play Text-Adventure Games
 type: in-class
 active_tab: homework
 release_date: 2020-01-04
@@ -29,24 +29,23 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <!-- End of check whether the assignment is up to date -->
 
 
-<!-- Check whether the assignment is up to date -->
-{% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
-{% capture due_year %}{{page.due_date | date: '%Y'}}{% endcapture %}
-{% if this_year != due_year %} 
-<div class="alert alert-danger">
-Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
+
+{% if page.type == "in-class" %}
+<!-- In class activity -->
+<div class="alert alert-info">
+This is the in-class activity for {{ page.due_date | date: "%A %B %-d" }}.
 </div>
-{% endif %}
-<!-- End of check whether the assignment is up to date -->
-
-
+{% else %}
+<!-- Homework assignment -->
 <div class="alert alert-info">
 This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
 </div>
 
+{% endif %}
+
 {% if page.materials %}
 <div class="alert alert-info">
-You can download the materials for this assignment here:
+The materials for this assignment are here:
 <ul>
 {% for item in page.materials %}
 <li><a href="{{item.url}}">{{ item.name }}</a></li>
@@ -57,7 +56,7 @@ You can download the materials for this assignment here:
 
 
 
-In Class Activity 1: Play Text Adventure Games
+In Class Activity: Play Text Adventure Games
 =============================================================
 
 
@@ -78,6 +77,4 @@ Today in class, you will play a couple text-adventure games, and answer some que
 4. If you had near-infinite resources (for GPUs, to build datasets, to collect human annotations, etc.), how would you propose to improve AI Dungeon to make it more fun to play?
 
 
-## What to submit
 
-Submit a PDF to Gradescope containing the answers to the questions.
