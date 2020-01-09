@@ -46,7 +46,7 @@ The lecture schedule will be updated as the term progresses.
         class="info" 
       {% else if lecture.type and lecture.type == 'deadline' %}
         class="warning"
-      {% else if lecture.type and lecture.type == 'homework' %}
+      {% else if lecture.type and lecture.type == 'homework_due' %}
         class="primary"
       {% else if lecture.type and lecture.type == 'no_lecture' %}
         class="success"
@@ -127,8 +127,13 @@ The lecture schedule will be updated as the term progresses.
         {% endif %}
       </td>
       <td>
-        {% if lecture.homework %} 
-          {{lecture.homework}}
+        {% if lecture.homework_due %} 
+          {% for hw in lecture.homework_due %}
+            {% if hw.url %}<a href="homeworks/{{hw.url}}">{{hw.title}}</a>
+            {% else %}{{hw.title}} 
+            {% endif %}
+            {% if hw.note %}<i>{{hw.note}}</i>{% endif %}
+          {% endfor %}
         {% endif %}
       </td>
     </tr>
