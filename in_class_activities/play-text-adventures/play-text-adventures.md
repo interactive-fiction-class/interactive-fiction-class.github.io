@@ -84,10 +84,35 @@ While you're plaing this game, please do the following:
 
 Unlike classic text adventures, AI Dungeon will let you enter any command that you want to.  Rather than having an internal representation of the game as a map with locations and objects, it generates its descriptions on the fly, based on your commands and what has been described so far.  On the one hand, this demonstrates the power of modern neural language models.  On the otherhand, it removes some of elements that are important to game play.  For instance, if you come across a locked door in AI Dungeon, you can just say ``Pick the key up off the ground and unlock the door``.  Just by saying it, you will have created a key from nothing.  
 
+We recommend starting out with a game in the __fantasy__ setting.  Play along as if you are a character from  Lord of the Rings.
 
 While you're plaing this game, please do the following:
 * __Keep track of bad responses__.  Sometimes the game fails to understand your intent, and sometimes it generates illogical responses.  Once you see this, copy-and-paste what you said, and how the game responded.  Write down why you think it was a bad reponse.
+* __Try to force the game off into a different setting__.  The game starts off as a Dungeons and Dragons-style adventure.  You can get it off track quickly by not playing to character type.  If you manage to make the game take a funny turn that breaks the theme, copy-and-paste it to share with us.
 
+<!--
+You are Bob, a wizard living in the kingdom of Larion. You have a staff and a spellbook. You finish your long journey and finally arrive at the ruin you've been looking for. You look around and see that it's not much different than when you left it.
+
+You walk through the ruins and eventually find yourself in a large room with many doors on all sides. You knock on one of them and hear someone opening it up. It is none other than Elana!
+
+> "Hello, darling!  How are you?  Shall we go to brunch?"
+
+"Hi, I'm fine!" Elana says as she walks out of the door.
+"I was just about to ask how you were doing."
+"Oh, well I'm good. What do you want?"
+"Well... I mean..."
+
+> "Mimosas!"
+
+"Mimosas!" Elana gasps.
+"Yeah, they're delicious! And I love brunch!"
+"Brunch sounds great! Let me get us some food then!"
+"Sure thing, let's go!"
+
+> Make a reservation on OpenTable and hale an Uber.
+
+You quickly order up a table for two at OpenTable and book an uber to take you there. When you arrive, you find that it's indeed brunch time. The place looks very fancy, but the waiters don't seem to be wearing uniforms or anything else that would give away their identity.
+-->
 
 ## Questions
 1. How many of the rooms did you explore in Bronze? This is tracked for you in the title bar at the top of the game.  Did you solve any of puzzles?
