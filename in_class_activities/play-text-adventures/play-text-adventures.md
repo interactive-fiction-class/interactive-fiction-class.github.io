@@ -65,7 +65,7 @@ Today in class you will play a couple text-adventure games, and answer some ques
 
 2. [AI Dungeon 2](https://colab.sandbox.google.com/github/nickwalton/AIDungeon/blob/master/AIDungeon_2.ipynb). This is a modern a machine-generated text adventure.  It uses a neural network based language model called [GPT-2](https://openai.com/blog/better-language-models/).
 
-## Classic Text Adventures
+## Bronze: A Classic Text Adventure
 
 The parser for Bronze has a limited vocabulary.  This cheatsheet should guide to what commands are allowable in text adventure games:
 
@@ -73,7 +73,7 @@ The parser for Bronze has a limited vocabulary.  This cheatsheet should guide to
 <img src="play-if-card.png" class="img-responsive"/>
 </center>
 
-Helpfully, the very first interaction with Bronze is a question asking you ``Have you played interactive fiction before? >``.  We recommend responding ``no``.  If you do, then Bronze will display a bunch of userful hints about what commands you can use.
+Helpfully, the very first interaction with Bronze is a question asking you ``Have you played interactive fiction before? >``.  We recommend responding ``no``.  If you do, then Bronze will display a bunch of userful hints about what commands you can use at each location in the game.
 
 While you're plaing this game, please do the following:
 * __Draw a map of the game__ as you go.  Drawing maps was a normal practice in classific interactive fiction games.  We'll ask you to take a snapshot of your map and turn it in via Gradescope at the end of the class period.
@@ -89,7 +89,7 @@ While you're plaing this game, please do the following:
 * __Keep track of bad responses__.  Sometimes the game fails to understand your intent, and sometimes it generates illogical responses.  Once you see this, copy-and-paste what you said, and how the game responded.  Write down why you think it was a bad reponse.
 
 
-### Questions
+## Questions
 1. How many of the rooms did you explore in Bronze? This is tracked for you in the title bar at the top of the game.  Did you solve any of puzzles?
 1. When you tried a command and it failed, where you able to re-issue a different command that the game could understand?  If so, give an example.  If not, what did you do instead?
 2. What do you perceive are the challenges in designing a text adventure game as compared to non-interactive fiction?
