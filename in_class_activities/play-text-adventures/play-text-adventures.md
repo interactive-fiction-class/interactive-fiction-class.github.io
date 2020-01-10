@@ -59,19 +59,39 @@ The materials for this assignment are here:
 In Class Activity: Play Text Adventure Games
 =============================================================
 
+Today in class you will play a couple text-adventure games, and answer some questions about them. We are going to play two games:
 
-## Instructions
+1. [Bronze](http://iplayif.com/?story=http://www.ifarchive.org/if-archive/games/zcode/Bronze.zblorb).  This is a text adventure game in the style of classic games like [Zork](http://textadventures.co.uk/games/view/5zyoqrsugeopel3ffhz_vq/zork) and other [Infocom games](https://en.wikipedia.org/wiki/Classic_Text_Adventure_Masterpieces_of_Infocom).  
 
-Today in class, you will play a couple text-adventure games, and answer some questions about them. 
+2. [AI Dungeon 2](https://colab.sandbox.google.com/github/nickwalton/AIDungeon/blob/master/AIDungeon_2.ipynb). This is a modern a machine-generated text adventure.  It uses a neural network based language model called [GPT-2](https://openai.com/blog/better-language-models/).
 
-1. Play the text adventure game [Bronze](http://iplayif.com/?story=http://www.ifarchive.org/if-archive/games/zcode/Bronze.zblorb), either until you win it or you have spent over an hour on it.  Draw a map of the game as you go.
-2. Play [AI Dungeon 2](https://colab.sandbox.google.com/github/nickwalton/AIDungeon/blob/master/AIDungeon_2.ipynb), a machine-generated text adventure.
-3. Answer the quetions in the following section.
+## Classic Text Adventures
 
+The parser for Bronze has a limited vocabulary.  This cheatsheet should guide to what commands are allowable in text adventure games:
+
+<center>
+<img src="play-if-card.png" class="img-responsive"/>
+</center>
+
+Helpfully, the very first interaction with Bronze is a question asking you ``Have you played interactive fiction before? >``.  We recommend responding ``no``.  If you do, then Bronze will display a bunch of userful hints about what commands you can use.
+
+While you're plaing this game, please do the following:
+* __Draw a map of the game__ as you go.  Drawing maps was a normal practice in classific interactive fiction games.  We'll ask you to take a snapshot of your map and turn it in via Gradescope at the end of the class period.
+* __Keep track of failed commands__.  Write down or copy-and-paste a list of any commands that you try that the game fails to understand.
+
+
+## AI Dungeon 2
+
+Unlike classic text adventures, AI Dungeon will let you enter any command that you want to.  Rather than having an internal representation of the game as a map with locations and objects, it generates its descriptions on the fly, based on your commands and what has been described so far.  On the one hand, this demonstrates the power of modern neural language models.  On the otherhand, it removes some of elements that are important to game play.  For instance, if you come across a locked door in AI Dungeon, you can just say ``Pick the key up off the ground and unlock the door``.  Just by saying it, you will have created a key from nothing.  
+
+
+While you're plaing this game, please do the following:
+* __Keep track of bad responses__.  Sometimes the game fails to understand your intent, and sometimes it generates illogical responses.  Once you see this, copy-and-paste what you said, and how the game responded.  Write down why you think it was a bad reponse.
 
 
 ### Questions
-1. Were you able to beat Bronze?
+1. How many of the rooms did you explore in Bronze? This is tracked for you in the title bar at the top of the game.  Did you solve any of puzzles?
+1. When you tried a command and it failed, where you able to re-issue a different command that the game could understand?  If so, give an example.  If not, what did you do instead?
 2. What do you perceive are the challenges in designing a text adventure game as compared to non-interactive fiction?
 3. While AI Dungeon 2 is fun to play, it clearly gets a lot of things wrong. What is the system lacking as compared to hand-crafted games?
 4. If you had near-infinite resources (for GPUs, to build datasets, to collect human annotations, etc.), how would you propose to improve AI Dungeon to make it more fun to play?
