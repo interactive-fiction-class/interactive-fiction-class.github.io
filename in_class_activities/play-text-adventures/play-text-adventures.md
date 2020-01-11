@@ -59,7 +59,7 @@ The materials for this assignment are here:
 In Class Activity: Play Text Adventure Games
 =============================================================
 
-Today in class you will play a couple text-adventure games, and answer some questions about them. We are going to play two games:
+Today in class you will play a couple text-adventure games in groups of 2-4 people, and answer some questions about them. We are going to play two games:
 
 1. [Bronze](http://iplayif.com/?story=http://www.ifarchive.org/if-archive/games/zcode/Bronze.zblorb).  This is a text adventure game in the style of classic games like [Zork](http://textadventures.co.uk/games/view/5zyoqrsugeopel3ffhz_vq/zork) and other [Infocom games](https://en.wikipedia.org/wiki/Classic_Text_Adventure_Masterpieces_of_Infocom).  
 
@@ -112,6 +112,11 @@ You walk through the ruins and eventually find yourself in a large room with man
 > Make a reservation on OpenTable and hale an Uber.
 
 You quickly order up a table for two at OpenTable and book an uber to take you there. When you arrive, you find that it's indeed brunch time. The place looks very fancy, but the waiters don't seem to be wearing uniforms or anything else that would give away their identity.
+
+> Tell the maitre d' that we have a reservation.
+
+"We have a reservation here," you say.
+"Ah, yes, I remember seeing you on this list. Well then, if you'll excuse me, I must inform my superior that we have a reservation."
 -->
 
 ## Questions
