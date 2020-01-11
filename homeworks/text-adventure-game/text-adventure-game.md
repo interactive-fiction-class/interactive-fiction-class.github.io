@@ -7,7 +7,7 @@ title: Build a Text-Adventure Game
 type: Homework
 number: 1
 active_tab: homework
-release_date: 2020-01-16 
+release_date: 2020-01-09 
 due_date: 2020-01-30 13:30:00EST
 materials:
     - 
@@ -109,6 +109,8 @@ Optionally, you can think about adding other elements to your game, like:
 * Changes over time
 * Interesting non-player characters
 
+Feel free to modify the starter code in any way you see fit in order to enable your game ideas. However, the "Play the game" and "Visualize your game" code blocks should remain functional.
+
 We will play your game in class on January 23, and your classmates will help to grade this assignment based on how fun/creative/interesting your game is.  Be creative!  For inspiration, we recommend searching Pinterest for cross-section maps.  Here are some that we like:
 
 <div class="container-fluid">
@@ -141,12 +143,14 @@ Hint: I recommend drawing out on your game on [graph paper](http://print-graph-p
 
 ## What to submit
 
-You should submit a link to a Github repository which contains the following.
+You should submit a link to a Github repository which contains the following:
 
-1. A colab to run Action Castle. (You can use [Google Colab to view Python Notebooks on Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb))
-2. A colab to run the initial version of your game.
+1. An IPython notebook called `action_castle.ipynb` that runs Action Castle. (You can use [Google Colab to view IPython Notebooks on Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb).)
+2. An IPython notebook called `my_game.ipynb` that runs the initial version of your game.
 3. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It shold be a plain text file with one command per line.
-4. A short paragraph describing your game, and why you picked that topic.
+4. A text file called `README.md` containing a short paragraph describing your game, and why you picked that topic.
+
+Submissions should be done on [Gradescope](https://www.gradescope.com/courses/78405/assignments/322804).
 
 {% if page.readings %} 
 ## Recommended readings
