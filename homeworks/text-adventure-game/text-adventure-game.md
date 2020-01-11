@@ -90,10 +90,32 @@ Dungeon Stairs, Dungeon, Great Feasting Hall, Throne Room).
 3. Update the code so that it can handle the actions/commands/preconditions that are described by the Action Castle module.
 
 <div class="alert alert-warning" markdown="1">
-Need a hint on how to get started? I as able to re-implement the whole of the Action Castle game$$^*$$ using the starter code by modifying the ```build_game``` function, the ```check_preconditions``` function, and by adding a few new methods to the [Special functions section](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb#scrollTo=YNrsHhpMTC8w).  None of the other starter code needed to be modified. It took me about 5 hours total.  
+__Need a hint on how to get started?__ I as able to re-implement the whole of the Action Castle game$$^*$$ using the starter code by modifying the ```build_game``` function, the ```check_preconditions``` function, and by adding a few new methods to the [Special functions section](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb#scrollTo=YNrsHhpMTC8w).  None of the other starter code needed to be modified. It took me about 5 hours total to implement the game.
 
 $$^*$$Except for this part: _The ghost will reach out for the player to stop his heart if the player lingers here._ I skipped that part of the game.
 </div>
+
+
+<div class="alert alert-warning" markdown="1">
+__Advanced Hint:__ To do handle state changes (like the guard going from awake to unconscious), I used two Items to represent the different states, and then used a special function to perform multiple actions that would destroy Item and put the other Item in its place.  For example:
+```python
+  guard = Item("guard", "a guard carrying a sword and a key", "HE LOOKS AT YOU SUSPICIOUSLY.",
+    start_at=courtyard, gettable=False)
+  unconscious_guard = Item("unconscious guard", "an unconscious guard is slumpped against the wall", 
+    "HE HAS BITS OF BRANCH ON HIS UNIFORM.", start_at=None, gettable=False)
+
+  guard.add_action("hit guard with branch", perform_multiple_actions, 
+      ([(destroy_item, (branch,"You swing your branch against the guard. It shatters to pieces.",
+                               "You already tried that.")),
+      (destroy_item, (guard,"The guard slumps over, unconscious.","")),
+      (create_item, (unconscious_guard,"The guard's unconscious body lies on the ground.")),
+      (create_item, (key,"His key falls from his hand.")),
+      ]), preconditions={"inventory_contains":branch , "location_has_item": guard})
+ 
+```  
+There are other ways of handling this, and you're not obligated to use my way.
+</div>
+
 
 ### Task 2: Implement Your Own Creation
 
@@ -138,7 +160,7 @@ We will play your game in class on January 23, and your classmates will help to 
 
 
 <div class="alert alert-warning" markdown="1">
-Hint: I recommend drawing out on your game on [graph paper](http://print-graph-paper.com/) before you get started.
+__Tip:__ I recommend drawing out on your game on [graph paper](http://print-graph-paper.com/) before you get started.
 </div>
 
 ## What to submit
@@ -155,6 +177,6 @@ Submissions should be done on [Gradescope](https://www.gradescope.com/courses/78
 {% if page.readings %} 
 ## Recommended readings
 {% for reading in page.readings %}
-* {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a>.  _{{ reading.note }}_
+* {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a>.  <i>{{ reading.note }}</i>
 {% endfor %}
 {% endif %}
