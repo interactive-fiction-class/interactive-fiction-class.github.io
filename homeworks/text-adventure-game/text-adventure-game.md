@@ -8,7 +8,7 @@ type: Homework
 number: 1
 active_tab: homework
 release_date: 2020-01-09 
-due_date: 2020-01-30 13:30:00EST
+due_date: 2020-01-23 13:30:00EST
 materials:
     - 
         name: Text Adventure Game (Python Notebook viewable on Google Colab)
@@ -158,4 +158,3 @@ Submissions should be done on [Gradescope](https://www.gradescope.com/courses/78
 * {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a>.  _{{ reading.note }}_
 {% endfor %}
 {% endif %}
-
