@@ -27,7 +27,7 @@ The in-class activity for {{ page.due_date | date: "%A %b %-d" }} will be to <a 
 {% else %}
 <!-- Homework assignment -->
 <div class="alert alert-info">
-<a href="{{page.url}}">{{ page.title }}</a> has been released.  
+<a href="{{page.url}}">{{page.type}} {{page.number}}: {{page.title}}</a> has been released.  
 {% if page.deliverables %}
 The assignment has multiple deliverables.
 <ul>
@@ -84,7 +84,7 @@ Discussion Forum
 : [Slack](http://cis700-ifatg.slack.com/)
 
 Time and place
-: Spring 2019, Thursdays from 1:30-4:30pm in Towne 327 (the Active Learning Classroom)
+: Spring 2019, Thursdays from 1:30-4:30pm in Towne 327 (The Hartman Family Technology Entrepreurship Forum)
 : First day of class is January 16, 2020
 : Last day of class is April 23, 2020
 
