@@ -84,7 +84,7 @@ Discussion Forum
 : [Slack](http://cis700-ifatg.slack.com/)
 
 Announcements
-: [Request to join the Google Group] https://groups.google.com/forum/#!forum/cis700-2019-iftg
+: [Request to join the Google Group](https://groups.google.com/forum/#!forum/cis700-2019-iftg)
 
 Time and place
 : Spring 2019, Thursdays from 1:30-4:30pm in Towne 327 (The Hartman Family Technology Entrepreurship Forum)
