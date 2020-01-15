@@ -99,7 +99,9 @@ We'll give you several suggestions of interesting possible directions, but we en
 
 ### Task 1: Intent Detection
 
-An intent detection module will take in a natural language command, and determine what the player wants to do.  In the [Parser class of the text adventure starter code](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb) that we gave you in HW1. there is a ``get_player_intent`` function that takes in a command from the player and returns what the player wants to do, from a set of 8 possibilities: 
+An intent detection module takes as input a natural language command and determines what action the player is attempting to take.
+In the  In the [Parser class of the text adventure starter code](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb) that we gave you in HW1, this module is implemented in the ``get_player_intent`` function.
+In the version of the code we gave you, the function takes in a command from the player and returns one of eight possible actions: 
 * __direction__ - the player wants to move somewhere
 * __examine__ - the player wants to look at something 
 * __redescribe__ - the player wants to redescribe the current location
@@ -116,7 +118,7 @@ We would like you to use NLP and machine learning to update the keyword-based pa
 
 
 
-### 1. Natural Language Commands for Action Castle [15 points]
+#### 1. Natural Language Commands for Action Castle [15 points]
 
 We're going to begin this assignment by brainstorming different ways that a player could say each command.  We will do a play through of Action Castle, and write out different ways of saying each command. 
 
