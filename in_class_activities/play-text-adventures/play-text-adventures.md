@@ -59,7 +59,7 @@ The materials for this assignment are here:
 In Class Activity: Play Text Adventure Games
 =============================================================
 
-Today in class you will play a couple text-adventure games in groups of 2-4 people, and answer some questions about them. We are going to play two games:
+Today in class you will play a couple text-adventure games in groups of 2-5 people, and answer some questions about them. We are going to play two games:
 
 1. [Bronze](http://iplayif.com/?story=http://www.ifarchive.org/if-archive/games/zcode/Bronze.zblorb).  This is a text adventure game in the style of classic games like [Zork](http://textadventures.co.uk/games/view/5zyoqrsugeopel3ffhz_vq/zork) and other [Infocom games](https://en.wikipedia.org/wiki/Classic_Text_Adventure_Masterpieces_of_Infocom).  
 
@@ -76,7 +76,7 @@ The parser for Bronze has a limited vocabulary.  This cheatsheet should guide to
 Helpfully, the very first interaction with Bronze is a question asking you ``Have you played interactive fiction before? >``.  We recommend responding ``no``.  If you do, then Bronze will display a bunch of userful hints about what commands you can use at each location in the game.
 
 ### Questions
-1.  __Draw a map of the game__ as you go.  Drawing maps was a normal practice in classific interactive fiction games.  Take a snapshot of your map and add it to the doc you'll submit.
+1.  __Draw a map of the game__ as you go.  Drawing maps was a normal practice in classific interactive fiction games.  Include your map in the document you submit to us.
 2. How many of the rooms did you explore in Bronze? This is tracked for you in the title bar at the top of the game.  Did you solve any of puzzles?
 3.  __Keep track of failed commands__.  Write down or copy-and-paste a list of any commands that you try that the game fails to understand. When you tried a command and it failed, where you able to re-issue a different command that the game could understand?  If so, give an example. 
 
@@ -116,10 +116,10 @@ You quickly order up a table for two at OpenTable and book an uber to take you t
 -->
 
 ### Questions
-4.  __Keep track of bad responses__.  Sometimes the game fails to understand your intent, and sometimes it generates illogical responses.  For a few instances of this, copy-and-paste what you said, and how the game responded.  Write down why you think it was a bad response.
-5 __Try to force the game off into a different setting__.  The game starts off as a Dungeons and Dragons-style adventure.  You can get it off track quickly by not playing to character type.  If you manage to make the game take a funny turn that breaks the theme, copy-and-paste it to share with us.
+4.  __Keep track of bad responses__.  Sometimes the game fails to understand your intent, and sometimes it generates illogical responses.  For a few instances of this, copy down what you said, and how the game responded.  Write down why you think it was a bad response.
+5 __Try to force the game off into a different setting__.  The game starts off as a Dungeons and Dragons-style adventure.  You can get it off track quickly by not playing to character type.  If you manage to make the game take a funny turn that breaks the theme, copy it down to share with us.
 6. While AI Dungeon 2 is fun to play, it clearly gets a lot of things wrong. What is the system lacking as compared to hand-crafted games?
 7. If you had near-infinite resources (for GPUs, to build datasets, to collect human annotations, etc.), how would you propose to improve AI Dungeon to make it more fun to play?
 
 ## What to submit
-Submit a PDF with your question answers to https://www.gradescope.com/courses/78405/assignments/331462 by the end of the day.
+Submit a PDF with your question answers to https://www.gradescope.com/courses/78405/assignments/331462 by midnight tonight. Your PDF can either be typset, or it can be a scan of your hand-written notes from class. Gradescope allows group submissions, and only one submissions needs to be made per group.
