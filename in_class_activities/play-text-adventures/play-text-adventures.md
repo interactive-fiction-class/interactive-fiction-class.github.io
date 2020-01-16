@@ -122,6 +122,4 @@ You quickly order up a table for two at OpenTable and book an uber to take you t
 7. If you had near-infinite resources (for GPUs, to build datasets, to collect human annotations, etc.), how would you propose to improve AI Dungeon to make it more fun to play?
 
 ## What to submit
-
-
-
+Submit a PDF with your question answers to https://www.gradescope.com/courses/78405/assignments/331462 by the end of the day.
