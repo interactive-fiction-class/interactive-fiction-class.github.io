@@ -77,29 +77,31 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
+## Instructions
 
-In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and naural language processing (NLP) in general have evolved tremendously since the 1970s. NLP is a vibrant subfield of artificial intelligence.  One of the goals of NLP is to allow computers to understand commands spoken in human language.  This enables technologies like Amazon Alexa, Apple’s Siri or Google’s Assistant.
+In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and natural language processing (NLP) in general have evolved tremendously since the 1970s. NLP is a vibrant subfield of artificial intelligence.  One of the goals of NLP is to allow computers to understand commands spoken in human language.  This enables technologies like Amazon Alexa, Apple’s Siri or Google’s Assistant.
 
-In early interactive fiction games, players were forced to use commands with a strict `verb object` syntax.  They can only say things like. 
 
-```
-"Pick rose"
-"Smell rose"
-```
+Early interactive fiction games, as well as the games you implemented for Homework 1, force players to enter commands following a strict syntax, often using the `verb object` form. Players can only say things like `pick rose` or `smell rose` if those commands have been specifically programmed into the parser. 
 
-We are going to use NLP to will allow players to say something more elaborate like
+In this homework you will be using NLP to allow players to say something more elaborate like
 
 ```
 "Pluck a fresh bloom from the rosebush, and inhale its scent."
 ```
 
-For this assignment, you will implement two NLP components.  Everyone will implement an __intent detection module__.  The second component is up to you.  We'll give several suggestions of intereting possible directions, but you can use your creativity and imagination for that part.
+In this homework, you will implement two NLP components in your game.
+The first, an __intent detection module__ that uses word embeddings to improve the parser, is defined for you.
+For the second component, you may draw from the the last three decades of NLP research to come up with a creative way to improve your game.
+We'll give you several suggestions of interesting possible directions, but we encourage you to come up with your own ideas.
 
 
 
-## Task 1: Intent Detection
+### Task 1: Intent Detection
 
-An intent detection module will take in a natural language command, and determine what the player wants to do.  In the [Parser class of the text adventure starter code](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb) that we gave you in HW1. there is a ``get_player_intent`` function that takes in a command from the player and returns what the player wants to do, from a set of 8 possibilities: 
+An intent detection module takes as input a natural language command and determines what action the player is attempting to take.
+In the  In the [Parser class of the text adventure starter code](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb) that we gave you in HW1, this module is implemented in the ``get_player_intent`` function.
+In the version of the code we gave you, the function takes in a command from the player and returns one of eight possible actions: 
 * __direction__ - the player wants to move somewhere
 * __examine__ - the player wants to look at something 
 * __redescribe__ - the player wants to redescribe the current location
@@ -116,7 +118,7 @@ We would like you to use NLP and machine learning to update the keyword-based pa
 
 
 
-### 1. Natural Language Commands for Action Castle [15 points]
+#### 1. Natural Language Commands for Action Castle [15 points]
 
 We're going to begin this assignment by brainstorming different ways that a player could say each command.  We will do a play through of Action Castle, and write out different ways of saying each command. 
 
