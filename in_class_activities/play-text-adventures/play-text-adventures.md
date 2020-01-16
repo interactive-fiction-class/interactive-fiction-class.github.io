@@ -76,7 +76,7 @@ The parser for Bronze has a limited vocabulary.  This cheatsheet should guide to
 Helpfully, the very first interaction with Bronze is a question asking you ``Have you played interactive fiction before? >``.  We recommend responding ``no``.  If you do, then Bronze will display a bunch of userful hints about what commands you can use at each location in the game.
 
 ### Questions
-1.  __Draw a map of the game__ as you go.  Drawing maps was a normal practice in classific interactive fiction games.  Take a snapshot of your map and turn it in via Gradescope at the end of the class period.
+1.  __Draw a map of the game__ as you go.  Drawing maps was a normal practice in classific interactive fiction games.  Take a snapshot of your map and add it to the doc you'll submit.
 2. How many of the rooms did you explore in Bronze? This is tracked for you in the title bar at the top of the game.  Did you solve any of puzzles?
 3.  __Keep track of failed commands__.  Write down or copy-and-paste a list of any commands that you try that the game fails to understand. When you tried a command and it failed, where you able to re-issue a different command that the game could understand?  If so, give an example. 
 
