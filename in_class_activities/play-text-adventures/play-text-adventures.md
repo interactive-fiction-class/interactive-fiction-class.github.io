@@ -78,7 +78,7 @@ Helpfully, the very first interaction with Bronze is a question asking you ``Hav
 ### Questions
 1.  __Draw a map of the game__ as you go.  Drawing maps was a normal practice in classific interactive fiction games.  Include your map in the document you submit to us.
 2. How many of the rooms did you explore in Bronze? This is tracked for you in the title bar at the top of the game.  Did you solve any of puzzles?
-3.  __Keep track of failed commands__.  Write down or copy-and-paste a list of any commands that you try that the game fails to understand. When you tried a command and it failed, where you able to re-issue a different command that the game could understand?  If so, give an example. 
+3.  __Keep track of failed commands__.  Write down or copy-and-paste a list of some of the commands that you tried that the game failed to understand. When you tried a command and it failed, were you able to re-issue a different command that the game could understand?  If so, give an example. 
 
 ## AI Dungeon 2
 
