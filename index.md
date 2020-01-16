@@ -78,15 +78,8 @@ Instructors
 : [Daphne Ippolito](https://www.seas.upenn.edu/~daphnei/)
 : [Chris Callison-Burch](https://www.cis.upenn.edu/~ccb/)
 
-Our emails are respectively daphnei and ccb at seas.upenn.edu. **Please include CIS700 in the subject line of any emails about the class.**
-
 Discussion Forum
 : [Piazza](https://piazza.com/upenn/spring2020/cis700008)
-
-<!--
-Announcements
-: [Request to join the Google Group](https://groups.google.com/forum/#!forum/cis700-2019-iftg)
--->
 
 Time and place
 : Spring 2019, Thursdays from 1:30-4:30pm in Towne 327 (The Hartman Family Technology Entrepreurship Forum)
