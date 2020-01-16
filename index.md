@@ -103,8 +103,9 @@ Textbooks
 
 Grading
 : There will be five homeworks and a final project. In addition, you will be required to present a paper in class.
-* 10% Presentation
-* 50% Homeworks 
+* 10% Paper Presentation
+* 5% Class Participation 
+* 45% Homeworks 
 * 40% Final project
 
 Paper Presentations
