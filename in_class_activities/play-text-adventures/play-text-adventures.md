@@ -117,7 +117,7 @@ You quickly order up a table for two at OpenTable and book an uber to take you t
 
 ### Questions
 4.  __Keep track of bad responses__.  Sometimes the game fails to understand your intent, and sometimes it generates illogical responses.  For a few instances of this, copy down what you said, and how the game responded.  Write down why you think it was a bad response.
-5 __Try to force the game off into a different setting__.  The game starts off as a Dungeons and Dragons-style adventure.  You can get it off track quickly by not playing to character type.  If you manage to make the game take a funny turn that breaks the theme, copy it down to share with us.
+5. __Try to force the game off into a different setting__.  The game starts off as a Dungeons and Dragons-style adventure.  You can get it off track quickly by not playing to character type.  If you manage to make the game take a funny turn that breaks the theme, copy it down to share with us.
 6. While AI Dungeon 2 is fun to play, it clearly gets a lot of things wrong. What is the system lacking as compared to hand-crafted games?
 7. If you had near-infinite resources (for GPUs, to build datasets, to collect human annotations, etc.), how would you propose to improve AI Dungeon to make it more fun to play?
 
