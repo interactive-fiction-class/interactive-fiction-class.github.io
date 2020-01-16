@@ -75,10 +75,11 @@ The parser for Bronze has a limited vocabulary.  This cheatsheet should guide to
 
 Helpfully, the very first interaction with Bronze is a question asking you ``Have you played interactive fiction before? >``.  We recommend responding ``no``.  If you do, then Bronze will display a bunch of userful hints about what commands you can use at each location in the game.
 
-While you're plaing this game, please do the following:
-* __Draw a map of the game__ as you go.  Drawing maps was a normal practice in classific interactive fiction games.  We'll ask you to take a snapshot of your map and turn it in via Gradescope at the end of the class period.
-* __Keep track of failed commands__.  Write down or copy-and-paste a list of any commands that you try that the game fails to understand.
-
+### Questions
+1.  __Draw a map of the game__ as you go.  Drawing maps was a normal practice in classific interactive fiction games.  Take a snapshot of your map and turn it in via Gradescope at the end of the class period.
+2. How many of the rooms did you explore in Bronze? This is tracked for you in the title bar at the top of the game.  Did you solve any of puzzles?
+3.  __Keep track of failed commands__.  Write down or copy-and-paste a list of any commands that you try that the game fails to understand. When you tried a command and it failed, where you able to re-issue a different command that the game could understand?  If so, give an example. 
+4. What do you perceive are the challenges in designing a text adventure game as compared to non-interactive fiction?
 
 ## AI Dungeon 2
 
@@ -120,11 +121,8 @@ You quickly order up a table for two at OpenTable and book an uber to take you t
 -->
 
 ## Questions
-1. How many of the rooms did you explore in Bronze? This is tracked for you in the title bar at the top of the game.  Did you solve any of puzzles?
-1. When you tried a command and it failed, where you able to re-issue a different command that the game could understand?  If so, give an example.  If not, what did you do instead?
-2. What do you perceive are the challenges in designing a text adventure game as compared to non-interactive fiction?
-3. While AI Dungeon 2 is fun to play, it clearly gets a lot of things wrong. What is the system lacking as compared to hand-crafted games?
-4. If you had near-infinite resources (for GPUs, to build datasets, to collect human annotations, etc.), how would you propose to improve AI Dungeon to make it more fun to play?
+4. While AI Dungeon 2 is fun to play, it clearly gets a lot of things wrong. What is the system lacking as compared to hand-crafted games?
+5. If you had near-infinite resources (for GPUs, to build datasets, to collect human annotations, etc.), how would you propose to improve AI Dungeon to make it more fun to play?
 
 
 
