@@ -13,6 +13,9 @@ materials:
     - 
         name: Text Adventure Game (Python Notebook viewable on Google Colab)
         url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb
+    - 
+        name: Action Castle PDF (accessible only if you have an @SEAS.upenn.edu email address. Post to Piazza if you can't access it)
+        url: https://drive.google.com/open?id=0B2lqQK5UI65eRUdkdVRPWXBLRUdtalBHbS1IaTR2TWM1eVpR
 submission_link: https://www.gradescope.com/courses/78405
 readings:
     -
