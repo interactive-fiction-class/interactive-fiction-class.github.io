@@ -7,7 +7,11 @@ active_tab: main_page
 
 
 <div class="alert alert-info" markdown="1">
-There are still a few places available in the class.  If you're interested in joining this course (CIS 700-008), [you can sign yourself up for the waitlist](https://forms.cis.upenn.edu/waitlist/index.php).  
+Want to join the class, but didn't attend the first lecture? Here are the steps to follow:
+1. [Get a permit by signing yourself up for CIS 700-008 via the waitlist system](https://forms.cis.upenn.edu/waitlist/index.php).  
+2. [Do the for-credit in-class assignment from the first lecture](http://interactive-fiction-class.org/in_class_activities/play-text-adventures/play-text-adventures.html).
+3. [Listen to recording of the first lecture](https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=8b5f2734-0738-4f52-90f5-ab3c01236b7c) and [look over the slides](http://interactive-fiction-class.org/slides/text-adventure-games.pdf).
+4. [Complete the first homework assignment before class on Thursday](http://interactive-fiction-class.org/homeworks/text-adventure-game/text-adventure-game.html).
 </div>
 
 
