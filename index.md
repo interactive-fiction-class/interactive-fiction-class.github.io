@@ -6,7 +6,7 @@ active_tab: main_page
 ---
 
 
-<div class="alert alert-info" markdown="1">
+<div class="alert alert-warning" markdown="1">
 Want to join the class, but didn't attend the first lecture? Here are the steps to follow:
 1. [Get a permit by signing yourself up for CIS 700-008 via the waitlist system](https://forms.cis.upenn.edu/waitlist/index.php).  
 2. [Do the for-credit in-class assignment from the first lecture](http://interactive-fiction-class.org/in_class_activities/play-text-adventures/play-text-adventures.html).
