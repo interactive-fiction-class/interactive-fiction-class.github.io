@@ -131,6 +131,8 @@ Your game should include all of the following:
 * At least one "puzzle" where there are certain preconditions that must be met before the player can make forward progress.
 * At least one "win" state and at least one "lose" state.
 
+A fun example of a tiny game with very 3 locations and 3 items is the "Flaming Goat" game in Jared A. Sorensen's [Parsley book](http://www.memento-mori.com/parsely-products/parsely-pdf).  I played it with my 6 year old son, and it cracked him up.
+
 Optionally, you can think about adding other elements to your game, like:
 * Scoring
 * Changes over time
