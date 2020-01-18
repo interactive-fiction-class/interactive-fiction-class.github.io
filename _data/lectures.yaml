@@ -84,7 +84,7 @@
   homework: HW1B 
 -
   date: 2020-02-06
-  title: World Representations 
+  title: Common-sense Reasoning for Interactive Fiction
   activity: Work on RL homework
   slides:
   readings:
@@ -98,6 +98,11 @@
       authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
       optional: false
       url: https://www.ijcai.org/proceedings/2017/0144.pdf
+    -
+      title: Threat, Explore, Barter, Puzzle&colon; A Semantically-Informed Algorithm for Extracting Interaction Modes
+      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
+      optional: true
+      url: https://www.semanticscholar.org/paper/Threat%2C-Explore%2C-Barter%2C-Puzzle%3A-A-Algorithm-for-Fulda-Ricks/05b4551bfe45fe336f75544b4a777428e1f62695
   optional:
     -
       title: Put My Galakmid Coin into the Dispenser and Kick It&colon; Computational Linguistics and Theorem Proving in a Computer Game
@@ -105,13 +110,39 @@
       optional: true
       url: https://link.springer.com/article/10.1023/B:JLLI.0000024734.80591.30
     -
-      title: Threat, Explore, Barter, Puzzle&colon; A Semantically-Informed Algorithm for Extracting Interaction Modes
-      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
-      optional: true
-      url: https://www.semanticscholar.org/paper/Threat%2C-Explore%2C-Barter%2C-Puzzle%3A-A-Algorithm-for-Fulda-Ricks/05b4551bfe45fe336f75544b4a777428e1f62695
-    -
 -
   date: 2020-02-13
+  title: Unconditioned Text Generation
+  slides:
+  readings:
+    -
+      title: The Illustrated GPT-2 (Visualizing Transformer Language Models)
+      authors: Jay Alammar
+      optional: false
+      url: http://jalammar.github.io/illustrated-gpt2/
+    -
+      title: Daphne's WPE-II
+      authors: Daphne Ippolito
+      optional: false
+  optional:
+    -
+      title: Generating Wikipedia by Summarizing Long Sequences
+      authors: Peter J. Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, Noam Shazeer
+      optional: false
+      url: https://arxiv.org/abs/1801.10198
+    -
+      title: Hierarchical Neural Story Generation
+      authors: Angela Fan, Mike Lewis, Yann Dauphin
+      optional: false
+      url: https://www.aclweb.org/anthology/P18-1082.pdf
+    -
+      title: Do Massively Pretrained Language Models Make Better Storytellers?
+      authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
+      optional: false
+      url: https://arxiv.org/pdf/1909.10705.pdf
+  homework: HW3
+-
+  date: 2020-02-20
   title: Common-sense Reasoning
   homework: HW2
   slides:
@@ -155,9 +186,8 @@
       url: https://www.aclweb.org/anthology/D14-1059.pdf
       year: 2018
 -
-  date: 2020-02-20
+  date: 2020-02-27
   title: Extracting Narrative Structure
-  description: How to ectract schemas or other forms of narrative structure from a text.
   slides:
   readings:
     -
@@ -208,37 +238,6 @@
       url: https://www.youtube.com/watch?v=Hhk4N9A0oCA
       title: What makes a hero?
       length: 5 minutes 
--
-  date: 2020-02-27
-  title: Unconditioned Text Generation
-  slides:
-  readings:
-    -
-      title: The Illustrated GPT-2 (Visualizing Transformer Language Models)
-      authors: Jay Alammar
-      optional: false
-      url: http://jalammar.github.io/illustrated-gpt2/
-    -
-      title: Daphne's WPE-II
-      authors: Daphne Ippolito
-      optional: false
-  optional:
-    -
-      title: Generating Wikipedia by Summarizing Long Sequences
-      authors: Peter J. Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, Noam Shazeer
-      optional: false
-      url: https://arxiv.org/abs/1801.10198
-    -
-      title: Hierarchical Neural Story Generation
-      authors: Angela Fan, Mike Lewis, Yann Dauphin
-      optional: false
-      url: https://www.aclweb.org/anthology/P18-1082.pdf
-    -
-      title: Do Massively Pretrained Language Models Make Better Storytellers?
-      authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
-      optional: false
-      url: https://arxiv.org/pdf/1909.10705.pdf
-  homework: HW3
 -
   date: 2020-03-05
   title: Controllable Text Generation + Generated Text Detection
