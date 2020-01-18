@@ -119,6 +119,8 @@ __Advanced Hint:__ To do handle state changes (like the guard going from awake t
 There are other ways of handling this, and you're not obligated to use my way.
 </div>
 
+The starter code provides a vizualization method that displays a directed graph of the game that you have created.  If you'd like to compare your game graph against mine, you can look at [my vizualization of Action Castle](game-visualization.pdf).
+
 
 ### Task 2: Implement Your Own Creation
 
