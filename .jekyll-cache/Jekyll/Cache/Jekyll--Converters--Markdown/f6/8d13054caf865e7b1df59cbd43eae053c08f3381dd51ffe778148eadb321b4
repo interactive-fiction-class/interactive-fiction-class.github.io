@@ -1,0 +1,47 @@
+I"p<!-- Check whether the assignment is ready to release -->
+
+<!-- End of check whether the assignment is up to date -->
+
+<!-- Check whether the assignment is up to date -->
+
+<!-- End of check whether the assignment is up to date -->
+
+<div class="alert alert-info">
+This assignment is due on Thursday, January 16, 2020 before 11:59PM. 
+</div>
+
+<div class="alert alert-info">
+You can download the materials for this assignment here:
+<ul>
+
+<li><a href="http://iplayif.com/?story=http://www.ifarchive.org/if-archive/games/zcode/Bronze.zblorb">Bronze, A Fractured Fairy Tale by Emily Short</a></li>
+
+<li><a href="https://play.aidungeon.io">AI Dungeon</a></li>
+
+</ul>
+</div>
+
+<h1 id="in-class-activity-1-play-text-adventure-games">In Class Activity 1: Play Text Adventure Games</h1>
+
+<h2 id="instructions">Instructions</h2>
+
+<p>In this home, you will play a couple text-adventure games, and answer some questions about them. This is <strong>not</strong> a partner homework; you should complete it on your own.</p>
+
+<ol>
+  <li>Play the text adventure game <a href="http://iplayif.com/?story=http://www.ifarchive.org/if-archive/games/zcode/Bronze.zblorb">Bronze</a>, either until you win it or you have spent over an hour on it.  Draw a map of the game as you go.</li>
+  <li>Play <a href="https://colab.sandbox.google.com/github/nickwalton/AIDungeon/blob/master/AIDungeon_2.ipynb">AI Dungeon 2</a>, a machine-generated text adventure.</li>
+  <li>Answer the quetions in the following section.</li>
+</ol>
+
+<h3 id="questions">Questions</h3>
+<ol>
+  <li>Were you able to beat Bronze?</li>
+  <li>What do you perceive are the challenges in designing a text adventure game as compared to non-interactive fiction?</li>
+  <li>While AI Dungeon 2 is fun to play, it clearly gets a lot of things wrong. What is the system lacking as compared to hand-crafted games?</li>
+  <li>If you had near-infinite resources (for GPUs, to build datasets, to collect human annotations, etc.), how would you propose to improve AI Dungeon to make it more fun to play?</li>
+</ol>
+
+<h2 id="what-to-submit">What to submit</h2>
+
+<p>Submit a PDF to Gradescope containing the answers to the questions.</p>
+:ET

@@ -1,0 +1,83 @@
+I"�<!-- Check whether the assignment is ready to release -->
+
+<div class="alert alert-danger">
+Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
+</div>
+
+<!-- End of check whether the assignment is up to date -->
+
+<!-- Check whether the assignment is up to date -->
+
+<!-- End of check whether the assignment is up to date -->
+
+<div class="alert alert-info">
+This assignment is due on Thursday, January 30, 2020 before 11:59PM. 
+</div>
+
+<div class="alert alert-info">
+You can download the materials for this assignment here:
+<ul>
+
+<li><a href="https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb">Text Adventure Game (Python Notebook viewable on Google Colab)</a></li>
+
+</ul>
+</div>
+
+<div class="alert alert-info">
+Links to tutorials and other Python resources are posted on the <a href="/lectures.html">schedule page</a> in the Python Review parts.</div>
+
+<h1 id="homework-1-build-a-text-adventure-game">Homework 1: Build a Text-Adventure Game</h1>
+
+<h2 id="instructions">Instructions</h2>
+
+<p>In this home, you will play a small text-adventure game. It can be on any topic or telling any story of your choice. This homework can be completed in groups of up to 2 people. We will play some of the games in class, so the more creative/exciting you make it, the better!</p>
+
+<p>Since this is a graduate-level class, we leave the implementation details open-ended. You may use any programming language or platform of your choice. However, we have put together a small Python library which may be useful. TODO: Add link here</p>
+
+<h3 id="story-requirements">Story Requirements</h3>
+<p>Your game should include all of the following:</p>
+
+<ul>
+  <li>The ability to take as input arbitrary strings. In other words, the user must be able to type commands like “take the octopus from the tank” rather than the game providing a multiple choice list of possible options.</li>
+  <li>At least 3 “rooms”</li>
+  <li>At least 3 objects that can be interacted with. These can be doors, keys, tools, octupi, etc.</li>
+  <li>At least one “win” state and at least one “lose” state.</li>
+</ul>
+
+<h3 id="nlp-requirements">NLP Requirements</h3>
+<p>In the earliest text adventure games, parsers used exact string matching. If a command wasn’t in either the form <code class="highlighter-rouge">verb</code> or <code class="highlighter-rouge">verb object</code>, the parser would not recognize it. However, parsers and NLP in general have evolved tremendously from the 1970s.
+In addition to the story requirements, we ask that you take advantage of at least <strong>two</strong> advancements from the last four decades of NLP research to either make your parser more intelligent than simple string matching or to otherwise improve the game-playing experience.
+Some possible ideas are:</p>
+
+<ul>
+  <li>Using word2vec similarity to allow the parser to do “fuzzy” matching of similar words.</li>
+  <li>Using a modern dependency parser to extract the verb and object from a user input.</li>
+  <li>A guardswoman NPC who will only let you pass if you <a href="https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis">complement her</a>.</li>
+  <li>An ogre who will only marry you if <a href="https://ccc.inaoep.mx/~villasen/bib/LEARNING%20TO%20LAUGH%20(AUTOMATICALLY).pdf">you tell him a joke</a>.</li>
+</ul>
+
+<p>You will likely find (Spacy)[https://spacy.io/usage/facts-figures], (NLTK)[https://www.nltk.org/], or (AllenNLP)[https://github.com/allenai/allennlp] useful for completing this task.</p>
+
+<h2 id="what-to-submit">What to submit</h2>
+
+<ol>
+  <li>
+    <p>You should save your game as [Python notebook in Github].  You can use <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb">Google Colab to view Python Notebooks on Github</a>.  We recommend that you use Colab to test and debug your notebook, since that’s how we are going to play your game.</p>
+  </li>
+  <li>
+    <p>A text file called <code class="highlighter-rouge">playthrough.txt</code> with all of the commands that we need to issue to complete your game.</p>
+  </li>
+  <li>
+    <p>A report that describes how you used <strong>two</strong> advancements in NLP to improve the quality of your game. You should cite relevent papers, and explain how you are using the methods introduced in them.</p>
+  </li>
+</ol>
+
+<p>If you are submitting a Google Colab or IPython notebook, you can include your report as part of the notebook itself, and all you need to submit is a single notebook link. Likewise, if you are using a Github repository, you can put your report into the README, and all you need to submit is the Github link.</p>
+
+<h2 id="recommended-readings">Recommended readings</h2>
+
+<ul>
+  <li>Chris Ainsley / Adventuron Software Limited, <a href="https://adventuron.io/classroom/">Adventuron Classroom</a>.  <em>This is a tutorial aimed at teaching elementary school kids how to program by writing a text adventure game.  I modeled our text adventure game after this Adventuron system.</em></li>
+</ul>
+
+:ET

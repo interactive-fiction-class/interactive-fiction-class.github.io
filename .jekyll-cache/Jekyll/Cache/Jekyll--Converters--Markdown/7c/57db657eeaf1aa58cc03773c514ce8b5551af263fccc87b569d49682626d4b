@@ -1,0 +1,755 @@
+I"aP<!-- Create a HTML anchor for the most recent lecture -->
+
+<!-- End create a HTML anchor for the most recent lecture -->
+
+<!--
+<div class="alert alert-info">
+You can <a href="https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=12985a70-115d-4b55-b0b3-aab500eecae5">watch recordings of the lecture videos online</a>.
+</div>
+-->
+
+<p>The lecture schedule will be updated as the term progresses.</p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Date</th> 
+      <th>Topic</th>
+      <th>Required Readings</th>
+      <th>Supplemental Videos</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr id="now">
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Jan 16, 2020</td>
+      <td width="30%">
+         Text Adventure Games 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              <b>Optional:</b> 
+              Chris Ainsley / Adventuron Software Limited, <a href="https://adventuron.io/classroom/">Adventuron Classroom</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Melissa Ford, <a href="https://www.amazon.com/Writing-Interactive-Fiction-Twine-Melissa-ebook-dp-B01ERR2TN2/dp/B01ERR2TN2/">Writing Interactive Fiction with Twine&colon; Play Inside a Story</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Wikipedia, <a href="https://en.wikipedia.org/wiki/Z-machine">Infocom's Z-machine</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Wikipedia, <a href="https://en.wikipedia.org/wiki/SCUMM">SCUMM&colon; Script Creation Utility for Maniac Mansion</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+         
+          
+           Jason Scott, 
+          <a href="https://www.youtube.com/watch?v=LRhbcDzbGSU">GET LAMP&colon; The Text Adventure Documentary</a> 
+           (2 hours) 
+            <br />
+          
+           Jared Sorensen, 
+          <a href="https://www.youtube.com/watch?v=zbC_bSysbrA">Action Castle at PAX East 2011</a> 
+           (12 minutes) 
+            <br />
+          
+           adventuron.io (maybe talk about http://textadventures.co.uk/ instead), 
+          <a href="https://www.youtube.com/watch?v=zbC_bSysbrA">Create A Text Adventure Game in 30 Minutes (Tutorial)</a> 
+           (35 minutes) 
+            <br />
+          
+        
+      </td>
+    </tr>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr>
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Jan 23, 2020</td>
+      <td width="30%">
+         World Representations 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              <b>Optional:</b> 
+              Alexander Koller, Ralph Debusmann, Malte Gabsdil, and Kristina Striegnitz, <a href="https://link.springer.com/article/10.1023/B:JLLI.0000024734.80591.30">Put My Galakmid Coin into the Dispenser and Kick It&colon; Computational Linguistics and Theorem Proving in a Computer Game</a> 
+            <br />
+          
+          
+          
+              
+              Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate, <a href="https://www.ijcai.org/proceedings/2017/0144.pdf">What Can You Do with a Rock? Affordance Extraction via Word Embeddings</a> 
+            <br />
+          
+          
+          
+              
+              Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate, <a href="https://www.semanticscholar.org/paper/Threat%2C-Explore%2C-Barter%2C-Puzzle%3A-A-Algorithm-for-Fulda-Ricks/05b4551bfe45fe336f75544b4a777428e1f62695">Threat, Explore, Barter, Puzzle&colon; A Semantically-Informed Algorithm for Extracting Interaction Modes</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Interaction Design Foundation, <a href="https://www.interaction-design.org/literature/topics/affordances">What are Affordances?</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Paolo Pareti, Benoit Testu, Ryutaro Ichise, Ewan Klein and Adam Barker, <a href="https://www.interaction-design.org/literature/topics/affordances">Integrating Know-How into the Linked Data Cloud. Knowledge Engineering and Knowledge Management</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Mahnaz Koupaee and William Yang Wang, <a href="https://arxiv.org/abs/1810.09305">WikiHow&colon; A Large Scale Text Summarization Dataset</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+        
+      </td>
+    </tr>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr>
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Jan 30, 2020</td>
+      <td width="30%">
+         Introduction to Reinforcement Learning (guest lecture). 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              
+              Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischle, <a href="https://arxiv.org/pdf/1806.11532.pdf">TextWorld&colon; A Learning Environment for Text-based Games</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+        
+      </td>
+    </tr>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr>
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Feb 6, 2020</td>
+      <td width="30%">
+         Reinforcement Learning for Solving Text-Adventure Games 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              
+              Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay, <a href="https://arxiv.org/abs/1506.08941">Language Understanding for Text-based Games Using Deep Reinforcement Learning</a> 
+            <br />
+          
+          
+          
+              
+              Ji He, Jianshu Chen†, Xiaodong He, Jianfeng Gao, Lihong Li, <a href="https://arxiv.org/abs/1511.04636">Deep Reinforcement Learning with a Natural Language Action Space</a> 
+            <br />
+          
+          
+          
+              
+              Tom Zahavy, Matan Haroush, Nadav Merlis, Daniel J. Mankowitz, Shie Mannor, <a href="https://arxiv.org/abs/1809.02121">Learn What Not to Learn&colon; Action Elimination with Deep Reinforcement Learning</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+        
+      </td>
+    </tr>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr>
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Feb 13, 2020</td>
+      <td width="30%">
+         Common-sense Reasoning 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              <b>Optional:</b> 
+              Kathy Panton, Cynthia Matuszek, Douglas Lenat, Dave Schneider, Michael Witbrock, Nick Siegel, and Blake Shepard, <a href="https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf">Common Sense Reasoning – From Cyc to Intelligent Assistant</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              H Liu and P Singh, <a href="https://link.springer.com/article/10.1023/B:BTTJ.0000047600.45421.6d">ConceptNet — A Practical Commonsense Reasoning Tool-Kit</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              David Gunning, <a href="https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf">Machine Common Sense Concept Paper</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Shane Storks, Qiaozi Gao, Joyce Y. Chai, <a href="https://arxiv.org/abs/1904.01172">Commonsense Reasoning for Natural Language Understanding&colon; A Survey of Benchmarks, Resources, and Approaches</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Allen Institute for Artificial Intelligence, <a href="https://leaderboard.allenai.org">AI2 Common Sense leaderboards</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Gabor Angeli and Chris Manning, <a href="https://www.aclweb.org/anthology/D14-1059.pdf">NaturalLI&colon; Natural Logic Inference for Common Sense Reasoning</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+        
+      </td>
+    </tr>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr>
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Feb 27, 2020</td>
+      <td width="30%">
+         History of Story-telling in Artificial Intelligence 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              
+              Michael Lebowitz, <a href="https://academiccommons.columbia.edu/doi/10.7916/D8736ZV9/download">Creating characters in a story-telling universe</a> 
+            <br />
+          
+          
+          
+              
+              Michael Lebowitz, <a href="https://academiccommons.columbia.edu/doi/10.7916/D8K362MH/download">Story-telling as planning and learning</a> 
+            <br />
+          
+          
+          
+              
+              Barry G. Silverman, Michael Johns, Ransom Weaver, Josh Mosley, <a href="https://academiccommons.columbia.edu/doi/10.7916/D8K362MH/download">Gameplay, Interactive Drama, and Training&colon; Authoring Edutainment Stories for Online Players (AESOP)</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Mark Riedl and Michael Young, <a href="https://www.jair.org/index.php/jair/article/download/10669/25501">Narrative Planning&colon; Balancing Plot and Character</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Michael Mateas, <a href="https://www.cs.cmu.edu/~dgroup/papers/CMU-CS-02-206.pdf">Interactive Drama, Art and Artificial Intelligence</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+         
+          
+           Leiden University - Faculty of Humanities, 
+          <a href="https://www.youtube.com/watch?v=V5RyV-s0yhU">Vladimir Propp, the structure of fairy tales</a> 
+           (12 minutes) 
+            <br />
+          
+           TED-Ed - Matthew Winkler, 
+          <a href="https://www.youtube.com/watch?v=Hhk4N9A0oCA">What makes a hero?</a> 
+           (5 minutes) 
+            <br />
+          
+        
+      </td>
+    </tr>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr>
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Mar 5, 2020</td>
+      <td width="30%">
+         Unconditioned Text Generation 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              
+              Peter J. Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, Noam Shazeer, <a href="https://arxiv.org/abs/1801.10198">Generating Wikipedia by Summarizing Long Sequences</a> 
+            <br />
+          
+          
+          
+              
+              Angela Fan, Mike Lewis, Yann Dauphin, <a href="https://www.aclweb.org/anthology/P18-1082.pdf">Hierarchical Neural Story Generation</a> 
+            <br />
+          
+          
+          
+              
+              Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning, <a href="https://arxiv.org/pdf/1909.10705.pdf">Do Massively Pretrained Language Models Make Better Storytellers?</a> 
+            <br />
+          
+          
+          
+              
+              Jay Alammar, <a href="http://jalammar.github.io/illustrated-gpt2/">The Illustrated GPT-2 (Visualizing Transformer Language Models)</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+        
+      </td>
+    </tr>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr>
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Mar 19, 2020</td>
+      <td width="30%">
+         Dialog Systems and Chatbots 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              
+              Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston, <a href="https://arxiv.org/abs/1903.03094">Learning to Speak and Act in a Fantasy Text Adventure Game</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+        
+      </td>
+    </tr>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr>
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Mar 26, 2020</td>
+      <td width="30%">
+         Text Generation with Controllable Attributes + Introduction to Final Project 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              
+              Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi, Franziska Roesner, Yejin Choi, <a href="https://arxiv.org/abs/1905.12616">Defending Against Neural Fake News</a> 
+            <br />
+          
+          
+          
+              
+              Nitish Shirish Keskar, Bryan McCann, Lav R. Varshney, Caiming Xiong, Richard Socher, <a href="https://arxiv.org/pdf/1909.05858.pdf">CTRL&colon; A Conditional Transformer Language Model for Controllable Generation</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+        
+      </td>
+    </tr>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr>
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Apr 2, 2020</td>
+      <td width="30%">
+         Text Generation with Knowledge Grounding and Narrative Control 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              
+              Robert L. Logan IV, Nelson F. Liu†, Matthew E. Peters, Matt Gardner, Sameer Singh, <a href="https://www.aclweb.org/anthology/P19-1598.pdf">Barack’s Wife Hillary&colon; Using Knowledge Graphs for Fact-Aware Language Modeling</a> 
+            <br />
+          
+          
+          
+              
+              Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao1 and Rui Yan, <a href="https://www.cs.jhu.edu/~npeng/papers/AAAI19-story-planning.pdf">Plan-And-Write&colon; Towards Better Automatic Storytelling</a> 
+            <br />
+          
+          
+          
+              
+              Elizabeth Clark, Yangfeng Ji, Noah A. Smith, <a href="https://www.aclweb.org/anthology/N18-1204.pdf">Neural Text Generation in Stories Using Entity Representations as Context</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+        
+      </td>
+    </tr>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr>
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Apr 9, 2020</td>
+      <td width="30%">
+         Human-Computer-Interaction for Collaborative Story Generation 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              <b>Optional:</b> 
+              TODO, <a href="TODO">Hamlet on the Holodock</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              TODO, <a href="TODO">Wide Ruled&colon; A Friendly Interface to Author-Goal Based Story Generation</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Ulrike Spierling and Nicolas Szilas, <a href="https://archive-ouverte.unige.ch/unige:48231/ATTACHMENT01">Authoring issues beyond tools</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Michael Kriegel, <a href="https://pdfs.semanticscholar.org/ad58/46444cb2e3e1592c248a9025fb0aa27b26df.pdf?_ga=2.160251069.1632072483.1570807801-2103101463.1569528845">Towards A Crowdsourced Solution For The Authoring Bottleneck In Interactive Narratives</a> 
+            <br />
+          
+          
+          
+              
+              Elizabeth Clark, Anne Spencer Ross, Chenhao Tan, Yangfeng Ji, Noah A Smith, <a href="http://yangfengji.net/publication/papers/clark2018creative.pdf">Creative Writing with a Machine in the Loop&colon; Case Studies on Slogans and Stories</a> 
+            <br />
+          
+          
+          
+              
+              Randall W. Hill, James Belanich, H. Chad Lane, Mark Core, Melissa Dixon, Eric Forbell, Julia Kim, John Hart, <a href="http://ict.usc.edu/pubs/PEDAGOGICALLY%20STRUCTURED%20GAME-BASED%20TRAINING-%20DEVELOPMENT%20OF%20THE%20ELECT%20BILAT%20SIMULATION.pdf">Pedagogically structured game-based training&colon; Development of the elect bilat simulation.</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+        
+      </td>
+    </tr>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr>
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Apr 16, 2020</td>
+      <td width="30%">
+         A picture is worth a thousand words 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              <b>Optional:</b> 
+              Scott McCloud, <a href="https://www.amazon.com/Understanding-Comics-Invisible-Scott-McCloud/">Understanding Comics</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis, <a href="http://openaccess.thecvf.com/content_cvpr_2017/html/Iyyer_The_Amazing_Mysteries_CVPR_2017_paper.html">The Amazing Mysteries of the Gutter&colon; Drawing Inferences Between Panels in Comic Book Narratives</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Ting-Hao Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell, <a href="https://www.aclweb.org/anthology/N16-1147v2.pdf">Visual Storytelling</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler, <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf">Aligning Books and Movies&colon; Towards Story-like Visual Explanations by Watching Movies and Reading Books</a> 
+            <br />
+          
+          
+          
+              <b>Optional:</b> 
+              Yansong Tang, Dajun Ding, Yongming Rao, Yu Zheng, Danyang Zhang, Lili Zhao, Jiwen Lu, Jie Zhou, <a href="https://coin-dataset.github.io">COIN&colon; A Large-Scale Dataset for COprehensive INstructional video analysis</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+        
+      </td>
+    </tr>
+    
+
+    <!-- Create a HTML anchor for the most recent lecture -->
+    
+    
+    
+
+    <tr>
+
+    <!-- End create a HTML anchor for the most recent lecture -->
+      <td width="14%">Thu, Apr 23, 2020</td>
+      <td width="30%">
+         Final Presentations 
+
+
+        
+
+
+        
+
+	    
+
+      </td>
+      <td>
+         
+          
+          
+              <b>Optional:</b> 
+              TODO, <a href="TODO">TODO</a> 
+            <br />
+          
+          
+        
+      </td>
+       <td>
+        
+      </td>
+    </tr>
+    
+    
+  </tbody>
+</table>
+
+:ET

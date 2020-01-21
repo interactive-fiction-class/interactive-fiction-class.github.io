@@ -1,0 +1,30 @@
+I"C<!-- Check whether the assignment is ready to release -->
+
+<!-- End of check whether the assignment is up to date -->
+
+<!-- Check whether the assignment is up to date -->
+
+<div class="alert alert-danger">
+Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
+</div>
+
+<!-- End of check whether the assignment is up to date -->
+
+<div class="alert alert-info">
+This assignment is due on Wednesday, January 30, 2019 before 02:59PM. 
+</div>
+
+<div class="alert alert-info">
+You can download the materials for this assignment here:
+<ul>
+
+<li><a href=""></a></li>
+
+</ul>
+</div>
+
+<h1 id="homework-2-textworld--reinforcement-learning">Homework 2: TextWorld / Reinforcement Learning</h1>
+
+<h2 id="instructions">Instructions</h2>
+
+:ET

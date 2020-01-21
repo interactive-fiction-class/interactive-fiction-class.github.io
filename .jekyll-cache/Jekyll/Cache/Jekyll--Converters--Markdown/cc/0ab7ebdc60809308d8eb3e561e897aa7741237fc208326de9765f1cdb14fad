@@ -1,0 +1,82 @@
+I"�<div class="alert alert-info">
+  <p>If you’re interested in joining this course (CIS 700-008), <a href="https://forms.cis.upenn.edu/waitlist/index.php">you can sign yourself up for the waitlist</a>.  Note that the number of spots will be limited.</p>
+</div>
+
+<!-- Display an alert about upcoming homework assignments -->
+
+<div class="alert alert-info">
+<a href="/in_class_activities/play-text-adventures/play-text-adventures.html">In-Class Activity 1 "Play Text-Adventure Games"</a> has been released.  
+
+It is due before 11:59PM on Thursday, January 16, 2020.
+
+</div>
+
+<!-- End alert for upcoming homework assignments -->
+
+<div class="alert alert-success">
+  <p>A great example of what you could build if you take this class is the <a href="https://play.aidungeon.io/">AI Dungeon</a>, which is an interactive fiction game  that was developed by a student at BYU using <a href="https://openai.com/blog/better-language-models/">Open AI’s GPT-2</a> large scale language model.</p>
+</div>
+
+<dl>
+  <dt>Course number</dt>
+  <dd>CIS 700-008 - Interactive Fiction and Text Generation</dd>
+  <dt>Course Description</dt>
+  <dd>In this course, we will study how natural language processing is used to develop interactive and creative text applications. We will first cover text adventure games, which are interesting for artificial intelligence research since to succeed at a such games an AI agent needs to understand language, perform common-sense reasoning, and interact with objects in a constrained world.   We cover approaches to interpreting user input via a natural language understanding component called the “parser”.  We will discuss various strategies for representing a world and modeling how it changes based on user interaction. Next, we will also cover topics like common-sense reasoning tasks, and extracting of narrative structure from stories. Finally, we will discuss natural language generation, both in the context of dialog agents and story generation.  We will touch upon human-computer interaction, biases in language models, and other topics.</dd>
+</dl>
+
+<!-- 
+: This class will cover severl areas.
+* Text Adventure Games - How they are implemented and how we can build agents that automatically solve them.
+* Common-sense Reasoning - TODO
+* Narrative Understanding - Extracting narrative structure (event schemas) from text
+* Text Generation - Generating natural-sounding text that follows a desired style, narrative arc, or other attribute.
+* Chatbots / Dialog Systems - TODO
+-->
+
+<dl>
+  <dt>Website</dt>
+  <dd><a href="http://interactive-fiction-class.org/">interactive-fiction-class.org</a></dd>
+  <dt>Instructors</dt>
+  <dd><a href="https://www.seas.upenn.edu/~daphnei/">Daphne Ippolito</a></dd>
+  <dd><a href="https://www.cis.upenn.edu/~ccb/">Chris Callison-Burch</a></dd>
+</dl>
+
+<p>Our emails are respectively daphnei and ccb at seas.upenn.edu. <strong>Please include CIS700 in the subject line of any emails about the class.</strong></p>
+
+<dl>
+  <dt>Discussion Forum</dt>
+  <dd><a href="http://cis700-ifatg.slack.com/">Slack</a></dd>
+  <dt>Time and place</dt>
+  <dd>Spring 2019, Thursdays from 1:30-4:30pm (Towne 327 Active Learning Classroom)</dd>
+  <dt>Office hours</dt>
+  <dd>by appointment</dd>
+</dl>
+
+<!--
+Textbooks
+: $20-30 [Parsley](http://www.memento-mori.com/parsely-products/) by Jared A Sorensen
+: [$10](http://www.drivethrurpg.com/product/108028/Dungeon-World)-[$25](https://www.burningwheel.com/dungeon-world-1/) [Dungeon World](https://dungeon-world.com/) by Sage LaTorra and Adam Koebel
+: Optional $31 [Dungeon Master's Guide - Dungeons & Dragons 5th edition Core Rulebook](https://www.amazon.com/Dungeons-Dragons-Dungeon-Rulebook-Roleplaying/dp/0786965622/) by Wizards of the Coast
+-->
+
+<dl>
+  <dt>Grading</dt>
+  <dd>There will be five homeworks and a final project. In addition, you will be required to present a paper in class.
+    <ul>
+      <li>10% Presentation</li>
+      <li>50% Homeworks</li>
+      <li>40% Final project</li>
+    </ul>
+  </dd>
+</dl>
+
+<p>Paper Presentations
+Over the course of the semester, each student must prepare a 10-15 minute presentation on a research paper relevant to the course. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (eg. by 3PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation.</p>
+
+<dl>
+  <dt>Collaboration Policy</dt>
+  <dd>Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments, and teams of 2-4 for the final project.</dd>
+  <dt>Late Day Policy</dt>
+  <dd>Each student has five free “late days”.  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One “day” is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. <strong>Late days only apply to the homeworks. They cannot be used on the final project, which must be finished by the final day of class, or on the paper presentations</strong></dd>
+</dl>
+:ET
