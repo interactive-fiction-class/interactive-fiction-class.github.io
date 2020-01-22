@@ -1,51 +1,41 @@
 -
   date: 2020-01-16
   title: Text Adventure Games + Intro to Class
-  slides: text-adventure-games.pdf
+  activity: Play a text adventure game
+  slides:
   lecture_notes: 01-text-adventures/01-text-adventures.html
-  activities: 
-    -
-      title: Play a text adventure game
-      url: play-text-adventures/play-text-adventures.html
   readings:
-    -
-      authors: Wikipedia
-      url: https://en.wikipedia.org/wiki/Interactive_fiction
-      title: Interactive Fiction      
-    -
-      authors: The Hitchhiker’s Guide to the Galaxy (H2G2)
-      url: https://h2g2.com/edited_entry/A20600641
-      title: How to Make a Text-Based Adventure&colon; Commands and Parser
-  optional:
     -
       authors: Jason Scott
       url: https://www.youtube.com/watch?v=LRhbcDzbGSU
       title: GET LAMP&colon; The Text Adventure Documentary
       length: 2 hours 
+  optional:
     -
       title: Adventuron Classroom
       authors: Chris Ainsley / Adventuron Software Limited
+      optional: TODO
       url: https://adventuron.io/classroom/
+    -
+      authors: Jared Sorensen
+      url: https://www.youtube.com/watch?v=zbC_bSysbrA
+      title: Action Castle at PAX East 2011
+      length: 12 minutes 
     -  
       authors: adventuron.io
       url: https://www.youtube.com/watch?v=zbC_bSysbrA
       title: Create A Text Adventure Game in 30 Minutes (Tutorial)
       length: 35 minutes 
     -
-      authors: Jared Sorensen
-      url: https://www.youtube.com/watch?v=zbC_bSysbrA
-      title: Action Castle at PAX East 2011
-      length: 12 minutes 
+      title: http://textadventures.co.uk/
+      title: Create a Text Adventure Game
 -
   date: 2020-01-23
   title: Guest lecture 
   speaker: Nick Montfort 
-  speaker_url: https://nickm.com/me.html
+  speaker_url: https://nickm.com
   description: 
   slides:
-  activities: 
-    -
-      title: Play HW1 games
   readings:
     -
       title: Riddle Machines&colon; The History and Nature of Interactive Fiction
@@ -57,21 +47,11 @@
       url: https://nickm.com/if/montfort_fdg_2011.pdf
       year: 2011
       authors: Nick Montfort
-  homework_due:   
-    -
-      title: HW1&colon; Build a Text-Adventure Game
-      url: text-adventure-game/text-adventure-game.html
-      note: We will play your game in class, so be sure to have it done before class begins.
--
-  date: 2020-01-28
-  title: Course Selection Period ends
-  type: no_lecture
+  homework: HW1A
 -
   date: 2020-01-30
   title: Introduction to Reinforcement Learning 
-  activities: 
-    -
-      title: TextWorld tutorial
+  activity: Play HW1 games, TextWorld tutorial
   slides: 
   readings:
     -
@@ -101,12 +81,37 @@
       year: 2019
       required: true
       url: https://arxiv.org/abs/1809.02121
-  homework_due: 
-    - 
-      title: HW2&colon; NLP for text adventures
-      url: nlp-for-text-adventures/nlp-for-text-adventures.html
+  homework: HW1B 
 -
   date: 2020-02-06
+  title: Common-sense Reasoning for Interactive Fiction
+  activity: Work on RL homework
+  slides:
+  readings:
+    -
+      title: What are Affordances?
+      authors: Interaction Design Foundation
+      optional: false
+      url: https://www.interaction-design.org/literature/topics/affordances
+    -
+      title: What Can You Do with a Rock? Affordance Extraction via Word Embeddings
+      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
+      optional: false
+      url: https://www.ijcai.org/proceedings/2017/0144.pdf
+    -
+      title: Threat, Explore, Barter, Puzzle&colon; A Semantically-Informed Algorithm for Extracting Interaction Modes
+      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
+      optional: true
+      url: https://www.semanticscholar.org/paper/Threat%2C-Explore%2C-Barter%2C-Puzzle%3A-A-Algorithm-for-Fulda-Ricks/05b4551bfe45fe336f75544b4a777428e1f62695
+  optional:
+    -
+      title: Put My Galakmid Coin into the Dispenser and Kick It&colon; Computational Linguistics and Theorem Proving in a Computer Game
+      authors: Alexander Koller, Ralph Debusmann, Malte Gabsdil, and Kristina Striegnitz
+      optional: true
+      url: https://link.springer.com/article/10.1023/B:JLLI.0000024734.80591.30
+    -
+-
+  date: 2020-02-13
   title: Unconditioned Text Generation
   slides:
   readings:
@@ -135,15 +140,11 @@
       authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
       optional: false
       url: https://arxiv.org/pdf/1909.10705.pdf
-  homework_due: 
-    -
-      title: HW3
+  homework: HW3
 -
-  date: 2020-02-13
-  title: Common-sense Reasoning / World Representations
-  homework_due: 
-    - 
-      title: HW4
+  date: 2020-02-20
+  title: Common-sense Reasoning
+  homework: HW2
   slides:
   readings:
     -
@@ -158,17 +159,6 @@
       optional: False
       url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
       year: 2006
-
-    -
-      title: What are Affordances?
-      authors: Interaction Design Foundation
-      optional: false
-      url: https://www.interaction-design.org/literature/topics/affordances
-    -
-      title: What Can You Do with a Rock? Affordance Extraction via Word Embeddings
-      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
-      optional: false
-      url: https://www.ijcai.org/proceedings/2017/0144.pdf
   optional:
     -
       title: Commonsense Reasoning for Natural Language Understanding&colon; A Survey of Benchmarks, Resources, and Approaches
@@ -195,21 +185,9 @@
       optional: True
       url: https://www.aclweb.org/anthology/D14-1059.pdf
       year: 2018
-    -
-      title: Put My Galakmid Coin into the Dispenser and Kick It&colon; Computational Linguistics and Theorem Proving in a Computer Game
-      authors: Alexander Koller, Ralph Debusmann, Malte Gabsdil, and Kristina Striegnitz
-      optional: true
-      url: https://link.springer.com/article/10.1023/B:JLLI.0000024734.80591.30
-    -
-      title: Threat, Explore, Barter, Puzzle&colon; A Semantically-Informed Algorithm for Extracting Interaction Modes
-      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
-      optional: true
-      url: https://www.semanticscholar.org/paper/Threat%2C-Explore%2C-Barter%2C-Puzzle%3A-A-Algorithm-for-Fulda-Ricks/05b4551bfe45fe336f75544b4a777428e1f62695
-    -
 -
-  date: 2020-02-20
+  date: 2020-02-27
   title: Extracting Narrative Structure
-  description: How to ectract schemas or other forms of narrative structure from a text.
   slides:
   readings:
     -
@@ -261,15 +239,9 @@
       title: What makes a hero?
       length: 5 minutes 
 -
-  date: 2020-01-24
-  title: Drop Period ends
-  type: no_lecture
--
-  date: 2020-02-27
+  date: 2020-03-05
   title: Controllable Text Generation + Generated Text Detection
-  activities: 
-    -
-      title: Walk-through fine-tuning GPT-2, final project brainstorm
+  activity: Walk-through fine-tuning GPT-2, final project brainstorm
   slides:
   readings:
     -
@@ -294,7 +266,7 @@
       year: 2019
       optional: True
 -
-  date: 2020-03-05
+  date: 2020-03-19
   title: Dialog Systems and Chatbots
   description: Building more interesting NPCs
   slides:
@@ -317,20 +289,9 @@
       authors: Iulian V. Serban, Alessandro Sordoni, Yoshua Bengio, Aaron Courville, Joelle Pineau
       url: https://arxiv.org/abs/1507.04808
       year: 2015
-    -
-      title: A Diversity-Promoting Objective Function for Neural Conversation Models
-      authors: Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, Bill Dolan
-      url: https://arxiv.org/abs/1510.03055
-      year: 2015
-  homework_due: 
-    - 
-      title: HW4
+  homework: HW4
 -
-  date: 2020-03-12
-  title: No class (Spring Break)
-  type: no_lecture      
--
-  date: 2020-03-19
+  date: 2020-03-26
   title: Text Generation with Knowledge Grounding and Narrative Control + Bias in Language Models
   slides:
   optional:
@@ -349,15 +310,9 @@
       authors: Elizabeth Clark, Yangfeng Ji, Noah A. Smith
       optional: true
       url: https://www.aclweb.org/anthology/N18-1204.pdf
-  homework_due: 
-    - 
-      title: Proposal
+  homework: Proposal
 -
-  date: 2020-03-20
-  title: Grade Type Change Deadline
-  type: no_lecture      
--
-  date: 2020-03-26
+  date: 2020-04-02
   title: Human-Computer-Interaction for Collaborative Story Generation
   slides:
   optional:
@@ -395,11 +350,7 @@
       authors: Mariet Theune, Sander Faas, Anton Nijholt, and Dirk Heylen
       url: https://wwwhome.ewi.utwente.nl/~anijholt/artikelen/tidse2003.pdf
 -
-  date: 2020-03-30
-  title: Last day to withdraw from a course
-  type: no_lecture      
--
-  date: 2020-04-02
+  date: 2020-04-09
   title: Computer Vision, Speech, and other Multimodal Connections
   slides:
   optional:
@@ -425,7 +376,7 @@
       url: https://ieeexplore.ieee.org/abstract/document/8683682/authors#authors
       optional: True
 -
-  date: 2020-04-09
+  date: 2020-04-16
   title: History of Story-telling in Artificial Intelligence
   description: Classic AI approaches to Story Telling
   slides:
@@ -461,10 +412,6 @@
       optional: TODO
       url: https://www.cs.cmu.edu/~dgroup/papers/CMU-CS-02-206.pdf
       year: 2002
--
-  date: 2020-04-16
-  title: TBD
-  slides:
 -
   date: 2020-04-23
   title: Final Presentations
