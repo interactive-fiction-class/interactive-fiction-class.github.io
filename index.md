@@ -16,6 +16,11 @@ Want to join the class, but didn't attend the first lecture? Here are the steps 
 
 
 
+<div class="alert alert-success" markdown="1">
+[Post your game here.](https://docs.google.com/document/d/1XpBEevYpHvLjCr-3CkAhERN_GPHsjNmkPo-Wf9KjxDs/edit?usp=sharing)
+</div>
+
+
 <!-- Display an alert about upcoming homework assignments -->
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
 {% for page in site.pages %}
