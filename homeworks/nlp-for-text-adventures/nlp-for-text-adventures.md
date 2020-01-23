@@ -7,13 +7,13 @@ title: NLP for Text-Adventure Games
 type: Homework
 number: 2
 active_tab: homework
-release_date: 2020-01-23 
+release_date: 2020-01-24 
 due_date: 2020-01-30 13:30:00EST
 attribution: This homework is based in part on the "Commanding Robots with Natural Language" R2D2 assignment from UPenn's Artificial Intelligence class (CIS 521), which was developed by John Zhang, Calvin Zhenghua Chen, and Chris Callison-Burch with help from Yrvine Thelusma.
 materials:
     - 
-        name: Text Adventure Game (Python Notebook viewable on Google Colab)
-        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb
+        name: NLP for Text Adventure Games - part 1 (WordNet)
+        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_1.ipynb
 submission_link: https://www.gradescope.com/courses/78405
 readings:
 -
