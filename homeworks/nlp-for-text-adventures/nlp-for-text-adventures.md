@@ -111,11 +111,11 @@ Make one improvement to your parser that allows it to handle some form of user i
 
 1. Use sentence segmentation and coreference resolution to allow the player to chain together commands. For example: "Pick the rose. Smell it."
 2. Allow the player to use nearby words to the ones you intend. For example: "Toss/throw/chuck the stick" all resolve to the same command.
-3. Instead of hardocoding "verb object," use dependecncy parsing to detect the direct object in the player's command.
+3. Instead of hardocoding "verb object," use dependency parsing to detect the direct object in the player's command.
 
 More suggestions can be found in the demo Colab.
 
-In your homework submission, include a discussion of how you implemented this improvement. Copy and paste several example interactions with your game that showcase the new parser feature.
+In your homework submission, include a discussion of how you implemented this improvement, and what concepts from NLP you are using. Copy and paste several example interactions with your game that showcase the new parser feature.
 
 
 ### Task 2. Add a Gameplay Experience
@@ -125,10 +125,11 @@ This can be a new character, puzzle, or obstacle. A few suggestions are:
 * A guardswoman NPC who will only let you pass if you complement her.
 * An ogre who will only marry you if speak like Shakespeare.
 * Build a speech-to-text module that allows the player to speak voice commands into the computer's microphone.
+* A puzzle where the list of objects in a room is randomly generated, and the player needs to pick out the two that are most similar to eachother in order to solve it.
 
 More suggestions can be found in the demo Colab.
 
-In your homework submission, include a discussion of how you implemented your new gameplay feature and why you think it makes your game more fun. Copy and paste several example interactions with your game that showcase the new feature.
+In your homework submission, include a discussion of how you implemented your new gameplay feature, what concepts from NLP it uses, and why you think it makes your game more fun. Copy and paste several example interactions with your game that showcase the new feature.
 
 
 ## What to submit
