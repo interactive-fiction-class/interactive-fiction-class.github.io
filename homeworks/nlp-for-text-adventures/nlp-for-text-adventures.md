@@ -9,7 +9,7 @@ number: 2
 active_tab: homework
 release_date: 2020-01-24 
 due_date: 2020-01-30 13:30:00EST
-attribution: This homework is based in part on the "Commanding Robots with Natural Language" R2D2 assignment from UPenn's Artificial Intelligence class (CIS 521), which was developed by John Zhang, Calvin Zhenghua Chen, and Chris Callison-Burch with help from Yrvine Thelusma.
+attribution: This homework was developed by Daphne Ippolito and Chris Callison-Burch for their  Interactive Fiction and Text Generation class (CIS 700-008) which was taught at the University of Pennsylvania in Spring of 2020.
 materials:
     - 
         name: NLP for Text Adventure Games - part 1 (WordNet)
@@ -84,9 +84,10 @@ In the earliest text adventure games, parsers used exact string matching. If a c
 
 Early interactive fiction games, as well as the games you implemented for Homework 1, force players to enter commands following a strict syntax, often using the `verb object` form. Players can only say things like `pick rose` or `smell rose` if those commands have been specifically programmed into the parser. 
 
-In this homework you will using advancements in NLP to improve your game. Using two different NLP methods, you will 
+In this homework you will using advancements in NLP to improve your game. Using different NLP methods, you will 
 
-1. Make an improvement to your parser. 
+1. Improve your parser using WordNet.
+2. Improve your parser with another NLP technology.
 2. Add a new game-play experience.
 
 We have put together sample code for a number of methods in NLP that you might find useful or interesting. These include:
@@ -105,13 +106,25 @@ We have put together sample code for a number of methods in NLP that you might f
 You are of course welcome to explore other concepts from NLP beyond this list. 
 
 
-### Task 1: Improve your Parser
+### Task 1: Improve your Parser with WordNet 
 
-Make one improvement to your parser that allows it to handle some form of user input that is not simply hard-coded rule. A few suggestions are:
+We will start by improving the coverage of the parser in your text adventure game, so that it can handle a variety of user input instead of just a single hard-coded command.  This will allow the player to use other words than what you used when you wrote the command. For example, "Toss/throw/chuck the stick" will all resolve to the same command.
 
+In part 1, we will introduce you to the WordNet resource.  WordNet is a classic resource for natural language processing.  It encodes information about synonyms, antonyms, and is-a relationships between words like _troll_ is-a _monster_.  In NLP, is-a relationships are called hypernyms or hyponyms.
+
+For this task you should work through the ["NLP for Text Adventure Games - part 1" Python notebook](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_1.ipynb), which will introduce you to WordNet and will have you use WordNet to annotate several commands from Action Castle with their word senses, and their hypernyms and hyponyms.  This will allow you to expand out the number of possible commands that your parser can recognize.  After completing the Python notebook, I expanded the number of commands from 7 to several thousand.  
+
+For this part of the homework should submit several things:
+* A file called _word-sense-annotations.json_ containing your annotations of the Action Castle commands with their WordNet synsents, hypernyms and hyponyms.  This will be saved in your Google after you complete the ["NLP for Text Adventure Games - part 1" Python notebook](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_1.ipynb).
+* An updated version of your Action Castle game that adds support for expanded user inputs via WordNet.  You implement this support however you would like, and you are welcome to re-use our code or to add your own code load a file of containing your annotation or the enumerated alternative commands.  You should save your updates in a file called _action_castle-2.ipynb_.
+
+
+### Task 2: Improve your Parser with another NLP technology 
+
+A few suggestions are:
 1. Use sentence segmentation and coreference resolution to allow the player to chain together commands. For example: "Pick the rose. Smell it."
-2. Allow the player to use nearby words to the ones you intend. For example: "Toss/throw/chuck the stick" all resolve to the same command.
-3. Instead of hardocoding "verb object," use dependecncy parsing to detect the direct object in the player's command.
+3. Instead of hardcoding "verb object," use dependency parsing to detect the direct object in the player's command.
+
 
 More suggestions can be found in the demo Colab.
 
