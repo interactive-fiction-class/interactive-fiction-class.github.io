@@ -107,7 +107,7 @@ _Upon completion, the notebook saves a file called `word-sense-annotations.json`
 
 ## Part 2: Improve your Parser with Word Embeddings
 
-Word embeddings are another NLP technology that will allow you to improving the coverage your game's parser.  Word embeddings are a way of representing the meaning of words using vectors.  This style of meaning representation is different than WordNet. Intead of having structured relationships between words like _troll_ is-a _monster_, word word vector give us a way of computing the similarity of words. This let us compute the most similar words for _troll_, which are ...
+Word embeddings are another NLP technology that will allow you to improving the coverage your game's parser.  Word embeddings are a way of representing the meaning of words using vectors.  This style of meaning representation is different than WordNet. Intead of having structured relationships between words like _troll_ is-a _monster_, word word vector give us a way of computing the similarity of words. This let us compute the most similar words for _troll_, which are _goblins, ogres, elves, troll, ghouls, hobbits, centaurs, unicorns, humanoids, undead,_ and _witches_.
 
 In ["NLP for Text Adventure Games - part 2"](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_2.ipynb), we walk you through how to use a Python package for computing word vectors, called [Magnitude](https://www.cis.upenn.edu/~ccb/publications/magnitude-fast-efficient-vector-embeddings-in-python.pdf), that was developed by two former Penn undergrads.  
 
@@ -123,9 +123,7 @@ You can either (1) integrate some other NLP technology into your parser, or (2) 
 ### Other Improvements to the Parser
 
 Some ideas can be found in the  ["NLP for Text Adventure Games - part 3" Python notebook](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_3.ipynb).
-This notebook doesn't have any concrete deliverables - it's just ideas for you.
-
-A few suggestions are:
+This notebook doesn't have any concrete deliverables - it's just ideas for you. A few suggestions are:
 1. Use sentence segmentation and coreference resolution to allow the player to chain together commands. For example: "Pick the rose. Smell it."
 2. Instead of hardcoding "verb object," use dependency parsing to detect the direct object in the player's command.
 
