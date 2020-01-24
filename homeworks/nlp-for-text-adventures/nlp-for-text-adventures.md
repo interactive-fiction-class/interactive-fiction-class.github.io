@@ -137,7 +137,7 @@ Use your creativity to create a new character, puzzle, or obstacle that incorpor
 
 * A guardswoman NPC who will only let you pass if you complement her.
 * An ogre who will only marry you if speak like Shakespeare.
-* Build a speech-to-text module that allows the player to speak voice commands into the computer's microphone.
+* Use a speech-to-text module that allows the player to speak voice commands into the computer's microphone (see part 5 of [this HW](http://artificial-intelligence-class.org/r2d2_assignments/hw4/homework4.html))
 * A puzzle where the list of objects in a room is randomly generated, and the player needs to pick out the two that are most similar to each other in order to solve it.
 
 More suggestions can be found in the demo Colab.
