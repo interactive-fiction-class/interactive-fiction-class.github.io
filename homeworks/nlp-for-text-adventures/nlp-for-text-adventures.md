@@ -90,10 +90,12 @@ In this homework you will using advancements in NLP to improve your game. Using 
 2. Improve your parser with word embeddings.
 3. Incorporate another NLP technology or add a new game-play experience.
 
-The first two parts are structured walkthroughs.  The 3rd part is open-ended and allows you to apply your creativity. 
+The first two parts are structured walkthroughs. 
+The 3rd part is open-ended and allows you to apply your creativity. 
+The homework deliverables are in italics; make sure to read these carefully.
 
 
-## Task 1: Improve your Parser with WordNet 
+## Part 1: Improve your Parser with WordNet 
 
 We will start by improving the coverage of the parser in your text adventure game, so that it can handle a variety of user input instead of just a single hard-coded command.  This will allow the player to use other words than what you used when you wrote the command. For example, "Toss/throw/chuck the stick" will all resolve to the same command.
 
@@ -101,7 +103,9 @@ In part 1, we will introduce you to the WordNet resource.  WordNet is a classic 
 
 For this task you should work through the ["NLP for Text Adventure Games - part 1" Python notebook](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_1.ipynb), which will introduce you to WordNet and will have you use WordNet to annotate several commands from Action Castle with their word senses, and their hypernyms and hyponyms.  This will allow you to expand out the number of possible commands that your parser can recognize.  After completing the Python notebook, I expanded the number of commands from 7 to several thousand.  
 
-## Task 2: Improve your Parser with Word Embeddings
+_Upon completion, the notebook saves a file called `word-sense-annotations.json`. You should submit this file to be graded._
+
+## Part 2: Improve your Parser with Word Embeddings
 
 Word embeddings are another NLP technology that will allow you to improving the coverage your game's parser.  Word embeddings are a way of representing the meaning of words using vectors.  This style of meaning representation is different than WordNet. Intead of having structured relationships between words like _troll_ is-a _monster_, word word vector give us a way of computing the similarity of words. This let us compute the most similar words for _troll_, which are ...
 
@@ -109,7 +113,9 @@ In ["NLP for Text Adventure Games - part 2"](https://colab.research.google.com/g
 
 The notebook has one part that you are required to implement.  You should write code that uses word embeddings [to find the most similar command](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_2.ipynb#scrollTo=T8HgeMAvRNCf) to a player's input.
 
-## Task 3. Your Choice
+_Modify Action Castle from Homework 1 to support recognizing an expanded set of user inputs via WordNet and word embeddings. You can implement this support however you would like, but it should include the `construct_sentence_vector` and `find_most_similar_command` function from the [Part 2 IPython Notebook](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_e.ipynb). Write up a short explanation of how you decided to implement your expanded parser support._
+
+## Part 3. Your Choice
 
 Free choice! Modify your own game from Homework 1 to make it more fun to play.
 You can either (1) integrate some other NLP technology into your parser, or (2) use NLP to create a new game playing experience. 
@@ -143,11 +149,11 @@ _In your homework submission, include a discussion of how you implemented your n
 
 ## What to submit
 
-1. A file called `word-sense-annotations.json` containing your annotations of the Action Castle commands with their WordNet synsents, hypernyms and hyponyms.  This will be saved in your Google after you complete the [Python notebook from Part 1 of this HW](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_1.ipynb).
-2. An updated version of your Action Castle game that adds support for recognizing user inputs via WordNet and word embeddings.  You can implement this support however you would like, but it should include the `construct_sentence_vector` and `find_most_similar_command` function in the [Python notebook from Part 2 of this HW](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_e.ipynb).  You should save your updates in a file called `action_castle-improved.ipynb`.
-3. A Python notebook called `my_game_improved.ipynb` that runs the new version of your game with your improvements from Part 3.
+1. A json file called `word-sense-annotations.json` containing your annotations of the Action Castle commands with their WordNet synsents, hypernyms and hyponyms.  This will be saved in your Google Drive after you complete the [Python notebook from Part 1 of this HW](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_1.ipynb).
+2. An IPython notebook called`action_castle_improved.ipynb` containing an updated version of your Action Castle game that uses word embeddings and WordNet in its parser.
+3. An IPython notebook called `my_game_improved.ipynb` that runs the new version of your custom game with your improvements from Part 3.
 4. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It should be a plain text file with one command per line. (This may or may not be identical to Homework 1.)
-5. A text file called `README.md` containing a discussion of how your incorpoated NLP into your game from Homework 1.
+5. A text file called `README.md`. It should include your explanation from Part 2 and your discussion from Part 3.
 
 **IMPORTANT: We will not run or grade your code if the files are not named as described above.** 
 
