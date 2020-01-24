@@ -109,13 +109,15 @@ In ["NLP for Text Adventure Games - part 2"](https://colab.research.google.com/g
 
 The notebook has one part that you are required to implement.  You should write code that uses word embeddings [to find the most similar command](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_2.ipynb#scrollTo=T8HgeMAvRNCf) to a player's input.
 
-## Task 3. Add another NLP Technology or a Novel Gameplay Experience
+## Task 3. Your Choice
 
-Free choice!  You can either (1) integrate some other NLP technology into your parser, or (2) use NLP to create a new game playing experience. 
+Free choice! Modify your own game from Homework 1 to make it more fun to play.
+You can either (1) integrate some other NLP technology into your parser, or (2) use NLP to create a new game playing experience. 
 
 ### Other Improvements to the Parser
 
-Some idea can be found in the  ["NLP for Text Adventure Games - part 3" Python notebook](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_3.ipynb).  This notebook doesn't have any concrete deliverables - it's just ideas for you.
+Some ideas can be found in the  ["NLP for Text Adventure Games - part 3" Python notebook](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_3.ipynb).
+This notebook doesn't have any concrete deliverables - it's just ideas for you.
 
 A few suggestions are:
 1. Use sentence segmentation and coreference resolution to allow the player to chain together commands. For example: "Pick the rose. Smell it."
@@ -142,10 +144,12 @@ _In your homework submission, include a discussion of how you implemented your n
 ## What to submit
 
 1. A file called `word-sense-annotations.json` containing your annotations of the Action Castle commands with their WordNet synsents, hypernyms and hyponyms.  This will be saved in your Google after you complete the [Python notebook from Part 1 of this HW](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_1.ipynb).
-2. An updated version of your Action Castle game that adds support for recognizing user inputs via WordNet and word embeddings.  You can implement this support however you would like, but it should include the `construct_sentence_vector` and `find_most_similar_command` function in the [Python notebook from Part 2 of this HW](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_e.ipynb).  You should save your updates in a file called `action_castle-2.ipynb`.
-3. An Python notebook called `my_game_improved.ipynb` that runs the new version of your game with your improvements from part 3.
-4. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It should be a plain text file with one command per line. (This may or may not be identical to HW1)
-5. A text file called `README.md` containing discussion of your two new methods. 
+2. An updated version of your Action Castle game that adds support for recognizing user inputs via WordNet and word embeddings.  You can implement this support however you would like, but it should include the `construct_sentence_vector` and `find_most_similar_command` function in the [Python notebook from Part 2 of this HW](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_e.ipynb).  You should save your updates in a file called `action_castle-improved.ipynb`.
+3. A Python notebook called `my_game_improved.ipynb` that runs the new version of your game with your improvements from Part 3.
+4. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It should be a plain text file with one command per line. (This may or may not be identical to Homework 1.)
+5. A text file called `README.md` containing a discussion of how your incorpoated NLP into your game from Homework 1.
+
+**IMPORTANT: We will not run or grade your code if the files are not named as described above.** 
 
 {% if page.readings %} 
 ## Recommended readings
