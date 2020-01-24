@@ -5,7 +5,7 @@ img: heroes_journey.png
 active_tab: main_page 
 ---
 
-
+<!--
 <div class="alert alert-warning" markdown="1">
 Want to join the class, but didn't attend the first lecture? Here are the steps to follow:
 1. [Get a permit by signing yourself up for CIS 700-008 via the waitlist system](https://forms.cis.upenn.edu/waitlist/index.php).  
@@ -13,13 +13,13 @@ Want to join the class, but didn't attend the first lecture? Here are the steps 
 3. [Listen to recording of the first lecture](https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=8b5f2734-0738-4f52-90f5-ab3c01236b7c) and [look over the slides](http://interactive-fiction-class.org/slides/text-adventure-games.pdf).
 4. [Complete the first homework assignment before class on Thursday](http://interactive-fiction-class.org/homeworks/text-adventure-game/text-adventure-game.html).
 </div>
+-->
 
-
-
+<!--
 <div class="alert alert-success" markdown="1">
 [Post your game here.](https://docs.google.com/document/d/1XpBEevYpHvLjCr-3CkAhERN_GPHsjNmkPo-Wf9KjxDs/edit?usp=sharing)
 </div>
-
+-->
 
 <!-- Display an alert about upcoming homework assignments -->
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
