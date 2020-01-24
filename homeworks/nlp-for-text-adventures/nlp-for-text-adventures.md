@@ -14,6 +14,12 @@ materials:
     - 
         name: NLP for Text Adventure Games - part 1 (WordNet)
         url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_1.ipynb
+    - 
+        name: NLP for Text Adventure Games - part 2 (Word Embeddings)
+        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_2.ipynb
+    - 
+        name: NLP for Text Adventure Games - part 3 (Other NLP technologies)
+        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_3.ipynb
 submission_link: https://www.gradescope.com/courses/78405
 readings:
 -
@@ -130,14 +136,14 @@ More suggestions can be found in the demo Colab.
 In your homework submission, include a discussion of how you implemented this improvement, and what concepts from NLP you are using. Copy and paste several example interactions with your game that showcase the new parser feature.
 
 
-### Task 2. Add a Gameplay Experience
+### Task 3. Add a Gameplay Experience
 Add a novel gameplay experience that would only be possible with NLP.
 This can be a new character, puzzle, or obstacle. A few suggestions are: 
 
 * A guardswoman NPC who will only let you pass if you complement her.
 * An ogre who will only marry you if speak like Shakespeare.
 * Build a speech-to-text module that allows the player to speak voice commands into the computer's microphone.
-* A puzzle where the list of objects in a room is randomly generated, and the player needs to pick out the two that are most similar to eachother in order to solve it.
+* A puzzle where the list of objects in a room is randomly generated, and the player needs to pick out the two that are most similar to each other in order to solve it.
 
 More suggestions can be found in the demo Colab.
 
