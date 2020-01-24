@@ -29,7 +29,7 @@ readings:
    type: textbook
    url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
 -
-   title: Magnitude&colon; A Fast, Efficient Universal Vector Embedding Utility Package
+   title: Magnitude - A Fast, Efficient Universal Vector Embedding Utility Package
    authors: Ajay Patel, Alexander Sands, Chris Callison-Burch, Marianna Apidianaki
    venue: ACL 2018
    type: conference
@@ -83,7 +83,7 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-## Instructions
+# Instructions
 
 In the earliest text adventure games, parsers used exact string matching. If a command wasn't in either the form `verb` or `verb object`, the parser would not recognize it. However, parsers and natural language processing (NLP) in general have evolved tremendously since the 1970s. NLP is a vibrant subfield of artificial intelligence.  One of the goals of NLP is to allow computers to understand commands spoken in human language.  This enables technologies like Amazon Alexa, Apple’s Siri or Google’s Assistant.
 
@@ -93,26 +93,13 @@ Early interactive fiction games, as well as the games you implemented for Homewo
 In this homework you will using advancements in NLP to improve your game. Using different NLP methods, you will 
 
 1. Improve your parser using WordNet.
-2. Improve your parser with another NLP technology.
-2. Add a new game-play experience.
+2. Improve your parser with word embeddings.
+3. Incorporate another NLP technology or add a new game-play experience.
 
-We have put together sample code for a number of methods in NLP that you might find useful or interesting. These include:
-
-* Wordnet 
-* Dependency parsing
-* Coreference Resolution
-* Parse-of-Speech Tasgging
-* Semantic role labeling
-* Named entity recognition
-* Sentiment classification
-* Word concreteness classification
-* Style classification
-* Word embeddings
-
-You are of course welcome to explore other concepts from NLP beyond this list. 
+The first two parts are structured walkthroughs.  The 3rd part is open-ended and allows you to apply your creativity. 
 
 
-### Task 1: Improve your Parser with WordNet 
+## Task 1: Improve your Parser with WordNet 
 
 We will start by improving the coverage of the parser in your text adventure game, so that it can handle a variety of user input instead of just a single hard-coded command.  This will allow the player to use other words than what you used when you wrote the command. For example, "Toss/throw/chuck the stick" will all resolve to the same command.
 
@@ -120,25 +107,33 @@ In part 1, we will introduce you to the WordNet resource.  WordNet is a classic 
 
 For this task you should work through the ["NLP for Text Adventure Games - part 1" Python notebook](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_1.ipynb), which will introduce you to WordNet and will have you use WordNet to annotate several commands from Action Castle with their word senses, and their hypernyms and hyponyms.  This will allow you to expand out the number of possible commands that your parser can recognize.  After completing the Python notebook, I expanded the number of commands from 7 to several thousand.  
 
-For this part of the homework should submit several things:
-* A file called _word-sense-annotations.json_ containing your annotations of the Action Castle commands with their WordNet synsents, hypernyms and hyponyms.  This will be saved in your Google after you complete the ["NLP for Text Adventure Games - part 1" Python notebook](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_1.ipynb).
-* An updated version of your Action Castle game that adds support for expanded user inputs via WordNet.  You implement this support however you would like, and you are welcome to re-use our code or to add your own code load a file of containing your annotation or the enumerated alternative commands.  You should save your updates in a file called _action_castle-2.ipynb_.
+## Task 2: Improve your Parser with Word Embeddings
 
+Word embeddings are another NLP technology that will allow you to improving the coverage your game's parser.  Word embeddings are a way of representing the meaning of words using vectors.  This style of meaning representation is different than WordNet. Intead of having structured relationships between words like _troll_ is-a _monster_, word word vector give us a way of computing the similarity of words. This let us compute the most similar words for _troll_, which are ...
 
-### Task 2: Improve your Parser with another NLP technology 
+In ["NLP for Text Adventure Games - part 2"](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_2.ipynb), we walk you through how to use a Python package for computing word vectors, called [Magnitude](https://www.cis.upenn.edu/~ccb/publications/magnitude-fast-efficient-vector-embeddings-in-python.pdf), that was developed by two former Penn undergrads.  
+
+The notebook has one part that you are required to implement.  You should write code that uses word embeddings [to find the most similar command](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_2.ipynb#scrollTo=T8HgeMAvRNCf) to a player's input.
+
+## Task 3. Add another NLP Technology or a Novel Gameplay Experience
+
+Free choice!  You can either (1) integrate some other NLP technology into your parser, or (2) use NLP to create a new game playing experience. 
+
+### Other Improvements to the Parser
+
+Some idea can be found in the  ["NLP for Text Adventure Games - part 3" Python notebook](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_3.ipynb).  This notebook doesn't have any concrete deliverables - it's just ideas for you.
 
 A few suggestions are:
 1. Use sentence segmentation and coreference resolution to allow the player to chain together commands. For example: "Pick the rose. Smell it."
 2. Instead of hardcoding "verb object," use dependency parsing to detect the direct object in the player's command.
 
-More suggestions can be found in the demo Colab.
-
-In your homework submission, include a discussion of how you implemented this improvement, and what concepts from NLP you are using. Copy and paste several example interactions with your game that showcase the new parser feature.
+_In your homework submission, include a discussion of how you implemented this improvement, and what concepts from NLP you are using. Copy and paste several example interactions with your game that showcase the new parser feature._
 
 
-### Task 3. Add a Gameplay Experience
-Add a novel gameplay experience that would only be possible with NLP.
-This can be a new character, puzzle, or obstacle. A few suggestions are: 
+### Novel Gameplay Experience
+
+NLP can facilitate gameplay that experiences that wouldn't be possible otherwise.
+Use your creativity to create a new character, puzzle, or obstacle that incorporates NLP. A few suggestions are: 
 
 * A guardswoman NPC who will only let you pass if you complement her.
 * An ogre who will only marry you if speak like Shakespeare.
@@ -147,14 +142,16 @@ This can be a new character, puzzle, or obstacle. A few suggestions are:
 
 More suggestions can be found in the demo Colab.
 
-In your homework submission, include a discussion of how you implemented your new gameplay feature, what concepts from NLP it uses, and why you think it makes your game more fun. Copy and paste several example interactions with your game that showcase the new feature.
+_In your homework submission, include a discussion of how you implemented your new gameplay feature, what concepts from NLP it uses, and why you think it makes your game more fun. Copy and paste several example interactions with your game that showcase the new feature._
 
 
 ## What to submit
 
-1. An IPython notebook called `my_game_improved.ipynb` that runs the new version of your game with the two improvements.
-3. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It should be a plain text file with one command per line. (This may or may not be identical to HW1)
-4. A text file called `README.md` containing discussion of your two new methods. 
+1. A file called `word-sense-annotations.json` containing your annotations of the Action Castle commands with their WordNet synsents, hypernyms and hyponyms.  This will be saved in your Google after you complete the [Python notebook from Part 1 of this HW](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_1.ipynb).
+2. An updated version of your Action Castle game that adds support for recognizing user inputs via WordNet and word embeddings.  You can implement this support however you would like, but it should include the `construct_sentence_vector` and `find_most_similar_command` function in the [Python notebook from Part 2 of this HW](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/nlp-for-text-adventures/NLP_for_Text_Adventure_Games_part_e.ipynb).  You should save your updates in a file called `action_castle-2.ipynb`.
+3. An Python notebook called `my_game_improved.ipynb` that runs the new version of your game with your improvements from part 3.
+4. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It should be a plain text file with one command per line. (This may or may not be identical to HW1)
+5. A text file called `README.md` containing discussion of your two new methods. 
 
 {% if page.readings %} 
 ## Recommended readings
