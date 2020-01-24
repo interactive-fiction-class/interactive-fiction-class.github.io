@@ -34,12 +34,6 @@ readings:
    venue: ACL 2018
    type: conference
    url: https://www.aclweb.org/anthology/D18-2021/
--
-   title: Dialogue Systems and Chatbots 
-   authors: Dan Jurafsky and James H. Martin
-   venue: Speech and Language Processing (3rd edition draft)
-   type: textbook
-   url: https://web.stanford.edu/~jurafsky/slp3/26.pdf
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -156,7 +150,6 @@ _In your homework submission, include a discussion of how you implemented your n
 {% if page.readings %} 
 ## Recommended readings
 {% for reading in page.readings %}
-* {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a>.  _{{ reading.note }}_
+* {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a>.  <i>{{ reading.note }}</i>
 {% endfor %}
 {% endif %}
-
