@@ -26,10 +26,12 @@ active_tab: main_page
 
 [How To Make Custom AI-Generated Text With GPT-2](https://minimaxir.com/2019/09/howto-gpt2/) by [Max Woolf](https://minimaxir.com)
 [BERT End to End (Fine-tuning + Predicting) in 5 minutes](https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb)
+[How to use Google Speech to Text API to transcribe long audio files](https://towardsdatascience.com/how-to-use-google-speech-to-text-api-to-transcribe-long-audio-files-1c886f4eb3e9)
 
 ## Inspiration
 
 * [Actual Play Podcasts](https://www.polygon.com/podcasts/2018/9/26/17860176/best-dungeons-dragons-dd-podcasts-tabletop-gaming) - my favorite is The Adventure Zone
+* [Giant list of Actual Play Podcasts](https://tabletopbellhop.com/actual-play-podcasts/)
 * Play games on [Roll 20](https://roll20.net/)
 * [chooseyourstory.com](http://chooseyourstory.com)
 

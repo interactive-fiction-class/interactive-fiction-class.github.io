@@ -14,6 +14,10 @@ One place where older Infocom-style text adventure games do better than modern g
 ## Changing from 3rd person to 1st or 2nd person perspectives
 
 
+## Actual Play 
+
+Use [Google's speech to text API](https://towardsdatascience.com/how-to-use-google-speech-to-text-api-to-transcribe-long-audio-files-1c886f4eb3e9) to create transcripts of of [Actual Play Podcasts](https://tabletopbellhop.com/actual-play-podcasts/), and then fine-tune GPT2 so that it can play a role playing game or be the Game Master.  Chris or Daphne may be able to get you some research credits on the Google Cloud if you'd like to do this at large scale.
+
 
 ## Monomyth
 
