@@ -7,7 +7,7 @@ title: Commonsense Reasoning
 type: Homework
 number: 4
 active_tab: homework
-release_date: 2020-01-30
+release_date: 2020-02-30
 due_date: 2020-03-13 23:59:00EST
 materials:
     - 
