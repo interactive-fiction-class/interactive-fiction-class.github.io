@@ -61,16 +61,24 @@ In this homework, you will be experiment with the ROCSTories dataset, which cons
 
 You should follow through the IPython Notebook here. It walks you through building a sentiment-based system for predicting the correct next ending as well as two neural network-based approaches that learn a classifier for the task.
 
-You should create a writeup of the experiments you conduct. We will be primarily grading you on this writeup, although you should also submit your code. Your writeup should include
+You should create a writeup describing the experiments you conduct. We will be primarily grading you on this writeup, although you should also submit your code. Your writeup should include
 * Your accuracy on the two validation sets and the 2016 test set using...
   - A sentiment-based classifier
-  - A neural network trained only on the train set, as well as one variant.
-  - A neural network trained on the validation set, as wel as one variant.
-* Descriptions of your approaches for each of the above methods, including your chosen model architecture and hyperparameters. Try to make your descriptions be detailed enough that another student could reimplement your approach from them.
+  - A neural network trained only on the train set, as well as 2 variants.
+  - A neural network trained in a supervised way on the validation set, as well as 2 variants.
+* Descriptions of your approaches for each of the above methods/variants. Try to make your descriptions be detailed enough that another student could reimplement your approach from them.
 * An error analysis:
   - Find a couple examples your sentiment classifier gets wrong and discuss them.
   - Are there any examples that all of your classifiers get wrong? Whart do you notice about them?
   
+### What parameters can your vary?
+Here are some ideas:
+* The learning rate and optimizer
+* The number of training steps
+* The number of layers and types of activation functions in the model architecture
+* The batch size
+* For the supervised model, consider sharing some weights with the unsupervised model that was previously trained
+
 # What to submit
 * A file containing your writeup, as either `report.pdf` or `report.md`.
 * Your modified IPython notebook as `rocstories.ipynb`.
