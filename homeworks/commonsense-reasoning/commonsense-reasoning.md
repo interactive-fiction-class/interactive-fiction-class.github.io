@@ -8,7 +8,7 @@ type: Homework
 number: 3
 active_tab: homework
 release_date: 2020-02-08
-due_date: 2020-03-14 13:30:00EST
+due_date: 2020-02-14 13:30:00EST
 materials: 
     - https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/commonsense-reasoning/rocstories.ipynb
 submission_link: TODO
