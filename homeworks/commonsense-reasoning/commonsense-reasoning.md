@@ -56,3 +56,26 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
+# Instructions
+In this homework, you will be experiment with the ROCSTories dataset, which consists of 5-sentence long stories. You will build a few classifiers for the Story Cloze task. The task involves predicting which of two candidate 5th sentences best ends a story.
+
+You should follow through the IPython Notebook here. It walks you through building a sentiment-based system for predicting the correct next ending as well as two neural network-based approaches that learn a classifier for the task.
+
+You should create a writeup of the experiments you conduct. We will be primarily grading you on this writeup, although you should also submit your code. Your writeup should include
+* Your accuracy on the two validation sets and the 2016 test set using...
+  - A sentiment-based classifier
+  - A neural network trained only on the train set, as well as one variant.
+  - A neural network trained on the validation set, as wel as one variant.
+* Descriptions of your approaches for each of the above methods, including your chosen model architecture and hyperparameters. Try to make your descriptions be detailed enough that another student could reimplement your approach from them.
+* An error analysis:
+  - Find a couple examples your sentiment classifier gets wrong and discuss them.
+  - Are there any examples that all of your classifiers get wrong? Whart do you notice about them?
+  
+# What to submit
+* A file containing your writeup, as either `report.pdf` or `report.md`.
+* Your modified IPython notebook as `rocstories.ipynb`.
+
+
+
+
+
