@@ -9,8 +9,8 @@ number: 3
 active_tab: homework
 release_date: 2020-02-08
 due_date: 2020-03-14 13:30:00EST
-materials:
-    - 
+materials: 
+    - https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/commonsense-reasoning/rocstories.ipynb
 submission_link: TODO
 ---
 
@@ -66,7 +66,7 @@ You should create a writeup describing the experiments you conduct. We will be p
   - A sentiment-based classifier
   - A neural network trained only on the train set, as well as 2 variants.
   - A neural network trained in a supervised way on the validation set, as well as 2 variants.
-* Descriptions of your approaches for each of the above methods/variants. Try to make your descriptions be detailed enough that another student could reimplement your approach from them.
+* Descriptions of your approaches for each of the above methods/variants. Try to make your descriptions detailed enough that another student could reimplement your approach from them.
 * An error analysis:
   - Find a couple examples your sentiment classifier gets wrong and discuss them.
   - Are there any examples that all of your classifiers get wrong? Whart do you notice about them?
@@ -77,7 +77,7 @@ Here are some ideas:
 * The number of training steps
 * The number of layers and types of activation functions in the model architecture
 * The batch size
-* For the supervised model, consider sharing some weights with the unsupervised model that was previously trained
+* For the supervised model that trains on the validation set, can you also incorporate the unlabeled training data?
 
 # What to submit
 * A file containing your writeup, as either `report.pdf` or `report.md`.
