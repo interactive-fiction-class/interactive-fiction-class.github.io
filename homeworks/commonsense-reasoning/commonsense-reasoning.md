@@ -1,17 +1,17 @@
 ---
 layout: default
-img: swag.png
-img_link: https://leaderboard.allenai.org/swag/submissions/get-started
-caption: SWAG is a dataset for studying grounded commonsense inference.
-title: Commonsense Reasoning
+img: storycoze.png
+img_link: https://cs.rochester.edu/nlp/rocstories/
+caption: Story Cloze is a task fo rpredicting the right ending sentnece to a 5-sentence story.
+title: Natural Language Understanding
 type: Homework
-number: 4
+number: 3
 active_tab: homework
-release_date: 2020-02-30
-due_date: 2020-03-13 23:59:00EST
+release_date: 2020-02-08
+due_date: 2020-03-14 13:30:00EST
 materials:
     - 
-submission_link: https://www.gradescope.com/courses/78405/
+submission_link: TODO
 ---
 
 <!-- Check whether the assignment is ready to release -->
