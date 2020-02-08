@@ -111,7 +111,7 @@
   homework_due: 
     - 
       title: HW4
-  slides:
+  slides: natural-language-inference-slides.pdf
   readings:
     -
       title: Machine Common Sense Concept Paper
