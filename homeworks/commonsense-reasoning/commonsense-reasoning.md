@@ -1,6 +1,6 @@
 ---
 layout: default
-img: storycoze.png
+img: storycloze.png
 img_link: https://cs.rochester.edu/nlp/rocstories/
 caption: Story Cloze is a task fo rpredicting the right ending sentnece to a 5-sentence story.
 title: Natural Language Understanding
@@ -10,7 +10,9 @@ active_tab: homework
 release_date: 2020-02-08
 due_date: 2020-02-14 13:30:00EST
 materials: 
-    - https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/commonsense-reasoning/rocstories.ipynb
+    - 
+       name: Python notebook for ROC Stories 
+       url: https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/commonsense-reasoning/rocstories.ipynb
 submission_link: TODO
 ---
 
