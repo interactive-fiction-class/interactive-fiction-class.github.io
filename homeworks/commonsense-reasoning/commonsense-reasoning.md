@@ -2,7 +2,7 @@
 layout: default
 img: storycloze.png
 img_link: https://cs.rochester.edu/nlp/rocstories/
-caption: Story Cloze is a task fo rpredicting the right ending sentnece to a 5-sentence story.
+caption: Story Cloze is a task for predicting the right ending sentnece to a 5-sentence story.
 title: Natural Language Understanding
 type: Homework
 number: 3
