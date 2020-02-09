@@ -71,7 +71,7 @@ You should create a writeup describing the experiments you conduct. We will be p
 * Descriptions of your approaches for each of the above methods/variants. Try to make your descriptions detailed enough that another student could reimplement your approach from them.
 * An error analysis:
   - Find a couple examples your sentiment classifier gets wrong and discuss them.
-  - Are there any examples that all of your classifiers get wrong? Whart do you notice about them?
+  - Are there any examples that all of your classifiers get wrong? What do you notice about them?
   
 ### What parameters can your vary?
 Here are some ideas:
