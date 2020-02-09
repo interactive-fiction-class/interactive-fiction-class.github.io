@@ -111,7 +111,7 @@
   homework_due: 
     - 
       title: HW4
-  slides:
+  slides: natural-language-inference-slides.pdf
   readings:
     -
       title: Machine Common Sense Concept Paper
@@ -203,9 +203,11 @@
       authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
       optional: false
       url: https://arxiv.org/pdf/1909.10705.pdf
-  homework_due: 
+  homework_due:   
     -
-      title: HW3
+      title: HW3&colon; Reasoning about story endings
+      url: commonsense-reasoning/commonsense-reasoning.html
+      note: We will discuss approaches (and what has worked or hasn't) in class.
 -
   date: 2020-02-20
   title: Extracting Narrative Structure
