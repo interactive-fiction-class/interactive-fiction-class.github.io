@@ -12,7 +12,7 @@ due_date: 2020-02-14 13:30:00EST
 materials: 
     - 
        name: Python notebook for ROC Stories 
-       url: https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/commonsense-reasoning/rocstories.ipynb
+       url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/commonsense-reasoning/rocstories.ipynb
 submission_link: TODO
 ---
 
@@ -61,7 +61,7 @@ You can download the materials for this assignment here:
 # Instructions
 In this homework, you will be experiment with the ROCSTories dataset, which consists of 5-sentence long stories. You will build a few classifiers for the Story Cloze task. The task involves predicting which of two candidate 5th sentences best ends a story.
 
-You should walk through the [IPython Notebook here](https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/commonsense-reasoning/rocstories.ipynb). It walks you through building a sentiment-based system for predicting the correct next ending as well as two neural network-based approaches that learn a classifier for the task.
+You should walk through the [IPython Notebook here](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/commonsense-reasoning/rocstories.ipynb). It walks you through building a sentiment-based system for predicting the correct next ending as well as two neural network-based approaches that learn a classifier for the task.
 
 You should create a writeup describing the experiments you conduct. We will be primarily grading you on this writeup, although you should also submit your code. Your writeup should include
 * Your accuracy on the two validation sets and the 2016 test set using...
