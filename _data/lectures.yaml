@@ -2,7 +2,6 @@
   date: 2020-01-16
   title: Text Adventure Games + Intro to Class
   slides: text-adventure-games.pdf
-  lecture_notes: 01-text-adventures/01-text-adventures.html
   activities: 
     -
       title: Play a text adventure game
@@ -38,11 +37,11 @@
       length: 12 minutes 
 -
   date: 2020-01-23
-  title: Guest lecture 
+  title: History of Interactive Fiction and Introduction to Narratology 
   speaker: Nick Montfort 
   speaker_url: https://nickm.com/me.html
   description: 
-  slides:
+  slides: Montfort_Penn_IF_talk.pdf
   activities: 
     -
       title: Play HW1 games
@@ -107,10 +106,7 @@
       url: nlp-for-text-adventures/nlp-for-text-adventures.html
 -
   date: 2020-02-06
-  title: Common-sense Reasoning / Guest Lecture by Nancy Fulda
-  homework_due: 
-    - 
-      title: HW4
+  title: Natural Language Reasoning
   slides: natural-language-inference-slides.pdf
   readings:
     -
@@ -125,22 +121,6 @@
       optional: False
       url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
       year: 2006
-    -
-      title: What are Affordances?
-      authors: Interaction Design Foundation
-      optional: false
-      url: https://www.interaction-design.org/literature/topics/affordances
-    -
-      title: What Can You Do with a Rock? Affordance Extraction via Word Embeddings
-      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
-      optional: false
-      url: https://www.ijcai.org/proceedings/2017/0144.pdf
-    -
-      title: Threat, Explore, Barter, Puzzle&colon; A Semantically-Informed Algorithm for Extracting Interaction Modes
-      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
-      optional: true
-      url: https://www.semanticscholar.org/paper/Threat%2C-Explore%2C-Barter%2C-Puzzle%3A-A-Algorithm-for-Fulda-Ricks/05b4551bfe45fe336f75544b4a777428e1f62695
-    -
   optional:
     -
       title: Commonsense Reasoning for Natural Language Understanding&colon; A Survey of Benchmarks, Resources, and Approaches
@@ -172,7 +152,28 @@
       authors: Alexander Koller, Ralph Debusmann, Malte Gabsdil, and Kristina Striegnitz
       optional: true
       url: https://link.springer.com/article/10.1023/B:JLLI.0000024734.80591.30
+-
+  date: 2020-02-06
+  title: Word vectors, sentence embeddings, and other strange things
+  speaker: Nancy Fulda 
+  speaker_url: https://dragn.ai/people/
+  slides: Fulda-guest-lecture-interactive-fiction-class.pptx
+  readings:
     -
+      title: What are Affordances?
+      authors: Interaction Design Foundation
+      optional: false
+      url: https://www.interaction-design.org/literature/topics/affordances
+    -
+      title: What Can You Do with a Rock? Affordance Extraction via Word Embeddings
+      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
+      optional: false
+      url: https://www.ijcai.org/proceedings/2017/0144.pdf
+    -
+      title: Threat, Explore, Barter, Puzzle&colon; A Semantically-Informed Algorithm for Extracting Interaction Modes
+      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
+      optional: true
+      url: https://www.semanticscholar.org/paper/Threat%2C-Explore%2C-Barter%2C-Puzzle%3A-A-Algorithm-for-Fulda-Ricks/05b4551bfe45fe336f75544b4a777428e1f62695
 -
   date: 2020-02-13
   title: Unconditioned Text Generation
