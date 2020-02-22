@@ -213,7 +213,7 @@
   date: 2020-02-20
   title: Extracting Narrative Structure
   description: How to ectract schemas or other forms of narrative structure from a text.
-  slides:
+  slides: extracting-narrative-structure.pdf
   readings:
     -
       title: Defining Narrative chapter in The Cambridge Introduction to Narrative (2nd Edition)
