@@ -7,8 +7,8 @@ title: Fine-Tune a Neural Language Model for Text Generation
 type: Homework
 number: 4
 active_tab: homework
-release_date: 2020-02-20
-due_date: 2019-02-27 13:30:00EST
+release_date: 2020-02-22
+due_date: 2020-02-28 13:30:00EST
 materials:
     - 
       name: Python notebook for GPT-2 finetuning
