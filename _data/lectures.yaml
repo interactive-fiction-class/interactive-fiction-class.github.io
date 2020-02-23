@@ -177,7 +177,7 @@
 -
   date: 2020-02-13
   title: Unconditioned Text Generation
-  slides:
+  slides: machine_learning_and_language_models.pdf
   readings:
     -
       title: The Illustrated GPT-2 (Visualizing Transformer Language Models)
