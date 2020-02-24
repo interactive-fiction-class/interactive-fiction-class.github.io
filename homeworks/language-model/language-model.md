@@ -73,6 +73,7 @@ Build a text dataset and finetune GPT-2 on it. Your dataset can be any text you 
 
 Here is a very non-exhaustive list of ideas:
 
+* [Text Adventure Game data](https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/language-model/text_adventures_test.txt)
 * [All of Shakepeare's plays](https://lexically.net/wordsmith/support/shakespeare.html)
 * [The Linux source code](https://github.com/torvalds/linux)
 * [A bunch of text from your favorite sub-Reddit](https://www.storybench.org/how-to-scrape-reddit-with-python/)
