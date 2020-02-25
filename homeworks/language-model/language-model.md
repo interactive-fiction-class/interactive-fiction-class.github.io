@@ -69,7 +69,7 @@ Run through the [provided Colab](https://colab.sandbox.google.com/github/interac
 3. The provided code uses top-k with k=50 for generation. Experiment with different sampling strategies and observe how this impacts the quality and diversity of the generations. If you'd like, implement a measure of text diversity such as [self-BLEU](https://arxiv.org/pdf/1802.01886.pdf) or dist-1 (the number of unique generated words divided by the total number of generated words), and plot how it changes as you vary the value of either temperature, k, or p.
 
 ## Part 2 - Build your own dataset.
-Build a text dataset and finetune GPT-2 on it. Your dataset can be any text you want. For best results (to avoid overfitting if the dataset is too small or long computation time if the dataset is too big), I recommend finding some text source that is between 5 and 100 MB. If the dataset you find is too large, I recommend sampling a subset of itl
+Build a text dataset and finetune GPT-2 on it. Your dataset can be any text you want. For best results (to avoid overfitting if the dataset is too small or long computation time if the dataset is too big), I recommend finding some text source that is between 5 and 100 MB. If the dataset you find is too large, I recommend sampling a subset of it.
 
 Here is a very non-exhaustive list of ideas:
 
