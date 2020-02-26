@@ -177,7 +177,7 @@
 -
   date: 2020-02-13
   title: Unconditioned Text Generation
-  slides:
+  slides: machine_learning_and_language_models.pdf
   readings:
     -
       title: The Illustrated GPT-2 (Visualizing Transformer Language Models)
@@ -211,9 +211,12 @@
       note: We will discuss approaches (and what has worked or hasn't) in class.
 -
   date: 2020-02-20
-  title: Extracting Narrative Structure
+  title: Extracting Narrative Structure + Sampling Strategies for LM Text Generation
   description: How to ectract schemas or other forms of narrative structure from a text.
   slides: extracting-narrative-structure.pdf
+  activities: 
+    -
+      title: Brainstorm project ideas
   readings:
     -
       title: Defining Narrative chapter in The Cambridge Introduction to Narrative (2nd Edition)
@@ -269,10 +272,10 @@
   type: no_lecture
 -
   date: 2020-02-27
-  title: Controllable Text Generation + Generated Text Detection
+  title: Generated Text Detection + Controllable Text Generation
   activities: 
     -
-      title: Walk-through fine-tuning GPT-2, final project brainstorm
+      title: Show off generations from homework.
   slides:
   readings:
     -
@@ -296,6 +299,11 @@
       url: https://arxiv.org/abs/1912.02164
       year: 2019
       optional: True
+  homework_due: 
+    - 
+      title: HW4&colon; Finetuning GPT-2
+      url: language-model/language-model.html
+      note: Bring your favorite generated text to class!
 -
   date: 2020-03-05
   title: Dialog Systems and Chatbots
@@ -325,9 +333,6 @@
       authors: Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, Bill Dolan
       url: https://arxiv.org/abs/1510.03055
       year: 2015
-  homework_due: 
-    - 
-      title: HW4
 -
   date: 2020-03-12
   title: No class (Spring Break)

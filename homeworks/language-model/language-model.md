@@ -7,8 +7,8 @@ title: Fine-Tune a Neural Language Model for Text Generation
 type: Homework
 number: 4
 active_tab: homework
-release_date: 2020-02-20
-due_date: 2019-02-27 13:30:00EST
+release_date: 2020-02-22
+due_date: 2020-02-28 13:30:00EST
 materials:
     - 
       name: Python notebook for GPT-2 finetuning
@@ -69,10 +69,11 @@ Run through the [provided Colab](https://colab.sandbox.google.com/github/interac
 3. The provided code uses top-k with k=50 for generation. Experiment with different sampling strategies and observe how this impacts the quality and diversity of the generations. If you'd like, implement a measure of text diversity such as [self-BLEU](https://arxiv.org/pdf/1802.01886.pdf) or dist-1 (the number of unique generated words divided by the total number of generated words), and plot how it changes as you vary the value of either temperature, k, or p.
 
 ## Part 2 - Build your own dataset.
-Build a text dataset and finetune GPT-2 on it. Your dataset can be any text you want. For best results (to avoid overfitting if the dataset is too small or long computation time if the dataset is too big), I recommend finding some text source that is between 5 and 100 MB. If the dataset you find is too large, I recommend sampling a subset of itl
+Build a text dataset and finetune GPT-2 on it. Your dataset can be any text you want. For best results (to avoid overfitting if the dataset is too small or long computation time if the dataset is too big), I recommend finding some text source that is between 5 and 100 MB. If the dataset you find is too large, I recommend sampling a subset of it.
 
 Here is a very non-exhaustive list of ideas:
 
+* [Text Adventure Game data](https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/language-model/text_adventures_test.txt)
 * [All of Shakepeare's plays](https://lexically.net/wordsmith/support/shakespeare.html)
 * [The Linux source code](https://github.com/torvalds/linux)
 * [A bunch of text from your favorite sub-Reddit](https://www.storybench.org/how-to-scrape-reddit-with-python/)
