@@ -1,8 +1,9 @@
 ---
 layout: default
-img: ios_keyboard.png
-img_link: http://www.explainxkcd.com/wiki/index.php/1427:_iOS_Keyboard
-caption: Movie quotes according to autocomplete
+img: estimating_time.png
+caption: Don't Panic
+img_link: https://xkcd.com/1658/   
+title: The Term Project
 title: Project Proposal
 type: Homework
 number: 5
