@@ -61,7 +61,7 @@ Use the techniques we have learned in class to build a novel interactive experie
 
 Write a project proposal that includes the following sections:
 1. *Project Description*: What novel interactive experience do you propose to design?
-  - Give an example mock up of what the user experience will look like.
+  - Give an example mockup of what the user experience will look like.
 2. *Proposed Method*: How will you be using text generation systems or other NLP concepts from class in order to enable the interactive experience? Will you need to train your own neural networks?
   - Write 2-3 paragraphs explaining your proposed method.
 3. *Data*: What data will be needed to build your interactive experience?
