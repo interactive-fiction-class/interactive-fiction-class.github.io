@@ -5,12 +5,10 @@ img_link: http://www.explainxkcd.com/wiki/index.php/1427:_iOS_Keyboard
 caption: Movie quotes according to autocomplete
 title: Project Propodal
 type: Homework
-number: 4
+number: 5
 active_tab: homework
 release_date: 2020-02-26
-due_date: 2019-03-05 13:30:00EST
-materials:
-    - 
+due_date: 2020-03-05 13:30:00EST
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -54,11 +52,10 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-=Project Proposal
 
 The project is a chance for you to delve into one of the topics we have covered (or will cover) in class. You can choose between two directions: creating a novel interactive experience or answering a research question. For the direction that you choose, write a project proposal that answers the questions below. You should also prepare to give a two-minute "lightning" presentation on your proposal in class on March 5. The project ideas we brainstormed in class are available [here](https://docs.google.com/document/d/1YXUCVWTTc2ks7dkHTjpyEy4mEUTGBo192olya-k_G2Y/edit?usp=sharing).
 
-===Build a novel interactive experience
+## Build a novel interactive experience
 Use the techniques we have learned in class to build a novel interactive experience that involves generated text. While fine-tuning a large language model such as GPT-2 on a custom dataset could be a component of your project, we are expecting something more involved than just this. Can you expand upon Homeworks 2 or 4 to build a text-based game that uses NLP and language models to make a novel and fun game experience? By the end of the semester, you should have a demo that runs either in Colab or on a website showcasing your interactive experience.
 
 Write a project proposal that answers the following questions:
@@ -73,7 +70,7 @@ Write a project proposal that answers the following questions:
 * *Team members*: Give a list of the students (max 4) who will participate in this project, and what contribution you expect each one to make to the project.
 
 
-===Attempt to answer a research question about text generation or interactive fiction
+## Attempt to answer a research question about text generation or interactive fiction
 In class, we have discussed multiple open questions related to text generation. Choose one of these questions and conduct experiments to attempt to answer the question. By the end of the semester, you should have an academic paper that describes the research question, the experiments you ran to try and answer it, and an analysis of the experimental results.
 
 Write a project proposal that answers the following questions:
@@ -87,7 +84,7 @@ Write a project proposal that answers the following questions:
   - Give pointers to several research papers that you think are relevant along with short explanations of how you think they relate to your project idea.
 * *Team members*: Give a list of the students (max 4) who will participate in this project, and what contribution you expect each one to make to the project.
 
-=What to Submit
+# What to Submit
 Submit the following to Gradescope:
 `proposal.pdf` which contains your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well.
 Prepare the following for class:
