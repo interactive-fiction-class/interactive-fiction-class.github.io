@@ -3,7 +3,7 @@ layout: default
 img: ios_keyboard.png
 img_link: http://www.explainxkcd.com/wiki/index.php/1427:_iOS_Keyboard
 caption: Movie quotes according to autocomplete
-title: Project Propodal
+title: Project Proposal
 type: Homework
 number: 5
 active_tab: homework
