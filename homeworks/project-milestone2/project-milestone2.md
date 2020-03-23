@@ -9,7 +9,7 @@ type: Homework
 number: 6
 active_tab: homework
 release_date: 2020-02-26
-due_date: 2020-04-02 13:30:00EST
+due_date: 2020-04-09 13:30:00EST
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -53,16 +53,16 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-For the first milestone, we will have expected you to finish some of the initial work for your project, and written up your preliminary method and results. In particular you should be working on the following: 
+For the first milestone, you should finish some of the work for your project and write up your preliminary method and results. In particular you should work on the following: 
 * Make progress on the suggested next steps we left for you on your project proposal.
-* Finish collecting any datasets that you need and making sure they are in a format that you know how to process.
+* Finish collecting any datasets that you need and make sure they are in a format that you know how to process.
 * If your project involves doing text parsing with tools like AllenNLP, do some experiments to see whether the parsing you want to do is feasible. 
 * If your project involves training/fine-tuning a neural network, try training some preliminary models and observing the outputs.
 * If your project involves a user experience of some sort, create a real mock-up of the user interface (even if it's not fully functional/feature-complete yet).
 
 
 ## Attempt to answer a research question about text generation or interactive fiction
-Create a new document which describes the progress you've made so far. Feel free to copy from your project proposal as appropriate. Your document should include the following sections:
+Create a new document which describes the progress you've made so far. Feel free to copy from your project proposal where appropriate. Your document should include the following sections:
 
 1. __Project Description__: This should explain the main idea of your project and what you are trying to accomplish. If these have changed sincde the project proposal, this section should reflect those changes.
 2. __Related work__: What previous research has been done on this research question? Give pointers to relevant research papers and websites.
