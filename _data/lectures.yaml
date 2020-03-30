@@ -306,6 +306,56 @@
       note: Bring your favorite generated text to class!
 -
   date: 2020-03-05
+  title: Role Playing Games
+  slides:
+  activities:
+    -
+      title: Play a role playing game.
+  readings:
+    -
+  optional:
+    -
+  homework_due: 
+    - 
+      title: Project proposal
+-
+  date: 2020-03-12
+  title: No class (Spring Break)
+  type: no_lecture      
+-
+  date: 2020-03-19
+  title: No class (pandemic spring break extension)
+  type: no_lecture      
+-
+  date: 2020-03-26
+  title: Text Generation with Knowledge Grounding and Narrative Control + Conditional Language Models
+  slides:
+  optional:
+    -
+      title: Barack’s Wife Hillary&colon; Using Knowledge Graphs for Fact-Aware Language Modeling
+      authors: Robert L. Logan IV, Nelson F. Liu†, Matthew E. Peters, Matt Gardner, Sameer Singh
+      optional: true
+      url: https://www.aclweb.org/anthology/P19-1598.pdf
+    -
+      title: Plan-And-Write&colon; Towards Better Automatic Storytelling
+      authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao1 and Rui Yan
+      optional: true
+      url: https://www.cs.jhu.edu/~npeng/papers/AAAI19-story-planning.pdf
+    -
+      title: Neural Text Generation in Stories Using Entity Representations as Context
+      authors: Elizabeth Clark, Yangfeng Ji, Noah A. Smith
+      optional: true
+      url: https://www.aclweb.org/anthology/N18-1204.pdf
+-
+  date: 2020-03-20
+  title: Grade Type Change Deadline
+  type: no_lecture      
+-
+  date: 2020-03-30
+  title: Last day to withdraw from a course
+  type: no_lecture      
+-
+  date: 2020-04-02
   title: Dialog Systems and Chatbots
   description: Building more interesting NPCs
   slides:
@@ -334,38 +384,7 @@
       url: https://arxiv.org/abs/1510.03055
       year: 2015
 -
-  date: 2020-03-12
-  title: No class (Spring Break)
-  type: no_lecture      
--
-  date: 2020-03-19
-  title: Text Generation with Knowledge Grounding and Narrative Control + Bias in Language Models
-  slides:
-  optional:
-    -
-      title: Barack’s Wife Hillary&colon; Using Knowledge Graphs for Fact-Aware Language Modeling
-      authors: Robert L. Logan IV, Nelson F. Liu†, Matthew E. Peters, Matt Gardner, Sameer Singh
-      optional: true
-      url: https://www.aclweb.org/anthology/P19-1598.pdf
-    -
-      title: Plan-And-Write&colon; Towards Better Automatic Storytelling
-      authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao1 and Rui Yan
-      optional: true
-      url: https://www.cs.jhu.edu/~npeng/papers/AAAI19-story-planning.pdf
-    -
-      title: Neural Text Generation in Stories Using Entity Representations as Context
-      authors: Elizabeth Clark, Yangfeng Ji, Noah A. Smith
-      optional: true
-      url: https://www.aclweb.org/anthology/N18-1204.pdf
-  homework_due: 
-    - 
-      title: Proposal
--
-  date: 2020-03-20
-  title: Grade Type Change Deadline
-  type: no_lecture      
--
-  date: 2020-03-26
+  date: 2020-04-09
   title: Human-Computer-Interaction for Collaborative Story Generation
   slides:
   optional:
@@ -402,12 +421,20 @@
       year: 2003
       authors: Mariet Theune, Sander Faas, Anton Nijholt, and Dirk Heylen
       url: https://wwwhome.ewi.utwente.nl/~anijholt/artikelen/tidse2003.pdf
+    -
+      title: Narrative Planning&colon; Balancing Plot and Character
+      authors: Mark Riedl and Michael Young
+      optional: True
+      url: https://www.jair.org/index.php/jair/article/download/10669/25501
+      year: 2020
+    -
+      title: Interactive Drama, Art and Artificial Intelligence
+      authors: Michael Mateas
+      optional: TODO
+      url: https://www.cs.cmu.edu/~dgroup/papers/CMU-CS-02-206.pdf
+      year: 2002
 -
-  date: 2020-03-30
-  title: Last day to withdraw from a course
-  type: no_lecture      
--
-  date: 2020-04-02
+  date: 2020-04-16
   title: Computer Vision, Speech, and other Multimodal Connections
   slides:
   optional:
@@ -433,48 +460,30 @@
       url: https://ieeexplore.ieee.org/abstract/document/8683682/authors#authors
       optional: True
 -
-  date: 2020-04-09
-  title: History of Story-telling in Artificial Intelligence
-  description: Classic AI approaches to Story Telling
-  slides:
-  optional:
-    -
-      title: Creating characters in a story-telling universe
-      authors: Michael Lebowitz
-      year: 1984
-      optional: True
-      url: https://academiccommons.columbia.edu/doi/10.7916/D8736ZV9/download
-    -
-      title: Story-telling as planning and learning
-      authors: Michael Lebowitz
-      year: 1985
-      optional: True
-      url: https://academiccommons.columbia.edu/doi/10.7916/D8K362MH/download
-    - 
-      title: Gameplay, Interactive Drama, and Training&colon; Authoring Edutainment Stories for Online Players (AESOP)
-      authors: Barry G. Silverman, Michael Johns, Ransom Weaver, Josh Mosley
-      year: 1985
-      optional: True
-      url: https://academiccommons.columbia.edu/doi/10.7916/D8K362MH/download
-
-    -
-      title: Narrative Planning&colon; Balancing Plot and Character
-      authors: Mark Riedl and Michael Young
-      optional: True
-      url: https://www.jair.org/index.php/jair/article/download/10669/25501
-      year: 2020
-    -
-      title: Interactive Drama, Art and Artificial Intelligence
-      authors: Michael Mateas
-      optional: TODO
-      url: https://www.cs.cmu.edu/~dgroup/papers/CMU-CS-02-206.pdf
-      year: 2002
--
-  date: 2020-04-16
-  title: TBD
-  slides:
--
   date: 2020-04-23
   title: Final Presentations
   slides:
 
+# Temporarily removed this.
+# title: History of Story-telling in Artificial Intelligence
+#   description: Classic AI approaches to Story Telling
+#   slides:
+#   optional:
+#     -
+#       title: Creating characters in a story-telling universe
+#       authors: Michael Lebowitz
+#       year: 1984
+#       optional: True
+#       url: https://academiccommons.columbia.edu/doi/10.7916/D8736ZV9/download
+#     -
+#       title: Story-telling as planning and learning
+#       authors: Michael Lebowitz
+#       year: 1985
+#       optional: True
+#       url: https://academiccommons.columbia.edu/doi/10.7916/D8K362MH/download
+#     - 
+#       title: Gameplay, Interactive Drama, and Training&colon; Authoring Edutainment Stories for Online Players (AESOP)
+#       authors: Barry G. Silverman, Michael Johns, Ransom Weaver, Josh Mosley
+#       year: 1985
+#       optional: True
+#       url: https://academiccommons.columbia.edu/doi/10.7916/D8K362MH/download
