@@ -65,7 +65,7 @@ For the first milestone, you should finish some of the work for your project and
 Create a new document which describes the progress you've made so far. Feel free to copy from your project proposal where appropriate. Your document should include the following sections:
 
 1. __Project Description__: This should explain the main idea of your project and what you are trying to accomplish. If these have changed sincde the project proposal, this section should reflect those changes.
-2. __Related work__: What previous research has been done on this research question? Give pointers to relevant research papers and websites.
+2. __Related work__: What previous research will you be using, building off of, or inspired by? Give pointers to relevant research papers and websites.
 3. __Method__: What are the steps to accomplish your project. This should describe both the steps you've done so far and the ones you plan to do.
 4. __Data__: What data have you decided to use? What does it look like, and what are some potential problems with it?
 5. __Evaluation__: What methodologies will you be using to evaluate the research question  you are answering or that the components of your interactive experience are working well? 
