@@ -74,8 +74,8 @@ It should have the following sections.
 2. __Related work__: What previous research works does your project rely on? What other projects exist that are similar? If you used a dataset you didn't collect yourself, where did you get it from? Include explanations in complete sentences along with in-text citations to these sources. 
 3. __Data__: What datasets, if any, did you use? If youhave collected or built your own dataset, how did you go about doing this? What are some potential problems/challenges you encountered with the data?
 4. __Method__: Explain the steps involved in your project. This section should include enough detail that someone reading it could reasonably attempt to reproduce your work. This should describe both the steps you've done so far and the ones you plan to do.
-5. __Evaluation__: What methods does yours results section use to evaluate the research question  you are answering or that the components of your interactive experience are working well? 
-  * These can be things like accuracy, diversity metrics, BLEU score, success rate, human evaluate scores, etc. depending on your project.
+5. __Evaluation__: What methods does yours results section use to evaluate the research question  you are answering or that the components of your interactive experience are working well?
+These can be things like accuracy, diversity metrics, BLEU score, success rate, human evaluate scores, etc. depending on your project.
 6. __Results__: Describe your main results. This can include negative results too. This section should use tables, plots, examples of system outputs, and other figures to support the results.
 7. __Discussion__: This is a _meta_ section to discuss how the project went.
 What things did you try that didn't work out?
