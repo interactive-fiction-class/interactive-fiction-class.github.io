@@ -93,7 +93,4 @@ Your report will be graded on the following criteria.
 # What to Submit
 Submit the following to Gradescope:
 * `report.pdf` which contains your project report. While not required, we highly recommend that you use LaTeX. You may choose to use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/acl-2020-proceedings-template/zsrkcwjptpcd).
-
-Prepare the following for class:
-* A three minute "lightning" presentation giving an update of the coolest/most intesting things you've mamagaed to accomplish so far. Since we'll be doing this over voice call, elect 1 of your teammates to give the presentation.
-
+* `slides.pdf` a pdf version of the slides you present in class.
