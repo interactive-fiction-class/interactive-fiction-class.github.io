@@ -53,7 +53,7 @@ You can download the materials for this assignment here:
 
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
-For your final project you should prepare a 10 minute presentation for the class and a report documenting what you accomplished. The presentation is due on Thursday April 23 in class while your report is due on the last day of the term, April 29th.
+For your final project you should prepare a 10 minute presentation for the class and a report documenting what you accomplished. **The presentation is due on Thursday April 23 in class while your report is due on the last day of the term, April 29th.**
 
 ## Presentation
 Your presentations can either be done live in class on Thursday, or you can pre-record it and email a link to us before the start of class. To fit in all 10 presentation, we will be strictly enforcing a 10-minute time limit.
@@ -62,7 +62,12 @@ If you have built an interactive experience, you might want to record a video of
 As long as you stay in the time limit, you are welcome to have multiple team-members trade off speaking in the presentation.
 
 ### Presentation Grading
-TODO
+Your presentation will be graded on the following criteria.
+1. __Motivation__: The motivation for the project and how it relates to course material is explained.
+2. __Communication__: The method and final results are explained in a way the class can understand, without use of acronyms of terms we have not covered in class (unless you define them).
+3. __Results__: The main findings of the project are reported.
+4. __Lessons Learned__: What did you learn from this project and what might you do differently next time? What questions or directions for future work remain?
+
 
 ## Report
 You report is a document that describes what you have managed to accomplish. It should be a self-contained document that explains what you have accomplished. You are welcome (and encouraged) to build off your Milestone 2 progress report. At this point in the class, all of you have read and presented on academic papers. You should use these as inspiration for what a good writeup looks like.
