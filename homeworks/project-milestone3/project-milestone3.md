@@ -4,7 +4,7 @@ img: estimating_time.png
 caption: Don't Panic
 img_link: https://xkcd.com/1658/   
 title: The Term Project
-title: Project Milestone 2
+title: Project Milestone 3
 type: Homework
 number: 6
 active_tab: homework
