@@ -35,8 +35,8 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
-<b>There will be no extensions on this due date. You may not use late days.</b>
+Your report is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+Your presentation is due in class Thursday, April 23.
 </div>
 
 {% if page.materials %}
