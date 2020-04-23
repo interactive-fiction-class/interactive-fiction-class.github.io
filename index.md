@@ -55,11 +55,14 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 <!-- End alert for upcoming homework assignments -->
 
 
-
+<!--
 <div class="alert alert-success" markdown="1">
 A great example of what you could build if you take this class is the [AI Dungeon](https://play.aidungeon.io/), which is an interactive fiction game  that was developed by a student at BYU using [Open AI's GPT-2](https://openai.com/blog/better-language-models/) large scale language model.
 </div>
-
+-->
+<div class="alert alert-success" markdown="1">
+Thanks for taking part in this year's course!  Please [fill out this send of semester feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdocJF24_oYDupxbNJQkyucOHJmC4gcp5zvrUcF9qlPQOBVmg/viewform?usp=sf_link) to help us improve the course for the future.
+</div>
 
 Course number
 : CIS 700-008 - Interactive Fiction and Text Generation 
