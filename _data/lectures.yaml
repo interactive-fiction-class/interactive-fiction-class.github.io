@@ -435,30 +435,23 @@
       year: 2002
 -
   date: 2020-04-16
-  title: Computer Vision, Speech, and other Multimodal Connections
-  slides:
-  optional:
+  title: Automated Storytelling
+  speaker: Mark Riedl 
+  speaker_url: https://www.cc.gatech.edu/people/mark-riedl
+  slides: Riedl-guest-lecture_Automated-Story-Generation.pdf
+  readings:
     -
-      title: The Amazing Mysteries of the Gutter&colon; Drawing Inferences Between Panels in Comic Book Narratives
-      authors: Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis
+      title: Controllable Neural Story Plot Generation via Reinforcement Learning
+      authors: Pradyumna Tambwekar, Murtaza Dhuliawala, Lara J. Martin, Animesh Mehta, Brent Harrison, Mark O. Riedl
       optional: True
-      url: http://openaccess.thecvf.com/content_cvpr_2017/html/Iyyer_The_Amazing_Mysteries_CVPR_2017_paper.html
-      year: 2017
+      url: https://arxiv.org/abs/1809.10736
+      year: 2019
     -
-      title: Visual Storytelling
-      authors: Ting-Hao Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell
+      title: Event Representations for Automated Story Generation with Deep Neural Nets
+      authors: Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl
       optional: True
-      url: https://www.aclweb.org/anthology/N16-1147v2.pdf
-    -
-      title: Aligning Books and Movies&colon; Towards Story-like Visual Explanations by Watching Movies and Reading Books
-      authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
-      optional: True
-      url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf
-    -
-      title: Multi-speaker Emotional Acoustic Modeling for CNN-based Speech Synthesis
-      authors: Heejin Choi, Sangjun Park, Jinuk Park, Minsoo Hahn
-      url: https://ieeexplore.ieee.org/abstract/document/8683682/authors#authors
-      optional: True
+      url: https://arxiv.org/abs/1706.01331
+      year: 2018
 -
   date: 2020-04-23
   title: Final Presentations
@@ -487,3 +480,29 @@
 #       year: 1985
 #       optional: True
 #       url: https://academiccommons.columbia.edu/doi/10.7916/D8K362MH/download
+#-
+#  date: 2020-04-16
+#  title: Computer Vision, Speech, and other Multimodal Connections
+#  slides:
+#  optional:
+#    -
+#      title: The Amazing Mysteries of the Gutter&colon; Drawing Inferences Between Panels in Comic Book Narratives
+#      authors: Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis
+#      optional: True
+#      url: http://openaccess.thecvf.com/content_cvpr_2017/html/Iyyer_The_Amazing_Mysteries_CVPR_2017_paper.html
+#      year: 2017
+#    -
+#      title: Visual Storytelling
+#      authors: Ting-Hao Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell
+#      optional: True
+#      url: https://www.aclweb.org/anthology/N16-1147v2.pdf
+#    -
+#      title: Aligning Books and Movies&colon; Towards Story-like Visual Explanations by Watching Movies and Reading Books
+#      authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
+#      optional: True
+#      url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf
+#    -
+#      title: Multi-speaker Emotional Acoustic Modeling for CNN-based Speech Synthesis
+#      authors: Heejin Choi, Sangjun Park, Jinuk Park, Minsoo Hahn
+#      url: https://ieeexplore.ieee.org/abstract/document/8683682/authors#authors
+#      optional: True
