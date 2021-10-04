@@ -61,7 +61,7 @@ A great example of what you could build if you take this class is the [AI Dungeo
 </div>
 -->
 <div class="alert alert-success" markdown="1">
-Thanks for taking part in this year's course!  Please [fill out this send of semester feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdocJF24_oYDupxbNJQkyucOHJmC4gcp5zvrUcF9qlPQOBVmg/viewform?usp=sf_link) to help us improve the course for the future.
+This course will be offered in Spring 2022!
 </div>
 
 Course number
