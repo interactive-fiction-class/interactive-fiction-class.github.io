@@ -61,7 +61,7 @@ A great example of what you could build if you take this class is the [AI Dungeo
 </div>
 -->
 <div class="alert alert-success" markdown="1">
-This course will be offered in Spring 2022!
+This course will be offered in Spring 2022!  It will be held on Tuesdays and Thursdays from 1:45pm-3:15pm Eastern.
 </div>
 
 Course number
