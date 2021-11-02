@@ -61,7 +61,7 @@ A great example of what you could build if you take this class is the [AI Dungeo
 </div>
 -->
 <div class="alert alert-success" markdown="1">
-This course will be offered in Spring 2022!  It will be held on Tuesdays and Thursdays from 1:45pm-3:15pm Eastern.  We’ll be handling the permits for that class via the [CIS Waitlist System](https://forms.cis.upenn.edu/waitlist/index.php) which will open around Nov 23, after the early registration period. 
+This course will be offered in Spring 2022!  It will be held on Tuesdays and Thursdays from 1:45pm-3:15pm Eastern.  We’ll be managing permits for that class via the [CIS Waitlist System](https://forms.cis.upenn.edu/waitlist/index.php) which will open around Nov 23, after the early registration period. 
 </div>
 
 Course number
