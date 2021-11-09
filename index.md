@@ -68,7 +68,8 @@ Course number
 : CIS 700-008 - Interactive Fiction and Text Generation 
 
 Course Description
-: In this course, we will study how natural language processing is used to develop interactive and creative text applications. We will first cover text adventure games, which are interesting for artificial intelligence research since to succeed at a such games an AI agent needs to understand language, perform common-sense reasoning, and interact with objects in a constrained world.   We cover approaches to interpreting user input via a natural language understanding component called the "parser".  We will discuss various strategies for representing a world and modeling how it changes based on user interaction. Next, we will also cover topics like common-sense reasoning tasks, and extracting of narrative structure from stories. Finally, we will discuss natural language generation, both in the context of dialog agents and story generation.  We will touch upon human-computer interaction, biases in language models, and other topics.
+: We know now that artificial intelligence (AI) can play chess or even Go, but can AI play text adventure games (also known as interactive fiction)? What about roleplaying games like Dungeons & Dragons? In this course, we will be looking at the subfields of automated story generation (teaching computers to tell stories), interactive fiction (teaching computers to play through stories), and their intersection (teaching computers to tell and then play through the stories). This class will teach you about computational creativity and help develop your skills in natural language processing and cognitive modeling. 
+
 
 
 
@@ -94,9 +95,9 @@ Discussion Forum
 : [Piazza](https://piazza.com/upenn/spring2020/cis700008)
 
 Time and place
-: Spring 2019, Thursdays from 1:30-4:30pm in Towne 327 (The Hartman Family Technology Entrepreurship Forum)
-: First day of class is January 16, 2020
-: Last day of class is April 23, 2020
+: Spring 2022, Tuesdays & Thursdays from 1:45-3:15pm EST
+: First day of class is January 13, 2022
+: Last day of class is April 26, 2022
 
 Office hours
 : Lara - Thursdays after class
@@ -111,10 +112,9 @@ Textbooks
 
 Grading
 : There will be five homeworks and a final project. In addition, you will be required to present a paper in class.
-* 10% Paper Presentation
-* 5% Class Participation 
-* 45% Homeworks 
-* 40% Final project
+* 5% Paper Presentation
+* 65% Homeworks (7 in total)
+* 30% Final Project
 
 Paper Presentations
 : Over the course of the semester, each student must prepare a 10-15 minute presentation on a research paper relevant to the course. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (eg. by 3PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
