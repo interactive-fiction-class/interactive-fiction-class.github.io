@@ -87,7 +87,7 @@ Website
 : [interactive-fiction-class.org](http://interactive-fiction-class.org/)
 
 Instructors
-: [Daphne Ippolito](https://www.seas.upenn.edu/~daphnei/)
+: [Lara Martin](https://laramartin.net)
 : [Chris Callison-Burch](https://www.cis.upenn.edu/~ccb/)
 
 Discussion Forum
@@ -99,7 +99,7 @@ Time and place
 : Last day of class is April 23, 2020
 
 Office hours
-: Daphne - Thursdays after class
+: Lara - Thursdays after class
 : Chris - by appointment
 
 <!--

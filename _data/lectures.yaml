@@ -1,5 +1,5 @@
 -
-  date: 2020-01-16
+  date: 2022-01-13
   title: Text Adventure Games + Intro to Class
   slides: text-adventure-games.pdf
   activities: 
@@ -36,91 +36,235 @@
       title: Action Castle at PAX East 2011
       length: 12 minutes 
 -
-  date: 2020-01-23
-  title: History of Interactive Fiction and Introduction to Narratology 
-  speaker: Nick Montfort 
-  speaker_url: https://nickm.com/me.html
+  date: 2022-01-18
+  title: Introduction to Automated Story Generation, Interactive Fiction, & Narratology
+  speaker: 
+  speaker_url: 
   description: 
-  slides: Montfort_Penn_IF_talk.pdf
+  slides: 
   activities: 
     -
       title: Play HW1 games
   readings:
     -
+      title: Defining Narrative
+      url: https://www.cambridge.org/core/books/cambridge-introduction-to-narrative/defining-narrative/45F0B7D16F447F02F8E5A4CC133F9A24
+      authors: H. Porter Abbott
+    -
       title: Riddle Machines&colon; The History and Nature of Interactive Fiction
       url: https://nickm.com/if/riddle_machines.html
-      year: 2007
       authors: Nick Montfort
     -
-      title: Curveship's Automatic Narrative Style
-      url: https://nickm.com/if/montfort_fdg_2011.pdf
-      year: 2011
-      authors: Nick Montfort
+      title: Automatic Story Generation&colon; Challenges and Attempts
+      url: https://aclanthology.org/2021.nuse-1.8
+      authors: Amal Alabdulkarim, Siyan Li, Xiangyu Peng
+  optional:
+    -
+      title: Fiction, Non-Factuals, and the Principle of Minimal Departure
+      url: https://www.sciencedirect.com/science/article/pii/0304422X80900303
+      authors: Marie-Laure Ryan
+    -
+      title: Interactive Fiction Games&colon; A Colossal Adventure
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/6297
+      authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan
   homework_due:   
     -
-      title: HW1&colon; Build a Text-Adventure Game
+      title: HW1&colon; Build a Text-Adventure Game (5%)
       url: text-adventure-game/text-adventure-game.html
       note: We will play your game in class, so be sure to have it done before class begins.
 -
-  date: 2020-01-28
-  title: Course Selection Period ends
-  type: no_lecture
+  date: 2022-01-20
+  title: Neural Language Models
+  slides: 
+  activities: 
+  readings:
+    -
+      title: Language Models are Few-Shot Learners
+      url: https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
+      authors: Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, et al. #Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
+    -
+      title: On the Dangers of Stochastic Parrots&colon; Can Language Models Be Too Big?
+      url: https://dl.acm.org/doi/10.1145/3442188.3445922
+      authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell
+  optional:
+    -
+      title: Pre-train, Prompt, and Predict&colon; A Systematic Survey of Prompting Methods in Natural Language Processing
+      url: https://arxiv.org/abs/2107.13586
+      authors: Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig
+    -
+      title: Defending Against Neural Fake News
+      authors: Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi, Franziska Roesner, Yejin Choi
+      url: https://arxiv.org/abs/1905.12616
 -
-  date: 2020-01-30
-  title: Introduction to Reinforcement Learning 
+  date: 2022-01-25
+  title: Neural Story Generation
+  slides:
   activities: 
     -
-      title: TextWorld tutorial
+      title:  
+  readings:
+    -
+      title: Hierarchical Neural Story Generation
+      authors: Angela Fan, Mike Lewis, Yann Dauphin
+      url: https://aclanthology.org/P18-1082/
+    -
+      title: Do Massively Pretrained Language Models Make Better Storytellers?
+      authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
+      url: https://arxiv.org/pdf/1909.10705.pdf
+  optional:
+     -
+      title: Choose Your Own Adventure&colon; Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models
+      url: https://aclanthology.org/2021.naacl-main.279
+      authors: Elizabeth Clark, Noah A. Smith
+-
+  date: 2022-01-25
+  title: Course Selection Period ends
+  type: no_lecture
+
+-
+  date: 2022-01-27
+  title: Recap
+  speaker: 
+  speaker_url: 
+  description: 
+  slides: 
+  readings:
+
+  homework_due: 
+    - 
+      title: HW2&colon; Neural Language Models (10%)
+      url: 
+
+-
+  date: 2022-02-01
+  title: Schemas&colon; Events
   slides: 
   readings:
     -
-      title: Reinforcement Learning, An Introduction, Sections 3.1-3.3
-      url: http://www.incompleteideas.net/book/bookdraft2017nov5.pdf
-      year: 2017
-      authors: Richard S. Sutton and Andrew G. Barto
+      title: Event Representations for Automated Story Generation with Deep Neural Nets
+      authors: Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl
+      url: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17046/
     -
-      title: TextWorld&colon; A Learning Environment for Text-based Games
-      authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischle
-      year: 2017
-      url: https://arxiv.org/pdf/1806.11532.pdf 
+      title: Unsupervised Learning of Narrative Schemas and their Participants
+      authors: Nathanael Chambers and Dan Jurafsky
+      url: https://www.aclweb.org/anthology/P09-1068.pdf
+-
+  date: 2022-02-03
+  title: Schemas&colon; Knowledge Representations
+  slides: 
+  readings:
+    -
+      title: ConceptNet 5.5&colon; An Open Multilingual Graph of General Knowledge
+      authors: Robyn Speer, Joshua Chin, Catherine Havasi
+      url: https://dl.acm.org/doi/10.5555/3298023.3298212
+    -
+      title: VerbNet&colon; Capturing English verb behavior, meaning and usage
+      authors:  Martha Palmer, Claire Bonial, Jena Hwang
+      url: https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199842193.001.0001/oxfordhb-9780199842193-e-15
+    -
+      title: WordNet
+      authors: Christiane Fellbaum
+      url: https://link.springer.com/chapter/10.1007/978-90-481-8847-5_10
+
+-
+  date: 2022-02-08
+  title: Recap
+  description: 
+  slides: 
+  activities: 
+    -
+      title: 
+  readings:
+
+  homework_due:   
+    -
+      title: HW3&colon; Schemata (10%)
+      url: 
+      note:
+
+-
+  date: 2022-02-10
+  title: Planning
+  activities: 
+    -
+      title: 
+  slides:
+  readings:
+    -
+      title: Story-Telling as Planning and Learning
+      authors: Michael Lebowitz
+      url: https://www.sciencedirect.com/science/article/pii/0304422X85900154
+    -
+      title: Open-world planning for story generation
+      authors: Mark O. Riedl, R. Michael Young
+      url: https://liquidnarrative.csc.ncsu.edu/wp-content/uploads/sites/15/2015/11/openworld.pdf
+    -
+      title: Controlling narrative generation with planning trajectories&colon; The role of constraints
+      authors: Julie Porteous, Marc Cavazza
+      url: https://www.researchgate.net/publication/220920127_Controlling_Narrative_Generation_with_Planning_Trajectories_The_Role_of_Constraints
+    -
+      title: CPOCL&colon; A Narrative Planner Supporting Conflict
+      authors: Stephen G. Ware, R. Michael Young
+      url: https://www.aaai.org/ocs/index.php/AIIDE/AIIDE11/paper/download/4058/4419
+    -
+      title: Plans and planning in narrative generation&colon; a review of plan-based approaches to the generation of story, discourse and interactivity in narratives
+      authors: R. Michael Young, Stephen Ware, Brad Cassell, Justus Robertson
+      url: https://www.justusrobertson.com/papers/Young%20Ware%20Cassell%20and%20Robertson%202013%20-%20Plans%20and%20Planning%20in%20Narrative%20Generation.pdf
+    -
+      title: Narrative Plan Generation with Self-Supervised Learning
+      authors: Mihai Polceanu, Julie Porteous, Alan Lindsay, Marc Cavazza 
+      url: https://www.aaai.org/AAAI21Papers/AAAI-1408.PolceanuM.pdf
+
+-
+  date: 2022-02-15
+  title: Planning&colon; Drama Management
+  slides:
+  activities:
+    -
+      title:
+  readings:
+    -
+      title: Integrating Plot, Character and Natural Language Processing in the Interactive Drama Façade
+      authors: Michael Mateas, Andrew Stern
+      url: https://www.semanticscholar.org/paper/Integrating-Plot%2C-Character-and-Natural-Language-in-Mateas-Stern/6c92ac4eb449b53ce9a7b0dd94316da17a394446
+
+       
+-
+  date: 2022-02-17
+  title: Recap
+  slides:
   optional:
-    -
-      title: Language Understanding for Text-based Games Using Deep Reinforcement Learning
-      authors: Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
-      required: true
-      url: https://arxiv.org/abs/1506.08941
-    -
-      title: Deep Reinforcement Learning with a Natural Language Action Space
-      authors: Ji He, Jianshu Chen†, Xiaodong He, Jianfeng Gao, Lihong Li
-      url: https://arxiv.org/abs/1511.04636
-      required: true
-    -
-      title: Learn What Not to Learn&colon; Action Elimination with Deep Reinforcement Learning
-      authors: Tom Zahavy, Matan Haroush, Nadav Merlis, Daniel J. Mankowitz, Shie Mannor
-      year: 2019
-      required: true
-      url: https://arxiv.org/abs/1809.02121
   homework_due: 
     - 
-      title: HW2&colon; NLP for text adventures
-      url: nlp-for-text-adventures/nlp-for-text-adventures.html
+      title: HW4&colon; Planning (10%)
+      url: 
+
 -
-  date: 2020-02-06
-  title: Natural Language Reasoning
-  slides: natural-language-inference-slides.pdf
+  date: 2022-02-21
+  title: Drop Period ends
+  type: no_lecture
+-
+  date: 2022-02-22
+  title: Commonsense Reasoning
+  description: 
+  slides:
+  readings:
+
+-
+  date: 2022-02-24
+  title: Commonsense Reasoning&colon; Knowledge Graphs
+  slides:
   readings:
     -
       title: Machine Common Sense Concept Paper
       authors: David Gunning
       optional: False
       url: https://arxiv.org/abs/1810.07528
-      year: 2018
     -
       title: Common Sense Reasoning – From Cyc to Intelligent Assistant
       authors: Kathy Panton, Cynthia Matuszek, Douglas Lenat, Dave Schneider, Michael Witbrock, Nick Siegel, and Blake Shepard
       optional: False
       url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
-      year: 2006
   optional:
     -
       title: Commonsense Reasoning for Natural Language Understanding&colon; A Survey of Benchmarks, Resources, and Approaches
@@ -128,13 +272,6 @@
       optional: True
       url: https://arxiv.org/abs/1904.01172
       year: 2019
-    -
-      title: ConceptNet — A Practical Commonsense Reasoning Tool-Kit
-      authors: H Liu and P Singh
-      optional: True
-      url: https://link.springer.com/article/10.1023/B:BTTJ.0000047600.45421.6d
-      year: 2006
-      software: http://conceptnet.io
     -
       title: AI2 Common Sense leaderboards
       authors: Allen Institute for Artificial Intelligence
@@ -148,231 +285,57 @@
       url: https://www.aclweb.org/anthology/D14-1059.pdf
       year: 2018
     -
-      title: Put My Galakmid Coin into the Dispenser and Kick It&colon; Computational Linguistics and Theorem Proving in a Computer Game
-      authors: Alexander Koller, Ralph Debusmann, Malte Gabsdil, and Kristina Striegnitz
-      optional: true
-      url: https://link.springer.com/article/10.1023/B:JLLI.0000024734.80591.30
+      title: GLUCOSE&colon; GeneraLized and COntextualized Story Explanations
+      authors: Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll
+      url: https://aclanthology.org/2020.emnlp-main.370/
+    -
+      title: ATOMIC&colon; An Atlas of Machine Commonsense for If-Then Reasoning
+      authors:  Maarten Sap, Ronan Le Bras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, Hannah Rashkin, Brendan Roof, Noah A. Smith, Yejin Choi 
+      url: https://ojs.aaai.org//index.php/AAAI/article/view/4160
+            
+      
 -
-  date: 2020-02-06
-  title: Word vectors, sentence embeddings, and other strange things
-  speaker: Nancy Fulda 
-  speaker_url: https://dragn.ai/people/
-  slides: Fulda-guest-lecture-interactive-fiction-class.pptx
+  date: 2022-03-01
+  title: Commonsense Reasoning&colon; Scripts
+  speaker:
+  speaker_url: 
+  slides:
   readings:
     -
-      title: What are Affordances?
-      authors: Interaction Design Foundation
-      optional: false
-      url: https://www.interaction-design.org/literature/topics/affordances
+      title: Scripts Plans Goals and Understanding&colon; An Inquiry Into Human Knowledge Structures (Chapter 3)
+      authors: Roger Schank, Robert Abelson
+      url: 
     -
-      title: What Can You Do with a Rock? Affordance Extraction via Word Embeddings
-      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
-      optional: false
-      url: https://www.ijcai.org/proceedings/2017/0144.pdf
-    -
-      title: Threat, Explore, Barter, Puzzle&colon; A Semantically-Informed Algorithm for Extracting Interaction Modes
-      authors: Nancy Fulda, Daniel Ricks, Ben Murdoch and David Wingate
-      optional: true
-      url: https://www.semanticscholar.org/paper/Threat%2C-Explore%2C-Barter%2C-Puzzle%3A-A-Algorithm-for-Fulda-Ricks/05b4551bfe45fe336f75544b4a777428e1f62695
--
-  date: 2020-02-13
-  title: Unconditioned Text Generation
-  slides: machine_learning_and_language_models.pdf
-  readings:
-    -
-      title: The Illustrated GPT-2 (Visualizing Transformer Language Models)
-      authors: Jay Alammar
-      optional: false
-      url: http://jalammar.github.io/illustrated-gpt2/
-    -
-      title: Daphne's WPE-II
-      authors: Daphne Ippolito
-      optional: false
+      title: Learning Statistical Scripts with LSTM Recurrent Neural Networks
+      authors: Karl Pichotta, Raymond Mooney
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/10347
   optional:
     -
-      title: Generating Wikipedia by Summarizing Long Sequences
-      authors: Peter J. Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, Noam Shazeer
-      optional: false
-      url: https://arxiv.org/abs/1801.10198
-    -
-      title: Hierarchical Neural Story Generation
-      authors: Angela Fan, Mike Lewis, Yann Dauphin
-      optional: false
-      url: https://www.aclweb.org/anthology/P18-1082.pdf
-    -
-      title: Do Massively Pretrained Language Models Make Better Storytellers?
-      authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
-      optional: false
-      url: https://arxiv.org/pdf/1909.10705.pdf
-  homework_due:   
-    -
-      title: HW3&colon; Reasoning about story endings
-      url: commonsense-reasoning/commonsense-reasoning.html
-      note: We will discuss approaches (and what has worked or hasn't) in class.
+      title: proScript&colon; Partially Ordered Scripts Generation via Pre-trained Language Models
+      authors: Keisuke Sakaguchi, Chandra Bhagavatula, Ronan Le Bras, Niket Tandon, Peter Clark, Yejin Choi
+      url: https://aclanthology.org/2021.findings-emnlp.184/
 -
-  date: 2020-02-20
-  title: Extracting Narrative Structure + Sampling Strategies for LM Text Generation
-  description: How to ectract schemas or other forms of narrative structure from a text.
-  slides: extracting-narrative-structure.pdf
-  activities: 
-    -
-      title: Brainstorm project ideas
+  date: 2022-03-03
+  title: Recap
+  slides: 
   readings:
-    -
-      title: Defining Narrative chapter in The Cambridge Introduction to Narrative (2nd Edition)
-      authors: H. Porter Abbot
-      optional: false
-      url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/45F0B7D16F447F02F8E5A4CC133F9A24/9780511816932c2_p13-27_CBO.pdf/defining_narrative.pdf
-    -
-      title: Morphology of the Folktale, ch 2, ch 8a-8b
-      authors: V Propp
-      optional: false
-      url: https://monoskop.org/images/f/f3/Propp_Vladimir_Morphology_of_the_Folktale_2nd_ed.pdf 
-  optional:
-    -
-      title: The Hero's Journey
-      authors: Wikipedia
-      optional: true
-      url: https://en.wikipedia.org/wiki/Hero's_journey
-    -
-      title: Unsupervised Learning of Narrative Schemas and their Participants
-      authors: Nathanael Chambers and Dan Jurafsky
-      optional: true
-      url: https://www.aclweb.org/anthology/P09-1068.pdf
-    -
-      title: Understanding Comics (page 84-85)
-      authors: Scott McCloud
-      optional: true
-      url: assets/readings/understanding_comics-pages-84-85.pdf
-    -
-      title: Deep Dungeons and Dragons&colon; Learning Character-Action Interactions from Role-Playing Game Transcripts
-      authors: Annie Louis, Charles Sutton
-      year: 2018
-      url: https://www.aclweb.org/anthology/N18-2111/
-      optional: true
+  homework_due: 
     - 
-      title: Beyond Canonical Texts&colon; A Computational Analysis of Fanfiction
-      authors: Smitha Milli and David Bamman
-      year: 2016
-      url: https://www.aclweb.org/anthology/D16-1218.pdf
-      optional: true
-    -
-      authors: Leiden University - Faculty of Humanities
-      url: https://www.youtube.com/watch?v=V5RyV-s0yhU
-      title: Vladimir Propp, the structure of fairy tales
-      length: 12 minutes
-    -
-      authors: TED-Ed - Matthew Winkler
-      url: https://www.youtube.com/watch?v=Hhk4N9A0oCA
-      title: What makes a hero?
-      length: 5 minutes 
+      title: HW5&colon; Commonsense Reasoning (10%)
+      url:  
 -
-  date: 2020-01-24
-  title: Drop Period ends
+  date: 2022-03-8
+  title: No class (Spring Break)
   type: no_lecture
 -
-  date: 2020-02-27
-  title: Generated Text Detection + Controllable Text Generation
-  activities: 
-    -
-      title: Show off generations from homework.
-  slides:
-  readings:
-    -
-      title: Defending Against Neural Fake News
-      authors: Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi, Franziska Roesner, Yejin Choi
-      optional: false
-      url: https://arxiv.org/abs/1905.12616
-    -
-      title: Detection of Machine-Generated Text is Easiest when Human are Fooled
-      authors: Daphne Ippolito, Daniel Duckworth, Douglas Eck, Chris Callison-Burch
-      optional: False
-  optional:
-    -
-      title: CTRL&colon; A Conditional Transformer Language Model for Controllable Generation
-      authors: Nitish Shirish Keskar, Bryan McCann, Lav R. Varshney, Caiming Xiong, Richard Socher
-      url: https://arxiv.org/pdf/1909.05858.pdf
-      optional: True
-    -
-      title: Plug and Play Language Models&colon; A Simple Approach to Controlled Text Generation
-      authors: Sumanth Dathathri, Andrea Madotto, Janice Lan, Jane Hung, Eric Frank, Piero Molino, Jason Yosinski, Rosanne Liu
-      url: https://arxiv.org/abs/1912.02164
-      year: 2019
-      optional: True
-  homework_due: 
-    - 
-      title: HW4&colon; Finetuning GPT-2
-      url: language-model/language-model.html
-      note: Bring your favorite generated text to class!
--
-  date: 2020-03-05
-  title: Role Playing Games
-  slides:
-  activities:
-    -
-      title: Play a role playing game.
-  readings:
-    -
-  optional:
-    -
-  homework_due: 
-    - 
-      title: Project proposal
--
-  date: 2020-03-12
+  date: 2022-03-10
   title: No class (Spring Break)
-  type: no_lecture      
+  type: no_lecture
 -
-  date: 2020-03-19
-  title: No class (pandemic spring break extension)
-  type: no_lecture      
--
-  date: 2020-03-26
-  title: Text Generation with Knowledge Grounding and Narrative Control + Conditional Language Models
-  slides:
-  optional:
-    -
-      title: Barack’s Wife Hillary&colon; Using Knowledge Graphs for Fact-Aware Language Modeling
-      authors: Robert L. Logan IV, Nelson F. Liu†, Matthew E. Peters, Matt Gardner, Sameer Singh
-      optional: true
-      url: https://www.aclweb.org/anthology/P19-1598.pdf
-    -
-      title: Plan-And-Write&colon; Towards Better Automatic Storytelling
-      authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao1 and Rui Yan
-      optional: true
-      url: https://www.cs.jhu.edu/~npeng/papers/AAAI19-story-planning.pdf
-    -
-      title: Neural Text Generation in Stories Using Entity Representations as Context
-      authors: Elizabeth Clark, Yangfeng Ji, Noah A. Smith
-      optional: true
-      url: https://www.aclweb.org/anthology/N18-1204.pdf
--
-  date: 2020-03-20
-  title: Grade Type Change Deadline
-  type: no_lecture      
--
-  date: 2020-03-30
-  title: Last day to withdraw from a course
-  type: no_lecture      
--
-  date: 2020-04-02
-  title: Dialog Systems and Chatbots
-  description: Building more interesting NPCs
-  slides:
+  date: 2022-03-15
+  title: Dialogue Systems
+  slides: 
   readings:
-    -
-      title: A Neural Conversational Model
-      authors: Oriol Vinyals, Quoc Le
-      url: https://arxiv.org/abs/1506.05869
-      year: 2015
-      required: True
-  optional:
-    -
-      title: Learning to Speak and Act in a Fantasy Text Adventure Game
-      authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
-      optional: false
-      url: https://arxiv.org/abs/1903.03094
-      software: https://parl.ai/projects/light/
     -
       title: Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models
       authors: Iulian V. Serban, Alessandro Sordoni, Yoshua Bengio, Aaron Courville, Joelle Pineau
@@ -383,79 +346,182 @@
       authors: Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, Bill Dolan
       url: https://arxiv.org/abs/1510.03055
       year: 2015
+    -
+      title: DialoGPT&colon; Large-Scale Generative Pre-training for Conversational Response Generation
+      authors: Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan
+      url: https://aclanthology.org/2020.acl-demos.30/
+
 -
-  date: 2020-04-09
-  title: Human-Computer-Interaction for Collaborative Story Generation
-  slides:
+  date: 2022-03-17
+  title: Dialogue Systems for IF
+  slides: 
+  readings:
+    -
+      title: A Neural Conversational Model
+      authors: Oriol Vinyals, Quoc Le
+      url: https://arxiv.org/abs/1506.05869
   optional:
     -
-      title: Wide Ruled&colon; A Friendly Interface to Author-Goal Based Story Generation
-      authors: James Skorupski, Lakshmi Jayapalan, Sheena Marquez, Michael Mateas
-      optional: True
-      year: 2007
-      url: https://eis.ucsc.edu/papers/skorupski_icvs2007_wideruled.pdf
+      title: Learning to Speak and Act in a Fantasy Text Adventure Game
+      authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
+      optional: false
+      url: https://arxiv.org/abs/1903.03094
+      software: https://parl.ai/projects/light/
     -
-      title: Authoring issues beyond tools
-      authors: Ulrike Spierling and Nicolas Szilas
-      optional: True
-      url: https://archive-ouverte.unige.ch/unige:48231/ATTACHMENT01
-      year: 2009
+      title: Telling Stories through Multi-User Dialogue by Modeling Character Relations
+      authors: Wai Man Si, Prithviraj Ammanabrolu, Mark O. Riedl
+      url: https://aclanthology.org/2021.sigdial-1.30.pdf
     -
-      title: Towards A Crowdsourced Solution For The Authoring Bottleneck In Interactive Narratives
-      authors: Michael Kriegel
-      optional: True
-      url: https://pdfs.semanticscholar.org/ad58/46444cb2e3e1592c248a9025fb0aa27b26df.pdf?_ga=2.160251069.1632072483.1570807801-2103101463.1569528845
-      year: 2015
-    -
-      title: Creative Writing with a Machine in the Loop&colon; Case Studies on Slogans and Stories
-      authors: Elizabeth Clark, Anne Spencer Ross, Chenhao Tan, Yangfeng Ji, Noah A Smith
-      url: http://yangfengji.net/publication/papers/clark2018creative.pdf
-      year: 2018
-    -
-      title: Pedagogically structured game-based training&colon; Development of the elect bilat simulation.
-      url: http://ict.usc.edu/pubs/PEDAGOGICALLY%20STRUCTURED%20GAME-BASED%20TRAINING-%20DEVELOPMENT%20OF%20THE%20ELECT%20BILAT%20SIMULATION.pdf
-      year: 2006
-      authors: Randall W. Hill, James Belanich, H. Chad Lane, Mark Core, Melissa Dixon, Eric Forbell, Julia Kim, John Hart
-    -
-      title: The Virtual Storyteller&colon; Story Creation by Intelligent Agents
-      year: 2003
-      authors: Mariet Theune, Sander Faas, Anton Nijholt, and Dirk Heylen
-      url: https://wwwhome.ewi.utwente.nl/~anijholt/artikelen/tidse2003.pdf
-    -
-      title: Narrative Planning&colon; Balancing Plot and Character
-      authors: Mark Riedl and Michael Young
-      optional: True
-      url: https://www.jair.org/index.php/jair/article/download/10669/25501
-      year: 2020
-    -
-      title: Interactive Drama, Art and Artificial Intelligence
-      authors: Michael Mateas
-      optional: TODO
-      url: https://www.cs.cmu.edu/~dgroup/papers/CMU-CS-02-206.pdf
-      year: 2002
+      title: I love your chain mail! Making knights smile in a fantasy game world&colon; Open-domain goal-oriented dialogue agents
+      authors: Shrimai Prabhumoye, Margaret Li, Jack Urbanek, Emily Dinan, Douwe Kiela, Jason Weston, Arthur Szlam
+      url: https://wordplay-workshop.github.io/modern/assets/pdfs/4.pdf
+
 -
-  date: 2020-04-16
-  title: Automated Storytelling
-  speaker: Mark Riedl 
-  speaker_url: https://www.cc.gatech.edu/people/mark-riedl
-  slides: Riedl-guest-lecture_Automated-Story-Generation.pdf
+  date: 2022-03-18
+  title: Grade Type Change Deadline
+  type: no_lecture
+-
+  date: 2022-03-22
+  title: Character-Based Generation
+  slides:
+  readings:
+    -
+      title: Deep Dungeons and Dragons&colon; Learning Character-Action Interactions from Role-Playing Game Transcripts
+      authors: Annie Louis, Charles Sutton
+      url: https://aclanthology.org/N18-2111/
+
+
+-
+  date: 2022-03-24
+  title: Recap
+  slides: 
+  readings:
+  homework_due: 
+    - 
+      title: HW6&colon; Dialogue Systems (10%)
+      url:  
+      
+-
+  date: 2022-03-28
+  title: Last day to withdraw from a course
+  type: no_lecture  
+
+-
+  date: 2022-03-29
+  title: Reinforcement Learning
+  slides: 
+  readings:
+
+-
+  date: 2022-03-31
+  title: Reinforcement Learning for Playing Interactive Fiction
+  slides: 
+  readings:
+    -
+      title: Playing Text-Adventure Games with Graph-Based Deep Reinforcement Learning
+      authors: Prithviraj Ammanabrolu, Mark Riedl
+      url: https://aclanthology.org/N19-1358
+    -
+      title: How To Avoid Being Eaten By a Grue&colon; Exploration Strategies for Text-Adventure Agents
+      authors: Prithviraj Ammanabrolu, Ethan Tien, Zhaochen Luo, Mark O. Riedl
+      url: https://arxiv.org/abs/2002.08795
+    -
+      title: Language Understanding for Text-based Games Using Deep Reinforcement Learning
+      authors: Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
+      url: https://arxiv.org/abs/1506.08941
+    -
+      title: Deep Reinforcement Learning with a Natural Language Action Space
+      authors: Ji He, Jianshu Chen†, Xiaodong He, Jianfeng Gao, Lihong Li
+      url: https://arxiv.org/abs/1511.04636
+    -
+      title: Learn What Not to Learn&colon; Action Elimination with Deep Reinforcement Learning
+      authors: Tom Zahavy, Matan Haroush, Nadav Merlis, Daniel J. Mankowitz, Shie Mannor
+      url: https://arxiv.org/abs/1809.02121
+-
+  date: 2022-04-05
+  title: Guided Story Generation
+  slides: 
   readings:
     -
       title: Controllable Neural Story Plot Generation via Reinforcement Learning
       authors: Pradyumna Tambwekar, Murtaza Dhuliawala, Lara J. Martin, Animesh Mehta, Brent Harrison, Mark O. Riedl
-      optional: True
-      url: https://arxiv.org/abs/1809.10736
-      year: 2019
+      url: https://www.ijcai.org/proceedings/2019/829
     -
-      title: Event Representations for Automated Story Generation with Deep Neural Nets
-      authors: Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl
-      optional: True
-      url: https://arxiv.org/abs/1706.01331
-      year: 2018
+      title: Plan-And-Write&colon; Towards Better Automatic Storytelling
+      authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao, Rui Yan
+      url: https://www.aaai.org/ojs/index.php/AAAI/article/download/4726/4604
+
+
+
 -
-  date: 2020-04-23
-  title: Final Presentations
-  slides:
+  date: 2022-04-07
+  title: Recap
+  slides: 
+  readings:
+  homework_due: 
+    - 
+      title: HW7&colon; Reinforcement Learning
+      url:
+-
+  date: 2022-04-12
+  title: TBD
+  slides: 
+  readings:
+  homework_due: 
+    - 
+      title: Final Project Milestone 1&colon; System Gameplan Presentation (5%)
+      url: project-proposal/project-proposal.html
+
+-
+  date: 2022-04-14
+  title: TBD
+  slides: 
+  readings: 
+
+-
+  date: 2022-04-19
+  title: TBD
+  slides: 
+  readings:
+  homework_due: 
+    - 
+      title: Final Project Milestone 2&colon; Progress Report (5%)
+      url: project-milestone2/project-milestone2.html
+-
+  date: 2022-04-21
+  title: TBD
+  slides: 
+  readings:
+
+-
+  date: 2022-04-26
+  title: TBD
+  slides: 
+  homework_due: 
+    - 
+      title: Final Project Milestone 3&colon; Final Report (20%)
+      url: project-milestone3/project-milestone3.html
+
+
+
+
+
+
+#    -
+#      title: Put My Galakmid Coin into the Dispenser and Kick It&colon; Computational Linguistics and Theorem Proving in a Computer Game
+#      authors: Alexander Koller, Ralph Debusmann, Malte Gabsdil, and Kristina Striegnitz
+#      optional: true
+#      url: https://link.springer.com/article/10.1023/B:JLLI.0000024734.80591.30
+
+
+
+
+
+
+
+
+
+
 
 # Temporarily removed this.
 # title: History of Story-telling in Artificial Intelligence
