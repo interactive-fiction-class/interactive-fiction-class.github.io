@@ -1,5 +1,5 @@
 ---
-title: CIS 700-008 - Interactive Fiction and Text Generation - University of Pennsylvania
+title: CIS 700-001 - Interactive Fiction and Text Generation - University of Pennsylvania
 layout: default
 img: heroes_journey.png
 active_tab: main_page 
@@ -8,7 +8,7 @@ active_tab: main_page
 <!--
 <div class="alert alert-warning" markdown="1">
 Want to join the class, but didn't attend the first lecture? Here are the steps to follow:
-1. [Get a permit by signing yourself up for CIS 700-008 via the waitlist system](https://forms.cis.upenn.edu/waitlist/index.php).  
+1. [Get a permit by signing yourself up for CIS 700-001 via the waitlist system](https://forms.cis.upenn.edu/waitlist/index.php).  
 2. [Do the for-credit in-class assignment from the first lecture](http://interactive-fiction-class.org/in_class_activities/play-text-adventures/play-text-adventures.html).
 3. [Listen to recording of the first lecture](https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=8b5f2734-0738-4f52-90f5-ab3c01236b7c) and [look over the slides](http://interactive-fiction-class.org/slides/text-adventure-games.pdf).
 4. [Complete the first homework assignment before class on Thursday](http://interactive-fiction-class.org/homeworks/text-adventure-game/text-adventure-game.html).
@@ -61,11 +61,15 @@ A great example of what you could build if you take this class is the [AI Dungeo
 </div>
 -->
 <div class="alert alert-success" markdown="1">
-This course will be offered in Spring 2022!  It will be held on Tuesdays and Thursdays from 1:45pm-3:15pm Eastern.  We’ll be managing permits for that class via the [CIS Waitlist System](https://forms.cis.upenn.edu/waitlist/index.php) which will open around Nov 23, after the early registration period. 
+This course will be offered in Spring 2022!  It will be held on Tuesdays and Thursdays from 1:45pm-3:15pm Eastern.  We’ll be managing permits for that class via the [CIS Waitlist System](https://forms.cis.upenn.edu/waitlist/index.php) which will open around Nov 23, after the early registration period. The course number for this class is CIS 700-001.
 </div>
 
 Course number
-: CIS 700-008 - Interactive Fiction and Text Generation 
+: CIS 700-001 - Interactive Fiction and Text Generation 
+
+Prerequisites 
+: CIS 530
+: CIS 419/519 or CIS 520
 
 Course Description
 : We know now that artificial intelligence (AI) can play chess or even Go, but can AI play text adventure games (also known as interactive fiction)? What about roleplaying games like Dungeons & Dragons? In this course, we will be looking at the subfields of automated story generation (teaching computers to tell stories), interactive fiction (teaching computers to play through stories), and their intersection (teaching computers to tell and then play through the stories). This class will teach you about computational creativity and help develop your skills in natural language processing and cognitive modeling. 
@@ -92,7 +96,7 @@ Instructors
 : [Chris Callison-Burch](https://www.cis.upenn.edu/~ccb/)
 
 Discussion Forum
-: [Piazza](https://piazza.com/upenn/spring2020/cis700008)
+: [Piazza](https://piazza.com/upenn/spring2022/cis700001)
 
 Time and place
 : Spring 2022, Tuesdays & Thursdays from 1:45-3:15pm EST
