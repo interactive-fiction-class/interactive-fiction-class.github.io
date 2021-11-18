@@ -1,0 +1,674 @@
+-
+  module_number: 1
+  start_date: 2021-08-31
+  end_date: 2021-09-06
+  title: Course Introduction & Rational Agents
+  description: In this module, we will introduce the course by delving into the philosophical underpinnings of artificial intelligence, integrating the work of important thinkers from Descartes to Alan Turing. We’ll also look at how Science Fiction often foretells the future of artificial intelligence, including examples of AI from hit 1970s and 1980s films that, decades later, have become a reality. This will set us up for some key considerations we’ll make when designing our own AI systems and how they should behave. Should they act like humans do, or think like humans do, or act and think rationally?
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=97bacec2-6e77-4877-92ac-ad92011ca74c
+  slides: 01-Intro-to-Artificial-Intelligence.pdf
+  quiz:
+    - 
+      title: Quiz 1 "Course Policies and Turing Test"
+      url: https://www.gradescope.com/courses/305169/assignments/1463618/
+      due_date: 2021-09-08 23:59:00EDT
+  lessons:
+    - 
+      title: Artificial Intelligence in Philosophy
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f77ce115-b6c8-404a-bb49-ad92011f91e7
+      length: 18 minutes
+    - 
+      title: Brain in a Vat Thought Experiment (YouTube)
+      video: https://www.youtube.com/watch?v=zO0sSJB1TrI
+      length: 3 minutes
+    - 
+      title: Artificial Intelligence in Science Fiction 
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6463a9ed-ebe5-4211-bd71-ad920119026d
+      length: 20 minutes
+    - 
+      title: Intelligent Agents
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3439de81-6296-4e8c-8d28-ad9201191182
+      length: 20 minutes
+    - 
+      title: Task Environments
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=91b4c112-e745-47cb-8468-ad9201191160
+      length: 18 minutes
+  readings:   
+    - 
+      title: AIMA 4th Edition, Chapter 1 "Introduction", Section 1.1 "What is AI"
+      authors: Russell and Norvig
+      optional: false
+    - 
+      title: AIMA 4th Edition, Chapter 27 "Philosophical Foundations", Sections 27.1 "The Limits of AI" and 27.2 "Can Machines Really Think?"
+      authors: Russell and Norvig
+      optional: false
+    - 
+      title: AIMA 4th Edition, Chapter 2 "Intelligent Agents" (whole chapter)
+      authors: Russell and Norvig
+      optional: false
+    - 
+      title: A Behavioral Model of Rational Choice
+      authors: Herbert A Simon
+      url: https://www.rand.org/pubs/papers/P365.html
+      optional: true
+
+-
+  module_number: 2
+  start_date: 2021-09-06
+  end_date: 2021-09-13
+  title: Intro to Python
+  description: Python is an amazing language with a concise syntax that allows you to rapidly prototype algorithms, and we are going to use it for all the assignments in this course. This module will cover all of the fundamentals you need to get started with Python. And as we continue through the rest of the course, you’ll quickly become an expert!
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4389e5d-083e-40c7-b458-ad92011c9210
+  slides: 02-Intro-to-Python.pdf
+  quiz:
+    - 
+      title: Quiz 2 "Python"
+      url: https://www.gradescope.com/courses/305169/assignments/1466690/
+      due_date: 2021-09-11 23:59:00EDT
+  lessons:
+    - 
+
+      title: Introduction to Python
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=92fc9c4b-4e5c-478d-806e-ad920119e77d
+      length: 11 minutes
+    - 
+      title: Objects and Types
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bc104345-b154-49ba-aef7-ad92011a0397
+      length: 15 minutes
+    - 
+      title: Functions
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e56c590-f9ae-453e-bd8f-ad920119f330
+      length: 20 minutes 
+    - 
+      title: For Loops
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a26ee4e-d570-4308-88e3-ad920119e7ea
+      length: 8 minutes
+    - 
+      title: Imports
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=de404fc3-288a-4c4c-a0b7-ad920119e7b3
+      length: 6 minutes
+    -
+      title: A Worked Example
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6086dffe-1699-487c-bdff-ad920119e73e
+      length: 9 minutes 
+  homework: Homework 1 "Python Skills"
+
+-
+  module_number: 3
+  start_date: 2021-09-13
+  end_date: 2021-09-20
+  title: Search Problems
+  description: In artificial intelligence, a surprising number of tasks that we want to solve can be cast as search problems. In this module, we will introduce the formal definition of search problems, and examine some classic algorithms for solving search problems called shortest path algorithms. These are sometimes referred to as “uninformed” search algorithms or “blind” search algorithms, because they are run without any additional knowledge of where our goal lies. We’ll also look at some variants of these algorithms that have computational complexity guarantees.
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=96480a11-edaa-4762-b5bb-ad92011c993e
+  slides: 03-Search-Problems.pdf
+  quiz:
+    - 
+      title: Flashcards for Search Problems
+      url: https://remember.school
+      due_date: 2021-09-18 23:59:00EDT
+  lessons:
+    - 
+
+      title: Search Problems
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f8a55d36-0397-49ae-b24f-ad92011a2e8e
+      length: 12 minutes
+    - 
+      title: Search Problem Formulation
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=227c1da8-8a21-4649-86ec-ad92011a4fd4
+      length: 14 minutes
+    - 
+      title: Basic Search Algorithms
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5ca17958-bbf1-4683-921a-ad92011a45ad
+      length: 10 minutes 
+    - 
+      title: Uniformed Search Strategies
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4e4404b6-5b12-423e-9362-ad92011a2ec9
+      length: 5 minutes
+    - 
+      title: Review of BFS and DFS
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6edba822-310d-4c18-bec0-ad92011a2eff
+      length: 9 minutes
+    -
+      title: Depth Limited Search and Iterative Deepening Search
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=463bcac3-7fac-42f3-82d7-ad92011a2f41
+      length: 5 minutes 
+  homework: Homework 2
+  readings:
+    - 
+      title: AIMA 4th Edition, AIMA Chapter 3 "Problem Solving by Search" (3.1-3.4)
+      authors: Russell and Norvig
+      optional: false
+-
+  module_number: 4
+  start_date: 2021-09-20
+  end_date: 2021-09-27
+  title: Informed Search
+  description: We can often find a solution to a search problem more quickly if we have some knowledge about how close we are to a goal state. In this module we’ll look at the process of incorporating such knowledge into search algorithms, which, when used optimally, can help focus our search efforts so that we avoid exploring actions that move us further away from the goal. We’ll examine the most famous informed search algorithm, A* search, which is guaranteed to find an optimal solution first.
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0bb33744-e996-401f-b2b8-ad92011ca17a
+  slides: 04-Informed-Search.pdf
+  quiz:
+    -
+      title: Flashcards for Informed Search Problems
+      url: https://remember.school
+      due_date: 2021-09-25 23:59:00EDT
+  lessons:
+    -
+      title: Uniform-cost Search
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=07c8da34-3d87-40d1-9145-ad99015953de
+      length: 6 minutes 
+    -
+      title: Heuristic Functions
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cd8df6f8-a2c2-43d9-a7c8-ad99015953fb
+      length: 5 minutes 
+    -
+      title: Greedy Best-first Search
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=383b2690-48f1-43df-b242-ad99015953a3
+      length: 9 minutes 
+    -
+      title: A* Search - part 1
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9f1c927c-ae24-4be1-a9cd-ad9901595427
+      length: 13 minutes 
+    -
+      title: A* Search - part 2
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0cac7e1a-a015-467b-aaeb-ad9901596a2f
+      length: 19 minutes 
+  homework: Homework 3
+  readings:
+    - 
+      title: AIMA Chapter 3 "Problem Solving by Search" (3.5-3.6)
+      authors: Russell and Norvig
+      optional: false
+-
+  module_number: 5
+  start_date: 2021-09-27
+  end_date: 2021-10-04
+  title: Games and Adversarial Search
+  description: Games present an interesting challenge for artificial intelligence because they involve reasoning about what actions your opponent is likely to take. In this module we’ll talk about how to represent games as adversarial search problems, using a search tree, which assumes that your opponent is a rational actor that is trying to use the best strategy. We will also investigate a number of helpful algorithms and concepts that apply in the context of games, such as minimax and expectimax.
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eb63aeeb-fecb-48c1-83ac-ad92011c8832
+  slides: 05-Adversarial-Search.pdf
+  quiz:
+    - 
+      title: Flashcards for Games and Adversarial Search
+      url: https://remember.school
+      due_date: 2021-10-02 23:59:00EDT
+  lessons:
+    -
+      title: Game Formulation
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=032751af-97ee-4722-b413-ad990183ad6a
+      length: 14 minutes 
+    -
+      title: Game Tree
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=df32c0e3-afb1-42b5-8e2a-ad990183ad3b
+      length: 17 minutes 
+    -
+      title: Minimax Rules
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d83f23d1-ebac-47b1-8069-ad990183ad10
+      length: 6 minutes 
+    -
+      title: Alpha-Beta Pruning
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f63ad44f-80a2-4aa4-9119-ad990183ada1
+      length: 9 minutes 
+    -
+      title: Alpha-Beta Pruning worked example (Prof. Pieter Abbeel)
+      video: https://www.youtube.com/watch?v=xBXHtz4Gbdo
+      length: 14 minutes 
+    -
+      title: Expectimax
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=056ceec4-6022-4e3f-aba2-ad990183fb08
+      length: 13 minutes 
+  homework: Homework 4
+  readings:
+    - 
+      title: AIMA chapter 5 "Adversairal Search" (5.2-5.5).
+      authors: Russell and Norvig
+      optional: false
+    - 
+      title: AIMA Chapter 16 "Making Simple Decisions" (16.1-16.3) 
+      authors: Russell and Norvig
+      optional: false
+    - 
+      title:  Programming a Computer for Playing Chess (1950) 
+      authors: Claude Shannon
+      url: http://artificial-intelligence-class.org/assets/readings/Shanning-1950-Programming-a-Computer-for-Playing-Chess.pdf
+      optional: true
+    - 
+      title: Reconstructing Turing's "Paper Machine" 
+      authors: Frederic Friedel
+      url: https://en.chessbase.com/post/reconstructing-turing-s-paper-machine
+      optional: true
+-
+  module_number: 6
+  start_date: 2021-09-27
+  end_date: 2021-10-04
+  title: Constraint Satisfaction Problems
+  description: In this module, we’ll look at constraint satisfaction problems (CSPs), a kind of search problem that allows us to take advantage of the problem structure. In CSPs, we have a set of variables, each of which we need to assign a value to, subject to some constraints. Through examples like map coloring and sudoku puzzles, we’ll discuss how we represent CSPs as a graph, how we propagate constraints on a partially solved graph, and how we check for consistency in nodes, arcs and paths. This will also introduce us to new concepts including inference and backtracking search.
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=99c09c2a-6793-4055-bff1-ad92011c61cc
+  slides: 06-CSPs.pdf
+  quiz:
+    - 
+      title: Flashcards for CSPs
+      url: https://remember.school
+      due_date: 2021-10-09 23:59:00EDT
+  lessons:
+    -
+      title: Intro to CSPs
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fe1a392d-740f-4e91-8ab8-ad9901852291
+      length: 9 minutes 
+    -
+      title: Deeper into CPSs
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a300a5c5-6e96-4b7e-8f4b-ad9901850ac4
+      length: 13 minutes 
+    -
+      title: CSPs as a Search Problem
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4f6fdac5-c0da-4932-843d-ad9901850a83
+      length: 9 minutes 
+    -
+      title: Heuristics to Improve Backtracking Efficiency
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a561fc41-d968-447b-8803-ad9901850a2f
+      length: 17 minutes 
+    -
+      title: Arc Consistency and AC3
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=acdb057c-d3ee-435a-bdd6-ad9901850a5e
+      length: 13 minutes 
+  homework: Homework 4
+  readings:
+    - 
+      title: AIMA, Chapter 6 "Constraint Satisfaction Problems" (6.1-6.5)
+      authors: Russell and Norvig
+      optional: false
+-
+  module_number: 7
+  start_date: 2021-10-04
+  end_date: 2021-10-11
+  title: Logical Agents
+  description: In this module, we will introduce a new kind of agent&colon; Knowledge-based Agents that are able to create and update a representation of the world in a knowledge base, and use inference rules and logical reasoning to draw conclusions about how the world works. This necessitates a knowledge base, a set of sentences that are written in a knowledge representation language that contain some assertions about the world. In our course, we will talk about Propositional Logic as a knowledge representation language.
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f2d32758-93e6-4daf-88d1-ad92011c619a
+  slides: 07-Logical-Agents.pdf
+  quiz:
+    - 
+      title: Flashcards for Logical Agents
+      url: https://remember.school
+      due_date: 2021-10-18 23:59:00EDT
+  lessons:
+    -
+      title: Knowledge-based Agents 1
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e78c168-cf1e-45d6-97ed-ad99018689af
+      length: 8 minutes https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e78c168-cf1e-45d6-97ed-ad99018689af
+    -
+      title: Hunt the Wampas
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=429a0c8d-d99e-4ea7-80e8-ad9901868a14
+      length: 16 minutes https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=429a0c8d-d99e-4ea7-80e8-ad9901868a14
+    -
+      title: Knowledge-based Agents 2
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9276898d-76b9-4a6a-9aab-ad9901868a40
+      length: 8 minutes https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9276898d-76b9-4a6a-9aab-ad9901868a40
+    -
+      title: Propositional Logic
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=efac7002-67a7-4845-8a1c-ad99018689e4
+      length: 10 minutes https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=efac7002-67a7-4845-8a1c-ad99018689e4
+    -
+      title: Knowledge Bases
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4cd1207c-3a42-42ca-b62c-ad990186c36e
+      length: 15 minutes 
+    -
+      title: Theorem Proving 1
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b40b835d-a330-4974-9375-ad990186f1d3
+      length: 20 minutes 
+    -
+      title: Theorem Proving 2
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f2c0f382-1e45-4e6b-bbe5-ad990186a30e
+      length: 17 minutes 
+  homework:
+  readings:
+    - 
+      title: AIMA Chapter 7 "Logical Agents", Sections 7.1-7.5
+      authors: Russell and Norvig
+      optional: false
+
+-
+  module_number: 8
+  start_date: 2021-10-11
+  end_date: 2021-10-18
+  title: Markov Decision Process
+  description: So far, we have examined deterministic problem settings, but in this module will now turn to stochastic or probabilistic task environments. We’ll start by introducing a new kind of formalization called Markov Decision Processes (MDPs) which are useful for fully observable task environments where we have to make a sequence of decisions, and where the outcome for actions we take are non-deterministic. Looking at MDPs will also look into new algorithms, such as Policy Iteration and Value Iteration, and the important concepts v and additive rewards.
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6a509bea-bd69-42a5-b3c4-ad92011c6213
+  slides: 08-MDPs.pdf
+  quiz:
+    - 
+      title: Flashcards for MDPs
+      url: https://remember.school
+      due_date: 2021-10-23 23:59:00EDT
+  lessons:
+    -
+      title: Introduction to MDPs
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=003f21f2-eb89-40d8-8314-ad9a00018016
+      length: 11 minutes 
+    -
+      title: MDP Formulation (part 1)
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04bf7727-53c4-4f28-89ab-ad9a0003619e
+      length: 11 minutes 
+    -
+      title: MDP Formulation (part 2)
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=90414a2b-7416-4e76-80da-ad9a000346a7
+      length: 8 minutes 
+    -
+      title: MDP Examples
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f5bd35ad-ae05-4a76-87c7-ad9a0002ddf3
+      length: 12 minutes 
+    -
+      title: Value Iteration Algorithm
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5c9701f6-c465-4971-889c-ad9a0001adfd
+      length: 21 minutes 
+    -
+      title: Policy Evaluation
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=294e6fdd-dc3c-4a0b-94bc-ad9a000180ae
+      length: 9 minutes 
+    -
+      title: Policy Iteration Algorithm
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a7c5a3a4-ac06-42c5-a874-ad9a0001808a
+      length: 8 minutes 
+    -
+      title: Maximum Expected Utility
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bcb9417e-6ca9-4394-86e7-ad9a0001805f
+      length: 22 minutes 
+  homework: Homework 5
+  readings:
+    - 
+      title: AIMA Chapter 16 "Making Simple Decisions" (16.1-16.3) 
+      authors: Russell and Norvig
+      optional: false
+    - 
+      title: AIMA Chapter 17 "Making Complex Decision" (17.1-17.2) 
+      authors: Russell and Norvig
+      optional: false
+
+-
+  module_number: 9
+  start_date: 2021-10-18
+  end_date: 2021-11-01
+  title: Reinforcement Learning
+  description: In this module, we will explore situations where a transition and a reward function are not given to us, but must be learned through interaction with the world. In reinforcement learning, every time an agent takes an action in the world, it receives feedback in the form of a reward, and so the agent wants to maximize its expected rewards. We’ll look at several different learning techniques for reinforcement learning&colon; including model-based learning and temporal difference learning. Finally, we’ll be able to quantify how good different exploration strategies are using regret.
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3127f7c7-6d53-41ab-a9ff-ad92011c61f1
+  slides: 09-Reinforcement-Learning.pdf
+  quiz:
+    - 
+      title: Flashcards for Reinforcement Learning 
+      url: https://remember.school
+      due_date: 2021-10-30 23:59:00EDT
+  lessons:
+    -
+      title: Introduction to Reinforcement Learning 1
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=445fdb4d-fa49-4a0b-a5e1-ad9a000ddd3b
+      length: 12 minutes 
+    -
+      title: Introduction to Reinforcement Learning 2
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=095ca851-b59d-41d3-b746-ad9a000daac2
+      length: 12 minutes 
+    -
+      title: Passive Reinforcement Learning
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e348b05-63a7-4209-b074-ad9a000d8475
+      length: 14 minutes 
+    -
+      title: Temporal Difference Learning
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=34dc5e61-133b-4f30-b9c4-ad9a000d4295
+      length: 11 minutes 
+    -
+      title: Active Reinforcement Learning (Q-Learning)
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3116c2f3-7c40-401a-b28a-ad9a000d42cc
+      length: 14 minutes 
+    -
+      title: Exploration vs. Exploitation
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fc19f467-cb49-4107-9011-ad9a000d4243
+      length: 11 minutes 
+    -
+      title: Approximate Q-Learning
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7115b665-0be2-4e5c-9836-ad9a000d4262
+      length: 11 minutes 
+  homework: Homework 6
+  readings:
+    - 
+      title: AIMA Section 17.3 "Bandit Problems" 
+      authors: Russell and Norvig
+      optional: false
+    - 
+      title: AIMA Chapter 22 "Reinforcement Learning" (Sections 22.1-22.5) 
+      authors: Russell and Norvig
+      optional: false
+
+-
+  module_number: 10
+  start_date: 2021-11-01
+  end_date: 2021-11-08
+  title: Probabilities and Language Models
+  description: In this module, we’ll review the basics of probability, an extremely important concept to master in artificial intelligence. We’ll review the basics of probability theory, including the axioms of probability, what an event is, what a probabilistic model is, and much more. To show some practical applications of these concepts, we’ll take a look at something called probabilistic language models, which power things like autocomplete on your smartphone.
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=65f83e72-f842-4efa-818e-ad92011c6b9d
+  slides: 10-language-models-and-probabilities.pdf
+  quiz:
+    - 
+      title: Flashcards for Probabilities and Language Models
+      url: https://remember.school
+      due_date: 2021-11-06 23:59:00EDT
+  lessons:
+    -
+      title: Review of Probabilities
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6a80b53c-a1f8-477e-8822-ad9a001149f7
+      length: 9 minutes 
+    -
+      title: Distributions
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=05d2089a-60a7-4227-ab21-ad9a001149ad
+      length: 13 minutes 
+    -
+      title: Probabilistic inference and Rules
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2fb8d3ec-f031-4398-aaf6-ad9a00114a24
+      length: 13 minutes 
+    -
+      title: Probabilistic Language Models
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=294e4060-e6ca-4c85-b5aa-ad9a001149d8
+      length: 14 minutes 
+  homework: Homework 7
+  readings:
+    - 
+      title: AIMA Chapter 12 "Quantifying Uncertainty" (Sections 12.1-12.7)
+      authors: Russell and Norvig
+      optional: false
+    - 
+      title: Speech and Language Processing Chapter 3 "N-Gram Language Models" 
+      authors: Jurafsky and Martin
+      url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
+      optional: false
+
+
+-
+  module_number: 11
+  start_date: 2021-11-08
+  end_date: 2021-11-17
+  title: Probabilistic Reasoning and Bayes' Nets
+  description: In this module we will build on last week by reviewing a kind of probabilistic model called a Bayes Net, where the nodes represent variables in our probability model, and the arcs encode our assumption about how the events are related to each other. Bayes Nets are compact representations that allow us to encode independence assumptions between variables. We will revisit independence and look at an algorithm for enumerating the independence assumptions in a Bayes Net called the d-separation algorithm.
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=758ea244-2298-49b4-a0ed-ad92011c761a
+  slides: 11-Bayes-Nets.pdf
+  quiz:
+    -
+      title: Flashcards for Bayes Nets
+      url: https://remember.school
+      due_date: 2021-11-13 23:59:00EDT
+  lessons:
+    -
+      title: Review of Independence
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3c6e23c8-b6ac-45d3-b82a-ad9a00130657
+      length: 9 minutes 
+    -
+      title: Bayes Net Properties
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2b54119e-425c-4b63-b61e-ad9a0013067f
+      length: 15 minutes 
+    -
+      title: Reachability and Paths
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7c77b6e8-c47c-4a98-a6b0-ad9a001306f3
+      length: 6 minutes 
+    -
+      title: The D-Separation Algorithm
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=16c81582-a403-48dd-801a-ad9a001306b4
+      length: 11 minutes 
+    -
+      title: Inference
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c69bb4e0-34d0-438d-9a78-ad9a00dccb17
+      length: 11 minutes 
+  readings:
+    - 
+      title: Russell and Norvig, AIMA Chapter 13 "Probabilistic Reasoning" (13.1, 13.2, 13.3)
+      authors: Russell and Norvig
+      optional: false
+
+
+
+-
+  module_number: 12
+  start_date: 2021-11-15
+  end_date: 2021-11-22
+  title: Naive Bayes and Perceptrons
+  description: Machine learning is an important aspect of artificial intelligence. Broadly speaking machine learning addresses the question&colon; How can an agent use data to learn to make decisions? In this module we’ll look at two different machine learning algorithms&colon; Naive Bayes and perceptrons, that use a set of labeled training data in order to learn how to perform classification tasks.
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6d5782a2-7448-4eec-8d52-ad92011c7d89
+  slides: 12-Machine-Learning.pdf
+  quiz:
+    - 
+      title: Flashcards for Naive Bayes and Perceptrons
+      url: https://remember.school
+      due_date: 2021-11-20 23:59:00EDT
+  lessons:
+    -
+      title: Classification Tasks
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ddf73e4d-7384-44cd-b511-ad9a001ba4b7
+      length: 15 minutes 
+    -
+      title: Naïve Bayes
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5768d69b-3e1d-4ede-a533-ad9a0015fcad
+      length: 26 minutes 
+    -
+      title: Basic Concepts in ML
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d63e50d9-2eb8-4250-a3c1-ad9a0015fc79
+      length: 21 minutes 
+    -
+      title: Perceptron
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f9194641-072d-44c7-a85c-ad9a001ba468
+      length: 21 minutes 
+    -
+      title: Improvements to Perceptrons, and SVM
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=96cffd31-98c5-44ff-b944-ad9a001ba417
+      length: 12 minutes 
+  homework: Perceptron
+  readings:
+    - 
+      title: AIMA Chapter 19 "Learning from Examples" (Sections 19.1-19.6)
+      authors: Russell and Norvig
+      optional: false
+    - 
+      title: Speech and Language Processing Chapter 4 "Naive Bayes and Sentiment Classification"
+      authors: Jurafsky and Martin
+      url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
+      optional: false
+    - 
+      title: Electronic 'Brain' Teaches Itself 
+      authors: New York Times (July 13, 1958)
+      url: https://timesmachine.nytimes.com/timesmachine/1958/07/13/91396361.html?action=click&contentCollection=Archives&module=LedeAsset&region=ArchiveBody&pgtype=article&pageNumber=116
+      optional: true
+
+
+-
+  module_number: 13
+  start_date: 2021-11-22
+  end_date: 2021-12-06
+  title: Neural Networks
+  description: In this module we will investigate neural networks, which consist of a set of neural units that are grouped together in a network. We will look at the neural networks’ training procedure, the errors involved and their attribution, and several neural architectures. We will also look at how neural networks have been used as probabilistic language models.
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c3f50379-2195-4393-b015-ad92011c859c
+  slides: 13-Neural-Networks.pdf
+  quiz:
+    - 
+      title: Flashcards for Neural Nets
+      url: https://remember.school
+      due_date: 2021-12-04 23:59:00EDT
+  lessons:
+    -
+      title: Logistic Regression
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=57f6d9b6-c412-4f98-bbd2-ad9a001d35a2
+      length: 19 minutes 
+    -
+      title: Loss Functions
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a98cffa4-5ada-4062-aa90-ad9a001d2976
+      length: 17 minutes 
+    -
+      title: Stochastic Gradient Descent 1
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=170e5a9b-f246-44e0-b7c6-ad9a001d2f93
+      length: 12 minutes 
+    -
+      title: Stochastic Gradient Descent 2
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0923cf5d-8a82-450a-afc4-ad9a001d24c5
+      length: 21 minutes 
+    -
+      title: Neural Networks 1
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ce2f334c-649d-4459-b864-ad9a002074b6
+      length: 8 minutes 
+    -
+      title: Neural Networks 2
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=91b17e6f-46bb-4b17-8dc4-ad9a001ec7f3
+      length: 18 minutes 
+  homework: Neural Networks
+  readings:
+    - 
+      title: Speech and Language Processing Chapter 5 "Logistic Regression" (Sections 5.1-5.6)
+      authors: Jurafsky and Martin
+      url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
+      optional: false
+    - 
+      title: Chapter 7 "Neural Networks and Neural Language Models" 
+      authors: Jurafsky and Martin
+      url: https://web.stanford.edu/~jurafsky/slp3/7.pdf
+      optional: false
+
+
+-
+  module_number: 14
+  start_date: 2021-12-06
+  end_date: 2021-12-14
+  title: Natural Language Processing
+  description: In our last content module, we will look into an application of AI called Natural Language Processing (NLP.) The goal of NLP is to enable computers to communicate in a human-like fashion. This was one of the first ideas for AI, tracing its routes all the way back to Alan Turing and the imitation game. In this module, we’ll be focusing on how to create representations of words that capture their meanings, using the concept of vector space models.
+  intro_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ee63f3dc-7d87-435f-8898-ad9a002270c1
+  slides: 14-NLP.pdf
+  quiz:
+    - 
+      title: Flashcards for NLP
+      url: https://remember.school
+      due_date: 2021-12-10 23:59:00EDT
+  lessons:
+    -
+      title: Neural Language Models
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a6ab36e-b6e6-4043-952d-ad9a00227bbd
+      length: 20 minutes 
+    -
+      title: Lexical Semantic Models
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e6c957c8-fe6d-467a-a76a-ad9a00227b82
+      length: 9 minutes 
+    -
+      title: Vector Semantic Models 1
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5604ec2d-4796-4ae1-a4cb-ad9a00227bdd
+      length: 16 minutes 
+    -
+      title: Vector Semantic Models 2
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0de57e1d-fa86-4c36-ad3f-ad9a0022b8a0
+      length: 10 minutes 
+    -
+      title: Word Embeddings
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a999235e-1827-4dc5-b644-ad9a00232e06
+      length: 8 minutes 
+    -
+      title: Word Embeddings Demo
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9d5d684e-3513-475f-a6ed-ad9a00240112
+      length: 10 minutes 
+  readings:
+    - 
+      title: Chapter 9 "Sequence Processing with Recurrent Networks" (Sections 9.1-9.3)
+      authors: Jurafsky and Martin
+      url: https://web.stanford.edu/~jurafsky/slp3/9.pdf
+      optional: false
+    - 
+      title: Chapter 6 "Vector Semantics and Embeddings" (Sections 6.1-6.4, 6.8, 6.10-6.12)
+      authors: Jurafsky and Martin
+      url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
+      optional: false
