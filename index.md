@@ -61,7 +61,7 @@ A great example of what you could build if you take this class is the [AI Dungeo
 </div>
 -->
 <div class="alert alert-success" markdown="1">
-This course will be offered in Spring 2022!  It will be held on Tuesdays and Thursdays from 1:45pm-3:15pm Eastern.  There won't be a remote learning option.
+This course will be offered in Spring 2022!  It will be held on Tuesdays and Thursdays from 1:45pm-3:15pm Eastern.  There will be a remote learning option.
 
 We’ll be managing permits for that class via the [CIS Waitlist System](https://forms.cis.upenn.edu/waitlist/index.php) which will open around Nov 23, after the early registration period. The course number for this class is CIS 700-001.
 </div>
@@ -70,8 +70,10 @@ Course number
 : CIS 700-001 - Interactive Fiction and Text Generation 
 
 Prerequisites 
+: At least one of the following courses
+: CIS 419/519
+: CIS 520
 : CIS 530
-: CIS 419/519 or CIS 520
 
 Course Description
 : We know now that artificial intelligence (AI) can play chess or even Go, but can AI play text adventure games (also known as interactive fiction)? What about roleplaying games like Dungeons & Dragons? In this course, we will be looking at the subfields of automated story generation (teaching computers to tell stories), interactive fiction (teaching computers to play through stories), and their intersection (teaching computers to tell and then play through the stories). This class will teach you about computational creativity and help develop your skills in natural language processing and cognitive modeling. 
