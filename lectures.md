@@ -4,15 +4,17 @@ title: Lectures
 active_tab: lectures
 ---
 
+
 <!-- Create a HTML anchor for the most recent lecture -->
 {% assign anchor_created = false %}
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
 <!-- End create a HTML anchor for the most recent lecture -->
 
-
+<!--
 <div class="alert alert-info">
 You can <a href="https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=8b5f2734-0738-4f52-90f5-ab3c01236b7c">watch recordings of the lecture videos online</a>.
 </div>
+-->
 
 The lecture schedule will be updated as the term progresses. 
 
