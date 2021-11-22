@@ -95,6 +95,14 @@
       title: Defending Against Neural Fake News
       authors: Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi, Franziska Roesner, Yejin Choi
       url: https://arxiv.org/abs/1905.12616
+    -
+      title: Tay, Microsoft's AI chatbot, gets a crash course in racism from Twitter
+      authors: Elle Hunt (The Guardian)
+      url: https://www.theguardian.com/technology/2016/mar/24/tay-microsofts-ai-chatbot-gets-a-crash-course-in-racism-from-twitter?CMP=twt_a-technology_b-gdntech
+    -
+      title: The AI Text Generator That's Too Dangerous to Make Public
+      authors: Tom Simonite (Wired)
+      url: https://www.wired.com/story/ai-text-generator-too-dangerous-to-make-public/
 -
   date: 2022-01-25
   title: Neural Story Generation

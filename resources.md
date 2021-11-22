@@ -14,10 +14,14 @@ active_tab: main_page
 * [ROC Stories](https://cs.rochester.edu/nlp/rocstories/) - used in [A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories](https://aclanthology.org/N16-1098)
 * [Scifi TV Plots](https://github.com/rajammanabrolu/StoryRealization) - from [Story Realization: Expanding Plot Events into Sentences](https://aaai.org/ojs/index.php/AAAI/article/view/6232)
 * [BookCorpus](https://github.com/ryankiros/skip-thoughts) - used in [Skip-thought vectors](http://papers.neurips.cc/paper/5950-skip-thought-vectors.pdf)
+* [Aligning Books and Movies](https://github.com/huggingface/datasets/tree/master/datasets/bookcorpus) - used in [Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books](https://www.computer.org/csdl/proceedings-article/iccv/2015/8391a019/12OmNro0HYa)
 * [WritingPrompts](https://huggingface.co/datasets/rewardsignal/reddit_writing_prompts) - used in [Hierarchical Neural Story Generation](https://aclanthology.org/P18-1082)
 * [Lit Bank](https://github.com/dbamman/litbank)
+* [STORIUM (Machine-in-the-Loop Story Generation)](https://storium.cs.umass.edu/); also has code - used in [STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation](https://aclanthology.org/2020.emnlp-main.525/)
+* [ESTER](https://vnpeng.net/bibliography/han2021ester/); also has code - used in [ESTER: A Machine Reading Comprehension Dataset for Event Semantic Relation Reasoning](https://arxiv.org/abs/2104.08350)
 * [CMU Movie Plots](http://www.cs.cmu.edu/~ark/personas/) - used in [Learning Latent Personas of Film Characters](https://aclanthology.org/P13-1035.pdf)
 * [Facebook Children's Book Corpus](https://research.fb.com/downloads/babi/) - used in [The Goldilocks Principle: Reading Children’s Books with Explicit Memory Representations](https://arxiv.org/abs/1511.02301)
+* [Cornell Movie Dialog](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html); on Hugging Face: [Cornell Movie Dialog](https://huggingface.co/datasets/cornell_movie_dialog)
 
 ## Mixed Visual + Textual Datasets
 
@@ -47,17 +51,25 @@ active_tab: main_page
 
 * [VerbNet/FrameNet](https://uvi.colorado.edu/uvi_search)
 * [WordNet](https://wordnet.princeton.edu/)
-* [ConceptNet](https://conceptnet.io/)
-* [ATOMIC](https://homes.cs.washington.edu/~msap/atomic/)
-* [GLUCOSE](https://huggingface.co/datasets/glucose)
+* [ConceptNet](https://conceptnet.io/); on Hugging Face: [ConceptNet 5](https://huggingface.co/datasets/conceptnet5)
+* [ATOMIC](https://homes.cs.washington.edu/~msap/atomic/); on Hugging Face: [ATOMIC](https://huggingface.co/datasets/atomic)
+* [GLUCOSE](https://huggingface.co/datasets/glucose); on Hugging Face: [GLUCOSE](https://huggingface.co/datasets/glucose)
+* [Power and Agency in modern films](https://homes.cs.washington.edu/~msap/movie-bias/)
+* [Movie Rationales](https://huggingface.co/datasets/movie_rationales)
 
 ## Code
 
+* [Plot-guided Coherence Evaluation](https://github.com/PlusLabNLP/Plot-guided-Coherence-Evaluation) - used in [Plot-guided Adversarial Example Construction for Evaluating Open-domain Story Generation](https://aclanthology.org/2021.naacl-main.343/)
+* [Story Gen BART](https://github.com/PlusLabNLP/story-gen-BART) - used in [Content Planning for Neural Story Generation with Aristotelian Rescoring](https://aclanthology.org/2020.emnlp-main.351/)
+* [EnGen: Text generation with entities as context](https://github.com/eaclark07/engen) - used in [Neural text generation in stories using entity representations as context](https://aclanthology.org/N18-1204.pdf)
+* [Choose Your Own Adventure Evaluation](https://github.com/eaclark07/cyoa) - used in [Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models](https://aclanthology.org/2021.naacl-main.279/)
+* [Sentence Mover's Similarity](https://github.com/eaclark07/sms) - used in [Sentence Mover’s Similarity: Automatic Evaluation for Multi-Sentence Texts](https://aclanthology.org/P19-1264/)
 * [AI Dungeon 2](https://github.com/Latitude-Archives/AIDungeon)
+* [COMET](https://github.com/atcbosselut/comet-commonsense) - uses ATOMIC and ConceptNet
 
-## Code Packages/Toolkits
-
-* [Hugging Face Transformer Library](https://github.com/huggingface/transformers) - Hugging Face provides state-of-the-art general-purpose neural language model architectures like BERT, GPT-2, and others. 
+### Libraries & Toolkits
+* [Hugging Face](https://huggingface.co/) - Hugging Face provides state-of-the-art general-purpose neural language model architectures like BERT, GPT-2, and others.
+* [Hugging Face Transformer Library](https://github.com/huggingface/transformers)
 * [AllenNLP](https://allennlp.org) - Deep learning for NLP with state of the art models
 * [Spacy](https://spacy.io) - Industrial-Strength Natural Language Processing in Python
 * [NLTK - Natural Language Toolkit](https://www.nltk.org/) - Basic NLP tools for Python & interfacing with some external models
