@@ -97,3 +97,8 @@ active_tab: main_page
 ## Feelies
 
 * [Print graph paper](http://print-graph-paper.com)
+
+## Other Languages for Writing Interactive Fiction
+
+* [Tracery](http://tracery.io/) - [repo](https://github.com/galaxykate/tracery/tree/tracery2)
+* [ink](https://www.inklestudios.com/ink/) - [repo](https://github.com/inkle/ink)
