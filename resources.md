@@ -77,9 +77,9 @@ active_tab: main_page
 
 ## Tutorials 
 
-[How To Make Custom AI-Generated Text With GPT-2](https://minimaxir.com/2019/09/howto-gpt2/) by [Max Woolf](https://minimaxir.com)
-[BERT End to End (Fine-tuning + Predicting) in 5 minutes](https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb)
-[How to use Google Speech to Text API to transcribe long audio files](https://towardsdatascience.com/how-to-use-google-speech-to-text-api-to-transcribe-long-audio-files-1c886f4eb3e9)
+* [How To Make Custom AI-Generated Text With GPT-2](https://minimaxir.com/2019/09/howto-gpt2/) by [Max Woolf](https://minimaxir.com)
+* [BERT End to End (Fine-tuning + Predicting) in 5 minutes](https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb)
+* [How to use Google Speech to Text API to transcribe long audio files](https://towardsdatascience.com/how-to-use-google-speech-to-text-api-to-transcribe-long-audio-files-1c886f4eb3e9)
 
 ## Inspiration
 
@@ -90,15 +90,17 @@ active_tab: main_page
 * [Random Generators for Tabletop Games](https://donjon.bin.sh)
 * [AI Dungeon](https://play.aidungeon.io)
 
-## Other Courses
+## Extras
+
+### Other Courses
 
 * Nick Montfort's [Interactive Narrative](https://nickm.com/classes/interactive_narrative/2019_fall/) course at MIT
 
-## Feelies
+### Feelies
 
 * [Print graph paper](http://print-graph-paper.com)
 
-## Other Languages for Writing Interactive Fiction
+### Other Languages for Writing Interactive Fiction
 
 * [Tracery](http://tracery.io/) ([repo](https://github.com/galaxykate/tracery/tree/tracery2))
 * [ink](https://www.inklestudios.com/ink/) ([repo](https://github.com/inkle/ink))
