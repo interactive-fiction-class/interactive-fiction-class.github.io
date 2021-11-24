@@ -100,5 +100,5 @@ active_tab: main_page
 
 ## Other Languages for Writing Interactive Fiction
 
-* [Tracery](http://tracery.io/) - [repo](https://github.com/galaxykate/tracery/tree/tracery2)
-* [ink](https://www.inklestudios.com/ink/) - [repo](https://github.com/inkle/ink)
+* [Tracery](http://tracery.io/) ([repo](https://github.com/galaxykate/tracery/tree/tracery2))
+* [ink](https://www.inklestudios.com/ink/) ([repo](https://github.com/inkle/ink))
