@@ -47,6 +47,10 @@ active_tab: main_page
 * [StoryAssembler](https://github.com/LudoNarrative/StoryAssembler) - used in [StoryAssembler: An Engine for Generating Dynamic Choice-Driven Narratives](https://dl.acm.org/doi/10.1145/3337722.3337732)
 * [STRIPS Planner for Python](https://github.com/abdulapopoola/STRIPS-Planner)
 
+## Character Modeling
+
+* [Versu](https://versu.com/)
+
 ## Knowledge Bases
 
 * [VerbNet/FrameNet](https://uvi.colorado.edu/uvi_search)
@@ -81,7 +85,15 @@ active_tab: main_page
 * [BERT End to End (Fine-tuning + Predicting) in 5 minutes](https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb)
 * [How to use Google Speech to Text API to transcribe long audio files](https://towardsdatascience.com/how-to-use-google-speech-to-text-api-to-transcribe-long-audio-files-1c886f4eb3e9)
 
-## Inspiration
+## Extras
+
+### Noteable IF Games in Research
+* [Save the Date](http://paperdino.com/save-the-date/) by [Chris Cornell (Montolli)](http://paperdino.com/)
+* [The Icebound Concordance](https://www.ice-bound.com/) by [Aaron Reed](http://aaronareed.net/) and [Jacob Garbe](http://www.jacobgarbe.com/)
+* [Prom Week](https://promweek.soe.ucsc.edu/)
+* [Façade](https://www.playablstudios.com/facade)
+
+### Inspiration
 
 * [Actual Play Podcasts](https://www.polygon.com/podcasts/2018/9/26/17860176/best-dungeons-dragons-dd-podcasts-tabletop-gaming) - both of our favorite is The Adventure Zone
 * [Giant list of Actual Play Podcasts](https://tabletopbellhop.com/actual-play-podcasts/)
@@ -90,8 +102,8 @@ active_tab: main_page
 * [Random Generators for Tabletop Games](https://donjon.bin.sh)
 * [AI Dungeon](https://play.aidungeon.io)
 * Try some games on [Itch.io](https://itch.io/games/tag-interactive-fiction/tag-text-based) to figure out what you like and don't like in an IF game
-
-## Extras
+* [Interactive Fiction Database](https://ifdb.org/)
+* [Interactive Fiction Wiki](https://www.ifwiki.org/index.php/Main_Page)
 
 ### Other Courses
 
@@ -106,3 +118,9 @@ active_tab: main_page
 * [Tracery](http://tracery.io/) ([repo](https://github.com/galaxykate/tracery/tree/tracery2))
 * [ink](https://www.inklestudios.com/ink/) ([repo](https://github.com/inkle/ink))
 * [Twine](https://twinery.org/) ([repo](https://github.com/tweecode/twine))
+* [Inform 7](http://inform7.com/)
+* [ADRIFT](https://www.adrift.co/)
+* [TADS](http://www.tads.org/)
+* [Quest](http://textadventures.co.uk/quest/)
+* [Storychoices](http://wiki.failbettergames.com/)
+* [Varytale](http://www.varytale.com/home.php)
