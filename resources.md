@@ -89,6 +89,7 @@ active_tab: main_page
 * [chooseyourstory.com](http://chooseyourstory.com)
 * [Random Generators for Tabletop Games](https://donjon.bin.sh)
 * [AI Dungeon](https://play.aidungeon.io)
+* Try some games on [Itch.io](https://itch.io/games/tag-interactive-fiction/tag-text-based) to figure out what you like and don't like in an IF game
 
 ## Extras
 
@@ -104,3 +105,4 @@ active_tab: main_page
 
 * [Tracery](http://tracery.io/) ([repo](https://github.com/galaxykate/tracery/tree/tracery2))
 * [ink](https://www.inklestudios.com/ink/) ([repo](https://github.com/inkle/ink))
+* [Twine](https://twinery.org/) ([repo](https://github.com/tweecode/twine))
