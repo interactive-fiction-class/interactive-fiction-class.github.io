@@ -73,6 +73,8 @@ Prerequisites
 : At least one of the following courses
 : CIS 419/519
 : CIS 520
+: CIS 421/521
+: CIS 522
 : CIS 530
 
 Course Description
