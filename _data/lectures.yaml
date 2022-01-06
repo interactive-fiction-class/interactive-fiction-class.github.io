@@ -408,10 +408,10 @@
   title: Recap
   slides: 
   readings:
-  homework_due: 
+   homework_due: 
     - 
-      title: HW6&colon; Dialogue Systems (10%)
-      url:  
+      title: Final Project Milestone 1&colon; Team Formation and 3 Proposals(5%)
+      url: project-proposal/project-proposal.html
       
 -
   date: 2022-03-28
@@ -423,7 +423,10 @@
   title: Reinforcement Learning
   slides: 
   readings:
-
+  homework_due: 
+    - 
+      title: HW6&colon; Dialogue Systems (10%)
+      url:  
 -
   date: 2022-03-31
   title: Reinforcement Learning for Playing Interactive Fiction
@@ -462,7 +465,10 @@
       title: Plan-And-Write&colon; Towards Better Automatic Storytelling
       authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao, Rui Yan
       url: https://www.aaai.org/ojs/index.php/AAAI/article/download/4726/4604
-
+  homework due:
+    - 
+      title: Final Project Milestone 2&colon; Progress Report (Select Idea &amp; Data Prep) (5%)
+      url: project-milestone2/project-milestone2.html
 
 
 -
@@ -470,19 +476,12 @@
   title: Recap
   slides: 
   readings:
-  homework_due: 
-    - 
-      title: HW7&colon; Reinforcement Learning (10%)
-      url:
+  
 -
   date: 2022-04-12
   title: TBD
   slides: 
   readings:
-  homework_due: 
-    - 
-      title: Final Project Milestone 1&colon; System Gameplan Presentation (5%)
-      url: project-proposal/project-proposal.html
 
 -
   date: 2022-04-14
@@ -497,8 +496,8 @@
   readings:
   homework_due: 
     - 
-      title: Final Project Milestone 2&colon; Progress Report (5%)
-      url: project-milestone2/project-milestone2.html
+      title: Final Project Milestone 3&colon; Progress Report (5%)
+      url: project-milestone3/project-milestone3.html
 -
   date: 2022-04-21
   title: TBD
@@ -511,8 +510,8 @@
   slides: 
   homework_due: 
     - 
-      title: Final Project Milestone 3&colon; Final Report (20%)
-      url: project-milestone3/project-milestone3.html
+      title: Final Project Milestone 4&colon; Final Report (20%)
+      url: project-milestone4/project-milestone4.html
 
 
 
