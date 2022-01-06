@@ -80,13 +80,17 @@ Prerequisites
 Course Description
 : We know now that artificial intelligence (AI) can play chess or even Go, but can AI play text adventure games (also known as interactive fiction)? What about roleplaying games like Dungeons & Dragons? In this course, we will be looking at the subfields of automated story generation (teaching computers to tell stories), interactive fiction (teaching computers to play through stories), and their intersection (teaching computers to tell and then play through the stories). This class will teach you about computational creativity and help develop your skills in natural language processing and cognitive modeling. 
 
-
+Learning Objectives
+* Understanding the challenges of creating text-based games and automatically generating stories.
+* Implement and appraise the value of different technologies (Neural language models, Schemata, Dialogue Systems, Planning, Commonsense reasoning, and Reinforcement learning) in story generation/interactive fiction playing.
+* Argue for the appropriate components of a working story generation system or interactive fiction--playing system.
+* Create your own story generation system or interactive fiction--playing system.
 
 
 
 
 <!-- 
-: This class will cover severl areas.
+: This class will cover several areas.
 * Text Adventure Games - How they are implemented and how we can build agents that automatically solve them.
 * Common-sense Reasoning - TODO
 * Narrative Understanding - Extracting narrative structure (event schemas) from text
@@ -101,6 +105,9 @@ Instructors
 : [Lara Martin](https://laramartin.net)
 : [Chris Callison-Burch](https://www.cis.upenn.edu/~ccb/)
 
+TA
+: [Liam Dugan](http://liamdugan.com)
+
 Discussion Forum
 : [Piazza](https://piazza.com/upenn/spring2022/cis700001)
 
@@ -110,6 +117,7 @@ Time and place
 : Last day of class is April 26, 2022
 
 Office hours
+: Liam - Tuesdays after class
 : Lara - Thursdays after class
 : Chris - by appointment
 
