@@ -80,7 +80,7 @@ Course Description
 
 Learning Objectives
 * Understanding the challenges of creating text-based games and automatically generating stories.
-* Implement and appraise the value of different technologies (Neural Language Models, Dialogue Systems, Scripts, Planning, Commonsense Reasoning, and Reinforcement learning) in story generation/interactive fiction playing.
+* Implement and appraise the value of different technologies (Neural Language Models, Dialogue Systems, Scripts, Planning, and Commonsense Reasoning) in story generation/interactive fiction playing.
 * Argue for the appropriate components of a working story generation system or interactive fiction--playing system.
 * Create your own story generation system or interactive fiction--playing system.
 

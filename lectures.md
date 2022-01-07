@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lectures
+title: CIS 700 - Lectures
 active_tab: lectures
 ---
 
@@ -17,7 +17,7 @@ You can <a href="https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.as
 -->
 
 <div class="alert alert-info">
-The lecture schedule will be updated as the term progresses.
+The lecture schedule will be updated as the term progresses. You can find more details under the <a href="/modules.html">Modules</a> tab.
 </div>
 
 <table class="table table-striped">
@@ -33,6 +33,22 @@ The lecture schedule will be updated as the term progresses.
   </thead>
   <tbody>
     {% for lecture in site.data.lectures %}
+    {% assign required = nil %}
+    {% assign optional = nil %}
+    {% assign mod_num = nil %}
+    
+    <!-- Find matching section in modules -->
+    {% for module in site.data.modules %}
+    {% for lesson in module.lessons %}
+    {% if lecture.title == lesson.title %}
+    {% assign mod_num = module.module_number %}
+    {% assign required = lesson.readings%}
+    {% assign optional = lesson.optional%}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+    
 
     <!-- Create a HTML anchor for the most recent lecture -->
     {% capture lecture_date %}{{lecture.date | date: '%s'}}{% endcapture %}
@@ -57,7 +73,8 @@ The lecture schedule will be updated as the term progresses.
     <!-- End create a HTML anchor for the most recent lecture -->
       <td width="14%">{{ lecture.date | date: '%a, %b %-d, %Y' }}</td>
       <td width="16%">
-         {{ lecture.title }} 
+         {{ lecture.title }}<br>
+         {% if mod_num %}(<a href="modules.html#module{{mod_num}}">Module {{mod_num}}</a>){% endif %}
 
 
         {% if lecture.slides %}
@@ -92,16 +109,14 @@ The lecture schedule will be updated as the term progresses.
           {% endfor %}
       </td>
       <td>
-        {% if lecture.readings %} 
+        {% if required %} 
         <ul>
-          {% for reading in lecture.readings %}
+          {% for reading in required %}
             <li>
             {% if reading.url %}
-                {% if reading.optional %}<b>Optional:</b> {% endif %}
                 {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a> 
               <br />
             {% else %}
-                {% if reading.optional %}<b>Optional</b> {% endif %}
                {{ reading.authors }}, {{ reading.title }} 
               <br />
             {% endif %}
@@ -111,9 +126,9 @@ The lecture schedule will be updated as the term progresses.
         {% endif %}
       </td>
        <td>
-        {% if lecture.optional %} 
+        {% if optional %} 
         <ul>
-          {% for reading in lecture.optional %}
+          {% for reading in optional %}
             <li>
             {% if reading.url %}
                 {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a> 

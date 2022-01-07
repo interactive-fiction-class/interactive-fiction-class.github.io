@@ -1,8 +1,8 @@
 ---
-title: CIS 700-008 - Interactive Fiction and Text Generation - University of Pennsylvania
+title: CIS 700 - Final Project
 layout: default
 img: play-if-card.png
-active_tab: main_page 
+active_tab: homework 
 ---
 
 # Term Project ideas
