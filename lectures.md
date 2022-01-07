@@ -16,7 +16,9 @@ You can <a href="https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.as
 </div>
 -->
 
-The lecture schedule will be updated as the term progresses. 
+<div class="alert alert-info">
+The lecture schedule will be updated as the term progresses.
+</div>
 
 <table class="table table-striped">
   <thead>
@@ -24,7 +26,7 @@ The lecture schedule will be updated as the term progresses.
       <th>Date</th> 
       <th>Lecture Topic</th>
       <th>Activity</th>
-      <th>Required Readings</th>
+      <th>Required Readings (Due Day Listed)</th>
       <th>Supplemental Readings</th>
       <th>Homework Due</th>
     </tr>
@@ -44,14 +46,10 @@ The lecture schedule will be updated as the term progresses.
     {% endif %}
     
     {% if lecture.type %}
-      {% if lecture.type and lecture.type == 'exam' %}
-        class="info" 
-      {% else if lecture.type and lecture.type == 'deadline' %}
+      {% if lecture.type and lecture.type == 'deadline' %}
         class="warning"
-      {% else if lecture.type and lecture.type == 'homework_due' %}
-        class="primary"
       {% else if lecture.type and lecture.type == 'no_lecture' %}
-        class="success"
+        class="danger"
       {% endif %}
     {% endif %}
     >

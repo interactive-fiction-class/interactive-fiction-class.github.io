@@ -7,8 +7,8 @@ title: Build a Text-Adventure Game
 type: Homework
 number: 1
 active_tab: homework
-release_date: 2020-01-09 
-due_date: 2020-01-23 13:30:00EST
+release_date: 2022-01-09 
+due_date: 2022-01-17 23:59:00EST
 materials:
     - 
         name: Text Adventure Game (Python Notebook viewable on Google Colab)
@@ -16,7 +16,7 @@ materials:
     - 
         name: Action Castle PDF.  This file is accessible only if you have an @SEAS.upenn.edu email address. Please write a post on Piazza if you can't access it.
         url: https://drive.google.com/open?id=0B2lqQK5UI65eRUdkdVRPWXBLRUdtalBHbS1IaTR2TWM1eVpR
-submission_link: https://www.gradescope.com/courses/78405
+submission_link: 
 readings:
     -
       title: Adventuron Classroom
@@ -30,10 +30,11 @@ readings:
 ---
 
 <!-- Check whether the assignment is ready to release -->
-{% capture today %}{{'now' | date: '%s'}}{% endcapture %}
-{% capture release_date %}{{page.release_date | date: '%s'}}{% endcapture %}
-{% if release_date > today %} 
+{% capture today %}{{site.time | date: '%Y%m%d'}}{% endcapture %}
+{% capture due_date %}{{page.due_date | date: '%Y%m%d'}}{% endcapture %}
+{% if due_date < today %} 
 <div class="alert alert-danger">
+
 Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
 </div>
 {% endif %}
@@ -52,7 +53,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} at {{ page.due_date | date: "%I:%M%p" }} EST. 
 </div>
 
 {% if page.materials %}

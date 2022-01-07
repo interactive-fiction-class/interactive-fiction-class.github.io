@@ -61,9 +61,7 @@ A great example of what you could build if you take this class is the [AI Dungeo
 </div>
 -->
 <div class="alert alert-success" markdown="1">
-This course will be offered in Spring 2022!  It will be held on Tuesdays and Thursdays from 1:45pm-3:15pm Eastern.  There will be a remote learning option.
-
-We’ll be managing permits for that class via the [CIS Waitlist System](https://forms.cis.upenn.edu/waitlist/index.php) which will open around Nov 23, after the early registration period. The course number for this class is CIS 700-001.
+First day of class is Thursday, January 13, 2022 at 1:45pm-3:15pm Eastern. It will take place virtually. We look forward to seeing you there!
 </div>
 
 Course number
@@ -82,7 +80,7 @@ Course Description
 
 Learning Objectives
 * Understanding the challenges of creating text-based games and automatically generating stories.
-* Implement and appraise the value of different technologies (Neural language models, Schemata, Dialogue Systems, Planning, Commonsense reasoning, and Reinforcement learning) in story generation/interactive fiction playing.
+* Implement and appraise the value of different technologies (Neural Language Models, Dialogue Systems, Scripts, Planning, Commonsense Reasoning, and Reinforcement learning) in story generation/interactive fiction playing.
 * Argue for the appropriate components of a working story generation system or interactive fiction--playing system.
 * Create your own story generation system or interactive fiction--playing system.
 
@@ -118,8 +116,8 @@ Time and place
 
 Office hours
 : Liam - Tuesdays after class
-: Lara - Thursdays after class
-: Chris - by appointment
+: Lara - Thursdays after class (3:15-4:15pm EST) + [by appointment](https://calendly.com/laramar/schedule)
+: Chris - [by appointment](https://ccb.youcanbook.me)
 
 <!--
 Textbooks
@@ -129,16 +127,16 @@ Textbooks
 -->
 
 Grading
-: There will be five homeworks and a final project. In addition, you will be required to present a paper in class.
-* 5% Paper Presentation
-* 65% Homeworks (7 in total)
-* 30% Final Project
+: There will be six homeworks and a final project. In addition, you will be required to present a paper in class.
+* 10% Paper Presentation
+* 55% Homeworks (6 in total)
+* 35% Final Project
 
 Paper Presentations
-: Over the course of the semester, each student must prepare a 10-15 minute presentation on a research paper relevant to the course. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (eg. by 3PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
+: Over the course of the semester, each student must prepare a 10-15 minute presentation on a research paper relevant to the course. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (e.g., by 3PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
 
 Collaboration Policy
-: Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments, and teams of 2-4 for the final project. 
+: Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments, and teams of 2-4 for the final project.
 
 Late Day Policy
 : Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the final project, which must be finished by the final day of class.  Late days may not be used for paper presentations.**
