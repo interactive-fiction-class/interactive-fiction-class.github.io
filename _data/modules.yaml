@@ -129,6 +129,10 @@
           title: "proScript: Partially Ordered Scripts Generation via Pre-trained Language Models"
           authors: Keisuke Sakaguchi, Chandra Bhagavatula, Ronan Le Bras, Niket Tandon, Peter Clark, Yejin Choi
           url: https://aclanthology.org/2021.findings-emnlp.184/
+        -
+          title: "What do Large Language Models Learn about Scripts?"
+          authors: Abhilasha Sancheti, Rachel Rudinger
+          url: https://arxiv.org/abs/2112.13834         
     - 
       title: Events
       readings:
