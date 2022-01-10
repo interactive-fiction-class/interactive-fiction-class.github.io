@@ -1,5 +1,5 @@
 ---
-title: CIS 700-001 - Interactive Fiction and Text Generation - University of Pennsylvania
+title: CIS 700-008 - Interactive Fiction and Text Generation - University of Pennsylvania
 layout: default
 img: heroes_journey.png
 active_tab: main_page 
@@ -103,21 +103,24 @@ Instructors
 : [Lara Martin](https://laramartin.net)
 : [Chris Callison-Burch](https://www.cis.upenn.edu/~ccb/)
 
-TA
+TAs
 : [Liam Dugan](http://liamdugan.com)
+: [Artemis Panagopoulou](https://artemisp.github.io/)
 
 Discussion Forum
 : [Piazza](https://piazza.com/upenn/spring2022/cis700001)
 
-Time and place
+Time and Place
 : Spring 2022, Tuesdays & Thursdays from 1:45-3:15pm EST [[Zoom link]](https://upenn.zoom.us/j/95868341588?pwd=a0NvbkhtUEdYTTk5d0Vmc2VvcHJrUT09)
 : First day of class is January 13, 2022
 : Last day of class is April 26, 2022
 
-Office hours
-: Liam - Tuesdays after class
-: Lara - Thursdays after class (3:15-4:15pm EST) + [by appointment](https://calendly.com/laramar/schedule)
-: Chris - [by appointment](https://ccb.youcanbook.me)
+Office Hours (see the [Staff](/staff.html) page for office hour locations)
+: Chris - Mondays, 1-2pm EST
+: Liam - Tuesdays, 3:15-4:15pm EST
+: Lara - Thursdays, 3:15-4:15pm EST
+: Artemis - Fridays, 12:15-1:15pm EST
+
 
 <!--
 Textbooks

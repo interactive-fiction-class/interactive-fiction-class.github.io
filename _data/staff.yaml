@@ -2,19 +2,26 @@
   pic: ccb.jpg
   email: ccb@upenn.edu 
   url: https://www.cis.upenn.edu/~ccb/
-  office_hours: <a href="https://ccb.youcanbook.me">By appointment on ccb.youcanbook.me</a>
+  office_hours: Mondays, 1-2pm EST, or <a href="https://ccb.youcanbook.me">by appointment</a>
   location: 3401 Walnut St, room 463C
   
 - name: Lara J. Martin (Instructor)
   pic: Lara-Martin.jpg
   email: laramar@seas.upenn.edu
   url: https://laramartin.net
-  office_hours: After Thursday's class (3:15-4:15pm EST), or you can <a href="https://calendly.com/laramar/schedule">schedule a meeting here</a>
+  office_hours: Thursdays, 3:15-4:15pm EST (after class), or <a href="https://calendly.com/laramar/schedule">by appointment</a>
   location: <a href="https://upenn.zoom.us/j/8300999615">Zoom</a>
   
 - name: Liam Dugan (TA)
   pic: liam-dugan.jpg
   email: ldugan@seas.upenn.edu
   url: http://liamdugan.com
-  office_hours: After Tuesday's class
-  location: Moore, Room 103 (SIG Lab)
+  office_hours: Tuesdays, 3:15-4:15pm EST (after class)
+  location: Zoom
+
+- name: Artemis Panagopoulou (TA)
+  pic: artemis.png
+  email: artemisp@seas.upenn.edu
+  url: https://artemisp.github.io/
+  office_hours: Fridays, 12:15-1:15pm EST
+  location: <a href="https://upenn.zoom.us/j/9784349213">Zoom</a>
