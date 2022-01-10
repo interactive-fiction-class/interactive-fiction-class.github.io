@@ -110,12 +110,12 @@ TAs
 Discussion Forum
 : [Piazza](https://piazza.com/upenn/spring2022/cis700001)
 
-Time and place
+Time and Place
 : Spring 2022, Tuesdays & Thursdays from 1:45-3:15pm EST [[Zoom link]](https://upenn.zoom.us/j/95868341588?pwd=a0NvbkhtUEdYTTk5d0Vmc2VvcHJrUT09)
 : First day of class is January 13, 2022
 : Last day of class is April 26, 2022
 
-Office hours
+Office Hours (see the [Staff](/staff.html) page for office hour locations)
 : Chris - Mondays, 1-2pm EST
 : Liam - Tuesdays, 3:15-4:15pm EST
 : Lara - Thursdays, 3:15-4:15pm EST
