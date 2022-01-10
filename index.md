@@ -1,5 +1,5 @@
 ---
-title: CIS 700-001 - Interactive Fiction and Text Generation - University of Pennsylvania
+title: CIS 700-008 - Interactive Fiction and Text Generation - University of Pennsylvania
 layout: default
 img: heroes_journey.png
 active_tab: main_page 
