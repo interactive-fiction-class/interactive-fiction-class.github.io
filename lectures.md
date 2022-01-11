@@ -49,9 +49,9 @@ The lecture schedule will be updated as the term progresses. You can find more d
 				    {% assign required = lesson.readings%}
 				    {% assign optional = lesson.optional%}
 				    {% assign slides = lesson.slides%}
-				    {% assign video = lesson.recording%}
-				    {% assign speaker = lesson.speaker%}
-				    {% assign speaker_url = lesson.speaker_url%}
+				    {% assign video = lesson.video%}
+				    {% assign speaker = lesson.guest_speaker%}
+				    {% assign speaker_url = lesson.guest_url%}
 				    {% break %}
 			    {% endif %}
 		    {% endfor %}
