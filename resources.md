@@ -84,6 +84,7 @@ active_tab: resources
 * [How To Make Custom AI-Generated Text With GPT-2](https://minimaxir.com/2019/09/howto-gpt2/) by [Max Woolf](https://minimaxir.com)
 * [BERT End to End (Fine-tuning + Predicting) in 5 minutes](https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb)
 * [How to use Google Speech to Text API to transcribe long audio files](https://towardsdatascience.com/how-to-use-google-speech-to-text-api-to-transcribe-long-audio-files-1c886f4eb3e9)
+* [Video Tutorial - Beginners Guide To Coding An Illustrated Text Adventure Game (with Adventuron Classroom)](https://adventuron.blogspot.com/2019/07/video-tutorial-beginners-guide-to.html) by Chris Ainsley
 
 ## Extras
 
@@ -99,22 +100,26 @@ active_tab: resources
 * [Giant list of Actual Play Podcasts](https://tabletopbellhop.com/actual-play-podcasts/)
 * Play games with friends on [Roll 20](https://roll20.net/)
 * [chooseyourstory.com](http://chooseyourstory.com)
-* [Random Generators for Tabletop Games](https://donjon.bin.sh)
 * [AI Dungeon](https://play.aidungeon.io)
 * Try some games on [Itch.io](https://itch.io/games/tag-interactive-fiction/tag-text-based) to figure out what you like and don't like in an IF game
 * [Interactive Fiction Database](https://ifdb.org/)
-* [Interactive Fiction Wiki](https://www.ifwiki.org/index.php/Main_Page)
+* [Interactive Fiction Wiki](https://www.ifwiki.org/)
 
 ### Other Courses
 
 * Nick Montfort's [Interactive Narrative](https://nickm.com/classes/interactive_narrative/2019_fall/) course at MIT
 
-### Feelies
+### Content Generation for TRPGs and IF
 
-* [Print graph paper](http://print-graph-paper.com)
+* [Print graph paper](http://print-graph-paper.com) - just blank graph paper!
+* [Random Generators for Tabletop Games](https://donjon.bin.sh)
+* [TesselationPlot for RPG Maps](https://community.wolfram.com/groups/-/m/t/1794056)
+* [RPG Map Editor 2](https://deepnight.net/tools/rpg-map/)
+* [RPGgen](https://www.rpggen.dev/) - a collection of generators
 
 ### Other Languages for Writing Interactive Fiction
 
+* [Adventuron Classroom](https://adventuron.io/classroom/)
 * [Tracery](http://tracery.io/) ([repo](https://github.com/galaxykate/tracery/tree/tracery2))
 * [ink](https://www.inklestudios.com/ink/) ([repo](https://github.com/inkle/ink))
 * [Twine](https://twinery.org/) ([repo](https://github.com/tweecode/twine))
