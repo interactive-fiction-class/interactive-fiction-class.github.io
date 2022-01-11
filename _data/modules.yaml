@@ -118,8 +118,9 @@
       title: Scripts
       readings:
         -
-          title: "Scripts Plans Goals and Understanding: An Inquiry Into Human Knowledge Structures (Chapter 3)"
+          title: "Scripts Plans Goals and Understanding: An Inquiry Into Human Knowledge Structures (Chapter 3: Scripts)"
           authors: Roger Schank, Robert Abelson
+          url: https://drive.google.com/file/d/1r47LUKqrGbtrZ9E_Qykfrbc7uXe_LTav/view?usp=sharing
         -
           title: Learning Statistical Scripts with LSTM Recurrent Neural Networks
           authors: Karl Pichotta, Raymond Mooney
