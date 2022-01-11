@@ -33,125 +33,126 @@ The lecture schedule will be updated as the term progresses. You can find more d
   </thead>
   <tbody>
     {% for lecture in site.data.lectures %}
-    {% assign required = nil %}
-    {% assign optional = nil %}
-    {% assign mod_num = nil %}
-    
-    <!-- Find matching section in modules -->
-    {% for module in site.data.modules %}
-    {% for lesson in module.lessons %}
-    {% if lecture.title == lesson.title %}
-    {% assign mod_num = module.module_number %}
-    {% assign required = lesson.readings%}
-    {% assign optional = lesson.optional%}
-    {% break %}
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
-    
+	    {% assign required = nil %}
+	    {% assign optional = nil %}
+	    {% assign mod_num = nil %}
+	    {% assign slides = nil%}
+	    {% assign video = nil%}
+	    {% assign speaker = nil%}
+	    {% assign speaker_url = nil%}
 
-    <!-- Create a HTML anchor for the most recent lecture -->
-    {% capture lecture_date %}{{lecture.date | date: '%s'}}{% endcapture %}
-    {% assign lecture_date = lecture_date | plus: 0 %}
-    {% assign now = now | minus: 14400 %}
-
-    <tr
-    {% if anchor_created != true and lecture_date >= now %}
-      {% assign anchor_created = true %}
-      id="now" 
-    {% endif %}
-    
-    {% if lecture.type %}
-      {% if lecture.type and lecture.type == 'deadline' %}
-        class="warning"
-      {% else if lecture.type and lecture.type == 'no_lecture' %}
-        class="danger"
-      {% endif %}
-    {% endif %}
-    >
-
-    <!-- End create a HTML anchor for the most recent lecture -->
-      <td width="14%">{{ lecture.date | date: '%a, %b %-d, %Y' }}</td>
-      <td width="16%">
-         {{ lecture.title }}<br>
-         {% if mod_num %}(<a href="modules.html#module{{mod_num}}">Module {{mod_num}}</a>){% endif %}
+	    <!-- Find matching section in modules -->
+	    {% for module in site.data.modules %}
+		    {% for lesson in module.lessons %}
+			    {% if lecture.title == lesson.title %}
+				    {% assign mod_num = module.module_number %}
+				    {% assign required = lesson.readings%}
+				    {% assign optional = lesson.optional%}
+				    {% assign slides = lesson.slides%}
+				    {% assign video = lesson.recording%}
+				    {% assign speaker = lesson.speaker%}
+				    {% assign speaker_url = lesson.speaker_url%}
+				    {% break %}
+			    {% endif %}
+		    {% endfor %}
+	    {% endfor %}
 
 
-        {% if lecture.slides %}
-          <a href="slides/{{ lecture.slides }}">[slides]</a>
-        {% endif %}
+	    <!-- Create a HTML anchor for the most recent lecture -->
+	    {% capture lecture_date %}{{lecture.date | date: '%s'}}{% endcapture %}
+	    {% assign lecture_date = lecture_date | plus: 0 %}
+	    {% assign now = now | minus: 14400 %}
 
-
-        {% if lecture.lecture_notes %}
-          <a href="lecture_notes/{{ lecture.lecture_notes }}">[lecture notes]</a>
-        {% endif %}
-
-
-        {% if lecture.recording %}
-          <a href="{{ lecture.recording }}">[video] </a>
-        {% endif %}
-
-	    {% if lecture.speaker %}
-          {% if lecture.speaker_url %}
-            by <a href="{{ lecture.speaker_url }}">{{ lecture.speaker }}</a> 
-          {% else %} 
-          by {{ lecture.speaker }}
-          {% endif %}
+	    <tr
+	    {% if anchor_created != true and lecture_date >= now %}
+	      {% assign anchor_created = true %}
+	      id="now" 
 	    {% endif %}
-      </td>
-      <td width="12%">
-          {% for activity in lecture.activities %}
-            {% if activity.url %}
-              <a href="in_class_activities/{{ activity.url }}">{{ activity.title }}</a> 
-            {% else %}
-              {{ activity.title }}
-            {% endif %}
-          {% endfor %}
-      </td>
-      <td>
-        {% if required %} 
-        <ul>
-          {% for reading in required %}
-            <li>
-            {% if reading.url %}
-                {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a> 
-              <br />
-            {% else %}
-               {{ reading.authors }}, {{ reading.title }} 
-              <br />
-            {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-      </td>
-       <td>
-        {% if optional %} 
-        <ul>
-          {% for reading in optional %}
-            <li>
-            {% if reading.url %}
-                {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a> 
-              <br />
-            {% else %}
-               {{ reading.authors }}, {{ reading.title }} 
-            {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-      </td>
-      <td>
-        {% if lecture.homework_due %} 
-          {% for hw in lecture.homework_due %}
-            {% if hw.url %}<a href="homeworks/{{hw.url}}">{{hw.title}}</a>
-            {% else %}{{hw.title}} 
-            {% endif %}
-            {% if hw.note %}<i>{{hw.note}}</i>{% endif %}
-          {% endfor %}
-        {% endif %}
-      </td>
-    </tr>
+
+	    {% if lecture.type %}
+	      {% if lecture.type and lecture.type == 'deadline' %}
+		class="warning"
+	      {% else if lecture.type and lecture.type == 'no_lecture' %}
+		class="danger"
+	      {% endif %}
+	    {% endif %}
+	    >
+
+	    <!-- End create a HTML anchor for the most recent lecture -->
+	      <td width="14%">{{ lecture.date | date: '%a, %b %-d, %Y' }}</td>
+	      <td width="16%">
+		 {{ lecture.title }}<br>
+		 {% if mod_num %}(<a href="modules.html#module{{mod_num}}">Module {{mod_num}}</a>)
+			{% if slides %}
+			  <a href="slides/{{ slides }}">[slides]</a>
+			{% endif %}
+
+			{% if video %}
+			  <a href="{{ video }}">[video] </a>
+			{% endif %}
+
+			{% if speaker %}
+			  {% if speaker_url %}
+			    by <a href="{{ speaker_url }}">{{ speaker }}</a> 
+			  {% else %} 
+			  by {{ speaker }}
+			  {% endif %}
+			{% endif %}
+		{% endif %}
+	      </td>
+	      <td width="12%">
+		  {% for activity in lecture.activities %}
+		    {% if activity.url %}
+		      <a href="in_class_activities/{{ activity.url }}">{{ activity.title }}</a> 
+		    {% else %}
+		      {{ activity.title }}
+		    {% endif %}
+		  {% endfor %}
+	      </td>
+	      <td>
+		{% if required %} 
+		<ul>
+		  {% for reading in required %}
+		    <li>
+		    {% if reading.url %}
+			{{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a> 
+		      <br />
+		    {% else %}
+		       {{ reading.authors }}, {{ reading.title }} 
+		      <br />
+		    {% endif %}
+		    </li>
+		  {% endfor %}
+		</ul>
+		{% endif %}
+	      </td>
+	       <td>
+		{% if optional %} 
+		<ul>
+		  {% for reading in optional %}
+		    <li>
+		    {% if reading.url %}
+			{{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a> 
+		      <br />
+		    {% else %}
+		       {{ reading.authors }}, {{ reading.title }} 
+		    {% endif %}
+		    </li>
+		  {% endfor %}
+		</ul>
+		{% endif %}
+	      </td>
+	      <td>
+		{% if lecture.homework_due %} 
+		  {% for hw in lecture.homework_due %}
+		    {% if hw.url %}<a href="homeworks/{{hw.url}}">{{hw.title}}</a>
+		    {% else %}{{hw.title}} 
+		    {% endif %}
+		    {% if hw.note %}<i>{{hw.note}}</i>{% endif %}
+		  {% endfor %}
+		{% endif %}
+	      </td>
+	    </tr>
     {% endfor %}
     
   </tbody>
