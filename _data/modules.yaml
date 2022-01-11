@@ -12,28 +12,28 @@
       slides:
       optional:
         -
+          authors: Various
+          url: https://itch.io/games/tag-interactive-fiction/tag-text-based
+          title: "Play some text-based games on Itch.io"     
+        -
           authors: Jason Scott
           url: https://www.youtube.com/watch?v=LRhbcDzbGSU
           title: "GET LAMP: The Text Adventure Documentary"
-          length: 2 hours 
-        -
-          title: Adventuron Classroom
-          authors: Chris Ainsley / Adventuron Software Limited
-          url: https://adventuron.io/classroom/
+          length: 2 hours
         -  
-          authors: adventuron.io
-          url: https://www.youtube.com/watch?v=zbC_bSysbrA
-          title: Create A Text Adventure Game in 30 Minutes
-          length: 35 minutes 
+          authors: Chris Ainsley/adventuron.io
+          url: https://adventuron.blogspot.com/2019/07/video-tutorial-beginners-guide-to.html
+          title: Video Tutorial - Beginners Guide To Coding An Illustrated Text Adventure Game
+          length: 35 minutes
         -
           authors: Jared Sorensen
           url: https://www.youtube.com/watch?v=Sehaj4mw38s
           title: Action Castle at PAX East 2011
-          length: 12 minutes 
+          length: 12 minutes
         -
           authors: Mark Riedl
           url: https://mark-riedl.medium.com/an-introduction-to-ai-story-generation-7f99a450f615
-          title: An Introduction to AI Story Generation     
+          title: An Introduction to AI Story Generation
         -
           authors: H2G2.com
           url: https://h2g2.com/edited_entry/A20600641
