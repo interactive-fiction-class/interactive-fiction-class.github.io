@@ -82,13 +82,12 @@ We have provided [starter code for a basic text adventure game](https://colab.re
 
 ### Task 1: Implement Action Castle
 
-Action Castle is a game by Jared A. Sorensen.  It is included in his book [Parsley](http://www.memento-mori.com/parsely-products/parsely-pdf), which is a collection of games inspired by the text-adventures of the 1980s.  Parsley is a party game where you take on the role of the parser, and the players shout out commands like GO NORTH, LIGHT LAMP or GET SWORD.  You obtusely follow player's commands, simulating a computer's limited vocabulary.  The effect is suprisingly hilarious and fun. 
+Action Castle is a game by Jared A. Sorensen.  It is included in his book [Parsley](http://www.memento-mori.com/pdf/parsely-pdf), which is a collection of games inspired by the text-adventures of the 1980s.  Parsley is a party game where you take on the role of the parser, and the players shout out commands like GO NORTH, LIGHT LAMP or GET SWORD.  You obtusely follow player's commands, simulating a computer's limited vocabulary.  The effect is suprisingly hilarious and fun. 
 
-We got Jared's permission to distribute the Action Castle module in class, and you can also [buy the Parsley book for $20](http://www.memento-mori.com/parsely-products/parsely-pdf) if you'd like to support an awesome indy game developer.
+You should download ["Parsely: Preview n' Play Edition"](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) which is free on Jared's website.  It contains the Action Castle game that you'll be implementing.  You can also [buy the full Parsley book for $20](http://www.memento-mori.com/pdf/parsely-pdf) if you'd like to support an awesome indy game developer.
 
 You should modify the provided code to:
-1. Create the 13 locations from Action Castle (Cottage, Garden Path, Fishing Pond, Winding Path, 
-Top of the Tall Tree, Drawbridge, Courtyard, Tower Stairs, Tower, 
+1. Create the 13 locations from Action Castle (Cottage, Garden Path, Fishing Pond, Winding Path, Top of the Tall Tree, Drawbridge, Courtyard, Tower Stairs, Tower, 
 Dungeon Stairs, Dungeon, Great Feasting Hall, Throne Room).
 2. Create the items for the game (fishing poll, rosebush, club, fish, the troll etc.).
 3. Update the code so that it can handle the actions/commands/preconditions that are described by the Action Castle module.
