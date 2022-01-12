@@ -108,7 +108,7 @@ TAs
 : [Artemis Panagopoulou](https://artemisp.github.io/)
 
 Discussion Forum
-: [Piazza](https://piazza.com/upenn/spring2022/cis700001)
+: [Ed Discussion](https://edstem.org/us/courses/18119/discussion/)
 
 Time and Place
 : Spring 2022, Tuesdays & Thursdays from 1:45-3:15pm EST [[Zoom link]](https://upenn.zoom.us/j/95868341588?pwd=a0NvbkhtUEdYTTk5d0Vmc2VvcHJrUT09)
