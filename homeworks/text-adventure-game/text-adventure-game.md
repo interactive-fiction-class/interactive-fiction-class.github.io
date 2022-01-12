@@ -14,8 +14,8 @@ materials:
         name: Text Adventure Game (Python Notebook viewable on Google Colab)
         url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb
     - 
-        name: Action Castle PDF.  This file is accessible only if you have an @SEAS.upenn.edu email address. Please write a post on Piazza if you can't access it.
-        url: https://drive.google.com/open?id=0B2lqQK5UI65eRUdkdVRPWXBLRUdtalBHbS1IaTR2TWM1eVpR
+        name: Parsely&colon; Preview n' Play Edition (this contains the Action Castle game).  
+        url: http://www.memento-mori.com/pdf/parsely-preview-n-play-edition
 submission_link: 
 readings:
     -
@@ -84,7 +84,7 @@ We have provided [starter code for a basic text adventure game](https://colab.re
 
 Action Castle is a game by Jared A. Sorensen.  It is included in his book [Parsley](http://www.memento-mori.com/pdf/parsely-pdf), which is a collection of games inspired by the text-adventures of the 1980s.  Parsley is a party game where you take on the role of the parser, and the players shout out commands like GO NORTH, LIGHT LAMP or GET SWORD.  You obtusely follow player's commands, simulating a computer's limited vocabulary.  The effect is suprisingly hilarious and fun. 
 
-You should download ["Parsely: Preview n' Play Edition"](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) which is free on Jared's website.  It contains the Action Castle game that you'll be implementing.  You can also [buy the full Parsley book for $20](http://www.memento-mori.com/pdf/parsely-pdf) if you'd like to support an awesome indy game developer.
+You should download ["Parsely: Preview n' Play Edition"](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) which is free on Jared's website.  It contains the Action Castle game that you'll be implementing.  You can also [buy the full Parsley book for $20](http://www.memento-mori.com/pdf/parsely-pdf) if you'd like to support an awesome indy game developer.  The Preview n' Play Edition also explains how these kinds of games work.
 
 You should modify the provided code to:
 1. Create the 13 locations from Action Castle (Cottage, Garden Path, Fishing Pond, Winding Path, Top of the Tall Tree, Drawbridge, Courtyard, Tower Stairs, Tower, 
@@ -131,7 +131,7 @@ Your game should include all of the following:
 * At least one "puzzle" where there are certain preconditions that must be met before the player can make forward progress.
 * At least one "win" state and at least one "lose" state.
 
-A fun example of a tiny game with very 3 locations and 3 items is the "Flaming Goat" game in Jared A. Sorensen's [Parsley book](http://www.memento-mori.com/parsely-products/parsely-pdf).  I played it with my 6 year old son, and it cracked him up.
+A fun example of a tiny game with very 3 locations and 3 items is the "Flaming Goat" game in Jared A. Sorensen's [Parsley book](http://www.memento-mori.com/pdf/parsely-pdf).  I played it with my 6 year old son, and it cracked him up.
 
 Optionally, you can think about adding other elements to your game, like:
 * Scoring
@@ -140,7 +140,7 @@ Optionally, you can think about adding other elements to your game, like:
 
 Feel free to modify the starter code in any way you see fit in order to enable your game ideas. However, the "Play the game" and "Visualize your game" code blocks should remain functional.
 
-We will play your game in class on January 23, and your classmates will help to grade this assignment based on how fun/creative/interesting your game is.  Be creative!  For inspiration, we recommend searching Pinterest for cross-section maps.  Here are some that we like:
+What kind of game should you make?  It's up to you! Be creative!  For inspiration, we recommend searching Pinterest for cross-section maps.  Here are some that we like:
 
 <div class="container-fluid">
   <div class="row">
@@ -174,12 +174,12 @@ __Tip:__ I recommend drawing out on your game on [graph paper](http://print-grap
 
 You should submit a link to a Github repository which contains the following:
 
-1. An IPython notebook called `action_castle.ipynb` that runs Action Castle. (You can use [Google Colab to view IPython Notebooks on Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb).)
+1. An Python notebook called `action_castle.ipynb` that runs Action Castle. (You can use [Google Colab to view IPython Notebooks on Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb).)
 2. An IPython notebook called `my_game.ipynb` that runs the initial version of your game.
 3. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It shold be a plain text file with one command per line.
 4. A text file called `README.md` containing a short paragraph describing your game, and why you picked that topic.
 
-Submissions should be done on [Gradescope](https://www.gradescope.com/courses/78405/assignments/322804).
+Submissions should be done on [Gradescope]().
 
 {% if page.readings %} 
 ## Recommended readings
