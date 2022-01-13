@@ -30,7 +30,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 {% if page.type == "in-class" %}
 <!-- In class activity -->
 <div class="alert alert-info">
-This is the in-class activity for {{ page.due_date | date: "%A %B %-d" }}.
+This is the in-class activity for {{ page.release_date | date: "%A %B %-d" }}.
 </div>
 {% else %}
 <!-- Homework assignment -->
