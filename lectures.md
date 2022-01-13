@@ -84,7 +84,7 @@ The lecture schedule will be updated as the term progresses. You can find more d
 		 {{ lecture.title }}<br>
 		 {% if mod_num %}(<a href="modules.html#module{{mod_num}}">Module {{mod_num}}</a>)
 			{% if slides %}
-			  <a href="slides/{{ slides }}">[slides]</a>
+			  <a href="{{ slides }}">[slides]</a>
 			{% endif %}
 
 			{% if video %}
