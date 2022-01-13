@@ -71,7 +71,7 @@ Today in class you will play a text-adventure games in groups of 2-5 people.  We
 The parser for Bronze has a limited vocabulary.  This cheatsheet should guide to what commands are allowable in text adventure games:
 -->
 
-Sentient Beings won the "Text Adventure Literacy Jam" which is designed to introduce younger people to text-based adventure games.   Helpfully, the game will offer you a tutorial mode.  If you enable it then, the game will display a bunch of userful hints about what commands you can use at each location in the game.
+Sentient Beings won the ["Text Adventure Literacy Jam"](https://itch.io/jam/talp) which is designed to introduce younger people to text-based adventure games.   Helpfully, the game will offer you a tutorial mode.  If you enable it then, the game will display a bunch of userful hints about what commands you can use at each location in the game.
 
 ### What to do
 
