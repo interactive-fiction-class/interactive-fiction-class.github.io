@@ -1,0 +1,204 @@
+LOCATIONS
+
+Throne Room
+This is the throne room of ACTION CASTLE. 
+
+Great Feasting Hall
+You stand inside the Great Feasting Hall. 
+
+Courtyard
+You are in the courtyard of ACTION CASTLE. 
+
+Drawbridge
+You are standing on one side of a drawbridge leading to ACTION CASTLE. 
+
+Tower Stairs
+You are climbing the stairs to the tower. There is a locked door here. 
+
+Dungeon Stairs
+You are climbing the stairs down to the dungeon. 
+
+Winding Path
+You are walking along a winding path. There is a tall tree here. 
+
+Tower
+You are inside a tower. 
+
+Dungeon
+You are in the dungeon. There is a spooky ghost here. 
+
+Garden Path
+You are standing on a lush garden path. There is a cottage here. 
+
+Top of the Tall Tree
+You are the top of the tall tree. 
+
+Cottage
+You are standing in a small cottage. 
+
+Fishing Pond
+You are at the edge of a small fishing pond. 
+
+The Afterlife
+You are dead. GAME OVER. 
+
+nowhere
+Nowhere 
+
+
+ITEMS
+
+rose
+a red rose
+IT SMELLS GOOD. 
+
+fish
+a dead fish
+IT SMELLS TERRIBLE. 
+
+throne
+An ornate golden throne.
+ 
+
+candle
+a strange candle
+THE CANDLE IS COVERED IN STARGE RUNES. 
+
+guard
+a guard carrying a sword and a key
+HE LOOKS AT YOU SUSPICIOUSLY. 
+
+troll
+a mean troll
+HE LOOKS HUNGRY. 
+
+locked door
+a locked door
+THE DOOR IS SECURELY LOCKED. 
+
+princess
+A princess who is beautiful, sad and lonely. She awaits her non-gender-stereotypical soulmate.
+ 
+
+ghost
+A ghost with bony, claw-like fingers and who is wearing a crown.
+ 
+
+rosebush
+a rosebush
+THE ROSEBUSH CONTAINS A SINGLE RED ROSE.  IT IS BEAUTIFUL. 
+
+branch
+a stout, dead branch
+IT LOOKS LIKE IT WOULD MAKE A GOOD CLUB. 
+
+pole
+a fishing pole
+A SIMPLE FISHING POLE. 
+
+pond
+a small fishing pond
+THERE ARE FISH IN THE POND. 
+
+rose
+a red rose
+IT SMELLS GOOD. 
+
+fish
+a dead fish
+IT SMELLS TERRIBLE. 
+
+unlocked door
+a door
+THE DOOR IS UNLOCKED. 
+
+lamp
+a lamp (unlit)
+A LAMP. 
+
+lamp (lit)
+a lamp (lit)
+A BIGHTLY LIT LAMP. 
+
+candle (lit)
+a lit candle
+THE CANDLE IS COVERED IN STARGE RUNES.  IT IS EMITTING A STRANGE, ACRID SMELLING SMOKE. 
+
+crown
+a crown
+A CROWN FIT FOR A KING. 
+
+crown (worn)
+a crown
+A CROWN FIT FOR A KING. 
+
+key
+a brass key
+THIS LOOKS USEFUL. 
+
+unconscious guard
+an unconscious guard is slumped against the wall
+HE HAS BITS OF BRANCH ON HIS UNIFORM. 
+
+princess
+A princess who is beautiful and lonely. She awaits her non-gender-stereotypical soulmate.
+ 
+
+princess (married)
+A princess  who is beautiful. She has found her non-gender-stereotypical soulmate.
+ 
+
+COMMANDS
+
+
+sit on throne 
+
+light candle 
+
+read runes 
+
+hit guard with branch 
+
+hit troll with branch 
+
+give the troll the fish 
+
+unlock door 
+
+give rose to princess 
+
+talk to princess 
+
+kiss princess 
+
+pick rose 
+
+catch fish 
+
+catch fish with pole 
+
+smell rose 
+
+eat fish 
+
+light lamp 
+
+read runes 
+
+wear crown 
+
+talk to princess 
+
+talk to princess about the ghost 
+
+talk to princess about the crown 
+
+talk to princess about herself 
+
+talk to princess about the throne 
+
+propose to the princess 
+
+kiss princess 
+
+kiss princess 
