@@ -61,7 +61,7 @@ A great example of what you could build if you take this class is the [AI Dungeo
 </div>
 -->
 <div class="alert alert-success" markdown="1">
-First day of class is Thursday, January 13, 2022 at 1:45pm-3:15pm Eastern. It will take place virtually. We look forward to seeing you there!
+First day of class is Thursday, January 13, 2022 at 1:45pm-3:15pm Eastern. It will take place virtually. Here is the [Zoom link](https://upenn.zoom.us/j/95868341588?pwd=a0NvbkhtUEdYTTk5d0Vmc2VvcHJrUT09). We look forward to seeing you there!
 </div>
 
 Course number
