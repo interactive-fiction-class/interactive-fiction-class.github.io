@@ -102,10 +102,11 @@ $$^*$$Except for this part: _The ghost will reach out for the player to stop his
 <div class="alert alert-warning" markdown="1">
 __Advanced Hint:__ To do handle state changes (like the guard going from awake to unconscious), I used two Items to represent the different states, and then used a special function to perform multiple actions that would destroy Item and put the other Item in its place.  For example:
 ```python
-  guard = Item("guard", "a guard carrying a sword and a key", "HE LOOKS AT YOU SUSPICIOUSLY.",
-    start_at=courtyard, gettable=False)
-  unconscious_guard = Item("unconscious guard", "an unconscious guard is slumpped against the wall", 
-    "HE HAS BITS OF BRANCH ON HIS UNIFORM.", start_at=None, gettable=False)
+  guard = Item("guard", "a guard carrying a sword and a key", "HE LOOKS AT YOU SUSPICIOUSLY.", start_at=courtyard)
+
+  unconscious_guard = Item("unconscious guard", "an unconscious guard is slumped against the wall", 
+  "HE HAS BITS OF BRANCH ON HIS UNIFORM.", start_at=nowhere)
+
 
   guard.add_action("hit guard with branch", perform_multiple_actions, 
       ([(destroy_item, (branch,"You swing your branch against the guard. It shatters to pieces.",
@@ -116,7 +117,7 @@ __Advanced Hint:__ To do handle state changes (like the guard going from awake t
       ]), preconditions={"inventory_contains":branch , "location_has_item": guard})
  
 ```  
-There are other ways of handling this, and you're not obligated to use my way.
+There are other ways of handling this, and you're not obligated to use my way.  For instance, you might try using the Item's properties to record conditions like `unconscious`.
 </div>
 
 The starter code provides a vizualization method that displays a directed graph of the game that you have created.  If you'd like to compare your game graph against mine, you can look at [my vizualization of Action Castle](game-visualization.pdf).
