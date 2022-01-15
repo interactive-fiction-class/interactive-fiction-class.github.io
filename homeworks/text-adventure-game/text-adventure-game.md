@@ -19,7 +19,7 @@ materials:
     - 
         name: Text from Action Castle  
         url: https://raw.githubusercontent.com/interactive-fiction-class/interactive-fiction-class.github.io/master/homeworks/text-adventure-game/action_castle_text.txt
-submission_link: 
+submission_link: https://www.gradescope.com/courses/354158/assignments/1772512/
 readings:
     -
       title: Adventuron Classroom
