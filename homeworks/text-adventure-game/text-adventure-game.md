@@ -183,7 +183,7 @@ You should submit a link to a Github repository which contains the following:
 3. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It shold be a plain text file with one command per line.
 4. A text file called `README.md` containing a short paragraph describing your game, and why you picked that topic.
 
-Submissions should be done on [Gradescope]().
+Submissions should be done on [Gradescope]({{page.submission_link}}).
 
 {% if page.readings %} 
 ## Recommended readings
