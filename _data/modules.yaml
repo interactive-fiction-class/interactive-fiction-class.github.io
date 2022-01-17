@@ -53,7 +53,7 @@
   description: With neural language models becoming more popular within Natural Language Processing/Generation (NLP/NLG), automated story generation researchers realized how much easier it is to generate text. (And this also helped NLP researchers get interested in story generation!) Here, you'll learn about neural language models, particularly the transformer, how to work with them, and how they are used to generate stories.
   lessons:
     - 
-      title: Neural Story Generation + Transformers
+      title: Neural Language Models + Transformers
       guest_speaker: Daphne Ippolito
       guest_url: https://www.seas.upenn.edu/~daphnei/
       video:
@@ -65,13 +65,9 @@
           url: https://dl.acm.org/doi/10.1145/3442188.3445922
           authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell
         -
-          title: Hierarchical Neural Story Generation
-          authors: Angela Fan, Mike Lewis, Yann Dauphin
-          url: https://aclanthology.org/P18-1082/
-        -
-          title: Do Massively Pretrained Language Models Make Better Storytellers?
-          authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
-          url: https://arxiv.org/pdf/1909.10705.pdf
+          title: "Language Models are Unsupervised Multitask Learners"
+          url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+          authors: Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever
       optional:
         -
           title: Tay, Microsoft's AI chatbot, gets a crash course in racism from Twitter
@@ -82,10 +78,18 @@
           authors: Tom Simonite (Wired)
           url: https://www.wired.com/story/ai-text-generator-too-dangerous-to-make-public/
     - 
-      title: Finetuning + Prompt Engineering for Transformers
+      title: Finetuning/Prompt Engineering for Transformers + Neural Story Generation
       video:
       length:
       readings:
+        -
+          title: Hierarchical Neural Story Generation
+          authors: Angela Fan, Mike Lewis, Yann Dauphin
+          url: https://aclanthology.org/P18-1082/
+        -
+          title: Do Massively Pretrained Language Models Make Better Storytellers?
+          authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
+          url: https://arxiv.org/pdf/1909.10705.pdf
         -
           title: "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing"
           url: https://arxiv.org/abs/2107.13586
