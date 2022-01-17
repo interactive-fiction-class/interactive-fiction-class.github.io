@@ -89,7 +89,7 @@
         -
           title: Do Massively Pretrained Language Models Make Better Storytellers?
           authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
-          url: https://arxiv.org/pdf/1909.10705.pdf
+          url: https://aclanthology.org/K19-1079/
         -
           title: "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing"
           url: https://arxiv.org/abs/2107.13586
