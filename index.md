@@ -116,7 +116,7 @@ Time and Place
 : Last day of class is April 26, 2022
 
 Office Hours (see the [Staff](/staff.html) page for office hour locations)
-: Chris - Mondays, 1-2pm EST
+: Chris - Mondays, 2-3pm EST
 : Liam - Tuesdays, 3:15-4:15pm EST
 : Lara - Thursdays, 3:15-4:15pm EST
 : Artemis - Fridays, 12:15-1:15pm EST
