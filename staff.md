@@ -11,7 +11,7 @@ active_tab: staff
         <ul class="list-unstyled">
           <li>
             {% if staff.pic %}
-              <img src="assets/img/staff/{{ staff.pic }}" class="img-circle" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px">
+              <img src="assets/img/staff/{{ staff.pic }}" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px">
             {% else %}
               <img src="assets/img/kermit.png" class="img-circle" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px">
             {% endif %}
