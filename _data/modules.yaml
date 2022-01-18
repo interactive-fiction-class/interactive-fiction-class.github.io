@@ -90,7 +90,35 @@
           authors: Tom Simonite (Wired)
           url: https://www.wired.com/story/ai-text-generator-too-dangerous-to-make-public/
     - 
-      title: Finetuning/Prompt Engineering for Transformers + Neural Story Generation
+      title: Transformers, Continued
+      guest_speaker: Daphne Ippolito
+      guest_url: https://www.seas.upenn.edu/~daphnei/      
+      video:
+      length:
+      readings:
+        -
+          title: "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing"
+          url: https://arxiv.org/abs/2107.13586
+          authors: Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig   
+    - 
+      title: AI Dungeon + GPT-3 (Tentative)
+      guest_speaker: Nick Walton (AI Dungeon) & Boris Power (OpenAI)
+      guest_url: 
+      video:
+      length:
+      readings:
+        -
+          title: Language Models are Few-Shot Learners
+          url: https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
+          authors: Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, et al.
+        -
+          title: AI Dungeon (game)
+          url: https://play.aidungeon.io/
+          authors: Nick Walton/Latitude
+    - 
+      title: Neural Story Generation + Recap
+      guest_speaker:
+      guest_url: 
       video:
       length:
       readings:
@@ -101,22 +129,7 @@
         -
           title: Do Massively Pretrained Language Models Make Better Storytellers?
           authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
-          url: https://aclanthology.org/K19-1079/
-        -
-          title: "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing"
-          url: https://arxiv.org/abs/2107.13586
-          authors: Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig   
-    - 
-      title: GPT-3
-      guest_speaker:
-      guest_url: 
-      video:
-      length:
-      readings:
-        -
-          title: Language Models are Few-Shot Learners
-          url: https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
-          authors: Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, et al.
+          url: https://aclanthology.org/K19-1079/       
   hw:
     -
       title: Transformers HW
