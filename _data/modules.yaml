@@ -71,8 +71,16 @@
       optional:
         -
           title: "Attention is All You Need"
-          url: https://papers.nips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+          url: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
           authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
+        -
+          title: "Sequence to Sequence Learning with Neural Networks"
+          url: https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf
+          authors: Ilya Sutskever, Oriol Vinyals, Quoc V. Le
+        -
+          title: "Generating Sequences With Recurrent Neural Networks"
+          url: https://arxiv.org/abs/1308.0850
+          authors: Alex Graves
         -
           title: Tay, Microsoft's AI chatbot, gets a crash course in racism from Twitter
           authors: Elle Hunt (The Guardian)
