@@ -53,7 +53,7 @@
   description: With neural language models becoming more popular within Natural Language Processing/Generation (NLP/NLG), automated story generation researchers realized how much easier it is to generate text. (And this also helped NLP researchers get interested in story generation!) Here, you'll learn about neural language models, particularly the transformer, how to work with them, and how they are used to generate stories.
   lessons:
     - 
-      title: Neural Story Generation + Transformers
+      title: Neural Language Models + Transformers
       guest_speaker: Daphne Ippolito
       guest_url: https://www.seas.upenn.edu/~daphnei/
       video:
@@ -65,14 +65,22 @@
           url: https://dl.acm.org/doi/10.1145/3442188.3445922
           authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell
         -
-          title: Hierarchical Neural Story Generation
-          authors: Angela Fan, Mike Lewis, Yann Dauphin
-          url: https://aclanthology.org/P18-1082/
-        -
-          title: Do Massively Pretrained Language Models Make Better Storytellers?
-          authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
-          url: https://arxiv.org/pdf/1909.10705.pdf
+          title: "Language Models are Unsupervised Multitask Learners"
+          url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+          authors: Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever
       optional:
+        -
+          title: "Attention is All You Need"
+          url: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+          authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
+        -
+          title: "Sequence to Sequence Learning with Neural Networks"
+          url: https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf
+          authors: Ilya Sutskever, Oriol Vinyals, Quoc V. Le
+        -
+          title: "Generating Sequences With Recurrent Neural Networks"
+          url: https://arxiv.org/abs/1308.0850
+          authors: Alex Graves
         -
           title: Tay, Microsoft's AI chatbot, gets a crash course in racism from Twitter
           authors: Elle Hunt (The Guardian)
@@ -82,7 +90,9 @@
           authors: Tom Simonite (Wired)
           url: https://www.wired.com/story/ai-text-generator-too-dangerous-to-make-public/
     - 
-      title: Finetuning + Prompt Engineering for Transformers
+      title: Transformers, Continued
+      guest_speaker: Daphne Ippolito
+      guest_url: https://www.seas.upenn.edu/~daphnei/      
       video:
       length:
       readings:
@@ -91,8 +101,8 @@
           url: https://arxiv.org/abs/2107.13586
           authors: Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig   
     - 
-      title: GPT-3
-      guest_speaker:
+      title: AI Dungeon + GPT-3 (Tentative)
+      guest_speaker: Nick Walton (AI Dungeon) & Boris Power (OpenAI)
       guest_url: 
       video:
       length:
@@ -101,6 +111,25 @@
           title: Language Models are Few-Shot Learners
           url: https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
           authors: Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, et al.
+        -
+          title: AI Dungeon (game)
+          url: https://play.aidungeon.io/
+          authors: Nick Walton/Latitude
+    - 
+      title: Neural Story Generation + Recap
+      guest_speaker:
+      guest_url: 
+      video:
+      length:
+      readings:
+        -
+          title: Hierarchical Neural Story Generation
+          authors: Angela Fan, Mike Lewis, Yann Dauphin
+          url: https://aclanthology.org/P18-1082/
+        -
+          title: Do Massively Pretrained Language Models Make Better Storytellers?
+          authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
+          url: https://aclanthology.org/K19-1079/       
   hw:
     -
       title: Transformers HW

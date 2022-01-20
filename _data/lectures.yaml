@@ -16,7 +16,7 @@
       url: text-adventure-game/text-adventure-game.html
 -
   date: 2022-01-18
-  title: Neural Story Generation + Transformers
+  title: Neural Language Models + Transformers
   speaker: 
   speaker_url: 
   description: 
@@ -27,14 +27,14 @@
 
 -
   date: 2022-01-20
-  title: Finetuning + Prompt Engineering for Transformers
+  title: Transformers, Continued
   slides: 
   activities: 
 
 
 -
   date: 2022-01-25
-  title: GPT-3
+  title: AI Dungeon + GPT-3 (Tentative)
   slides:
   activities: 
     -
@@ -48,7 +48,7 @@
 
 -
   date: 2022-01-27
-  title: Recap
+  title: Neural Story Generation + Recap
   speaker: 
   speaker_url: 
   description: 
