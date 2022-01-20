@@ -117,6 +117,10 @@
           title: "Speech and Language Processing, Chapter 6: Vector Semantics and Embeddings"
           url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
           authors: Daniel Jurafsky, James H. Martin
+        -
+          title: "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+          url: https://arxiv.org/abs/1910.10683
+          authors: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu
     - 
       title: Neural Story Generation + Pretraining/Prompting
       guest_speaker: 
