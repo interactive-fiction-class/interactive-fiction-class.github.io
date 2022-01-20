@@ -113,6 +113,10 @@
           title: "Efficient Estimation of Word Representations in Vector Space"
           authors: Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean
           url: https://arxiv.org/abs/1301.3781
+        -
+          title: "Speech and Language Processing, Chapter 6: Vector Semantics and Embeddings"
+          url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
+          authors: Daniel Jurafsky, James H. Martin
     - 
       title: Neural Story Generation + Pretraining/Prompting
       guest_speaker: 
