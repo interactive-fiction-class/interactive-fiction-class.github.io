@@ -75,7 +75,9 @@ The results will be saved into your Google drive as a JSON file.
 
 1. Open the [Colab Notebok for Collecting Intent Detection Data](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/intent-detection/Collect_Intent_Detection_Data.ipynb).
 2. Choose `Runtime > Run all`.
-3. Scroll down to the "START HERE: Annotate Data" section of the notebook
-4. Complete the interactive annotation activity.  It will save a JSON file to your Google drive
-5. Please submit your JSON to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+3. The Colab Notebook will ask "Permit this notebook to access your Google Drive files?".  
+4. Scroll down to the "START HERE: Annotate Data" section of the notebook
+5. Complete the interactive annotation activity.  It will save a JSON file to your Google drive.
+6. Please submit your JSON to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+7. Time permitting you can go on to the next section, "Use OpenAI For Intent Detection", which will show you how to use your intent detection data to create a prompt and how to predict the intents for previously unseen user input.
 
