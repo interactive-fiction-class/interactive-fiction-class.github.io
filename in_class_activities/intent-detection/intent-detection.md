@@ -61,9 +61,10 @@ Today in class you will create a set of data for **intent detection** for text a
 * **Examine** an object
 * **Get** an object
 * **Drop** an object
-* Use an object to perform a **special** action
+* Perform a **special** action using an object
 * Check the player's **inventory**
 * **Redescribe** the scene
+* Perform a **sequence** of actions
 
 The Colab Notebook will guide you through creating some data that we'll use to train a model to perform intent detection, instead of using keywords. 
 
