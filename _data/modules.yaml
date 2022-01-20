@@ -109,6 +109,10 @@
           title: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
           authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
           url: https://aclanthology.org/N19-1423/
+        -
+          title: "Efficient Estimation of Word Representations in Vector Space"
+          authors: Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean
+          url: https://arxiv.org/abs/1301.3781
     - 
       title: Neural Story Generation + Pretraining/Prompting
       guest_speaker: 
