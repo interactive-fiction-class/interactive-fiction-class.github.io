@@ -56,9 +56,9 @@
       title: Neural Language Models + Transformers
       guest_speaker: Daphne Ippolito
       guest_url: https://www.seas.upenn.edu/~daphnei/
-      video:
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e89106d-8358-45e6-a36c-ae210157dafb
       length:
-      slides:
+      slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
       readings:
         -
           title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
