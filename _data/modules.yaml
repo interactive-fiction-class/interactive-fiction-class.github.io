@@ -210,7 +210,7 @@
           url: https://www.aaai.org/ojs/index.php/AAAI/article/download/4726/4604
         -
           title: "PlotMachines: Outline-Conditioned Generation with Dynamic Plot State Tracking"
-          authors: Hannah Rashkin, Asli Celikyilmaz, Yejin Choi1, Jianfeng Gao
+          authors: Hannah Rashkin, Asli Celikyilmaz, Yejin Choi, Jianfeng Gao
           url: https://aclanthology.org/2020.emnlp-main.349/          
       optional:
         -
