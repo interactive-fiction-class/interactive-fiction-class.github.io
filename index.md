@@ -60,9 +60,11 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 A great example of what you could build if you take this class is the [AI Dungeon](https://play.aidungeon.io/), which is an interactive fiction game  that was developed by a student at BYU using [Open AI's GPT-2](https://openai.com/blog/better-language-models/) large scale language model.
 </div>
 -->
+<!--
 <div class="alert alert-success" markdown="1">
 First day of class is Thursday, January 13, 2022 at 1:45pm-3:15pm Eastern. It will take place virtually. Here is the [Zoom link](https://upenn.zoom.us/j/95868341588?pwd=a0NvbkhtUEdYTTk5d0Vmc2VvcHJrUT09). We look forward to seeing you there!
 </div>
+-->
 
 Course number
 : CIS 700-001 - Interactive Fiction and Text Generation 
