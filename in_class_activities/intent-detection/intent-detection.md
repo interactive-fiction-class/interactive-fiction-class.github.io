@@ -53,7 +53,7 @@ The materials that you will need for this in-class activity are:
 
 
 
-In Class Activity: Collect Data for Intent Detection
+In Class Activity: Create Data for Intent Detection
 =============================================================
 
 Today in class you will create a set of data for **intent detection** for text adventure games.  In our first version of the Text Adventure Game, we had a simple keyword-based method of handling the player's intent.  The parser implemented a function called `get_player_intent` that took in a player's command and then decided which of the following actions a player was trying to accomplish:
