@@ -65,12 +65,12 @@
           url: https://dl.acm.org/doi/10.1145/3442188.3445922
           authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell
         -
-          title: "Language Models are Unsupervised Multitask Learners"
+          title: "[GPT-2 paper] Language Models are Unsupervised Multitask Learners"
           url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
           authors: Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever
       optional:
         -
-          title: "Attention is All You Need"
+          title: "[Transformer paper] Attention is All You Need"
           url: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
           authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
         -
@@ -110,7 +110,7 @@
           authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
           url: https://aclanthology.org/N19-1423/
         -
-          title: "Efficient Estimation of Word Representations in Vector Space"
+          title: "[word2vec paper] Efficient Estimation of Word Representations in Vector Space"
           authors: Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean
           url: https://arxiv.org/abs/1301.3781
         -
@@ -118,7 +118,7 @@
           url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
           authors: Daniel Jurafsky, James H. Martin
         -
-          title: "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+          title: "[T5 paper] Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
           url: https://arxiv.org/abs/1910.10683
           authors: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu
     - 
