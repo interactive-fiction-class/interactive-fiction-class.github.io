@@ -29,7 +29,10 @@
   date: 2022-01-20
   title: Transformers, Continued
   slides: 
-  activities: 
+  activities:
+    -
+      title: Create Data for Intent Detection
+      url: in_class_activities/intent-detection/intent-detection.html
 
 
 -
