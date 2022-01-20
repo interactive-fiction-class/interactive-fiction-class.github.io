@@ -104,7 +104,11 @@
           title: "A Bit of Fry & Laurie: Concerning Language"
           length: 7 minutes, 23 seconds
           url: https://www.youtube.com/watch?v=3MWpHQQ-wQg
-          authors: Hugh Laurie and Stephen Fry
+          authors: Hugh Laurie, Stephen Fry
+        -
+          title: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+          authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
+          url: https://aclanthology.org/N19-1423/
     - 
       title: Neural Story Generation + Pretraining/Prompting
       guest_speaker: 
