@@ -1,6 +1,6 @@
 ---
 layout: default
-img: listening.jpg
+img: listening.png
 img_link: https://xkcd.com/1807/
 caption: Intent - Buy it now 
 title: Annotate Data for Intent Detection
