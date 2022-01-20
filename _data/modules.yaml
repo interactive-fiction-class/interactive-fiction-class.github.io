@@ -95,11 +95,35 @@
       guest_url: https://www.seas.upenn.edu/~daphnei/      
       video:
       length:
+      optional:
+        -
+          title: The Curious Case of Neural Text Degeneration
+          url: https://openreview.net/pdf?id=rygGQyrFvH
+          authors: Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, Yejin Choi
+        -
+          title: "A Bit of Fry & Laurie: Concerning Language"
+          length: 7 minutes, 23 seconds
+          url: https://www.youtube.com/watch?v=3MWpHQQ-wQg
+          authors: Hugh Laurie and Stephen Fry
+    - 
+      title: Neural Story Generation + Pretraining/Prompting
+      guest_speaker: 
+      guest_url: 
+      video:
+      length:
       readings:
         -
           title: "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing"
           url: https://arxiv.org/abs/2107.13586
-          authors: Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig   
+          authors: Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig      
+        -
+          title: Hierarchical Neural Story Generation
+          authors: Angela Fan, Mike Lewis, Yann Dauphin
+          url: https://aclanthology.org/P18-1082/
+        -
+          title: Do Massively Pretrained Language Models Make Better Storytellers?
+          authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
+          url: https://aclanthology.org/K19-1079/
     - 
       title: AI Dungeon + GPT-3 (Tentative)
       guest_speaker: Nick Walton (AI Dungeon) & Boris Power (OpenAI)
@@ -114,22 +138,9 @@
         -
           title: AI Dungeon (game)
           url: https://play.aidungeon.io/
-          authors: Nick Walton/Latitude
-    - 
-      title: Neural Story Generation + Recap
-      guest_speaker:
-      guest_url: 
-      video:
-      length:
+          authors: Nick Walton/Latitude      
       readings:
-        -
-          title: Hierarchical Neural Story Generation
-          authors: Angela Fan, Mike Lewis, Yann Dauphin
-          url: https://aclanthology.org/P18-1082/
-        -
-          title: Do Massively Pretrained Language Models Make Better Storytellers?
-          authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
-          url: https://aclanthology.org/K19-1079/       
+    
   hw:
     -
       title: Transformers HW
