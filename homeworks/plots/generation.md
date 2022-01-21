@@ -1,7 +1,7 @@
 ---
 layout: default
 img: assets/img/table1.png
-caption: Table 1 from the paper Plan-and-Write: Towards Better Automatic Storytelling
+caption: Table 1 from the paper Plan-and-Write&colon; Towards Better Automatic Storytelling
 title: Guided Story Generation
 type: Homework
 number: 3
@@ -15,7 +15,7 @@ materials:
 submission_link: 
 readings:
     -
-      title: Plan-and-Write: Towards Better Automatic Storytelling
+      title: Plan-and-Write&colon; Towards Better Automatic Storytelling
       authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao, and Rui Yan
       url: https://ojs.aaai.org/index.php/AAAI/article/view/4726
 ---
@@ -91,6 +91,7 @@ $$^*$$Except for this part: _The ghost will reach out for the player to stop his
 
 <div class="alert alert-warning" markdown="1">
 __Advanced Hint:__ To do handle state changes (like the guard going from awake to unconscious), I used two Items to represent the different states, and then used a special function to perform multiple actions that would destroy Item and put the other Item in its place.  For example:
+
 ```python
   guard = Item("guard", "a guard carrying a sword and a key", "HE LOOKS AT YOU SUSPICIOUSLY.", start_at=courtyard)
 
