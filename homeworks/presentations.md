@@ -49,6 +49,8 @@ Tip: Read the paper assigned to your group and *discuss it with each other* befo
 
 You are encouraged to set up an appointment to go over your slides with Artemis, Chris, Lara, or Liam before you give your in-class presentation.
 
+Slides will be due Monday at 3PM on the week of your presentation (with the exception of the people presenting for Module 1, who we will allow you to give us the slides the day before and will be more lenient in grading your presentation since we won't have much time to go over it with you ahead of time).
+
 
 ## What to submit
 
