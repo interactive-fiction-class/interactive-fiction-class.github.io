@@ -3,14 +3,14 @@ layout: default
 img: listening.png
 img_link: https://xkcd.com/1807/
 caption: Intent - Buy it now 
-title: Annotate Data for Intent Detection
+title: Annotate Data for Intent Determination
 type: in-class
 active_tab: homework
 release_date: 2022-01-20
 due_date: 2022-01-24 23:59:00EST
 materials:
     - 
-        name: Colab Notebook for Intent Detection
+        name: Colab Notebook for Intent Determination
         url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/intent-detection/Collect_Intent_Detection_Data.ipynb
 submission_link: https://www.gradescope.com/courses/354158/assignments/1789712/
 ---
@@ -53,10 +53,10 @@ The materials that you will need for this in-class activity are:
 
 
 
-In Class Activity: Create Data for Intent Detection
+In Class Activity: Create Data for Intent Determination
 =============================================================
 
-Today in class you will create a set of data for **intent detection** for text adventure games.  In our first version of the Text Adventure Game, we had a simple keyword-based method of handling the player's intent.  The parser implemented a function called `get_player_intent` that took in a player's command and then decided which of the following actions a player was trying to accomplish:
+Today in class you will create a set of data for **intent determination** for text adventure games.  In our first version of the Text Adventure Game, we had a simple keyword-based method of handling the player's intent.  The parser implemented a function called `get_player_intent` that took in a player's command and then decided which of the following actions a player was trying to accomplish:
 * **Move** to a new location
 * **Examine** an object
 * **Get** an object
