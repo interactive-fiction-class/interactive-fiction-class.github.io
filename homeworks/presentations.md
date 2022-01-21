@@ -52,7 +52,7 @@ You are encouraged to set up an appointment to go over your slides with Artemis,
 
 ## What to submit
 
-1. A Powerpoint (ppt or pptx) file or a link to where we can find the slides online (e.g., Google Slides)
+1. <a href="{{page.submission_link}}">A Powerpoint (ppt or pptx) file or a link to where we can find the slides online (e.g., Google Slides).</a>
 
 
 {% if page.readings %} 
