@@ -34,7 +34,7 @@ You can download the materials for this assignment here:
 Once you are assigned a group and paper, you will be told the approximate date when your presentation will be. (Since the lecture material moves around as the course progresses, the presentation dates might move as well.)
 
 
-Your presentation should be about 15 minutes long. Give each member of your group equal time for presenting (e.g., if you have 3 people, each person gets 5 minutes)
+Your presentation should be about 15 minutes long + a few minutes for questions. Give each member of your group equal time for presenting (e.g., if you have 3 people, each person gets 5 minutes)
 
 Your talk should include:
 - a summary of the paper,
