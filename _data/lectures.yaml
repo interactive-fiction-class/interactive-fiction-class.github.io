@@ -62,8 +62,8 @@
   type: deadline
   homework_due:
     -
-      title: Transformers HW (10%)
-      url: 
+      title: Generating Descriptions HW (10%)
+      url: openai-api/openai-api.html
 
 -
   date: 2022-02-01
@@ -101,7 +101,7 @@
   type: deadline
   homework_due:
     -
-      title: Scripts HW (10%)
+      title: Plot Graphs HW (10%)
       url: 
 
 -
