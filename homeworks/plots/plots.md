@@ -1,8 +1,8 @@
 ---
 layout: default
-img: assets/img/table1.png
-caption: Table 1 from the paper Plan-and-Write&colon; Towards Better Automatic Storytelling
-title: Guided Story Generation
+img: Scheherazade.jpg
+caption: Queen Scheherazade, the storyteller from One Thousand and One Nights (Arabian Nights)
+title: Plot Generation
 type: Homework
 number: 3
 active_tab: homework
@@ -15,9 +15,9 @@ materials:
 submission_link: 
 readings:
     -
-      title: Plan-and-Write&colon; Towards Better Automatic Storytelling
-      authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao, and Rui Yan
-      url: https://ojs.aaai.org/index.php/AAAI/article/view/4726
+      title: Crowdsourcing Open Interactive Narrative
+      authors: Matthew Guzdial, Brent Harrison, Boyang Li, and Mark O. Riedl
+      url: http://boyangli.org/paper/guzdial-fdg15.pdf
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -65,6 +65,7 @@ You can download the materials for this assignment here:
 ## Instructions
 
 In this homework assignment, you will write your own classic text adventure game.  This homework can be completed in groups of up to 2 people.  You will implement two text adventure games.  One will be a re-implementation of the __Action Castle__ game, and one will be a game that you design yourself. The game that you design can be on any topic, or can tell any story of your choice.  We will play the games that you design during class, and part of your grade will be awarded based on how creative/exciting your classmates think your game is.
+
 
 ### Starter code
 
@@ -171,7 +172,7 @@ You should submit a link to a Github repository which contains the following:
 3. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It shold be a plain text file with one command per line.
 4. A text file called `README.md` containing a short paragraph describing your game, and why you picked that topic.
 
-Submissions should be done on [Gradescope]().
+Submissions should be done on [Gradescope]({{page.submission_link}}).
 
 {% if page.readings %} 
 ## Recommended readings
