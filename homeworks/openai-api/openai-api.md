@@ -3,22 +3,26 @@ layout: default
 img: scribe.png
 img_link: https://parl.ai/projects/light/
 caption: Automatically write descriptions for text adventure games
-title: Generating Descriptions
+title: Using the OpenAI API for Text Adventures
 type: Homework
-number: XXX
+number: 2
 active_tab: homework
 release_date: 2020-02-22
 due_date: 2020-02-28 13:30:00EST
 materials:
     - 
-      name: 
-      url: 
+      name: Colab Notebook for Intent Determination
+      url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/intent-detection/Collect_Intent_Detection_Data.ipynb
     - 
-      name: LIGHT engironment training data
-      url: light_data.tar.gz
+      name: Colab Notebook for Fine-Tuning OpenAI on LIGHT Enviroment Data
+      url: 
 submission_link: https://www.gradescope.com/courses/XXX
 
 readings:
+- 
+   title: OpenAI API Documentation
+   url: https://beta.openai.com/docs/introduction
+   type: documentation
 - 
    title: Chatbots and Dialogue Systems (especially Section 24.3.2)
    authors: Jurafsky and Martin
@@ -91,7 +95,7 @@ In this homework, you will use the OpenAI API to automatically for a number of t
 
 
 
-# Intent Determination
+## Intent Determination
 
 For computer systems with natural language interfaces, and important task is **intent determination**.  For instance, when a user is talking to Amazon Alexa, it must determine if the user wants it to play music, check the weather forecast, order a product, etc.  After this initial determination, the system ususally forwards the user utterance to a specalized model to handle each individual task.  Language provides us with many different ways of articulating our goals, which makes intent determination a challenging task for computers. 
 
@@ -135,7 +139,7 @@ How could a player say that they want to GET the ARROW?
 ```
 The annotator might type in something like *retrieve the arrows from the tree*.  In doing so, they have created a training item that assicates that natural language command with the `get` intent, and the game command `get arrow`.  
 
-## Create a Prompt for Intent Detection
+### Create a Prompt for Intent Detection
 
 Here is an example of one way that we can use the data to perform intent determination with the OpenAI API.  We will perform "few shot learning" by creating a prompt that includes each of the natural language commands that you created, followed by the intent, followed by a "stop sequence".  Here's a short sample of what our prompt looks like:
 
@@ -180,23 +184,76 @@ random.shuffle(intents)
 for natural_language_command, intent in intents:
   prompt += natural_language_command + "\n"
   prompt += intent  + "\n"
-  prompt += '###'  + "\n"
+  prompt += '###'  + "\n" # This will be our stop sequence
 
 print(prompt)
 ```
 
-To use this prompt with OpenAI, you can copy and paste it into the [OpenAI Playground](https://beta.openai.com/playground/).  Then you can type in the next user command, and click on the "Generate" button and have it generate a response. 
+To use this prompt with OpenAI, you can copy and paste it into the [OpenAI Playground](https://beta.openai.com/playground/).  Then you can type in a user command, and click on the "Generate" button and have it generate a response. Here's a screenshot:
 
 
 <center>
 <img src="openai-playground-screenshot.png" class="img-responsive"/>
 </center>
 
-# Generating Descriptions
+In the screenshot above, I have set the stop sequence to be "###", which means that after the model generates that token, it will stop producing additional output.  If the model has learned the pattern from the few examples in our prompt, then it should follow the user command with an intent (like `get`) and then predict the stop sequence (which it doesn't output).
 
-# Predicting Item Properties
+You can click on the "View Code" button to see code that will let you perform this generation from within a Python program rather than on the Playground website.  Here's an example of how you can wrap the code that it provides into a `get_player_intent` function.
 
-# Idea Generation for Affordances
+```python
+!pip install openai
+
+from getpass import getpass
+print('Enter OpenAI API key:')
+openai_api_key = getpass()
+```
+
+```python
+import openai
+openai.api_key = openai_api_key
+
+def get_player_intent(command):
+  response = openai.Completion.create(
+    engine="davinci",
+    prompt=prompt + command + "\n",
+    temperature=0.7,
+    max_tokens=64,
+    top_p=1,
+    frequency_penalty=0,
+    presence_penalty=0,
+    stop=["###"]
+  )
+  return response['choices'][0]['text']
+```
+
+```python
+command = "take the sword from its scabbard"
+while command != "":
+  command = input("> ")
+  print(get_player_intent(command))
+```
+
+There are several other ways that you can use the OpenAI AI to perform intent detection.  The method above is an example of **few-shot learning and prompt engineering**. Another method is via **fine-tuning** one of the model.  I recommend that you read the [OpenAI API Documentation](https://beta.openai.com/docs/) which also describes classification, and embeddings.
+
+For your HW, you should implement your own `get_player_intent` function.  We'll evaluate how good your method is based on running it on a set of held-out test data.
+
+## Generating Descriptions
+
+Next, we'll take a look at how to [fine-tune the OpenAI models](https://beta.openai.com/docs/guides/fine-tuning) to perform a specific task.  You can should few-shot learning when you a few dozen training example, and you can use tuning when you have several hundred examples. 
+
+We are going to use a text adventure that was developed by Facebook AI Research for their paper [Learning to Speak and Act in a Fantasy Text Adventure Game](https://arxiv.org/abs/1903.03094).
+
+Here's paper's abstract:
+
+> We introduce a large-scale crowdsourced text adventure game as a research platform for studying grounded dialogue. In it, agents can perceive, emote, and act while conducting dialogue with other agents. Models and humans can both act as characters within the game. We describe the results of training state-of-the-art generative and retrieval models in this setting. We show that in addition to using past dialogue, these models are able to effectively use the state of the underlying world to condition their predictions. In particular, we show that grounding on the details of the local environment, including location descriptions, and the objects (and their affordances) and characters (and their previous actions) present within it allows better predictions of agent behavior and dialogue. We analyze the ingredients necessary for successful grounding in this setting, and how each of these factors relate to agents that can talk and act successfully.
+
+Their data is called the LIGHT dataset (Learning in Interactive Games with Humans and Text).  It contains 663 locations, 3462 objects and 1755 characters.  I have divided this data into training/dev/test splits.  We will use this data to fine-tune GPT3 to generate descriptions of rooms and items.
+
+
+
+## Predicting Item Properties
+
+## Idea Generation for Affordances
 
 
 
@@ -205,7 +262,7 @@ Submit a file `report.pdf` with your answers to the above questions.
 
 
 
-## Recommended readings
+# Recommended readings
 
 <table>
    {% for publication in page.readings %}
