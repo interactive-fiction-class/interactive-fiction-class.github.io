@@ -42,8 +42,7 @@ readings:
    year: 2019
    type: paper
    url: https://arxiv.org/abs/1911.09194
-attribution: This homework was developed by George Tolkachev, Yahan Liu, Muyang Zhou, Yutong Liu, Daphne Ippolito and Chris Callison-Burch for UPenn's Interactive Fiction and Text Generation class.
----
+  ---
 
 <!-- Check whether the assignment is ready to release -->
 {% capture today %}{{'now' | date: '%s'}}{% endcapture %}
