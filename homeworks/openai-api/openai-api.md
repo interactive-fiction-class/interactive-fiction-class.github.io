@@ -15,7 +15,7 @@ materials:
       url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/intent-detection/Collect_Intent_Detection_Data.ipynb
     - 
       name: Colab Notebook for Fine-Tuning OpenAI on LIGHT Enviroment Data
-      url: 
+      url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/openai-api/Fine_Tune_OpenAI_on_LIGHT_Text_Adventures.ipynb
 submission_link: https://www.gradescope.com/courses/XXX
 
 readings:
