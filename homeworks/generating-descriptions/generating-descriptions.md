@@ -20,6 +20,13 @@ readings:
    url: https://beta.openai.com/docs/introduction
    type: documentation
 -
+   title: Language Models are Few-Shot Learners
+   authors: Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
+   venue: NeurIPs
+   year: 2020
+   type: paper
+   url: https://arxiv.org/abs/2005.14165
+-
    title: Learning to Speak and Act in a Fantasy Text Adventure Game
    authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
    venue: EMNLP
@@ -120,7 +127,7 @@ In this homework, you will use the OpenAI API for the first time.  We'll get you
 
 ## Getting Started with the OpenAI API
 
-You have been granted access to the [OpenAI API](https://openai.com), which lets you play with GPT-3 a large, transformer-based language model like the ones that we learned about in lecture.  For the first part of the assignment, we'll get warmed up by playing with the OpenAI API via its interactive [Playground](https://beta.openai.com/playground) website.  Later we'll see how to integrate it directly into our code. 
+You have been granted access to the [OpenAI API](https://openai.com), which lets you use GPT-3 a large, transformer-based language model like the ones that we learned about in lecture.  For the first part of the assignment, we'll get warmed up by playing with the OpenAI API via its interactive [Playground](https://beta.openai.com/playground) website.  Later we'll see how to integrate it directly into our code. 
 
 First, let's learn some basic terminology: 
 * Prompt - the input to the model
