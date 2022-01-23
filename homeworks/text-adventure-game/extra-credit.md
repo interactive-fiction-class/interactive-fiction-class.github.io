@@ -83,6 +83,7 @@ For this part of the extra credit, you should write a program to export our CoLa
 * [Locations](https://adventuron.io/documentation/#QuickStartLocations)
 * [Objects](https://adventuron.io/documentation/#QuickStartObjects)
 * [Barriers](https://adventuron.io/documentation/#QuickStartBarriers)
+
 You aren't required to implement [special commands](https://adventuron.io/documentation/#QuickStartCommands) or [precondition variables](https://adventuron.io/documentation/#QuickStartBooleanExpressions), but if you figure out how to do it, go for it!
 
 You should test your code by trying to export Action Castle into the Adventuron format and then run it in [Adventuron Classroom](https://adventuron.io/classroom/), which is a development environment.  You should be able to play the exported game by pressing the Play button. 
