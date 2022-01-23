@@ -3,23 +3,26 @@ layout: default
 img: adventuron.png
 img_link: https://en.wikipedia.org/wiki/Zork#/media/
 caption: Adventuron is a development platform for text adventure games
-title: Adventuron Integration
+title: Optional Extra Credit for HW1
 type: Extra Credit
 number: 1
 active_tab: homework
-release_date: 2023-01-17 
-due_date: 2022-01-24 23:59:00EST
+release_date: 2022-01-17 
+due_date: 2022-02-07 23:59:00EST
 materials:
+    -
+      name: Adventuron Documentation
+      url: https://adventuron.io/documentation/
+    -
+      name: Pixray Colab Notebooks
+      url: https://github.com/pixray/pixray_notebooks
     - 
-      name: Text Adventure Game (Python Notebook viewable on Google Colab)
-      url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb
-    -
-      name: Adventuron Documentation
-      url: https://adventuron.io/documentation/
-    -
-      name: Adventuron Documentation
-      url: https://adventuron.io/documentation/
-submission_link: 
+      name: (OPTIONAL) Colab notebook by CCB to Generte Art in the Style of Different Artists
+      url: https://colab.research.google.com/drive/1JKtGgt6wj2u0xOTDFk9cFkT6XMTyislA?usp=sharing
+    - 
+      name: (OPTIONAL)  Another notebook by CCB to Generte Art Using Images as Input
+      url: https://colab.research.google.com/drive/1utUKewWzXYaG0Fj6FUcOX-mc-YAwC02h?usp=sharing
+submission_link: https://www.gradescope.com/courses/354158/assignments/1796853/
 readings:
 ---
 
@@ -65,116 +68,273 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-
 ## Instructions
 
-For up to one point of extra credit.
+For up to one point of extra credit, you can extend our [text adventures](text-adventure-game.md) with either or both of the following ideas:
 
-### Starter code
+* Export the games from our colab format to Adventuron, which is a platform for developing text adventure games.
+* Generate art for our games automatically using neural networks. 
 
-We have provided [starter code for a basic text adventure game](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb).  You are free modify it however you want, and bring in any dependencies you feel will be useful.
+## Adventuron 
 
-### Task 1: Implement Action Castle
+Adventuron is a platform for developing text adventure games. Adventuron  was designed to teach young kids some programming concepts. Adventuron uses a particular file format, and then generates HTML files for the games that you can host on websites like itch.io.  
 
-Action Castle is a game by Jared A. Sorensen.  It is included in his book [Parsley](http://www.memento-mori.com/pdf/parsely-pdf), which is a collection of games inspired by the text-adventures of the 1980s.  Parsley is a party game where you take on the role of the parser, and the players shout out commands like GO NORTH, LIGHT LAMP or GET SWORD.  You obtusely follow player's commands, simulating a computer's limited vocabulary.  The effect is suprisingly hilarious and fun. 
+For this part of the extra credit, you should write a program to export our CoLab notebook games to the Adventuron file format.  The file format is documented [here](https://adventuron.io/documentation/#_reference_guide).  You should implement
+* [Locations](https://adventuron.io/documentation/#QuickStartLocations)
+* [Objects](https://adventuron.io/documentation/#QuickStartObjects)
+* [Barriers](https://adventuron.io/documentation/#QuickStartBarriers)
+You aren't required to implement [special commands](https://adventuron.io/documentation/#QuickStartCommands) or [precondition variables](https://adventuron.io/documentation/#QuickStartBooleanExpressions), but if you figure out how to do it, go for it!
 
-You should download ["Parsely: Preview n' Play Edition"](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) which is free on Jared's website.  It contains the Action Castle game that you'll be implementing.  You can also [buy the full Parsley book for $20](http://www.memento-mori.com/pdf/parsely-pdf) if you'd like to support an awesome indy game developer.  The Preview n' Play Edition also explains how these kinds of games work.
+You should test your code by trying to export Action Castle into the Adventuron format and then run it in [Adventuron Classroom](https://adventuron.io/classroom/), which is a development environment.  You should be able to play the exported game by pressing the Play button. 
 
-You should modify the provided code to:
-1. Create the 13 locations from Action Castle (Cottage, Garden Path, Fishing Pond, Winding Path, Top of the Tall Tree, Drawbridge, Courtyard, Tower Stairs, Tower, 
-Dungeon Stairs, Dungeon, Great Feasting Hall, Throne Room).
-2. Create the items for the game (fishing poll, rosebush, club, fish, the troll etc.).
-3. Update the code so that it can handle the actions/commands/preconditions that are described by the Action Castle module.
+### What to submit
 
-<div class="alert alert-warning" markdown="1">
-__Need a hint on how to get started?__ I as able to re-implement the whole of the Action Castle game$$^*$$ using the starter code by modifying the ```build_game``` function, the ```check_preconditions``` function, and by adding a few new methods to the [Special functions section](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb#scrollTo=YNrsHhpMTC8w).  None of the other starter code needed to be modified. It took me about 5 hours total to implement the game.
-
-$$^*$$Except for this part: _The ghost will reach out for the player to stop his heart if the player lingers here._ I skipped that part of the game.
-</div>
-
-
-<div class="alert alert-warning" markdown="1">
-__Advanced Hint:__ To do handle state changes (like the guard going from awake to unconscious), I used two Items to represent the different states, and then used a special function to perform multiple actions that would destroy Item and put the other Item in its place.  For example:
-```python
-  guard = Item("guard", "a guard carrying a sword and a key", "HE LOOKS AT YOU SUSPICIOUSLY.", start_at=courtyard)
-
-  unconscious_guard = Item("unconscious guard", "an unconscious guard is slumped against the wall", 
-  "HE HAS BITS OF BRANCH ON HIS UNIFORM.", start_at=nowhere)
+* A colab notebook to take the HW1 game and export it to a text file that is in the Adventuron file format.  
+* A README that describes 
+1. how to run your program
+2. which aspects of our text adventure games are properly exported and which you're not able to export.
 
 
-  guard.add_action("hit guard with branch", perform_multiple_actions, 
-      ([(destroy_item, (branch,"You swing your branch against the guard. It shatters to pieces.",
-                               "You already tried that.")),
-      (destroy_item, (guard,"The guard slumps over, unconscious.","")),
-      (create_item, (unconscious_guard,"The guard's unconscious body lies on the ground.")),
-      (create_item, (key,"His key falls from his hand.")),
-      ]), preconditions={"inventory_contains":branch , "location_has_item": guard})
- 
-```  
-There are other ways of handling this, and you're not obligated to use my way.  For instance, you might try using the Item's properties to record conditions like `unconscious`.
-</div>
-
-The starter code provides a vizualization method that displays a directed graph of the game that you have created.  If you'd like to compare your game graph against mine, you can look at [my vizualization of Action Castle](game-visualization.pdf).
+You can submit your files to [Gradescope]({{page.submission_link}}).
 
 
-### Task 2: Implement Your Own Creation
+## Graphics
 
-Your game should include all of the following:
+Despite being called "text adventure games", with the advent of computer graphics, text adventure games began to featured graphics that depicted locations and items. Because computer graphics were in their infancy when adventure games had their hey-day, the graphics used in them were 8-bit and pixelated.  This aesthetic lives on in many modern indie text adventure games. 
 
-* At least 3 Locations
-* At least 3 Items that can be interacted with. These can be doors, keys, tools, ogres, etc.
-* At least one "puzzle" where there are certain preconditions that must be met before the player can make forward progress.
-* At least one "win" state and at least one "lose" state.
 
-A fun example of a tiny game with very 3 locations and 3 items is the "Flaming Goat" game in Jared A. Sorensen's [Parsley book](http://www.memento-mori.com/pdf/parsely-pdf).  I played it with my 6 year old son, and it cracked him up.
 
-Optionally, you can think about adding other elements to your game, like:
-* Scoring
-* Changes over time
-* Interesting non-player characters
+For the graphics EC, you shoudl adapt the [Pixray colab notebook](https://github.com/pixray/pixray) developed by an artist named [Tom White aka dribnet](https://drib.net/about) who makes art with nerual networks.  Pixray takes in text prompts and generate pixelated artwork that represents the rompt.  Here are some scenes from Action Castle that I generated using Pixray:
 
-Feel free to modify the starter code in any way you see fit in order to enable your game ideas. However, the "Play the game" and "Visualize your game" code blocks should remain functional.
 
-What kind of game should you make?  It's up to you! Be creative!  For inspiration, we recommend searching Pinterest for cross-section maps.  Here are some that we like:
+
+
 
 <div class="container-fluid">
   <div class="row">
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px; height: 350px;">
-<a href="inspiration/lighthouse.jpg"><img src="inspiration/lighthouse.jpg" style="height: 100%; width: 100%; max-width: 250px"></a>
-</div>
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px; height: 350px;">
-<a href="inspiration/treehouse.jpg"><img src="inspiration/treehouse.jpg" style="height: 100%; width: 100%; max-width: 250px"></a>
-</div>
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px; height: 350px;">
-<a href="inspiration/oubliette.png"><img src="inspiration/oubliette.png" style="height: 100%; width: 100%; max-width: 250px"></a>
-</div>
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px; height: 350px;">
-<a href="inspiration/storm-king.jpg"><img src="inspiration/storm-king-small.jpg" style="height: 100%; width: 100%; max-width: 250px"></a>
-</div>
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px; height: 350px;">
-<a href="inspiration/mars.pdf"><img src="inspiration/mars.jpg" style="height: 100%; width: 100%; max-width: 250px"></a>
-</div>
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px; height: 350px;">
-<a href="inspiration/apartment.jpg"><img src="inspiration/apartment.jpg" style="height: 100%; width: 100%; max-width: 250px"></a>
-</div>
-  </div>
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/pixel_art/cottage.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> Inside Cottage #pixelart
+  </li>
+  </ul>
 </div>
 
 
-<div class="alert alert-warning" markdown="1">
-__Tip:__ I recommend drawing out on your game on [graph paper](http://print-graph-paper.com/) before you get started.
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/pixel_art/garden_path.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> Cottage on Garden Path #pixelart
+  </li>
+  </ul>
 </div>
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/pixel_art/great_hall.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> Great Hall #pixelart
+  </li>
+  </ul>
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/pixel_art/rosebush.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> Rosebush #pixelart
+  </li>
+  </ul>
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/pixel_art/throne_room.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> Throne Room #pixelart
+  </li>
+  </ul>
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/pixel_art/candle-lit.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> A candle with ancient runes burning in the dark #pixelart
+  </li>
+</ul>
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/pixel_art/ghost.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> skeletal king haunting a dark room #pixelart
+  </li>
+</ul>
+</div>
+
+</div>
+</div>
+
+
+I also generated art for Action Castle with in a non-pixelated style using CLIP+GANs.  Here are some examples of that art.  Since it was a castle theme, I appended the phrase "medieval art" to the text prompts to try to influence the style of the art. 
+
+
+
+<div class="container-fluid">
+  <div class="row">
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/locations/cottage/cottage.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> Inside Cottage - medieval art
+  </li>
+  </ul>
+</div>
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/locations/garden_path/garden_path.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> Cottage on a garden path - medieval art
+  </li>
+  </ul>
+</div>
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/locations/feasting_hall/feasting_hall.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> Feasting Hall - medieval art
+  </li>
+  </ul>
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/items/rosebush/rosebush.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> Rosebush - medieval art
+  </li>
+  </ul>
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/locations/throne_room/throne_room.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> Throne Room  - medieval art
+  </li>
+  </ul>
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/items/candle/candle.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> A candle with ancient runes - medieval art
+  </li>
+</ul>
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/items/ghost/ghost.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> skeletal king haunting a dark room - medieval art
+  </li>
+</ul>
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px;">
+  <ul class="list-unstyled">
+  <li>
+        <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/items/troll/troll.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
+  </li>
+  <li>
+    <b>Prompt:</b> hungry troll - medieval art
+  </li>
+</ul>
+</div>
+
+</div>
+</div>
+
+
+I got really excited about generating art with neural nets, so I also tried generating art in the style of different artists.  Here's an example of a few hundred different versions of ["cottage on a garden path"](https://drive.google.com/drive/folders/1vuAJvTLdNMRBIoxERfNQDl-BmMbr2ABM?usp=sharing) and ["inside cottage"](https://drive.google.com/drive/folders/1FeZjwixKaJEFf_1qcdI5zYPPRM_9aCaN?usp=sharing) in the style of different artists. 
+
+
+For this extra credit assignment, you should write a colab notebook to 
+1. Create an image using pixray for every location and object in the game, saving them to Google drive
+2. Experiment with different prompts as input to pixray, allowing the user to select pixel art versus non-pixel art, and to attach their own keywords like "medieval art" for action castle.  
+3. Display the images in when playing text adventure game in our colab notebook. 
+4. Optionally, write a function that generates many different pictures for the same object/location in the game and then lets someone interactively pick their favorites.  It could remember the keywords that the user liked, and then use other images in that style.
+
 
 ## What to submit
 
-You should submit a link to a Github repository which contains the following:
+* Your Colab notebook, along with clear instructions on how to run it
+* A README file that explains what you tried, and what worked best
+* A zip file with your best images for each location/item in action castle.
 
-1. An Python notebook called `action_castle.ipynb` that runs Action Castle. (You can use [Google Colab to view IPython Notebooks on Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb).)
-2. An IPython notebook called `my_game.ipynb` that runs the initial version of your game.
-3. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It shold be a plain text file with one command per line.
-4. A text file called `README.md` containing a short paragraph describing your game, and why you picked that topic.
+You can submit your files to [Gradescope]({{page.submission_link}}).
 
-Submissions should be done on [Gradescope]({{page.submission_link}}).
 
 {% if page.readings %} 
 ## Recommended readings
