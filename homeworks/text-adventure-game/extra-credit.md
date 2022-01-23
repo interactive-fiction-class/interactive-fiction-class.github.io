@@ -100,11 +100,11 @@ You can submit your files to [Gradescope]({{page.submission_link}}).
 
 ## Graphics
 
-Despite being called "text adventure games", with the advent of computer graphics, text adventure games began to featured graphics that depicted locations and items. Because computer graphics were in their infancy when adventure games had their hey-day, the graphics used in them were 8-bit and pixelated.  This aesthetic lives on in many modern indie text adventure games. 
+Despite being called "text adventure games", with the advent of computer graphics, text adventure games began to featured graphics that depicted locations and items. Because computer graphics were in their infancy when adventure games had their heyday, the graphics used in them were 8-bit and pixelated.  This aesthetic lives on in many modern indie text adventure games. 
 
 
 
-For the graphics EC, you shoudl adapt the [Pixray colab notebook](https://github.com/pixray/pixray) developed by an artist named [Tom White aka dribnet](https://drib.net/about) who makes art with nerual networks.  Pixray takes in text prompts and generate pixelated artwork that represents the rompt.  Here are some scenes from Action Castle that I generated using Pixray:
+For the graphics EC, you should adapt the [Pixray colab notebook](https://github.com/pixray/pixray) developed by an artist named [Tom White aka dribnet](https://drib.net/about) who makes art with nerual networks.  Pixray takes in text prompts and generate pixelated artwork that represents the rompt.  Here are some scenes from Action Castle that I generated using Pixray:
 
 
 
@@ -317,7 +317,7 @@ I also generated art for Action Castle with in a non-pixelated style using CLIP+
 </div>
 
 
-I got really excited about generating art with neural nets, so I also tried generating art in the style of different artists.  Here's an example of a few hundred different versions of ["cottage on a garden path"](https://drive.google.com/drive/folders/1vuAJvTLdNMRBIoxERfNQDl-BmMbr2ABM?usp=sharing) and ["inside cottage"](https://drive.google.com/drive/folders/1FeZjwixKaJEFf_1qcdI5zYPPRM_9aCaN?usp=sharing) in the style of different artists. 
+I got really excited about generating art with neural nets, so I also tried [generating art in the style of different artists](https://drive.google.com/drive/folders/1yf7r2pRAdNXP7wXGjA_p0V6Swpte8I7r?usp=sharing).  Here's an example of a few hundred different versions of ["cottage on a garden path"](https://drive.google.com/drive/folders/1vuAJvTLdNMRBIoxERfNQDl-BmMbr2ABM?usp=sharing) and ["inside cottage"](https://drive.google.com/drive/folders/1FeZjwixKaJEFf_1qcdI5zYPPRM_9aCaN?usp=sharing) in the style of different artists. 
 
 
 For this extra credit assignment, you should write a colab notebook to 
