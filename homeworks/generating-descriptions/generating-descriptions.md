@@ -12,7 +12,7 @@ due_date: 2020-02-28 13:30:00EST
 materials:
     - 
       name: Colab Notebook for Fine-Tuning OpenAI on LIGHT Enviroment Data
-      url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/openai-api/Fine_Tune_OpenAI_on_LIGHT_Text_Adventures.ipynb
+      url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/generating-descriptions/Fine_Tune_OpenAI_on_LIGHT_Text_Adventures.ipynb
 submission_link: https://www.gradescope.com/courses/354158/assignments/1798030/
 readings:
 - 
