@@ -41,7 +41,7 @@ readings:
    year: 2019
    type: paper
    url: https://arxiv.org/abs/1911.09194
-  ---
+---
 
 <!-- Check whether the assignment is ready to release -->
 {% capture today %}{{'now' | date: '%s'}}{% endcapture %}
