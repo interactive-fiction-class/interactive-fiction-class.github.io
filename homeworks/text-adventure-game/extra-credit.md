@@ -282,7 +282,7 @@ I also generated art for Action Castle with in a non-pixelated style using CLIP+
         <img src="https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/action_castle_art/items/candle/candle.png?raw=true" class="img-rounded" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px;" />
   </li>
   <li>
-    <b>Prompt:</b> A candle with ancient runes - medieval art
+    <b>Prompt:</b> A candle with strange runes - medieval art
   </li>
 </ul>
 </div>
