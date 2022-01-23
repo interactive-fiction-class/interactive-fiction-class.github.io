@@ -166,7 +166,7 @@ There are several controls on the righthand side of the playground.  These are
 
 ### Prompt design
 
-In addition to writing awesome reviews of your professors, you can design prompts to get GPT3 to do all sorts of suprising things.  For instance, GPT-3 can perform [few-shot learning](https://arxiv.org/abs/2005.14165).  Given a few examples of a task, it can learn a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. 
+In addition to writing awesome reviews of your professors, you can design prompts to get GPT-3 to do all sorts of suprising things.  For instance, GPT-3 can perform [few-shot learning](https://arxiv.org/abs/2005.14165).  Given a few examples of a task, it can learn a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. 
 
 Here's an example: in our text adventure games when we add a connection from one location to another, we add it in a certain direction (graveyard - West - tomb).  We'd like to add the inverse connection as well (tomb - East - graveyard).  Let's design a prompt to automatically get the opposite direction.  We could give it an instruction and two examples:
 
@@ -203,7 +203,7 @@ def get_reverse_direction(direction):
   return response['choices'][0]['text']
 ```
 
-In addition to few shot learning, GPT3 and other large language models do a pretty remarkable job in "zero-shot" scenarios.  You can give them instructions in natural language and often times, the produce remarkable examples.
+In addition to few shot learning, GPT-3 and other large language models do a pretty remarkable job in "zero-shot" scenarios.  You can give them instructions in natural language and often times, the produce remarkable examples.
 
 If you input the prompt
 > Generate 3 ideas for text adventure games.  Give the name of each game, and its setting.  Describe the game in a few sentences.  Give examples of puzzles that the player must solve, along with their solutions.
@@ -249,7 +249,7 @@ No bad!  Probably with a bit more prompt engineering or with one or two examples
 
 ## Fine-Tuning
 
-Next, we'll take a look at how to [fine-tune the OpenAI models](https://beta.openai.com/docs/guides/fine-tuning) to perform a specific task.  You can use few-shot learning when you a few dozen training example, and you can use tuning when you have several hundred examples. When we have a few training hundred examples, then it's not possible to fit them all into a prompt, since GPT3 has a limit of 2048 tokens in the prompt.  
+Next, we'll take a look at how to [fine-tune the OpenAI models](https://beta.openai.com/docs/guides/fine-tuning) to perform a specific task.  You can use few-shot learning when you a few dozen training example, and you can use tuning when you have several hundred examples. When we have a few training hundred examples, then it's not possible to fit them all into a prompt, since GPT-3 has a limit of 2048 tokens in the prompt.  
 
 For your homework, you'll fine-tune GPT-3 to generate different parts of text adventure games.  Specifically we'll train GPT-3 to
 1. Generate description of locations
