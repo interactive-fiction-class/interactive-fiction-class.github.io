@@ -92,7 +92,8 @@ Newsgroups: rec.arts.int-fiction
 Date: 29 Oct 92 04:40:05 GMT
 Sender: nntp@acsu.buffalo.edu
 Organization: State University of New York at Buffalo/Comp Sci
-morpheus@sage.cc.purdue.edu (Morpheus Nosferatu) writes:
+
+Morpheus Nosferatu wrote:
 > Has anyone ever worked on, or even heard of, an adventure generator?
 >
 > I’m not talking about an adventure design language like TADS or Alan,
@@ -102,14 +103,15 @@ morpheus@sage.cc.purdue.edu (Morpheus Nosferatu) writes:
 > hunt, etc.), size of adventure, and so forth?
 > ...
 > But as anyone ever heard of someone trying to come up with a generator
-> whigh would produce infocom-style text adventures? I can just imagine
+> which would produce infocom-style text adventures? I can just imagine
 > what kind of limitations it would have, but I’m curious to know if
 > anyone has tried this, and if so what degree of success they’ve had.
-No. ... The generator you speak of is not written, not being written,
+
+No. The generator you speak of is not written, not being written,
 and not anywhere on the horizon. In 50 years, maybe. In 20,
 definitely not. The problem of writing interesting stories, which
 adhere to someone’s definition of a plot (with goal explanations,
-conflict, resolution, comlication, climax, etc., all occuring at
+conflict, resolution, complication, climax, etc., all occuring at
 appropriate intervals) is very hard, and I don’t expect a solution
 soon. But the problem of writing clever puzzles involves much greater
 creativity, and I have seen NO evidence that ANYBODY has a clue in
@@ -176,9 +178,8 @@ Up - Down
 East -
 ```
 
-It will then generate "West".  
-Input "Ascend -" it will generate "Descend".  I
-Input "Go in through the Gate -" and it will generate "Exit the Gate".
+It will then generate "West".  Input "Ascend" it will generate "Descend".  I
+Input "Go in through the Gate" and it will generate "Exit the Gate".
 
 You can use the playground to create code based on a prompt that you can then use in your Python projects.  Click on the "View Code" button, and you'll get some code that you can covern into a Python function that takes a direction as input and returns the reverse direction.  For example: 
 
