@@ -168,50 +168,23 @@ In addition to writing awesome reviews of your professors, you can design prompt
 
 Here's an example: in our text adventure games when we add a connection from one location to another, we add it in a certain direction (graveyard - West - tomb).  We'd like to add the inverse connection as well (tomb - East - graveyard).  Let's design a prompt to automatically get the opposite direction.  We could give it an instruction and two examples:
 
-> Given a direction, output the reverse of that direction: 
-> In - Out
-> Up - Down
-> East -
+
+```
+Given a direction, output the reverse of that direction: 
+In - Out
+Up - Down
+East -
+```
 
 It will then generate "West".  
 Input "Ascend -" it will generate "Descend".  I
 Input "Go in through the Gate -" and it will generate "Exit the Gate".
 
-You can use the playground to create code based on a prompt that you can then use in your Python projects.  Click on the "View Code" button, and you'll get something like this
-```python
-import os
-import openai
+You can use the playground to create code based on a prompt that you can then use in your Python projects.  Click on the "View Code" button, and you'll get some code that you can covern into a Python function that takes a direction as input and returns the reverse direction.  For example: 
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
-response = openai.Completion.create(
-  engine="text-davinci-001",
-  prompt="Given a direction, output the reverse of that direction: \nIn - Out\nUp - Down\nEast - West\nAscend - Descend\nGo in through the Gate - Exit the Gate\nClimb up the ladder - Descend the ladder",
-  temperature=0.7,
-  max_tokens=30,
-  top_p=1,
-  frequency_penalty=0,
-  presence_penalty=0,
-  stop=["\n"]
-)
-```
-
-You can convert this into a Python function that takes a direction as input and returns the reverse direction.  Here's how:
-
-```python
-from getpass import getpass
-print('Enter OpenAI API key:')
-openai_api_key = getpass()
-```
-
-```python
-%%capture
-!pip install openai
-```
 
 ```python
 import openai
-openai.api_key = openai_api_key
 
 prompt = "Given a direction, output the reverse of that direction: \nIn - Out\nUp - Down\nEast - West\nAscend - Descend\nGo in through the Gate - Exit the Gate\nClimb up the ladder - Descend the ladder\n"
 
