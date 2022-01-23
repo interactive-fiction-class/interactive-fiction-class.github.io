@@ -248,7 +248,7 @@ No bad!  Probably with a bit more prompt engineering or with one or two examples
 
 ## Fine-Tuning
 
-Next, we'll take a look at how to [fine-tune the OpenAI models](https://beta.openai.com/docs/guides/fine-tuning) to perform a specific task.  You can should few-shot learning when you a few dozen training example, and you can use tuning when you have several hundred examples. When we have a few training hundred examples, then it's not possible to fit them all into a prompt, since GPT3 has a limit of 2048 tokens in the prompt.  
+Next, we'll take a look at how to [fine-tune the OpenAI models](https://beta.openai.com/docs/guides/fine-tuning) to perform a specific task.  You can use few-shot learning when you a few dozen training example, and you can use tuning when you have several hundred examples. When we have a few training hundred examples, then it's not possible to fit them all into a prompt, since GPT3 has a limit of 2048 tokens in the prompt.  
 
 For your homework, you'll fine-tune GPT-3 to generate different parts of text adventure games.  Specifically we'll train GPT-3 to
 1. Generate description of locations
