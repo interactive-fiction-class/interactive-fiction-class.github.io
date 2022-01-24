@@ -151,14 +151,14 @@ and genertaing again.  Now save its output for the end of the semester for your 
 </center>
 
 There are several controls on the righthand side of the playground.  These are
-* Engine - GPT-3 comes in 4 different sized models. The models as the model sizes increase, so does their quality and their cost.  They go in alphabetical order from smallest to largest.    
+* Engine - GPT-3 comes in 4 different sized models. As the model sizes increase, so does their quality and their cost.  They go in alphabetical order from smallest to largest.    
 1. Ada - smallest, least costly model.
-2. Baddage
-3. Currie
+2. Babbage
+3. Curie
 4. Davinci - highest quality and highest cost model.
 * Response length - what's the maximum length (in tokens) that the model will output?
 * Stop sequence - you can specify what tokens should cause the model to stop generating.  You can use the newline character, or any special sequence that you designate. 
-* Show probabilities - allows you to highlight the tokens giving them different colors for how probable the models thinks they are.
+* Show probabilities - allows you to highlight the tokens giving them different colors for how probable the models think they are.
 * Temperature and Top P sampling - control how the model samples tokens from its distribution.
 1. Setting Temperature to 0 will cause the model to produce the highest probablitity output.  Setting it closer to 1 will increase its propensity to create more diverse output.
 2. Top P sampling controls the nucleus sampling, where the model samples from only the top of the distribution.
@@ -181,7 +181,7 @@ East -
 It will then generate "West".  Input "Ascend" it will generate "Descend".  I
 Input "Go in through the Gate" and it will generate "Exit the Gate".
 
-You can use the playground to create code based on a prompt that you can then use in your Python projects.  Click on the "View Code" button, and you'll get some code that you can covern into a Python function that takes a direction as input and returns the reverse direction.  For example: 
+You can use the playground to create code based on a prompt that you can then use in your Python projects.  Click on the "View Code" button, and you'll get some code that you can convert into a Python function that takes a direction as input and returns the reverse direction.  For example: 
 
 
 ```python
@@ -243,16 +243,16 @@ It outputs
 >
 >The solution to each puzzle is usually hidden somewhere in the environment, and the player must use their wits and intuition to figure it out.
 
-No bad!  Probably with a bit more prompt engineering or with one or two examples, we could get it to generate high quality game ideas.
+Not bad!  Probably with a bit more prompt engineering or with one or two examples, we could get it to generate high quality game ideas.
 
 
 
 ## Fine-Tuning
 
-Next, we'll take a look at how to [fine-tune the OpenAI models](https://beta.openai.com/docs/guides/fine-tuning) to perform a specific task.  You can use few-shot learning when you a few dozen training example, and you can use tuning when you have several hundred examples. When we have a few training hundred examples, then it's not possible to fit them all into a prompt, since GPT-3 has a limit of 2048 tokens in the prompt.  
+Next, we'll take a look at how to [fine-tune the OpenAI models](https://beta.openai.com/docs/guides/fine-tuning) to perform a specific task.  You can use few-shot learning when you have a few dozen training example, and you can use fine-tuning when you have several hundred examples. When we have a few hundred training examples, then it's not possible to fit them all into a prompt, since GPT-3 has a limit of 2048 tokens in the prompt.  
 
 For your homework, you'll fine-tune GPT-3 to generate different parts of text adventure games.  Specifically we'll train GPT-3 to
-1. Generate description of locations
+1. Generate descriptions of locations
 2. List items that might be found in a location
 3. Describe an item
 4. Predict an item's properties
@@ -261,7 +261,7 @@ For your homework, you'll fine-tune GPT-3 to generate different parts of text ad
 
 We are going to use a text adventure that was developed by Facebook AI Research for their paper [Learning to Speak and Act in a Fantasy Text Adventure Game](https://arxiv.org/abs/1903.03094).
 
-Here's paper's abstract:
+Here's the paper's abstract:
 
 > We introduce a large-scale crowdsourced text adventure game as a research platform for studying grounded dialogue. In it, agents can perceive, emote, and act while conducting dialogue with other agents. Models and humans can both act as characters within the game. We describe the results of training state-of-the-art generative and retrieval models in this setting. We show that in addition to using past dialogue, these models are able to effectively use the state of the underlying world to condition their predictions. In particular, we show that grounding on the details of the local environment, including location descriptions, and the objects (and their affordances) and characters (and their previous actions) present within it allows better predictions of agent behavior and dialogue. We analyze the ingredients necessary for successful grounding in this setting, and how each of these factors relate to agents that can talk and act successfully.
 
@@ -282,9 +282,9 @@ Please submit the following:
 1. Your completed Colab Notebook
 2. A set of generated game locations, items and connections in the same JSON format as the LIGHT data
 3. A zip file with all training data files that you used to fine-tune your models
-4. A PDF writeup that explains what did in this homework.  You should say whether or not you think it's now feasible to fully generate text adventure games with AI.  What other pieces would you need to implement, in addition to what you did in this homework?
+4. A PDF writeup that explains what you did in this homework.  You should say whether or not you think it's now feasible to fully generate text adventure games with AI.  What other pieces would you need to implement, in addition to what you did in this homework?
 
-You should submit your completed home to [Gradescope]({page.submission_link}).  You can work in pairs.  Only one partner should submit - be sure to specify who your partner was when you make your submission. 
+You should submit your completed homework to [Gradescope]({page.submission_link}).  You can work in pairs.  Only one partner should submit - be sure to specify who your partner was when you make your submission. 
 
 # Recommended readings
 
