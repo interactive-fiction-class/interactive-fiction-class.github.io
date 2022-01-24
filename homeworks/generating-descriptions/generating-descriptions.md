@@ -7,8 +7,8 @@ title: Generating Descriptions
 type: Homework
 number: 2
 active_tab: homework
-release_date: 2020-02-22
-due_date: 2020-02-28 13:30:00EST
+release_date: 2022-01-24
+due_date: 2022-01-31 23:59:00EST
 materials:
     - 
       name: Colab Notebook for Fine-Tuning OpenAI on LIGHT Enviroment Data
