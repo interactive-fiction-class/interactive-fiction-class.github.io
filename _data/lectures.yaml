@@ -36,11 +36,12 @@
 
 -
   date: 2022-01-25
-  title: Neural Story Generation + Pretraining/Prompting
+  title: Pretraining/Prompting
   slides:
   activities: 
     -
-      title:  
+      title: Intent Determination with GPT-3
+      url: intent-detection-2/intent-detection-2.html
 
 
 -
@@ -50,7 +51,7 @@
 
 -
   date: 2022-01-27
-  title: AI Dungeon + GPT-3 (Tentative)
+  title: Neural Story Generation + Module 1 Paper Presentations
   speaker: 
   speaker_url: 
   description: 
