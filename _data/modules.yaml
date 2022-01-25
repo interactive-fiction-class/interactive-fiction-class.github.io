@@ -159,7 +159,7 @@
           url: https://aclanthology.org/K19-1079/   
   hw:
     -
-      title: Transformers HW
+      title: Generating Descriptions HW
       percentage: 10%
       due_date: 2022-01-31
 
@@ -223,7 +223,7 @@
           url: https://dl.acm.org/doi/pdf/10.1145/3340531.3417466
   hw:
     -
-      title: Guided Story Generation HW
+      title: Plot Graphs HW
       percentage: 10%
       due_date: 2022-01-31
 
