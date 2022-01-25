@@ -297,8 +297,12 @@ You should submit your completed homework to [Gradescope]({page.submission_link}
         {% else %}
 		{{ publication.title }}
 	{% endif %}
-	{{ publication.authors }}.
-	{{ publication.venue }}  {{ publication.year }}.
+	{% if publication.authors %}	      
+		- {{ publication.authors }}.
+	{% endif %}
+	{% if publication.year %}	
+		{{ publication.venue }}  {{ publication.year }}.
+	{% endif %}
 
 	{% if publication.abstract %}
 	<!-- abstract button -->
@@ -319,7 +323,7 @@ You should submit your completed homework to [Gradescope]({page.submission_link}
 	</div><!-- /.modal-dialog -->
 	</div><!-- /.abstract-content -->
 	{% endif %}
-		{% if publication.bibtex %}
+	{% if publication.bibtex %}
 	<!-- bibtex button -->
 	<a data-toggle="modal" href="#{{publication.id}}-bibtex" class="label label-default">BibTex</a>
 	<!-- /.bibtex button -->
