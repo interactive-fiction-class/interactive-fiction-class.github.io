@@ -142,12 +142,7 @@
       guest_speaker:
       guest_url: 
       video:
-      length:
-      optional:
-        -
-          title: AI Dungeon (game)
-          url: https://play.aidungeon.io/
-          authors: Nick Walton/Latitude      
+      length:  
       readings:
         -
           title: Hierarchical Neural Story Generation
@@ -157,6 +152,11 @@
           title: Do Massively Pretrained Language Models Make Better Storytellers?
           authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
           url: https://aclanthology.org/K19-1079/   
+      optional:
+        -
+          title: AI Dungeon (game)
+          url: https://play.aidungeon.io/
+          authors: Nick Walton/Latitude              
   hw:
     -
       title: Generating Descriptions HW
