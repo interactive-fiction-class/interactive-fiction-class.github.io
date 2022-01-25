@@ -63,7 +63,7 @@
   homework_due:
     -
       title: Generating Descriptions HW (10%)
-      url: openai-api/openai-api.html
+      url: generating-descriptions/generating-descriptions.html
 
 -
   date: 2022-02-01
