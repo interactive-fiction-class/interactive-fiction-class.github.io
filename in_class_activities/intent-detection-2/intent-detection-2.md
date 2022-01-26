@@ -72,7 +72,7 @@ The Colab Notebook will guide you through how to train a model to perform intent
 
 ### What to do
 
-1. Open the [GPT3 for Intent Determination.ipynb](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/intent-detection-2/GPT3_for_Intent_Determination.ipynbb).
+1. Open the [GPT3 for Intent Determination.ipynb](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/intent-detection-2/GPT3_for_Intent_Determination.ipynb).
 2. Choose `Runtime > Run all`.
 3. The Colab Notebook will ask "Permit this notebook to access your Google Drive files?".  You should grant it permission.
 3. You may have to get your Intent annotation data from last time from Gradescope
