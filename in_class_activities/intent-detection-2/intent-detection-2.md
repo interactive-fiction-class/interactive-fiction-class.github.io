@@ -3,7 +3,7 @@ layout: default
 img: listening.png
 img_link: https://xkcd.com/1807/
 caption: Intent - Buy it now 
-title: GPT-3 for Intent Determination
+title: Use GPT-3 for Intent Determination
 type: in-class
 active_tab: homework
 release_date: 2022-01-25
