@@ -156,7 +156,11 @@
         -
           title: AI Dungeon (game)
           url: https://play.aidungeon.io/
-          authors: Nick Walton/Latitude              
+          authors: Nick Walton/Latitude
+        -
+          title: Green AI
+          url: https://arxiv.org/abs/1907.10597
+          authors: Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni
   hw:
     -
       title: Generating Descriptions HW
