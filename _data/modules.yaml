@@ -210,7 +210,11 @@
           title: Implicit Representations of Meaning in Neural Language Models
           authors: Belinda Z. Li, Maxwell Nye, Jacob Andreas
           url: https://aclanthology.org/2021.acl-long.143
-      guest_speaker: Harry Zhang + Veronica Qing Lyu 
+        -
+          title: Goal-Oriented Script Construction
+          url: https://aclanthology.org/2021.inlg-1.19
+          authors: Qing Lyu, Li Zhang, Chris Callison-Burch
+      guest_speaker: Harry Li Zhang + Veronica Qing Lyu 
       guest_url: 
     - 
       title: Guided Story Generation
