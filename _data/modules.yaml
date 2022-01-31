@@ -172,7 +172,7 @@
   start_date: 2022-02-01
   end_date: 2021-02-10
   title: Scripts and Story Structure
-  description:
+  description: Scripts can be considered the backbone of storytelling. They help us fill in the gaps of knowledge that we would otherwise be missing from reading a story, and they help us reason about why events happen and what order they happen in. This Module will teach you about scripts, causal chains, and events. We'll also look at how people have been using these techniques in the age of the neural network.
   lessons:
     - 
       title: Scripts
