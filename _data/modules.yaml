@@ -184,7 +184,7 @@
         -
           title: Learning Statistical Scripts with LSTM Recurrent Neural Networks
           authors: Karl Pichotta, Raymond Mooney
-          url: https://ojs.aaai.org/index.php/AAAI/article/view/10347
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/10347       
       optional:
         -
           title: "proScript: Partially Ordered Scripts Generation via Pre-trained Language Models"
@@ -204,7 +204,14 @@
         -
           title: Unsupervised Learning of Narrative Schemas and their Participants
           authors: Nathanael Chambers and Dan Jurafsky
-          url: https://www.aclweb.org/anthology/P09-1068.pdf
+          url: https://www.aclweb.org/anthology/P09-1068.pdf   
+      optional:
+        -
+          title: Implicit Representations of Meaning in Neural Language Models
+          authors: Belinda Z. Li, Maxwell Nye, Jacob Andreas
+          url: https://aclanthology.org/2021.acl-long.143
+      guest_speaker: Harry Zhang + Veronica Qing Lyu 
+      guest_url: 
     - 
       title: Guided Story Generation
       readings:
@@ -227,7 +234,7 @@
           url: https://dl.acm.org/doi/pdf/10.1145/3340531.3417466
   hw:
     -
-      title: Plot Graphs HW
+      title: Plot Graph Generation HW
       percentage: 10%
       due_date: 2022-01-31
 
