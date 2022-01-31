@@ -269,6 +269,8 @@
           url: https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver
     - 
       title: Story Planning + Drama Management
+      guest_speaker: Stephen G. Ware
+      guest_url: http://cs.uky.edu/~sgware/
       readings:
         -
           title: Story-Telling as Planning and Learning
@@ -288,9 +290,13 @@
           authors: Julie Porteous, Marc Cavazza
           url: https://www.researchgate.net/publication/220920127_Controlling_Narrative_Generation_with_Planning_Trajectories_The_Role_of_Constraints        
         -
-          title: "CPOCL: A Narrative Planner Supporting Conflict"
+          title: "Sabre: A Narrative Planner Supporting Intention and Deep Theory of Mind"
+          authors: Stephen G. Ware, Cory Siler
+          url: http://cs.uky.edu/~sgware/reading/papers/ware2021sabre.pdf
+        -
+          title: "Glaive: A State-Space Narrative Planner Supporting Intentionality and Conflict"
           authors: Stephen G. Ware, R. Michael Young
-          url: https://www.aaai.org/ocs/index.php/AIIDE/AIIDE11/paper/download/4058/4419
+          url: http://cs.uky.edu/~sgware/reading/papers/ware2014glaive.pdf        
         -
           title: Narrative Plan Generation with Self-Supervised Learning
           authors: Mihai Polceanu, Julie Porteous, Alan Lindsay, Marc Cavazza 
