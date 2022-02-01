@@ -175,7 +175,7 @@
   description: Scripts can be considered the backbone of storytelling. They help us fill in the gaps of knowledge that we would otherwise be missing from reading a story, and they help us reason about why events happen and what order they happen in. This Module will teach you about scripts, causal chains, and events. We'll also look at how people have been using these techniques in the age of the neural network.
   lessons:
     - 
-      title: Scripts
+      title: Scripts and Events
       readings:
         -
           title: "Scripts Plans Goals and Understanding: An Inquiry Into Human Knowledge Structures (Chapter 3: Scripts)"
@@ -184,7 +184,15 @@
         -
           title: Learning Statistical Scripts with LSTM Recurrent Neural Networks
           authors: Karl Pichotta, Raymond Mooney
-          url: https://ojs.aaai.org/index.php/AAAI/article/view/10347       
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/10347
+        -
+          title: Event Representations for Automated Story Generation with Deep Neural Nets
+          authors: Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl
+          url: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17046/
+        -
+          title: Unsupervised Learning of Narrative Schemas and their Participants
+          authors: Nathanael Chambers and Dan Jurafsky
+          url: https://www.aclweb.org/anthology/P09-1068.pdf           
       optional:
         -
           title: "proScript: Partially Ordered Scripts Generation via Pre-trained Language Models"
@@ -195,17 +203,8 @@
           authors: Abhilasha Sancheti, Rachel Rudinger
           url: https://arxiv.org/abs/2112.13834         
     - 
-      title: Events
+      title: Understanding Procedures
       readings:
-        -
-          title: Event Representations for Automated Story Generation with Deep Neural Nets
-          authors: Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl
-          url: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17046/
-        -
-          title: Unsupervised Learning of Narrative Schemas and their Participants
-          authors: Nathanael Chambers and Dan Jurafsky
-          url: https://www.aclweb.org/anthology/P09-1068.pdf   
-      optional:
         -
           title: Implicit Representations of Meaning in Neural Language Models
           authors: Belinda Z. Li, Maxwell Nye, Jacob Andreas
