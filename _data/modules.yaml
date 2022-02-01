@@ -8,7 +8,7 @@
     - 
       title: Intro to the class, Interactive Fiction, and Automated Story Generation 
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?tid=d9d12831-5a0f-4e7f-8d75-ae1d0077227d
-      length:
+      length: 1 hour 39 mins
       slides: https://docs.google.com/presentation/d/18omDdghODPjlbE0xqVZgsLO0fPAWLfzN/edit?usp=sharing&ouid=100612312038766573060&rtpof=true&sd=true
       optional:
         -
@@ -57,7 +57,7 @@
       guest_speaker: Daphne Ippolito
       guest_url: https://www.seas.upenn.edu/~daphnei/
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e89106d-8358-45e6-a36c-ae210157dafb
-      length:
+      length: 1 hour 32 mins
       slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
       readings:
         -
@@ -95,7 +95,7 @@
       guest_url: https://www.seas.upenn.edu/~daphnei/
       slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=42c62328-b795-46a1-9d36-ae2301571b61
-      length:
+      length: 1 hour 33 mins
       optional:
         -
           title: The Curious Case of Neural Text Degeneration
@@ -126,8 +126,8 @@
       title: Pretraining/Prompting
       guest_speaker: 
       guest_url: 
-      video:
-      length:
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=99ce80a0-c4c8-4684-bd18-ae2801534544
+      length: 1 hour 15 mins
       readings:
         -
           title: Language Models are Few-Shot Learners
@@ -141,8 +141,8 @@
       title: Neural Story Generation + Module 1 Paper Presentations
       guest_speaker:
       slides: https://docs.google.com/presentation/d/1qFjLt5DZ2aH9e4Eu0Bx1XoSjtiF1iQdKx4xDxxsy-fg/edit?usp=sharing
-      video:
-      length:  
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b945aba2-14c7-4693-b1dd-ae2a015add1a
+      length: 1 hour 46 mins
       readings:
         -
           title: Hierarchical Neural Story Generation
@@ -177,8 +177,8 @@
     - 
       title: Scripts and Events
       slides: https://drive.google.com/file/d/15NY1bEg6ZZg5e3Ny0PIWvZNRpANAnInv/view?usp=sharing
-      video: 
-      length: 
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ac6fee3-a97a-40bd-9b6a-ae2f014f59a9
+      length: 1 hour 16 mins
       readings:
         -
           title: "Scripts Plans Goals and Understanding: An Inquiry Into Human Knowledge Structures (Chapter 3: Scripts)"
