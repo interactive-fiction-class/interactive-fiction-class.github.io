@@ -6,7 +6,7 @@ title: Plot Generation
 type: Homework
 number: 3
 active_tab: homework
-release_date: 2022-02-01 
+release_date:
 due_date: 2022-02-14 23:59:00EST
 materials:
     - 
