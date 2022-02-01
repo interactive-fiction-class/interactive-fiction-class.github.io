@@ -489,6 +489,8 @@ Procedural Text"
       
     -
       title: Story Evaluation
+      guest_speaker: Elizabeth Clark
+      guest_url: https://eaclark07.github.io/
       readings:
         -
           title: Predicting Generated Story Quality with Quantitative Measures
