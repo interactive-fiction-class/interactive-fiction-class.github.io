@@ -51,6 +51,7 @@ No homework for this module.
 {% for lesson in module.lessons %}
 ### Lesson {{ forloop.index }}: {{lesson.title}}{% if lesson.slides %} [[Slides]]({{lesson.slides}}){% endif %}{%if lesson.video %} [[Video]]({{lesson.video}}){% endif %}
 {% if lesson.guest_speaker %} Guest Lecturer: <a href="{{ lesson.guest_url }}">{{lesson.guest_speaker}}</a>{% endif %}
+{% if lesson.guest_speaker2 %} and <a href="{{ lesson.guest_url2 }}">{{lesson.guest_speaker2}}</a>{% endif %}
 
 <b>Required Readings:</b>
 {% if lesson.readings %}
