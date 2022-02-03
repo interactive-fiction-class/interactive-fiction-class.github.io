@@ -229,7 +229,7 @@
         -
           title: Intent Detection with WikiHow
           url: https://aclanthology.org/2020.aacl-main.35/
-          authors: https://aclanthology.org/2020.aacl-main.35/
+          authors: Li Zhang, Qing Lyu, Chris Callison-Burch
         -
           title: "SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference"
           authors: Rowan Zellers, Yonatan Bisk, Roy Schwartz, Yejin Choi
