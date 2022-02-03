@@ -6,7 +6,7 @@ title: Plot Graph Generation
 type: Homework
 number: 3
 active_tab: homework
-release_date:
+release_date: 2022-02-03
 due_date: 2022-02-14 23:59:00EST
 materials:
     - 
