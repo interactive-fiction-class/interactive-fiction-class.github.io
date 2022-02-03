@@ -80,10 +80,10 @@ If you decide to do the extra credit, please submit a file for that graph as wel
 Submissions should be done on [Gradescope]({{page.submission_link}}).
 
 ## Grading
-Implementation of the Scheherazade algorithm - 15 points
-Answers to questions - 10 points
-Graph files - 5 points
-Extra Credit - 5 points
+- Implementation of the Scheherazade algorithm - 15 points
+- Answers to questions - 10 points
+- Graph files - 5 points
+- Extra Credit - 5 points
 
 {% if page.readings %} 
 ## Required Reading
