@@ -2,7 +2,7 @@
 layout: default
 img: Scheherazade.jpg
 caption: Queen Scheherazade, the storyteller from One Thousand and One Nights (Arabian Nights)
-title: Plot Generation
+title: Plot Graph Generation
 type: Homework
 number: 3
 active_tab: homework
