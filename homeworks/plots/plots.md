@@ -11,7 +11,7 @@ due_date: 2022-02-14 23:59:00EST
 materials:
     - 
         name: Colab Notebook
-        url: 
+        url: https://colab.research.google.com/drive/1Jy1G9yx9g9SJ6HBD7ds491_BGEmHAYXn?usp=sharing
 submission_link: 
 readings:
     -
@@ -64,56 +64,29 @@ You can download the materials for this assignment here:
 
 ## Instructions
 
+In the paper [Crowdsourcing Narrative Intelligence](http://www.cogsys.org/journal/volume2/article-2-4.pdf), Li et al. created the Scheherazade algorithm to generate plot graphs from a collection of crowdsourced stories.
+Head over to the [Colab Notebook](https://colab.research.google.com/drive/1Jy1G9yx9g9SJ6HBD7ds491_BGEmHAYXn?usp=sharing) for more information on what you'll be doing.
 
-
-
-### Starter code
-
-We have provided [starter code for a basic text adventure game](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb).  You are free modify it however you want, and bring in any dependencies you feel will be useful.
-
-### Task 1: Implement the plot graph creation algorithm from _Crowdsourcing Narrative Intelligence_
-
-In the paper [Crowdsourcing Narrative Intelligence](http://www.cogsys.org/journal/volume2/article-2-4.pdf), Li et al. created an algorithm to generate plot graphs from a collection of crowdsourced stories.
-
-Head over to the [Colab Notebook]()
-
-
-
-<!--You should modify the provided code to:
-1. Create the 13 locations from Action Castle (Cottage, Garden Path, Fishing Pond, Winding Path, Top of the Tall Tree, Drawbridge, Courtyard, Tower Stairs, Tower, 
-Dungeon Stairs, Dungeon, Great Feasting Hall, Throne Room).
-2. Create the items for the game (fishing poll, rosebush, club, fish, the troll etc.).
-3. Update the code so that it can handle the actions/commands/preconditions that are described by the Action Castle module.
-
-<div class="alert alert-warning" markdown="1">
-__Need a hint on how to get started?__ I as able to re-implement the whole of the Action Castle game$$^*$$ using the starter code by modifying the ```build_game``` function, the ```check_preconditions``` function, and by adding a few new methods to the [Special functions section](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb#scrollTo=YNrsHhpMTC8w).  None of the other starter code needed to be modified. It took me about 5 hours total to implement the game.
-</div>-->
-
-
-### Task 2: Generate plot graphs
-
-Use the code you implemented in Task 1 to generate a plot graph for the [Bank Robbery data provided](), and use a library to display your graph. (If you used Pydot for your graph, you can use Graphviz to display it. If you used Networkx, try matplotlib.) Name the file `robbery.png`.
-
-Then, find a dataset (you can try one of the ones listed on the [resources page](https://interactive-fiction-class.org/resources.html)), and make a plot graph from it as well. Call the file `dataset.png`. You will need to write your own function to read in this data since every dataset will be in a different format.
-
-<div class="alert alert-warning" markdown="1">
-__Note:__ You will probably want to take a subset of the data from the dataset you find, especially if the dataset is larger. You can pare it down by hand or using an algorithm (for example, LDA).
-</div>
-
-
-## What to submit
+## What to Submit
 
 You should submit a link to a Github repository which contains the following:
 
-1. An IPython notebook called `plot.ipynb` that runs your plot graph implementation.
-2. A document (doc/docx, txt, pdf) that has your answers to the questions found on the original notebook.
-3. **Two** picture files: one named `robbery.png`, one named `dataset.png`
+1. An IPython notebook called `HW3-plot.ipynb` that runs your plot graph implementation.
+2. A document (doc/docx, txt, pdf) that has your answers to the questions found at the end of the notebook.
+3. **Two** graph files: one named `plotgraph.html` that is your final (initialized, pruned, & improved) plot graph using your clusters, one named `gold.html` using the clusters from Part 2.
 
+If you decide to do the extra credit, please submit a file for that graph as well: `ec.html`. You may include your answers to the questions in your document under a section labeled "Extra Credit".
 
 Submissions should be done on [Gradescope]({{page.submission_link}}).
 
+## Grading
+Implementation of the Scheherazade algorithm - 15 points
+Answers to questions - 10 points
+Graph files - 5 points
+Extra Credit - 5 points
+
 {% if page.readings %} 
-## Recommended readings
+## Required Reading
 {% for reading in page.readings %}
 * {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a>.  <i>{{ reading.note }}</i>
 {% endfor %}
