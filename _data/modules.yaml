@@ -181,6 +181,7 @@
   hw:
     -
       title: Generating Descriptions HW
+      url: generating-descriptions/generating-descriptions.html
       percentage: 10%
       due_date: 2022-01-31
 
@@ -276,6 +277,7 @@
       title: Plot Graph Generation HW
       percentage: 10%
       due_date: 2022-01-31
+      url: plots/plots.html
 
 -
   module_number: 3
@@ -314,7 +316,7 @@
         -
           title: Open-world planning for story generation
           authors: Mark O. Riedl, R. Michael Young
-          url: https://liquidnarrative.csc.ncsu.edu/wp-content/uploads/sites/15/2015/11/openworld.pdf
+          url: https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.649.3076
         -
           title: "Plans and planning in narrative generation: a review of plan-based approaches to the generation of story, discourse and interactivity in narratives"
           authors: R. Michael Young, Stephen Ware, Brad Cassell, Justus Robertson
