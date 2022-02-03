@@ -12,7 +12,7 @@ materials:
     - 
         name: Colab Notebook
         url: https://colab.research.google.com/drive/1Jy1G9yx9g9SJ6HBD7ds491_BGEmHAYXn?usp=sharing
-submission_link: 
+submission_link: https://www.gradescope.com/courses/354158/assignments/1829348
 readings:
     -
       title: Crowdsourcing Narrative Intelligence
