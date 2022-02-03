@@ -53,6 +53,13 @@ No homework for this module.
 {% if lesson.guest_speaker %} Guest Lecturer: <a href="{{ lesson.guest_url }}">{{lesson.guest_speaker}}</a>{% endif %}
 {% if lesson.guest_speaker2 %} and <a href="{{ lesson.guest_url2 }}">{{lesson.guest_speaker2}}</a>{% endif %}
 
+{% if lesson.presentations %}
+{% for pres in lesson.presentations %}
+*  <i><a href="{{ pres.url }}">{{ pres.title }}</a></i> - presented by {{ pres.presenters }}
+{% endfor %}
+{% endif %}
+
+
 <b>Required Readings:</b>
 {% if lesson.readings %}
 {% for reading in lesson.readings %}
