@@ -11,7 +11,7 @@ due_date: 2022-02-14 23:59:00EST
 materials:
     - 
         name: Colab Notebook
-        url: https://colab.research.google.com/drive/1Jy1G9yx9g9SJ6HBD7ds491_BGEmHAYXn?usp=sharing
+        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/plots/HW3_plot.ipynb
 submission_link: https://www.gradescope.com/courses/354158/assignments/1829348
 readings:
     -
@@ -65,7 +65,7 @@ You can download the materials for this assignment here:
 ## Instructions
 
 In the paper [Crowdsourcing Narrative Intelligence](http://www.cogsys.org/journal/volume2/article-2-4.pdf), Li et al. created the Scheherazade algorithm to generate plot graphs from a collection of crowdsourced stories.
-Head over to the [Colab Notebook](https://colab.research.google.com/drive/1Jy1G9yx9g9SJ6HBD7ds491_BGEmHAYXn?usp=sharing) for more information on what you'll be doing.
+Head over to the [Colab Notebook](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/plots/HW3_plot.ipynb) for more information on what you'll be doing.
 
 ## What to Submit
 
