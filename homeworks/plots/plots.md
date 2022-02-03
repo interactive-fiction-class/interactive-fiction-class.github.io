@@ -69,8 +69,6 @@ Head over to the [Colab Notebook](https://colab.research.google.com/drive/1Jy1G9
 
 ## What to Submit
 
-You should submit a link to a Github repository which contains the following:
-
 1. An IPython notebook called `HW3-plot.ipynb` that runs your plot graph implementation.
 2. A document (doc/docx, txt, pdf) that has your answers to the questions found at the end of the notebook.
 3. **Two** graph files: one named `plotgraph.html` that is your final (initialized, pruned, & improved) plot graph using your clusters, one named `gold.html` using the clusters from Part 2.
