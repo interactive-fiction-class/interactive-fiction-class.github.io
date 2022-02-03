@@ -161,6 +161,23 @@
           title: Green AI
           url: https://arxiv.org/abs/1907.10597
           authors: Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni
+      presentations:
+        -
+          title: Attention is All You Need
+          url: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+          presenters: "Marta Garcia Ferreiro & Stefan Papazov"
+        -
+          title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
+          url: https://dl.acm.org/doi/10.1145/3442188.3445922
+          presenters: "Salvatore Giorgi & Keith Golden"
+        -
+          title: "Do Massively Pretrained Language Models Make Better Storytellers?"
+          url: https://aclanthology.org/K19-1079/
+          presenters: "Wesley Gill, Adrian Wang, & Daniel Tao"
+        -
+          title: "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+          url: https://aclanthology.org/D19-1410/
+          presenters: Yuxuan Wang        
   hw:
     -
       title: Generating Descriptions HW
