@@ -218,6 +218,20 @@
           authors: Qing Lyu, Li Zhang, Chris Callison-Burch
       guest_speaker: Harry Li Zhang + Veronica Qing Lyu 
       guest_url: 
+      slides: https://drive.google.com/file/d/1-txJFPZAe6swhbz7yX1i59feqz1P8XlT/view?usp=sharing
+      optional:
+        -
+          title: Reasoning about Goals, Steps, and Temporal Ordering with WikiHow
+          url: https://aclanthology.org/2020.emnlp-main.374/
+          authors: Li Zhang, Qing Lyu, Chris Callison-Burch
+        -
+          title: Intent Detection with WikiHow
+          url: https://aclanthology.org/2020.aacl-main.35/
+          authors: https://aclanthology.org/2020.aacl-main.35/
+        -
+          title: "SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference"
+          authors: Rowan Zellers, Yonatan Bisk, Roy Schwartz, Yejin Choi
+          url: https://aclanthology.org/D18-1009/
     - 
       title: Guided Story Generation
       readings:
