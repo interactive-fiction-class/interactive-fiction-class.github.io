@@ -52,6 +52,8 @@ The lecture schedule will be updated as the term progresses. You can find more d
 				    {% assign video = lesson.video%}
 				    {% assign speaker = lesson.guest_speaker%}
 				    {% assign speaker_url = lesson.guest_url%}
+				    {% assign speaker2 = lesson.guest_speaker2%}
+				    {% assign speaker_url2 = lesson.guest_url2%}
 				    {% break %}
 			    {% endif %}
 		    {% endfor %}
@@ -96,6 +98,14 @@ The lecture schedule will be updated as the term progresses. You can find more d
 			    by <a href="{{ speaker_url }}">{{ speaker }}</a> 
 			  {% else %} 
 			  by {{ speaker }}
+			  {% endif %}
+			{% endif %}
+		      	{% if speaker2 %}
+		      	  and
+			  {% if speaker_url2 %}
+			    <a href="{{ speaker_url2 }}">{{ speaker2 }}</a> 
+			  {% else %} 
+			    {{ speaker2 }}
 			  {% endif %}
 			{% endif %}
 		{% endif %}
