@@ -60,7 +60,7 @@ No homework for this module.
 {% endif %}
 
 
-<b>Required Readings:</b>
+<b>Academic Papers:</b>
 {% if lesson.readings %}
 {% for reading in lesson.readings %}
 {% if reading.url %}
@@ -74,7 +74,7 @@ No homework for this module.
 {% endif %}
 
 {% if lesson.optional %} 
-<b>Optional Readings:</b>
+<b>Supplemental Media:</b>
 {% for reading in lesson.optional %}
 {% if reading.url %}
 *  {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}{% if reading.length %} (video, {{reading.length}}){% endif %}</a> 
