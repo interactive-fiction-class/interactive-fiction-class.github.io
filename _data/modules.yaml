@@ -86,7 +86,7 @@
           authors: Elle Hunt (The Guardian)
           url: https://www.theguardian.com/technology/2016/mar/24/tay-microsofts-ai-chatbot-gets-a-crash-course-in-racism-from-twitter?CMP=twt_a-technology_b-gdntech
         -
-          title: The AI Text Generator That's Too Dangerous to Make Public
+          title: "The AI Text Generator That's Too Dangerous to Make Public"
           authors: Tom Simonite (Wired)
           url: https://www.wired.com/story/ai-text-generator-too-dangerous-to-make-public/
     - 
@@ -97,7 +97,7 @@
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=42c62328-b795-46a1-9d36-ae2301571b61
       length: 1 hour 33 mins
       readings:
-         -
+        -
           title: The Curious Case of Neural Text Degeneration
           url: https://openreview.net/pdf?id=rygGQyrFvH
           authors: Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, Yejin Choi
@@ -483,8 +483,8 @@ Procedural Text"
     -
       title: Characters HW
       percentage: 10%
-      due_date: 2022-04-04
-      
+      due_date: 2022-04-04   
+
 -
   module_number: 6
   start_date: 2022-04-05
@@ -523,13 +523,12 @@ Procedural Text"
           authors: Lara J. Martin
           url: https://smartech.gatech.edu/handle/1853/64643
     -
-      title: Story Ending Prediction (Story Cloze Test)
-      readings:
+     title: Story Ending Prediction (Story Cloze Test)
+     readings:
         -
           title: A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories
           authors: Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen
           url: https://aclanthology.org/N16-1098/
-      
     -
       title: Story Evaluation
       guest_speaker: Elizabeth Clark
@@ -546,25 +545,22 @@ Procedural Text"
         -
           title: "Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models"
           url: https://aclanthology.org/2021.naacl-main.279
-          authors: Elizabeth Clark, Noah A. Smith
-          
-   -
-     date: 2022-04-19
-     title: Computer Vision, Speech, and Multimodal Storytelling
-     slides:
-     readings:
-       -
-         title: "The Amazing Mysteries of the Gutter: Drawing Inferences Between Panels in Comic Book Narratives"
-         authors: Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis
-         url: http://openaccess.thecvf.com/content_cvpr_2017/html/Iyyer_The_Amazing_Mysteries_CVPR_2017_paper.html
-       -
-         title: Visual Storytelling
-         authors: Ting-Hao Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell
-         url: https://www.aclweb.org/anthology/N16-1147v2.pdf
-       -
-         title: "Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books"
-         authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
-         url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf
+          authors: Elizabeth Clark, Noah A. Smith        
+    -
+      title: Computer Vision, Speech, and Multimodal Storytelling
+      readings:
+        -
+          title: "The Amazing Mysteries of the Gutter: Drawing Inferences Between Panels in Comic Book Narratives"
+          authors: Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis
+          url: http://openaccess.thecvf.com/content_cvpr_2017/html/Iyyer_The_Amazing_Mysteries_CVPR_2017_paper.html
+        -
+          title: Visual Storytelling
+          authors: Ting-Hao Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell
+          url: https://www.aclweb.org/anthology/N16-1147v2.pdf
+        -
+          title: "Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books"
+          authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
+          url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf
 
 
 
