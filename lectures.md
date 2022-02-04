@@ -26,8 +26,8 @@ The lecture schedule will be updated as the term progresses. You can find more d
       <th>Date</th> 
       <th>Lecture Topic</th>
       <th>Activity</th>
-      <th>Required Readings (Due Day Listed)</th>
-      <th>Supplemental Readings</th>
+      <th>Academic Papers</th>
+      <th>Supplemental Media</th>
       <th>Homework Due</th>
     </tr>
   </thead>
