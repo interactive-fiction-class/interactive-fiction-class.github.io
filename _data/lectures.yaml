@@ -94,12 +94,8 @@
 
 -
   date: 2022-02-10
-  title: Recap
-  activities: 
-    -
-      title: 
+  title: Recap + Paper Presentations
   slides:
-  readings:
 
 -
   date: 2022-02-14
@@ -134,9 +130,8 @@
   slides:
 -
   date: 2022-02-24
-  title: Recap
+  title: Recap + Paper Presentations
   slides:
-  readings:
 
             
 -
@@ -172,14 +167,12 @@
   date: 2022-03-15
   title: Schemata
   slides: 
-  readings:
 
 
 -
   date: 2022-03-17
-  title: Recap
+  title: Recap + Paper Presentations
   slides: 
-  readings:
 
 
 -
@@ -221,9 +214,8 @@
 
 -
   date: 2022-03-31
-  title: Recap
+  title: Recap + Paper Presentations
   slides: 
-  readings:
 
 -
   date: 2022-04-04
@@ -249,25 +241,21 @@
   date: 2022-04-07
   title: Mixed Methods
   slides: 
-  readings:
   
 -
   date: 2022-04-12
   title: Story Ending Prediction (Story Cloze Test)
   slides: 
-  readings:
 
 -
   date: 2022-04-14
   title: Story Evaluation
-  slides: 
-  readings: 
+  slides:  
 
 -
   date: 2022-04-19
   title: TBD
   slides: 
-  readings:
   type: deadline
   homework_due: 
     - 
@@ -277,7 +265,6 @@
   date: 2022-04-21
   title: TBD
   slides: 
-  readings:
 
 -
   date: 2022-04-26
@@ -294,88 +281,7 @@
 
 
 
-#    -
-#      title: Put My Galakmid Coin into the Dispenser and Kick It&colon; Computational Linguistics and Theorem Proving in a Computer Game
-#      authors: Alexander Koller, Ralph Debusmann, Malte Gabsdil, and Kristina Striegnitz
-#      optional: true
-#      url: https://link.springer.com/article/10.1023/B:JLLI.0000024734.80591.30
 
 
 
 
-
-#    -
-#      title: Defining Narrative
-#      url: https://www.cambridge.org/core/books/cambridge-introduction-to-narrative/defining-narrative/45F0B7D16F447F02F8E5A4CC133F9A24
-#      authors: H. Porter Abbott
-#    -
-#      title: Riddle Machines&colon; The History and Nature of Interactive Fiction
-#      url: https://nickm.com/if/riddle_machines.html
-#      authors: Nick Montfort
-#    -
-#      title: Automatic Story Generation&colon; Challenges and Attempts
-#      url: https://aclanthology.org/2021.nuse-1.8
-#      authors: Amal Alabdulkarim, Siyan Li, Xiangyu Peng
-#  optional:
-#    -
-#      title: Fiction, Non-Factuals, and the Principle of Minimal Departure
-#      url: https://www.sciencedirect.com/science/article/pii/0304422X80900303
-#      authors: Marie-Laure Ryan
-#    -
-#      title: Interactive Fiction Games&colon; A Colossal Adventure
-#      url: https://ojs.aaai.org/index.php/AAAI/article/view/6297
-#      authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan
-
-
-
-
-
-# Temporarily removed this.
-# title: History of Story-telling in Artificial Intelligence
-#   description: Classic AI approaches to Story Telling
-#   slides:
-#   optional:
-#     -
-#       title: Creating characters in a story-telling universe
-#       authors: Michael Lebowitz
-#       year: 1984
-#       optional: True
-#       url: https://academiccommons.columbia.edu/doi/10.7916/D8736ZV9/download
-#     -
-#       title: Story-telling as planning and learning
-#       authors: Michael Lebowitz
-#       year: 1985
-#       optional: True
-#       url: https://academiccommons.columbia.edu/doi/10.7916/D8K362MH/download
-#     - 
-#       title: Gameplay, Interactive Drama, and Training&colon; Authoring Edutainment Stories for Online Players (AESOP)
-#       authors: Barry G. Silverman, Michael Johns, Ransom Weaver, Josh Mosley
-#       year: 1985
-#       optional: True
-#       url: https://academiccommons.columbia.edu/doi/10.7916/D8K362MH/download
-#-
-#  date: 2020-04-16
-#  title: Computer Vision, Speech, and other Multimodal Connections
-#  slides:
-#  optional:
-#    -
-#      title: The Amazing Mysteries of the Gutter&colon; Drawing Inferences Between Panels in Comic Book Narratives
-#      authors: Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis
-#      optional: True
-#      url: http://openaccess.thecvf.com/content_cvpr_2017/html/Iyyer_The_Amazing_Mysteries_CVPR_2017_paper.html
-#      year: 2017
-#    -
-#      title: Visual Storytelling
-#      authors: Ting-Hao Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell
-#      optional: True
-#      url: https://www.aclweb.org/anthology/N16-1147v2.pdf
-#    -
-#      title: Aligning Books and Movies&colon; Towards Story-like Visual Explanations by Watching Movies and Reading Books
-#      authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
-#      optional: True
-#      url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf
-#    -
-#      title: Multi-speaker Emotional Acoustic Modeling for CNN-based Speech Synthesis
-#      authors: Heejin Choi, Sangjun Park, Jinuk Park, Minsoo Hahn
-#      url: https://ieeexplore.ieee.org/abstract/document/8683682/authors#authors
-#      optional: True
