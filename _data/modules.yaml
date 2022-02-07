@@ -214,7 +214,7 @@
         -
           title: Unsupervised Learning of Narrative Schemas and their Participants
           authors: Nathanael Chambers and Dan Jurafsky
-          url: https://www.aclweb.org/anthology/P09-1068.pdf
+          url: https://www.aclweb.org/anthology/P09-1068/
         -
           title: "proScript: Partially Ordered Scripts Generation via Pre-trained Language Models"
           authors: Keisuke Sakaguchi, Chandra Bhagavatula, Ronan Le Bras, Niket Tandon, Peter Clark, Yejin Choi
@@ -276,6 +276,25 @@
           title: Enhanced Story Representation by ConceptNet for Predicting Story Endings
           authors: Shanshan Huang, Kenny Q. Zhu, Qianzi Liao, Libin Shen, Yinggong Zhao
           url: https://dl.acm.org/doi/pdf/10.1145/3340531.3417466
+    -
+      title: Recap + Module 2 Paper Presentations
+      presentations:
+        -
+          title: Controllable Neural Story Plot Generation via Reinforcement Learning
+          url: https://www.ijcai.org/proceedings/2019/829
+          presenters: "Ning Wan & Hongyu Zhang"
+        -
+          title: "Unsupervised Learning of Narrative Schemas and their Participants"
+          url: https://aclanthology.org/P09-1068/
+          presenters: "Ruochun Wang, Yixuan Meng, & Charles Howland"
+        -
+          title: "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents"
+          url: https://wenlong.page/language-planner/
+          presenters: "Josh Ludan & Young-Min Cho"
+        -
+          title: "PlotMachines: Outline-Conditioned Generation with Dynamic Plot State Tracking"
+          url: https://aclanthology.org/2020.emnlp-main.349/
+          presenters: "Anshul Wadhawan, Karmanya Aggarwal, & Pooja Dattatri"
   hw:
     -
       title: Plot Graph Generation HW
