@@ -22,12 +22,14 @@ active_tab: resources
 * [CMU Movie Plots](http://www.cs.cmu.edu/~ark/personas/) - used in [Learning Latent Personas of Film Characters](https://aclanthology.org/P13-1035.pdf)
 * [Facebook Children's Book Corpus](https://research.fb.com/downloads/babi/) - used in [The Goldilocks Principle: Reading Children’s Books with Explicit Memory Representations](https://arxiv.org/abs/1511.02301)
 * [Cornell Movie Dialog](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html); on Hugging Face: [Cornell Movie Dialog](https://huggingface.co/datasets/cornell_movie_dialog)
+* [ScriptWriter data] (https://github.com/DaoD/ScriptWriter) - used in [ScriptWriter: Narrative-Guided Script Generation](https://aclanthology.org/2020.acl-main.765/)
 
 ## Mixed Visual + Textual Datasets
 
 * [COIN: A Large-Scale Dataset for Comprehensive Instructional video analysis](https://coin-dataset.github.io)
 * [WikiHow](https://www.wikihow.com/) - used in [WikiHow: A Large Scale Text Summarization Dataset](https://arxiv.org/abs/1810.09305)
 * [VIST](http://visionandlanguage.net/VIST/dataset.html) - used in [Visual Storytelling](https://aclanthology.org/N16-1147/)
+* [MovieGraphs](http://moviegraphs.cs.toronto.edu/) - using in [MovieGraphs: Towards Understanding Human-Centric Situations from Videos](https://ieeexplore.ieee.org/document/8578993)
 
 ## Data Scrapers & Processors
 
@@ -60,6 +62,7 @@ active_tab: resources
 * [GLUCOSE](https://huggingface.co/datasets/glucose); on Hugging Face: [GLUCOSE](https://huggingface.co/datasets/glucose)
 * [Power and Agency in modern films](https://homes.cs.washington.edu/~msap/movie-bias/)
 * [Movie Rationales](https://huggingface.co/datasets/movie_rationales)
+
 
 ## Code
 
