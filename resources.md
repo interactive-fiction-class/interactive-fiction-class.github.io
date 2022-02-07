@@ -55,13 +55,18 @@ active_tab: resources
 
 ## Knowledge Bases
 
-* [VerbNet/FrameNet](https://uvi.colorado.edu/uvi_search)
+* [VerbNet](https://uvi.colorado.edu/uvi_search)
+* [FrameNet](https://framenet.icsi.berkeley.edu/fndrupal/)
 * [WordNet](https://wordnet.princeton.edu/)
 * [ConceptNet](https://conceptnet.io/); on Hugging Face: [ConceptNet 5](https://huggingface.co/datasets/conceptnet5)
 * [ATOMIC](https://homes.cs.washington.edu/~msap/atomic/); on Hugging Face: [ATOMIC](https://huggingface.co/datasets/atomic)
 * [GLUCOSE](https://huggingface.co/datasets/glucose); on Hugging Face: [GLUCOSE](https://huggingface.co/datasets/glucose)
 * [Power and Agency in modern films](https://homes.cs.washington.edu/~msap/movie-bias/)
 * [Movie Rationales](https://huggingface.co/datasets/movie_rationales)
+* [ECIpedia](https://github.com/jgordon/ecipedia-usc)
+* [The NOC List](https://github.com/prosecconetwork/The-NOC-List)
+* [NULEX](https://www.qrg.northwestern.edu/Resources/nulex.html) - combines WordNet, VerbNet, and Wiktionary
+* [CausalBank](https://nlp.jhu.edu/causalbank/)
 
 
 ## Code
@@ -73,6 +78,8 @@ active_tab: resources
 * [Sentence Mover's Similarity](https://github.com/eaclark07/sms) - used in [Sentence Mover’s Similarity: Automatic Evaluation for Multi-Sentence Texts](https://aclanthology.org/P19-1264/)
 * [AI Dungeon 2](https://github.com/Latitude-Archives/AIDungeon)
 * [COMET](https://github.com/atcbosselut/comet-commonsense) - uses ATOMIC and ConceptNet
+* [Plan-And-Write Automatic Storytelling](https://bitbucket.org/VioletPeng/language-model/src/master/)
+* [Event Representations for Automated Story Generation with Deep Neural Nets (ASTER)](https://github.com/lara-martin/ASTER)
 
 ### Libraries & Toolkits
 * [Hugging Face](https://huggingface.co/) - Hugging Face provides state-of-the-art general-purpose neural language model architectures like BERT, GPT-2, and others.
