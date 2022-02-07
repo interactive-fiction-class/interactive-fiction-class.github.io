@@ -258,7 +258,7 @@
       guest_url2: https://veronica320.github.io/
       slides: https://docs.google.com/presentation/d/105BQYe7jyp5zSlVXORG1aJugOosUvcqk
     - 
-      title: Guided Story Generation
+      title: Guided Story Generation + Story Ending Prediction (Story Cloze Test)
       readings:
         -
           title: "Plan-And-Write: Towards Better Automatic Storytelling"
@@ -276,6 +276,10 @@
           title: Enhanced Story Representation by ConceptNet for Predicting Story Endings
           authors: Shanshan Huang, Kenny Q. Zhu, Qianzi Liao, Libin Shen, Yinggong Zhao
           url: https://dl.acm.org/doi/pdf/10.1145/3340531.3417466
+        -
+          title: A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories
+          authors: Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen
+          url: https://aclanthology.org/N16-1098/          
     -
       title: Recap + Module 2 Paper Presentations
       presentations:
@@ -429,8 +433,7 @@
       title: Schemata
       readings:
         -
-          title: "What Happened? Leveraging VerbNet to Predict the Effects of Actions in
-Procedural Text"
+          title: "What Happened? Leveraging VerbNet to Predict the Effects of Actions in Procedural Text"
           authors: Peter Clark, Bhavana Dalvi, Niket Tandon
           url: https://arxiv.org/abs/1804.05435
         -
@@ -541,13 +544,6 @@ Procedural Text"
           title: Neurosymbolic automated story generation (Chapter 6)
           authors: Lara J. Martin
           url: https://smartech.gatech.edu/handle/1853/64643
-    -
-     title: Story Ending Prediction (Story Cloze Test)
-     readings:
-        -
-          title: A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories
-          authors: Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen
-          url: https://aclanthology.org/N16-1098/
     -
       title: Story Evaluation
       guest_speaker: Elizabeth Clark
