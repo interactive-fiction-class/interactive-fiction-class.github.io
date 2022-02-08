@@ -269,7 +269,7 @@
           authors: Hannah Rashkin, Asli Celikyilmaz, Yejin Choi, Jianfeng Gao
           url: https://aclanthology.org/2020.emnlp-main.349/          
         -
-          title: Controllable Neural Story Plot Generation via Reinforcement Learning
+          title: Controllable Neural Story Plot Generation via Reward Shaping
           authors: Pradyumna Tambwekar, Murtaza Dhuliawala, Lara J. Martin, Animesh Mehta, Brent Harrison, Mark O. Riedl
           url: https://www.ijcai.org/proceedings/2019/829
         -
