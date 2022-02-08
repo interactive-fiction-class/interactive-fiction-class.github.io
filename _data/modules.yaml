@@ -284,7 +284,7 @@
       title: Recap + Module 2 Paper Presentations
       presentations:
         -
-          title: Controllable Neural Story Plot Generation via Reinforcement Learning
+          title: Controllable Neural Story Plot Generation via Reward Shaping
           url: https://www.ijcai.org/proceedings/2019/829
           presenters: "Ning Wan & Hongyu Zhang"
         -
