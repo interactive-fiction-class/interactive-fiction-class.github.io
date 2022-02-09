@@ -149,7 +149,7 @@ and genertaing again.  Now save its output for the end of the semester for your 
 <center>
 <img src="openai-playground-screenshot.png" class="img-responsive"/>
 </center>
-Here's another [impressive example of what GPT-3 knows about me.](openai-playground-screenshot-3.png)
+Here's another [impressive example of what GPT-3 knows about the field of NLP.](openai-playground-screenshot-3.png)
 
 There are several controls on the righthand side of the playground.  These are
 * Engine - GPT-3 comes in 4 different sized models. As the model sizes increase, so does their quality and their cost.  They go in alphabetical order from smallest to largest.    
