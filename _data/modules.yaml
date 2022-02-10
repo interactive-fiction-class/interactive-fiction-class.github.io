@@ -258,7 +258,9 @@
       guest_url2: https://veronica320.github.io/
       slides: https://docs.google.com/presentation/d/105BQYe7jyp5zSlVXORG1aJugOosUvcqk
     - 
-      title: Guided Story Generation + Story Ending Prediction (Story Cloze Test)
+      title: Guided Story Generation
+      slides: https://drive.google.com/file/d/1UH23icbixj0fvwjPh7U99MS6CUriMAYy/view?usp=sharing
+      video:
       readings:
         -
           title: "Plan-And-Write: Towards Better Automatic Storytelling"
@@ -281,7 +283,9 @@
           authors: Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen
           url: https://aclanthology.org/N16-1098/          
     -
-      title: Recap + Module 2 Paper Presentations
+      title: Story Ending Prediction (Story Cloze Test) + Module 2 Paper Presentations
+      slides: https://drive.google.com/file/d/1J5Z4Q7GwFD-T9R_amZOX6bxEq2oj0pxY/view?usp=sharing
+      video:
       presentations:
         -
           title: Controllable Neural Story Plot Generation via Reward Shaping
