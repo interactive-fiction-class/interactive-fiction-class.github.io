@@ -23,6 +23,7 @@ active_tab: resources
 * [Facebook Children's Book Corpus](https://research.fb.com/downloads/babi/) - used in [The Goldilocks Principle: Reading Children’s Books with Explicit Memory Representations](https://arxiv.org/abs/1511.02301)
 * [Cornell Movie Dialog](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html); on Hugging Face: [Cornell Movie Dialog](https://huggingface.co/datasets/cornell_movie_dialog)
 * [ScriptWriter data](https://github.com/DaoD/ScriptWriter) - used in [ScriptWriter: Narrative-Guided Script Generation](https://aclanthology.org/2020.acl-main.765/)
+* [dScryb](https://dscryb.com/) - human-written scene descriptions
 
 ## Mixed Visual + Textual Datasets
 
