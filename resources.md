@@ -18,7 +18,7 @@ active_tab: resources
 * [WritingPrompts](https://huggingface.co/datasets/rewardsignal/reddit_writing_prompts) - used in [Hierarchical Neural Story Generation](https://aclanthology.org/P18-1082)
 * [Lit Bank](https://github.com/dbamman/litbank)
 * [STORIUM (Machine-in-the-Loop Story Generation)](https://storium.cs.umass.edu/); also has code - used in [STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation](https://aclanthology.org/2020.emnlp-main.525/)
-* [ESTER](https://vnpeng.net/bibliography/han2021ester/); also has code - used in [ESTER: A Machine Reading Comprehension Dataset for Event Semantic Relation Reasoning](https://arxiv.org/abs/2104.08350)
+* [ESTER](https://vnpeng.net/bibliography/han2021ester/); also has [code](https://github.com/PlusLabNLP/ESTER) - used in [ESTER: A Machine Reading Comprehension Dataset for Event Semantic Relation Reasoning](https://arxiv.org/abs/2104.08350)
 * [CMU Movie Plots](http://www.cs.cmu.edu/~ark/personas/) - used in [Learning Latent Personas of Film Characters](https://aclanthology.org/P13-1035.pdf)
 * [Facebook Children's Book Corpus](https://research.fb.com/downloads/babi/) - used in [The Goldilocks Principle: Reading Children’s Books with Explicit Memory Representations](https://arxiv.org/abs/1511.02301)
 * [Cornell Movie Dialog](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html); on Hugging Face: [Cornell Movie Dialog](https://huggingface.co/datasets/cornell_movie_dialog)
