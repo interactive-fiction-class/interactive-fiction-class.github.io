@@ -49,6 +49,7 @@ active_tab: resources
 * [Glaive](https://www.cs.uky.edu/~sgware/projects/glaive/) - used in [Glaive: a state-space narrative planner supporting intentionality and conflict](https://ojs.aaai.org/index.php/AIIDE/article/view/12712)
 * [StoryAssembler](https://github.com/LudoNarrative/StoryAssembler) - used in [StoryAssembler: An Engine for Generating Dynamic Choice-Driven Narratives](https://dl.acm.org/doi/10.1145/3337722.3337732)
 * [STRIPS Planner for Python](https://github.com/abdulapopoola/STRIPS-Planner)
+* [Belief and Intentional PDDL](https://github.com/qed-lab/belief-intention-compilation) - used in [Using Domain Compilation to Add Belief to Narrative Planners](https://ojs.aaai.org//index.php/AIIDE/article/view/7405)
 
 ## Character Modeling
 
