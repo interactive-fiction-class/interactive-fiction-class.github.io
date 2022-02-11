@@ -79,9 +79,9 @@ active_tab: resources
 * [Choose Your Own Adventure Evaluation](https://github.com/eaclark07/cyoa) - used in [Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models](https://aclanthology.org/2021.naacl-main.279/)
 * [Sentence Mover's Similarity](https://github.com/eaclark07/sms) - used in [Sentence Mover’s Similarity: Automatic Evaluation for Multi-Sentence Texts](https://aclanthology.org/P19-1264/)
 * [AI Dungeon 2](https://github.com/Latitude-Archives/AIDungeon)
-* [COMET](https://github.com/atcbosselut/comet-commonsense) - uses ATOMIC and ConceptNet
-* [Plan-And-Write Automatic Storytelling](https://bitbucket.org/VioletPeng/language-model/src/master/)
-* [Event Representations for Automated Story Generation with Deep Neural Nets (ASTER)](https://github.com/lara-martin/ASTER)
+* [COMET](https://github.com/atcbosselut/comet-commonsense) - uses ATOMIC and ConceptNet - used in [COMET: Commonsense Transformers for Automatic Knowledge Graph Construction](https://aclanthology.org/P19-1470/)
+* [Plan-And-Write Automatic Storytelling](https://bitbucket.org/VioletPeng/language-model/src/master/) - iused in [Plan-and-Write: Towards Better Automatic Storytelling ](https://ojs.aaai.org/index.php/AAAI/article/view/4726)
+* [ASTER (Automated Story-Telling using Event Representations)](https://github.com/lara-martin/ASTER) - used in [Event Representations for Automated Story Generation with Deep Neural Nets](https://dl.acm.org/doi/abs/10.5555/3504035.3504141)
 
 ### Libraries & Toolkits
 * [Hugging Face](https://huggingface.co/) - Hugging Face provides state-of-the-art general-purpose neural language model architectures like BERT, GPT-2, and others.
