@@ -9,77 +9,343 @@ active_tab: resources
 
 ## Story Datasets
 
-* [FanFiction Archive](https://archive.org/details/fanfictiondotnet_repack) - used in [Beyond Canonical Texts: A Computational Analysis of Fanfiction](https://www.aclweb.org/anthology/D16-1218.pdf) and [Harry Potter and the Action Prediction Challenge from Natural Language](https://www.aclweb.org/anthology/N19-1218.pdf)
-* [Deep Dungeons and Dragons (DDD) Corpus](http://groups.inf.ed.ac.uk/cup/ddd/) - used in [Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts](https://www.aclweb.org/anthology/N18-2111.pdf)
-* [ROC Stories](https://cs.rochester.edu/nlp/rocstories/) - used in [A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories](https://aclanthology.org/N16-1098)
-* [Scifi TV Plots](https://github.com/rajammanabrolu/StoryRealization) - from [Story Realization: Expanding Plot Events into Sentences](https://aaai.org/ojs/index.php/AAAI/article/view/6232)
-* [BookCorpus](https://github.com/ryankiros/skip-thoughts) - used in [Skip-thought vectors](http://papers.neurips.cc/paper/5950-skip-thought-vectors.pdf)
-* [Aligning Books and Movies](https://github.com/huggingface/datasets/tree/master/datasets/bookcorpus) - used in [Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books](https://www.computer.org/csdl/proceedings-article/iccv/2015/8391a019/12OmNro0HYa)
-* [WritingPrompts](https://huggingface.co/datasets/rewardsignal/reddit_writing_prompts) - used in [Hierarchical Neural Story Generation](https://aclanthology.org/P18-1082)
-* [Lit Bank](https://github.com/dbamman/litbank)
-* [STORIUM (Machine-in-the-Loop Story Generation)](https://storium.cs.umass.edu/); also has code - used in [STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation](https://aclanthology.org/2020.emnlp-main.525/)
-* [ESTER](https://vnpeng.net/bibliography/han2021ester/); also has code - used in [ESTER: A Machine Reading Comprehension Dataset for Event Semantic Relation Reasoning](https://arxiv.org/abs/2104.08350)
-* [CMU Movie Plots](http://www.cs.cmu.edu/~ark/personas/) - used in [Learning Latent Personas of Film Characters](https://aclanthology.org/P13-1035.pdf)
-* [Facebook Children's Book Corpus](https://research.fb.com/downloads/babi/) - used in [The Goldilocks Principle: Reading Children’s Books with Explicit Memory Representations](https://arxiv.org/abs/1511.02301)
-* [Cornell Movie Dialog](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html); on Hugging Face: [Cornell Movie Dialog](https://huggingface.co/datasets/cornell_movie_dialog)
-* [ScriptWriter data](https://github.com/DaoD/ScriptWriter) - used in [ScriptWriter: Narrative-Guided Script Generation](https://aclanthology.org/2020.acl-main.765/)
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Dataset</th> 
+      <th>Papers</th>
+      <th>Paper Code</th>
+      <th>Hugging Face Link</th>
+      <th>Leaderboard</th>
+    </tr>
+  </thead>
+  <tbody>
+
+
+{% for dataset in site.data.resources.datasets %}
+	<tr>
+	<td width="20%">
+	 {% if dataset.url %}
+	 <a href="{{dataset.url}}">{{dataset.name}}</a> {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% else %}
+	 {{dataset.name}} {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% endif %}
+	</td>
+	
+	<td width="30%">
+	 {% if dataset.paper1 %}
+	 <a href="{{dataset.paper_url1}}">{{dataset.paper1}}</a>
+	 {% endif %}
+	 {% if dataset.paper2 %}
+	 and
+	 <a href="{{dataset.paper_url2}}">{{dataset.paper2}}</a>
+	 {% endif %}
+	</td>
+	
+	<td width="10%">
+	 {% if dataset.code %}
+	 <a href="{{dataset.code}}">{{dataset.code}}</a>
+	 {% endif %}
+	</td>
+	
+	<td width="10%">
+	 {% if dataset.hugging_face %}
+	 <a href="{{dataset.hugging_face}}">{{dataset.hugging_face}}</a>
+	 {% endif %}
+	</td>
+	
+	<td width="10%">
+	 {% if dataset.leaderboard %}
+	 <a href="{{dataset.leaderboard}}">{{dataset.leaderboard}}</a>
+	 {% endif %}
+	</td>
+	
+	</tr>
+{% endfor %}
+</tbody>
+</table>
 
 ## Mixed Visual + Textual Datasets
 
-* [COIN: A Large-Scale Dataset for Comprehensive Instructional video analysis](https://coin-dataset.github.io)
-* [WikiHow](https://www.wikihow.com/) - used in [WikiHow: A Large Scale Text Summarization Dataset](https://arxiv.org/abs/1810.09305)
-* [VIST](http://visionandlanguage.net/VIST/dataset.html) - used in [Visual Storytelling](https://aclanthology.org/N16-1147/)
-* [MovieGraphs](http://moviegraphs.cs.toronto.edu/) - using in [MovieGraphs: Towards Understanding Human-Centric Situations from Videos](https://ieeexplore.ieee.org/document/8578993)
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Dataset</th> 
+      <th>Papers</th>
+      <th>Paper Code</th>
+      <th>Hugging Face Link</th>
+    </tr>
+  </thead>
+  <tbody>
+
+
+{% for dataset in site.data.resources.vision %}
+	<tr>
+	<td width="16%">
+	 {% if dataset.url %}
+	 <a href="{{dataset.url}}">{{dataset.name}}</a> {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% else %}
+	 {{dataset.name}} {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% endif %}
+	</td>
+	
+	<td width="30%">
+	 {% if dataset.paper1 %}
+	 <a href="{{dataset.paper_url1}}">{{dataset.paper1}}</a>
+	 {% endif %}
+	 {% if dataset.paper2 %}
+	 and
+	 <a href="{{dataset.paper_url2}}">{{dataset.paper2}}</a>
+	 {% endif %}
+	</td>
+	
+	<td width="20%">
+	 {% if dataset.code %}
+	 <a href="{{dataset.code}}">{{dataset.code}}</a>
+	 {% endif %}
+	</td>
+	
+	<td width="20%">
+	 {% if dataset.hugging_face %}
+	 <a href="{{dataset.hugging_face}}">{{dataset.hugging_face}}</a>
+	 {% endif %}
+	</td>
+	
+	
+	</tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+
+## Cloze Tests
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Dataset</th> 
+      <th>Papers</th>
+      <th>Leaderboard</th>
+    </tr>
+  </thead>
+  <tbody>
+
+
+{% for dataset in site.data.resources.eval %}
+	<tr>
+	<td width="40%">
+	 {% if dataset.url %}
+	 <a href="{{dataset.url}}">{{dataset.name}}</a> {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% else %}
+	 {{dataset.name}} {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% endif %}
+	</td>
+	
+	<td width="50%">
+	 {% if dataset.paper1 %}
+	 <a href="{{dataset.paper_url1}}">{{dataset.paper1}}</a>
+	 {% endif %}
+	 {% if dataset.paper2 %}
+	 and
+	 <a href="{{dataset.paper_url2}}">{{dataset.paper2}}</a>
+	 {% endif %}
+	</td>
+	
+	
+	<td width="10%">
+	 {% if dataset.leaderboard %}
+	 <a href="{{dataset.leaderboard}}">{{dataset.leaderboard}}</a>
+	 {% endif %}
+	</td>
+	
+	
+	</tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+
 
 ## Data Scrapers & Processors
 
 * [Archive of Our Own Scraper](https://github.com/radiolarian/AO3Scraper)
 * [Fanfiction Scraper](https://github.com/smilli/fanfiction)
-* Process your own book data: [BookNLP](https://github.com/dbamman/book-nlp)
+* Process your own book data: [BookNLP](https://github.com/booknlp/booknlp)
 
 ## IF Environments
 
-* [LIGHT](https://parl.ai/projects/light/) - used in [Learning to Speak and Act in a Fantasy Text Adventure Game](https://aclanthology.org/D19-1062.pdf)
-* [Jericho](https://github.com/JerichoWorld/JerichoWorld) - used in [Interactive Fiction Games: A Colossal Adventure](https://ojs.aaai.org/index.php/AAAI/article/view/6297)
-* [TextWorld](https://github.com/Microsoft/TextWorld) - used in [TextWorld: A Learning Environment for Text-based Games](https://www.microsoft.com/en-us/research/project/textworld/)
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Dataset</th> 
+      <th>Papers</th>
+      <th>Paper Code</th>
+    </tr>
+  </thead>
+  <tbody>
+
+
+{% for dataset in site.data.resources.if %}
+	<tr>
+	<td width="16%">
+	 {% if dataset.url %}
+	 <a href="{{dataset.url}}">{{dataset.name}}</a> {% if dataset.info %} - {{dataset.info}}{% endif %}
+	 {% else %}
+	 {{dataset.name}} {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% endif %}
+	</td>
+	
+	<td width="50%">
+	 {% if dataset.paper1 %}
+	 <a href="{{dataset.paper_url1}}">{{dataset.paper1}}</a>
+	 {% endif %}
+	 {% if dataset.paper2 %}
+	 and
+	 <a href="{{dataset.paper_url2}}">{{dataset.paper2}}</a>
+	 {% endif %}
+	</td>
+	
+	
+	<td width="30%">
+	 {% if dataset.code %}
+	 <a href="{{dataset.code}}">{{dataset.code}}</a>
+	 {% endif %}
+	</td>
+	
+	
+	</tr>
+{% endfor %}
+</tbody>
+</table>
+
+
 
 ## Planning Systems
 
-* [Glaive](https://www.cs.uky.edu/~sgware/projects/glaive/) - used in [Glaive: a state-space narrative planner supporting intentionality and conflict](https://ojs.aaai.org/index.php/AIIDE/article/view/12712)
-* [StoryAssembler](https://github.com/LudoNarrative/StoryAssembler) - used in [StoryAssembler: An Engine for Generating Dynamic Choice-Driven Narratives](https://dl.acm.org/doi/10.1145/3337722.3337732)
-* [STRIPS Planner for Python](https://github.com/abdulapopoola/STRIPS-Planner)
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Planner/Code</th> 
+      <th>Papers</th>
+    </tr>
+  </thead>
+  <tbody>
+
+
+{% for dataset in site.data.resources.planning %}
+	<tr>
+	<td width="16%">
+	 {% if dataset.url %}
+	 <a href="{{dataset.url}}">{{dataset.name}}</a> {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% else %}
+	 {{dataset.name}} {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% endif %}
+	</td>
+	
+	<td width="50%">
+	 {% if dataset.paper1 %}
+	 <a href="{{dataset.paper_url1}}">{{dataset.paper1}}</a>
+	 {% endif %}
+	 {% if dataset.paper2 %}
+	 and
+	 <a href="{{dataset.paper_url2}}">{{dataset.paper2}}</a>
+	 {% endif %}
+	</td>
+	</tr>
+{% endfor %}
+</tbody>
+</table>
 
 ## Character Modeling
 
 * [Versu](https://versu.com/)
+* [Character Relations](https://github.com/dbamman/characterRelations)
 
 ## Knowledge Bases
 
-* [VerbNet](https://uvi.colorado.edu/uvi_search)
-* [FrameNet](https://framenet.icsi.berkeley.edu/fndrupal/)
-* [WordNet](https://wordnet.princeton.edu/)
-* [ConceptNet](https://conceptnet.io/); on Hugging Face: [ConceptNet 5](https://huggingface.co/datasets/conceptnet5)
-* [ATOMIC](https://homes.cs.washington.edu/~msap/atomic/); on Hugging Face: [ATOMIC](https://huggingface.co/datasets/atomic)
-* [GLUCOSE](https://huggingface.co/datasets/glucose); on Hugging Face: [GLUCOSE](https://huggingface.co/datasets/glucose)
-* [Power and Agency in modern films](https://homes.cs.washington.edu/~msap/movie-bias/)
-* [Movie Rationales](https://huggingface.co/datasets/movie_rationales)
-* [ECIpedia](https://github.com/jgordon/ecipedia-usc)
-* [The NOC List](https://github.com/prosecconetwork/The-NOC-List)
-* [NULEX](https://www.qrg.northwestern.edu/Resources/nulex.html) - combines WordNet, VerbNet, and Wiktionary
-* [CausalBank](https://nlp.jhu.edu/causalbank/)
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Knowledge Base</th> 
+      <th>Papers</th>
+      <th>Hugging Face Link</th>
+    </tr>
+  </thead>
+  <tbody>
 
 
-## Code
+{% for dataset in site.data.resources.knowledge %}
+	<tr>
+	<td width="16%">
+	 {% if dataset.url %}
+	 <a href="{{dataset.url}}">{{dataset.name}}</a> {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% else %}
+	 {{dataset.name}} {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% endif %}
+	</td>
+	
+	<td width="50%">
+	 {% if dataset.paper1 %}
+	 <a href="{{dataset.paper_url1}}">{{dataset.paper1}}</a>
+	 {% endif %}
+	 {% if dataset.paper2 %}
+	 and
+	 <a href="{{dataset.paper_url2}}">{{dataset.paper2}}</a>
+	 {% endif %}
+	</td>
+	
+	<td width="30%">
+	 {% if dataset.hugging_face %}
+	 <a href="{{dataset.hugging_face}}">{{dataset.hugging_face}}</a>
+	 {% endif %}
+	</td>
+	</tr>
+{% endfor %}
+</tbody>
+</table>
 
-* [Plot-guided Coherence Evaluation](https://github.com/PlusLabNLP/Plot-guided-Coherence-Evaluation) - used in [Plot-guided Adversarial Example Construction for Evaluating Open-domain Story Generation](https://aclanthology.org/2021.naacl-main.343/)
-* [Story Gen BART](https://github.com/PlusLabNLP/story-gen-BART) - used in [Content Planning for Neural Story Generation with Aristotelian Rescoring](https://aclanthology.org/2020.emnlp-main.351/)
-* [EnGen: Text generation with entities as context](https://github.com/eaclark07/engen) - used in [Neural text generation in stories using entity representations as context](https://aclanthology.org/N18-1204.pdf)
-* [Choose Your Own Adventure Evaluation](https://github.com/eaclark07/cyoa) - used in [Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models](https://aclanthology.org/2021.naacl-main.279/)
-* [Sentence Mover's Similarity](https://github.com/eaclark07/sms) - used in [Sentence Mover’s Similarity: Automatic Evaluation for Multi-Sentence Texts](https://aclanthology.org/P19-1264/)
-* [AI Dungeon 2](https://github.com/Latitude-Archives/AIDungeon)
-* [COMET](https://github.com/atcbosselut/comet-commonsense) - uses ATOMIC and ConceptNet
-* [Plan-And-Write Automatic Storytelling](https://bitbucket.org/VioletPeng/language-model/src/master/)
-* [Event Representations for Automated Story Generation with Deep Neural Nets (ASTER)](https://github.com/lara-martin/ASTER)
+
+
+## Other Code
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Code</th> 
+      <th>Papers</th>
+    </tr>
+  </thead>
+  <tbody>
+
+
+{% for dataset in site.data.resources.other %}
+	<tr>
+	<td width="16%">
+	 {% if dataset.url %}
+	 <a href="{{dataset.url}}">{{dataset.name}}</a> {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% else %}
+	 {{dataset.name}} {% if dataset.info %} - {{dataset.info}} {% endif %}
+	 {% endif %}
+	</td>
+	
+	<td width="50%">
+	 {% if dataset.paper1 %}
+	 <a href="{{dataset.paper_url1}}">{{dataset.paper1}}</a>
+	 {% endif %}
+	 {% if dataset.paper2 %}
+	 and
+	 <a href="{{dataset.paper_url2}}">{{dataset.paper2}}</a>
+	 {% endif %}
+	</td>
+	
+	</tr>
+{% endfor %}
+</tbody>
+</table>
+
 
 ### Libraries & Toolkits
 * [Hugging Face](https://huggingface.co/) - Hugging Face provides state-of-the-art general-purpose neural language model architectures like BERT, GPT-2, and others.
@@ -88,6 +354,8 @@ active_tab: resources
 * [Spacy](https://spacy.io) - Industrial-Strength Natural Language Processing in Python
 * [NLTK - Natural Language Toolkit](https://www.nltk.org/) - Basic NLP tools for Python & interfacing with some external models
 * [Stanford NLP](https://nlp.stanford.edu/software/)
+* [Stanza](https://stanfordnlp.github.io/stanza/) - Stanford NLP for Python
+* [ConvKit](https://convokit.cornell.edu/) - Cornell Conversation Analysis Toolkit
 
 ## Tutorials 
 
