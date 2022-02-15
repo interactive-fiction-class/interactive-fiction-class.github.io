@@ -9,7 +9,6 @@ number: 2
 active_tab: homework
 release_date: 2022-02-07 
 due_date: 2022-02-21 23:59:00EST
-submission_link: https://www.gradescope.com/courses/354158/assignments/1796853/
 readings:
 ---
 
