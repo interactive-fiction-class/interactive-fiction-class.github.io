@@ -56,7 +56,7 @@ The materials that you will need for this in-class activity are:
 In Class Activity: Search Algorithms for Action Castle
 =============================================================
 
-Today in class we will walk through how to use search algorithms like Breadth-First Search (BFS) to solve our text adventure games like Action Castle.
+Today in class we will walk through how to use search algorithms like Breadth-First Search (BFS) to solve text adventure games like Action Castle.
 
 In order to do so, we'll need to figure out:
 1. How to represent the __state space__ for the game.
