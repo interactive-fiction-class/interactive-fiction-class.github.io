@@ -70,11 +70,12 @@ We'll implement three functions that will allow us to use BFS to find the best s
 ### What to do 
 
 1. Open [{{page.materials[0].name}}]({{page.materials[0].url}}).
-2. Implement the following functions:
+2. Save a copy of it in your own drive by choosing `File > Save a Copy in Drive` from the Colab menu.  This will ensure that your changes are saved.
+3. Implement the following functions:
 * `get_state`
 * `get_available_actions`
 * `goal_test`
 
-3. Please submit your work to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+4. Please submit your work to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
 
 
