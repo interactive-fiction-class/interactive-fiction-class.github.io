@@ -56,24 +56,24 @@ The materials that you will need for this in-class activity are:
 In Class Activity: Search Algorithms for Action Castle
 =============================================================
 
-Today in class you will implement a breadth-first search (BFS) algorithm for our first Text Adventure Game, Action Castle. To use search algorithms, we need to define 6 elements:
-* States
-* An Initial State
-* Actions
-* Transitions
-* Path Cost
-* A Goal Test
+Today in class we will walk through how to use search algorithms like Breadth-First Search (BFS) to solve our text adventure games like Action Castle.
 
-We'll walk through how to do define these properties for our the Text Adventure Game that we implemented in HW1, and then we'll use BFS to find the best sequence of commands in order to complete the game.
+In order to do so, we'll need to figure out:
+1. How to represent the __state space__ for the game.
+2. How to list the __possible moves__ at each turn in the game.
+3. How to use each possible move to generate a __successor state__.
+4. How to test whether we have reached __the goal__.
 
+
+We'll implement three functions that will allow us to use BFS to find the best sequence of commands in order to complete the game that we implemented in Homework 1.
 
 ### What to do 
 
 1. Open [{{page.materials[0].name}}]({{page.materials[0].url}}).
 2. Implement the following functions:
-* `game.get_state()`
-* `parser.get_available_actions()`
-* `goal_test()`
+* `get_state`
+* `get_available_actions`
+* `goal_test`
 
 3. Please submit your work to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
 
