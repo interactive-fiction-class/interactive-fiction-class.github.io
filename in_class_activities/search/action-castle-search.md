@@ -6,7 +6,7 @@ caption: DFS is not useful for all occasions
 title: Search Algorithms for Action Castle
 type: in-class
 active_tab: homework
-release_date: 2022-01-15
+release_date: 2022-02-15
 due_date: 2022-02-21 23:59:00EST
 materials:
     - 
