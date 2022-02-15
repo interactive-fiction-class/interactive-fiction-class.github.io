@@ -52,11 +52,6 @@
 -
   date: 2022-01-27
   title: Neural Story Generation + Module 1 Paper Presentations
-  speaker: 
-  speaker_url: 
-  description: 
-  slides: 
-  readings:
 
 -
   date: 2022-01-31
@@ -74,14 +69,10 @@
     -
       title: Make Your Own Mini Script
       url: script_making.html
-
-    
+ 
 -
   date: 2022-02-03
   title: Understanding Procedures
-  slides: 
-
-
 
 -
   date: 2022-02-08
@@ -107,17 +98,15 @@
 
 -
   date: 2022-02-15
-  title: Planning
-  slides:
+  title: Search
   activities:
     -
-      title:
-
-       
+      title: Search Algorithms for Action Castle
+      url: search/action-castle-search.html
+   
 -
   date: 2022-02-17
-  title: STRIPS
-  slides:
+  title: Classical Planning
 
 -
   date: 2022-02-21
@@ -126,12 +115,9 @@
 -
   date: 2022-02-22
   title: Story Planning + Drama Management
-  description: 
-  slides:
 -
   date: 2022-02-24
   title: Recap + Module 3 Paper Presentations
-  slides:
 
             
 -
