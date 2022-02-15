@@ -335,6 +335,11 @@ knowledge:
     paper1: Connotation Frames of Power and Agency in Modern Films
     paper_url1: https://homes.cs.washington.edu/~msap/pdfs/sap2017connotation.pdf
   -
+    name: Social Bias Frames
+    url: https://homes.cs.washington.edu/~msap/social-bias-frames/
+    paper1: "Social Bias Frames: Reasoning about Social and Power Implications of Language"
+    paper_url1: https://homes.cs.washington.edu/~msap/pdfs/sap2020socialbiasframes.pdf
+  -
     name: Eraser
     url: https://www.eraserbenchmark.com/
     info: Movie Rationales
