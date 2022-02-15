@@ -314,7 +314,7 @@
   module_number: 3
   start_date: 2022-02-15
   end_date: 2022-02-28
-  title: Planning
+  title: Search and Planning
   description: 
   hw:
     -
@@ -323,14 +323,21 @@
       due_date: 2022-02-28
   lessons:
     - 
-      title: Planning
+      title: Search
+      slides: https://interactive-fiction-class.org/slides/Search-and-Planning.pdf
+      video:
+      optional:
+        - 
+          title: "Artificial Intelligence: A Modern Approach, Chapter 3"
+          authors: Peter Norvig and Stuart J. Russell
+    - 
+      title: Classical Planning
+      slides: https://interactive-fiction-class.org/slides/Search-and-Planning.pdf
+      video:
       optional:
         - 
           title: "Artificial Intelligence: A Modern Approach, Chapter 11"
           authors: Peter Norvig and Stuart J. Russell
-    - 
-      title: STRIPS
-      optional:
         -
           title: Stanford Research Institute Problem Solver
           authors: Wikipedia
