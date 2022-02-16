@@ -343,6 +343,10 @@
           title: Stanford Research Institute Problem Solver
           authors: Wikipedia
           url: https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver
+        -
+          title: Artificial Intelligence Planning with STRIPS, A Gentle Introduction
+          authors: Kory Becker
+          url: http://www.primaryobjects.com/2015/11/06/artificial-intelligence-planning-with-strips-a-gentle-introduction/
     - 
       title: Story Planning + Drama Management
       guest_speaker: Stephen G. Ware
