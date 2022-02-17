@@ -107,6 +107,10 @@
 -
   date: 2022-02-17
   title: Classical Planning
+  activities:
+    -
+      title: Planning and PDDL
+      url: planning/planning-and-pddl.html
 
 -
   date: 2022-02-21
