@@ -285,7 +285,7 @@
     -
       title: Story Ending Prediction (Story Cloze Test) + Module 2 Paper Presentations
       slides: https://drive.google.com/file/d/1J5Z4Q7GwFD-T9R_amZOX6bxEq2oj0pxY/view?usp=sharing
-      video:
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebe8c581-fbe2-4de2-9937-ae38015e5614
       presentations:
         -
           title: Controllable Neural Story Plot Generation via Reward Shaping
@@ -321,7 +321,7 @@
     - 
       title: Search
       slides: https://interactive-fiction-class.org/slides/Search-and-Planning.pdf
-      video:
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4ba6aa8a-01c6-4236-955e-ae3d015a4e33
       optional:
         - 
           title: "Artificial Intelligence: A Modern Approach, Chapter 3"
