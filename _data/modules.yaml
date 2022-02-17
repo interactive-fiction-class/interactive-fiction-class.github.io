@@ -387,7 +387,11 @@
         -
           title: Drama Management and Player Modeling for Interactive Fiction Games
           authors: Manu Sharma, Santiago Ontañón, Manish Mehta, Ashwin Ram
-          url: https://www.cc.gatech.edu/faculty/ashwin/papers/er-09-10.pdf       
+          url: https://www.cc.gatech.edu/faculty/ashwin/papers/er-09-10.pdf
+        -
+          title: Curating Simulated Storyworlds
+          authors: James Ryan
+          url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds          
 -
   module_number: 4
   start_date: 2022-03-01
