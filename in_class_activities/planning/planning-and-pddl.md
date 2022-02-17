@@ -99,7 +99,7 @@ _Note: The enforcement of argument types like `(plane ?p)` can be left out of th
 1. Open [{{page.materials[0].name}}]({{page.materials[0].url}}).
 2. Save a copy of it in your own drive by choosing `File > Save a Copy in Drive` from the Colab menu.  This will ensure that your changes are saved.
 3. Create pairs of PDDL files for the following problems:
-* `navigate-to-location`
+* `move-item-to-location`
 * `go-fishing`
 * `feed-troll`
 If you've got extra time, you're welcome to work on PDDL definitions for other parts of the Action Castle game.
