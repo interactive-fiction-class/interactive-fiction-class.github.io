@@ -335,11 +335,7 @@
       title: Classical Planning
       slides: https://interactive-fiction-class.org/slides/Search-and-Planning.pdf
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3673be5f-af5f-4876-9fda-ae3f0158dcde
-      readings:
-        -
-          title: Curating Simulated Storyworlds
-          authors: James Ryan
-          url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds        
+      readings:     
       optional:
         - 
           title: "Artificial Intelligence: A Modern Approach, Chapter 11"
@@ -557,6 +553,10 @@
           title: "Connotation Frames of Power and Agency in Modern Films"
           authors: Maarten Sap, Marcella Cindy Prasettio, Ari Holtzman, Hannah Rashkin, Yejin Choi     
           url: https://aclanthology.org/D17-1247/
+        -
+          title: Curating Simulated Storyworlds
+          authors: James Ryan
+          url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds             
   hw:
     -
       title: Characters HW
