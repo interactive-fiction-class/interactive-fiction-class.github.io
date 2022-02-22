@@ -572,6 +572,8 @@
   lessons:
     -
       title: Reinforcement Learning for Playing Interactive Fiction 
+      guest_speaker: Prithviraj (Raj) Ammanabrolu
+      guest_url: http://prithvirajva.com/
       readings:
         -
           title: Playing Text-Adventure Games with Graph-Based Deep Reinforcement Learning
