@@ -14,7 +14,7 @@ materials:
         name: Example of How To Convert WikiHow to PDDL.ipynb
         url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/planning/Example_of_How_To_Convert_WikiHow_to_PDDL.ipynb
     - 
-        name: Colab to Annotate Your PDDL and WikiHow.ipynb
+        name: Colab to Annotate Your PDDL with WikiHow Mentions.ipynb
         url:
 readings:
     -
@@ -85,9 +85,9 @@ Here's an overview of what you'll do:
 2. Traslate some of the steps into PDDL. 
 * A domain definition for the wikihow article that you picked
 * Schema for actions with pre-requisite and post conditions for each action
-* Several problem files that each define a goal corresponding to a step in the wikiHow article, and an initial state that is solvable with your schema in >= 4 steps.
+* Several problem files that each define a goal corresponding to a step in the wikiHow article, and an initial state that is solvable with your action schemata in several steps.
 3. Create annotations that link natural language descriptions in the wikiHow article text to the elements in your PDDL domain.  You'll save this into a JSON file that you or your classmates might re-use for in your term projects.
-4. Write a report that describes what you did.  Your report should also describe what you think the limitations of the PDDL representation language are. You should also discuss how you might be able to use OpenAI to help convert a wikiHow article into a schema.  What would your inputs and outputs be?  What data would you need in order to fine-tune a system?
+4. Write a report that describes what you did.  Your report should also describe what you think the limitations of the PDDL representation language are. You should also discuss how you might be able to use OpenAI to help convert a wikiHow article into PDDL.  What would your inputs and outputs be?  What data would you need in order to fine-tune a system?
 
 
 
