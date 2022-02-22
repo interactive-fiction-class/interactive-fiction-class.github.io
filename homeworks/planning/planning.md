@@ -12,7 +12,7 @@ due_date: 2022-02-28 23:59:00EST
 materials:
     - 
         name: Convert WikiHow to PDDL.ipynb
-        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homework/planning/Convert_WikiHow_to_PDDL.ipynb
+        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/planning/Convert_WikiHow_to_PDDL.ipynb
 readings:
     -
         title: AIMA Chapter 11 "Automated Planning"
