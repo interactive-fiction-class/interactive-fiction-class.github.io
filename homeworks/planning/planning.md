@@ -8,11 +8,11 @@ type: Homework
 number: 4
 active_tab: homework
 release_date: 2022-02-23
-due_date: 2022-02-28 23:59:00EST
+due_date: 2022-03-01 23:59:00EST
 materials:
     - 
         name: Example of How To Convert WikiHow to PDDL.ipynb
-        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/planning/Convert_WikiHow_to_PDDL.ipynb
+        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/planning/Example_of_How_To_Convert_WikiHow_to_PDDL.ipynb
 readings:
     -
         title: AIMA Chapter 11 "Automated Planning"
@@ -340,16 +340,23 @@ If anyone is interested in doing a term project focused on automatically convert
 
 You should submit the following:
 
-1. A set of PDDL files, one PDDL file for your domain, and one PDDL file for each of the problems.   Your domain definition should have (a) at least 10 action schema beyond the ones that we defined for action castle, (b) relevant types for your problem, (c) predicates defined with their types and comments describing them.  You should include (a) at least 3 problems, (b) giving initial states and goals for each, and (c) ensure that the goal can be reached from the initial state using your action schema. 
-2. A JSON file containing your annotations that map from the elements in your PDDL domain onto phrases in the wikiHow article that you selected.  You can call this `annotations.json`.
-3. A PDF file containing your writeup.  You should include at least 1 paragraphs for each of the following topics:
-* What wikiHow article did you pick and why?
-* What portions of the article did you select to translate to PDDL?
-* Give some example of the actions, types, and predicates you used in your domain.
-* Explain what goal you selected for your problem, and give the inital state and solution that you created.
-* What limitations of PDDL did you encounter that makes it difficult to precisely convert a wikiHow description into PDDL?
-* Could your PDDL be used as an interesting challenge for a text-adventure-style game?  If so, how?  If not, what would needed to create an interesting challenge?
-* Discuss how you might use GPT3 to automatically or semi-automatically convert a wikiHow article to PDDL?
+* A set of PDDL files, one PDDL file for your domain, and one PDDL file for each of the problems.   Your domain definition should have 
+1. at least 10 action schema beyond the ones that we defined for action castle, 
+2. relevant types for your problem, 
+3. predicates defined with their types and comments describing them.  
+* Your problem definitions should 
+1. cover at least 3 problems, 
+2. give initial states and goals for each, and 
+3. ensure that the goal can be reached from the initial state using your action schema. 
+* A JSON file containing your annotations that map from the elements in your PDDL domain onto phrases in the wikiHow article that you selected.  You can call this `annotations.json`.
+* A PDF file containing your writeup.  You should include at least 1 paragraphs for each of the following topics:
+1. What wikiHow article did you pick and why?
+2. What portions of the article did you select to translate to PDDL?
+3. Give some example of the actions, types, and predicates you used in your domain.
+4. Explain what goal you selected for your problem, and give the inital state and solution that you created.
+5. What limitations of PDDL did you encounter that makes it difficult to precisely convert a wikiHow description into PDDL?
+6. Could your PDDL be used as an interesting challenge for a text-adventure-style game?  If so, how?  If not, what would needed to create an interesting challenge?
+7. Discuss how you might use GPT-3 to automatically or semi-automatically convert a wikiHow article to PDDL?
 
 Submissions should be done on [Gradescope]({{page.submission_link}}).
 
