@@ -344,14 +344,14 @@ If anyone is interested in doing a term project focused on automatically convert
 You should submit the following:
 
 * A set of PDDL files, one PDDL file for your domain, and one PDDL file for each of the problems.   Your domain definition should have 
-1. at least 10 action schema beyond the ones that we defined for action castle, 
+1. at least 10 action schemas beyond the ones that we defined for action castle, 
 2. relevant types for your problem, 
 3. predicates defined with their types and comments describing them.  
 * Your problem definitions should 
 1. cover at least 3 problems, 
 2. give initial states and goals for each, and 
 3. ensure that the goal can be reached from the initial state using your action schema. 
-* A JSON file containing your annotations that map from the elements in your PDDL domain onto phrases in the wikiHow article that you selected.  You can  use this [Colab to Annotate Your PDDL and WikiHow]({{page.materials[1].url}}).
+* A JSON file containing your annotations that map from the elements in your PDDL domain onto phrases in the wikiHow article that you selected.  You can  use this [Colab to annotate your PDDL elements with mentions from your WikiHow article]({{page.materials[1].url}}).
 * A PDF file containing your writeup.  You should include at least 1 paragraphs for each of the following topics:
 1. What wikiHow article did you pick and why?
 2. What portions of the article did you select to translate to PDDL?
