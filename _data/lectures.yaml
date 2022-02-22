@@ -111,7 +111,12 @@
     -
       title: Planning and PDDL
       url: planning/planning-and-pddl.html
-
+-
+  date: 2022-02-21
+  type: deadline
+  homework_due:   
+    -
+      title: Paper Summaries 1
 -
   date: 2022-02-21
   title: Drop Period ends
@@ -144,7 +149,12 @@
   date: 2022-03-03
   title: Knowledge Representations
   slides: 
-
+-
+  date: 2022-03-07
+  type: deadline
+  homework_due:   
+    -
+      title: Paper Summaries 2
 -
   date: 2022-03-8
   title: No class (Spring Break)
