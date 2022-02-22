@@ -7,12 +7,15 @@ title: Convert WikiHow to PDDL
 type: Homework
 number: 4
 active_tab: homework
-release_date: 2022-02-23
+release_date: 2022-02-22
 due_date: 2022-03-01 23:59:00EST
 materials:
     - 
         name: Example of How To Convert WikiHow to PDDL.ipynb
         url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/planning/Example_of_How_To_Convert_WikiHow_to_PDDL.ipynb
+    - 
+        name: Colab to Annotate Your PDDL and WikiHow.ipynb
+        url:
 readings:
     -
         title: AIMA Chapter 11 "Automated Planning"
@@ -348,7 +351,7 @@ You should submit the following:
 1. cover at least 3 problems, 
 2. give initial states and goals for each, and 
 3. ensure that the goal can be reached from the initial state using your action schema. 
-* A JSON file containing your annotations that map from the elements in your PDDL domain onto phrases in the wikiHow article that you selected.  You can call this `annotations.json`.
+* A JSON file containing your annotations that map from the elements in your PDDL domain onto phrases in the wikiHow article that you selected.  You can  use this [Colab to Annotate Your PDDL and WikiHow]({{page.materials[1].url}}).
 * A PDF file containing your writeup.  You should include at least 1 paragraphs for each of the following topics:
 1. What wikiHow article did you pick and why?
 2. What portions of the article did you select to translate to PDDL?
