@@ -3,16 +3,16 @@ layout: default
 img: squirrel_plan.png
 img_link: https://xkcd.com/1503/
 caption: Squirrel Plan 
-title: Planning
+title: Convert WikiHow to PDDL
 type: Homework
 number: 4
 active_tab: homework
-release_date: 2023-02-23 
-due_date: 2023-02-28 23:59:00EST
+release_date: 2022-02-23
+due_date: 2022-02-28 23:59:00EST
 materials:
     - 
-        name: Planning and PDDL.ipynb
-        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/planning/Planning_and_PDDL.ipynb
+        name: Convert WikiHow to PDDL.ipynb
+        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homework/planning/Convert_WikiHow_to_PDDL.ipynb
 readings:
     -
         title: AIMA Chapter 11 "Automated Planning"
@@ -83,12 +83,12 @@ Here's an overview of what you'll do:
 * A domain definition for the wikihow article that you picked
 * Schema for actions with pre-requisite and post conditions for each action
 * Several problem files that each define a goal corresponding to a step in the wikiHow article, and an initial state that is solvable with your schema in >= 4 steps.
-3. A JSON file that pairs the wikiHow article text with your PDDL elements plus natural language descriptions of the PDDL elements that you write.
-4. Discuss how you might be able to use OpenAI to help convert a wikihow article into a schema.  What would your inputs and outputs be?  What data would you need in order to fine-tune a system?
+3. Create annotations that link natural language descriptions in the wikiHow article text to the elements in your PDDL domain.  You'll save this into a JSON file that you or your classmates might re-use for in your term projects.
+4. Write a report that describes what you did.  Your report should also describe what you think the limitations of the PDDL representation language are. You should also discuss how you might be able to use OpenAI to help convert a wikiHow article into a schema.  What would your inputs and outputs be?  What data would you need in order to fine-tune a system?
 
 
 
-### Step 1: Pick an Interesting wikiHow Article
+## Step 1: Pick an Interesting wikiHow Article
 
 We'll use create our PDDL files from a wikiHow article.  The goal for this is to start from something that describes proceedures and actions and is written in natural language, and then to manually translate it into the description language used for automated planning.
 
@@ -132,8 +132,6 @@ Dystopian Futures
 ## Step 2: Convert the Task to PDDL
 
 
-### Pick Several Steps And Think About How to Convert Them
-
 As an example, I'll pick the [How to Survive in the Woods](https://www.wikihow.com/Survive-in-the-Woods) article, and work on translating Part 1, Step 1 into PDDL.  Here is step 1 from that article: 
 
 
@@ -150,35 +148,202 @@ If there are mountains nearby, look for water collected at the foot of the cliff
 > * Freshwater springs are typically safer water sources, although these can be contaminated by mineral or bacteria as well.
 > * Remember that all untreated water must be considered risky unless treated. Even crystal clear water can harbor diseases and be dangerous if consumed.
 
-Here's how I think about this step in terms of PDDL:
 
-* What is the domain?  I'll use the name of the article as my PDDL domain.
-```
-'survive-in-the-woods'
-```
-* What the goal?  Find Drinking Water.  Based on that last bullet point in Step 1, we also want  to make sure that the water is treated.  We could specify that goal in the problem definition PDDL file as something like
-```
-(:goal (and (inventory npc water) (treated water)))
-```
-* What are the actions that someone need to take in order to reach the goal?  This step is all about searching for water, so in our domain PDDL we might define an action schema called `collect_water`.  We'll say that the parameters are a person and a location.  The locations that are mentioned as having fresh water are: a creek, a stream, a pond, waterfalls, and rapids.  We coluld specify that these are sources of water by adding a predciate `(has_water ?loc)`,  or we could sepcify a sub-type of location called `water_source` and constrain the location parameter of `collect_water` be that sub-type. 
+## Domain and Problems
 
+You should create PDDL files for:
+1. The domain.  You should have a single `domain.pddl` file which defines the domain, including the types, predicates and action schemata that are relevant to your wikiHow article.
+2. One or more problems.  You should create one more problem file that defines a problem, an initial state, and a goal, that can be reached by applying the action schema that you defined.  In some cases, it might make sense to have one problem file for each step in a wikiHow article. 
+
+The name of your domain should be the aricle title.  I have started defining a domain for `survive_in_the_woods`.
+```LISP
+(define (domain survive_in_the_woods)
+   (:requirements :strips :typing)
+   ...
+```   
+I'll create a problem file for Step 1 in the article.  I'll name the problem `collect_water` and I'll define the goal as `(:goal (and (inventory npc water))` where the player (or an AI-controled non-playable character, abbreviated as NPC) needs to add water to their inventory. 
+
+Here's what the start and end of the problem PDDL file would look like:
+
+```LISP
+(define (problem collect_water)
+   (:domain survive_in_the_woods)
+...
+   (:goal (and (inventory npc water)))
 ```
-(:action collect-water
-  :parameters (?p - person ?l1 - location) 
-  :precondition (and (at ?p ?l1) (has_water ?l1))
-  :effect (and (inventory ?p water) (not (treated water))
+
+
+## Types
+
+You should specify what the `types` are in your domain.  They should be the things that are relevant to solving the problem that you're tackling.  It's sometimes also useful to create subtypes. Which you can do like this:
+```LISP
+   (:types        
+       water - item
+       player direction location 
+   )
+``` 
+By default all types are subtypes of `object`. The line
+```LISP
+water - item
+```
+allows us to define `water` as a subtype of `item` (`item` is also introduced as a type in this same line).   Having `water` as a subtype allows us to restrict some action schemas to only operate on that type.
+
+
+## Action Schema
+
+Here's an example of an action schema for getting items:
+```LISP
+   (:action get
+      :parameters (?item - item ?p - player ?l1 - location) 
+      :precondition (and (at ?p ?l1) (at ?item ?l1))
+      :effect (and (inventory ?p ?item) (not (at ?item ?l1)))
+   )
+```
+It has the effect or removing the item from the current location and putting it into the player's inventory.
+
+We might add a seperate action for getting water, since when our player gets some water from a lake, the water shouldn't be removed from that location.  Here's one way to write it:
+
+```LISP
+   (:action get_water
+      :parameters (?p - player ?loc - location ?water - water) 
+      :precondition (and (at ?p ?loc) (has_water_source ?loc))
+      :effect (and (inventory ?p ?water) (not (treated ?water)))
+   )
+```
+(We might also consider adding some additional preconditions, like that the player has a container to store their water in). 
+
+## Predicates
+
+In your PDDL domain file, please define your predicates like this:
+```LISP
+   (:predicates
+      (has_water_source ?loc - location) ; this location has a source of fresh water.
+      (treated ?water - water) ; True if the water has been decontaimated by boiling it
+      ...
+   )
+```
+You should give the type of each predicate's arguments, and a comment about what the predicate means (everything after the `;` is a comment). 
+
+
+### Example Domain
+
+Here's an example of how I started the `survive_in_the_woods` domain.
+
+```LISP
+(define (domain survive_in_the_woods)
+   (:requirements :strips :typing)
+   (:types
+       water - item 
+       player direction location
+   )
+
+   (:predicates
+      (has_water_source ?loc - location) ; this location has a source of fresh water.
+      (treated ?water - water) ; True if the water has been decontaimated by boiling it
+      (at ?obj - object ?loc - location) ; an object is at a location 
+      (inventory ?player ?item) ; an item is in the player's inventory
+      (connected ?loc1 - location ?dir - direction ?loc2 - location) ; location 1 is connected to location 2 in the direction
+      (blocked ?loc1 - location ?dir - direction ?loc2 - location) ; the connection between location 1 and 2 in currently blocked
+   )
+
+   (:action go ; navigate to an adjacent location 
+      :parameters (?dir - direction ?p - player ?l1 - location ?l2 - location) 
+      :precondition (and (at ?p ?l1) (connected ?l1 ?dir ?l2) (not (blocked ?l1 ?dir ?l2)))
+      :effect (and (at ?p ?l2) (not (at ?p ?l1)))
+   )
+
+   (:action get ; pick up an item and put it in the inventory
+      :parameters (?item - item ?p - player ?l1 - location) 
+      :precondition (and (at ?p ?l1) (at ?item ?l1))
+      :effect (and (inventory ?p ?item) (not (at ?item ?l1)))
+   )
+
+   (:action get_water ; get water from a location that has a water source like a lake.
+      :parameters (?p - player ?loc - location ?water - water) 
+      :precondition (and (at ?p ?loc) (has_water_source ?loc))
+      :effect (and (inventory ?p ?water) (not (treated ?water)))
+   )
 )
 ```
 
 
+### Example Domain
+
+
+Here's how I specified the problem of collecting water from a source like a waterfall.   
+
+I instantiated several objects, and specified an initial state with a goal of of `(inventory npc water)`.
+
+```LISP
+(define (problem collect_water)
+   (:domain survive_in_the_woods)
+
+   (:objects
+      npc - player
+      waterfall camp path cliff - location
+      in out north south east west up down - direction
+      water - water
+   )
+
+   (:init
+      (connected camp west path)
+      (connected path east camp)
+      (connected path west cliff)
+      (connected cliff east path)
+      (connected cliff up waterfall)
+      (connected waterfall down cliff)
+      (at npc camp)
+      (at canteen camp)
+      (has_water_source waterfall)
+   )
+
+   (:goal (and (inventory npc water)))
+)
+```
+
+Here's a sequence of actions that reaches the goal:
+
+```
+go west npc camp path
+go west npc path cliff
+go up npc cliff waterfall
+get_water npc waterfall water
+```
+
+### Other problems
+
+If the player wants to survive in the woods, other problems remain.  For starters, their water still isn't safe to drink!  To fix that problem we could implement Step 6 of [How to Survive in the Woods](https://www.wikihow.com/Survive-in-the-Woods): 
+
+
+<center>
+<img src="https://www.wikihow.com/images/thumb/7/72/Survive-in-the-Woods-Step-6-Version-5.jpg/aid31352-v4-728px-Survive-in-the-Woods-Step-6-Version-5.jpg" class="img-responsive" alt="Purify Water. (Image Copyright wikiHow, Inc)"/>
+</center>
+
+
+> ### Purify any water that you find. 
+> It's extremely important that you purify any water that you collect, including rainwater, dew, and ice or snow, so you don't consume bacteria that could make you ill or even kill you. Use a piece of cloth or clothing to strain the water to remove large particles, then boil the water for 10 minutes to kill any contaminants.
+> * If you don't have a container to boil water in, you can fill a clear plastic bottle with water, seal the lid, and place the bottle on its side in direct sunlight for 6 hours to purify it.
+> * In the event that you have no containers and no way to purify water, you can dig a deep hole, let it fill with groundwater, and wait for the particles to settle at the bottom and the water is clear before you drink it. You should only do this if you have no other option.
+
+I won't give the details of how to implement this, but you can imagine extending our `survive_in_the_woods` domain to add action schema for `strain`, `boil`, and `purify_in_sunlight`, and to create a new PDDL problem for `purify_water` with the goal `(:goal (and (inventory npc water) (treated water)))`.  
+
+That in turn might require us to solve a problem like `create_a_fire` in order to boil the water.
+
+## Step 3: Create Annotations for your Domain.
+
+As a final step, you will annotate data and save a JSON file that links the phrases in the wikiHow article that you selected with the different elements of your PDDL elements.  
+
+If anyone is interested in doing a term project focused on automatically converting wikiHow to PDDL, then we'll share this JSON data with your classmates.
+
+
 ## What to submit
 
-You should submit a link to a Github repository which contains the following:
+You should submit the following:
 
-1. An Python notebook called `XXX.ipynb` that 
-2. A JSON file called `wikihow.json`
+1. A set of PDDL files, one PDDL file for your domain, and one PDDL file for each of the problems. 
+2. A JSON file on your annotations `annotations.json`
 3. A PDF file containing your writeup.  You should include at least 1 paragraphs for each of the following topics:
-* What article did you pick and why?
+* What wikiHow article did you pick and why?
 * What portions of the article did you select to translate to PDDL?
 * Give some example of the actions, types, and predicates you used in your domain.
 * Explain what goal you selected for your problem, and give the inital state and solution that you created.
