@@ -79,10 +79,10 @@ In this homework assignment, you will translate a wikiHow article into the Plann
 
 Here's an overview of what you'll do:
 1. Pick a wikihow article about a task that might be interesting in a game, or just interesting to you.
-2. Create PDDL files the task, include:
-schema for ~3 actions
-* pre-requisite and post conditions for each action
-* problem file with a goal, and an initial state that is solvable with your schema in >= 4 steps.
+2. Traslate some of the steps into PDDL. 
+* A domain definition for the wikihow article that you picked
+* Schema for actions with pre-requisite and post conditions for each action
+* Several problem files that each define a goal corresponding to a step in the wikiHow article, and an initial state that is solvable with your schema in >= 4 steps.
 3. A JSON file that pairs the wikiHow article text with your PDDL elements plus natural language descriptions of the PDDL elements that you write.
 4. Discuss how you might be able to use OpenAI to help convert a wikihow article into a schema.  What would your inputs and outputs be?  What data would you need in order to fine-tune a system?
 
@@ -142,7 +142,6 @@ As an example, I'll pick the [How to Survive in the Woods](https://www.wikihow.c
 </center>
 
 
-
 > ### Finding Drinking Water
 > Search for a source of fresh water.[1]  The first thing that you'll need in order to survive in the woods is water that you can drink. Look for signs of fresh water nearby like areas of green foliage that indicate water is nearby, low-lying areas where water could be collected, and signs of wildlife like animal tracks. It could mean that a creek, stream, or pond is nearby. While finding water is important for survival, be aware some water sources will not be safe - if possible treat all drinking water before using it. [2]
 If there are mountains nearby, look for water collected at the foot of the cliffs.
@@ -161,12 +160,12 @@ Here's how I think about this step in terms of PDDL:
 ```
 (:goal (and (inventory npc water) (treated water)))
 ```
-* What are the actions that someone need to take in order to reach the goal?  This step is all about searching for water, so in our domain PDDL we might define an action schema called `collect_water`.  We'll say that the parameters are a person and a location.  The locations that are mentioned as having fresh water are: a creek, a stream, a pond, waterfalls, and rapids.  We coluld specify that these are sources of water in one of two ways.   We could add a predciate `(has_water ?loc)` or we could sepcify a sub-type of location called `water_source` and constrain the location parameter of `collect_water` be that sub-type. 
+* What are the actions that someone need to take in order to reach the goal?  This step is all about searching for water, so in our domain PDDL we might define an action schema called `collect_water`.  We'll say that the parameters are a person and a location.  The locations that are mentioned as having fresh water are: a creek, a stream, a pond, waterfalls, and rapids.  We coluld specify that these are sources of water by adding a predciate `(has_water ?loc)`,  or we could sepcify a sub-type of location called `water_source` and constrain the location parameter of `collect_water` be that sub-type. 
 
 ```
 (:action collect-water
   :parameters (?p - person ?l1 - location) 
-  :precondition (and (at ?p ?l1) (has-water ?l1))
+  :precondition (and (at ?p ?l1) (has_water ?l1))
   :effect (and (inventory ?p water) (not (treated water))
 )
 ```
