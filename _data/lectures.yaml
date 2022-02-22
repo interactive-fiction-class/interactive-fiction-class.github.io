@@ -206,7 +206,12 @@
   date: 2022-03-28
   title: Last day to withdraw from a course
   type: no_lecture  
-
+-
+  date: 2022-03-28
+  type: deadline
+  homework_due:   
+    -
+      title: Paper Summaries 3
 -
   date: 2022-03-29
   title: Character-Based Generation
