@@ -578,9 +578,9 @@
           authors: Prithviraj Ammanabrolu, Mark Riedl
           url: https://aclanthology.org/N19-1358
         -
-          title: "How To Avoid Being Eaten By a Grue: Exploration Strategies for Text-Adventure Agents"
+          title: "How to Avoid Being Eaten by a Grue: Structured Exploration Strategies for Textual Worlds"
           authors: Prithviraj Ammanabrolu, Ethan Tien, Zhaochen Luo, Mark O. Riedl
-          url: https://arxiv.org/abs/2002.08795
+          url: https://arxiv.org/abs/2006.07409
         -
           title: Language Understanding for Text-based Games Using Deep Reinforcement Learning
           authors: Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
