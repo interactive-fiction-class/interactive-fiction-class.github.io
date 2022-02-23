@@ -29,7 +29,7 @@ readings:
         title: PDDL Problem
         authors: Planning.Wiki - The AI Planning & PDDL Wiki
         url: https://planning.wiki/ref/pddl/problem
-submission_link: XXX
+submission_link: https://www.gradescope.com/courses/354158/assignments/1882338
 ---
 
 <!-- Check whether the assignment is ready to release -->
