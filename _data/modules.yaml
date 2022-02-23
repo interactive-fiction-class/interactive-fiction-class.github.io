@@ -334,7 +334,8 @@
     - 
       title: Classical Planning
       slides: https://interactive-fiction-class.org/slides/Search-and-Planning.pdf
-      video:
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3673be5f-af5f-4876-9fda-ae3f0158dcde
+      readings:     
       optional:
         - 
           title: "Artificial Intelligence: A Modern Approach, Chapter 11"
@@ -351,6 +352,13 @@
       title: Story Planning + Drama Management
       guest_speaker: Stephen G. Ware
       guest_url: http://stephengware.com/
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=87c84497-a145-4fa1-bd3a-ae4401525e71
+      slides: https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/slides/Sabre.pdf
+      optional:
+        -
+          title: Camelot Virtual Environment
+          url: http://cs.uky.edu/~sgware/projects/camelot/v1-2/
+          authors: Narrative Intelligence Lab at the University of Kentucky
       readings:
         -
           title: Story-Telling as Planning and Learning
@@ -389,9 +397,29 @@
           authors: Manu Sharma, Santiago Ontañón, Manish Mehta, Ashwin Ram
           url: https://www.cc.gatech.edu/faculty/ashwin/papers/er-09-10.pdf
         -
-          title: Curating Simulated Storyworlds
-          authors: James Ryan
-          url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds          
+          title: "Multi-Agent Narrative Experience Management as Story Graph Pruning"
+          authors: Stephen G. Ware, Edward T. Garcia, Alireza Shirvani, Rachelyn Farrell
+          url: http://cs.uky.edu/~sgware/reading/papers/ware2019multi.pdf
+    -
+      title: Recap + Module 3 Paper Presentations
+      video: 
+      presentations:
+        -
+          presenters: "Benjamin Demers & Saurabh Shah"
+          title: Drama Management and Player Modeling for Interactive Fiction Games
+          url: https://www.cc.gatech.edu/faculty/ashwin/papers/er-09-10.pdf
+        -
+          presenters: Adrian Binkley
+          title: Integrating Plot, Character and Natural Language Processing in the Interactive Drama Façade
+          url: https://www.semanticscholar.org/paper/Integrating-Plot%2C-Character-and-Natural-Language-in-Mateas-Stern/6c92ac4eb449b53ce9a7b0dd94316da17a394446
+        -
+          presenters: "Paul Scott & Andrew Zhao"
+          title: "Controlling narrative generation with planning trajectories: The role of constraints"
+          url: https://www.researchgate.net/publication/220920127_Controlling_Narrative_Generation_with_Planning_Trajectories_The_Role_of_Constraints
+        -
+          presenters: "Haoyu Wang & Leon Zhou"
+          title: Story Telling as Planning and Learning
+          url: https://www.sciencedirect.com/science/article/pii/0304422X85900154
 -
   module_number: 4
   start_date: 2022-03-01
@@ -525,6 +553,10 @@
           title: "Connotation Frames of Power and Agency in Modern Films"
           authors: Maarten Sap, Marcella Cindy Prasettio, Ari Holtzman, Hannah Rashkin, Yejin Choi     
           url: https://aclanthology.org/D17-1247/
+        -
+          title: Curating Simulated Storyworlds
+          authors: James Ryan
+          url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds             
   hw:
     -
       title: Characters HW
@@ -540,15 +572,17 @@
   lessons:
     -
       title: Reinforcement Learning for Playing Interactive Fiction 
+      guest_speaker: Prithviraj (Raj) Ammanabrolu
+      guest_url: http://prithvirajva.com/
       readings:
         -
           title: Playing Text-Adventure Games with Graph-Based Deep Reinforcement Learning
           authors: Prithviraj Ammanabrolu, Mark Riedl
           url: https://aclanthology.org/N19-1358
         -
-          title: "How To Avoid Being Eaten By a Grue: Exploration Strategies for Text-Adventure Agents"
+          title: "How to Avoid Being Eaten by a Grue: Structured Exploration Strategies for Textual Worlds"
           authors: Prithviraj Ammanabrolu, Ethan Tien, Zhaochen Luo, Mark O. Riedl
-          url: https://arxiv.org/abs/2002.08795
+          url: https://arxiv.org/abs/2006.07409
         -
           title: Language Understanding for Text-based Games Using Deep Reinforcement Learning
           authors: Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
@@ -586,7 +620,7 @@
           url: https://aclanthology.org/2021.naacl-main.279
           authors: Elizabeth Clark, Noah A. Smith        
     -
-      title: Computer Vision, Speech, and Multimodal Storytelling
+      title: Visual Storytelling
       readings:
         -
           title: "The Amazing Mysteries of the Gutter: Drawing Inferences Between Panels in Comic Book Narratives"

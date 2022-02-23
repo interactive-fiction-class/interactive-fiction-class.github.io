@@ -111,7 +111,12 @@
     -
       title: Planning and PDDL
       url: planning/planning-and-pddl.html
-
+-
+  date: 2022-02-21
+  type: deadline
+  homework_due:   
+    -
+      title: Paper Summaries 1
 -
   date: 2022-02-21
   title: Drop Period ends
@@ -144,7 +149,12 @@
   date: 2022-03-03
   title: Knowledge Representations
   slides: 
-
+-
+  date: 2022-03-07
+  type: deadline
+  homework_due:   
+    -
+      title: Paper Summaries 2
 -
   date: 2022-03-8
   title: No class (Spring Break)
@@ -196,7 +206,12 @@
   date: 2022-03-28
   title: Last day to withdraw from a course
   type: no_lecture  
-
+-
+  date: 2022-03-28
+  type: deadline
+  homework_due:   
+    -
+      title: Paper Summaries 3
 -
   date: 2022-03-29
   title: Character-Based Generation
@@ -244,7 +259,7 @@
 
 -
   date: 2022-04-19
-  title: Computer Vision, Speech, and Multimodal Storytelling
+  title: Visual Storytelling
   slides: 
   type: deadline
   homework_due: 
