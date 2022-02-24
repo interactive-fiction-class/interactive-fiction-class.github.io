@@ -15,7 +15,7 @@ materials:
         url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/planning/Example_of_How_To_Convert_WikiHow_to_PDDL.ipynb
     - 
         name: Colab to Annotate Your PDDL with WikiHow Mentions.ipynb
-        url:
+        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/planning/Annotate_Your_PDDL_with_WikiHow_Mentions.ipynb
 readings:
     -
         title: AIMA Chapter 11 "Automated Planning"
