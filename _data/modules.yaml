@@ -401,8 +401,21 @@
           authors: Stephen G. Ware, Edward T. Garcia, Alireza Shirvani, Rachelyn Farrell
           url: http://cs.uky.edu/~sgware/reading/papers/ware2019multi.pdf
     -
-      title: Recap + Module 3 Paper Presentations
+      title: Façade Playthrough + Module 3 Paper Presentations
       video: 
+      papers:
+        -
+          title: "Learning Norms from Stories: A Prior for Value Aligned Agents"
+          url: https://dl.acm.org/doi/10.1145/3375627.3375825
+          authors: Md Sultan Al Nahian, Spencer Frazier, Mark Riedl, Brent Harrison
+        -
+          title: "dAIrector: Automatic Story Beat Generation through Knowledge Synthesis"
+          url: http://ceur-ws.org/Vol-2321/paper8.pdf
+          authors: Markus Eger, Kory W. Mathewson
+        -
+          title: "Joint Constrained Learning for Event-Event Relation Extraction"
+          url: https://aclanthology.org/2020.emnlp-main.51/
+          authors: Haoyu Wang, Muhao Chen, Hongming Zhang, Dan Roth
       optional:
         -
           title: Façade
@@ -412,6 +425,10 @@
           title: Anchorhead
           url: https://dwheeler.com/anchorhead/
           authors: Michael S. Gentry
+        -
+          title: "PLOTTO: A New Method of Plot Suggestion for Writers of Creative Fiction"
+          url: http://garykac.github.io/plotto/
+          authors: William Wallace Cook 
       presentations:
         -
           presenters: "Haoyu Wang & Leon Zhou"
