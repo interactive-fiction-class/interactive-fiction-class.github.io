@@ -403,6 +403,15 @@
     -
       title: Recap + Module 3 Paper Presentations
       video: 
+      optional:
+        -
+          title: Façade
+          url: https://www.playablstudios.com/facade
+          authors: Michael Mateas, Andrew Stern
+        -
+          title: Anchorhead
+          url: https://dwheeler.com/anchorhead/
+          authors: Michael S. Gentry
       presentations:
         -
           presenters: "Benjamin Demers & Saurabh Shah"
