@@ -425,10 +425,6 @@
           presenters: "Paul Scott & Andrew Zhao"
           title: "Controlling narrative generation with planning trajectories: The role of constraints"
           url: https://www.researchgate.net/publication/220920127_Controlling_Narrative_Generation_with_Planning_Trajectories_The_Role_of_Constraints
-        -
-          presenters: "Haoyu Wang & Leon Zhou"
-          title: Story Telling as Planning and Learning
-          url: https://www.sciencedirect.com/science/article/pii/0304422X85900154
 -
   module_number: 4
   start_date: 2022-03-01
@@ -438,6 +434,11 @@
   lessons:
     -
       title: Commonsense Reasoning
+      presentations:
+        -
+          presenters: "Haoyu Wang & Leon Zhou"
+          title: Story Telling as Planning and Learning
+          url: https://www.sciencedirect.com/science/article/pii/0304422X85900154
       readings:
         -
           title: Machine Common Sense Concept Paper
