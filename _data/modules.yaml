@@ -414,6 +414,10 @@
           authors: Michael S. Gentry
       presentations:
         -
+          presenters: "Haoyu Wang & Leon Zhou"
+          title: Story Telling as Planning and Learning
+          url: https://www.sciencedirect.com/science/article/pii/0304422X85900154      
+        -
           presenters: "Benjamin Demers & Saurabh Shah"
           title: Drama Management and Player Modeling for Interactive Fiction Games
           url: https://www.cc.gatech.edu/faculty/ashwin/papers/er-09-10.pdf
@@ -434,11 +438,6 @@
   lessons:
     -
       title: Commonsense Reasoning
-      presentations:
-        -
-          presenters: "Haoyu Wang & Leon Zhou"
-          title: Story Telling as Planning and Learning
-          url: https://www.sciencedirect.com/science/article/pii/0304422X85900154
       readings:
         -
           title: Machine Common Sense Concept Paper
