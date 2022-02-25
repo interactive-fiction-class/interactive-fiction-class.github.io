@@ -246,7 +246,13 @@
   date: 2022-04-07
   title: Mixed Methods
   slides: 
-  
+-
+  date: 2022-04-11
+  type: deadline
+  homework_due:
+    - 
+      title: Paper Summaries 4
+
 -
   date: 2022-04-12
   title: TBD
