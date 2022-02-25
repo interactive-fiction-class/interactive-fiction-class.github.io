@@ -481,7 +481,7 @@
           url: https://leaderboard.allenai.org
           year: 2019
     -
-      title: Knowledge Representations
+      title: Knowledge Representations + Schemata
       readings:
         -
           title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
@@ -507,9 +507,6 @@
           title: Guided Generation of Cause and Effect
           authors: Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme
           url: https://www.ijcai.org/Proceedings/2020/0502
-    -
-      title: Schemata
-      readings:
         -
           title: "What Happened? Leveraging VerbNet to Predict the Effects of Actions in Procedural Text"
           authors: Peter Clark, Bhavana Dalvi, Niket Tandon
@@ -517,7 +514,12 @@
         -
           title: "Putting Pieces Together: Combining FrameNet, VerbNet and WordNet for Robust Semantic Parsing"
           authors: Lei Shi and Rada Mihalcea
-          url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf
+          url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf          
+    -
+      title: Guest Lecture
+      guest_speaker: Susan Brown
+      guest_url: https://verbs.colorado.edu/brownsw/
+      readings:
 
   hw:
     -
