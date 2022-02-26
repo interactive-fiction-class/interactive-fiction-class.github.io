@@ -465,10 +465,15 @@
           authors: Kathy Panton, Cynthia Matuszek, Douglas Lenat, Dave Schneider, Michael Witbrock, Nick Siegel, and Blake Shepard
           url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
         -
-          title: "Commonsense Reasoning for Natural Language Understanding: A Survey of Benchmarks, Resources, and Approaches"
+          title: Commonsense Reasoning for Natural Language Understanding&colon; A Survey of Benchmarks, Resources, and Approaches
           authors: Shane Storks, Qiaozi Gao, Joyce Y. Chai
           url: https://arxiv.org/abs/1904.01172
           year: 2019
+        -
+          title: ACL 2020 Commonsense Tutorial
+          authors: Yejin Choi, Vered Shwartz, Maarten Sap, Antoine Bosselut, Dan Roth
+          url: https://homes.cs.washington.edu/~msap/acl2020-commonsense/
+          year: 2020
         -
           title: "NaturalLI: Natural Logic Inference for Common Sense Reasoning"
           authors: Gabor Angeli and Chris Manning
