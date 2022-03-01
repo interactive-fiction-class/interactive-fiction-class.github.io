@@ -455,6 +455,7 @@
   lessons:
     -
       title: Commonsense Reasoning
+      slides: https://interactive-fiction-class.org/slides/Commonsense-Reasoning.pdf
       readings:
         -
           title: Machine Common Sense Concept Paper
