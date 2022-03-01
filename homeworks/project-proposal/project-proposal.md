@@ -4,12 +4,12 @@ img: estimating_time.png
 caption: Don't Panic
 img_link: https://xkcd.com/1658/   
 title: The Term Project
-title: Project Proposal
+title: Project Proposal and Lightning Talk
 type: Homework
 number: 5
 active_tab: homework
-release_date: 2020-02-26
-due_date: 2020-03-05 13:30:00EST
+release_date: 2022-02-28
+due_date: 2022-03-16 23:59:00EST
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -53,11 +53,12 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
+The project is a chance for you to delve into one of the topics we have covered in class. You can choose between two directions: creating a novel interactive experience or answering a research question. For the direction that you choose, write a project proposal that answers the questions below. You should also prepare to give a two-minute "lightning" presentation on your proposal in class on March 17. Some examples of projects brainstormed by students in the 2020 iteration of this class can be found [here](https://docs.google.com/document/d/1YXUCVWTTc2ks7dkHTjpyEy4mEUTGBo192olya-k_G2Y/edit?usp=sharing).
 
-The project is a chance for you to delve into one of the topics we have covered (or will cover) in class. You can choose between two directions: creating a novel interactive experience or answering a research question. For the direction that you choose, write a project proposal that answers the questions below. You should also prepare to give a two-minute "lightning" presentation on your proposal in class on March 5. The project ideas we brainstormed in class are available [here](https://docs.google.com/document/d/1YXUCVWTTc2ks7dkHTjpyEy4mEUTGBo192olya-k_G2Y/edit?usp=sharing).
+If you are trying to decide between multiple project ideas, or if you're struggling to come up with something, we highly encourage you to come to Office Hours and discuss it with the staff. We are all experienced researchers and should be able to help you narrow down which ideas of yours are the most feasible + interesting.
 
 ## Build a novel interactive experience
-Use the techniques we have learned in class to build a novel interactive experience that involves generated text. While fine-tuning a large language model such as GPT-2 on a custom dataset could be a component of your project, we are expecting something more involved than just this. Can you expand upon Homeworks 2 or 4 to build a text-based game that uses NLP and language models to make a novel and fun game experience? By the end of the semester, you should have a demo that runs either in Colab or on a website showcasing your interactive experience.
+Use the techniques we have learned in class to build a novel interactive experience that involves generated text. While fine-tuning a large language model such as GPT-3 on a custom dataset could be a component of your project, we are expecting something more involved than just this. Can you expand upon Homeworks 1 and 2 to build a text-based game that uses NLP and language models to make a novel and fun game experience? Can you incorporate elements from Homeworks 3 and 4 into your generation? By the end of the semester, you should have a demo that runs either in Colab or on a website showcasing your interactive experience.
 
 Write a project proposal that includes the following sections:
 1. __Project Description__: What novel interactive experience do you propose to design?
@@ -68,7 +69,7 @@ Write a project proposal that includes the following sections:
   - Does the needed data already exist?  If so, how much data is available?
 4. __Related work__: Do similar games/experiences exist to the one you propose to create?
   - Give pointers to them and explain how you think they relate to your project idea.
-5. __Team members__: Give a list of the students (max 4) who will participate in this project, and what contribution you expect each one to make to the project.
+5. __Team members__: Give a list of the students who will participate in this project, and what contribution you expect each one to make to the project.
 
 
 ## Attempt to answer a research question about text generation or interactive fiction
@@ -83,12 +84,13 @@ Write a project proposal that includes the following sections:
 3. __Evaluation__: What evaluation metrics do you plan to use to answer your research question?
 4. __Related work__: What previous research has been done on this research question?
   - Give pointers to several research papers that you think are relevant along with short explanations of how you think they relate to your project idea.
-5. __Team members__: Give a list of the students (max 4) who will participate in this project, and what contribution you expect each one to make to the project.
+5. __Team members__: Give a list of the students who will participate in this project, and what contribution you expect each one to make to the project.
 
 # What to Submit
-Submit the following to Gradescope:
-* `proposal.pdf` which contains your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well.
+Submit to Gradescope:
+* `proposal.pdf` which contains your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. Latex is preferred but not required.
 
 Prepare the following for class:
-* A two minute "lightning" presentation pitching your idea to the class. You should add a single  slide to this [Google Slides presentation](https://docs.google.com/presentation/d/1KEeYGqJiF_Kr4PlVWIs0JC-Nl5aj-Q3ZUsl4B-bI5PE/edit?usp=sharing). _Please prepare at most a single slide. You will have time for a longer presentation at the end of the semester._
+* A two minute "lightning" presentation pitching your idea to the class. You should add **a single slide** to this [Google Slides presentation](https://docs.google.com/presentation/d/14SnEPKNyEtDZuUlJnIRxx57xQInliMvK4pLdnVurh5E/edit?usp=sharing). _Please prepare at most a single slide. You will have time for a longer presentation at the end of the semester._
+  - For some examples of past lightning talks, you can find the 2020 slides [here](https://docs.google.com/presentation/d/1EMII1GDGO3IdfHfrV6Lnrkbe1vMEUoyOjoZ3QePUFf4/edit?usp=sharing)
 
