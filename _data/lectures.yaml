@@ -175,7 +175,7 @@
   type: deadline
   homework_due:   
     -
-      title: Final Project Proposal + Lightning Talk Slides Submission due (5%)
+      title: Final Project Milestone 1&colon; Proposal + Lightning Talk (5%)
       url: project-proposal/project-proposal.html
 
 -
@@ -216,7 +216,7 @@
   type: deadline
   homework_due:
     - 
-      title: Final Project Milestone 1&colon; Progress Report (Select Idea &amp; Data Prep) (5%)
+      title: Final Project Milestone 2&colon; Progress Report (Select Idea &amp; Data Prep) (5%)
       url: project-milestone2/project-milestone2.html
 
 -
@@ -295,7 +295,7 @@
   type: deadline
   homework_due: 
     - 
-      title: Final Project&colon; Final Report (20%)
+      title: Final Project Milestone 4&colon; Final Report (20%)
       url: project-milestone4/project-milestone4.html
 
 -
