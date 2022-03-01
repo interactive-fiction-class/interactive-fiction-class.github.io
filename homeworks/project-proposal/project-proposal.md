@@ -4,7 +4,7 @@ img: estimating_time.png
 caption: Don't Panic
 img_link: https://xkcd.com/1658/   
 title: The Term Project
-title: Project Proposal
+title: Project Proposal and Lightning Talk
 type: Homework
 number: 5
 active_tab: homework
