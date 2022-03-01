@@ -164,15 +164,23 @@
   date: 2022-03-10
   title: No class (Spring Break)
   type: no_lecture
+      
 -
   date: 2022-03-15
   title: Guest Lecture
   slides: 
 
+-
+  date: 2022-03-16
+  type: deadline
+  homework_due:   
+    -
+      title: Final Project Proposal + Lightning Talk Slides Submission due (5%)
+      url: project-proposal/project-proposal.html
 
 -
   date: 2022-03-17
-  title: Recap + Module 4 Paper Presentations
+  title: Recap, Lightning Talks, Module 4 Paper Presentations
   slides: 
 
 
@@ -197,22 +205,20 @@
   date: 2022-03-24
   title: Dialogue for Interactive Fiction
   slides:
-  type: deadline
-  homework_due: 
-    - 
-      title: Final Project Milestone 1&colon; Team Formation and 3 Idea Proposals(5%)
-      url: project-proposal/project-proposal.html
       
 -
   date: 2022-03-28
   title: Last day to withdraw from a course
   type: no_lecture  
+
 -
   date: 2022-03-28
   type: deadline
-  homework_due:   
-    -
-      title: Paper Summaries 3
+  homework_due:
+    - 
+      title: Final Project Milestone 1&colon; Progress Report (Select Idea &amp; Data Prep) (5%)
+      url: project-milestone2/project-milestone2.html
+
 -
   date: 2022-03-29
   title: Character-Based Generation
@@ -222,6 +228,13 @@
   date: 2022-03-31
   title: Recap + Module 5 Paper Presentations
   slides: 
+  
+-
+  date: 2022-04-01
+  type: deadline
+  homework_due:   
+    -
+      title: Paper Summaries 3
 
 -
   date: 2022-04-04
@@ -236,11 +249,6 @@
   date: 2022-04-05
   title: Reinforcement Learning for Playing Interactive Fiction
   slides:
-  type: deadline
-  homework_due:
-    - 
-      title: Final Project Milestone 2&colon; Progress Report (Select Idea &amp; Data Prep) (5%)
-      url: project-milestone2/project-milestone2.html
 
 
 -
@@ -252,7 +260,8 @@
   type: deadline
   homework_due:
     - 
-      title: Paper Summaries 4
+      title: Final Project Milestone 3&colon; Progress Report (5%)
+      url: project-milestone3/project-milestone3.html
 
 -
   date: 2022-04-12
@@ -265,35 +274,31 @@
   slides:  
 
 -
+  date: 2022-04-15
+  type: deadline
+  homework_due:
+    - 
+      title: Paper Summaries 4
+
+-
   date: 2022-04-19
   title: Visual Storytelling
   slides: 
-  type: deadline
-  homework_due: 
-    - 
-      title: Final Project Milestone 3&colon; Progress Report (5%)
-      url: project-milestone3/project-milestone3.html
+  
 -
   date: 2022-04-21
   title: TBD
   slides: 
+  
+-
+  date: 2022-04-25
+  type: deadline
+  homework_due: 
+    - 
+      title: Final Project&colon; Final Report (20%)
+      url: project-milestone4/project-milestone4.html
 
 -
   date: 2022-04-26
   title: TBD
   slides:
-  type: deadline
-  homework_due: 
-    - 
-      title: Final Project Milestone 4&colon; Final Report (20%)
-      url: project-milestone4/project-milestone4.html
-
-
-
-
-
-
-
-
-
-
