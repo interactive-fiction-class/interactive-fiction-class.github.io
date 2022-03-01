@@ -620,7 +620,7 @@
         -
           title: Language Understanding for Text-based Games Using Deep Reinforcement Learning
           authors: Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
-          url: https://arxiv.org/abs/1506.08941
+          url: https://aclanthology.org/D15-1001/
         -
           title: Deep Reinforcement Learning with a Natural Language Action Space
           authors: Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li
@@ -628,7 +628,7 @@
         -
           title: "Learn What Not to Learn: Action Elimination with Deep Reinforcement Learning"
           authors: Tom Zahavy, Matan Haroush, Nadav Merlis, Daniel J. Mankowitz, Shie Mannor
-          url: https://arxiv.org/abs/1809.02121
+          url: https://papers.neurips.cc/paper/2018/hash/645098b086d2f9e1e0e939c27f9f2d6f-Abstract.html
     -
       title: Mixed Methods
       readings:
