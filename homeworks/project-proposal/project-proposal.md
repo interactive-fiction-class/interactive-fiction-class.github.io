@@ -8,7 +8,7 @@ title: Project Proposal and Lightning Talk
 type: Homework
 number: 5
 active_tab: homework
-release_date: 2022-03-01
+release_date: 2022-02-28
 due_date: 2022-03-16 23:59:00EST
 ---
 
