@@ -155,7 +155,7 @@ The lecture schedule will be updated as the term progresses. You can find more d
 	      <td>
 		{% if lecture.homework_due %} 
 		  {% for hw in lecture.homework_due %}
-		    {% if hw.url %}<a href="homeworks/{{hw.url}}">{{hw.title}}</a>
+		    {% if hw.url %}{% if hw.url contains '://' %}<a href="{{hw.url}}">{% else %}<a href="homeworks/{{hw.url}}">{% endif %}{{hw.title}}</a>
 		    {% else %}{{hw.title}} 
 		    {% endif %}
 		    {% if hw.note %}<i>{{hw.note}}</i>{% endif %}
