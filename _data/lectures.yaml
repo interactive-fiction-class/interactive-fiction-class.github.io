@@ -149,7 +149,10 @@
 -
   date: 2022-03-03
   title: Knowledge Representations + Schemata
-  slides: 
+  activities: 
+    -
+      title: WordNet Schemas
+      url: schemas/schemas.html
 -
   date: 2022-03-07
   type: deadline
