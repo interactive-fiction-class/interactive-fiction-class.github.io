@@ -60,9 +60,8 @@ Pretend that you (or, rather, your agent) are in the middle of playing a text ad
 
 ### What to do 
 
-1. Open [{{page.materials[0].name}}]({{page.materials[0].url}}).
-2. Save a copy of it in your own drive by choosing `File > Save a Copy in Drive` from the Colab menu.  This will ensure that your changes are saved.
-3. Fill in the TODOs.
-4. Submit your work to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+1. Download [{{page.materials[0].name}}]({{page.materials[0].url}}). OR Save a copy of the colab here: [https://colab.research.google.com/drive/17QRQgPwLiQW8qLvLJnAJC3gA_Fgm5MGM?usp=sharing](https://colab.research.google.com/drive/17QRQgPwLiQW8qLvLJnAJC3gA_Fgm5MGM?usp=sharing) (Select `File > Save a Copy in Drive` from the Colab menu)
+2. Fill in the TODOs.
+3. Submit your work to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
 
 
