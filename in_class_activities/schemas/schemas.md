@@ -8,7 +8,7 @@ due_date: 2022-03-10 23:59:00EST
 materials:
     - 
         name: WordNetSchemas.ipynb
-        url: in_class_activities/schemas/In_Class_Activity_WordNet_Schemas.ipynb
+        url: /In_Class_Activity_WordNet_Schemas.ipynb
 submission_link: https://www.gradescope.com/courses/354158/assignments/1905780
 ---
 
