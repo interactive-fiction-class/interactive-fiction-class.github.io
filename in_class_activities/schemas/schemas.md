@@ -1,6 +1,8 @@
 ---
 layout: default
 title: WordNet Schemas
+img: wordnet.png
+img_link: https://wordnet.princeton.edu/
 type: in-class
 active_tab: homework
 release_date: 2022-03-03
@@ -8,7 +10,7 @@ due_date: 2022-03-10 23:59:00EST
 materials:
     - 
         name: WordNetSchemas.ipynb
-        url: /In_Class_Activity_WordNet_Schemas.ipynb
+        url: /WordNetSchemas.ipynb
 submission_link: https://www.gradescope.com/courses/354158/assignments/1905780
 ---
 
