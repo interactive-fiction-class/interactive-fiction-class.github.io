@@ -10,7 +10,7 @@ due_date: 2022-03-10 23:59:00EST
 materials:
     - 
         name: WordNetSchemas.ipynb
-        url: /WordNetSchemas.ipynb
+        url: https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/schemas/WordNetSchemas.ipynb
 submission_link: https://www.gradescope.com/courses/354158/assignments/1905780
 ---
 
