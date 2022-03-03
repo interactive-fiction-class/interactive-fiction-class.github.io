@@ -3,8 +3,8 @@ layout: default
 title: WordNet Schemas
 type: in-class
 active_tab: homework
-release_date: 2022-02-17
-due_date: 2022-02-21 23:59:00EST
+release_date: 2022-03-03
+due_date: 2022-03-10 23:59:00EST
 materials:
     - 
         name: WordNetSchemas.ipynb
