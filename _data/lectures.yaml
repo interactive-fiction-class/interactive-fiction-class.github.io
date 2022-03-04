@@ -1,7 +1,6 @@
 -
   date: 2022-01-13
   title: Intro to the class, Interactive Fiction, and Automated Story Generation
-  slides: 
   activities: 
     -
       title: Play a text adventure game
@@ -17,17 +16,11 @@
 -
   date: 2022-01-18
   title: Neural Language Models + Transformers
-  speaker: 
-  speaker_url: 
-  description: 
-  slides: 
-  activities: 
 
 
 -
   date: 2022-01-20
   title: Transformers, Continued
-  slides: 
   activities:
     -
       title: Create Data for Intent Detection
@@ -37,7 +30,6 @@
 -
   date: 2022-01-25
   title: Pretraining/Prompting
-  slides:
   activities: 
     -
       title: Intent Determination with GPT-3
@@ -64,7 +56,6 @@
 -
   date: 2022-02-01
   title: Scripts and Events
-  slides: 
   activities:
     -
       title: Make Your Own Mini Script
@@ -77,16 +68,10 @@
 -
   date: 2022-02-08
   title: Guided Story Generation
-  description: 
-  slides: 
-  activities: 
-    -
-      title: 
 
 -
   date: 2022-02-10
   title: Story Ending Prediction (Story Cloze Test) + Module 2 Paper Presentations
-  slides:
 
 -
   date: 2022-02-15
@@ -141,9 +126,6 @@
 -
   date: 2022-03-01
   title: Commonsense Reasoning
-  speaker:
-  speaker_url: 
-  slides:
 
       
 -
@@ -172,7 +154,6 @@
 -
   date: 2022-03-15
   title: Guest Lecture
-  slides: 
 
 -
   date: 2022-03-16
@@ -185,8 +166,6 @@
 -
   date: 2022-03-17
   title: Recap, Lightning Talks, Module 4 Paper Presentations
-  slides: 
-
 
 -
   date: 2022-03-18
@@ -203,12 +182,10 @@
 -
   date: 2022-03-22
   title: Intro to Dialogue
-  slides:
 
 -
   date: 2022-03-24
   title: Dialogue for Interactive Fiction
-  slides:
       
 -
   date: 2022-03-28
@@ -226,12 +203,10 @@
 -
   date: 2022-03-29
   title: Character-Based Generation
-  slides: 
 
 -
   date: 2022-03-31
   title: Recap + Module 5 Paper Presentations
-  slides: 
   
 -
   date: 2022-04-01
@@ -252,13 +227,11 @@
 -
   date: 2022-04-05
   title: Reinforcement Learning for Playing Interactive Fiction
-  slides:
-
 
 -
   date: 2022-04-07
   title: Mixed Methods
-  slides: 
+
 -
   date: 2022-04-11
   type: deadline
@@ -270,12 +243,10 @@
 -
   date: 2022-04-12
   title: TBD
-  slides: 
 
 -
   date: 2022-04-14
   title: Story Evaluation
-  slides:  
 
 -
   date: 2022-04-18
@@ -287,12 +258,10 @@
 -
   date: 2022-04-19
   title: Visual Storytelling
-  slides: 
   
 -
   date: 2022-04-21
   title: TBD
-  slides: 
   
 -
   date: 2022-04-25
@@ -305,4 +274,3 @@
 -
   date: 2022-04-26
   title: TBD
-  slides:
