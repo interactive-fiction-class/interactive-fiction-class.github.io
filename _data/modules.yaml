@@ -353,7 +353,7 @@
       guest_speaker: Stephen G. Ware
       guest_url: http://stephengware.com/
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=87c84497-a145-4fa1-bd3a-ae4401525e71
-      slides: https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/slides/Sabre.pdf
+      slides: https://interactive-fiction-class.org/slides/Sabre.pdf
       optional:
         -
           title: Camelot Virtual Environment
@@ -488,6 +488,7 @@
           year: 2019
     -
       title: Knowledge Representations + Schemata
+      slides: https://interactive-fiction-class.org/slides/CIS700-KnowledgeBases.pdf
       readings:
         -
           title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
