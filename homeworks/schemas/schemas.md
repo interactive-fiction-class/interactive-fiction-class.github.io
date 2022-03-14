@@ -93,7 +93,7 @@ Submissions should be done on [Gradescope]({{page.submission_link}}).
 - COMET-ATOMIC Questions - 6 points (2 pts each)
 
 {% if page.readings %} 
-## Optional Readings
+## Related Readings
 {% for reading in page.readings %}
 * {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a>.  <i>{{ reading.note }}</i>
 {% endfor %}
