@@ -25,8 +25,7 @@ readings:
     -
       title: "COMET: Commonsense Transformers for Automatic Knowledge Graph Construction"
       authors: Antoine Bosselut, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Celikyilmaz, and Yejin Choi
-      url: https://aclanthology.org/P19-1470/
-      
+      url: https://aclanthology.org/P19-1470/      
 ---
 
 <!-- Check whether the assignment is ready to release -->
