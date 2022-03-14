@@ -11,7 +11,7 @@
   type: deadline
   homework_due:   
     -
-      title: Build a Text-Adventure Game HW (5%)
+      title: "HW1: Build a Text-Adventure Game (5%)"
       url: text-adventure-game/text-adventure-game.html
 -
   date: 2022-01-18
@@ -50,7 +50,7 @@
   type: deadline
   homework_due:
     -
-      title: Generating Descriptions HW (10%)
+      title: "HW2: Generating Descriptions (10%)"
       url: generating-descriptions/generating-descriptions.html
 
 -
@@ -78,7 +78,7 @@
   type: deadline
   homework_due:
     -
-      title: Plot Graph Generation HW (10%)
+      title: "HW3: Plot Graph Generation HW (10%)"
       url: plots/plots.html
 
 -
@@ -114,14 +114,6 @@
   date: 2022-02-24
   title: Façade Playthrough + Module 3 Paper Presentations
 
-            
--
-  date: 2022-02-28
-  type: deadline
-  homework_due:
-    -
-      title: Planning HW (10%)
-      url: planning/planning.html
           
 -
   date: 2022-03-01
@@ -130,11 +122,17 @@
       
 -
   date: 2022-03-03
+  type: deadline
   title: Knowledge Representations + Schemata
   activities: 
     -
       title: WordNet Schemas
       url: schemas/schemas.html
+  homework_due:
+    -
+      title: "HW4 Planning: Convert WikiHow to PDDL (10%)"
+      url: planning/planning.html      
+
 -
   date: 2022-03-07
   type: deadline
@@ -153,7 +151,7 @@
       
 -
   date: 2022-03-15
-  title: Guest Lecture
+  title: Recap + Guest Lecture
 
 -
   date: 2022-03-16
@@ -177,8 +175,8 @@
   type: deadline
   homework_due:
     -
-      title: Commonsense Reasoning HW (10%)
-      url: 
+      title: "HW5 Schemas: COMET-ATOMIC Schema (10%)"
+      url: schemas/schemas.html
 -
   date: 2022-03-22
   title: Intro to Dialogue
@@ -220,7 +218,7 @@
   type: deadline
   homework_due: 
     - 
-      title: Dialogue Systems HW (10%)
+      title: "HW6 Dialogue Systems (10%)"
       url:  
 
 
