@@ -5,8 +5,8 @@ caption: Don't Panic
 img_link: https://xkcd.com/1658/   
 title: The Term Project
 title: Project Proposal and Lightning Talk
-type: Homework
-number: 5
+type: Project Milestone
+number: 1
 active_tab: homework
 release_date: 2022-02-28
 due_date: 2022-03-16 23:59:00EST
