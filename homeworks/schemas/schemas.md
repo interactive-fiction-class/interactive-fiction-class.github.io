@@ -2,7 +2,7 @@
 layout: default
 img: ATOMIC.png
 caption: ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning
-title: ATOMIC-COMET Schema
+title: COMET-ATOMIC Schema
 type: Homework
 number: 5
 active_tab: homework
