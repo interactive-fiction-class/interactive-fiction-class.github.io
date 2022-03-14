@@ -12,7 +12,7 @@ due_date: 2022-03-21 23:59:00EST
 materials:
     - 
         name: Colab Notebook
-        url: https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/schemas/HW5_Schemas.ipynb
+        url: https://colab.research.google.com/drive/1EF4Twf1Iuhvsu5UAykeMifYz6wlXw3Y5?usp=sharing
 submission_link: https://www.gradescope.com/courses/354158/assignments/1928540
 readings:
     -
