@@ -1,7 +1,8 @@
 ---
 layout: default
 img: ATOMIC.png
-caption: ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning
+img_link: https://www.researchgate.net/publication/328685565_ATOMIC_An_Atlas_of_Machine_Commonsense_for_If-Then_Reasoning
+caption: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
 title: COMET-ATOMIC Schema
 type: Homework
 number: 5
@@ -25,7 +26,7 @@ readings:
     -
       title: "COMET: Commonsense Transformers for Automatic Knowledge Graph Construction"
       authors: Antoine Bosselut, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Celikyilmaz, and Yejin Choi
-      url: https://aclanthology.org/P19-1470/      
+      url: https://aclanthology.org/P19-1470/
 ---
 
 <!-- Check whether the assignment is ready to release -->
