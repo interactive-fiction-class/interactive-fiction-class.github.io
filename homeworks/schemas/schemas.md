@@ -80,8 +80,8 @@ Go to the colab notebook link above for more information.
 
 ## What to Submit
 
-1. An IPython notebook called `HW5_Schemas.ipynb` that runs your COMET-ATOMIC schema.
-2. A document (doc/docx, txt, pdf) that has **your schema explanation and the answers to the two sets of questions** found at the end of the notebook.
+1. An IPython notebook called `HW5_Schemas.ipynb` that runs your COMET-ATOMIC schema. **Important: Save the output for the Story Tracking Questions!**
+2. A document (doc/docx, txt, pdf) that has **your schema explanation and the answers to the COMET-ATOMIC questions** found at the end of the notebook.
 
 
 Submissions should be done on [Gradescope]({{page.submission_link}}).
