@@ -432,7 +432,7 @@
           authors: William Wallace Cook 
       presentations:
         -
-          presenters: "Haoyu Wang & Leon Zhou"
+          presenters: Haoyu Wang
           title: Story Telling as Planning and Learning
           url: https://www.sciencedirect.com/science/article/pii/0304422X85900154      
         -
@@ -528,6 +528,25 @@
       guest_speaker: Susan Brown
       guest_url: https://verbs.colorado.edu/brownsw/
       readings:
+    -
+      title: Lightning Talks + Module 4 Paper Presentations
+      presentations:
+        -
+          presenters: "Weiqiu You, Yifei Li, & Yukai Yang
+          title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
+          url: https://dl.acm.org/doi/10.5555/3298023.3298212
+        -
+          presenters: "Manni Arora & Yongzhe Zhu"
+          title: Machine Common Sense Concept Paper
+          url: https://arxiv.org/abs/1810.07528
+        -
+          presenters: "Xuanyu Wu, Zhaoyi Hou, & Xinyue Wang"
+          title: "NaturalLI: Natural Logic Inference for Common Sense Reasoning"
+          url: https://www.aclweb.org/anthology/D14-1059
+        -
+          presenters: "Xiaofeng Wang, Zhihang Yuan, & Tianyi Zhang"
+          title: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
+          url: https://ojs.aaai.org//index.php/AAAI/article/view/4160
 
   hw:
     -
