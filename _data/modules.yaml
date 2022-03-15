@@ -40,7 +40,7 @@
           title: "How to Make a Text-Based Adventure: Commands and Parser"
   hw:
     -
-      title: Build a Text-Adventure Game HW
+      title: "Homework 1: Build a Text-Adventure Game"
       url: text-adventure-game/text-adventure-game.html
       percentage: 5%
       due_date: 2022-01-17
@@ -181,7 +181,7 @@
           presenters: Yuxuan Wang        
   hw:
     -
-      title: Generating Descriptions HW
+      title: "Homework 2: Generating Descriptions"
       url: generating-descriptions/generating-descriptions.html
       percentage: 10%
       due_date: 2022-01-31
@@ -301,7 +301,7 @@
           presenters: "Anshul Wadhawan, Karmanya Aggarwal, & Pooja Dattatri"
   hw:
     -
-      title: Plot Graph Generation HW
+      title: "Homework 3: Plot Graph Generation"
       percentage: 10%
       due_date: 2022-02-15
       url: plots/plots.html
@@ -314,9 +314,10 @@
   description: 
   hw:
     -
-      title: Planning HW
+      title: "Homework 4: Convert WikiHow to PDDL"
       percentage: 10%
-      due_date: 2022-02-28
+      due_date: 2022-03-03
+      url: planning/planning.html
   lessons:
     - 
       title: Search
@@ -523,17 +524,17 @@
           authors: Lei Shi and Rada Mihalcea
           url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf          
     -
-      title: Guest Lecture
+      title: Recap + Ontologies
       guest_speaker: Susan Brown
       guest_url: https://verbs.colorado.edu/brownsw/
       readings:
 
   hw:
     -
-      title: Schemas HW
+      title: "Homework 5: COMET-ATOMIC Schema"
       percentage: 10%
       due_date: 2022-03-21
-
+      url: schemas/schemas.html
 -
   module_number: 5
   start_date: 2022-03-22
