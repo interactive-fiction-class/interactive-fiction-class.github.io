@@ -470,23 +470,19 @@
           title: Commonsense Reasoning for Natural Language Understanding&colon; A Survey of Benchmarks, Resources, and Approaches
           authors: Shane Storks, Qiaozi Gao, Joyce Y. Chai
           url: https://arxiv.org/abs/1904.01172
-          year: 2019
         -
           title: ACL 2020 Commonsense Tutorial
           authors: Yejin Choi, Vered Shwartz, Maarten Sap, Antoine Bosselut, Dan Roth
           url: https://homes.cs.washington.edu/~msap/acl2020-commonsense/
-          year: 2020
         -
           title: "NaturalLI: Natural Logic Inference for Common Sense Reasoning"
           authors: Gabor Angeli and Chris Manning
-          url: https://www.aclweb.org/anthology/D14-1059.pdf
-          year: 2018          
+          url: https://www.aclweb.org/anthology/D14-1059.pdf        
       optional:          
         -
           title: AI2 Common Sense leaderboards
           authors: Allen Institute for Artificial Intelligence
           url: https://leaderboard.allenai.org
-          year: 2019
     -
       title: Knowledge Representations + Schemata
       slides: https://interactive-fiction-class.org/slides/CIS700-KnowledgeBases.pdf
@@ -522,12 +518,16 @@
         -
           title: "Putting Pieces Together: Combining FrameNet, VerbNet and WordNet for Robust Semantic Parsing"
           authors: Lei Shi and Rada Mihalcea
-          url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf          
+          url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf
     -
-      title: Recap + Ontologies
+      title: Midsemester Recap
+      slides: slides/CIS700-Midsemester-Recap.pdf
+    -
+      title: Ontologies
       guest_speaker: Susan Brown
       guest_url: https://verbs.colorado.edu/brownsw/
       readings:
+      slides: 
     -
       title: Lightning Talks + Module 4 Paper Presentations
       presentations:
