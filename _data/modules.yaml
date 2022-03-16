@@ -520,14 +520,11 @@
           authors: Lei Shi and Rada Mihalcea
           url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf
     -
-      title: Midsemester Recap
-      slides: slides/CIS700-Midsemester-Recap.pdf
-    -
-      title: Ontologies
+      title: Midsemester Recap + Ontologies
       guest_speaker: Susan Brown
       guest_url: https://verbs.colorado.edu/brownsw/
       readings:
-      slides: 
+      slides: slides/CIS700-Midsemester-Recap.pdf
     -
       title: Lightning Talks + Module 4 Paper Presentations
       presentations:
