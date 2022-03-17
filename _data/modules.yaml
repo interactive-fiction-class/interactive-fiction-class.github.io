@@ -403,7 +403,7 @@
           url: http://cs.uky.edu/~sgware/reading/papers/ware2019multi.pdf
     -
       title: Façade Playthrough + Module 3 Paper Presentations
-      video: 
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04ced777-7234-4c0e-a027-ae460159cebc
       readings:
         -
           title: "Learning Norms from Stories: A Prior for Value Aligned Agents"
@@ -457,6 +457,7 @@
     -
       title: Commonsense Reasoning
       slides: https://interactive-fiction-class.org/slides/Commonsense-Reasoning.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec56c54e-980b-42d7-b864-ae4b01578757
       readings:
         -
           title: Machine Common Sense Concept Paper
@@ -486,6 +487,7 @@
     -
       title: Knowledge Representations + Schemata
       slides: https://interactive-fiction-class.org/slides/CIS700-KnowledgeBases.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d0bb2997-cba8-47cf-b6d9-ae4d01582e07
       readings:
         -
           title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
@@ -525,8 +527,26 @@
       guest_url: https://verbs.colorado.edu/brownsw/
       readings:
       slides: slides/CIS700-Midsemester-Recap.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31d9b840-2179-44f4-b32a-ae59014effdd
     -
-      title: Lightning Talks + Module 4 Paper Presentations
+      title: Lightning Talks
+
+
+  hw:
+    -
+      title: "Homework 5: COMET-ATOMIC Schema"
+      percentage: 10%
+      due_date: 2022-03-21
+      url: schemas/schemas.html
+-
+  module_number: 5
+  start_date: 2022-03-22
+  end_date: 2022-04-04
+  title: Characters
+  description: 
+  lessons:
+    -
+      title: Module 4 Paper Presentations + Intro to Dialogue
       presentations:
         -
           presenters: "Weiqiu You, Yifei Li, & Yukai Yang
@@ -544,22 +564,6 @@
           presenters: "Xiaofeng Wang, Zhihang Yuan, & Tianyi Zhang"
           title: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
           url: https://ojs.aaai.org//index.php/AAAI/article/view/4160
-
-  hw:
-    -
-      title: "Homework 5: COMET-ATOMIC Schema"
-      percentage: 10%
-      due_date: 2022-03-21
-      url: schemas/schemas.html
--
-  module_number: 5
-  start_date: 2022-03-22
-  end_date: 2022-04-04
-  title: Characters
-  description: 
-  lessons:
-    -
-      title: Intro to Dialogue
       readings:
         -
           title: Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models
