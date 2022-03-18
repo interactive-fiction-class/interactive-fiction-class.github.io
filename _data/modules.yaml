@@ -528,8 +528,7 @@
       readings:
       slides: slides/CIS700-Midsemester-Recap.pdf
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31d9b840-2179-44f4-b32a-ae59014effdd
-    -
-      title: Lightning Talks
+
 
 
   hw:
@@ -549,7 +548,7 @@
       title: Module 4 Paper Presentations + Intro to Dialogue
       presentations:
         -
-          presenters: "Weiqiu You, Yifei Li, & Yukai Yang
+          presenters: "Weiqiu You, Yifei Li, & Yukai Yang"
           title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
           url: https://dl.acm.org/doi/10.5555/3298023.3298212
         -
