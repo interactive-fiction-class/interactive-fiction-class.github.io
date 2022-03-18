@@ -541,11 +541,11 @@
   module_number: 5
   start_date: 2022-03-22
   end_date: 2022-04-04
-  title: Characters
+  title: Dialog + Characters
   description: 
   lessons:
     -
-      title: Module 4 Paper Presentations + Intro to Dialogue
+      title: Module 4 Paper Presentations
       presentations:
         -
           presenters: "Weiqiu You, Yifei Li, & Yukai Yang"
@@ -563,6 +563,8 @@
           presenters: "Xiaofeng Wang, Zhihang Yuan, & Tianyi Zhang"
           title: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
           url: https://ojs.aaai.org//index.php/AAAI/article/view/4160
+    -
+      title: Intro to Dialogue + Dialogue for Interactive Fiction
       readings:
         -
           title: Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models
@@ -581,10 +583,7 @@
         -
           title: "DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation"
           authors: Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan
-          url: https://aclanthology.org/2020.acl-demos.30/
-    -
-      title: Dialogue for Interactive Fiction
-      readings:
+          url: https://aclanthology.org/2020.acl-demos.30/      
         -
           title: Learning to Speak and Act in a Fantasy Text Adventure Game
           authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
@@ -614,7 +613,7 @@
           url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds             
   hw:
     -
-      title: Characters HW
+      title: "Homework 6: Alexa Action-Castle"
       percentage: 10%
       due_date: 2022-04-04   
 
