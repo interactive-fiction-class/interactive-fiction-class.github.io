@@ -1,0 +1,123 @@
+---
+layout: default
+title: Alexa Action Castle
+type: Homework
+number: 6
+active_tab: homework
+release_date: 2022-03-22 
+due_date: 2022-04-04 23:59:00EST
+materials:
+    - 
+        name: Lambda Function Zip
+        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/alexa_action_castle/lambda.zip
+    - 
+        name: Parsely&colon; Preview n' Play Edition (this contains the Action Castle game).  
+        url: http://www.memento-mori.com/pdf/parsely-preview-n-play-edition
+    - 
+        name: Text from Action Castle  
+        url: https://raw.githubusercontent.com/interactive-fiction-class/interactive-fiction-class.github.io/master/homeworks/text-adventure-game/action_castle_text.txt
+# submission_link: https://www.gradescope.com/courses/354158/assignments/1772512/
+readings:
+    - title: Your First Alexa Skill
+      authors: Amazon Alexa
+      url: https://developer.amazon.com/en-US/alexa/alexa-skills-kit/start?sc_category=paid&sc_channel=SEM&sc_campaign=SEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex&sc_publisher=GO&sc_content=content&sc_detail=379690615170&sc_funnel=convert&sc_country=US&sc_keyword=how%20to%20make%20a%20alexa%20skill&sc_place=&sc_trackingcode=e&sc_segment=&sc_medium=paid%7CSEM%7CSEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex%7CGO%7Ccontent%7C379690615170%7Cconvert%7CUS%7Chow%20to%20make%20a%20alexa%20skill%7C%7Ce%7C&gclid=CjwKCAjwoduRBhA4EiwACL5RP7Rzwe-X7mZ-Ov4XLlWf2zCOoVCM2oEw2c1Q1pc6cNpDN6jDFWXxbxoCzKcQAvD_Bw
+    - title: Adventuron Classroom
+      authors: Chris Ainsley / Adventuron Software Limited
+      url: https://adventuron.io/classroom/
+      note: This is a tutorial aimed at teaching elementary school kids how to program by writing a text adventure game.  I modeled our text adventure game after this Adventuron system.
+    - title: How to Make a Text-Based Adventure - Commands and Parser
+      authors: The Hitchhiker's Guide to the Galaxy (H2G2)
+      url: https://h2g2.com/edited_entry/A20600641
+---
+
+
+<!-- Check whether the assignment is ready to release -->
+{% capture today %}{{site.time | date: '%Y%m%d'}}{% endcapture %}
+{% capture due_date %}{{page.due_date | date: '%Y%m%d'}}{% endcapture %}
+{% if due_date < today %} 
+<div class="alert alert-danger">
+
+Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
+</div>
+{% endif %}
+<!-- End of check whether the assignment is up to date -->
+
+
+<!-- Check whether the assignment is up to date -->
+{% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
+{% capture due_year %}{{page.due_date | date: '%Y'}}{% endcapture %}
+{% if this_year != due_year %} 
+<div class="alert alert-danger">
+Warning: this assignment is out of date.  It may still need to be updated for this year's class.  Check with your instructor before you start working on this assignment.
+</div>
+{% endif %}
+<!-- End of check whether the assignment is up to date -->
+
+
+<div class="alert alert-info">
+This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} at {{ page.due_date | date: "%I:%M%p" }} EST. 
+</div>
+
+{% if page.materials %}
+<div class="alert alert-info">
+You can download the materials for this assignment here:
+<ul>
+{% for item in page.materials %}
+<li><a href="{{item.url}}">{{ item.name }}</a></li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+
+{{page.type}} {{page.number}}: {{page.title}}
+=============================================================
+
+## Instructions
+
+For this homework you will re-implement your action castle game from homework 1 but in the form of an Alexa skill. You will be able to reuse a lot of the code you wrote in homework 1, but you will have to focus on implementing your intent request using Alexa Intents and the Command Parser by creating Alexa Request Handlers. You can implement the original action castle game, or if you want to be creative you can implement any other interractive fiction game you would like. We will play all of your games, and award full credit if there are no errors in the flow of the game. 
+
+### Starter code
+
+We have provided [starter code for an Alexa adventure game](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/alexa_action_castle/lambda.zip).  You are free modify it however you want, and bring in any dependencies you feel will be useful but do not forget to add them to the `requirmements.txt`. 
+
+### Set up the Environment
+
+Sign in to the [Alexa Developer Console](https://developer.amazon.com/en-US/alexa/alexa-skills-kit/start?sc_category=paid&sc_channel=SEM&sc_campaign=SEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex&sc_publisher=GO&sc_content=content&sc_detail=571868003723&sc_funnel=convert&sc_country=US&sc_keyword=alexa%20developer%20console&sc_place=&sc_trackingcode=e&sc_segment=&sc_medium=paid%7CSEM%7CSEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex%7CGO%7Ccontent%7C571868003723%7Cconvert%7CUS%7Calexa%20developer%20console%7C%7Ce%7C&gclid=CjwKCAjwoduRBhA4EiwACL5RP8suprxHnexM4TslG_jvjmEYp2-lbEjkdUA-sCXTwZ2URKafzWGjshoCYREQAvD_BwE). Click on “Create Skill”. Select the *Custom Model* and *Alexa Hosted (Python)* options. In the next page select the *Start from Scratch* option.  Once you create your skill, then click on it and go on the `Code` tab. There you can copy paste the template files we gave you in lambda.zip or even better you can use the `import` functionality. 
+
+You should define a set of [Amazon Intents](https://developer.amazon.com/en-US/docs/alexa/interaction-model-design/design-the-custom-intents-for-your-skill.html) and implement [RequestHandlers](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-java/handle-requests.html) to parse them.  You may also find useful to look into [ASK Skills Documentation](https://alexa-skills-kit-python-sdk.readthedocs.io/en/latest/api/core.html).
+
+*Note:* We have implemented the direction request handler for you. You will still have to implement the intents in the interaction model but it should be helpful guidance to implement the rest of the request handlers. 
+
+
+### Some useful commands
+* `ask_utils.is_request_type(type)(handler_input)`: checks if the request type is equal to input type. 
+* `ask_utils.is_intent_name(name)(handler_input)`: checks if the request intent name is equal to input name
+* `ask_utils.request_util.get_slot(handler_input, slot_name)`: returns an object of the slot with name slot_name. You can use obj.value to get the string name of the slot. 
+
+
+### Debugging:
+* You can use CloudWatch to debug your code. When you are in the Code tab in the Alexa developer console, you can click on Cloudwatch logs to be directed on your skill’s log output. 
+* You can test your skill in the Test tab of the console. The logs from there will be on Cloudwatch. 
+
+### Invite Beta Testers
+
+In order to submit your code you should invite the TAs a Beta testers. Here are the instructions on how to do this. Our emails are:`artemisp@seas.upenn.edu`, `ldugan@seas.upenn.edu`. When you release a skill for beta testing you need to complete the Privacy and Compliance Component. You can safely answer *no* to all those questions.  
+
+
+
+## What to submit
+
+You should invite the TAs to be BETA testers for your skill as instructed in the relevant section above. You should also submit:
+
+1. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It shold be a plain text file with one command per line.
+2. A zip folder `lambda.zip` that contains the code for your game.
+
+Submissions should be done on [Gradescope]({{page.submission_link}}).
+
+{% if page.readings %} 
+## Recommended readings
+{% for reading in page.readings %}
+* {{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a>.  <i>{{ reading.note }}</i>
+{% endfor %}
+{% endif %}
