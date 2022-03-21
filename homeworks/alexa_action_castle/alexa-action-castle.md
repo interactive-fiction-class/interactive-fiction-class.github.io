@@ -85,12 +85,12 @@ We have provided [starter code for an Alexa adventure game](https://colab.resear
 
 Before we explain what you will be doing, there are first some Alexa-specific terms we need define.
 
-* **Skill:** A 3rd party application for Amazon Alexa
+* **Skill:** A 3rd party application for Amazon Alexa.
 * **Intent:** A schema for capturing what the user is trying to accomplish when they talk to Alexa (i.e., taking a command and turning it into something Alexa can work with).
-* **Request:** The data that the device sends to the server to get a response.
+* **Request:** What the user requests from the device.
 * **Request Handler:** The processes that send and receive requests.
 * **Interaction Model:** Determines whether the current Skill can handle certain requests.
-* **[Slot](https://medium.com/enpit-developer-blog/alexa-what-are-slots-and-how-to-read-slot-values-ea050047df0c):** Variables within an Intent
+* **[Slot](https://medium.com/enpit-developer-blog/alexa-what-are-slots-and-how-to-read-slot-values-ea050047df0c):** Variables within an Intent.
 
 ### Setting up the Environment
 
