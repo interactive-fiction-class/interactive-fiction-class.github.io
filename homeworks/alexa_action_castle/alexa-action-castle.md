@@ -75,24 +75,35 @@ You can download the materials for this assignment here:
 
 ## Instructions
 
-For this homework you will re-implement your action castle game from homework 1 but in the form of an Alexa skill. You will be able to reuse a lot of the code you wrote in homework 1, but you will have to focus on implementing your intent request using Alexa Intents and the Command Parser by creating Alexa Request Handlers. You can implement the original action castle game, or if you want to be creative you can implement any other interractive fiction game you would like. We will play all of your games, and award full credit if there are no errors in the flow of the game. 
+For this homework you will re-implement your Action Castle game from Homework 1 but in the form of an Alexa skill. You will be able to reuse a lot of the code you wrote in Homework 1, but you will have to focus on implementing your _intent request_ using Alexa Intents and the _Command Parser_ by creating Alexa Request Handlers. You can use the original Action Castle game, or if you want to be creative, you can implement any other interractive fiction game you would like. We will play all of your games and give full credit if there are no errors in the flow of the game. 
 
 ### Starter code
 
-We have provided [starter code for an Alexa adventure game](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/alexa_action_castle/lambda.zip).  You are free modify it however you want, and bring in any dependencies you feel will be useful but do not forget to add them to the `requirmements.txt`. 
+We have provided [starter code for an Alexa adventure game](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/alexa_action_castle/lambda.zip).  You are free modify it however you want and bring in any dependencies you feel will be useful, but do not forget to add them to `requirements.txt`.
 
-### Set up the Environment
+### Definitions
 
-Sign in to the [Alexa Developer Console](https://developer.amazon.com/en-US/alexa/alexa-skills-kit/start?sc_category=paid&sc_channel=SEM&sc_campaign=SEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex&sc_publisher=GO&sc_content=content&sc_detail=571868003723&sc_funnel=convert&sc_country=US&sc_keyword=alexa%20developer%20console&sc_place=&sc_trackingcode=e&sc_segment=&sc_medium=paid%7CSEM%7CSEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex%7CGO%7Ccontent%7C571868003723%7Cconvert%7CUS%7Calexa%20developer%20console%7C%7Ce%7C&gclid=CjwKCAjwoduRBhA4EiwACL5RP8suprxHnexM4TslG_jvjmEYp2-lbEjkdUA-sCXTwZ2URKafzWGjshoCYREQAvD_BwE). Click on “Create Skill”. Select the *Custom Model* and *Alexa Hosted (Python)* options. In the next page select the *Start from Scratch* option.  Once you create your skill, then click on it and go on the `Code` tab. There you can copy paste the template files we gave you in lambda.zip or even better you can use the `import` functionality. 
+Before we explain what you will be doing, there are first some Alexa-specific terms we need define.
 
-You should define a set of [Amazon Intents](https://developer.amazon.com/en-US/docs/alexa/interaction-model-design/design-the-custom-intents-for-your-skill.html) and implement [RequestHandlers](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-java/handle-requests.html) to parse them.  You may also find useful to look into [ASK Skills Documentation](https://alexa-skills-kit-python-sdk.readthedocs.io/en/latest/api/core.html).
+* **Skill:** A 3rd party application for Amazon Alexa
+* **Intent:** A schema for capturing what the user is trying to accomplish when they talk to Alexa (i.e., taking a command and turning it into something Alexa can work with).
+* **Request:** The data that the device sends to the server to get a response.
+* **Request Handler:** The processes that send and receive requests.
+* **Interaction Model:** Determines whether the current Skill can handle certain requests.
+* **[Slot](https://medium.com/enpit-developer-blog/alexa-what-are-slots-and-how-to-read-slot-values-ea050047df0c):** Variables within an Intent
 
-*Note:* We have implemented the direction request handler for you. You will still have to implement the intents in the interaction model but it should be helpful guidance to implement the rest of the request handlers. 
+### Setting up the Environment
+
+Sign in to the [Alexa Developer Console](https://developer.amazon.com/en-US/alexa/alexa-skills-kit/start?sc_category=paid&sc_channel=SEM&sc_campaign=SEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex&sc_publisher=GO&sc_content=content&sc_detail=571868003723&sc_funnel=convert&sc_country=US&sc_keyword=alexa%20developer%20console&sc_place=&sc_trackingcode=e&sc_segment=&sc_medium=paid%7CSEM%7CSEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex%7CGO%7Ccontent%7C571868003723%7Cconvert%7CUS%7Calexa%20developer%20console%7C%7Ce%7C&gclid=CjwKCAjwoduRBhA4EiwACL5RP8suprxHnexM4TslG_jvjmEYp2-lbEjkdUA-sCXTwZ2URKafzWGjshoCYREQAvD_BwE). Click on "Create Skill". Select the *Custom Model* and *Alexa Hosted (Python)* options. In the next page select the *Start from Scratch* option.  Once you create your skill, click on it and go on the `Code` tab. There you can copy and paste the template files we gave you in lambda.zip, or even better, you can use Python's `import` functionality. 
+
+You should define a set of [Amazon Intents](https://developer.amazon.com/en-US/docs/alexa/interaction-model-design/design-the-custom-intents-for-your-skill.html) and implement [RequestHandlers](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-java/handle-requests.html) to parse them.  You may also find it useful to look into the [ASK Skills Documentation](https://alexa-skills-kit-python-sdk.readthedocs.io/en/latest/api/core.html).
+
+*Note:* We have implemented the "direction" Request Handler for you. You will still have to implement the Intents in the interaction model, but you can use the "direction" Request Handler as a guide for creating other Request Handlers. 
 
 
-### Some useful commands
-* `ask_utils.is_request_type(type)(handler_input)`: checks if the request type is equal to input type. 
-* `ask_utils.is_intent_name(name)(handler_input)`: checks if the request intent name is equal to input name
+#### Some useful commands
+* `ask_utils.is_request_type(type)(handler_input)`: checks if the request type is equal to the input type. 
+* `ask_utils.is_intent_name(name)(handler_input)`: checks if the request intent name is equal to the input name.
 * `ask_utils.request_util.get_slot(handler_input, slot_name)`: returns an object of the slot with name slot_name. You can use obj.value to get the string name of the slot. 
 
 
@@ -102,7 +113,7 @@ You should define a set of [Amazon Intents](https://developer.amazon.com/en-US/d
 
 ### Invite Beta Testers
 
-In order to submit your code you should invite the TAs a Beta testers. Here are the instructions on how to do this. Our emails are:`artemisp@seas.upenn.edu`, `ldugan@seas.upenn.edu`. When you release a skill for beta testing you need to complete the Privacy and Compliance Component. You can safely answer *no* to all those questions.  
+In order to submit your code, you should invite the TAs as Beta testers. [Here are the instructions]() on how to do this. Our emails are:`artemisp@seas.upenn.edu`, `ldugan@seas.upenn.edu`. When you release a skill for beta testing you need to complete the Privacy and Compliance Component. You can safely answer *no* to all those questions.  
 
 
 
@@ -111,7 +122,7 @@ In order to submit your code you should invite the TAs a Beta testers. Here are 
 You should invite the TAs to be BETA testers for your skill as instructed in the relevant section above. You should also submit:
 
 1. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It shold be a plain text file with one command per line.
-2. A zip folder `lambda.zip` that contains the code for your game.
+2. A zipped folder `lambda.zip` that contains the code for your game.
 
 Submissions should be done on [Gradescope]({{page.submission_link}}).
 
