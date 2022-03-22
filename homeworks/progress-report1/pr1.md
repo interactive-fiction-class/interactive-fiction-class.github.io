@@ -59,7 +59,7 @@ For this milestone, you should read papers that are related to your project and 
 * Outline a more definite plan on the types of methods you want to use. What will your system look like?
    * If your project involves doing text parsing with tools like AllenNLP/Stanza/Spacy, do some experiments to see whether the parsing you want to do is feasible. 
 
-For those with extra ambitious project, we suggest doing these bullet points for this milestone as well:
+For those with extra ambitious projects, we suggest doing these bullet points for this milestone as well:
 * If your project involves training/fine-tuning a neural network, try training some preliminary models and observing the outputs.
 * If your project involves a user experience of some sort, create a mock-up of the user interface (even if it's not fully functional/feature-complete yet).
 
@@ -103,5 +103,5 @@ __Title__ & __Author Names__: What are you calling your project? These are not g
 # What to Submit
 Submit the following to [Gradescope](https://www.gradescope.com/courses/354158/assignments/1944469):
 * `lit_review.pdf` which contains your literature review. This can be in any format you like. We find that using Google Docs and then downloading as a PDF works well for this sort of thing.
-* `milestone2.pdf` which contains your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template. You may choose to use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm).
+* `milestone2.pdf` which contains your milestone 2 submission. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template. You may choose to use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm).
 
