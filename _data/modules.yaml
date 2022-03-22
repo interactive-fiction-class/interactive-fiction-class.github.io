@@ -450,7 +450,7 @@
 -
   module_number: 4
   start_date: 2022-03-01
-  end_date: 2022-03-21
+  end_date: 2022-03-22
   title: Commonsense Reasoning + Schemas
   description:
   lessons:
@@ -528,24 +528,18 @@
       readings:
       slides: slides/CIS700-Midsemester-Recap.pdf
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31d9b840-2179-44f4-b32a-ae59014effdd
-
-
-
-  hw:
-    -
-      title: "Homework 5: COMET-ATOMIC Schema"
-      percentage: 10%
-      due_date: 2022-03-21
-      url: schemas/schemas.html
--
-  module_number: 5
-  start_date: 2022-03-22
-  end_date: 2022-04-04
-  title: Dialog + Characters
-  description: 
-  lessons:
     -
       title: Module 4 Paper Presentations
+      readings:
+        -
+          title: Retrofitting Word Vectors to Semantic Lexicons
+          url: https://arxiv.org/abs/1411.4166
+          authors: "Manaal Faruqui, Jesse Dodge, Sujay K. Jauhar, Chris Dyer, Eduard Hovy, Noah A. Smith"
+      optional:
+        -
+          title: Stanford Natural Language Inference (SNLI) Corpus
+          url: https://nlp.stanford.edu/projects/snli/
+          authors: "Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning"
       presentations:
         -
           presenters: "Weiqiu You, Yifei Li, & Yukai Yang"
@@ -563,6 +557,21 @@
           presenters: "Xiaofeng Wang, Zhihang Yuan, & Tianyi Zhang"
           title: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
           url: https://ojs.aaai.org//index.php/AAAI/article/view/4160
+
+
+  hw:
+    -
+      title: "Homework 5: COMET-ATOMIC Schema"
+      percentage: 10%
+      due_date: 2022-03-21
+      url: schemas/schemas.html
+-
+  module_number: 5
+  start_date: 2022-03-24
+  end_date: 2022-04-04
+  title: Dialog + Characters
+  description: 
+  lessons:
     -
       title: Intro to Dialogue + Dialogue for Interactive Fiction
       readings:
