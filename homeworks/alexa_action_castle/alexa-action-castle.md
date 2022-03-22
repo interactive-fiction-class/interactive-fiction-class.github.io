@@ -16,7 +16,7 @@ materials:
     - 
         name: Text from Action Castle  
         url: https://raw.githubusercontent.com/interactive-fiction-class/interactive-fiction-class.github.io/master/homeworks/text-adventure-game/action_castle_text.txt
-# submission_link: https://www.gradescope.com/courses/354158/assignments/1772512/
+submission_link: https://www.gradescope.com/courses/354158/assignments/1944235
 readings:
     - title: Your First Alexa Skill
       authors: Amazon Alexa
@@ -113,7 +113,7 @@ You should define a set of [Amazon Intents](https://developer.amazon.com/en-US/d
 
 ### Invite Beta Testers
 
-In order to submit your code, you should invite the TAs as beta testers. [Here are the instructions]() on how to do this. Our emails are:`artemisp@seas.upenn.edu`, `ldugan@seas.upenn.edu`. When you release a Skill for beta testing you need to complete the _Privacy and Compliance Component_. You can safely answer *no* to all those questions.  
+In order to submit your code, you should invite the TAs as beta testers. [Here are the instructions](https://developer.amazon.com/en-US/docs/alexa/custom-skills/skills-beta-testing-for-alexa-skills.html) on how to do this. Our emails are:`artemisp@seas.upenn.edu`, `ldugan@seas.upenn.edu`. When you release a Skill for beta testing you need to complete the _Privacy and Compliance Component_. You can safely answer *no* to all those questions.  
 
 
 ## What to submit
