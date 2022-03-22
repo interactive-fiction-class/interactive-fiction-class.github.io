@@ -9,7 +9,7 @@ due_date: 2022-04-04 23:59:00EST
 materials:
     - 
         name: Lambda Function Zip
-        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/alexa_action_castle/lambda.zip
+        url: https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/raw/71a272ddeb413a8c399f37f1a527c77d771509a1/homeworks/alexa_action_castle/lambda.zip
     - 
         name: Parsely&colon; Preview n' Play Edition (this contains the Action Castle game).  
         url: http://www.memento-mori.com/pdf/parsely-preview-n-play-edition
@@ -79,7 +79,7 @@ For this homework you will re-implement your Action Castle game from [Homework 1
 
 ### Starter code
 
-We have provided [starter code for an Alexa adventure game](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/alexa_action_castle/lambda.zip).  You are free to modify it however you want and bring in any dependencies you feel will be useful, but do not forget to add them to `requirements.txt`.
+We have provided [starter code for an Alexa adventure game](https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/raw/71a272ddeb413a8c399f37f1a527c77d771509a1/homeworks/alexa_action_castle/lambda.zip).  You are free to modify it however you want and bring in any dependencies you feel will be useful, but do not forget to add them to `requirements.txt`.
 
 ### Definitions
 
