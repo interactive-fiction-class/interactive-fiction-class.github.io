@@ -104,7 +104,7 @@ We have provided [starter code for an Alexa adventure game](https://github.com/i
 
 
 #### Setting up the Environment
-![Click on the "Console" button](https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/23bb567280aba13ab9c3e09db35f87c0a887cace/assets/img/developer.png)
+![Click on the "Console" button](/assets/img/developer.png)
 Sign in to the [Alexa Developer Console](https://developer.amazon.com/en-US/alexa/alexa-skills-kit/start?sc_category=paid&sc_channel=SEM&sc_campaign=SEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex&sc_publisher=GO&sc_content=content&sc_detail=571868003723&sc_funnel=convert&sc_country=US&sc_keyword=alexa%20developer%20console&sc_place=&sc_trackingcode=e&sc_segment=&sc_medium=paid%7CSEM%7CSEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex%7CGO%7Ccontent%7C571868003723%7Cconvert%7CUS%7Calexa%20developer%20console%7C%7Ce%7C&gclid=CjwKCAjwoduRBhA4EiwACL5RP8suprxHnexM4TslG_jvjmEYp2-lbEjkdUA-sCXTwZ2URKafzWGjshoCYREQAvD_BwE) (see image above). 
 
 Then click on "Create Skill". Select the *Custom Model* and *Alexa Hosted (Python)* options. In the next page select the *Start from Scratch* option.  Once you create your skill, click on it and go on the `Code` tab. There you can copy and paste the template files we gave you in `lambda.zip`, or even better, you can use Python's `import` functionality. 
@@ -118,7 +118,7 @@ Add a new Handler class for each command and then add it to the `SkillBuilder()`
 *Note:* We have implemented the "direction" Request Handler for you (lines 30-70 of `lambda_function.py`). You will still have to implement the Intents in the Interaction Model. You can use the "direction" Request Handler as a guide for creating other Request Handlers. 
 
 Once you have your Handlers all setup, you need to add them to the Interaction Model as Intents. You can find the Intents in the Developer Console by going to the "Build" tab, selecting "Interaction Model" and then "Intents". The Intents page should look something like this:
-![Interaction Model](https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/0e00bbae7fa084da05ddbed6470ab9908d168608/assets/img/intents.png)
+![Interaction Model](/assets/img/intents.png)
 
 
 #### Some Useful Commands
