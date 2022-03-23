@@ -163,7 +163,7 @@
 
 -
   date: 2022-03-17
-  title: Lightning Talks
+  title: Final Project Lightning Talks
 
 -
   date: 2022-03-18
@@ -196,7 +196,7 @@
   homework_due:
     - 
       title: Final Project Milestone 2&colon; Progress Report (Select Idea &amp; Data Prep) (5%)
-      url: project-milestone2/project-milestone2.html
+      url: progress-report1/pr1.html
 
 -
   date: 2022-03-29
@@ -243,6 +243,7 @@
   date: 2022-04-12
   title: Theory of Mind and Intent in Procedural Agents
 
+
 -
   date: 2022-04-14
   title: Story Evaluation
@@ -253,6 +254,7 @@
   homework_due:
     - 
       title: Paper Summaries 4
+      url: https://www.gradescope.com/courses/354158/assignments/1945221
 
 -
   date: 2022-04-19
