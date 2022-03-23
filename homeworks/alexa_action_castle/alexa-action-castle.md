@@ -80,10 +80,6 @@ You can download the materials for this assignment here:
 
 For this homework you will re-implement your Action Castle game from [Homework 1](/homeworks/text-adventure-game/text-adventure-game.html) but in the form of a "Skill" for Amazon Alexa. You will be able to reuse a lot of the code you wrote in Homework 1, but the focus of this homework will be to implement your _intent request_ using Alexa Intents and the _Command Parser_ by creating Alexa Request Handlers. You can use the original Action Castle game, or if you want to be creative, you can implement any other interactive fiction game you would like. We will play all of your games and give full credit if there are no errors in the flow of the game. 
 
-### Starter code
-
-We have provided [starter code for an Alexa adventure game](https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/raw/71a272ddeb413a8c399f37f1a527c77d771509a1/homeworks/alexa_action_castle/lambda.zip).  You are free to modify it however you want and bring in any dependencies you feel will be useful, but do not forget to add them to `requirements.txt`.
-
 ### Definitions
 
 Before we explain what you will be doing, there are first some Alexa-specific terms we need define.
@@ -95,14 +91,31 @@ Before we explain what you will be doing, there are first some Alexa-specific te
 * **[Slot](https://medium.com/enpit-developer-blog/alexa-what-are-slots-and-how-to-read-slot-values-ea050047df0c):** Variables within an Intent.
 * **Interaction Model:** Determines whether the current Skill can handle certain Requests.
 
+### Starter code
+
+We have provided [starter code for an Alexa adventure game](https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/raw/71a272ddeb413a8c399f37f1a527c77d771509a1/homeworks/alexa_action_castle/lambda.zip).  You are free to modify it however you want and bring in any dependencies you feel will be useful, but do not forget to add them to `requirements.txt`.
+
+* The `lambda_function.py` file contains all of the Request Handlers. Add your Request Handlers here.
+* `game_classes.py` and `game_utils.py` hold all of the Action Castle code. Put your game code here.
+* `constants.py` is just a list of global constants you want the entire application to have access to. You might not need this.
+* You probably won't need to edit `utils.py` unless you want to add extra utilities.
+
+
 ### Setting up the Environment
 ![Click on the "Console" button](https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/23bb567280aba13ab9c3e09db35f87c0a887cace/assets/img/developer.png)
-Sign in to the [Alexa Developer Console](https://developer.amazon.com/en-US/alexa/alexa-skills-kit/start?sc_category=paid&sc_channel=SEM&sc_campaign=SEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex&sc_publisher=GO&sc_content=content&sc_detail=571868003723&sc_funnel=convert&sc_country=US&sc_keyword=alexa%20developer%20console&sc_place=&sc_trackingcode=e&sc_segment=&sc_medium=paid%7CSEM%7CSEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex%7CGO%7Ccontent%7C571868003723%7Cconvert%7CUS%7Calexa%20developer%20console%7C%7Ce%7C&gclid=CjwKCAjwoduRBhA4EiwACL5RP8suprxHnexM4TslG_jvjmEYp2-lbEjkdUA-sCXTwZ2URKafzWGjshoCYREQAvD_BwE). Click on "Create Skill". Select the *Custom Model* and *Alexa Hosted (Python)* options. In the next page select the *Start from Scratch* option.  Once you create your skill, click on it and go on the `Code` tab. There you can copy and paste the template files we gave you in `lambda.zip`, or even better, you can use Python's `import` functionality. 
+Sign in to the [Alexa Developer Console](https://developer.amazon.com/en-US/alexa/alexa-skills-kit/start?sc_category=paid&sc_channel=SEM&sc_campaign=SEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex&sc_publisher=GO&sc_content=content&sc_detail=571868003723&sc_funnel=convert&sc_country=US&sc_keyword=alexa%20developer%20console&sc_place=&sc_trackingcode=e&sc_segment=&sc_medium=paid%7CSEM%7CSEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex%7CGO%7Ccontent%7C571868003723%7Cconvert%7CUS%7Calexa%20developer%20console%7C%7Ce%7C&gclid=CjwKCAjwoduRBhA4EiwACL5RP8suprxHnexM4TslG_jvjmEYp2-lbEjkdUA-sCXTwZ2URKafzWGjshoCYREQAvD_BwE) (see image above). 
+
+Then click on "Create Skill". Select the *Custom Model* and *Alexa Hosted (Python)* options. In the next page select the *Start from Scratch* option.  Once you create your skill, click on it and go on the `Code` tab. There you can copy and paste the template files we gave you in `lambda.zip`, or even better, you can use Python's `import` functionality. 
+
+
 
 You should define a set of [Amazon Intents](https://developer.amazon.com/en-US/docs/alexa/interaction-model-design/design-the-custom-intents-for-your-skill.html) and implement [Request Handlers](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-java/handle-requests.html) to parse them.  You may also find it useful to look into the [ASK Skills Documentation](https://alexa-skills-kit-python-sdk.readthedocs.io/en/latest/api/core.html).
 
 *Note:* We have implemented the "direction" Request Handler for you. You will still have to implement the Intents in the Interaction Model, but you can use the "direction" Request Handler as a guide for creating other Request Handlers. 
 
+In `lambda_function.py`, each Request Handler has its own class, and within that class there is a `can_handle` function and a `handle` function. `can_handle` is where you specify the Intent (aka the keywords to trigger this). `handle` is what will happen when it's triggered.
+
+Add a new Handler class for each command and then add it to the SkillBuilder() at the end of the file (`sb.add_request_handler(yourHandler)`).
 
 #### Some useful commands
 * `ask_utils.is_request_type(type)(handler_input)`: checks if the Request type is equal to the input type. 
@@ -111,8 +124,10 @@ You should define a set of [Amazon Intents](https://developer.amazon.com/en-US/d
 
 
 ### Debugging:
+* You can test your Skill in the *Test* tab of the console. The logs from there will be on CloudWatch.
+    * **Important:** To start the Skill, you will first need to say/type: `open action castle`
 * You can use [CloudWatch](https://aws.amazon.com/cloudwatch/) to debug your code. When you are in the Code tab in the Alexa developer console, you can click on CloudWatch logs to be directed on your skill’s log output. 
-* You can test your Skill in the *Test* tab of the console. The logs from there will be on CloudWatch. 
+
 
 ### Invite Beta Testers
 
