@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Alexa Action Castle
+img: alexas.jpg
+img_link: https://www.amazon.com/alexa-setup-guide/b?ie=UTF8&node=17978645011
+caption: Alexa, tell me a story.
 type: Homework
 number: 6
 active_tab: homework
@@ -93,7 +96,7 @@ Before we explain what you will be doing, there are first some Alexa-specific te
 * **Interaction Model:** Determines whether the current Skill can handle certain Requests.
 
 ### Setting up the Environment
-
+![Click on the "Console" button](https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/23bb567280aba13ab9c3e09db35f87c0a887cace/assets/img/developer.png)
 Sign in to the [Alexa Developer Console](https://developer.amazon.com/en-US/alexa/alexa-skills-kit/start?sc_category=paid&sc_channel=SEM&sc_campaign=SEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex&sc_publisher=GO&sc_content=content&sc_detail=571868003723&sc_funnel=convert&sc_country=US&sc_keyword=alexa%20developer%20console&sc_place=&sc_trackingcode=e&sc_segment=&sc_medium=paid%7CSEM%7CSEM-GO%5EBrand%5EAll%5ELD%5EProfessional_Developer%5EEvergreen%5EUS%5EEnglish%5ETex%7CGO%7Ccontent%7C571868003723%7Cconvert%7CUS%7Calexa%20developer%20console%7C%7Ce%7C&gclid=CjwKCAjwoduRBhA4EiwACL5RP8suprxHnexM4TslG_jvjmEYp2-lbEjkdUA-sCXTwZ2URKafzWGjshoCYREQAvD_BwE). Click on "Create Skill". Select the *Custom Model* and *Alexa Hosted (Python)* options. In the next page select the *Start from Scratch* option.  Once you create your skill, click on it and go on the `Code` tab. There you can copy and paste the template files we gave you in `lambda.zip`, or even better, you can use Python's `import` functionality. 
 
 You should define a set of [Amazon Intents](https://developer.amazon.com/en-US/docs/alexa/interaction-model-design/design-the-custom-intents-for-your-skill.html) and implement [Request Handlers](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-java/handle-requests.html) to parse them.  You may also find it useful to look into the [ASK Skills Documentation](https://alexa-skills-kit-python-sdk.readthedocs.io/en/latest/api/core.html).
