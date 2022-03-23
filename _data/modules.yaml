@@ -624,7 +624,8 @@
     -
       title: "Homework 6: Alexa Action-Castle"
       percentage: 10%
-      due_date: 2022-04-04   
+      due_date: 2022-04-04
+      url: alexa_action_castle/alexa-action-castle.html
 
 -
   module_number: 6
