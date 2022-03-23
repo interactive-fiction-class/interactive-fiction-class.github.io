@@ -108,14 +108,17 @@ Sign in to the [Alexa Developer Console](https://developer.amazon.com/en-US/alex
 Then click on "Create Skill". Select the *Custom Model* and *Alexa Hosted (Python)* options. In the next page select the *Start from Scratch* option.  Once you create your skill, click on it and go on the `Code` tab. There you can copy and paste the template files we gave you in `lambda.zip`, or even better, you can use Python's `import` functionality. 
 
 
-
 You should define a set of [Amazon Intents](https://developer.amazon.com/en-US/docs/alexa/interaction-model-design/design-the-custom-intents-for-your-skill.html) and implement [Request Handlers](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-java/handle-requests.html) to parse them.  You may also find it useful to look into the [ASK Skills Documentation](https://alexa-skills-kit-python-sdk.readthedocs.io/en/latest/api/core.html).
 
-*Note:* We have implemented the "direction" Request Handler for you. You will still have to implement the Intents in the Interaction Model, but you can use the "direction" Request Handler as a guide for creating other Request Handlers. 
+*Note:* We have implemented the "direction" Request Handler for you (lines 30-70 of `lambda_function.py`). You will still have to implement the Intents in the Interaction Model, but you can use the "direction" Request Handler as a guide for creating other Request Handlers. 
 
 In `lambda_function.py`, each Request Handler has its own class, and within that class there is a `can_handle` function and a `handle` function. `can_handle` is where you specify the Intent (aka the keywords to trigger this). `handle` is what will happen when it's triggered.
 
 Add a new Handler class for each command and then add it to the SkillBuilder() at the end of the file (`sb.add_request_handler(yourHandler)`).
+Once you have your Handlers all setup, you need to add them to the Interaction Model as Intents. You can find the Intents by going to the "Build" tab, selecting "Interaction Model" and then "Intents". The Intents page should look something like this:
+![Interaction Model](https://github.com/interactive-fiction-class/interactive-fiction-class.github.io/blob/0e00bbae7fa084da05ddbed6470ab9908d168608/assets/img/intents.png)
+
+
 
 #### Some useful commands
 * `ask_utils.is_request_type(type)(handler_input)`: checks if the Request type is equal to the input type. 
