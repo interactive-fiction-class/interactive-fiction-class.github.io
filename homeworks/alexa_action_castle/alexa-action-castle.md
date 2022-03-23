@@ -78,7 +78,9 @@ You can download the materials for this assignment here:
 
 ## Instructions
 
-For this homework you will re-implement your Action Castle game from [Homework 1](/homeworks/text-adventure-game/text-adventure-game.html) but in the form of a "Skill" for Amazon Alexa. You will be able to reuse a lot of the code you wrote in Homework 1, but the focus of this homework will be to implement your _intent request_ using Alexa Intents and the _Command Parser_ by creating Alexa Request Handlers. You can use the original Action Castle game, or if you want to be creative, you can implement any other interactive fiction game you would like. We will play all of your games and give full credit if there are no errors in the flow of the game. 
+For this homework you will re-implement your Action Castle game from [Homework 1](/homeworks/text-adventure-game/text-adventure-game.html) but turning it into a task-oriented dialog system, specifically in the form of a "Skill" for Amazon Alexa. You will be able to reuse a lot of the code you wrote in Homework 1, but the focus of this homework will be to implement _commands_ using Alexa Intents and a _command parser_ by creating Alexa Request Handlers. You can use the original Action Castle game, or if you want to be creative, you can implement any other interactive fiction game you would like. We will play all of your games and give full credit if there are no errors in the flow of the game. 
+
+You will not be using Colab for this assignment.
 
 ### Definitions
 
