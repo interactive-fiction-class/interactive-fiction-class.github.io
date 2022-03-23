@@ -114,7 +114,7 @@ You will be defining a set of [Amazon Intents](https://developer.amazon.com/en-U
 
 In `lambda_function.py`, each Request Handler has its own class, and within that class there is a `can_handle()` function and a `handle()` function. `can_handle()` is where you specify the Intent (aka the keywords) to trigger this. `handle()` is what will happen when it's triggered.
 
-Add a new Handler class for each command and then add it to the SkillBuilder() at the end of the file with the command  `sb.add_request_handler(yourHandlerClass())`.
+Add a new Handler class for each command and then add it to the `SkillBuilder()` at the end of the file with the command  `sb.add_request_handler(yourHandlerClass())`.
 *Note:* We have implemented the "direction" Request Handler for you (lines 30-70 of `lambda_function.py`). You will still have to implement the Intents in the Interaction Model. You can use the "direction" Request Handler as a guide for creating other Request Handlers. 
 
 Once you have your Handlers all setup, you need to add them to the Interaction Model as Intents. You can find the Intents in the Developer Console by going to the "Build" tab, selecting "Interaction Model" and then "Intents". The Intents page should look something like this:
