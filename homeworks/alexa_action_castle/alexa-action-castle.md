@@ -8,7 +8,7 @@ type: Homework
 number: 6
 active_tab: homework
 release_date: 2022-03-22 
-due_date: 2022-04-04 23:59:00EST
+due_date: 2022-04-11 23:59:00EST
 materials:
     - 
         name: Lambda Function Zip
