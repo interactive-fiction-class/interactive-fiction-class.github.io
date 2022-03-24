@@ -63,7 +63,32 @@ In Class Activity: Train GPT-3 to Perform Dialogue for NPCs
 
 Today in class you will train GPT-3 to perform dialogue for non-player characters in games.  We will use a different part of [Facebook's LIGHT dataset](https://parl.ai/projects/light/), which we previously used to generate descriptions for items and locations in our text adventure games.  
 
-The LIGHT dataset also has characters in it.   
+
+# Characters in LIGHT 
+
+
+Characters have a description, a persona (a first person description of who they are and what their motivations might be), a character type (person, creature or object), a location (```in_room_id```) and an inventory (```carrying_objects```).
+
+Here is an example of the Gravedigger character.
+```python
+light_environment['characters']['203']
+
+{'base_form': ['gravedigger'],
+ 'carrying_objects': [890],
+ 'char_type': 'person',
+ 'character_id': 203,
+ 'corrected_name': 'gravedigger',
+ 'desc': 'You might want to talk to the gravedigger, specially if your looking for a friend, he might be odd but you will find a friend in him.',
+ 'ex_room_ids': [100, 349],
+ 'in_room_ids': [62],
+ 'is_plural': 0,
+ 'name': 'gravedigger',
+ 'orig_room_id': 349,
+ 'personas': ["I am low paid labor in this town. I do a job that many people shun because of my contact with death. I am very lonely and wish I had someone to talk to who isn't dead."],
+ 'wearing_objects': [],
+ 'wielding_objects': []}
+ ```
+
 
 
 ### What to do
