@@ -12,7 +12,7 @@ materials:
     - 
         name: Colab Notebook for training GPT3 on LIGHT Dialogue
         url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/dialogue/Fine-Tune_OpenAI_on_LIGHT_Dialogues.ipynb
-submission_link: XXX
+submission_link: https://www.gradescope.com/courses/354158/assignments/1948552
 readings:
     -
       title: How to Motivate Your Dragon&colon; Teaching Goal-Driven Agents to Speak and Act in Fantasy Worlds
