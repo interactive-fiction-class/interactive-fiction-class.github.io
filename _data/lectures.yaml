@@ -171,32 +171,25 @@
   type: no_lecture
   
 -
-  date: 2022-03-21
-  type: deadline
-  homework_due:
-    -
-      title: "HW5 Schemas: COMET-ATOMIC Schema (10%)"
-      url: schemas/schemas.html
--
   date: 2022-03-22
   title: Module 4 Paper Presentations
 
 -
   date: 2022-03-24
   title: Intro to Dialog + Dialogue for Interactive Fiction
+  
+-
+  date: 2022-03-25
+  type: deadline
+  homework_due:
+    -
+      title: "HW5 Schemas: COMET-ATOMIC Schema (10%)"
+      url: schemas/schemas.html
       
 -
   date: 2022-03-28
   title: Last day to withdraw from a course
   type: no_lecture  
-
--
-  date: 2022-03-28
-  type: deadline
-  homework_due:
-    - 
-      title: Final Project Milestone 2&colon; Progress Report (Select Idea &amp; Data Prep) (5%)
-      url: progress-report1/pr1.html
 
 -
   date: 2022-03-29
@@ -213,15 +206,14 @@
     -
       title: Paper Summaries 3
       url: https://www.gradescope.com/courses/354158/assignments/1937440
-
+      
 -
   date: 2022-04-04
   type: deadline
-  homework_due: 
+  homework_due:
     - 
-      title: "HW6 Dialog: Alexa Action-Castle (10%)"
-      url:  alexa_action_castle/alexa-action-castle.html
-
+      title: Final Project Milestone 2&colon; Progress Report (Select Idea &amp; Data Prep) (5%)
+      url: progress-report1/pr1.html
 
 -
   date: 2022-04-05
@@ -234,10 +226,10 @@
 -
   date: 2022-04-11
   type: deadline
-  homework_due:
+  homework_due: 
     - 
-      title: Final Project Milestone 3&colon; Progress Report (5%)
-      url: project-milestone3/project-milestone3.html
+      title: "HW6 Dialog: Alexa Action-Castle (10%)"
+      url:  alexa_action_castle/alexa-action-castle.html
 
 -
   date: 2022-04-12
@@ -248,6 +240,14 @@
   date: 2022-04-14
   title: Story Evaluation
 
+-
+  date: 2022-04-18
+  type: deadline
+  homework_due:
+    - 
+      title: Final Project Milestone 3&colon; Progress Report (5%)
+      url: project-milestone3/project-milestone3.html
+      
 -
   date: 2022-04-18
   type: deadline
