@@ -11,7 +11,7 @@ due_date: 2022-03-28 23:59:00EST
 materials:
     - 
         name: Colab Notebook for training GPT3 on LIGHT Dialogue
-        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/dialogue/Fine-Tune_OpenAI_on LIGHT_Dialogues.ipynb
+        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/dialogue/Fine-Tune_OpenAI_on_LIGHT_Dialogues.ipynb
 submission_link: XXX
 readings:
     -
@@ -88,7 +88,54 @@ light_environment['characters']['203']
  'wearing_objects': [],
  'wielding_objects': []}
  ```
+ 
+Here are some other examples of characters' names and their personas in LIGHT.
 
+* Witches - I only mastered one spell in witch school. I can speak with inanimate objects. I use this spell in espionage. I work for the government.
+* Queen - I am second in command under the king. I have a great power of authority. I am worshiped and seen as a wise and beautiful leader.
+* King - I am a king of the whole empire. I give rules and pursuit them. I am brave and fearless.
+* Dragon - I am a dragon living in the mountains. I enjoy hoarding treasure. I terrorize the local populace for fun.
+* Knight - I am a knight. I come from a lower-ranking noble family. I serve under the king, as my father did before me. In times of war, I fight on horseback.
+* Faeries - I giggle as I toss about my hair.  Some of the male faeries take notice and give chase.  How I love to tease them!  For they will never catch me.
+* Talking Cat - I am a talking cat. I can speak to humans. I have scared many, many children.
+* A Rat - I stick to the edge, nose up and ready for any morsels that may drop my way. Or sometimes they don't, but I often don't know until my jaws are upon it. A hunk of moldy crust, the edge of a dropped hymnbook, it is all fair game.
+* A Spider - I am a black widow spider.  I am spinning my web.  I hope to catch something delicious.  I will sit and wait until something is caught in my web.  Then it is game over for them.
+Ghosts - I am a ghost that haunts a castle. I do not recall how I came to exist. I make noises when I sense someone in my vicinity.
+
+# Dialogues in LIGHT
+
+Here is an example conversation from LIGHT.  It's a dialogue between two characters in a specific setting.  Each character takes a turn in the conversation, which can consist of a line of dialogue, or an action (which I've maked as "stage direction" as if this were a play), or they can make a gesture (called an *emote* in the LIGHT data).
+
+> **Setting:**
+> * Watchtower - The tower is the largest section of the castle. It contains an observatory for nighttime scouting, but is also used by the wise men to study the stars. Armed guardsmen are always to be found keeping watch. 
+>
+> **Characters:**
+> * Court wizard - I am an advisor of anything magical. I sell spells to those who need them. I am wealthy and hold an important place in political life
+> * Soldier - I came from the fertile valley when I was conscripted. The king needed strong farmer's sons to fight in the war. I am very unhappy here in the cold, damp, rainy north. I miss my friends and my dog. I hope to go back to my father's farm when the war ends.
+>  
+> **Conversation:** <br />
+> Court wizard: "A quiet night this evening..." <br />
+> Soldier: "Yes it is" <br />
+> Court wizard: "Have any else come up this eve? i had hoped for a quiet night to examine the stars" <br />
+> Court wizard: Gestures - Ponder <br />
+> Soldier: "Yes, a few came through, but it is a cold night for me, i am used to warmer weather" <br />
+> Soldier: Gestures - Nod <br />
+> Court wizard: "Well, you are but a common soldier.  no doubt you are used to such a lot.  thankfully i have my spells to keep me warm." <br />
+> Court wizard: Gestures - Sigh <br />
+> Soldier: "I am a soldier doing my job" <br />
+> Soldier: Gestures - Grin <br />
+> Court wizard: "Yes... well... very well then.  see that you do!  no slacking off while your betters are about." <br />
+> Soldier: "No sir" <br />
+> Court wizard: "When, for example, was this horn last tested?  it looks dented.  how can we be sure it will work?" <br />
+> Soldier: "A year ago, test it out or cause a need to use it" <br />
+> Court wizard: "Mayhap i will speak to the king about such lackness.  or perhaps i can sell him a spell that will serve just as well." <br />
+> Court wizard: Gestures - Frown <br />
+> Soldier: "Good idea, i agree, go do that" <br />
+> Soldier: Stage Direction - Hug court wizard <br />
+> Court wizard: "Get off of me, you fool!  who gave you permission to touch me!" <br />
+> Court wizard: Stage Direction - Hit soldier <br />
+> Soldier: "To the jail with you" <br />
+> Soldier: Stage Direction - Hit court wizard <br />
 
 
 ### What to do
