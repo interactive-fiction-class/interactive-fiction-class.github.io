@@ -64,10 +64,24 @@ In Class Activity: Train GPT-3 to Perform Dialogue for NPCs
 Today in class you will train GPT-3 to perform dialogue for non-player characters in games.  We will use a different part of [Facebook's LIGHT dataset](https://parl.ai/projects/light/), which we previously used to generate descriptions for items and locations in our text adventure games.  
 
 
-# Characters in LIGHT 
+# Characters and Dialogues in LIGHT 
 
 
-Characters have a description, a persona (a first person description of who they are and what their motivations might be), a character type (person, creature or object), a location (```in_room_id```) and an inventory (```carrying_objects```).
+Characters in the LIGHT dataset have a description and a persona, which is a first person description of who they are and what their motivations might be. Here are some examples of characters' names and their personas in LIGHT.
+
+* Witches - I only mastered one spell in witch school. I can speak with inanimate objects. I use this spell in espionage. I work for the government.
+* Queen - I am second in command under the king. I have a great power of authority. I am worshiped and seen as a wise and beautiful leader.
+* King - I am a king of the whole empire. I give rules and pursuit them. I am brave and fearless.
+* Dragon - I am a dragon living in the mountains. I enjoy hoarding treasure. I terrorize the local populace for fun.
+* Knight - I am a knight. I come from a lower-ranking noble family. I serve under the king, as my father did before me. In times of war, I fight on horseback.
+* Faeries - I giggle as I toss about my hair.  Some of the male faeries take notice and give chase.  How I love to tease them!  For they will never catch me.
+* Talking Cat - I am a talking cat. I can speak to humans. I have scared many, many children.
+* A Rat - I stick to the edge, nose up and ready for any morsels that may drop my way. Or sometimes they don't, but I often don't know until my jaws are upon it. A hunk of moldy crust, the edge of a dropped hymnbook, it is all fair game.
+* A Spider - I am a black widow spider.  I am spinning my web.  I hope to catch something delicious.  I will sit and wait until something is caught in my web.  Then it is game over for them.
+Ghosts - I am a ghost that haunts a castle. I do not recall how I came to exist. I make noises when I sense someone in my vicinity.
+
+<!--
+, a character type (person, creature or object), a location (```in_room_id```) and an inventory (```carrying_objects```).
 
 Here is an example of the Gravedigger character.
 ```python
@@ -88,23 +102,10 @@ light_environment['characters']['203']
  'wearing_objects': [],
  'wielding_objects': []}
  ```
- 
-Here are some other examples of characters' names and their personas in LIGHT.
+-->
 
-* Witches - I only mastered one spell in witch school. I can speak with inanimate objects. I use this spell in espionage. I work for the government.
-* Queen - I am second in command under the king. I have a great power of authority. I am worshiped and seen as a wise and beautiful leader.
-* King - I am a king of the whole empire. I give rules and pursuit them. I am brave and fearless.
-* Dragon - I am a dragon living in the mountains. I enjoy hoarding treasure. I terrorize the local populace for fun.
-* Knight - I am a knight. I come from a lower-ranking noble family. I serve under the king, as my father did before me. In times of war, I fight on horseback.
-* Faeries - I giggle as I toss about my hair.  Some of the male faeries take notice and give chase.  How I love to tease them!  For they will never catch me.
-* Talking Cat - I am a talking cat. I can speak to humans. I have scared many, many children.
-* A Rat - I stick to the edge, nose up and ready for any morsels that may drop my way. Or sometimes they don't, but I often don't know until my jaws are upon it. A hunk of moldy crust, the edge of a dropped hymnbook, it is all fair game.
-* A Spider - I am a black widow spider.  I am spinning my web.  I hope to catch something delicious.  I will sit and wait until something is caught in my web.  Then it is game over for them.
-Ghosts - I am a ghost that haunts a castle. I do not recall how I came to exist. I make noises when I sense someone in my vicinity.
 
-# Dialogues in LIGHT
-
-Here is an example conversation from LIGHT.  It's a dialogue between two characters in a specific setting.  Each character takes a turn in the conversation, which can consist of a line of dialogue, or an action (which I've maked as "stage direction" as if this were a play), or they can make a gesture (called an *emote* in the LIGHT data).
+Here is an example conversation from the LIGHT dataset.  It's a dialogue between two characters in a specific setting.  Each character takes a turn in the conversation, which can consist of a line of dialogue, or an action (which I've maked as "stage direction" as if this were a play), or they can make a gesture (called an *emote* in the LIGHT data).
 
 > **Setting:**
 > * Watchtower - The tower is the largest section of the castle. It contains an observatory for nighttime scouting, but is also used by the wise men to study the stars. Armed guardsmen are always to be found keeping watch. 
@@ -137,12 +138,37 @@ Here is an example conversation from LIGHT.  It's a dialogue between two charact
 > Soldier: "To the jail with you" <br />
 > Soldier: Stage Direction - Hit court wizard <br />
 
+# Training GPT-3 To Perform the Dialogue
 
-### What to do
+We will use the OpenAI API to perform dialogue in a similar style to the LIGHT dialogue.  We will try two approaches:
+1. Few-shot learning
+2. Fine-tuning
+
+You can start out by experimenting with few-shot learning on the [OpenAI playground](https://beta.openai.com/playground).  All you need to do is copy and paste two or three of the LIGHT dialogues into the playground.  Then add the appropriate infomation for the conversation that you want to generate.  Like the settings and the characters.  If you use all that as the prompt, then GPT-3 should generate something like this:
+
+<center>
+<img src="few-shot-dialogues.png" class="img-responsive"/>
+</center>
+
+
+If you want to change its behavior so that it it only generates one line at a time, then you can enter the newline character into the "Stop sequences" field on the right.  (To do this, click in the textbox, press Return, and then press Tab).
+
+If you set it up to generate one line of dialogue at a time, then you can have it play one of the characters, and you can play the other character by typing in your response.  This should be a reasonable starting point for dialogue in an interactice fiction game.
+
+
+# What to do
 
 1. Open the [{{page.materials[0].name}}]({{page.materials[0].url}}).
-2. Choose `Runtime > Run all`.
-3. XXX
+2. Save a copy of the notebook into your own drive. Choose `File > Save a copy in Drive`.
+3. Read through the code, and fill in the TODO sections.
+4. Complete the Few Shot Learning section and the Fine-Tuning section.
+5. Try creating coversations for Action Castle between the player and some of the NPCs.  You could have GPT-3 generate dialogue for
+- The troll at the drawbridge
+- The princess at the tower
+- The ghost of the king in the dungeon
+save your sample conversations as a file called `action_castle.txt`
+6. Submit your completed notebook and your `action_castle.txt` file to [Gradescope]({{page.submission_link}}).
+
 
 
 {% if page.readings %} 
