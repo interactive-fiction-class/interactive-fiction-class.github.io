@@ -321,7 +321,7 @@
   lessons:
     - 
       title: Search
-      slides: https://interactive-fiction-class.org/slides/Search-and-Planning.pdf
+      slides: slides/Search-and-Planning.pdf
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4ba6aa8a-01c6-4236-955e-ae3d015a4e33
       optional:
         - 
@@ -334,7 +334,7 @@
           presenters: "Josh Ludan & Young-Min Cho"       
     - 
       title: Classical Planning
-      slides: https://interactive-fiction-class.org/slides/Search-and-Planning.pdf
+      slides: slides/Search-and-Planning.pdf
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3673be5f-af5f-4876-9fda-ae3f0158dcde
       readings:     
       optional:
@@ -354,7 +354,7 @@
       guest_speaker: Stephen G. Ware
       guest_url: http://stephengware.com/
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=87c84497-a145-4fa1-bd3a-ae4401525e71
-      slides: https://interactive-fiction-class.org/slides/Sabre.pdf
+      slides: slides/Sabre.pdf
       optional:
         -
           title: Camelot Virtual Environment
@@ -456,7 +456,7 @@
   lessons:
     -
       title: Commonsense Reasoning
-      slides: https://interactive-fiction-class.org/slides/Commonsense-Reasoning.pdf
+      slides: slides/Commonsense-Reasoning.pdf
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec56c54e-980b-42d7-b864-ae4b01578757
       readings:
         -
@@ -486,7 +486,7 @@
           url: https://leaderboard.allenai.org
     -
       title: Knowledge Representations + Schemata
-      slides: https://interactive-fiction-class.org/slides/CIS700-KnowledgeBases.pdf
+      slides: slides/CIS700-KnowledgeBases.pdf
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d0bb2997-cba8-47cf-b6d9-ae4d01582e07
       readings:
         -
@@ -526,7 +526,7 @@
       guest_speaker: Susan Brown
       guest_url: https://verbs.colorado.edu/brownsw/
       readings:
-      slides: slides/CIS700-Midsemester-Recap.pdf
+      slides: slides/CIS700-Recap-Ontologies.pdf
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31d9b840-2179-44f4-b32a-ae59014effdd
     -
       title: Module 4 Paper Presentations
