@@ -1,8 +1,8 @@
 ---
 layout: default
-img: dialogue.png
-img_link: https://xkcd.com/1423/
-caption: Conversation 
+img: motivation.png
+img_link: https://xkcd.com/2154/
+caption: Motivation  
 title: Experiment with the LIGHT Quest Dataset
 type: in-class
 active_tab: homework
