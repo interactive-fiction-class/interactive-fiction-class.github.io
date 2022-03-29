@@ -3,7 +3,7 @@ layout: default
 img: dialogue.png
 img_link: https://xkcd.com/1423/
 caption: Conversation 
-title: LIGHT Quests
+title: Experiment with the LIGHT Quest Dataset
 type: in-class
 active_tab: homework
 release_date: 2022-03-29
@@ -15,7 +15,7 @@ materials:
 submission_link: https://www.gradescope.com/courses/354158/assignments/1959911/
 readings:
     -
-      title: How to Motivate Your Dragon&colon; Teaching Goal-Driven Agents to Speak and Act in Fantasy Worlds
+      title: "How to Motivate Your Dragon: Teaching Goal-Driven Agents to Speak and Act in Fantasy Worlds"
       authors: Prithviraj Ammanabrolu, Jack Urbanek, Margaret Li, Arthur Szlam, Tim Rocktäschel, Jason Weston
       url: https://arxiv.org/pdf/2010.00685.pdf
 ---
