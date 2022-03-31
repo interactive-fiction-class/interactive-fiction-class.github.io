@@ -620,7 +620,39 @@
         -
           title: Curating Simulated Storyworlds
           authors: James Ryan
-          url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds             
+          url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds
+    -
+      title: Module 5 Paper Presentations
+      readings:
+        -
+          title: Recipes for Building an Open-Domain Chatbot
+          authors: Stephen Roller, Emily Dinan, Naman Goyal, Da Ju, Mary Williamson, Yinhan Liu, Jing Xu, Myle Ott, Eric Michael Smith, Y-Lan Boureau, Jason Weston
+          url: https://aclanthology.org/2021.eacl-main.24
+        -
+          title: Towards a Human-like Open-Domain Chatbot
+          authors: Daniel Adiwardana, Minh-Thang Luong, David R. So, Jamie Hall, Noah Fiedel, Romal Thoppilan, Zi Yang, Apoorv Kulshreshtha, Gaurav Nemade, Yifeng Lu, Quoc V. Le
+          url: https://arxiv.org/abs/2001.09977
+        -
+          title: "ChatEval: A Tool for Chatbot Evaluation"
+          authors: "Joao Sedoc, Daphne Ippolito, Arun Kirubarajan, Jai Thirani, Lyle Ungar, Chris Callison-Burch"
+          url: https://www.cis.upenn.edu/~ccb/publications/chateval-demo.pdf
+      presentations:
+        -
+          presenters: "Zhihua Zhang, Zach (Zichen) Li, & Anish Neervannan"
+          title: "DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation"
+          url: https://aclanthology.org/2020.acl-demos.30/
+        -
+          presenters: "Kenneth Schumacher, Matthew Burke, & Ke Zhao"
+          title: Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models
+          url: https://arxiv.org/abs/1507.04808
+        -
+          presenters: "Enora Rice, Kennedy Ellison, & Anna Nixon"
+          title: "I love your chain mail! Making knights smile in a fantasy game world: Open-domain goal-oriented dialogue agents"
+          url: https://arxiv.org/abs/2002.02878
+        -
+          presenters: "Elizabeth Dinella & Alexander Feng"
+          title: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
+          url: https://aclanthology.org/N18-2111/
   hw:
     -
       title: "Homework 6: Alexa Action-Castle"
