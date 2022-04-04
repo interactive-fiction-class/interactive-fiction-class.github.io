@@ -703,8 +703,17 @@
           url: https://smartech.gatech.edu/handle/1853/64643
     -
       title: Theory of Mind and Intent in Procedural Agents
-      guest_speaker: Jon May
+      guest_speaker: Jonathan May
       guest_url: https://www.isi.edu/~jonmay/
+      readings:
+        -
+          title: Grounding Conversations with Improvised Dialogues
+          authors: Hyundong Cho and Jonathan May
+          url: https://aclanthology.org/2020.acl-main.218/
+        -
+          title: Learning to Generalize for Sequential Decision Making
+          authors: Xusen Yin, Ralph Weischedel, Jonathan May
+          url: https://aclanthology.org/2020.findings-emnlp.273/
     -
       title: Story Evaluation
       guest_speaker: Elizabeth Clark
