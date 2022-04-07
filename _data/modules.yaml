@@ -528,6 +528,11 @@
       readings:
       slides: slides/CIS700-Recap-Ontologies.pdf
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31d9b840-2179-44f4-b32a-ae59014effdd
+      readings:
+        -
+          title: The Rich Event Ontology
+          url: https://aclanthology.org/W17-2712/
+          authors: Susan Brown, Claire Bonial, Leo Obrst, Martha Palmer      
     -
       title: Module 4 Paper Presentations
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76f04c32-7e9b-4955-a4cc-ae600144975e
@@ -535,7 +540,7 @@
         -
           title: Retrofitting Word Vectors to Semantic Lexicons
           url: https://arxiv.org/abs/1411.4166
-          authors: "Manaal Faruqui, Jesse Dodge, Sujay K. Jauhar, Chris Dyer, Eduard Hovy, Noah A. Smith"
+          authors: "Manaal Faruqui, Jesse Dodge, Sujay K. Jauhar, Chris Dyer, Eduard Hovy, Noah A. Smith"          
       optional:
         -
           title: Stanford Natural Language Inference (SNLI) Corpus
