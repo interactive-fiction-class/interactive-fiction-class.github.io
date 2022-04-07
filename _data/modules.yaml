@@ -696,6 +696,7 @@
           url: https://papers.neurips.cc/paper/2018/hash/645098b086d2f9e1e0e939c27f9f2d6f-Abstract.html
     -
       title: Mixed Methods
+      slides: slides/22-04-07_Mixed-Methods.pdf
       readings:
         -
           title: Neurosymbolic automated story generation (Chapter 6)
