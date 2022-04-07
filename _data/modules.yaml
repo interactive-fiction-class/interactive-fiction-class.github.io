@@ -609,7 +609,7 @@
           url: https://arxiv.org/abs/2002.02878
     -
       title: Character-Based Generation
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3ce65a8d-0b80-4f96-8e90-ae6701445d2c
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3ce65a8d-0b80-4f96-8e90-ae6701445d2c&start=58
       readings:
         -
           title: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
@@ -625,6 +625,7 @@
           url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds
     -
       title: Module 5 Paper Presentations
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7779bdc9-b1eb-446c-9826-ae69014e9d1b&start=112
       readings:
         -
           title: Recipes for Building an Open-Domain Chatbot
@@ -659,7 +660,7 @@
     -
       title: "Homework 6: Alexa Action-Castle"
       percentage: 10%
-      due_date: 2022-04-04
+      due_date: 2022-04-11
       url: alexa_action_castle/alexa-action-castle.html
 
 -
@@ -673,6 +674,7 @@
       title: Reinforcement Learning for Playing Interactive Fiction 
       guest_speaker: Prithviraj (Raj) Ammanabrolu
       guest_url: http://prithvirajva.com/
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7847067e-5150-4b4b-be61-ae6e014e8b2f&start=159
       readings:
         -
           title: Playing Text-Adventure Games with Graph-Based Deep Reinforcement Learning
@@ -697,9 +699,10 @@
     -
       title: Mixed Methods
       slides: slides/22-04-07_Mixed-Methods.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8f446ba9-1174-44c1-bbf8-ae700141572f&start=104
       readings:
         -
-          title: Neurosymbolic automated story generation (Chapter 6)
+          title: Neurosymbolic automated story generation [thesis]
           authors: Lara J. Martin
           url: https://smartech.gatech.edu/handle/1853/64643
     -
