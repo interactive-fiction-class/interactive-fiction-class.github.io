@@ -62,7 +62,7 @@ To be specific, for this Milestone, you should:
 * Fill in as much of the final report as possible given your current results. Your report contain the sections outlined below. 
 
 ## Project Final Report
-Your final report is a document that describes what you have accomplished in your project this semester. You are welcome and *encouraged* to draw content from the previous reports you have submitted so far (MS1 Report, MS2 Report, Lit Review). At this point in the class, all of you have read and presented on academic papers. You should use those journal and conference papers as inspiration for what a good writeup looks like. For additional inspiration, [here's an example of a final report from 2020](homeworks/progress-report2/example_report.pdf).
+Your final report is a document that describes what you have accomplished in your project this semester. You are welcome and *encouraged* to draw content from the previous reports you have submitted so far (MS1 Report, MS2 Report, Lit Review). At this point in the class, all of you have read and presented on academic papers. You should use those journal and conference papers as inspiration for what a good writeup looks like. For additional inspiration, [here's an example of a final report from 2020](example_report.pdf).
 
 ### Report Sections
 The report should have the following sections. A lot of these can be reused and "fleshed out" from the previous Milestone.
