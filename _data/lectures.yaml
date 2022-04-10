@@ -220,7 +220,7 @@
   type: deadline
   homework_due:
     - 
-      title: Final Project Milestone 2&colon; Progress Report (Select Idea &amp; Data Prep) (5%)
+      title: Final Project Milestone 2&colon; Progress Report (Lit Review &amp; Baselines) (5%)
       url: progress-report1/pr1.html
 
 -
@@ -253,7 +253,7 @@
   type: deadline
   homework_due:
     - 
-      title: Final Project Milestone 3&colon; Progress Report (5%)
+      title: Final Project Milestone 3&colon; Final Report Draft (5%)
       url: project-milestone3/project-milestone3.html
       
 -
