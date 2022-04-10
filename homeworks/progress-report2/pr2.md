@@ -3,12 +3,12 @@ layout: default
 img: estimating_time.png
 caption: Don't Panic
 img_link: https://xkcd.com/1658/
-title: Project Preparation and Literature Review
+title: Final Report Draft
 type: Project Milestone
-number: 2
+number: 3
 active_tab: homework
-release_date: 2022-03-20
-due_date: 2022-04-04 23:59:00EST
+release_date: 2022-04-01
+due_date: 2022-04-18 23:59:00EST
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -52,56 +52,45 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-For this milestone, you should read papers that are related to your project and finish cleaning data and setting up a baseline. In particular you should: 
-* Make progress on the suggested next steps that the class staff and your classmates left for you on your project proposal.
-* Read at least 3 papers related to your proposed project. (See the Lit Review section)
-* Finish collecting any datasets that you need and make sure they are in a format that you can work with.
-* Outline a more definite plan on the types of methods you want to use. What will your system look like?
-   * If your project involves doing text parsing with tools like AllenNLP/Stanza/Spacy, do some experiments to see whether the parsing you want to do is feasible. 
+For this Milestone we will be requiring you to write a rough draft of your final report (with appropriate blanks for experiments you have not yet conducted). While this may sound strange (How can I write the final report without having my results?) this assignment will hopefully convince you that it's not as crazy as it seems. Writing a draft of the final report early can be a very effective technique for organizing your own thoughts and final experiments. 
 
-For those with extra ambitious projects, we suggest doing these bullet points for this milestone as well:
-* If your project involves training/fine-tuning a neural network, try training some preliminary models and observing the outputs.
-* If your project involves a user experience of some sort, create a mock-up of the user interface (even if it's not fully functional/feature-complete yet).
+We want to emphasize that you shouldn't stress out *too* much about making this submission perfect (we will be fairly lenient with grading here) but we highly recommend taking this opportunity to write a solid first draft (your future selves will be thankful).
 
-## Informal Lit Review
-For this milestone we would like you to do a short literature review of at least 3 papers relating to your project **that are not already listed on the course website**. It might seem arbitrary to restrict you from not using papers from the course website, but we want to encourage you to go out on your own and find interesting new work to include in your project! We'd encourage you to do more than 3, but 3 is the minimum requirement for full credit. 
+To be specific, for this milestone, you should:
+* Finish all baseline experiments and get as much preliminary results from your main experiments as possible. You should show significant progress towards your main experimental results
+* Create your final report using one of the provided conference paper templates: [ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or [AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip) (Please ask us directly if you would like to use a LaTeX template for a different conference)
+* Fill in as much of the final report as possible given your current results. Your report should follow the sections below. 
 
-There are a couple of ways to find papers.
+## Project Final Report
+Your final report is a document that describes what you have managed to accomplish. You are welcome (and encouraged) to draw content from the various other reports you have so far submitted (MS1 Report, MS2 Report, Lit Review). At this point in the class, all of you have read and presented on academic papers. You should use these as inspiration for what a good writeup looks like. For additional inspiration, [here's an example of a final report from 2020](https://raw.githubusercontent.com/interactive-fiction-class/interactive-fiction-class.github.io/master/homeworks/progress-report2/example_report.pdf) 
 
-1) To find good papers, we recommend starting with a highly relevant paper (maybe from the course website or one that was suggested to you), and either looking through the paper's Related Works section or using [Google Scholar](https://scholar.google.com/) to find papers that cite it. You can also use [Semantic Scholar](https://www.semanticscholar.org/) to do this as they distinguish between "Highly Influential" citations and standard citations, which could help you narrow down your search.
-
-2) You can also look through conference proceedings, such as [ACL Anthology](https://aclanthology.org/) or the [AAAI Digital Library](https://www.aaai.org/Library/conferences-library.php) to search through only papers that were accepted to top AI/NLP conferences. Doing this may help you find some "diamonds in the rough" (i.e. papers that are of high quality but do not have many citations yet by virtue of them being very new).
-
-3) Alternatively, you can use Google Scholar or Semantic Scholar to search by keywords. This might be more difficult if you are not as familiar with the jargon of the area. If you would like to search this way and are having trouble finding the relevant keywords, feel free to reach out to one of us!
-
-We recommend starting with these three methods to find papers then skimming ~10 or more of them before deciding on which three to include. This should ensure that the three you find are relevant.
-
-**Note: While the writing itself might be informal for this part, the paper selection and insights should be high quality.**
-
-Each team should submit a document titled `lit_review.pdf` which should contain, for each paper:
-* The title of the paper, the year of publication, and a link to the paper.
-* A paragraph with a short summary of the paper's contributions. (2-3 sentences)
-* A bulleted list of your thoughts on the paper and how it relates to your project.
-
-
-## Proposal
-For the main milestone writeup, create a new document which describes the progress you've made so far. Feel free to copy from your project proposal where appropriate. Even if you do copy, you might need to fill in more details.
-Your document should include the following sections:
+### Report Sections
+It should have the following sections.
 
 __Title__ & __Author Names__: What are you calling your project? These are not graded but still important! (No section header for these bits)
 1. __Project Description__: This is the "what" and the "why" of your project. 
  * The "what": Explain the main idea of your project and what you are trying to accomplish. It's okay if these have changed since the project proposal.
  * The "why": If it's a research project, what's your research question (i.e., what are you trying to prove with this work)? If it's an artifact that you're creating, why are you creating it?
-2. __Related Work__: What previous research will you be using, building off of, or being inspired by? Tell a short "story" using what you found out from the Lit Review above. This can include papers from the course schedule as well as anything else you want to cite.
-3. __Methods__: What are the steps to accomplish your project? This should describe both the steps you've done so far (data collection and system planning) and the ones you plan to do. This doesn't have to be the final methods that you end up using, but writing out a plan out will help you figure out some details you might not have thought of otherwise!
-4. __Data__: What data have you decided to use? Where did you get it from, what does it look like, and what are some potential problems with it?
-5. __Evaluation Plan__: What will you be using to evaluate your research question or that the components of your interactive experience are working well? 
+2. __Related work__: What previous research will you be using or building off of? What work are you inspired by? Tell a short "story" using what you found out from the Lit Review. This can include papers from the course schedule as well as anything else you want to cite.
+3. __Methods__: What are the steps you took to accomplish your project? This section should include enough detail that someone reading it could reasonably attempt to reproduce your work. Include figures if applicable.
+4. __Data__: What datasets, if any, did you use? If you collected or built your own dataset, how did you go about doing this? What are some potential problems/challenges you encountered with the data? If you had to clean your data, what did you use to do that? Explain your pre-processing steps.
+5. __Evaluation__: How are you evaluating your results? How do you know if you've answered your research question? If you're creating an interactive experience, what do you use to determine that it's working well?
   * These can be things like accuracy, diversity metrics, perplexity, BLEU/ROUGE scores, success rate, human evaluation scores, etc. depending on your project.
-6. __Preliminary Results (optional)__: Describe any results you have so far. These can include results for intermediate steps that build toward your main project goal. If you haven't gotten anything working succesfully yet, negative results or plans for experiments to run are great to report too! This section should include tables, plots, and example system outputs where applicable.
-7. __Attribution__: For each of your team mates, write a couple sentences describing their main contributions to the project so far and what each person plans to do for the rest of the project.
+6. __Results__: Describe your main results as well as the results for intermediate steps that build toward your main project goal. (Note for the milestone: If you are still waiting on important results, please talk about them and how they will fit into the final report.) Negative results or plans for experiments to run are great to report too! Please include tables, plots, and example system outputs where applicable.
+7. __Discussion__: This is a _meta_ section to discuss how the project went.
+What things did you try that didn't work out? If you were to start over from scratch, what would you do differently? If someone were to continue working on this project, what do you suggest are good next steps/good future work?
+8. __Attribution__: For each of your teammates, write a couple sentences describing their main contributions to the project. If you have any concerns about distribution of work, feel free to email us directly.
+
+### Grading
+This section is our grading rubric for the final report. Your milestone will not be held to this standard too harshly, but keep these guidelines in mind.
+
+1. __Formatting__: All of the sections described in the previous section are present and clearly marked. The report includes a title of the project and the name of the author at the top. Images, tables, and other figures have captions and are referenced in the text. The paper makes use of citations that follow the standard convention of whatever conference the template is from.
+2. __Communication__: Your report should be targeted at an audience who is familiar with NLP but has not taken the class and knows nothing about what you have done so far. You can imagine your audience as either the readers of a technical blog post (if you took the interactive experience option) or as reviwers of a paper submission to an NLP conference such as ACL (if you took the research question option). You should aim to make your methods section clear enough that others could attempt to reproduce your work and your results section clear enough that readers understand exactly what experiments you ran.
+3. __Style__: You should write in paragraphs and complete sentences unless there is a very good reason not to.
+4. __Content__: The report answers all relevant questions posed in the previous section. Images, tables, plots, of other figures are used to support the report contents.
+5. __Length__: There is no strict word length requirement, but if your paper has fewer than 1,500 words (not including referneces) then it is very likely you have not provided enough detail.
 
 # What to Submit
-Submit the following to [Gradescope](https://www.gradescope.com/courses/354158/assignments/1944469):
-* `lit_review.pdf` which contains your literature review. This can be in any format you like. We find that using Google Docs and then downloading as a PDF works well for this sort of thing.
-* `milestone2.pdf` which contains your milestone 2 submission. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template. You may choose to use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm).
+Submit the following to [Gradescope](https://www.gradescope.com/courses/354158/assignments/1987904):
+* `milestone3.pdf` which contains your milestone 3 submission. To make grading easier, your report should include section headers corresponding to each of the bulleted points. As stated earlier, the use of LaTeX and a conference template is required. You may choose to use the [template from ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip). Please message us directly if you'd like to use a LaTeX template from a different conference.
 
