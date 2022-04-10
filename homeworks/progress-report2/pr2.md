@@ -52,20 +52,20 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-For this Milestone we will be requiring you to write a rough draft of your final report (with appropriate blanks for experiments you have not yet conducted). While this may sound strange (How can I write the final report without having my results?) this assignment will hopefully convince you that it's not as crazy as it seems. Writing a draft of the final report early can be a very effective technique for organizing your own thoughts and final experiments. 
+For this Milestone, we are requiring you to write a rough draft of your final report (with appropriate blanks for experiments you have not yet conducted). While this may sound strange (How can I write the final report without having results?), writing a draft of the final report early can be a very effective technique for organizing your thoughts and final experiments.
 
-We want to emphasize that you shouldn't stress out *too* much about making this submission perfect (we will be fairly lenient with grading here) but we highly recommend taking this opportunity to write a solid first draft (your future selves will be thankful).
+We want to emphasize that you shouldn't stress out too much about making this submission perfect (we will be fairly lenient with grading here) but we highly recommend taking this opportunity to write a solid first draft. Your future selves will be thankful!
 
-To be specific, for this milestone, you should:
-* Finish all baseline experiments and get as much preliminary results from your main experiments as possible. You should show significant progress towards your main experimental results
-* Create your final report using one of the provided conference paper templates: [ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or [AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip) (Please ask us directly if you would like to use a LaTeX template for a different conference)
-* Fill in as much of the final report as possible given your current results. Your report should follow the sections below. 
+To be specific, for this Milestone, you should:
+* Finish all baseline experiments and get as many preliminary results from your main experiments as possible. You should show significant progress towards your main experimental results.
+* Create your final report using one of the provided conference paper templates: [ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or [AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip) (Please ask us directly if you would like to use a template for a different conference. Also, if you are not familiar with LaTeX, let us know.) 
+* Fill in as much of the final report as possible given your current results. Your report contain the sections outlined below. 
 
 ## Project Final Report
-Your final report is a document that describes what you have managed to accomplish. You are welcome (and encouraged) to draw content from the various other reports you have so far submitted (MS1 Report, MS2 Report, Lit Review). At this point in the class, all of you have read and presented on academic papers. You should use these as inspiration for what a good writeup looks like. For additional inspiration, [here's an example of a final report from 2020](https://raw.githubusercontent.com/interactive-fiction-class/interactive-fiction-class.github.io/master/homeworks/progress-report2/example_report.pdf) 
+Your final report is a document that describes what you have accomplished in your project this semester. You are welcome and *encouraged* to draw content from the previous reports you have submitted so far (MS1 Report, MS2 Report, Lit Review). At this point in the class, all of you have read and presented on academic papers. You should use those journal and conference papers as inspiration for what a good writeup looks like. For additional inspiration, [here's an example of a final report from 2020](homeworks/progress-report2/example_report.pdf).
 
 ### Report Sections
-It should have the following sections.
+The report should have the following sections. A lot of these can be reused and "fleshed out" from the previous Milestone.
 
 __Title__ & __Author Names__: What are you calling your project? These are not graded but still important! (No section header for these bits)
 1. __Project Description__: This is the "what" and the "why" of your project. 
@@ -79,12 +79,12 @@ __Title__ & __Author Names__: What are you calling your project? These are not g
 6. __Results__: Describe your main results as well as the results for intermediate steps that build toward your main project goal. (Note for the milestone: If you are still waiting on important results, please talk about them and how they will fit into the final report.) Negative results or plans for experiments to run are great to report too! Please include tables, plots, and example system outputs where applicable.
 7. __Discussion__: This is a _meta_ section to discuss how the project went.
 What things did you try that didn't work out? If you were to start over from scratch, what would you do differently? If someone were to continue working on this project, what do you suggest are good next steps/good future work?
-8. __Attribution__: For each of your teammates, write a couple sentences describing their main contributions to the project. If you have any concerns about distribution of work, feel free to email us directly.
+8. __Attribution__: For each of your teammates, write a couple sentences describing their main contributions to the project. If you have any concerns about distribution of work, feel free to email us directly. This will not be in the final write-up, but we want to make sure you all still have a final plan for who will be doing what for the last part of the project.
 
 ### Grading
-This section is our grading rubric for the final report. Your milestone will not be held to this standard too harshly, but keep these guidelines in mind.
+This section is our grading rubric for the final report. This Milestone will not be graded too harshly but please keep these guidelines in mind. The more effort you put into this draft, the better our suggestions can be so that you can have a great final draft for the next Milestone.
 
-1. __Formatting__: All of the sections described in the previous section are present and clearly marked. The report includes a title of the project and the name of the author at the top. Images, tables, and other figures have captions and are referenced in the text. The paper makes use of citations that follow the standard convention of whatever conference the template is from.
+1. __Formatting__: All of the sections described in the previous section are present and clearly marked. The report includes a title of the project and the name of the authors at the top. Images, tables, and other figures have captions and are referenced in the text. The paper makes use of citations that follow the standard convention of whatever conference the template is from.
 2. __Communication__: Your report should be targeted at an audience who is familiar with NLP but has not taken the class and knows nothing about what you have done so far. You can imagine your audience as either the readers of a technical blog post (if you took the interactive experience option) or as reviwers of a paper submission to an NLP conference such as ACL (if you took the research question option). You should aim to make your methods section clear enough that others could attempt to reproduce your work and your results section clear enough that readers understand exactly what experiments you ran.
 3. __Style__: You should write in paragraphs and complete sentences unless there is a very good reason not to.
 4. __Content__: The report answers all relevant questions posed in the previous section. Images, tables, plots, of other figures are used to support the report contents.
