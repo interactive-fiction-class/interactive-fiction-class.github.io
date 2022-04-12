@@ -723,6 +723,18 @@
           title: Learning to Generalize for Sequential Decision Making
           authors: Xusen Yin, Ralph Weischedel, Jonathan May
           url: https://aclanthology.org/2020.findings-emnlp.273/
+        -
+          title: Collaborative Storytelling with Human Actors and AI Narrators
+          authors: Boyd Branch, Piotr Mirowski, Kory W. Mathewson
+          url: https://arxiv.org/abs/2109.14728
+        -
+          title:  An empirical study of cognition and theatrical improvisation
+          url: https://dl.acm.org/doi/10.1145/1640233.1640253
+          authors: Brian Magerko, Waleed Manzoul, Mark Riedl, Allan Baumer, Daniel Fuller, Kurt Luther, Celia Pearce
+        -
+          title: Improvisational Computational Storytelling in Open Worlds
+          url: https://laramartin.net/pub/Martin_ICIDS2016.pdf
+          authors: Lara J. Martin, Brent Harrison, and Mark O. Riedl
     -
       title: Story Evaluation
       guest_speaker: Elizabeth Clark
