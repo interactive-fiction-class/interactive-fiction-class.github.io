@@ -739,7 +739,7 @@
           url: https://laramartin.net/pub/Martin_ICIDS2016.pdf
           authors: Lara J. Martin, Brent Harrison, and Mark O. Riedl
     -
-      title: Story Evaluation
+      title: Story Evaluation + Module 6 Paper Presentations
       guest_speaker: Elizabeth Clark
       guest_url: https://eaclark07.github.io/
       slides: slides/22-04-14_Elizabeth-Clark_Evaluation-for-Story-Generation.pdf
@@ -759,7 +759,16 @@
         -
           title: "Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models"
           url: https://aclanthology.org/2021.naacl-main.279
-          authors: Elizabeth Clark, Noah A. Smith        
+          authors: Elizabeth Clark, Noah A. Smith  
+      presentations:
+        -
+          presenters: "Jong-Min Choi & Joongwon Kim"
+          title: "Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences"
+          url: https://aclanthology.org/2021.emnlp-main.54/
+        -
+          presenters: Leon Zhou
+          title: Deep Reinforcement Learning with a Natural Language Action Space
+          url: https://aclanthology.org/P16-1153/    
     -
       title: Visual Storytelling
       guest_speaker: Ting-Hao Kenneth Huang
