@@ -679,6 +679,7 @@
       title: Reinforcement Learning for Playing Interactive Fiction 
       guest_speaker: Prithviraj (Raj) Ammanabrolu
       guest_url: http://prithvirajva.com/
+      slides: https://drive.google.com/file/d/1hAJULY3V4unuk2wA-DT4-1qx-kkT8-2k/view?usp=sharing
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7847067e-5150-4b4b-be61-ae6e014e8b2f&start=159
       readings:
         -
@@ -713,7 +714,9 @@
     -
       title: Theory of Mind and Intent in Procedural Agents
       guest_speaker: Jonathan May
+      slides: slides/22-04-12_Jon-May_Theory-of-Mind.pptx
       guest_url: https://www.isi.edu/~jonmay/
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=102314f2-6c07-4410-b872-ae750156c8cb
       readings:
         -
           title: Grounding Conversations with Improvised Dialogues
@@ -739,7 +742,12 @@
       title: Story Evaluation
       guest_speaker: Elizabeth Clark
       guest_url: https://eaclark07.github.io/
+      slides: slides/22-04-14_Elizabeth-Clark_Evaluation-for-Story-Generation.pdf
       readings:
+        -
+          title: "All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text"
+          url: https://arxiv.org/abs/2107.00061
+          authors: Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, Suchin Gururangan, Noah A. Smith
         -
           title: Predicting Generated Story Quality with Quantitative Measures
           authors: Christopher Purdy, Xinyu Wang, Larry He, Mark Riedl
