@@ -55,7 +55,7 @@ You can download the materials for this assignment here:
 For your final project you should prepare a 10 minute video presentation for the class and a report documenting what you accomplished. **The video presentation submission is due Thursday April 21 before class and the final report is due on Monday April 25th.**
 
 ## Video Presentation
-For this semester we are requiring all presentations to be in pre-recorded video form -- this will allow us to move through presentations quickly as well as leaving you with a nice artifact afterwards that you can show off in the future.
+For this semester we are requiring all presentations to be in pre-recorded video form -- this will allow us to move through presentations quickly while simultaneously leaving you with a nice artifact that you can show off to friends/colleagues/future employers.
 We will be enforcing a strict time limit of 10 minutes for the video submission so please do not exceed that.
 To that end, please feel free to use editing software such as iMovie or Windows Movie Maker to edit down and refine your video presentation.
 Chris's general rule-of-thumb is about 1 minute per slide, so you should aim to have no more than 10 or so content slides.

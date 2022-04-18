@@ -274,7 +274,7 @@
   type: deadline
   homework_due: 
     - 
-      title: Presentation Slides Due
+      title: Video Presentation Submission Due
       url: 
   
 -
@@ -283,7 +283,7 @@
   homework_due: 
     - 
       title: Final Project Milestone 4&colon; Final Report (20%)
-      url: project-milestone4/project-milestone4.html
+      url: project-final-submission/project-final.html
 
 -
   date: 2022-04-26
