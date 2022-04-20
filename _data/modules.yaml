@@ -775,7 +775,17 @@
       title: Visual Storytelling
       guest_speaker: Ting-Hao Kenneth Huang
       guest_url: http://kennethhuang.cc/
+      slides: slides/22-04-19_Kenneth-Huang_VIST.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8630db50-e1a7-4631-b6a0-ae7c01463b1a
       readings:
+        -
+          title: "Stretch-VST: Getting Flexible With Visual Stories"
+          authors: Chi-Yang Hsu, Yun-Wei Chu, Tsai-Lun Yang, Ting-Hao Huang, Lun-Wei Ku
+          url: https://aclanthology.org/2021.acl-demo.42/
+        -
+          title: "Plot and Rework: Modeling Storylines for Visual Storytelling"
+          authors: "Chi-Yang Hsu, Yun-Wei Chu, Ting-Hao 'Kenneth' Huang, Lun-Wei Ku"
+          url: https://aclanthology.org/2021.findings-acl.390/
         -
           title: "The Amazing Mysteries of the Gutter: Drawing Inferences Between Panels in Comic Book Narratives"
           authors: Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis
