@@ -270,12 +270,7 @@
   
 -
   date: 2022-04-21
-  title: Final Project Presentations 1
-  type: deadline
-  homework_due: 
-    - 
-      title: Video Presentation Submission Due
-      url: 
+  title: Final Project In-Class Help
   
 -
   date: 2022-04-25
@@ -284,7 +279,10 @@
     - 
       title: Final Project Milestone 4&colon; Final Report (20%)
       url: project-final-submission/project-final.html
+    - 
+      title: Video Presentation Submission Due
+      url: 
 
 -
   date: 2022-04-26
-  title: Final Project Presentations 2
+  title: Final Project Presentations
