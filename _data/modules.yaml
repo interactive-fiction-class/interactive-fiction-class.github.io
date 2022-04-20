@@ -747,9 +747,17 @@
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26a154bd-180d-4d4b-8c2e-ae77015c2e00
       readings:
         -
+          title: "Evaluation of Text Generation: A Survey"
+          authors: Asli Celikyilmaz, Elizabeth Clark, Jianfeng Gao
+          url: https://arxiv.org/abs/2006.14799      
+        -
           title: "All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text"
           url: https://arxiv.org/abs/2107.00061
           authors: Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, Suchin Gururangan, Noah A. Smith
+        -
+          title: "Repairing the Cracked Foundation: A Survey of Obstacles in Evaluation Practices for Generated Text"
+          authors: Sebastian Gehrmann, Elizabeth Clark, Thibault Sellam
+          url: https://arxiv.org/abs/2202.06935
         -
           title: Predicting Generated Story Quality with Quantitative Measures
           authors: Christopher Purdy, Xinyu Wang, Larry He, Mark Riedl
@@ -761,7 +769,59 @@
         -
           title: "Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models"
           url: https://aclanthology.org/2021.naacl-main.279
-          authors: Elizabeth Clark, Noah A. Smith  
+          authors: Elizabeth Clark, Noah A. Smith
+        -
+          title: "ROUGE: A Package for Automatic Evaluation of Summaries"
+          url: https://aclanthology.org/W04-1013/
+          authors: Chin-Yew Lin
+        -
+          url: https://proceedings.mlr.press/v37/kusnerb15.pdf
+          title: From Word Embeddings To Document Distances
+          authors: "Matt J. Kusner, Yu Sun, Nicholas I. Kolkin, Kilian Q. Weinberger"
+        -
+          url: https://openreview.net/pdf?id=SkeHuCVFDr
+          title: "BERTScore: Evaluating Text Generation with BERT"
+          authors: Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi
+        -
+          title: "Unifying Human and Statistical Evaluation for Natural Language Generation"
+          authors: Tatsunori B. Hashimoto, Hugh Zhang, Percy Liang
+          url: https://aclanthology.org/N19-1169/
+        -
+          title: "Texygen: A Benchmarking Platform for Text Generation Models"
+          url: https://arxiv.org/abs/1802.01886
+          authors: Yaoming Zhu, Sidi Lu, Lei Zheng, Jiaxian Guo, Weinan Zhang, Jun Wang, Yong Yu
+        -
+          title: "BLEURT: Learning Robust Metrics for Text Generation"
+          url: https://aclanthology.org/2020.acl-main.704/
+          authors: Thibault Sellam, Dipanjan Das, Ankur Parikh
+        -
+          title: "UNION: An Unreferenced Metric for Evaluating Open-ended Story Generation"
+          url: https://aclanthology.org/2020.emnlp-main.736/
+          authors: Jian Guan, Minlie Huang
+        -
+          title: "Twenty Years of Confusion in Human Evaluation: NLG Needs Evaluation Sheets and Standardised Definitions"
+          url: https://aclanthology.org/2020.inlg-1.23/
+          authors: David M. Howcroft, et al.
+        -
+          title: "PlotMachines: Outline-Conditioned Generation with Dynamic Plot State Tracking"
+          url: https://aclanthology.org/2020.emnlp-main.349/
+          authors: Hannah Rashkin, Asli Celikyilmaz, Yejin Choi, Jianfeng Gao
+        -
+          url: https://dl.acm.org/doi/10.1145/3172944.3172983
+          authors: Elizabeth Clark, Anne Spencer Ross, Chenhao Tan, Yangfeng Ji, Noah A. Smith
+          title: "Creative Writing with a Machine in the Loop: Case Studies on Slogans and Stories"
+        -
+          title: "Say Anything: Using Textual Case-Based Reasoning to Enable Open-Domain Interactive Storytelling"
+          url: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.980.6270&rep=rep1&type=pdf
+          authors: Reid Swanson, Andrew S. Gordon
+        -
+          title: "STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation"
+          authors: Nader Akoury, Shufan Wang, Josh Whiting, Stephen Hood, Nanyun Peng, Mohit Iyyer
+          url: https://aclanthology.org/2020.emnlp-main.525/
+        -
+          title: "CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities"
+          authors: Mina Lee, Percy Liang, Qian Yang
+          url: https://arxiv.org/abs/2201.06796
       presentations:
         -
           presenters: "Jong-Min Choi & Joongwon Kim"
