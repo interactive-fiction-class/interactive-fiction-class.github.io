@@ -363,8 +363,9 @@ You should submit the following:
 
 Submissions should be done on [Gradescope]({{page.submission_link}}).
 
-<div class="alert alert-warning" markdown="1">
+
 ## Grading
+<div class="alert alert-warning" markdown="1">
 * Domain Definition - 10 points
 * Problem Definition - 5 points
 * JSON with Annotations - 3 point
