@@ -363,6 +363,11 @@ You should submit the following:
 
 Submissions should be done on [Gradescope]({{page.submission_link}}).
 
+## Grading
+- Autograder (3 points)
+- Questions (1x7 = 7 points)
+- -0.5points for not specifying why you picked the given wikihow article
+
 {% if page.readings %} 
 ## Recommended readings
 {% for reading in page.readings %}
