@@ -131,7 +131,7 @@
       length: 1 hour 15 mins
       readings:
         -
-          title: Language Models are Few-Shot Learners
+          title: [GPT-3 paper] Language Models are Few-Shot Learners
           url: https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
           authors: Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, et al.
         -
