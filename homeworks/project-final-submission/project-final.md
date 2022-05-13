@@ -101,6 +101,14 @@ This section is our grading rubric for the final report.
 4. __Content__: The report answers all relevant questions posed in the previous section. Images, tables, plots, of other figures are used to support the report contents.
 5. __Length__: There is no strict word length requirement, but if your paper has fewer than 1,500 words (not including referneces) then it is very likely you have not provided enough detail.
 
+<div class="alert alert-warning" markdown="1">
+* Formatting - 1 point
+* Communication - 1 points
+* Style - 1 point
+* Content - 7 points
+* Popular Choice - 1 point extra credit
+</div>
+
 # What to Submit
 Submit the following to Gradescope before class on **Thursday April 21**:
 * A link to your pre-recorded video presentation. This can be on any video hosting platform ([YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/watch), etc.). Please double check that the video link is visible to the public before submitting. 
