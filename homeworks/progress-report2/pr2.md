@@ -94,3 +94,11 @@ This section is our grading rubric for the final report. This Milestone will not
 Submit the following to [Gradescope](https://www.gradescope.com/courses/354158/assignments/1987904):
 * `milestone3.pdf` which contains your milestone 3 submission. To make grading easier, your report should include section headers corresponding to each of the bulleted points. As stated earlier, the use of LaTeX and a conference template is required. You may choose to use the [template from ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip). Please message us directly if you'd like to use a LaTeX template from a different conference.
 
+# Grading
+<div class="alert alert-warning" markdown="1">
+* Formatting - 1 point
+* Communication - 2 points
+* Style - 1 point
+* Content - 8 points
+* Length - 1 point
+</div>
