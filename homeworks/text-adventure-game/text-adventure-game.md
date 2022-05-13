@@ -185,6 +185,12 @@ You should submit a link to a Github repository which contains the following:
 
 Submissions should be done on [Gradescope]({{page.submission_link}}).
 
+## Grading
+<div class="alert alert-warning" markdown="1">
+* Implement Action Castle - 5 points
+* Implement Your Own Creation - 5 points
+</div>
+
 {% if page.readings %} 
 ## Recommended readings
 {% for reading in page.readings %}
