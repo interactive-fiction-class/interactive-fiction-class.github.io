@@ -287,6 +287,16 @@ Please submit the following:
 
 You should submit your completed homework to [Gradescope]({page.submission_link}).  You can work in pairs.  Only one partner should submit - be sure to specify who your partner was when you make your submission. 
 
+# Grading
+<div class="alert alert-warning" markdown="1">
+    <ul>
+      <li>Fine-Tune Additional Models for Text Adventure Games - 11 points (1 point per function)</li>
+      <li>Generate A Game - 5 points</li>
+      <li>Evaluation - 5 points</li>
+    </ul>
+ </div>
+ 
+ 
 # Recommended readings
 
 <table>
