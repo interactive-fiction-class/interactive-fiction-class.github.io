@@ -105,12 +105,4 @@ Submit the following to [Gradescope](https://www.gradescope.com/courses/354158/a
 * `lit_review.pdf` which contains your literature review. This can be in any format you like. We find that using Google Docs and then downloading as a PDF works well for this sort of thing.
 * `milestone2.pdf` which contains your milestone 2 submission. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template. You may choose to use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm).
 
-<div class="alert alert-warning" markdown="1">
-# Grading
-* Project Description - 1 point
-* Proposed Method or Evaluation - 1 point
-* Data - 1 point
-* Related Work - 1 point
-* Team Members - 1 point
-* Lightning Talk - 2 points
-</div>
+
