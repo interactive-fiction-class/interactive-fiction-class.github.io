@@ -94,3 +94,13 @@ Prepare the following for class:
 * A two minute "lightning" presentation pitching your idea to the class. You should add **a single slide** to this [Google Slides presentation](https://docs.google.com/presentation/d/14SnEPKNyEtDZuUlJnIRxx57xQInliMvK4pLdnVurh5E/edit?usp=sharing). _Please prepare at most a single slide. You will have time for a longer presentation at the end of the semester._
   - For some examples of past lightning talks, you can find the 2020 slides [here](https://docs.google.com/presentation/d/1EMII1GDGO3IdfHfrV6Lnrkbe1vMEUoyOjoZ3QePUFf4/edit?usp=sharing)
 
+
+# Grading
+<div class="alert alert-warning" markdown="1">
+* Project Description - 1 point
+* Proposed Method or Evaluation - 1 point
+* Data - 1 point
+* Related Work - 1 point
+* Team Members - 1 point
+* Lightning Talk - 2 points
+</div>
