@@ -90,11 +90,6 @@ This section is our grading rubric for the final report. This Milestone will not
 4. __Content__: The report answers all relevant questions posed in the previous section. Images, tables, plots, of other figures are used to support the report contents.
 5. __Length__: There is no strict word length requirement, but if your paper has fewer than 1,500 words (not including referneces) then it is very likely you have not provided enough detail.
 
-# What to Submit
-Submit the following to [Gradescope](https://www.gradescope.com/courses/354158/assignments/1987904):
-* `milestone3.pdf` which contains your milestone 3 submission. To make grading easier, your report should include section headers corresponding to each of the bulleted points. As stated earlier, the use of LaTeX and a conference template is required. You may choose to use the [template from ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip). Please message us directly if you'd like to use a LaTeX template from a different conference.
-
-# Grading
 <div class="alert alert-warning" markdown="1">
 * Formatting - 1 point
 * Communication - 2 points
@@ -102,3 +97,7 @@ Submit the following to [Gradescope](https://www.gradescope.com/courses/354158/a
 * Content - 8 points
 * Length - 1 point
 </div>
+
+# What to Submit
+Submit the following to [Gradescope](https://www.gradescope.com/courses/354158/assignments/1987904):
+* `milestone3.pdf` which contains your milestone 3 submission. To make grading easier, your report should include section headers corresponding to each of the bulleted points. As stated earlier, the use of LaTeX and a conference template is required. You may choose to use the [template from ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip). Please message us directly if you'd like to use a LaTeX template from a different conference.
