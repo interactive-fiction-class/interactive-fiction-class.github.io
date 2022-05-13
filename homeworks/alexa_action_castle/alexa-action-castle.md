@@ -148,12 +148,13 @@ You should invite the TAs to be beta testers for your Skill, as instructed in th
 Submissions should be done on [Gradescope]({{page.submission_link}}).
 
 ## Grading
+<div class="alert alert-warning" markdown="1">
 - Play through runs fully (full points)
 - Play through runs but not complex enough (50% points)
 - Playthrough plays partially but errors at some point (50% points)
 - Skill does not start up but code shows effort (30% points)
 - The code and the play through show inadequate exploration of Alexa API documentation (0% of the points)
-
+</div>
 
 {% if page.readings %} 
 ## Recommended Readings
