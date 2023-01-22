@@ -363,6 +363,16 @@ You should submit the following:
 
 Submissions should be done on [Gradescope]({{page.submission_link}}).
 
+
+## Grading
+<div class="alert alert-warning" markdown="1">
+* Domain Definition - 10 points
+* Problem Definition - 5 points
+* JSON with Annotations - 3 point
+* Questions - 1x7 = 7 points
+* -0.5points for not specifying why you picked the given wikihow article
+</div>
+
 {% if page.readings %} 
 ## Recommended readings
 {% for reading in page.readings %}

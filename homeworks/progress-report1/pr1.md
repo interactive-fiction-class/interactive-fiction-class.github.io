@@ -105,3 +105,13 @@ Submit the following to [Gradescope](https://www.gradescope.com/courses/354158/a
 * `lit_review.pdf` which contains your literature review. This can be in any format you like. We find that using Google Docs and then downloading as a PDF works well for this sort of thing.
 * `milestone2.pdf` which contains your milestone 2 submission. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template. You may choose to use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm).
 
+# Grading
+<div class="alert alert-warning" markdown="1">
+* Project Description: Make sure you do not only include a description of the project, but also a reason why this project is important (i.e. motivation) (1pt)
+* Related Work: Do not just summarize previous work, but relate it to your project. (1pt)
+* Methods: What have you completed up to now? What do you plan on doing? Write down a concrete plan of action. (1pt)
+* Data: Do not just list the datasets, but describe them, and explain how you will use them. (1pt)
+* Evaluation Plan: What evaluation metrics you chose and why? Are they applicable to your task? (1pt)
+* Attribution: Do not forget to note which team member will do what. This is where most students last year lost points! (1pt)
+</div>
+

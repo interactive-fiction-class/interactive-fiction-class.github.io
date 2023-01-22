@@ -87,10 +87,12 @@ Go to the colab notebook link above for more information.
 Submissions should be done on [Gradescope]({{page.submission_link}}).
 
 ## Grading
-- Code - 2 points
-- Schema Diagram/Explanation - 2 points
-- Story Tracking Questions - 15 points (3 pts each)
-- COMET-ATOMIC Questions - 6 points (2 pts each)
+<div class="alert alert-warning" markdown="1">
+* Code - 2 points
+* Schema Diagram/Explanation - 2 points
+* Story Tracking Questions - 15 points (3 pts each)
+* COMET-ATOMIC Questions - 6 points (2 pts each)
+</div>
 
 {% if page.readings %} 
 ## Related Readings
