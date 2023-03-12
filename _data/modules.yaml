@@ -15,6 +15,14 @@
           title: A Systematic Survey of Text Worlds as Embodied Natural Language Environments
           url: https://aclanthology.org/2022.wordplay-1.1.pdf
           authors: Peter A. Jansen
+        -
+          title: "TextWorld: A Learning Environment for Text-based Games"
+          url: https://www.semanticscholar.org/paper/TextWorld%3A-A-Learning-Environment-for-Text-based-Côté-Kádár/89daae27e7df4a418b9610d307ce3df0e30fc8a2
+          authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Ruo Yu Tao, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischler
+        -
+          title: "Interactive Fiction Games: A Colossal Adventure"
+          url: https://www.semanticscholar.org/paper/Interactive-Fiction-Games%3A-A-Colossal-Adventure-Hausknecht-Ammanabrolu/221d453c165aca6bc1a054289eb510e558a23dca
+          authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan
       optional:
         -
           authors: Various
