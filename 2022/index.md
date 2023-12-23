@@ -5,6 +5,9 @@ img: heroes_journey.png
 active_tab: main_page 
 ---
 
+<div class="alert alert-warning" markdown="1">
+This is an archived version of the class, which was taught in Spring 2022 at the University of Pennsylvania by Lara Martin and Chris Callison-Burch.  For a more recent edition, check [here](https://interactive-fiction-class.org).
+</div>
 
 Course number
 : CIS 700-001 - Interactive Fiction and Text Generation 

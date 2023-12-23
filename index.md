@@ -1,5 +1,5 @@
 ---
-title: CIS 700-001 - Interactive Fiction and Text Generation - University of Pennsylvania
+title: CIS 7000-001 - Interactive Fiction and Text Generation - University of Pennsylvania
 layout: default
 img: heroes_journey.png
 active_tab: main_page 
@@ -67,15 +67,15 @@ First day of class is Thursday, January 13, 2022 at 1:45pm-3:15pm Eastern. It wi
 -->
 
 Course number
-: CIS 700-001 - Interactive Fiction and Text Generation 
+: CIS 7000-001 - Interactive Fiction and Text Generation 
 
 Prerequisites 
 : At least one of the following courses
-: CIS 419/519
-: CIS 520
-: CIS 421/521
-: CIS 522
-: CIS 530
+: CIS 4190/5190
+: CIS 5200
+: CIS 4210/5210
+: CIS 5220
+: CIS 5300
 
 Course Description
 : We know now that artificial intelligence (AI) can play chess or even Go, but can AI play text adventure games (also known as interactive fiction)? What about roleplaying games like Dungeons & Dragons? In this course, we will be looking at the subfields of automated story generation (teaching computers to tell stories), interactive fiction (teaching computers to play through stories), and their intersection (teaching computers to tell and then play through the stories). This class will teach you about computational creativity and help develop your skills in natural language processing and cognitive modeling. 
@@ -102,30 +102,37 @@ Website
 : [interactive-fiction-class.org](http://interactive-fiction-class.org/)
 
 Instructors
-: [Lara Martin](https://laramartin.net)
 : [Chris Callison-Burch](https://www.cis.upenn.edu/~ccb/)
 
 TAs
-: [Liam Dugan](http://liamdugan.com)
-: [Artemis Panagopoulou](https://artemisp.github.io/)
+: [Andrew Zhu](https://zhu.codes)
+: Anson Runsheng Huang
+: Kyle Jaewoo Song
 
 Discussion Forum
-: [Ed Discussion](https://edstem.org/us/courses/18119/discussion/)
+: [Ed Discussion](https://edstem.org/us/courses/50468/discussion/)
 
 Time and Place
-: Spring 2022, Tuesdays & Thursdays from 1:45-3:15pm EST [[Zoom link]](https://upenn.zoom.us/j/95868341588?pwd=a0NvbkhtUEdYTTk5d0Vmc2VvcHJrUT09)
-: First day of class is January 13, 2022
-: Last day of class is April 26, 2022
+: Spring 2024, Tuesdays & Thursdays from 1:45-3:15pm EST 
+: First day of class is January 18, 2024
+: Last day of class is April 30, 2024
 
 Office Hours (see the [Staff](/staff.html) page for office hour locations)
-: Chris - Mondays, 2-3pm EST
-: Liam - Tuesdays, 3:15-4:15pm EST
-: Lara - Thursdays, 3:15-4:15pm EST
-: Artemis - Fridays, 12:15-1:15pm EST
+: Chris - TBD
+: Andrew - TBD
+: Anson - TBD
+: Kyle - TBD
+
+
+Course Materials
+: There is no textbook for this course, but you will be required to puchase a varitey of materials including games, software, and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
+
+Games
+: [Labyrinth The Adventure Game](https://www.amazon.com/Jim-Hensons-Labyrinth-Adv-Game/dp/1916011551/) - $35 on Amazon
+
 
 
 <!--
-Textbooks
 : $20-30 [Parsley](http://www.memento-mori.com/parsely-products/) by Jared A Sorensen
 : [$10](http://www.drivethrurpg.com/product/108028/Dungeon-World)-[$25](https://www.burningwheel.com/dungeon-world-1/) [Dungeon World](https://dungeon-world.com/) by Sage LaTorra and Adam Koebel
 : Optional $31 [Dungeon Master's Guide - Dungeons & Dragons 5th edition Core Rulebook](https://www.amazon.com/Dungeons-Dragons-Dungeon-Rulebook-Roleplaying/dp/0786965622/) by Wizards of the Coast
