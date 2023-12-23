@@ -1,0 +1,288 @@
+-
+  date: 2022-01-13
+  title: Intro to the class, Interactive Fiction, and Automated Story Generation
+  activities: 
+    -
+      title: Play a text adventure game
+      url: play-text-adventures/play-text-adventures.html
+
+-
+  date: 2022-01-17
+  type: deadline
+  homework_due:   
+    -
+      title: "HW1: Build a Text-Adventure Game (5%)"
+      url: text-adventure-game/text-adventure-game.html
+-
+  date: 2022-01-18
+  title: Neural Language Models + Transformers
+
+
+-
+  date: 2022-01-20
+  title: Transformers, Continued
+  activities:
+    -
+      title: Create Data for Intent Detection
+      url: intent-detection/intent-detection.html
+
+
+-
+  date: 2022-01-25
+  title: Pretraining/Prompting
+  activities: 
+    -
+      title: Intent Determination with GPT-3
+      url: intent-detection-2/intent-detection-2.html
+
+
+-
+  date: 2022-01-25
+  title: Course Selection Period ends
+  type: no_lecture
+
+-
+  date: 2022-01-27
+  title: Neural Story Generation + Module 1 Paper Presentations
+
+-
+  date: 2022-01-31
+  type: deadline
+  homework_due:
+    -
+      title: "HW2: Generating Descriptions (10%)"
+      url: generating-descriptions/generating-descriptions.html
+
+-
+  date: 2022-02-01
+  title: Scripts and Events
+  activities:
+    -
+      title: Make Your Own Mini Script
+      url: script_making.html
+ 
+-
+  date: 2022-02-03
+  title: Understanding Procedures
+
+-
+  date: 2022-02-08
+  title: Guided Story Generation
+
+-
+  date: 2022-02-10
+  title: Story Ending Prediction (Story Cloze Test) + Module 2 Paper Presentations
+
+-
+  date: 2022-02-15
+  type: deadline
+  homework_due:
+    -
+      title: "HW3: Plot Graph Generation HW (10%)"
+      url: plots/plots.html
+
+-
+  date: 2022-02-15
+  title: Search
+  activities:
+    -
+      title: Search Algorithms for Action Castle
+      url: search/action-castle-search.html
+   
+-
+  date: 2022-02-17
+  title: Classical Planning
+  activities:
+    -
+      title: Planning and PDDL
+      url: planning/planning-and-pddl.html
+-
+  date: 2022-02-21
+  type: deadline
+  homework_due:   
+    -
+      title: Paper Summaries 1
+      url: https://www.gradescope.com/courses/354158/assignments/1836304
+-
+  date: 2022-02-21
+  title: Drop Period ends
+  type: no_lecture
+-
+  date: 2022-02-22
+  title: Story Planning + Drama Management
+-
+  date: 2022-02-24
+  title: Façade Playthrough + Module 3 Paper Presentations
+
+          
+-
+  date: 2022-03-01
+  title: Commonsense Reasoning
+
+      
+-
+  date: 2022-03-03
+  type: deadline
+  title: Knowledge Representations + Schemata
+  activities: 
+    -
+      title: WordNet Schemas
+      url: schemas/schemas.html
+  homework_due:
+    -
+      title: "HW4 Planning: Convert WikiHow to PDDL (10%)"
+      url: planning/planning.html      
+
+-
+  date: 2022-03-07
+  type: deadline
+  homework_due:   
+    -
+      title: Paper Summaries 2
+      url: https://www.gradescope.com/courses/354158/assignments/1882460
+-
+  date: 2022-03-8
+  title: No class (Spring Break)
+  type: no_lecture
+-
+  date: 2022-03-10
+  title: No class (Spring Break)
+  type: no_lecture
+      
+-
+  date: 2022-03-15
+  title: Midsemester Recap + Ontologies
+
+-
+  date: 2022-03-16
+  type: deadline
+  homework_due:   
+    -
+      title: Final Project Milestone 1&colon; Proposal + Lightning Talk (5%)
+      url: project-proposal/project-proposal.html
+
+-
+  date: 2022-03-17
+  title: Final Project Lightning Talks
+
+-
+  date: 2022-03-18
+  title: Grade Type Change Deadline
+  type: no_lecture
+  
+-
+  date: 2022-03-22
+  title: Module 4 Paper Presentations
+
+-
+  date: 2022-03-24
+  title: Intro to Dialogue + Dialogue for Interactive Fiction
+  activities:
+    -
+      title: Train GPT-3 to Perform Dialogue for NPCs
+      url: dialogue/light-dialogue.html
+  
+-
+  date: 2022-03-25
+  type: deadline
+  homework_due:
+    -
+      title: "HW5 Schemas: COMET-ATOMIC Schema (10%)"
+      url: schemas/schemas.html
+      
+-
+  date: 2022-03-28
+  title: Last day to withdraw from a course
+  type: no_lecture  
+
+-
+  date: 2022-03-29
+  title: Character-Based Generation
+  activities:
+    -
+      title: Characters and Quests
+      url: dialogue-2/quests.html
+
+-
+  date: 2022-03-31
+  title: Module 5 Paper Presentations
+  
+-
+  date: 2022-04-01
+  type: deadline
+  homework_due:   
+    -
+      title: Paper Summaries 3
+      url: https://www.gradescope.com/courses/354158/assignments/1937440
+      
+-
+  date: 2022-04-04
+  type: deadline
+  homework_due:
+    - 
+      title: Final Project Milestone 2&colon; Progress Report (Lit Review &amp; Baselines) (5%)
+      url: progress-report1/pr1.html
+
+-
+  date: 2022-04-05
+  title: Reinforcement Learning for Playing Interactive Fiction
+
+-
+  date: 2022-04-07
+  title: Mixed Methods
+
+-
+  date: 2022-04-11
+  type: deadline
+  homework_due: 
+    - 
+      title: "HW6 Dialog: Alexa Action-Castle (10%)"
+      url:  alexa_action_castle/alexa-action-castle.html
+
+-
+  date: 2022-04-12
+  title: Theory of Mind and Intent in Procedural Agents
+
+
+-
+  date: 2022-04-14
+  title: Story Evaluation + Module 6 Paper Presentations
+
+-
+  date: 2022-04-18
+  type: deadline
+  homework_due:
+    - 
+      title: Final Project Milestone 3&colon; Final Report Draft (5%)
+      url: progress-report2/pr2.html
+      
+-
+  date: 2022-04-18
+  type: deadline
+  homework_due:
+    - 
+      title: Paper Summaries 4
+      url: https://www.gradescope.com/courses/354158/assignments/1945221
+
+-
+  date: 2022-04-19
+  title: Visual Storytelling
+  
+-
+  date: 2022-04-21
+  title: Final Project In-Class Help
+  
+-
+  date: 2022-04-25
+  type: deadline
+  homework_due: 
+    - 
+      title: Final Project Milestone 4&colon; Final Report (20%)
+      url: project-final-submission/project-final.html
+    - 
+      title: Video Presentation Submission Due
+      url: 
+
+-
+  date: 2022-04-26
+  title: Final Project Presentations

@@ -1,0 +1,429 @@
+#    -
+#      name:
+#      url:
+#      paper1:
+#      paper_url1:
+#      code:
+#      hugging_face:
+#      leaderboard:
+
+datasets:
+  -
+    name: FanFiction Archive
+    info: fanfiction.net
+    url: https://archive.org/details/fanfictiondotnet_repack
+    paper1: "Beyond Canonical Texts: A Computational Analysis of Fanfiction"
+    paper_url1: https://www.aclweb.org/anthology/D16-1218.pdf
+    paper2: "Harry Potter and the Action Prediction Challenge from Natural Language"
+    paper_url2: https://www.aclweb.org/anthology/N19-1218.pdf     
+    code: http://github.com/smilli/fanfiction
+    hugging_face:
+    leaderboard:
+  -
+    name: Deep Dungeons and Dragons (DDD) Corpus
+    info: roleplayerguild.com
+    url: http://groups.inf.ed.ac.uk/cup/ddd/
+    paper1: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
+    paper_url1: https://www.aclweb.org/anthology/N18-2111.pdf
+  -
+    name: ROCStories
+    info: 5-sentence crowdsourced stories for Story Cloze Test
+    url: https://cs.rochester.edu/nlp/rocstories/
+    paper1: "A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories"
+    paper_url1: https://aclanthology.org/N16-1098
+    paper2: "LSDSem 2017 Shared Task: The Story Cloze Test"
+    paper_url2: http://cs.rochester.edu/~nasrinm/files/Papers/lsdsem17-shared-task.pdf
+    code: http://github.com/smilli/fanfiction
+    hugging_face:
+    leaderboard: https://competitions.codalab.org/competitions/15333
+  -
+    name: CaTeRS
+    info: Causal and temporal relations using ROC Stories
+    url: https://cs.rochester.edu/nlp/rocstories/CaTeRS/
+    paper1: "CaTeRS: Causal and Temporal Relation Scheme for Semantic Annotation of Event Structures"
+    paper_url1: https://aclanthology.org/W16-1007/
+  -
+    name: Scifi TV Plots
+    info: science fiction shows on fandom.com
+    url: https://github.com/rajammanabrolu/StoryRealization
+    paper1: "Story Realization: Expanding Plot Events into Sentences"
+    paper_url1: https://aaai.org/ojs/index.php/AAAI/article/view/6232
+    code: https://github.com/rajammanabrolu/StoryRealization
+    hugging_face: https://huggingface.co/datasets/lara-martin/Scifi_TV_Shows
+  -
+    name: WritingPrompts
+    info: r/WritingPrompts
+    url: http://www.reddit.com/r/WritingPrompts/
+    paper1: "Hierarchical Neural Story Generation"
+    paper_url1: https://aclanthology.org/P18-1082
+    code: https://github.com/pytorch/fairseq
+    hugging_face: https://huggingface.co/datasets/rewardsignal/reddit_writing_prompts
+  -
+    name: Lit Bank
+    info: Project Gutenberg 
+    url: https://github.com/dbamman/litbank
+    paper1: An Annotated Dataset of Literary Entities
+    paper_url1: http://people.ischool.berkeley.edu/~dbamman/pubs/pdf/naacl2019_literary_entities.pdf
+    paper2: Literary Event Detection
+    paper_url2: http://people.ischool.berkeley.edu/~dbamman/pubs/pdf/acl2019_literary_events.pdf
+    code: https://github.com/dbamman/litbank
+  -
+    name: STORIUM
+    info: storium.com (gamified storytelling)
+    url: https://storium.cs.umass.edu/
+    paper1: "STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation"
+    paper_url1: https://aclanthology.org/2020.emnlp-main.525/
+    code: https://github.com/dojoteef/storium-gpt2
+  -
+    name: ESTER
+    info: tagged events from news articles from the TempEval3(TE3) workshop
+    url: https://vnpeng.net/bibliography/han2021ester/
+    paper1: "ESTER: A Machine Reading Comprehension Dataset for Event Semantic Relation Reasoning"
+    paper_url1: https://arxiv.org/abs/2104.08350
+    code: https://github.com/PlusLabNLP/ESTER
+    leaderboard: https://eventqa.github.io/
+  -
+    name: CMU Movie Summary Corpus
+    info: Wikipedia movie summaries
+    url: http://www.cs.cmu.edu/~ark/personas/
+    paper1: Learning Latent Personas of Film Characters
+    paper_url1: https://aclanthology.org/P13-1035/
+  -
+    name: The Children’s Book Test
+    info: kids' books from Project Gutenberg
+    url: https://research.fb.com/downloads/babi/
+    paper1: "The Goldilocks Principle: Reading Children’s Books with Explicit Memory Representations"
+    paper_url1: https://arxiv.org/abs/1511.02301
+    code: https://github.com/facebookarchive/bAbI-tasks
+  -
+    name: Cornell Movie Dialog
+    info: movie scripts and metadata
+    url: https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html
+    paper1: "Chameleons in Imagined Conversations: A New Approach to Understanding Coordination of Linguistic Style in Dialogs"
+    paper_url1: https://aclanthology.org/W11-0609/
+    code: https://convokit.cornell.edu/documentation/movie.html
+    hugging_face: https://huggingface.co/datasets/cornell_movie_dialog 
+  -
+    name: ScriptWriter
+    info: from GraphMovie, which no longer exists (descriptions of movie plots)
+    url: https://github.com/DaoD/ScriptWriter
+    paper1: "ScriptWriter: Narrative-Guided Script Generation"
+    paper_url1: https://aclanthology.org/2020.acl-main.765/
+    code: https://github.com/DaoD/ScriptWriter      
+  -
+    name: NarrativeQA
+    info: movie scripts from various sources and Project Gutenberg books
+    url: https://github.com/deepmind/narrativeqa
+    paper1: The NarrativeQA Reading Comprehension Challenge
+    paper_url1: https://aclanthology.org/Q18-1023/
+    code: https://github.com/deepmind/narrativeqa
+    hugging_face: https://huggingface.co/datasets/narrativeqa
+    leaderboard: https://paperswithcode.com/sota/question-answering-on-narrativeqa
+  -
+    name: MCTest
+    info: 150-300 word stories written by crowdworkers
+    url: https://mattr1.github.io/mctest/
+    paper1: "MCTest: A Challenge Dataset for the Open-Domain Machine Comprehension of Text"
+    paper_url1: https://aclanthology.org/D13-1020/
+    hugging_face: https://huggingface.co/datasets/sagnikrayc/mctest
+    leaderboard: https://paperswithcode.com/dataset/mctest 
+  -
+    name: InSentive
+    info: authored stories from BookCorpus
+    url: https://github.com/roemmele/InSentive
+    paper1: "Inspiration through Observation: Demonstrating the Influence of Automatically Generated Text on Creative Writing"
+    paper_url1: https://roemmele.github.io/publications/Inspiration_through_Observation__Demonstrating_the_Influence_of_Automatically_Generated_Text_on_Creative_Writing.pdf
+    code: https://github.com/roemmele/InSentive  
+  -
+    name: dScryb
+    info: human-written scene descriptions
+    url: https://dscryb.com/
+
+vision:
+  -
+    name: BookCorpus
+    url: https://yknzhu.wixsite.com/mbweb
+    info:
+    paper1: "Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books"
+    paper_url1: https://www.computer.org/csdl/proceedings-article/iccv/2015/8391a019/12OmNro0HYa
+    paper2: Skip-thought vectors
+    paper_url2: http://papers.neurips.cc/paper/5950-skip-thought-vectors.pdf
+    code: https://github.com/ryankiros/skip-thoughts
+    hugging_face: https://huggingface.co/datasets/bookcorpus
+    leaderboard:
+  -
+    name: COIN
+    url: https://coin-dataset.github.io
+    info:
+    paper1: "COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis"
+    paper_url1: https://openaccess.thecvf.com/content_CVPR_2019/papers/Tang_COIN_A_Large-Scale_Dataset_for_Comprehensive_Instructional_Video_Analysis_CVPR_2019_paper.pdf
+    paper2:
+    paper_url2:
+    code: https://github.com/coin-dataset 
+    hugging_face:
+    leaderboard:
+  -
+    name: WikiHow
+    url: https://github.com/mahnazkoupaee/WikiHow-Dataset
+    info:
+    paper1: "WikiHow: A Large Scale Text Summarization Dataset"
+    paper_url1: https://arxiv.org/abs/1810.09305
+    paper2:
+    paper_url2:
+    code: https://github.com/mahnazkoupaee/WikiHow-Dataset
+    hugging_face: https://huggingface.co/datasets/wikihow
+    leaderboard:
+  -
+    name: VIST
+    url: http://visionandlanguage.net/VIST/dataset.html
+    info:
+    paper1: Visual Storytelling
+    paper_url1: https://aclanthology.org/N16-1147/
+    paper2:
+    paper_url2:
+    code:
+    hugging_face:
+    leaderboard:
+  -
+    name: MovieGraphs
+    url: http://moviegraphs.cs.toronto.edu/
+    info:
+    paper1: "MovieGraphs: Towards Understanding Human-Centric Situations from Videos"
+    paper_url1: https://ieeexplore.ieee.org/document/8578993
+    paper2:
+    paper_url2:
+    code:
+    hugging_face:
+    leaderboard:          
+    
+eval:
+  -
+    name: Narrative Cloze Test
+    paper1: Unsupervised Learning of Narrative Event Chains
+    paper_url1: https://aclanthology.org/P08-1090/
+    paper2:
+    paper_url2:
+    leaderboard:    
+  -
+    name: Story Cloze Test
+    url: https://cs.rochester.edu/nlp/rocstories/
+    paper1: A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories
+    paper_url1: https://aclanthology.org/N16-1098
+    paper2: "LSDSem 2017 Shared Task: The Story Cloze Test"
+    paper_url2: http://cs.rochester.edu/~nasrinm/files/Papers/lsdsem17-shared-task.pdf
+    leaderboard: https://competitions.codalab.org/competitions/15333   
+  -
+    name: BookTest
+    url: https://ibm.ent.box.com/v/booktest-v1
+    info: Cloze Test using Project Gutenberg
+    paper1: Embracing Data Abundance
+    paper_url1: https://openreview.net/pdf?id=H1U4mhVFe
+    paper2:
+    paper_url2:
+    leaderboard:  
+  -
+    name: Who-did-What
+    url: https://tticnlp.github.io/who_did_what/
+    info: Cloze Test using LDC English Gigaword newswire corpus
+    paper1: "Who did What: A Large-Scale Person-Centered Cloze Dataset"
+    paper_url1: https://aclanthology.org/D16-1241/
+    paper2:
+    paper_url2:
+    leaderboard:  https://tticnlp.github.io/who_did_what/leaderBoard.html
+    
+if:
+  -
+    name: LIGHT
+    url: https://parl.ai/projects/light/
+    info:
+    paper1: "Learning to Speak and Act in a Fantasy Text Adventure Game"
+    paper_url1: https://aclanthology.org/D19-1062/
+    paper2:
+    paper_url2:
+    code:  https://github.com/facebookresearch/ParlAI
+  -
+    name: Jericho
+    url: https://github.com/JerichoWorld/JerichoWorld
+    info:
+    paper1: "Modeling Worlds in Text"
+    paper_url1: hhttps://openreview.net/forum?id=Y1YtS9MZA75
+    paper2: "Interactive Fiction Games: A Colossal Adventure"
+    paper_url2: https://ojs.aaai.org/index.php/AAAI/article/view/6297
+    code:  https://github.com/JerichoWorld/JerichoWorld
+  -
+    name: TextWorld
+    url: https://github.com/Microsoft/TextWorld
+    info:
+    paper1: "TextWorld: A Learning Environment for Text-based Games"
+    paper_url1: https://www.microsoft.com/en-us/research/project/textworld/
+    paper2:
+    paper_url2:
+    code: https://github.com/Microsoft/TextWorld
+    
+planning:
+  -
+    name: Glaive
+    url: https://www.cs.uky.edu/~sgware/projects/glaive/
+    info:
+    paper1: "Glaive: a state-space narrative planner supporting intentionality and conflict"
+    paper_url1: https://ojs.aaai.org/index.php/AIIDE/article/view/12712
+  -
+    name: StoryAssembler
+    url: https://github.com/LudoNarrative/StoryAssembler
+    info:
+    paper1: "StoryAssembler: An Engine for Generating Dynamic Choice-Driven Narratives"
+    paper_url1: https://dl.acm.org/doi/10.1145/3337722.3337732
+  -
+    name: Belief and Intentional PDDL
+    url: https://github.com/qed-lab/belief-intention-compilation
+    info:
+    paper1: Using Domain Compilation to Add Belief to Narrative Planners
+    paper_url1: https://ojs.aaai.org//index.php/AIIDE/article/view/7405
+  -
+    name: STRIPS Planner for Python
+    url: https://github.com/abdulapopoola/STRIPS-Planner
+    info:
+
+knowledge:
+  -
+    name: VerbNet
+    url: https://uvi.colorado.edu/uvi_search
+    info:
+    paper1: "VerbNet: A Broad-Coverage, Comprehensive Verb Lexicon"
+    paper_url1: http://verbs.colorado.edu/~kipper/Papers/dissertation.pdf
+    hugging_face: 
+  -
+    name: FrameNet
+    url: https://framenet.icsi.berkeley.edu/fndrupal/
+    info:
+    paper1: "FrameNet II: Extended Theory and Practice"
+    paper_url1: https://framenet2.icsi.berkeley.edu/docs/r1.7/book.pdf
+    paper2:
+    paper_url2:
+    hugging_face: 
+  -
+    name: WordNet
+    url: https://wordnet.princeton.edu/
+    info:
+    paper1: "WordNet: An Electronic Lexical Database"
+    paper_url1: https://mitpress.mit.edu/books/wordnet
+  -
+    name: ConceptNet
+    url: https://conceptnet.io/
+    info:
+    paper1: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
+    paper_url1: https://arxiv.org/abs/1612.03975
+    hugging_face: https://huggingface.co/datasets/conceptnet5
+  -
+    name: ATOMIC
+    url: https://homes.cs.washington.edu/~msap/atomic/
+    info:
+    paper1: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
+    paper_url1: https://homes.cs.washington.edu/~msap/pdfs/sap2019atomic.pdf
+    hugging_face: https://huggingface.co/datasets/atomic
+  -
+    name: GLUCOSE
+    url: https://github.com/ElementalCognition/glucose
+    info:
+    paper1: "GLUCOSE: GeneraLized and COntextualized Story Explanations"
+    paper_url1: https://aclanthology.org/2020.emnlp-main.370/
+    hugging_face: https://huggingface.co/datasets/glucose                 
+  -
+    name: Power and Agency in modern films
+    url: https://homes.cs.washington.edu/~msap/movie-bias/
+    info:
+    paper1: Connotation Frames of Power and Agency in Modern Films
+    paper_url1: https://homes.cs.washington.edu/~msap/pdfs/sap2017connotation.pdf
+  -
+    name: Social Bias Frames
+    url: https://homes.cs.washington.edu/~msap/social-bias-frames/
+    paper1: "Social Bias Frames: Reasoning about Social and Power Implications of Language"
+    paper_url1: https://homes.cs.washington.edu/~msap/pdfs/sap2020socialbiasframes.pdf
+  -
+    name: Eraser
+    url: https://www.eraserbenchmark.com/
+    info: Movie Rationales
+    paper1: "ERASER: A Benchmark to Evaluate Rationalized NLP Models"
+    paper_url1: https://aclanthology.org/2020.acl-main.408/
+    hugging_face: https://huggingface.co/datasets/movie_rationales
+  -
+    name: ECIpedia
+    url: https://github.com/jgordon/ecipedia-usc
+    info:
+  -
+    name: The NOC List
+    url: https://github.com/prosecconetwork/The-NOC-List
+    info:
+    paper1: "Round Up The Usual Suspects: Knowledge-Based Metaphor Generation"
+    paper_url1: https://aclanthology.org/W16-1105/
+  -
+    name: NULEX
+    url: https://www.qrg.northwestern.edu/Resources/nulex.html
+    info: combines WordNet, VerbNet, and Wiktionary
+    paper1: "NULEX: An Open-License Broad Coverage Lexicon"
+    paper_url1: https://aclanthology.org/P11-2063/
+  -
+    name: CausalBank
+    url: https://nlp.jhu.edu/causalbank/
+    info:
+    paper1: Guided Generation of Cause and Effect
+    paper_url1: https://www.ijcai.org/proceedings/2020/0502.pdf
+
+
+
+other:
+  -
+    name: Plot-guided Coherence Evaluation
+    url: https://github.com/PlusLabNLP/Plot-guided-Coherence-Evaluation
+    info:
+    paper1: Plot-guided Adversarial Example Construction for Evaluating Open-domain Story Generation
+    paper_url1: https://aclanthology.org/2021.naacl-main.343/
+  -
+    name: Story Gen BART
+    url: https://github.com/PlusLabNLP/story-gen-BART
+    info:
+    paper1: Content Planning for Neural Story Generation with Aristotelian Rescoring
+    paper_url1: https://aclanthology.org/2020.emnlp-main.351/
+  -
+    name: EnGen
+    url: https://github.com/eaclark07/engen
+    info:
+    paper1: Neural text generation in stories using entity representations as context
+    paper_url1: https://aclanthology.org/N18-1204.pdf
+  -
+    name: Choose Your Own Adventure Evaluation
+    url: https://github.com/eaclark07/cyoa
+    info:
+    paper1: "Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models"
+    paper_url1: https://aclanthology.org/2021.naacl-main.279/
+  -
+    name: Sentence Mover's Similarity
+    url: https://github.com/eaclark07/sms
+    info:
+    paper1: "Sentence Mover’s Similarity: Automatic Evaluation for Multi-Sentence Texts"
+    paper_url1: https://aclanthology.org/P19-1264/
+  -
+    name: AI Dungeon 2
+    url: https://github.com/Latitude-Archives/AIDungeon
+    info:                  
+  -
+    name: COMET
+    url: https://github.com/atcbosselut/comet-commonsense
+    info: uses ATOMIC and ConceptNet
+    paper1: "COMET: Commonsense Transformers for Automatic Knowledge Graph Construction"
+    paper_url1:   https://aclanthology.org/P19-1470/
+  -
+    name: Plan-And-Write
+    url: https://bitbucket.org/VioletPeng/language-model/src/master/
+    info:
+    paper1: "Plan-and-Write: Towards Better Automatic Storytelling"
+    paper_url1:   https://ojs.aaai.org/index.php/AAAI/article/view/4726
+  -
+    name: ASTER (Automated Story-Telling using Event Representations)
+    url: https://github.com/lara-martin/ASTER
+    info:
+    paper1: Event Representations for Automated Story Generation with Deep Neural Nets
+    paper_url1:   https://dl.acm.org/doi/abs/10.5555/3504035.3504141        
+
+
+

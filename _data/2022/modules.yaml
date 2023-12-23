@@ -1,0 +1,873 @@
+-
+  module_number: 0
+  start_date: 2022-01-13
+  end_date: 2022-01-17
+  title: Introduction to IF and Automated Story Generation
+  description: Welcome to the class! In this introductory module, you will become acquainted with interactive fiction (since you're probably too young to know what it is) and learn about the field of automated story generation (since it's a small subfield of AI and you probably haven't heard of it). You'll even get a chance to make your own mini interactive fiction game the old-school way!
+  lessons:
+    - 
+      title: Intro to the class, Interactive Fiction, and Automated Story Generation 
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?tid=d9d12831-5a0f-4e7f-8d75-ae1d0077227d
+      length: 1 hour 39 mins
+      slides: https://docs.google.com/presentation/d/18omDdghODPjlbE0xqVZgsLO0fPAWLfzN/edit?usp=sharing&ouid=100612312038766573060&rtpof=true&sd=true
+      readings:
+        -
+          title: A Systematic Survey of Text Worlds as Embodied Natural Language Environments
+          url: https://aclanthology.org/2022.wordplay-1.1.pdf
+          authors: Peter A. Jansen
+        -
+          title: "TextWorld: A Learning Environment for Text-based Games"
+          url: https://www.semanticscholar.org/paper/TextWorld%3A-A-Learning-Environment-for-Text-based-Côté-Kádár/89daae27e7df4a418b9610d307ce3df0e30fc8a2
+          authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Ruo Yu Tao, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischler
+        -
+          title: "Interactive Fiction Games: A Colossal Adventure"
+          url: https://www.semanticscholar.org/paper/Interactive-Fiction-Games%3A-A-Colossal-Adventure-Hausknecht-Ammanabrolu/221d453c165aca6bc1a054289eb510e558a23dca
+          authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan
+      optional:
+        -
+          authors: Various
+          url: https://itch.io/games/tag-interactive-fiction/tag-text-based
+          title: "Play some text-based games on Itch.io"     
+        -
+          authors: Jason Scott
+          url: https://www.youtube.com/watch?v=LRhbcDzbGSU
+          title: "GET LAMP: The Text Adventure Documentary"
+          length: 2 hours
+        -  
+          authors: Chris Ainsley/adventuron.io
+          url: https://adventuron.blogspot.com/2019/07/video-tutorial-beginners-guide-to.html
+          title: Video Tutorial - Beginners Guide To Coding An Illustrated Text Adventure Game
+          length: 35 minutes
+        -
+          authors: Jared Sorensen
+          url: https://www.youtube.com/watch?v=Sehaj4mw38s
+          title: Action Castle at PAX East 2011
+          length: 12 minutes
+        -
+          authors: Mark Riedl
+          url: https://mark-riedl.medium.com/an-introduction-to-ai-story-generation-7f99a450f615
+          title: An Introduction to AI Story Generation
+        -
+          authors: H2G2.com
+          url: https://h2g2.com/edited_entry/A20600641
+          title: "How to Make a Text-Based Adventure: Commands and Parser"
+  hw:
+    -
+      title: "Homework 1: Build a Text-Adventure Game"
+      url: text-adventure-game/text-adventure-game.html
+      percentage: 5%
+      due_date: 2022-01-17
+
+-
+  module_number: 1
+  start_date: 2022-01-18
+  end_date: 2022-01-31
+  title: Neural Language Models
+  description: With neural language models becoming more popular within Natural Language Processing/Generation (NLP/NLG), automated story generation researchers realized how much easier it is to generate text. (And this also helped NLP researchers get interested in story generation!) Here, you'll learn about neural language models, particularly the transformer, how to work with them, and how they are used to generate stories.
+  lessons:
+    - 
+      title: Neural Language Models + Transformers
+      guest_speaker: Daphne Ippolito
+      guest_url: https://www.seas.upenn.edu/~daphnei/
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e89106d-8358-45e6-a36c-ae210157dafb
+      length: 1 hour 32 mins
+      slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
+      readings:
+        -
+          title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
+          url: https://dl.acm.org/doi/10.1145/3442188.3445922
+          authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell
+        -
+          title: "[GPT-2 paper] Language Models are Unsupervised Multitask Learners"
+          url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+          authors: Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever
+        -
+          title: "[Transformer paper] Attention is All You Need"
+          url: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+          authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
+        -
+          title: "Sequence to Sequence Learning with Neural Networks"
+          url: https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf
+          authors: Ilya Sutskever, Oriol Vinyals, Quoc V. Le
+        -
+          title: "Generating Sequences With Recurrent Neural Networks"
+          url: https://arxiv.org/abs/1308.0850
+          authors: Alex Graves          
+      optional:
+        -
+          title: Tay, Microsoft's AI chatbot, gets a crash course in racism from Twitter
+          authors: Elle Hunt (The Guardian)
+          url: https://www.theguardian.com/technology/2016/mar/24/tay-microsofts-ai-chatbot-gets-a-crash-course-in-racism-from-twitter?CMP=twt_a-technology_b-gdntech
+        -
+          title: "The AI Text Generator That's Too Dangerous to Make Public"
+          authors: Tom Simonite (Wired)
+          url: https://www.wired.com/story/ai-text-generator-too-dangerous-to-make-public/
+    - 
+      title: Transformers, Continued
+      guest_speaker: Daphne Ippolito
+      guest_url: https://www.seas.upenn.edu/~daphnei/
+      slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=42c62328-b795-46a1-9d36-ae2301571b61
+      length: 1 hour 33 mins
+      readings:
+        -
+          title: The Curious Case of Neural Text Degeneration
+          url: https://openreview.net/pdf?id=rygGQyrFvH
+          authors: Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, Yejin Choi
+        -
+          title: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+          authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
+          url: https://aclanthology.org/N19-1423/
+        -
+          title: "[word2vec paper] Efficient Estimation of Word Representations in Vector Space"
+          authors: Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean
+          url: https://arxiv.org/abs/1301.3781
+        -
+          title: "[T5 paper] Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+          url: https://arxiv.org/abs/1910.10683
+          authors: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu          
+      optional:
+        -
+          title: "A Bit of Fry & Laurie: Concerning Language"
+          length: 7 minutes, 23 seconds
+          url: https://www.youtube.com/watch?v=3MWpHQQ-wQg
+          authors: Hugh Laurie, Stephen Fry
+        -
+          title: "Speech and Language Processing, Chapter 6: Vector Semantics and Embeddings"
+          url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
+          authors: Daniel Jurafsky, James H. Martin
+    - 
+      title: Pretraining/Prompting
+      guest_speaker: 
+      guest_url: 
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=99ce80a0-c4c8-4684-bd18-ae2801534544
+      length: 1 hour 15 mins
+      readings:
+        -
+          title: Language Models are Few-Shot Learners (GPT-3 paper)
+          url: https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
+          authors: Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, et al.
+        -
+          title: "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing"
+          url: https://arxiv.org/abs/2107.13586
+          authors: Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig      
+    - 
+      title: Neural Story Generation + Module 1 Paper Presentations
+      guest_speaker:
+      slides: https://docs.google.com/presentation/d/1qFjLt5DZ2aH9e4Eu0Bx1XoSjtiF1iQdKx4xDxxsy-fg/edit?usp=sharing
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b945aba2-14c7-4693-b1dd-ae2a015add1a
+      length: 1 hour 46 mins
+      readings:
+        -
+          title: Hierarchical Neural Story Generation
+          authors: Angela Fan, Mike Lewis, Yann Dauphin
+          url: https://aclanthology.org/P18-1082/
+        -
+          title: Do Massively Pretrained Language Models Make Better Storytellers?
+          authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
+          url: https://aclanthology.org/K19-1079/   
+        -
+          title: Green AI
+          url: https://arxiv.org/abs/1907.10597
+          authors: Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni          
+      optional:
+        -
+          title: AI Dungeon (game)
+          url: https://play.aidungeon.io/
+          authors: Nick Walton/Latitude
+      presentations:
+        -
+          title: Attention is All You Need
+          url: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+          presenters: "Marta Garcia Ferreiro & Stefan Papazov"
+        -
+          title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
+          url: https://dl.acm.org/doi/10.1145/3442188.3445922
+          presenters: "Salvatore Giorgi & Keith Golden"
+        -
+          title: "Do Massively Pretrained Language Models Make Better Storytellers?"
+          url: https://aclanthology.org/K19-1079/
+          presenters: "Wesley Gill, Adrian Wang, & Daniel Tao"
+        -
+          title: "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+          url: https://aclanthology.org/D19-1410/
+          presenters: Yuxuan Wang        
+  hw:
+    -
+      title: "Homework 2: Generating Descriptions"
+      url: generating-descriptions/generating-descriptions.html
+      percentage: 10%
+      due_date: 2022-01-31
+
+-
+  module_number: 2
+  start_date: 2022-02-01
+  end_date: 2021-02-10
+  title: Scripts and Story Structure
+  description: Scripts can be considered the backbone of storytelling. They help us fill in the gaps of knowledge that we would otherwise be missing from reading a story, and they help us reason about why events happen and what order they happen in. This Module will teach you about scripts, causal chains, and events. We'll also look at how people have been using these techniques in the age of the neural network.
+  lessons:
+    - 
+      title: Scripts and Events
+      slides: https://drive.google.com/file/d/15NY1bEg6ZZg5e3Ny0PIWvZNRpANAnInv/view?usp=sharing
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ac6fee3-a97a-40bd-9b6a-ae2f014f59a9
+      length: 1 hour 16 mins
+      readings:
+        -
+          title: "Scripts Plans Goals and Understanding: An Inquiry Into Human Knowledge Structures (Chapter 3: Scripts)"
+          authors: Roger Schank, Robert Abelson
+          url: https://drive.google.com/file/d/1r47LUKqrGbtrZ9E_Qykfrbc7uXe_LTav/view?usp=sharing
+        -
+          title: Learning Statistical Scripts with LSTM Recurrent Neural Networks
+          authors: Karl Pichotta, Raymond Mooney
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/10347
+        -
+          title: Event Representations for Automated Story Generation with Deep Neural Nets
+          authors: Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl
+          url: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17046/
+        -
+          title: Unsupervised Learning of Narrative Schemas and their Participants
+          authors: Nathanael Chambers and Dan Jurafsky
+          url: https://www.aclweb.org/anthology/P09-1068/
+        -
+          title: "proScript: Partially Ordered Scripts Generation via Pre-trained Language Models"
+          authors: Keisuke Sakaguchi, Chandra Bhagavatula, Ronan Le Bras, Niket Tandon, Peter Clark, Yejin Choi
+          url: https://aclanthology.org/2021.findings-emnlp.184/
+        -
+          title: "What do Large Language Models Learn about Scripts?"
+          authors: Abhilasha Sancheti, Rachel Rudinger
+          url: https://arxiv.org/abs/2112.13834
+        -
+          title: Fiction, Non-Factuals, and the Principle of Minimal Departure
+          url: https://www.sciencedirect.com/science/article/pii/0304422X80900303
+          authors: Marie-Laure Ryan          
+    - 
+      title: Understanding Procedures
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f81c1d74-af45-447d-acdd-ae31016dc87e
+      length: 1 hour 29 mins
+      readings:
+        -
+          title: Implicit Representations of Meaning in Neural Language Models
+          authors: Belinda Z. Li, Maxwell Nye, Jacob Andreas
+          url: https://aclanthology.org/2021.acl-long.143
+        -
+          title: Goal-Oriented Script Construction
+          url: https://aclanthology.org/2021.inlg-1.19
+          authors: Qing Lyu, Li Zhang, Chris Callison-Burch
+        -
+          title: Reasoning about Goals, Steps, and Temporal Ordering with WikiHow
+          url: https://aclanthology.org/2020.emnlp-main.374/
+          authors: Li Zhang, Qing Lyu, Chris Callison-Burch
+        -
+          title: Intent Detection with WikiHow
+          url: https://aclanthology.org/2020.aacl-main.35/
+          authors: Li Zhang, Qing Lyu, Chris Callison-Burch
+        -
+          title: "SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference"
+          authors: Rowan Zellers, Yonatan Bisk, Roy Schwartz, Yejin Choi
+          url: https://aclanthology.org/D18-1009/          
+      guest_speaker: Harry Li Zhang
+      guest_url: http://zharry.com
+      guest_speaker2: Veronica Qing Lyu
+      guest_url2: https://veronica320.github.io/
+      slides: https://docs.google.com/presentation/d/105BQYe7jyp5zSlVXORG1aJugOosUvcqk
+    - 
+      title: Guided Story Generation
+      slides: https://drive.google.com/file/d/1UH23icbixj0fvwjPh7U99MS6CUriMAYy/view?usp=sharing
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8cea1b51-3614-49f2-89f1-ae36015912aa&start=450
+      readings:
+        -
+          title: "Plan-And-Write: Towards Better Automatic Storytelling"
+          authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao, Rui Yan
+          url: https://www.aaai.org/ojs/index.php/AAAI/article/download/4726/4604
+        -
+          title: "PlotMachines: Outline-Conditioned Generation with Dynamic Plot State Tracking"
+          authors: Hannah Rashkin, Asli Celikyilmaz, Yejin Choi, Jianfeng Gao
+          url: https://aclanthology.org/2020.emnlp-main.349/          
+        -
+          title: Controllable Neural Story Plot Generation via Reward Shaping
+          authors: Pradyumna Tambwekar, Murtaza Dhuliawala, Lara J. Martin, Animesh Mehta, Brent Harrison, Mark O. Riedl
+          url: https://www.ijcai.org/proceedings/2019/829
+        -
+          title: Enhanced Story Representation by ConceptNet for Predicting Story Endings
+          authors: Shanshan Huang, Kenny Q. Zhu, Qianzi Liao, Libin Shen, Yinggong Zhao
+          url: https://dl.acm.org/doi/pdf/10.1145/3340531.3417466
+        -
+          title: A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories
+          authors: Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen
+          url: https://aclanthology.org/N16-1098/          
+    -
+      title: Story Ending Prediction (Story Cloze Test) + Module 2 Paper Presentations
+      slides: https://drive.google.com/file/d/1J5Z4Q7GwFD-T9R_amZOX6bxEq2oj0pxY/view?usp=sharing
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebe8c581-fbe2-4de2-9937-ae38015e5614
+      presentations:
+        -
+          title: Controllable Neural Story Plot Generation via Reward Shaping
+          url: https://www.ijcai.org/proceedings/2019/829
+          presenters: "Ning Wan & Hongyu Zhang"
+        -
+          title: "Unsupervised Learning of Narrative Schemas and their Participants"
+          url: https://aclanthology.org/P09-1068/
+          presenters: "Ruochun Wang, Yixuan Meng, & Charles Howland"
+        -
+          title: "PlotMachines: Outline-Conditioned Generation with Dynamic Plot State Tracking"
+          url: https://aclanthology.org/2020.emnlp-main.349/
+          presenters: "Anshul Wadhawan, Karmanya Aggarwal, & Pooja Dattatri"
+  hw:
+    -
+      title: "Homework 3: Plot Graph Generation"
+      percentage: 10%
+      due_date: 2022-02-15
+      url: plots/plots.html
+
+-
+  module_number: 3
+  start_date: 2022-02-15
+  end_date: 2022-02-28
+  title: Search and Planning
+  description: 
+  hw:
+    -
+      title: "Homework 4: Convert WikiHow to PDDL"
+      percentage: 10%
+      due_date: 2022-03-03
+      url: planning/planning.html
+  lessons:
+    - 
+      title: Search
+      slides: slides/Search-and-Planning.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4ba6aa8a-01c6-4236-955e-ae3d015a4e33
+      optional:
+        - 
+          title: "Artificial Intelligence: A Modern Approach, Chapter 3"
+          authors: Peter Norvig and Stuart J. Russell
+      presentations:
+        -
+          title: "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents"
+          url: https://wenlong.page/language-planner/
+          presenters: "Josh Ludan & Young-Min Cho"       
+    - 
+      title: Classical Planning
+      slides: slides/Search-and-Planning.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3673be5f-af5f-4876-9fda-ae3f0158dcde
+      readings:     
+      optional:
+        - 
+          title: "Artificial Intelligence: A Modern Approach, Chapter 11"
+          authors: Peter Norvig and Stuart J. Russell
+        -
+          title: Stanford Research Institute Problem Solver
+          authors: Wikipedia
+          url: https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver
+        -
+          title: Artificial Intelligence Planning with STRIPS, A Gentle Introduction
+          authors: Kory Becker
+          url: http://www.primaryobjects.com/2015/11/06/artificial-intelligence-planning-with-strips-a-gentle-introduction/
+    - 
+      title: Story Planning + Drama Management
+      guest_speaker: Stephen G. Ware
+      guest_url: http://stephengware.com/
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=87c84497-a145-4fa1-bd3a-ae4401525e71
+      slides: slides/Sabre.pdf
+      optional:
+        -
+          title: Camelot Virtual Environment
+          url: http://cs.uky.edu/~sgware/projects/camelot/v1-2/
+          authors: Narrative Intelligence Lab at the University of Kentucky
+      readings:
+        -
+          title: Story-Telling as Planning and Learning
+          authors: Michael Lebowitz
+          url: https://www.sciencedirect.com/science/article/pii/0304422X85900154
+        -
+          title: Open-world planning for story generation
+          authors: Mark O. Riedl, R. Michael Young
+          url: https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.649.3076
+        -
+          title: "Plans and planning in narrative generation: a review of plan-based approaches to the generation of story, discourse and interactivity in narratives"
+          authors: R. Michael Young, Stephen Ware, Brad Cassell, Justus Robertson
+          url: https://www.justusrobertson.com/papers/Young%20Ware%20Cassell%20and%20Robertson%202013%20-%20Plans%20and%20Planning%20in%20Narrative%20Generation.pdf
+        -
+          title: "Controlling narrative generation with planning trajectories: The role of constraints"
+          authors: Julie Porteous, Marc Cavazza
+          url: https://www.researchgate.net/publication/220920127_Controlling_Narrative_Generation_with_Planning_Trajectories_The_Role_of_Constraints        
+        -
+          title: "Sabre: A Narrative Planner Supporting Intention and Deep Theory of Mind"
+          authors: Stephen G. Ware, Cory Siler
+          url: http://cs.uky.edu/~sgware/reading/papers/ware2021sabre.pdf
+        -
+          title: "Glaive: A State-Space Narrative Planner Supporting Intentionality and Conflict"
+          authors: Stephen G. Ware, R. Michael Young
+          url: http://cs.uky.edu/~sgware/reading/papers/ware2014glaive.pdf        
+        -
+          title: Narrative Plan Generation with Self-Supervised Learning
+          authors: Mihai Polceanu, Julie Porteous, Alan Lindsay, Marc Cavazza 
+          url: https://www.aaai.org/AAAI21Papers/AAAI-1408.PolceanuM.pdf      
+        -
+          title: Integrating Plot, Character and Natural Language Processing in the Interactive Drama Façade
+          authors: Michael Mateas, Andrew Stern
+          url: https://www.semanticscholar.org/paper/Integrating-Plot%2C-Character-and-Natural-Language-in-Mateas-Stern/6c92ac4eb449b53ce9a7b0dd94316da17a394446
+        -
+          title: Drama Management and Player Modeling for Interactive Fiction Games
+          authors: Manu Sharma, Santiago Ontañón, Manish Mehta, Ashwin Ram
+          url: https://www.cc.gatech.edu/faculty/ashwin/papers/er-09-10.pdf
+        -
+          title: "Multi-Agent Narrative Experience Management as Story Graph Pruning"
+          authors: Stephen G. Ware, Edward T. Garcia, Alireza Shirvani, Rachelyn Farrell
+          url: http://cs.uky.edu/~sgware/reading/papers/ware2019multi.pdf
+    -
+      title: Façade Playthrough + Module 3 Paper Presentations
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04ced777-7234-4c0e-a027-ae460159cebc
+      readings:
+        -
+          title: "Learning Norms from Stories: A Prior for Value Aligned Agents"
+          url: https://dl.acm.org/doi/10.1145/3375627.3375825
+          authors: Md Sultan Al Nahian, Spencer Frazier, Mark Riedl, Brent Harrison
+        -
+          title: "dAIrector: Automatic Story Beat Generation through Knowledge Synthesis"
+          url: http://ceur-ws.org/Vol-2321/paper8.pdf
+          authors: Markus Eger, Kory W. Mathewson
+        -
+          title: "Joint Constrained Learning for Event-Event Relation Extraction"
+          url: https://aclanthology.org/2020.emnlp-main.51/
+          authors: Haoyu Wang, Muhao Chen, Hongming Zhang, Dan Roth
+      optional:
+        -
+          title: Façade
+          url: https://www.playablstudios.com/facade
+          authors: Michael Mateas, Andrew Stern
+        -
+          title: Anchorhead
+          url: https://dwheeler.com/anchorhead/
+          authors: Michael S. Gentry
+        -
+          title: "PLOTTO: A New Method of Plot Suggestion for Writers of Creative Fiction"
+          url: http://garykac.github.io/plotto/
+          authors: William Wallace Cook 
+      presentations:
+        -
+          presenters: Haoyu Wang
+          title: Story Telling as Planning and Learning
+          url: https://www.sciencedirect.com/science/article/pii/0304422X85900154      
+        -
+          presenters: "Benjamin Demers & Saurabh Shah"
+          title: Drama Management and Player Modeling for Interactive Fiction Games
+          url: https://www.cc.gatech.edu/faculty/ashwin/papers/er-09-10.pdf
+        -
+          presenters: Adrian Binkley
+          title: Integrating Plot, Character and Natural Language Processing in the Interactive Drama Façade
+          url: https://www.semanticscholar.org/paper/Integrating-Plot%2C-Character-and-Natural-Language-in-Mateas-Stern/6c92ac4eb449b53ce9a7b0dd94316da17a394446
+        -
+          presenters: "Paul Scott & Andrew Zhao"
+          title: "Controlling narrative generation with planning trajectories: The role of constraints"
+          url: https://www.researchgate.net/publication/220920127_Controlling_Narrative_Generation_with_Planning_Trajectories_The_Role_of_Constraints
+-
+  module_number: 4
+  start_date: 2022-03-01
+  end_date: 2022-03-22
+  title: Commonsense Reasoning + Schemas
+  description:
+  lessons:
+    -
+      title: Commonsense Reasoning
+      slides: slides/Commonsense-Reasoning.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec56c54e-980b-42d7-b864-ae4b01578757
+      readings:
+        -
+          title: Machine Common Sense Concept Paper
+          authors: David Gunning
+          url: https://arxiv.org/abs/1810.07528
+        -
+          title: Common Sense Reasoning – From Cyc to Intelligent Assistant
+          authors: Kathy Panton, Cynthia Matuszek, Douglas Lenat, Dave Schneider, Michael Witbrock, Nick Siegel, and Blake Shepard
+          url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
+        -
+          title: Commonsense Reasoning for Natural Language Understanding&colon; A Survey of Benchmarks, Resources, and Approaches
+          authors: Shane Storks, Qiaozi Gao, Joyce Y. Chai
+          url: https://arxiv.org/abs/1904.01172
+        -
+          title: ACL 2020 Commonsense Tutorial
+          authors: Yejin Choi, Vered Shwartz, Maarten Sap, Antoine Bosselut, Dan Roth
+          url: https://homes.cs.washington.edu/~msap/acl2020-commonsense/
+        -
+          title: "NaturalLI: Natural Logic Inference for Common Sense Reasoning"
+          authors: Gabor Angeli and Chris Manning
+          url: https://www.aclweb.org/anthology/D14-1059.pdf        
+      optional:          
+        -
+          title: AI2 Common Sense leaderboards
+          authors: Allen Institute for Artificial Intelligence
+          url: https://leaderboard.allenai.org
+    -
+      title: Knowledge Representations + Schemata
+      slides: slides/CIS700-KnowledgeBases.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d0bb2997-cba8-47cf-b6d9-ae4d01582e07
+      readings:
+        -
+          title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
+          authors: Robyn Speer, Joshua Chin, Catherine Havasi
+          url: https://dl.acm.org/doi/10.5555/3298023.3298212
+        -
+          title: "VerbNet: Capturing English verb behavior, meaning and usage"
+          authors:  Martha Palmer, Claire Bonial, Jena Hwang
+          url: https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199842193.001.0001/oxfordhb-9780199842193-e-15
+        -
+          title: WordNet
+          authors: Christiane Fellbaum
+          url: https://link.springer.com/chapter/10.1007/978-90-481-8847-5_10
+        -
+          title: "GLUCOSE: GeneraLized and COntextualized Story Explanations"
+          authors: Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll
+          url: https://aclanthology.org/2020.emnlp-main.370/
+        -
+          title: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
+          authors:  Maarten Sap, Ronan Le Bras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, Hannah Rashkin, Brendan Roof, Noah A. Smith, Yejin Choi 
+          url: https://ojs.aaai.org//index.php/AAAI/article/view/4160
+        -
+          title: Guided Generation of Cause and Effect
+          authors: Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme
+          url: https://www.ijcai.org/Proceedings/2020/0502
+        -
+          title: "What Happened? Leveraging VerbNet to Predict the Effects of Actions in Procedural Text"
+          authors: Peter Clark, Bhavana Dalvi, Niket Tandon
+          url: https://arxiv.org/abs/1804.05435
+        -
+          title: "Putting Pieces Together: Combining FrameNet, VerbNet and WordNet for Robust Semantic Parsing"
+          authors: Lei Shi and Rada Mihalcea
+          url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf
+    -
+      title: Midsemester Recap + Ontologies
+      guest_speaker: Susan Brown
+      guest_url: https://verbs.colorado.edu/brownsw/
+      readings:
+      slides: slides/CIS700-Recap-Ontologies.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31d9b840-2179-44f4-b32a-ae59014effdd
+      readings:
+        -
+          title: The Rich Event Ontology
+          url: https://aclanthology.org/W17-2712/
+          authors: Susan Brown, Claire Bonial, Leo Obrst, Martha Palmer      
+    -
+      title: Module 4 Paper Presentations
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76f04c32-7e9b-4955-a4cc-ae600144975e
+      readings:
+        -
+          title: Retrofitting Word Vectors to Semantic Lexicons
+          url: https://arxiv.org/abs/1411.4166
+          authors: "Manaal Faruqui, Jesse Dodge, Sujay K. Jauhar, Chris Dyer, Eduard Hovy, Noah A. Smith"          
+      optional:
+        -
+          title: Stanford Natural Language Inference (SNLI) Corpus
+          url: https://nlp.stanford.edu/projects/snli/
+          authors: "Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning"
+      presentations:
+        -
+          presenters: "Weiqiu You, Yifei Li, & Yukai Yang"
+          title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
+          url: https://dl.acm.org/doi/10.5555/3298023.3298212
+        -
+          presenters: "Manni Arora & Yongzhe Zhu"
+          title: Machine Common Sense Concept Paper
+          url: https://arxiv.org/abs/1810.07528
+        -
+          presenters: "Xuanyu Wu, Zhaoyi Hou, & Xinyue Wang"
+          title: "NaturalLI: Natural Logic Inference for Common Sense Reasoning"
+          url: https://www.aclweb.org/anthology/D14-1059
+        -
+          presenters: "Xiaofeng Wang, Zhihang Yuan, & Tianyi Zhang"
+          title: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
+          url: https://ojs.aaai.org//index.php/AAAI/article/view/4160
+
+
+  hw:
+    -
+      title: "Homework 5: COMET-ATOMIC Schema"
+      percentage: 10%
+      due_date: 2022-03-21
+      url: schemas/schemas.html
+-
+  module_number: 5
+  start_date: 2022-03-24
+  end_date: 2022-04-04
+  title: Dialog + Characters
+  description: 
+  lessons:
+    -
+      title: Intro to Dialogue + Dialogue for Interactive Fiction
+      slides: https://docs.google.com/presentation/d/1RLeEDymHWpMheNZwO7tgOWEc0t-tm7uUEXWjInEIycQ/edit?usp=sharing
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=64fa4b7b-71bf-43a5-84f7-ae62014b51c7
+      readings:
+        -
+          title: Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models
+          authors: Iulian V. Serban, Alessandro Sordoni, Yoshua Bengio, Aaron Courville, Joelle Pineau
+          url: https://arxiv.org/abs/1507.04808
+          year: 2015
+        -
+          title: A Diversity-Promoting Objective Function for Neural Conversation Models
+          authors: Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, Bill Dolan
+          url: https://arxiv.org/abs/1510.03055
+          year: 2015
+        -
+          title: A Neural Conversational Model
+          authors: Oriol Vinyals, Quoc Le
+          url: https://arxiv.org/abs/1506.05869
+        -
+          title: "DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation"
+          authors: Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan
+          url: https://aclanthology.org/2020.acl-demos.30/      
+        -
+          title: Learning to Speak and Act in a Fantasy Text Adventure Game
+          authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
+          url: https://arxiv.org/abs/1903.03094
+        -
+          title: Telling Stories through Multi-User Dialogue by Modeling Character Relations
+          authors: Wai Man Si, Prithviraj Ammanabrolu, Mark O. Riedl
+          url: https://aclanthology.org/2021.sigdial-1.30.pdf
+        -
+          title: "I love your chain mail! Making knights smile in a fantasy game world: Open-domain goal-oriented dialogue agents"
+          authors: Shrimai Prabhumoye, Margaret Li, Jack Urbanek, Emily Dinan, Douwe Kiela, Jason Weston, Arthur Szlam
+          url: https://arxiv.org/abs/2002.02878
+    -
+      title: Character-Based Generation
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3ce65a8d-0b80-4f96-8e90-ae6701445d2c&start=58
+      readings:
+        -
+          title: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
+          authors: Annie Louis, Charles Sutton
+          url: https://aclanthology.org/N18-2111/
+        -
+          title: "Connotation Frames of Power and Agency in Modern Films"
+          authors: Maarten Sap, Marcella Cindy Prasettio, Ari Holtzman, Hannah Rashkin, Yejin Choi     
+          url: https://aclanthology.org/D17-1247/
+        -
+          title: Curating Simulated Storyworlds
+          authors: James Ryan
+          url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds
+    -
+      title: Module 5 Paper Presentations
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7779bdc9-b1eb-446c-9826-ae69014e9d1b&start=112
+      readings:
+        -
+          title: Recipes for Building an Open-Domain Chatbot
+          authors: Stephen Roller, Emily Dinan, Naman Goyal, Da Ju, Mary Williamson, Yinhan Liu, Jing Xu, Myle Ott, Eric Michael Smith, Y-Lan Boureau, Jason Weston
+          url: https://aclanthology.org/2021.eacl-main.24
+        -
+          title: Towards a Human-like Open-Domain Chatbot
+          authors: Daniel Adiwardana, Minh-Thang Luong, David R. So, Jamie Hall, Noah Fiedel, Romal Thoppilan, Zi Yang, Apoorv Kulshreshtha, Gaurav Nemade, Yifeng Lu, Quoc V. Le
+          url: https://arxiv.org/abs/2001.09977
+        -
+          title: "ChatEval: A Tool for Chatbot Evaluation"
+          authors: "Joao Sedoc, Daphne Ippolito, Arun Kirubarajan, Jai Thirani, Lyle Ungar, Chris Callison-Burch"
+          url: https://www.cis.upenn.edu/~ccb/publications/chateval-demo.pdf
+      presentations:
+        -
+          presenters: "Zhihua Zhang, Zach (Zichen) Li, & Anish Neervannan"
+          title: "DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation"
+          url: https://aclanthology.org/2020.acl-demos.30/
+        -
+          presenters: "Kenneth Schumacher, Matthew Burke, & Ke Zhao"
+          title: Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models
+          url: https://arxiv.org/abs/1507.04808
+        -
+          presenters: "Enora Rice, Kennedy Ellison, & Anna Nixon"
+          title: "I love your chain mail! Making knights smile in a fantasy game world: Open-domain goal-oriented dialogue agents"
+          url: https://arxiv.org/abs/2002.02878
+        -
+          presenters: "Elizabeth Dinella & Alexander Feng"
+          title: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
+          url: https://aclanthology.org/N18-2111/
+  hw:
+    -
+      title: "Homework 6: Alexa Action-Castle"
+      percentage: 10%
+      due_date: 2022-04-11
+      url: alexa_action_castle/alexa-action-castle.html
+
+-
+  module_number: 6
+  start_date: 2022-04-05
+  end_date: 2022-04-26
+  title: Bonus Lessons!
+  description:
+  lessons:
+    -
+      title: Reinforcement Learning for Playing Interactive Fiction 
+      guest_speaker: Prithviraj (Raj) Ammanabrolu
+      guest_url: http://prithvirajva.com/
+      slides: https://drive.google.com/file/d/1hAJULY3V4unuk2wA-DT4-1qx-kkT8-2k/view?usp=sharing
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7847067e-5150-4b4b-be61-ae6e014e8b2f&start=159
+      readings:
+        -
+          title: Playing Text-Adventure Games with Graph-Based Deep Reinforcement Learning
+          authors: Prithviraj Ammanabrolu, Mark Riedl
+          url: https://aclanthology.org/N19-1358
+        -
+          title: "How to Avoid Being Eaten by a Grue: Structured Exploration Strategies for Textual Worlds"
+          authors: Prithviraj Ammanabrolu, Ethan Tien, Zhaochen Luo, Mark O. Riedl
+          url: https://arxiv.org/abs/2006.07409
+        -
+          title: Language Understanding for Text-based Games Using Deep Reinforcement Learning
+          authors: Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
+          url: https://aclanthology.org/D15-1001/
+        -
+          title: Deep Reinforcement Learning with a Natural Language Action Space
+          authors: Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li
+          url: https://arxiv.org/abs/1511.04636
+        -
+          title: "Learn What Not to Learn: Action Elimination with Deep Reinforcement Learning"
+          authors: Tom Zahavy, Matan Haroush, Nadav Merlis, Daniel J. Mankowitz, Shie Mannor
+          url: https://papers.neurips.cc/paper/2018/hash/645098b086d2f9e1e0e939c27f9f2d6f-Abstract.html
+    -
+      title: Mixed Methods
+      slides: slides/22-04-07_Mixed-Methods.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8f446ba9-1174-44c1-bbf8-ae700141572f&start=104
+      readings:
+        -
+          title: Neurosymbolic automated story generation [thesis]
+          authors: Lara J. Martin
+          url: https://smartech.gatech.edu/handle/1853/64643
+    -
+      title: Theory of Mind and Intent in Procedural Agents
+      guest_speaker: Jonathan May
+      slides: slides/22-04-12_Jon-May_Theory-of-Mind.pptx
+      guest_url: https://www.isi.edu/~jonmay/
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=102314f2-6c07-4410-b872-ae750156c8cb
+      readings:
+        -
+          title: Grounding Conversations with Improvised Dialogues
+          authors: Hyundong Cho and Jonathan May
+          url: https://aclanthology.org/2020.acl-main.218/
+        -
+          title: Learning to Generalize for Sequential Decision Making
+          authors: Xusen Yin, Ralph Weischedel, Jonathan May
+          url: https://aclanthology.org/2020.findings-emnlp.273/
+        -
+          title: Collaborative Storytelling with Human Actors and AI Narrators
+          authors: Boyd Branch, Piotr Mirowski, Kory W. Mathewson
+          url: https://arxiv.org/abs/2109.14728
+        -
+          title:  An empirical study of cognition and theatrical improvisation
+          url: https://dl.acm.org/doi/10.1145/1640233.1640253
+          authors: Brian Magerko, Waleed Manzoul, Mark Riedl, Allan Baumer, Daniel Fuller, Kurt Luther, Celia Pearce
+        -
+          title: Improvisational Computational Storytelling in Open Worlds
+          url: https://laramartin.net/pub/Martin_ICIDS2016.pdf
+          authors: Lara J. Martin, Brent Harrison, and Mark O. Riedl
+    -
+      title: Story Evaluation + Module 6 Paper Presentations
+      guest_speaker: Elizabeth Clark
+      guest_url: https://eaclark07.github.io/
+      slides: slides/22-04-14_Elizabeth-Clark_Evaluation-for-Story-Generation.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26a154bd-180d-4d4b-8c2e-ae77015c2e00
+      readings:
+        -
+          title: "Evaluation of Text Generation: A Survey"
+          authors: Asli Celikyilmaz, Elizabeth Clark, Jianfeng Gao
+          url: https://arxiv.org/abs/2006.14799      
+        -
+          title: "All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text"
+          url: https://arxiv.org/abs/2107.00061
+          authors: Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, Suchin Gururangan, Noah A. Smith
+        -
+          title: "Repairing the Cracked Foundation: A Survey of Obstacles in Evaluation Practices for Generated Text"
+          authors: Sebastian Gehrmann, Elizabeth Clark, Thibault Sellam
+          url: https://arxiv.org/abs/2202.06935
+        -
+          title: Predicting Generated Story Quality with Quantitative Measures
+          authors: Christopher Purdy, Xinyu Wang, Larry He, Mark Riedl
+          url: https://faculty.cc.gatech.edu/~riedl/pubs/purdy-aiide18.pdf
+        -
+          title: "Story Quality as a Matter of Perception: Using Word Embeddings to Estimate Cognitive Interest"
+          authors: Morteza Behrooz, Justus Robertson, Arnav Jhala
+          url: https://ojs.aaai.org/index.php/AIIDE/article/view/5217
+        -
+          title: "Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models"
+          url: https://aclanthology.org/2021.naacl-main.279
+          authors: Elizabeth Clark, Noah A. Smith
+        -
+          title: "ROUGE: A Package for Automatic Evaluation of Summaries"
+          url: https://aclanthology.org/W04-1013/
+          authors: Chin-Yew Lin
+        -
+          url: https://proceedings.mlr.press/v37/kusnerb15.pdf
+          title: From Word Embeddings To Document Distances
+          authors: "Matt J. Kusner, Yu Sun, Nicholas I. Kolkin, Kilian Q. Weinberger"
+        -
+          url: https://openreview.net/pdf?id=SkeHuCVFDr
+          title: "BERTScore: Evaluating Text Generation with BERT"
+          authors: Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi
+        -
+          title: "Unifying Human and Statistical Evaluation for Natural Language Generation"
+          authors: Tatsunori B. Hashimoto, Hugh Zhang, Percy Liang
+          url: https://aclanthology.org/N19-1169/
+        -
+          title: "Texygen: A Benchmarking Platform for Text Generation Models"
+          url: https://arxiv.org/abs/1802.01886
+          authors: Yaoming Zhu, Sidi Lu, Lei Zheng, Jiaxian Guo, Weinan Zhang, Jun Wang, Yong Yu
+        -
+          title: "BLEURT: Learning Robust Metrics for Text Generation"
+          url: https://aclanthology.org/2020.acl-main.704/
+          authors: Thibault Sellam, Dipanjan Das, Ankur Parikh
+        -
+          title: "UNION: An Unreferenced Metric for Evaluating Open-ended Story Generation"
+          url: https://aclanthology.org/2020.emnlp-main.736/
+          authors: Jian Guan, Minlie Huang
+        -
+          title: "Twenty Years of Confusion in Human Evaluation: NLG Needs Evaluation Sheets and Standardised Definitions"
+          url: https://aclanthology.org/2020.inlg-1.23/
+          authors: David M. Howcroft, et al.
+        -
+          title: "PlotMachines: Outline-Conditioned Generation with Dynamic Plot State Tracking"
+          url: https://aclanthology.org/2020.emnlp-main.349/
+          authors: Hannah Rashkin, Asli Celikyilmaz, Yejin Choi, Jianfeng Gao
+        -
+          url: https://dl.acm.org/doi/10.1145/3172944.3172983
+          authors: Elizabeth Clark, Anne Spencer Ross, Chenhao Tan, Yangfeng Ji, Noah A. Smith
+          title: "Creative Writing with a Machine in the Loop: Case Studies on Slogans and Stories"
+        -
+          title: "Say Anything: Using Textual Case-Based Reasoning to Enable Open-Domain Interactive Storytelling"
+          url: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.980.6270&rep=rep1&type=pdf
+          authors: Reid Swanson, Andrew S. Gordon
+        -
+          title: "STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation"
+          authors: Nader Akoury, Shufan Wang, Josh Whiting, Stephen Hood, Nanyun Peng, Mohit Iyyer
+          url: https://aclanthology.org/2020.emnlp-main.525/
+        -
+          title: "CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities"
+          authors: Mina Lee, Percy Liang, Qian Yang
+          url: https://arxiv.org/abs/2201.06796
+      presentations:
+        -
+          presenters: "Jong-Min Choi & Joongwon Kim"
+          title: "Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences"
+          url: https://aclanthology.org/2021.emnlp-main.54/
+        -
+          presenters: Leon Zhou
+          title: Deep Reinforcement Learning with a Natural Language Action Space
+          url: https://aclanthology.org/P16-1153/    
+    -
+      title: Visual Storytelling
+      guest_speaker: Ting-Hao Kenneth Huang
+      guest_url: http://kennethhuang.cc/
+      slides: slides/22-04-19_Kenneth-Huang_VIST.pdf
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8630db50-e1a7-4631-b6a0-ae7c01463b1a
+      readings:
+        -
+          title: "Stretch-VST: Getting Flexible With Visual Stories"
+          authors: Chi-Yang Hsu, Yun-Wei Chu, Tsai-Lun Yang, Ting-Hao Huang, Lun-Wei Ku
+          url: https://aclanthology.org/2021.acl-demo.42/
+        -
+          title: "Plot and Rework: Modeling Storylines for Visual Storytelling"
+          authors: "Chi-Yang Hsu, Yun-Wei Chu, Ting-Hao 'Kenneth' Huang, Lun-Wei Ku"
+          url: https://aclanthology.org/2021.findings-acl.390/
+        -
+          title: "The Amazing Mysteries of the Gutter: Drawing Inferences Between Panels in Comic Book Narratives"
+          authors: Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis
+          url: http://openaccess.thecvf.com/content_cvpr_2017/html/Iyyer_The_Amazing_Mysteries_CVPR_2017_paper.html
+        -
+          title: Visual Storytelling
+          authors: Ting-Hao Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell
+          url: https://www.aclweb.org/anthology/N16-1147v2.pdf
+        -
+          title: "Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books"
+          authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
+          url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf

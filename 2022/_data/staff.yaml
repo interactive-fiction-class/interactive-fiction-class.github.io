@@ -1,0 +1,27 @@
+- name: Chris Callison-Burch (Instructor)
+  pic: ccb.png
+  email: ccb@upenn.edu 
+  url: https://www.cis.upenn.edu/~ccb/
+  office_hours: Mondays, 2-3pm EST
+  location: <a href="https://upenn.zoom.us/j/92208692872?pwd=aFFlZlhpc09RZmR1c0RhRW5xcTBlUT09">Zoom</a>
+  
+- name: Lara J. Martin (Instructor)
+  pic: Lara-Martin.jpg
+  email: laramar@seas.upenn.edu
+  url: https://laramartin.net
+  office_hours: Thursdays, 3:15-4:15pm EST (after class), or <a href="https://calendly.com/laramar/schedule">by appointment</a>
+  location: <a href="https://upenn.zoom.us/j/99876938357">Zoom</a>
+  
+- name: Liam Dugan (TA)
+  pic: liam-dugan.jpg
+  email: ldugan@seas.upenn.edu
+  url: http://liamdugan.com
+  office_hours: Tuesdays, 3:15-4:15pm EST (after class)
+  location: <a href="https://upenn.zoom.us/j/93316964278?pwd=RWRsNjVDcGlIc0o2SXROM0h5ZFNwQT09">Zoom</a>
+
+- name: Artemis Panagopoulou (TA)
+  pic: artemis.png
+  email: artemisp@seas.upenn.edu
+  url: https://artemisp.github.io/
+  office_hours: Fridays, 12:15-1:15pm EST
+  location: <a href="https://upenn.zoom.us/j/9784349213">Zoom</a>
