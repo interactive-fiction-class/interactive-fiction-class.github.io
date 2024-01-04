@@ -3,36 +3,36 @@
   title: Intro to the class, Interactive Fiction, and Automated Story Generation
   activities: 
     -
+      title:
+      url:
+-
+  date: 2024-01-23
+  title: 
+  activities: 
+    -
       title: Play a text adventure game
       url: play-text-adventures/play-text-adventures.html
 -
-  date: 2024-01-23
+  date: 2024-01-25
+  title: Guest lecture by Peter Jansen
+  activities: 
+    -
+      title:
+      url:
+-
+  date: 2024-01-30
   type: deadline
   homework_due:   
     -
       title: "HW1: Build a Text-Adventure Game (5%)"
       url: text-adventure-game/text-adventure-game.html
 -
-  date: 2024-01-23
-  title: 
-  activities:
-    -
-      title: 
-      url: 
--
-  date: 2024-01-25
-  title: 
+  date: 2024-01-30
+  title: Intro to Large Language Models
   activities: 
     -
       title:
-      url: 
--
-  date: 2024-01-30
-  type: deadline
-  homework_due:
-    -
-      title:
-      url: 
+      url:
 -
   date: 2024-01-31
   title: Course Selection Period ends
