@@ -1,14 +1,16 @@
 -
   module_number: 0
-  start_date: 2022-01-13
-  end_date: 2022-01-17
+  start_date: 2024-01-18
+  end_date: 2024-01-30
   title: Introduction to IF and Automated Story Generation
   description: Welcome to the class! In this introductory module, you will become acquainted with interactive fiction (since you're probably too young to know what it is) and learn about the field of automated story generation (since it's a small subfield of AI and you probably haven't heard of it). You'll even get a chance to make your own mini interactive fiction game the old-school way!
   lessons:
     - 
       title: Intro to the class, Interactive Fiction, and Automated Story Generation 
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?tid=d9d12831-5a0f-4e7f-8d75-ae1d0077227d
-      length: 1 hour 39 mins
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?tid=d9d12831-5a0f-4e7f-8d75-ae1d0077227d
+      old_length: 1 hour 39 mins
       slides: https://docs.google.com/presentation/d/18omDdghODPjlbE0xqVZgsLO0fPAWLfzN/edit?usp=sharing&ouid=100612312038766573060&rtpof=true&sd=true
       readings:
         -
@@ -25,14 +27,29 @@
           authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan
       optional:
         -
-          authors: Various
-          url: https://itch.io/games/tag-interactive-fiction/tag-text-based
-          title: "Play some text-based games on Itch.io"     
-        -
           authors: Jason Scott
           url: https://www.youtube.com/watch?v=LRhbcDzbGSU
           title: "GET LAMP: The Text Adventure Documentary"
           length: 2 hours
+        -
+          authors: Mark Riedl
+          url: https://mark-riedl.medium.com/an-introduction-to-ai-story-generation-7f99a450f615
+          title: An Introduction to AI Story Generation
+        -
+          authors: H2G2.com
+          url: https://h2g2.com/edited_entry/A20600641
+          title: "How to Make a Text-Based Adventure: Commands and Parser"
+    - 
+      title: Building a Text-Adventure Game
+      video: 
+      length:
+      slides: 
+      readings:
+      optional:
+        -
+          authors: Grizel
+          title: Play Snowhaven on itch.io
+          url: https://grizel.itch.io/snowhaven
         -  
           authors: Chris Ainsley/adventuron.io
           url: https://adventuron.blogspot.com/2019/07/video-tutorial-beginners-guide-to.html
@@ -44,33 +61,50 @@
           title: Action Castle at PAX East 2011
           length: 12 minutes
         -
-          authors: Mark Riedl
-          url: https://mark-riedl.medium.com/an-introduction-to-ai-story-generation-7f99a450f615
-          title: An Introduction to AI Story Generation
-        -
           authors: H2G2.com
           url: https://h2g2.com/edited_entry/A20600641
           title: "How to Make a Text-Based Adventure: Commands and Parser"
+
+    - 
+      title: Guest lecture by Peter Jansen
+      guest_speaker: Peter Jansen
+      guest_url: https://cognitiveai.org
+      video: 
+      length:
+      slides:
+      readings:
+        -
+          title: ScienceWorld&colon; Is your Agent Smarter than a 5th Grader?
+          url: https://sciworld.apps.allenai.org
+          authors: Ruoyao Wang, Peter Jansen, Marc-Alexandre Côté, Prithviraj Ammanabrolu
+      optional:
+        -
+          authors: Various
+          url: https://www.textgames.org
+          title: Interactive Virtual Environments&colon; A list of research articles published on interactive text-based virtual environments, agents, and related areas.
+
   hw:
     -
       title: "Homework 1: Build a Text-Adventure Game"
       url: text-adventure-game/text-adventure-game.html
       percentage: 5%
-      due_date: 2022-01-17
+      due_date: 2024-01-30
 
 -
   module_number: 1
-  start_date: 2022-01-18
-  end_date: 2022-01-31
-  title: Neural Language Models
-  description: With neural language models becoming more popular within Natural Language Processing/Generation (NLP/NLG), automated story generation researchers realized how much easier it is to generate text. (And this also helped NLP researchers get interested in story generation!) Here, you'll learn about neural language models, particularly the transformer, how to work with them, and how they are used to generate stories.
+  start_date: 2024-01-18
+  end_date: 2024-01-31
+  title: Large Language Models
+  description: With large language models becoming more popular within Natural Language Processing/Generation (NLP/NLG), automated story generation researchers realized how much easier it is to generate text. (And this also helped NLP researchers get interested in story generation!) Here, you'll learn about neural language models, particularly the transformer, how to work with them, and how they are used to generate stories.
   lessons:
     - 
       title: Neural Language Models + Transformers
       guest_speaker: Daphne Ippolito
       guest_url: https://www.seas.upenn.edu/~daphnei/
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e89106d-8358-45e6-a36c-ae210157dafb
-      length: 1 hour 32 mins
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e89106d-8358-45e6-a36c-ae210157dafb
+      old_length: 1 hour 32 mins
       slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
       readings:
         -
@@ -107,8 +141,10 @@
       guest_speaker: Daphne Ippolito
       guest_url: https://www.seas.upenn.edu/~daphnei/
       slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=42c62328-b795-46a1-9d36-ae2301571b61
-      length: 1 hour 33 mins
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=42c62328-b795-46a1-9d36-ae2301571b61
+      old_length: 1 hour 33 mins
       readings:
         -
           title: The Curious Case of Neural Text Degeneration
@@ -140,8 +176,10 @@
       title: Pretraining/Prompting
       guest_speaker: 
       guest_url: 
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=99ce80a0-c4c8-4684-bd18-ae2801534544
-      length: 1 hour 15 mins
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=99ce80a0-c4c8-4684-bd18-ae2801534544
+      old_length: 1 hour 15 mins
       readings:
         -
           title: Language Models are Few-Shot Learners (GPT-3 paper)
@@ -155,8 +193,10 @@
       title: Neural Story Generation + Module 1 Paper Presentations
       guest_speaker:
       slides: https://docs.google.com/presentation/d/1qFjLt5DZ2aH9e4Eu0Bx1XoSjtiF1iQdKx4xDxxsy-fg/edit?usp=sharing
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b945aba2-14c7-4693-b1dd-ae2a015add1a
-      length: 1 hour 46 mins
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b945aba2-14c7-4693-b1dd-ae2a015add1a
+      old_length: 1 hour 46 mins
       readings:
         -
           title: Hierarchical Neural Story Generation
@@ -197,11 +237,11 @@
       title: "Homework 2: Generating Descriptions"
       url: generating-descriptions/generating-descriptions.html
       percentage: 10%
-      due_date: 2022-01-31
+      due_date: 2024-01-31
 
 -
   module_number: 2
-  start_date: 2022-02-01
+  start_date: 2024-02-01
   end_date: 2021-02-10
   title: Scripts and Story Structure
   description: Scripts can be considered the backbone of storytelling. They help us fill in the gaps of knowledge that we would otherwise be missing from reading a story, and they help us reason about why events happen and what order they happen in. This Module will teach you about scripts, causal chains, and events. We'll also look at how people have been using these techniques in the age of the neural network.
@@ -209,8 +249,10 @@
     - 
       title: Scripts and Events
       slides: https://drive.google.com/file/d/15NY1bEg6ZZg5e3Ny0PIWvZNRpANAnInv/view?usp=sharing
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ac6fee3-a97a-40bd-9b6a-ae2f014f59a9
-      length: 1 hour 16 mins
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ac6fee3-a97a-40bd-9b6a-ae2f014f59a9
+      old_length: 1 hour 16 mins
       readings:
         -
           title: "Scripts Plans Goals and Understanding: An Inquiry Into Human Knowledge Structures (Chapter 3: Scripts)"
@@ -242,8 +284,10 @@
           authors: Marie-Laure Ryan          
     - 
       title: Understanding Procedures
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f81c1d74-af45-447d-acdd-ae31016dc87e
-      length: 1 hour 29 mins
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f81c1d74-af45-447d-acdd-ae31016dc87e
+      old_length: 1 hour 29 mins
       readings:
         -
           title: Implicit Representations of Meaning in Neural Language Models
@@ -273,7 +317,9 @@
     - 
       title: Guided Story Generation
       slides: https://drive.google.com/file/d/1UH23icbixj0fvwjPh7U99MS6CUriMAYy/view?usp=sharing
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8cea1b51-3614-49f2-89f1-ae36015912aa&start=450
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8cea1b51-3614-49f2-89f1-ae36015912aa&start=450
       readings:
         -
           title: "Plan-And-Write: Towards Better Automatic Storytelling"
@@ -298,7 +344,9 @@
     -
       title: Story Ending Prediction (Story Cloze Test) + Module 2 Paper Presentations
       slides: https://drive.google.com/file/d/1J5Z4Q7GwFD-T9R_amZOX6bxEq2oj0pxY/view?usp=sharing
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebe8c581-fbe2-4de2-9937-ae38015e5614
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebe8c581-fbe2-4de2-9937-ae38015e5614
       presentations:
         -
           title: Controllable Neural Story Plot Generation via Reward Shaping
@@ -316,26 +364,28 @@
     -
       title: "Homework 3: Plot Graph Generation"
       percentage: 10%
-      due_date: 2022-02-15
+      due_date: 2024-02-15
       url: plots/plots.html
 
 -
   module_number: 3
-  start_date: 2022-02-15
-  end_date: 2022-02-28
+  start_date: 2024-02-15
+  end_date: 2024-02-28
   title: Search and Planning
   description: 
   hw:
     -
       title: "Homework 4: Convert WikiHow to PDDL"
       percentage: 10%
-      due_date: 2022-03-03
+      due_date: 2024-03-03
       url: planning/planning.html
   lessons:
     - 
       title: Search
       slides: slides/Search-and-Planning.pdf
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4ba6aa8a-01c6-4236-955e-ae3d015a4e33
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4ba6aa8a-01c6-4236-955e-ae3d015a4e33
       optional:
         - 
           title: "Artificial Intelligence: A Modern Approach, Chapter 3"
@@ -348,7 +398,9 @@
     - 
       title: Classical Planning
       slides: slides/Search-and-Planning.pdf
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3673be5f-af5f-4876-9fda-ae3f0158dcde
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3673be5f-af5f-4876-9fda-ae3f0158dcde
       readings:     
       optional:
         - 
@@ -366,7 +418,9 @@
       title: Story Planning + Drama Management
       guest_speaker: Stephen G. Ware
       guest_url: http://stephengware.com/
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=87c84497-a145-4fa1-bd3a-ae4401525e71
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=87c84497-a145-4fa1-bd3a-ae4401525e71
       slides: slides/Sabre.pdf
       optional:
         -
@@ -416,7 +470,9 @@
           url: http://cs.uky.edu/~sgware/reading/papers/ware2019multi.pdf
     -
       title: Façade Playthrough + Module 3 Paper Presentations
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04ced777-7234-4c0e-a027-ae460159cebc
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04ced777-7234-4c0e-a027-ae460159cebc
       readings:
         -
           title: "Learning Norms from Stories: A Prior for Value Aligned Agents"
@@ -462,15 +518,17 @@
           url: https://www.researchgate.net/publication/220920127_Controlling_Narrative_Generation_with_Planning_Trajectories_The_Role_of_Constraints
 -
   module_number: 4
-  start_date: 2022-03-01
-  end_date: 2022-03-22
+  start_date: 2024-03-01
+  end_date: 2024-03-22
   title: Commonsense Reasoning + Schemas
   description:
   lessons:
     -
       title: Commonsense Reasoning
       slides: slides/Commonsense-Reasoning.pdf
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec56c54e-980b-42d7-b864-ae4b01578757
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec56c54e-980b-42d7-b864-ae4b01578757
       readings:
         -
           title: Machine Common Sense Concept Paper
@@ -500,7 +558,9 @@
     -
       title: Knowledge Representations + Schemata
       slides: slides/CIS700-KnowledgeBases.pdf
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d0bb2997-cba8-47cf-b6d9-ae4d01582e07
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d0bb2997-cba8-47cf-b6d9-ae4d01582e07
       readings:
         -
           title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
@@ -540,7 +600,9 @@
       guest_url: https://verbs.colorado.edu/brownsw/
       readings:
       slides: slides/CIS700-Recap-Ontologies.pdf
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31d9b840-2179-44f4-b32a-ae59014effdd
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31d9b840-2179-44f4-b32a-ae59014effdd
       readings:
         -
           title: The Rich Event Ontology
@@ -548,7 +610,9 @@
           authors: Susan Brown, Claire Bonial, Leo Obrst, Martha Palmer      
     -
       title: Module 4 Paper Presentations
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76f04c32-7e9b-4955-a4cc-ae600144975e
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76f04c32-7e9b-4955-a4cc-ae600144975e
       readings:
         -
           title: Retrofitting Word Vectors to Semantic Lexicons
@@ -582,19 +646,21 @@
     -
       title: "Homework 5: COMET-ATOMIC Schema"
       percentage: 10%
-      due_date: 2022-03-21
+      due_date: 2024-03-21
       url: schemas/schemas.html
 -
   module_number: 5
-  start_date: 2022-03-24
-  end_date: 2022-04-04
+  start_date: 2024-03-24
+  end_date: 2024-04-04
   title: Dialog + Characters
   description: 
   lessons:
     -
       title: Intro to Dialogue + Dialogue for Interactive Fiction
       slides: https://docs.google.com/presentation/d/1RLeEDymHWpMheNZwO7tgOWEc0t-tm7uUEXWjInEIycQ/edit?usp=sharing
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=64fa4b7b-71bf-43a5-84f7-ae62014b51c7
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=64fa4b7b-71bf-43a5-84f7-ae62014b51c7
       readings:
         -
           title: Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models
@@ -628,7 +694,9 @@
           url: https://arxiv.org/abs/2002.02878
     -
       title: Character-Based Generation
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3ce65a8d-0b80-4f96-8e90-ae6701445d2c&start=58
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3ce65a8d-0b80-4f96-8e90-ae6701445d2c&start=58
       readings:
         -
           title: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
@@ -644,7 +712,9 @@
           url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds
     -
       title: Module 5 Paper Presentations
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7779bdc9-b1eb-446c-9826-ae69014e9d1b&start=112
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7779bdc9-b1eb-446c-9826-ae69014e9d1b&start=112
       readings:
         -
           title: Recipes for Building an Open-Domain Chatbot
@@ -679,13 +749,13 @@
     -
       title: "Homework 6: Alexa Action-Castle"
       percentage: 10%
-      due_date: 2022-04-11
+      due_date: 2024-04-11
       url: alexa_action_castle/alexa-action-castle.html
 
 -
   module_number: 6
-  start_date: 2022-04-05
-  end_date: 2022-04-26
+  start_date: 2024-04-05
+  end_date: 2024-04-26
   title: Bonus Lessons!
   description:
   lessons:
@@ -694,7 +764,9 @@
       guest_speaker: Prithviraj (Raj) Ammanabrolu
       guest_url: http://prithvirajva.com/
       slides: https://drive.google.com/file/d/1hAJULY3V4unuk2wA-DT4-1qx-kkT8-2k/view?usp=sharing
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7847067e-5150-4b4b-be61-ae6e014e8b2f&start=159
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7847067e-5150-4b4b-be61-ae6e014e8b2f&start=159
       readings:
         -
           title: Playing Text-Adventure Games with Graph-Based Deep Reinforcement Learning
@@ -719,7 +791,9 @@
     -
       title: Mixed Methods
       slides: slides/22-04-07_Mixed-Methods.pdf
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8f446ba9-1174-44c1-bbf8-ae700141572f&start=104
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8f446ba9-1174-44c1-bbf8-ae700141572f&start=104
       readings:
         -
           title: Neurosymbolic automated story generation [thesis]
@@ -730,7 +804,9 @@
       guest_speaker: Jonathan May
       slides: slides/22-04-12_Jon-May_Theory-of-Mind.pptx
       guest_url: https://www.isi.edu/~jonmay/
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=102314f2-6c07-4410-b872-ae750156c8cb
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=102314f2-6c07-4410-b872-ae750156c8cb
       readings:
         -
           title: Grounding Conversations with Improvised Dialogues
@@ -757,7 +833,9 @@
       guest_speaker: Elizabeth Clark
       guest_url: https://eaclark07.github.io/
       slides: slides/22-04-14_Elizabeth-Clark_Evaluation-for-Story-Generation.pdf
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26a154bd-180d-4d4b-8c2e-ae77015c2e00
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26a154bd-180d-4d4b-8c2e-ae77015c2e00
       readings:
         -
           title: "Evaluation of Text Generation: A Survey"
@@ -849,7 +927,9 @@
       guest_speaker: Ting-Hao Kenneth Huang
       guest_url: http://kennethhuang.cc/
       slides: slides/22-04-19_Kenneth-Huang_VIST.pdf
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8630db50-e1a7-4631-b6a0-ae7c01463b1a
+      video: 
+      length:
+      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8630db50-e1a7-4631-b6a0-ae7c01463b1a
       readings:
         -
           title: "Stretch-VST: Getting Flexible With Visual Stories"
