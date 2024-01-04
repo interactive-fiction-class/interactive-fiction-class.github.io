@@ -113,7 +113,7 @@ Discussion Forum
 : [Ed Discussion](https://edstem.org/us/courses/50468/discussion/)
 
 Time and Place
-: Spring 2024, Tuesdays & Thursdays from 1:45-3:15pm EST 
+: Spring 2024, Tuesdays & Thursdays from 1:45-3:15pm EST in Towne 327
 : First day of class is January 18, 2024
 : Last day of class is April 30, 2024
 
@@ -129,6 +129,7 @@ Course Materials
 
 Games
 : [Labyrinth The Adventure Game](https://www.amazon.com/Jim-Hensons-Labyrinth-Adv-Game/dp/1916011551/) - $35 on Amazon
+: [Action Castle](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) - Free (you can optionally buy it in the rad [Parsley book in print](http://www.memento-mori.com/books/parsely-book) or [PDF](http://www.memento-mori.com/pdf/parsely-pdf))
 
 
 Materials 
