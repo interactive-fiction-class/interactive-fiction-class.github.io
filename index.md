@@ -129,18 +129,19 @@ Course Materials
 
 Games
 : [Labyrinth The Adventure Game](https://www.amazon.com/Jim-Hensons-Labyrinth-Adv-Game/dp/1916011551/) - $35 on Amazon
-: [Action Castle](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) - Free (you can optionally buy it in the rad [Parsley book in print](http://www.memento-mori.com/books/parsely-book) or [PDF](http://www.memento-mori.com/pdf/parsely-pdf))
+: [Action Castle](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) - Free (you can optionally buy it in the rad [Parsley book in print](http://www.memento-mori.com/books/parsely-book) or [PDF](http://www.memento-mori.com/pdf/parsely-pdf)) - $20 to $30
 
 
 Materials 
 : [ChatGPT Plus subcription](http://chat.openai.com) - $20/month
 : [Midjourney subscription](https://www.midjourney.com/home) - $10/month 
 
-Books
-: (Optional) [So You Want To Be A Game Master: Everything You Need to Start Your Tabletop Adventure for Dungeons and Dragons, Pathfinder, and Other Systems](https://www.amazon.com/gp/product/1645679152/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1) - $25 on Amazon
 
 <!--
 : $20-30 [Parsley](http://www.memento-mori.com/parsely-products/) by Jared A Sorensen
+Books
+: (Optional) [So You Want To Be A Game Master: Everything You Need to Start Your Tabletop Adventure for Dungeons and Dragons, Pathfinder, and Other Systems](https://www.amazon.com/gp/product/1645679152/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1) - $25 on Amazon
+
 : [$10](http://www.drivethrurpg.com/product/108028/Dungeon-World)-[$25](https://www.burningwheel.com/dungeon-world-1/) [Dungeon World](https://dungeon-world.com/) by Sage LaTorra and Adam Koebel
 : Optional $31 [Dungeon Master's Guide - Dungeons & Dragons 5th edition Core Rulebook](https://www.amazon.com/Dungeons-Dragons-Dungeon-Rulebook-Roleplaying/dp/0786965622/) by Wizards of the Coast
 -->
