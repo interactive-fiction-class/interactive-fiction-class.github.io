@@ -36,11 +36,14 @@
           url: https://mark-riedl.medium.com/an-introduction-to-ai-story-generation-7f99a450f615
           title: An Introduction to AI Story Generation
     - 
-      title: Building a Text-Adventure Game
+      title: Conversation with Game Designer Jared Sorensen
+      guest_speaker: Jared A. Sorensen
+      guest_url: http://www.memento-mori.com
       video: 
       length:
       slides: 
       readings:
+
       optional:
         -
           authors: Grizel
