@@ -7,19 +7,19 @@ title: Build a Text-Adventure Game
 type: Homework
 number: 1
 active_tab: homework
-release_date: 2022-01-13 
+release_date: 2024-01-16
 due_date: 2022-01-17 23:59:00EST
 materials:
     - 
-        name: Text Adventure Game (Python Notebook viewable on Google Colab)
-        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb
+        name: Text Adventure Game starter code
+        url: XXX
     - 
         name: Parsely&colon; Preview n' Play Edition (this contains the Action Castle game).  
         url: http://www.memento-mori.com/pdf/parsely-preview-n-play-edition
     - 
         name: Text from Action Castle  
         url: https://raw.githubusercontent.com/interactive-fiction-class/interactive-fiction-class.github.io/master/homeworks/text-adventure-game/action_castle_text.txt
-submission_link: https://www.gradescope.com/courses/354158/assignments/1772512/
+submission_link: 
 readings:
     -
       title: Adventuron Classroom
@@ -81,7 +81,7 @@ In this homework assignment, you will write your own classic text adventure game
 
 ### Starter code
 
-We have provided [starter code for a basic text adventure game](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb).  You are free modify it however you want, and bring in any dependencies you feel will be useful.
+We have provided [starter code for a basic text adventure game](XXX).  You are free modify it however you want, and bring in any dependencies you feel will be useful.
 
 ### Task 1: Implement Action Castle
 
@@ -89,41 +89,32 @@ Action Castle is a game by Jared A. Sorensen.  It is included in his book [Parsl
 
 You should download ["Parsely: Preview n' Play Edition"](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) which is free on Jared's website.  It contains the Action Castle game that you'll be implementing.  You can also [buy the full Parsley book for $20](http://www.memento-mori.com/pdf/parsely-pdf) if you'd like to support an awesome indy game developer.  The Preview n' Play Edition also explains how these kinds of games work.
 
-You should modify the provided code to:
-1. Create the 13 locations from Action Castle (Cottage, Garden Path, Fishing Pond, Winding Path, Top of the Tall Tree, Drawbridge, Courtyard, Tower Stairs, Tower, 
+We have implemented most of Action Castle for you. 
+1. We created the 13 locations from Action Castle (Cottage, Garden Path, Fishing Pond, Winding Path, Top of the Tall Tree, Drawbridge, Courtyard, Tower Stairs, Tower, 
 Dungeon Stairs, Dungeon, Great Feasting Hall, Throne Room).
-2. Create the items for the game (fishing poll, rosebush, club, fish, the troll etc.).
-3. Update the code so that it can handle the actions/commands/preconditions that are described by the Action Castle module.
+2. We created most of the items for the game (fishing poll, rosebush, club, fish, the troll etc.).
+You will need to update the code so that it can:
+3. Add blocks to the game (these are puzzles that the player needs to solve in order to make progress).  You should add blocks in
+* The courtyard - the guard prevents you from going east
+* The dungeon stairs - the darkness prevents you from going down
+* The tower stairs - the locked door prevents you from going up
+4. Add special actions for the Action Castle game.  You should add Actions for:
+* Unlocking the door
+* Reading the runes to banish the ghost from the dungeon
+* Proposing marriage
+* Sitting on the throne
+
 
 <div class="alert alert-warning" markdown="1">
-__Need a hint on how to get started?__ I as able to re-implement the whole of the Action Castle game$$^*$$ using the starter code by modifying the ```build_game``` function, the ```check_preconditions``` function, and by adding a few new methods to the [Special functions section](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/text-adventure-game/Text_Adventure_Game.ipynb#scrollTo=YNrsHhpMTC8w).  None of the other starter code needed to be modified. It took me about 5 hours total to implement the game.
-
-$$^*$$Except for this part: _The ghost will reach out for the player to stop his heart if the player lingers here._ I skipped that part of the game.
+__Need a hint on how to get started?__ Check out the `Troll_Block` class to see an example of how to implement a Block, and the `Eat` class as an example of how to implement an Action.   
 </div>
 
 
 <div class="alert alert-warning" markdown="1">
-__Advanced Hint:__ To do handle state changes (like the guard going from awake to unconscious), I used two Items to represent the different states, and then used a special function to perform multiple actions that would destroy Item and put the other Item in its place.  For example:
-```python
-  guard = Item("guard", "a guard carrying a sword and a key", "HE LOOKS AT YOU SUSPICIOUSLY.", start_at=courtyard)
-
-  unconscious_guard = Item("unconscious guard", "an unconscious guard is slumped against the wall", 
-  "HE HAS BITS OF BRANCH ON HIS UNIFORM.", start_at=nowhere)
-
-
-  guard.add_action("hit guard with branch", perform_multiple_actions, 
-      ([(destroy_item, (branch,"You swing your branch against the guard. It shatters to pieces.",
-                               "You already tried that.")),
-      (destroy_item, (guard,"The guard slumps over, unconscious.","")),
-      (create_item, (unconscious_guard,"The guard's unconscious body lies on the ground.")),
-      (create_item, (key,"His key falls from his hand.")),
-      ]), preconditions={"inventory_contains":branch , "location_has_item": guard})
- 
-```  
-There are other ways of handling this, and you're not obligated to use my way.  For instance, you might try using the Item's properties to record conditions like `unconscious`.
+__Want to know how to win the game?__ Here's a sequence of actions that should result in a winning state, if you've implemented the game correctly. You can play through the full Action Castle game with the following commands:
+take pole, go out, go south, catch fish with pole, go north, pick rose, go north, go up, get branch, go down, go east, give the troll the fish, go east, hit guard with branch, get key, go east, get candle, go west, go down, light lamp, go down, light candle, read runes, get crown, go up, go up, go up, unlock door, go up, give rose to the princess, propose to the princess, wear crown, down, down, east, east, sit on throne 
 </div>
 
-The starter code provides a vizualization method that displays a directed graph of the game that you have created.  If you'd like to compare your game graph against mine, you can look at [my vizualization of Action Castle](game-visualization.pdf).
 
 
 ### Task 2: Implement Your Own Creation
@@ -132,10 +123,10 @@ Your game should include all of the following:
 
 * At least 3 Locations
 * At least 3 Items that can be interacted with. These can be doors, keys, tools, ogres, etc.
-* At least one "puzzle" where there are certain preconditions that must be met before the player can make forward progress.
+* At least one "puzzle" where there are certain preconditions that must be met before the player can make forward progress.  This could be an Action or a Block.
 * At least one "win" state and at least one "lose" state.
 
-A fun example of a tiny game with very 3 locations and 3 items is the "Flaming Goat" game in Jared A. Sorensen's [Parsley book](http://www.memento-mori.com/pdf/parsely-pdf).  I played it with my 6 year old son, and it cracked him up.
+A fun example of a tiny game with very 3 locations and 3 items is the "Flaming Goat" game in Jared A. Sorensen's [Parsley book](http://www.memento-mori.com/pdf/parsely-pdf).  I played it with my son when he was 6 year old, and it cracked him up.
 
 Optionally, you can think about adding other elements to your game, like:
 * Scoring
