@@ -148,9 +148,9 @@ Books
 
 Grading
 : There will be six homeworks and a final project. In addition, you will be required to present academic papers in class.
-* 10% Paper Presentations + Class Participation
+* 15% Paper Presentations + Class Participation
 * 55% Homeworks (6 in total)
-* 35% Final Project
+* 30% Final Project
 
 Paper Presentations
 : Over the course of the semester, each student must prepare one or more 10-15 minute presentations on a research paper relevant to the course. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (e.g., by 3PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
