@@ -12,7 +12,7 @@ materials:
     - 
         name: Text Adventure Games by Grizel
         url: https://grizel.itch.io/
-submission_link: 
+submission_link: https://www.gradescope.com/courses/704268/assignments/3958998
 ---
 
 <!-- Check whether the assignment is ready to release -->
