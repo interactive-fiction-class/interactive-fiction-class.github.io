@@ -79,7 +79,14 @@ Grizel won the ["Text Adventure Literacy Jam"](https://itch.io/jam/talp) which i
 ### What to do
 
 1. After the game asks whether you want the tutorial model, please issue the command **TSTART**.  Doing so will start a log of your game transcript. Once you're done playing, then type **TSTOP** and the trascript will be downloaded to your Downloads folder (be sure to click OK if your computer prompts you to allow a download).
-2. Please submit your game transcript to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+2. While you're playing, you should draw a map of the locations and items in the game.
+3. Please submit your game transcript and your map to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}.   We will also ask you to answer these questions
+* What game did you play?
+* Was this your first time playing a classic text adventure game?
+* What commands did you try that didn’t work?
+* How far did you get in the game?
+* How does this experience differ from reading a non-interactive story?
+* How do you think AI could be used to enhance this kind of gaming experience?
 
 ## Cheatsheet
 
