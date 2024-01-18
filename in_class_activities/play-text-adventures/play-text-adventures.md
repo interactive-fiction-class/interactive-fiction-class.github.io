@@ -7,7 +7,7 @@ title: Play Text-Adventure Games
 type: in-class
 active_tab: homework
 release_date: 2024-01-18
-due_date: 2024-01-18 23:59:00EST
+due_date: 2024-01-19 13:45:00EST
 materials:
     - 
         name: Text Adventure Games by Grizel
@@ -63,16 +63,6 @@ Today in class you will play a text adventure game in groups of 2-5 people.  You
 * [Snowhaven](https://grizel.itch.io/snowhaven) - a quiet contemplative game
 * [Reflections](https://grizel.itch.io/reflections) and [Midsummer Eve](https://grizel.itch.io/midsummer) - child-friendly games meant to introduce a new generation to the text adventure genre 
 * [Sentient Beings](https://grizel.itch.io/sentient-beings) - an exploration game set on another planet 
-
-<!--
-1. [Bronze](http://iplayif.com/?story=http://www.ifarchive.org/if-archive/games/zcode/Bronze.zblorb).  This is a text adventure game in the style of classic games like [Zork](http://textadventures.co.uk/games/view/5zyoqrsugeopel3ffhz_vq/zork) and other [Infocom games](https://en.wikipedia.org/wiki/Classic_Text_Adventure_Masterpieces_of_Infocom).  
-
-2. [AI Dungeon 2](https://colab.sandbox.google.com/github/nickwalton/AIDungeon/blob/master/AIDungeon_2.ipynb). This is a modern a machine-generated text adventure.  It uses a neural network based language model called [GPT-2](https://openai.com/blog/better-language-models/).
-
-## Bronze: A Classic Text Adventure
-
-The parser for Bronze has a limited vocabulary.  This cheatsheet should guide to what commands are allowable in text adventure games:
--->
 
 Grizel won the ["Text Adventure Literacy Jam"](https://itch.io/jam/talp) which is designed to introduce younger people to text-based adventure games.   Helpfully, her games will offer you a tutorial mode.  If you enable the tutorial mode then her games will display a bunch of userful hints about what commands you can use at each location in the game.
 
