@@ -33,6 +33,11 @@ Want to join the class, but didn't attend the first lecture? Here are the steps 
 <div class="alert alert-info">
 The in-class activity for {{ page.release_date | date: "%A %b %-d" }} will be to <a href="{{page.url}}">{{ page.title }}</a>.  
 </div>
+<!-- Other participation activity -->
+{% elsif page.type == "participation" %}
+<div class="alert alert-info">
+The participation activity <a href="{{page.url}}">{{ page.title }}</a> is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+</div>
 {% else %}
 <!-- Homework assignment -->
 <div class="alert alert-info">
