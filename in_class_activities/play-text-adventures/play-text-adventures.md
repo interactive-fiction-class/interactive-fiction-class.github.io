@@ -60,7 +60,7 @@ Today in class you will play a text adventure game in groups of 2-5 people.  You
 
 
 1. [Text Adventure Games by Grizel](https://grizel.itch.io/).  Grizel writes text adventure games in the style of classic games like [Zork](http://textadventures.co.uk/games/view/5zyoqrsugeopel3ffhz_vq/zork) and other [Infocom games](https://en.wikipedia.org/wiki/Classic_Text_Adventure_Masterpieces_of_Infocom) using a platform called [Adventuron](https://adventuron.io).  She has a lot of very lovely games, including 
-* [Snowhaven](https://grizel.itch.io/snowhaven) - a quiet contemplative game
+* [Snowhaven](https://grizel.itch.io/snowhaven) - a quiet, contemplative game with an optional sinister variant (let me know if you want the password for the sinister version)
 * [Reflections](https://grizel.itch.io/reflections) and [Midsummer Eve](https://grizel.itch.io/midsummer) - child-friendly games meant to introduce a new generation to the text adventure genre 
 * [Sentient Beings](https://grizel.itch.io/sentient-beings) - an exploration game set on another planet 
 
