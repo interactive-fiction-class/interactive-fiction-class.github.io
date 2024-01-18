@@ -73,7 +73,7 @@ You have two options for which game to play.  You can either play
 * Labyrinth The Adventure Game, which is based on the movie Labyrinth (1986) which is a cult classic from when I was a kid.  You can [rent the movie for $4](https://www.google.com/search?client=safari&rls=en&q=labyrinth+streaming&ie=UTF-8&oe=UTF-8) and watch the first 30 minutes if you want a sense of the vibe.
 * Mausritter, which is a Dungeons and Dragons like game, but you play as mice.  Mausritter is a great example of a kind of indie role playing game from a movement called the ["Old School Renaissance"](https://en.wikipedia.org/wiki/Old_School_Renaissance).
 
-Both of these games are excellent introductions to RPGs and are friendly to newcomers.   They both have beautiful artifacts.  Labyrinth is a lovely book that you can buy for $30 on Amazon with one-day delivery. Mausritter has a stunning boxed set for $55 on Exalted Funeral. Delivery will take longer for Mausritter, but you can download a digital copy for free on itch.io. 
+Both of these games are excellent introductions to RPGs and are friendly to newcomers.   They both have beautiful artifacts.  Labyrinth is a lovely book that you can buy on Amazon with one-day delivery. Mausritter has a stunning boxed set for sale on Exalted Funeral. Delivery will take longer for Mausritter, but you can download a digital copy for free on itch.io. 
 
 If you'd like to lead a game or play with classmates, please use Ed Stem to arrange a time to play. If you have experience with RPGs, especially as a game master, I'd love it if you could to lead a game.  
 As you're playing the game think about the following things:
