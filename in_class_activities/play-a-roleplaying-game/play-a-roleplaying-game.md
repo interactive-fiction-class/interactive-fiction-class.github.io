@@ -1,8 +1,8 @@
 ---
 layout: default
-img: zork.jpg
-img_link: https://en.wikipedia.org/wiki/Zork#/media/
-caption: Zork, an early intractive fiction game released in 1977.
+img: mausritter.png
+img_link: https://mausritter.com
+caption: Mausritter, Sword-and-whiskers role-playing
 title: Play A Roleplaying Game
 type: participation
 active_tab: homework
