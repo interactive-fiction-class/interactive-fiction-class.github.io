@@ -134,7 +134,7 @@ Course Materials
 
 Games
 : [Labyrinth The Adventure Game](https://www.amazon.com/Jim-Hensons-Labyrinth-Adv-Game/dp/1916011551/) - $35 on Amazon
-: [Action Castle](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) - Free (you can optionally buy it in the rad [Parsley book in print](http://www.memento-mori.com/books/parsely-book) or [PDF](http://www.memento-mori.com/pdf/parsely-pdf)) - $20 to $30
+: [Action Castle](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) - Free (you can optionally buy it in the rad [Parsley book in print](http://www.memento-mori.com/books/parsely-book) or [PDF](http://www.memento-mori.com/pdf/parsely-pdf)) - $20-30
 
 
 Materials 
