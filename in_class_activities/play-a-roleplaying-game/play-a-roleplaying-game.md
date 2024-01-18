@@ -92,4 +92,3 @@ We'll ask you to answer a few questions on Gradescope:
 * What sort of things does the game master do in the game?
 * How do you think an AI system could be used to aid or enhance the game playing experience?
 
--
