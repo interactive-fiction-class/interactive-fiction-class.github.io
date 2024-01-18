@@ -7,10 +7,8 @@
   lessons:
     - 
       title: Intro to the class, Interactive Fiction, and Automated Story Generation 
-      video: 
-      length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?tid=d9d12831-5a0f-4e7f-8d75-ae1d0077227d
-      old_length: 1 hour 39 mins
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e102b40-cc8f-4f84-ba0e-b0fb01590fce
+      length: 59 minutes
       slides: http://interactive-fiction-class.org/slides/1_text-adventure-games.pdf
       readings:
         -
