@@ -1,16 +1,16 @@
 ---
 layout: default
 img: action-castle.jpg
-img_link: http://www.memento-mori.com
+img_link: https://cognitiveai.org
 caption: Action Castle by Jared A. Sorensen
 title: think of questions for our guest speaker
 type: participation
-speaker: Jared A. Sorensen
+speaker: Peter Jansen
 active_tab: homework
 release_date: 2024-01-18
-due_date: 2024-01-23 13:45:00EST
+due_date: 2024-01-25 13:45:00EST
 materials:
-submission_link: https://www.gradescope.com/courses/704268/assignments/3958911/
+submission_link: https://www.gradescope.com/courses/704268/assignments/3964459/
 ---
 
 <!-- Check whether the assignment is ready to release -->
