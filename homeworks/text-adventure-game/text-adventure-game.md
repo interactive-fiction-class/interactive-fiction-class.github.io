@@ -77,7 +77,9 @@ You can download the materials for this assignment here:
 
 ## Instructions
 
-In this homework assignment, you will write your own classic text adventure game.  This homework can be completed in groups of up to 2 people.  You will implement two text adventure games.  One will be a re-implementation of the __Action Castle__ game, and one will be a game that you design yourself. The game that you design can be on any topic, or can tell any story of your choice.  We will play the games that you design during class, and part of your grade will be awarded based on how creative/exciting your classmates think your game is.
+In this homework assignment, you will write your own classic text adventure game.  This homework can be completed in groups of up to 5 people.  You will implement two text adventure games.  One will be a re-implementation of the __Action Castle__ game, and one will be a game that you design yourself. The game that you design can be on any topic, or can tell any story of your choice.  We will play the games that you design during class, and part of your grade will be awarded based on how creative/exciting your classmates think your game is.
+
+If your team has more than 2 members, you complete extensions to keep the amount of work comparable to smaller teams. 
 
 ### Starter code
 
@@ -146,16 +148,10 @@ What kind of game should you make?  It's up to you! Be creative!  For inspiratio
 <a href="inspiration/treehouse.jpg"><img src="inspiration/treehouse.jpg" style="height: 100%; width: 100%; max-width: 250px"></a>
 </div>
 <div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px; height: 350px;">
-<a href="inspiration/oubliette.png"><img src="inspiration/oubliette.png" style="height: 100%; width: 100%; max-width: 250px"></a>
-</div>
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px; height: 350px;">
 <a href="inspiration/storm-king.jpg"><img src="inspiration/storm-king-small.jpg" style="height: 100%; width: 100%; max-width: 250px"></a>
 </div>
 <div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px; height: 350px;">
 <a href="inspiration/mars.pdf"><img src="inspiration/mars.jpg" style="height: 100%; width: 100%; max-width: 250px"></a>
-</div>
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px; height: 350px;">
-<a href="inspiration/apartment.jpg"><img src="inspiration/apartment.jpg" style="height: 100%; width: 100%; max-width: 250px"></a>
 </div>
   </div>
 </div>
@@ -164,6 +160,23 @@ What kind of game should you make?  It's up to you! Be creative!  For inspiratio
 <div class="alert alert-warning" markdown="1">
 __Tip:__ I recommend drawing out on your game on [graph paper](http://print-graph-paper.com/) before you get started.
 </div>
+
+
+## Extensions
+
+If your team has more than 2 members, you should implement one extension per team member beyond 2.  Here are some ideas:
+
+* Write code to export our Python classes into the [Adventuron format](https://adventuron.io/) so that they can be compiled and played on itch.io.
+* Create a web server for running the games.  
+* Create Item subclasses that can act as containers and surfaces, and add Actions for "put in" and "put on".
+* Incorporate time into the game.  For instance, in Action Castle, there is a rule that says:
+>  Each turn spent in the Dungeon causes the ghost to drift closer and closer. If not defeated within three turns, the ghost reaches out a skeletal hand and drains the player’s life force.
+* Implement hit points and combat
+* Convert the game into a multiplayer game
+* Add random tables to your game
+
+Other extensions are possible.  Run your extension ideas by us on Ed Stem.
+
 
 ## What to submit
 
