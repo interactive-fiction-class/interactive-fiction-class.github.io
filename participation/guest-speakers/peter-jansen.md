@@ -1,6 +1,6 @@
 ---
 layout: default
-img: action-castle.jpg
+img: scienceworld.jpg
 img_link: https://cognitiveai.org
 caption: Action Castle by Jared A. Sorensen
 title: think of questions for our guest speaker
