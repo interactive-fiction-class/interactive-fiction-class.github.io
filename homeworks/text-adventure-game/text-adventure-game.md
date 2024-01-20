@@ -168,12 +168,13 @@ If your team has more than 2 members, you should implement one extension per tea
 
 * Write code to export our Python classes into the [Adventuron format](https://adventuron.io/) so that they can be compiled and played on itch.io.
 * Create a web server for running the games.  
+* Convert the game into a multiplayer game.
 * Create Item subclasses that can act as containers and surfaces, and add Actions for "put in" and "put on".  For example, a bottle can contain wine or a table could have items on it.
 * Incorporate time into the game.  For instance, in Action Castle, there is a rule that says:
 >  Each turn spent in the Dungeon causes the ghost to drift closer and closer. If not defeated within three turns, the ghost reaches out a skeletal hand and drains the player’s life force.
 * Implement hit points and combat.  At the moment our Attack action immediately knocks the victim out, without giving them a chance to fight back.
-* Convert the game into a multiplayer game
 * Add random tables to your game, similar to the tables that are found in the Labyrinth game.
+* Add magic to the game, allowing for wizards who can cast spells.
 
 Other extensions are possible.  Run your extension ideas by us on Ed Stem.
 
