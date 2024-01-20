@@ -124,7 +124,7 @@ Time and Place
 
 Office Hours (see the [Staff](/staff.html) page for office hour locations)
 : Chris - TBD
-: Andrew - TBD
+: Andrew - [By appointment](https://calendar.app.google/h3cWzezazMe9c8a69)
 : Anson - TBD
 : Kyle - TBD
 
