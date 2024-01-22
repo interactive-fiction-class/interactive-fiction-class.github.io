@@ -219,6 +219,7 @@ If your team has more than 2 members, you should implement one extension per tea
 
 Other extensions are possible.  Run your extension ideas by us on Ed Stem.
 
+For some extensions, you may need to modify the base code.  That's fine!  You can submit a zip file with the full package. 
 
 ## What to submit
 
