@@ -81,9 +81,50 @@ In this homework assignment, you will write your own classic text adventure game
 
 If your team has more than 2 members, you complete extensions to keep the amount of work comparable to smaller teams. 
 
-### Starter code
+### Using our Starter code
 
 We have provided [starter code for a basic text adventure game]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You should get started by reviewing the `HW1_Tutorial.ipynb` which introduces the concepts in our starter ocde. 
+
+#### Environment Setup
+
+First download the zip file, then create a virtual environment and install
+the dependencies.
+
+```
+$ unzip CIS-7000.zip
+$ cd CIS-7000/HW1/
+$ python3 -mvenv venv
+$ source venv/bin/activate
+(venv) $ pip install -r requirements.txt
+```
+
+#### VSCode
+
+We recommend that you use VSCode.
+The best way to ensure a good experience with VSCode is to launch it from the
+project directory with your virtual environment already enabled.
+
+```
+$ cd path/to/homework/CIS-7000/HW1/
+$ source venv/bin/activate
+(venv) $ code .
+```
+
+If the `code` command does not work, open VSCode's command pallet (command+shift+p)
+and type `shell command`. VSCode should then show an option for installing
+'code' in your PATH.
+
+#### Try out the Tutorial
+
+After you have downloaded the code, started your virutal envionment and launched VSCode, you should work through the `HW1_Tutorial.ipynb` notebook that we created to show off the basics of our text adventure game platform.  Here's a screenshot of the notebook that you'll see.
+
+<div class="container-fluid">
+  <div class="row">
+<div class="col-lg-6" >
+<a href="tutorial-screenshot.jpg"><img src="tutorial-screenshot.jpg" style="height: 100%; width: 100%; max-width: 1000px"></a>
+</div>
+</div>
+</div>
 
 ### Task 1: Implement Action Castle
 
