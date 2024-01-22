@@ -7,19 +7,19 @@ title: Build a Text-Adventure Game
 type: Homework
 number: 1
 active_tab: homework
-release_date: 2024-01-16
-due_date: 2022-01-17 23:59:00EST
+release_date: 2024-01-22
+due_date: 2024-01-30 13:45:00EST
 materials:
     - 
-        name: Text Adventure Game starter code
-        url: XXX
+        name: Text Adventure Game starter code (Zip file)
+        url: https://www.cis.upenn.edu/~ccb/teaching/2024sp/CIS-7000.zip
     - 
         name: Parsely&colon; Preview n' Play Edition (this contains the Action Castle game).  
         url: http://www.memento-mori.com/pdf/parsely-preview-n-play-edition
     - 
         name: Text from Action Castle  
         url: https://raw.githubusercontent.com/interactive-fiction-class/interactive-fiction-class.github.io/master/homeworks/text-adventure-game/action_castle_text.txt
-submission_link: 
+submission_link: https://www.gradescope.com/courses/704268/assignments/3980065/
 readings:
     -
       title: Adventuron Classroom
@@ -83,7 +83,7 @@ If your team has more than 2 members, you complete extensions to keep the amount
 
 ### Starter code
 
-We have provided [starter code for a basic text adventure game](XXX).  You are free modify it however you want, and bring in any dependencies you feel will be useful.
+We have provided [starter code for a basic text adventure game]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You should get started by reviewing the `HW1_Tutorial.ipynb` which introduces the concepts in our starter ocde. 
 
 ### Task 1: Implement Action Castle
 
@@ -187,6 +187,7 @@ You should submit a link to a Github repository which contains the following:
 2. An IPython notebook called `my_game.ipynb` that runs the initial version of your game.
 3. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It shold be a plain text file with one command per line.
 4. A text file called `README.md` containing a short paragraph describing your game, and why you picked that topic.
+5. An image showing the directed graph for your game. 
 
 Submissions should be done on [Gradescope]({{page.submission_link}}).
 
