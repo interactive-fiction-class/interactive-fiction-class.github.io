@@ -121,7 +121,7 @@ After you have downloaded the code, started your virutal envionment and launched
 <div class="container-fluid">
   <div class="row">
 <div class="col-lg-6" >
-<a href="tutorial-screenshot.jpg"><img src="tutorial-screenshot.jpg" style="height: 100%; width: 100%; max-width: 1000px"></a>
+<a href="tutorial-screenshot.png"><img src="tutorial-screenshot.png" style="height: 100%; width: 100%; max-width: 1000px"></a>
 </div>
 </div>
 </div>
