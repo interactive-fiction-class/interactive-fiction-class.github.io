@@ -9,7 +9,7 @@
       title: Intro to the class, Interactive Fiction, and Automated Story Generation 
       video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e102b40-cc8f-4f84-ba0e-b0fb01590fce
       length: 59 minutes
-      slides: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=476ff7fb-88df-4860-ad40-b0fb0165be89
+      slides: slides/1_text-adventure-games.pdf
       readings:
         -
           title: A Systematic Survey of Text Worlds as Embodied Natural Language Environments
