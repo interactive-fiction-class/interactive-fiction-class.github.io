@@ -95,7 +95,7 @@ $ unzip CIS-7000.zip
 $ cd CIS-7000/HW1/
 $ python3 -mvenv venv
 $ source venv/bin/activate
-(venv) $ pip install -r requirements.txt
+(venv) $ pip install .
 ```
 
 #### VSCode
