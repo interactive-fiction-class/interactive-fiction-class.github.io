@@ -66,9 +66,9 @@
       title: Guest lecture by Peter Jansen
       guest_speaker: Peter Jansen
       guest_url: https://cognitiveai.org
-      video: 
-      length:
-      slides:
+      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1de1c8d-c8e0-45e3-a3be-b103000d0935
+      length: 1 hour 22 minutes
+      slides: 
       readings:
         -
           title: ScienceWorld&colon; Is your Agent Smarter than a 5th Grader?
