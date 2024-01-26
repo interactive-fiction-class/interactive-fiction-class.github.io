@@ -114,6 +114,11 @@ If the `code` command does not work, open VSCode's command pallet (command+shift
 and type `shell command`. VSCode should then show an option for installing
 'code' in your PATH.
 
+
+### Visualizition module
+
+Our starter code includes a vizualize tool `text_adventure_games.viz` which will allow you to view your game map as a directed graph.  To use this, you will also need to install graphviz. There is both the graphviz app and the graphviz python library, which is a wrapper for the app. You can find instructions on how to install graphviz from their website here: [graphviz.org/download/](https://graphviz.org/download/)
+
 #### Try out the Tutorial
 
 After you have downloaded the code, started your virutal envionment and launched VSCode, you should work through the `HW1_Tutorial.ipynb` notebook that we created to show off the basics of our text adventure game platform.  Here's a screenshot of the notebook that you'll see.
@@ -125,6 +130,8 @@ After you have downloaded the code, started your virutal envionment and launched
 </div>
 </div>
 </div>
+
+
 
 ### Task 1: Implement Action Castle
 
