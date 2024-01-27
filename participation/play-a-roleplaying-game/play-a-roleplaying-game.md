@@ -66,18 +66,16 @@ The materials that you will need for this activity are:
 Participation Activity: Play A Roleplaying Game
 =============================================================
 
-As a fun homework assignment, I'm asking everyone to try playing a roleplaying game with your friends or your classmates.  The goal of this assignment is to ensure that everyone has experience with classic pen-and-pencil interactive fiction.  You can use this thread to recruit classmates to play with you.  You should finish this assignment this weekend, and answer a few questions about your experience on gradescope before class on Tuesday January 23.
-
-You have two options for which game to play.  You can either play 
+As a fun homework assignment, I'm asking everyone to try playing a roleplaying game with your friends or your classmates.  The goal of this assignment is to ensure that everyone has experience with classic pen-and-pencil interactive fiction. You have two options for which game to play.  You can either play 
 
 * Labyrinth The Adventure Game, which is based on the movie Labyrinth (1986) which is a cult classic from when I was a kid.  
 * Mausritter, which is a Dungeons and Dragons like game, but you play as mice.  Mausritter is a great example of a kind of indie role playing game from a movement called the ["Old School Renaissance"](https://en.wikipedia.org/wiki/Old_School_Renaissance).
 
 Both of these games are excellent introductions to RPGs and are friendly to newcomers.   They both have beautiful artifacts.  Labyrinth is a lovely book that you can buy on Amazon with one-day delivery. Mausritter has a stunning boxed set for sale on Exalted Funeral. Delivery will take longer for Mausritter, but you can download a digital copy for free on itch.io. 
 
-If you'd like to lead a game or play with classmates, please use Ed Stem to arrange a time to play. If you have experience with RPGs, especially as a game master, I'd love it if you could to lead a game.  
-As you're playing the game think about the following things:
+If you'd like to lead a game or play with classmates, please use the class discussion forum to arrange a time to play. If you have experience with RPGs, especially as a game master, I'd love it if you could to lead a game.  
 
+As you're playing the game think about the following things:
 * What sort of things does the game master do in the game? Hint: game masters are typically responsible for describing the setting, and playing the role of the 'non-player characters' and monsters.
 * How could large language models be used to help a game master generate compelling descriptions and dialogue? Do you think an LLM could replace a GM?
 * How would you implement the rules of the game like dice mechanics for combat, ability checks, and inventory management? 
