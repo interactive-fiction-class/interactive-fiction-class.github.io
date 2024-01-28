@@ -2,7 +2,7 @@
 layout: default
 img: scienceworld.jpg
 img_link: https://cognitiveai.org
-caption: Action Castle by Jared A. Sorensen
+caption: Science World
 title: think of questions for our guest speaker
 type: participation
 speaker: Peter Jansen
