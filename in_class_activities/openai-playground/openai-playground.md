@@ -131,7 +131,7 @@ Prompt for students to use:
 
 Clearly a lot of thought went into the prompt design!  The process of iterating through different prompts to find one that causes the LLM to perform well on your task is sometimes called "prompt engineering".
 
-## Narration Prompts
+## Part 1: Narration Prompts
 
 Let's try doing some prompt engineering to create a good prompt for the task of having GPT narrate our text adventure games.  To get you started, here's an example that I used:
 
@@ -165,213 +165,94 @@ You should test your prompts on several turns in a text adventure game. You can 
 
 ### What to submit
 
-You should upload 10 of your prompts to [the gradescope assignment "Use GPT to Write Descriptions for Text Adventure Games"]({{ page.submission_link }}), plus publicly shared links to your developer playgrounds for each of your prompts that demonstrate its outputs on several turns of the games. 
+You should upload 10 of your prompts to [the gradescope assignment "Use GPT to Write Descriptions for Text Adventure Games"]({{ page.submission_link }}), plus publicly shared links to your developer playgrounds for each of your prompts that demonstrate its outputs on several turns of the games. You should also pick your favorite prompt, and explain why you liked it best.
 
 
 
-# Analyzing the elaborations
 
-LLMs have the tendency to "hallucinate" meaning that they generate things that aren’t factually accurate .  In the case of creative writing and fiction this can be an asset rather a liability.  Pick 5 of your narrator’s outputs, and say what things it added that weren’t present in the input.
+## Part 2: Analyzing Elaborations
 
-For example:
+LLMs have the tendency to "hallucinate" meaning that they generate things that aren’t factually accurate.  In the case of creative writing and fiction this can be an asset rather a liability.  
 
+Pick 5 of your narrator’s outputs for different game locations, and say what things it added that weren’t present in the input.
 
-{
-  "name": "Cottage",
-  "description": "You are standing in a small cottage.",
-  "commands": [],
-  "properties": {},
-  "travel_descriptions": {
-    "out": ""
-  },
-  "blocks": {},
-  "connections": {
-    "out": "Garden Path"
-  },
-  "items": {
-    "pole": {
-      "name": "pole",
-      "description": "a fishing pole",
-      "commands": [],
-      "properties": {
-        "gettable": true
-      },
-      "examine_text": "A SIMPLE FISHING POLE.",
-      "location": "Cottage"
-    }
-  },
-  "characters": {
-    "The player": "The player"
-  },
-  "has_been_visited": true
-}
+For example, for the game input:
+
+```
+You are standing in a small cottage.
+Exits:
+Out to Garden Path
+You see:
+ * a fishing pole
+ * a poisonous potion
+```
+
+One of my system prompts generated: 
 
 
-Which my GPT Parser describes as 
-
-You find yourself in a quaint, rustic cottage. The room is filled with the scent of pine and old books. A crackling fire in the stone hearth casts dancing shadows on the wooden walls. A worn, but comfortable-looking armchair sits invitingly near the fire. On a small table next to the chair, there's a fishing pole. A single window reveals a lush garden path outside. The only exit appears to be a sturdy wooden door leading out to the garden path.
+> You find yourself in a quaint, rustic cottage. The room is filled with the scent of pine and old books. A crackling fire in the stone hearth casts dancing shadows on the wooden walls. A worn, but comfortable-looking armchair sits invitingly near the fire. On a small table next to the chair, there's a fishing pole. A single window reveals a lush garden path outside. The only exit appears to be a sturdy wooden door leading out to the garden path.
 
 This adds several new elements that were’t in the input:
 * stone hearth with a fire
 * armchair 
 * small table
-* also technically, walls, a window, and a door (these are great commonsense things since I said we were 'inside a cottage'
+* also technically, walls, a window, and a door (these are great commonsense things since I said we were 'inside a cottage', but they weren't mentioned in my input).
 
-one problem with these elaborations is that they aren’t currently objects in the game, and we therefore cannot track state properly.  E.g. there’s no way of adding them to our inventory.   What if we could create new objects for them?   
-
-Let’s  use  GPT to try to generate new items.  We’ll use "few shot learning" to do so.  The format for our few shot learning will be several sample inputs and outputs of what we’d like GPT to generate.  The input can be specified in the "user" field and the output can be specified in the "assistant" field (note: in the playground you can write sample outputs as the assistant.  Click on the 'user' label to toggle it between 'user' and 'assistant'.
+One problem with these elaborations is that they aren’t currently objects in the game, and we therefore cannot track state properly.  E.g. there’s no way of adding them to our inventory.  
 
 
-What are the different elements of the items in our game?  Each has a name, a simple description, and a more elaborate description that is displayed with the player examines it, a location and a set of properties.  
+### What to submit
+
+You should upload 5 of your input scenes + GPT's narrations + a list of the new elements to [the gradescope assignment]({{ page.submission_link }}) in Question 2.
 
 
-It also has properties.  Basic properties include:
+## Part 3: Generating Game Objects
+
+There are several strategies that we could take to dealing with GPT's elaborations of new items in the game.  We could try to create a system prompt to reduce them, or we could try to create new objects for the newly introduced item so that we can track them in-game.   
+
+Let’s  use  GPT to try to generate new items.  We’ll use "few shot learning" to do so.  The format for our few shot learning will be several sample inputs and outputs of what we’d like GPT to generate.  The input can be specified in the "user" field and the output can be specified in the "assistant" field (note: in the playground you can write sample outputs as the assistant.  Click on the 'user' label to toggle it between 'user' and 'assistant'.  In the playground, you can also edit the assistant's output to get it to be what you want.  When we have several examples of inputs and outputs, GPT is good at learning the pattern and continuing it.
+
+
+What are the different elements of the items in our game?  Each item has
+* a name
+* a simple description
+* a more elaborate description that is displayed with the player examines it, 
+* a location 
+* a set of properties
+
+Let’s see if GPT can generate the elements for a new item.  We can pick a format that we want to use as input and outputs.   We could use text, or Python code, or a structured format like JSON.
+
+For this part, you should create a few-shot setting for 4 versions of the format
+* [Format 1 - input and output are both text](https://platform.openai.com/playground/p/JELCCqWVgjhGLMzIthA3RWX3?model=gpt-3.5-turbo&mode=chat)
+* [Format 2 - input is text, output is code](https://platform.openai.com/playground/p/1oYVcVIOy9B23L9ZcFJffKLi?model=gpt-3.5-turbo&mode=chat)
+* [Format 3 - input is text, output is JSON](https://platform.openai.com/playground/p/GcTKb3QZHwf63bL9EGkktTit?model=gpt-4&mode=chat)
+* [Format 4 - input is JSON + an elaborate description, output is elaborate JSON](https://platform.openai.com/playground/p/mxwqEh621GAsSPPaQ29pwaTO?model=gpt-4&mode=chat)
+
+## Hint on generating properties 
+
+We've got several properties. Basic properties include:
+```
       "is_gettable": false, # used by the `get` command
       "is_drink": false,        # used by the `drink` command
       "is_food": false,         # used by the `eat` command
       "is_weapon": false,   # used by the `attack` command
-
+```
 Others that are commonly used in text adventure games that we’re not currently using are:
+```
       "is_wearable": false  # could be used by a `wear` command
       "is_container": false,    # could be used by a `put … in` command (e.g. put the ink in the inkwell)
       "is_surface": false,       # could be used by a `put … on` command (e.g. put the book on the bookshelf)
+```
 
-Let’s see if GPT can generate these.  We can pick a format that we want to use as input and outputs.   We could use text, or Python code, or a structured format like JSON.
+GPT-4 can do surprisingly good zero-shot generation for these properties.  Try including something like this in your sytem prompt:
+> For each item, create a json object with the fields 'name' , 'description', 'examine text' (1-2 sentences of what the character will see if they look at it closely), and properties (a dictionary with boolean values for the keys: 'is_container', 'is_drink', 'is_food',  'is_gettable',  'is_surface',  'is_weapon',  'is_wearable').
 
-
-
-4 versions of this format
-Format 1 - input and output are both text
-
-https://platform.openai.com/playground/p/JELCCqWVgjhGLMzIthA3RWX3?model=gpt-3.5-turbo&mode=chat
-
-
-Format 2 - input is text, output is code
-
-[Code generation for Action Castle - one shot](https://platform.openai.com/playground/p/1oYVcVIOy9B23L9ZcFJffKLi?model=gpt-3.5-turbo&mode=chat)
-
-
-Format 3 - input is text, output is JSON
-
-
-Format 4 - input is elaborate description, output is elaborate JSON
-
-  "items": {
-    "pole": {
-      "name": "pole",
-      "description": "a fishing pole",
-      "commands": [],
-      "properties": {
-        "gettable": true
-      },
-      "examine_text": "A SIMPLE FISHING POLE.",
-      "location": "Cottage"
-    },
-
-
-Here’s a JSON for an object description: XXX
-
-
-
-
-{
-  "name": "Cottage",
-  "description": "You are standing in a small cottage.",
-  "commands": [],
-  "properties": {
-    "style": "quaint and rustic",
-    "smell": "pine and old books",
-    "materials": ["wooden walls"]
-  },
-  "travel_descriptions": {
-    "out": ""
-  },
-  "blocks": {},
-  "connections": {
-    "out": "Garden Path"
-  },
-  "items": {
-    "pole": {
-      "name": "pole",
-      "description": "a fishing pole",
-      "commands": [],
-      "properties": {
-        "gettable": true
-      },
-      "examine_text": "A SIMPLE FISHING POLE.",
-      "location": "Cottage"
-    },
-    "hearth": {
-      "name": "hearth",
-      "description": "a stone hearth with a crackling fire",
-      "commands": [],
-      "properties": {
-        "gettable": false
-      },
-      "examine_text": "A crackling fire in the stone hearth casts dancing shadows on the wooden walls.",
-      "location": "Cottage"
-    },
-    "armchair": {
-      "name": "armchair",
-      "description": "a comfortable armchair",
-      "commands": [],
-      "properties": {
-        "gettable": false,
-        "style": "worn"
-      },
-      "examine_text": "A worn, but comfortable-looking armchair sits invitingly near the fire.",
-      "location": "Cottage"
-    },
-    "table": {
-      "name": "table",
-      "description": "a small table",
-      "commands": [],
-      "properties": {
-        "gettable": false
-      },
-      "examine_text": "A small table sits next to the chair.",
-      "location": "Cottage"
-    },
-    "window": {
-      "name": "window",
-      "description": "a single window",
-      "commands": [],
-      "properties": {
-        "gettable": false
-      },
-      "examine_text": "Looking out the window reveals a lush garden path outside.",
-      "location": "Cottage"
-    },
-    "door": {
-      "name": "door",
-      "description": "a sturdy door",
-      "commands": [],
-      "properties": {
-        "gettable": false,
-        "material": "wood"
-      },
-      "examine_text": "The sturdy wooden door opens out to the garden path.",
-      "location": "Cottage"
-    }
-  },
-  "characters": {
-    "The player": "The player"
-  },
-  "has_been_visited": true
-}
-
-
-
-
-
-
-## Cheatsheet
 
 
 ## What to submit
 
 
-
+For each of your 4 different formats of few-shot prompting, you should upload a link to your playground to [the gradescope assignment]({{ page.submission_link }}) in Question 3.
 
 
 
