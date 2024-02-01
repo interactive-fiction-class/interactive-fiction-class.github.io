@@ -165,7 +165,7 @@ You should test your prompts on several turns in a text adventure game. You can 
 
 ### What to submit
 
-
+You should upload 10 of your prompts to [the gradescope assignment "Use GPT to Write Descriptions for Text Adventure Games"]({{ page.submission_link }}), plus publicly shared links to your developer playgrounds for each of your prompts that demonstrate its outputs on several turns of the games. 
 
 
 
