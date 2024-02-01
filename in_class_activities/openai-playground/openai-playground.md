@@ -17,6 +17,26 @@ readings:
         title: OpenAI Prompt Examples
         url: https://platform.openai.com/examples
         type: documentation
+    - 
+        title: Thinking Inside the Box - How To Write Boxed Text for Your Favorite RPG
+        url: https://dscryb.com/thinking-inside-the-box/
+        type: documentation
+
+    - 
+        title: Let’s Design an Adventure - Boxed Text
+        url: https://www.dndbeyond.com/posts/625-lets-design-an-adventure-boxed-text
+        type: documentation
+
+    - 
+        title: Dungeon Mastering 101 - Mastering the Boxed Text
+        url: https://dmsworkshop.com/2019/09/27/dm-101-boxed-text-mastering/
+        type: documentation
+
+    - 
+        title: How much description should a dungeon key include?
+        url: https://dmdavid.com/tag/tag/boxed-text/
+        type: documentation
+    
     -
        title: A Recipe For Arbitrary Text Style Transfer with Large Language Models
        authors: Emily Reif, Daphne Ippolito, Ann Yuan, Andy Coenen, Chris Callison-Burch, Jason Wei
@@ -190,6 +210,16 @@ You should test your prompts on several turns in a text adventure game. You can 
 [Here are the first few turns of Action Castle](action_castle.txt) for you to copy and paste into the Playground (feel free to use your own game instead).  For the next homework assignment, you’ll use the API, rather than copying and pasting into the playground.  Using the OpenAI playground is a good way to do your prompt engineering.  Once you find a good system prompt, then you can implement it in code via the API.
 
 
+
+### Hints
+
+Check out some of the links at the bottom of the page which give guidance to dungeon masters on how to write evocative text for games.
+
+Here's a cool experiment from a text generation system called sudowrite that shows off some of the sensory aspects of things that you could encourage GPT to descirbe. 
+
+<center>
+<img src="sudowrite.png" class="img-responsive"/>
+</center>
 
 ### What to submit
 
