@@ -17,6 +17,34 @@ readings:
         title: OpenAI Prompt Examples
         url: https://platform.openai.com/examples
         type: documentation
+    -
+       title: A Recipe For Arbitrary Text Style Transfer with Large Language Models
+       authors: Emily Reif, Daphne Ippolito, Ann Yuan, Andy Coenen, Chris Callison-Burch, Jason Wei
+       venue: ACL
+       type: conference
+       year: 2022
+       website: https://bit.ly/3fLDuci
+       video: https://aclanthology.org/2022.acl-short.94.mp4
+       url: https://www.cis.upenn.edu/~ccb/publications/zero-shot-arbitrary-text-style-transfer.pdf
+       page_count: 12
+       id: zero-shot-arbitrary-text-style-transfer
+       data: 
+       abstract: In this paper, we leverage large language models (LMs) to perform zero-shot text style transfer. We present a prompting method that we call augmented zero-shot learning, which frames style transfer as a sentence rewriting task and requires only a natural language instruction, without model fine-tuning or exemplars in the target style. Augmented zero-shot learning is simple and demonstrates promising results not just on standard style transfer tasks such as sentiment, but also on arbitrary transformations such as "make this melodramatic" or "insert a metaphor."
+       bibtex: |
+          @inproceedings{Reif2022-style-transfer,
+            title={A Recipe For Arbitrary Text Style Transfer with Large Language Models},
+            author={Emily Reif and Daphne Ippolito and Ann Yuan and Andy Coenen and Chris Callison-Burch and Jason Wei},
+            booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL 2022)},
+            address={Dublin, Ireland}
+            year={2022}
+          }
+    -
+       title: Wordcraft&colon; a Human-AI Collaborative Editor for Story Writing
+       authors: Andy Coenen, Luke Davis, Daphne Ippolito, Emily Reif, Ann Yuan
+       venue: IUI
+       type: conference
+       year: 2022
+       url: https://arxiv.org/abs/2107.07430
 submission_link: https://www.gradescope.com/courses/704268/assignments/4037675
 ---
 
@@ -206,7 +234,7 @@ One problem with these elaborations is that they aren’t currently objects in t
 You should upload 5 of your input scenes + GPT's narrations + a list of the new elements to [the gradescope assignment]({{ page.submission_link }}) in Question 2.
 
 
-## Part 3: Generating Game Objects
+## Part 3: Few-shot Learning to Generate Game Objects
 
 There are several strategies that we could take to dealing with GPT's elaborations of new items in the game.  We could try to create a system prompt to reduce them, or we could try to create new objects for the newly introduced item so that we can track them in-game.   
 
