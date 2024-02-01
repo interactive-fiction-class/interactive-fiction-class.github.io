@@ -11,8 +11,8 @@ release_date: 2022-01-24
 due_date: 2022-01-31 23:59:00EST
 materials:
     - 
-      name: Colab Notebook for Fine-Tuning OpenAI on LIGHT Enviroment Data
-      url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/generating-descriptions/Fine_Tune_OpenAI_on_LIGHT_Text_Adventures.ipynb
+      name: 
+      url: 
 submission_link: https://www.gradescope.com/courses/354158/assignments/1798030/
 readings:
 - 
@@ -129,41 +129,21 @@ In this homework, you will use the OpenAI API for the first time.  We'll get you
 
 ## Getting Started with the OpenAI API
 
-You have been granted access to the [OpenAI API](https://openai.com), which lets you use GPT-3 a large, transformer-based language model like the ones that we learned about in lecture.  For the first part of the assignment, we'll get warmed up by playing with the OpenAI API via its interactive [Playground](https://beta.openai.com/playground) website.  Later we'll see how to integrate it directly into our code. 
+You have been granted access to the [OpenAI API](https://openai.com), which lets you use GPT-3 a large, transformer-based language model like the ones that we learned about in lecture.  For the first part of the assignment, we'll get warmed up by playing with the OpenAI API via its interactive [Playground](https://platform.openai.com/playground) website.  Later we'll see how to integrate it directly into our code. 
 
-First, let's learn some basic terminology: 
-* Prompt - the input to the model
-* Completion - what the model outputs
+First, switch into the "Chat" mode in the upper left.  Next let's take a look at the different fields: 
+* System - this is a description of how you'd like the system to behave
+* User - this the label for your input into the system.  You can type something in and and then press "submit".
+* Assistant - this is the label for the system's output messages that are based on your output.
 
-Let's try it out.  Try pasting this prompt into the playground, pressing the "Generate" button, and see what it says:
+### Models
 
-> My favorite professor at the University of Pennsylvania is 
+OpenAI has several different chat models.  You will probably see `gpt-3.5-turbo` and `gpt-4`.  These differ from each other in several dimensions:
+* The context length (how long each message can be, and how many messages of history the conversation can have)
+* The number of model parameters (larger number of model parameters tend to result in higher quality output)
+* The speed of the model (`gpt-3.5-turbo` generates output more quickly)
+* The cost of the model (`gpt-4` is more [expensive](https://openai.com/pricing))
 
-Now try changing the prompt to 
-
-> My favorite professor at the University of Pennsylvania is Chris Callison-
-
-and genertaing again.  Now save its output for the end of the semester for your course reviews.  (Just kidding).  Here's an example of what it generated when I ran it. 
-
-
-<center>
-<img src="openai-playground-screenshot.png" class="img-responsive"/>
-</center>
-Here's another [impressive example of what GPT-3 knows about the field of NLP.](openai-playground-screenshot-2.png)
-
-There are several controls on the righthand side of the playground.  These are
-* Engine - GPT-3 comes in 4 different sized models. As the model sizes increase, so does their quality and their cost.  They go in alphabetical order from smallest to largest.    
-1. Ada - smallest, least costly model.
-2. Babbage
-3. Curie
-4. Davinci - highest quality and highest cost model.
-* Response length - what's the maximum length (in tokens) that the model will output?
-* Stop sequence - you can specify what tokens should cause the model to stop generating.  You can use the newline character, or any special sequence that you designate. 
-* Show probabilities - allows you to highlight the tokens giving them different colors for how probable the models think they are.
-* Temperature and Top P sampling - control how the model samples tokens from its distribution.
-1. Setting Temperature to 0 will cause the model to produce the highest probablitity output.  Setting it closer to 1 will increase its propensity to create more diverse output.
-2. Top P sampling controls the nucleus sampling, where the model samples from only the top of the distribution.
-* Frequency Penalty and Presence Penalty - two parameters that help to limit how much repetition there is in the model's output.
 
 ### Prompt design
 
@@ -172,12 +152,23 @@ In addition to writing awesome reviews of your professors, you can design prompt
 Here's an example: in our text adventure games when we add a connection from one location to another, we add it in a certain direction (graveyard - West - tomb).  We'd like to add the inverse connection as well (tomb - East - graveyard).  Let's design a prompt to automatically get the opposite direction.  We could give it an instruction and two examples:
 
 
+System prompt:
 ```
 Given a direction, output the reverse of that direction: 
-In - Out
-Up - Down
-East -
 ```
+
+User input:
+```
+In
+```
+
+System output:
+```
+Ni
+```
+
+Ooops!  Let's try deleting that and regenerating.  OK, now it generates `Out`.  This is an example of zero-shot learning. 
+
 
 It will then generate "West".  Input "Ascend" it will generate "Descend".  I
 Input "Go in through the Gate" and it will generate "Exit the Gate".
@@ -186,22 +177,34 @@ You can use the playground to create code based on a prompt that you can then us
 
 
 ```python
-import openai
 
-prompt = "Given a direction, output the reverse of that direction: \nIn - Out\nUp - Down\nEast - West\nAscend - Descend\nGo in through the Gate - Exit the Gate\nClimb up the ladder - Descend the ladder\n"
+from openai import OpenAI
+client = OpenAI()
 
-def get_reverse_direction(direction):
-  response = openai.Completion.create(
-    engine="davinci",
-    prompt=prompt + direction + " - ",
-    temperature=0.7,
-    max_tokens=20,
-    top_p=1,
-    frequency_penalty=0,
-    presence_penalty=0,
-    stop=["\n"]
-  )
-  return response['choices'][0]['text']
+response = client.chat.completions.create(
+  model="gpt-3.5-turbo",
+  messages=[
+    {
+      "role": "system",
+      "content": "Given a direction, output the reverse of that direction."
+    },
+    {
+      "role": "user",
+      "content": "In"
+    },
+    {
+      "role": "assistant",
+      "content": "Out"
+    }
+  ],
+  temperature=1,
+  max_tokens=256,
+  top_p=1,
+  frequency_penalty=0,
+  presence_penalty=0
+)
+
+return response['choices'][0]['text']
 ```
 
 In addition to few shot learning, GPT-3 and other large language models do a pretty remarkable job in "zero-shot" scenarios.  You can give them instructions in natural language and often times, the produce remarkable examples.

@@ -1,0 +1,53 @@
+look
+
+You are standing in a small cottage.
+Exits:
+Out to Garden Path
+You see:
+ * a fishing pole
+ * a poisonous potion
+
+(Generate an output using your own system prompt)
+
+
+
+out
+
+You are standing on a lush garden path. There is a cottage here.
+Exits:
+In to Cottage
+West to Cliff
+South to Fishing Pond
+You see:
+ * a rosebush
+
+
+
+pick rose
+
+The player picked the lone rose from the rosebush
+
+
+
+smell rose
+
+The player smells the rose. It smells elegantly refined.
+The player is happy.
+
+
+
+south
+
+You are at the edge of a small fishing pond.
+Exits:
+North to Garden Path
+You see:
+ * a small fishing pond
+	catch fish with pole
+	catch fish
+
+
+
+catch fish
+
+The player reaches into the pond and tries to catch a fish with their hands, but the fish are too fast.
