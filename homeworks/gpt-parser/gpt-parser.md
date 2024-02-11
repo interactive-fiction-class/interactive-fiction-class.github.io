@@ -8,7 +8,7 @@ number: 2
 group_size: 3
 active_tab: homework
 release_date: 2024-02-11
-due_date: 2024-02-20 13:15:00EST
+due_date: 2024-02-20 13:45:00EST
 materials:
     - 
       name: 
