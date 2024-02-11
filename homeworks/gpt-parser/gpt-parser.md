@@ -13,7 +13,7 @@ materials:
     - 
       name: 
       url: 
-submission_link: 
+submission_link: https://www.gradescope.com/courses/704268/assignments/4085693
 readings:
 - 
    title: OpenAI API Documentation
@@ -88,7 +88,7 @@ We have provided [starter code for your GPT Parser]({{page.materials[0].url}}). 
 
 #### Environment Setup
 
-To run this code in your Python IDE, you'll need to install the openai python package via `pip`, and to set an evironment variable called OPENAI_API_KEY to be your OpenAI API key (which you can find [here](https://platform.openai.com/api-keys)).  
+To run this code in your Python IDE, you'll need to install the openai python package via `pip`, and you'll need to set an evironment variable called OPENAI_API_KEY.
 
 
 First [download the zip file]({{page.materials[0].url}}), then create a virtual environment and install
@@ -106,16 +106,16 @@ If you're using VS code then you can send your OPENAI_API_KEY to it when you lau
 ```
 $ cd path/to/homework/CIS-7000/HW2/
 $ source venv/bin/activate
-(venv) $ OPENAI_API_KEY=sk-XXX   code .
+(venv) $ OPENAI_API_KEY=sk-XXXXXXXXXXXXXXX   code .
 ```
-Just replace `sk-XXX` with your OpenAI API key.
+You should replace `sk-XXXXXXXXXXXXXXX` with your OpenAI API key, which you can find [here](https://platform.openai.com/api-keys).  
 
 
 
 
 ## Part 1: Using GPT to Write Descriptions
 
-For this part of the homework, you can use what you learned [the in-class OpenAI Playground activity](../../in_class_activities/openai-playground/openai-playground.html).  Specifically, you can use the system prompt that you designed to perform narration for our text adventure games.  Rather than using the OpenAI playground to invoke GPT, we will start calling the API.  
+For this part of the homework, you can use what you learned [the in-class OpenAI Playground activity](../../in_class_activities/openai-playground/openai-playground.html).  Specifically, you can use the system prompt that you designed to perform narration for text adventure games.  Rather than using the OpenAI playground to invoke GPT, we will start calling the API.  
 
 The playground has a "View Code" button that will show you how to call the API.  First, open the link to the prompt that you developed in the in-class activity, then click "View Code".
 
@@ -208,7 +208,6 @@ exactly the ACTION_NAME and not some longer text, I had to carefully craft
 my instructions to GPT, and eventually I resorted to using a regular 
 expression over GPT's output).   
 
-
 After you finish part 2, you should test your `determine_intent` by coming up with a list of user command and what they should map to.  Report your results in the README that you submit with your homework. 
 
 
@@ -226,7 +225,7 @@ After you finish part 3, you should play Action Castle again using your new GptP
 Please submit the following:
 1. Your completed hw2.ipynb Python notebook
 2. Two trascripts (`game_transcript_with_GPT_descriptions` and `game_transcript_with_flexible_commands.json`) showing your playthroughs after parts 1 and 2
-3. A README.md writeup.  
+3. A README.md with your writeup.  
 * For part 1 of the homework, your README should analyze your playthrough and discuss hallucinations and game state. 
 * For part 2 of the homework, your README you should describe how you tested your `determine_intent` function.  You should perform an error anlaysis by looking at its outputs and seeing what commands caused it to predict the wrong answer.  Speculate why.
 * For part 3 of the homework, your README should analyze your second playthrough and discuss what commands didn't work and why.
