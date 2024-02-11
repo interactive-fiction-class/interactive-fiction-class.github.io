@@ -72,7 +72,7 @@ This homework can be completed in groups of up to {{page.group_size}} people.
 
 ## The Parser class
 
-The Parser is the class that handles the player's input.  The player writes commands, and the parser performs natural language understanding in order to interpret what action the player intended, and describes what happens when that is applied in the game world.
+The Parser is the class that handles the player's input.  The player types in a command, and the parser performs natural language understanding in order to interpret what action the player intended, and then describes what happens when the action is applied in the game world.
 
 The parser has several functions that you will rewrite.  They include:
 * Functions to describe things (`ok` and `fail`)
@@ -84,11 +84,11 @@ To see what these functions do, it might be worth looking over the initial `Pars
 
 ### Using our Starter code
 
-We have provided [starter code for your GPT Parser]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You should get started by reviewing the `HW2.ipynb` which has a `GptParser` class with placeholder code for you to update.
+We have provided [starter code for your GPT Parser]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You'll be making changes to the `HW2.ipynb` file, which has a `GptParser` class with placeholder code for you to update.
 
 #### Environment Setup
 
-To run this code in your Python IDE, you'll need to install the openai python package via `pip`, and you'll need to set an evironment variable called OPENAI_API_KEY.
+To run this code in your Python IDE, you'll need to install the openai python package via `pip`, and you'll need to set an environment variable called `OPENAI_API_KEY`.
 
 
 First [download the zip file]({{page.materials[0].url}}), then create a virtual environment and install
@@ -199,7 +199,9 @@ If you try these commands using your GptParser, it won't work properly until you
 In this part of the homework, we'll extend your GptParser to more flexibly match user commands.  For this part of the homework, we'll implement a new version of the `determine_intent`.  Intent determination is a common task for dialogue systems.  For instance, when you ask Amazon Alexa "Is it raining?", it determines that your intent is to `check_weather` and it routes your command to that function.  When you ask it to "play Why Does It Always Rain On Me?" it determines that your intent is to `play_music` and starts playing [a nice single from 1999](https://www.youtube.com/watch?v=PXatLOWjr-k).  If you'd like to read more about intent determination in NLP, you can reach [Chapter 15 "Chatbots & Dialogue Systems" in the Speech and Language Processing textbook](https://web.stanford.edu/~jurafsky/slp3/15.pdf).
 
 
-There are several possible ways that you could flexibly match a user's input.  * You could try using the [emeddings API](https://platform.openai.com/docs/guides/embeddings) 
+There are several possible ways that you could flexibly match a user's input.  
+
+* You could try using the [embeddings API](https://platform.openai.com/docs/guides/embeddings) 
 * You could ask GPT-4 to pick the closest matching output from a list that you provide. 
 * You could fine-tune GPT-3 to perform the task using [the fine-tuning API](https://platform.openai.com/docs/guides/fine-tuning). 
 
@@ -217,17 +219,17 @@ After we've determined which of the Actions the user wants to perform, we need t
 
 There are three functions that you'll implement on your GptParser class for this part of the homework: `get_character`, `match_item` and `get_direction`.  These are used by most of the Action classes when they parse a user's command, so making them more flexible ought to have the effect of more flexibly matching Actions' arguments.  
 
-After you finish part 3, you should play Action Castle again using your new GptParser3 class. While you play try to use only commands that would not have been allowed by our HW1 game. Save a trascript of your play to submit along with your homework solution.  In your README, describe any commands that you tried that didn't work, and why you think the failed.
+After you finish part 3, you should play Action Castle again using your new GptParser3 class. While you play try to use only commands that would not have been allowed by our HW1 game. Save a transcript of your play to submit along with your homework solution.  In your README, describe any commands that you tried that didn't work, and why you think the failed.
 
 
 ## What to submit
 
 Please submit the following:
 1. Your completed hw2.ipynb Python notebook
-2. Two trascripts (`game_transcript_with_GPT_descriptions` and `game_transcript_with_flexible_commands.json`) showing your playthroughs after parts 1 and 2
-3. A README.md with your writeup.  
+2. Two transcripts (`game_transcript_with_GPT_descriptions` and `game_transcript_with_flexible_commands.json`) showing your playthroughs after parts 1 and 2
+3. A README.md with your write-up.  
 * For part 1 of the homework, your README should analyze your playthrough and discuss hallucinations and game state. 
-* For part 2 of the homework, your README you should describe how you tested your `determine_intent` function.  You should perform an error anlaysis by looking at its outputs and seeing what commands caused it to predict the wrong answer.  Speculate why.
+* For part 2 of the homework, your README you should describe how you tested your `determine_intent` function.  You should perform an error analysis by looking at its outputs and seeing what commands caused it to predict the wrong answer.  Speculate why.
 * For part 3 of the homework, your README should analyze your second playthrough and discuss what commands didn't work and why.
 
 You should submit your completed homework to [Gradescope]({page.submission_link}).  You can work in groups of up to {{page.group_size}}.  Only one partner should submit - be sure to specify who your partner was when you make your submission. 
