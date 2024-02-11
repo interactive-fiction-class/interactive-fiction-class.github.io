@@ -77,7 +77,7 @@ The Parser is the class that handles the player's input.  The player writes comm
 The parser has several functions that you will rewrite.  They include:
 * Functions to describe things (`ok` and `fail`)
 * A function to determine what action the user wants to do (`determine_intent`)
-* Several functions to partch part of the user's command (`get_character`, `match_item`, and `get_direction`)
+* Several functions to match part of the user's command (`get_character`, `match_item`, and `get_direction`)
 
 To see what these functions do, it might be worth looking over the initial `Parser` class, which uses keyword based matching.  You'll extend this class and override these methods. 
 
@@ -98,7 +98,7 @@ $ unzip CIS-7000-HW2.zip
 $ cd CIS-7000/HW2/
 $ source venv/bin/activate
 $ python3 -mvenv venv
-(venv) $ pip install .
+(venv) $ pip install -e .[dev]
 (venv) $ pip install openai
 ```
 
