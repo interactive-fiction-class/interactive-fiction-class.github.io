@@ -83,7 +83,7 @@ If your team has more than 2 members, you complete extensions to keep the amount
 
 ### Using our Starter code
 
-We have provided [starter code for a basic text adventure game]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You should get started by reviewing the `HW1_Tutorial.ipynb` which introduces the concepts in our starter ocde. 
+We have provided [starter code for a basic text adventure game]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You should get started by reviewing the `HW1_Tutorial.ipynb` which introduces the concepts in our starter code. 
 
 #### Environment Setup
 
