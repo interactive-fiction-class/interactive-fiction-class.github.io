@@ -216,6 +216,8 @@ After you finish part 2, you should test your `determine_intent` by coming up wi
 
 After we've determined which of the Actions the user wants to perform, we need to flexibly match its arguments. If I user says "get the fishing rod", we want to execute the game command "get pole" even though the user didn't use the word "pole".
 
+There are three functions that you'll implement on your GptParser class for this part of the homework: `get_character`, `match_item` and `get_direction`.  These are used by most of the Action classes when they parse a user's command, so making them more flexible ought to have the effect of more flexibly matching Actions' arguments.  
+
 After you finish part 3, you should play Action Castle again using your new GptParser3 class. While you play try to use only commands that would not have been allowed by our HW1 game. Save a trascript of your play to submit along with your homework solution.  In your README, describe any commands that you tried that didn't work, and why you think the failed.
 
 
