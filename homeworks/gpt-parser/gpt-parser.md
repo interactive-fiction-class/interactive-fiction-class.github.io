@@ -96,8 +96,8 @@ the dependencies.  Here's how I recommend that you set up your environment:
 ```
 $ unzip CIS-7000-HW2.zip
 $ cd CIS-7000/HW2/
-$ source venv/bin/activate
 $ python3 -mvenv venv
+$ source venv/bin/activate
 (venv) $ pip install -e .[dev]
 (venv) $ pip install openai
 ```
