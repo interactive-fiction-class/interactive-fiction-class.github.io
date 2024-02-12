@@ -232,6 +232,7 @@ Possible extensions are:
 * You can generate images for each location in the game using [DALLE-3](https://platform.openai.com/docs/guides/images/image-generation?context=node) or [Midjourney](https://github.com/erictik/midjourney-api)
 * You can narrate your game with text to speech using [the OpenAI API](https://platform.openai.com/docs/guides/text-to-speech) or [ElevenLabs](https://elevenlabs.io)
 * You can use GPT to transform commands that describe multiple actions into a list of actions for proper handling with ActionSequence.  
+* When something's properties change, you should have GPT rewrite its description to reflect the change.  For example, in Action Castle when the guard is knocked unconscious, the description of the guard should include this fact.
 * You can try to take the GPT descriptions and create in-game objects from them.  After you create the objects, you can save your game using the built in `game.to_json` and then load it later using  `game.from_json`.
 
 
