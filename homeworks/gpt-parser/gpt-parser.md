@@ -5,7 +5,7 @@ caption: Automatically write descriptions for text adventure games in the style 
 title: GPT Parser
 type: Homework
 number: 2
-group_size: 3
+group_size: 5
 active_tab: homework
 release_date: 2024-02-11
 due_date: 2024-02-20 13:45:00EST
@@ -67,7 +67,7 @@ In this homework assignment, you will replace the `Parser` class from [HW1: Buil
 1. We can use the LLM to generate more evocative descriptions.
 2. We can do more flexible matching of user commands.
 
-This homework can be completed in groups of up to {{page.group_size}} people. 
+This homework can be completed in groups of up to {{page.group_size}} people. Everyone must finish parts 1-3.  If your group larger than 2, then you must do one extension for each team member beyond 2. 
 
 
 ## The Parser class
@@ -99,7 +99,7 @@ $ cd CIS-7000/HW2/
 $ python3 -mvenv venv
 $ source venv/bin/activate
 (venv) $ pip install -e .[dev]
-(venv) $ pip install openai
+(venv) $ pip install openai tiktoken
 ```
 
 If you're using VS code then you can send your OPENAI_API_KEY to it when you launch it from the command line:
@@ -174,7 +174,9 @@ you will get output similar to this (I picked my favorite prompt which was in th
 
 Congrats!  You've run your first API call to GPT-4, and you have created more evocative text than our original game output.
 
-After you finish part 1, you should play Action Castle using your GptParser class.  Save a trascript of your play to submit along with your homework solution.  I recommend trying several commands that don't work.  Also, be on the look out for "hallucinations" by GPT, which in this context are elaborations that it adds that aren't part of the underlying game.  Try to interact with hallucinated objects and see what happens.  Is the underlying game state maintained?  Include a discussion of this in your homework writeup. 
+For part 1, you should implement the `ok` and `fail` functions, which can use `gpt_describe` that we provide you with.  You should also implement the `limit_context_length` function, which will ensure that you don't send more tokens to GPT than its maximum. 
+
+After you finish part 1, you should play Action Castle using your GptParser class.  Save a transcript of your play to submit along with your homework solution.  I recommend trying several commands that don't work.  Also, be on the look out for "hallucinations" by GPT, which in this context are elaborations that it adds that aren't part of the underlying game.  Try to interact with hallucinated objects and see what happens.  Is the underlying game state maintained?  Include a discussion of this in your homework writeup. 
 
 
 ## Part 2: Intent Determination  
@@ -221,6 +223,17 @@ There are three functions that you'll implement on your GptParser class for this
 
 After you finish part 3, you should play Action Castle again using your new GptParser3 class. While you play try to use only commands that would not have been allowed by our HW1 game. Save a transcript of your play to submit along with your homework solution.  In your README, describe any commands that you tried that didn't work, and why you think the failed.
 
+## Optional Extension 
+
+If you're working in a group larger than a pair, then you should pick one optional extension for each group member above 2.  
+
+Possible extensions are:
+* You can compare several approaches to intent determination, and quanify how good each approach is on an extended test set that you put together.
+* You can generate images for each location in the game using [DALLE-3](https://platform.openai.com/docs/guides/images/image-generation?context=node) or [Midjourney](https://github.com/erictik/midjourney-api)
+* You can narrate your game with text to speech using [the OpenAI API](https://platform.openai.com/docs/guides/text-to-speech) or [ElevenLabs](https://elevenlabs.io)
+* You can use GPT to transform commands that describe multiple actions into a list of actions for proper handling with ActionSequence.  
+* You can try to take the GPT descriptions and create in-game objects from them.  After you create the objects, you can save your game using the built in `game.to_json` and then load it later using  `game.from_json`.
+
 
 ## What to submit
 
@@ -231,6 +244,7 @@ Please submit the following:
 * For part 1 of the homework, your README should analyze your playthrough and discuss hallucinations and game state. 
 * For part 2 of the homework, your README you should describe how you tested your `determine_intent` function.  You should perform an error analysis by looking at its outputs and seeing what commands caused it to predict the wrong answer.  Speculate why.
 * For part 3 of the homework, your README should analyze your second playthrough and discuss what commands didn't work and why.
+* For each extension that you do, please describe in detail what you did in your README.  You should also submit any accompanying code for your extensions along with zip file of images, voice outputs, or saved games.
 
 You should submit your completed homework to [Gradescope]({page.submission_link}).  You can work in groups of up to {{page.group_size}}.  Only one partner should submit - be sure to specify who your partner was when you make your submission. 
 
