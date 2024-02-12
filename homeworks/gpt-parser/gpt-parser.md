@@ -11,8 +11,8 @@ release_date: 2024-02-11
 due_date: 2024-02-20 13:45:00EST
 materials:
     - 
-      name: 
-      url: 
+      name: CIS-7000-HW2.zip
+      url: https://static.us.edusercontent.com/files/16BDk6ZcqikJ6AcX3vWqpJMs
 submission_link: https://www.gradescope.com/courses/704268/assignments/4085693
 readings:
 - 
