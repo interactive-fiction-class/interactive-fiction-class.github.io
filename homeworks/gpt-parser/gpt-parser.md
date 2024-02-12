@@ -223,7 +223,7 @@ There are three functions that you'll implement on your GptParser class for this
 
 After you finish part 3, you should play Action Castle again using your new GptParser3 class. While you play try to use only commands that would not have been allowed by our HW1 game. Save a transcript of your play to submit along with your homework solution.  In your README, describe any commands that you tried that didn't work, and why you think the failed.
 
-## Optional Extension 
+## Optional Extensions
 
 If you're working in a group larger than a pair, then you should pick one optional extension for each group member above 2.  
 
