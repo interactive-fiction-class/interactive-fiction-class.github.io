@@ -6,13 +6,13 @@ caption: God Created the Universe in LISP
 title: Planning and PDDL
 type: in-class
 active_tab: homework
-release_date: 2022-02-17
-due_date: 2022-02-21 23:59:00EST
+release_date: 2024-02-15
+due_date: 2024-02-17 23:59:00EST
 materials:
     - 
-        name: Planning and PDDL.ipynb
-        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/planning/Planning_and_PDDL.ipynb
-submission_link: https://www.gradescope.com/courses/354158/assignments/1869288
+        name: CIS-7000-planning.zip
+        url: https://www.cis.upenn.edu/~ccb/teaching/2024sp/CIS-7000-planning.zip
+submission_link: 
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -97,7 +97,8 @@ _Note: The enforcement of argument types like `(plane ?p)` can be left out of th
 ### What to do 
 
 1. Open [{{page.materials[0].name}}]({{page.materials[0].url}}).
-2. Save a copy of it in your own drive by choosing `File > Save a Copy in Drive` from the Colab menu.  This will ensure that your changes are saved.
+2. Unzip it 
+3. open CIS-7000/in_class_activities/planning/planning.ipynb
 3. Create pairs of PDDL files for the following problems:
 * `move-item-to-location`
 * `go-fishing`
