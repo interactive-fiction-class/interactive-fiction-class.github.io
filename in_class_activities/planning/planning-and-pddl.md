@@ -12,7 +12,7 @@ materials:
     - 
         name: CIS-7000-planning.zip
         url: https://www.cis.upenn.edu/~ccb/teaching/2024sp/CIS-7000-planning.zip
-submission_link: 
+submission_link: https://www.gradescope.com/courses/704268/assignments/4109293/
 ---
 
 <!-- Check whether the assignment is ready to release -->
