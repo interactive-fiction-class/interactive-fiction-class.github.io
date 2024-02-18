@@ -10,7 +10,10 @@ active_tab: homework
 release_date: 2024-02-17
 due_date: 2024-02-22 13:45:00EST
 materials:
-submission_link: https://www.gradescope.com/courses/704268/assignments/3958911/
+    - 
+        name: Rougelike Celebration 2023 - Fusing AI with Game Design&colon; Let the Chaos In
+        url: https://www.youtube.com/watch?v=aJC3ioashbs
+submission_link: https://www.gradescope.com/courses/704268/assignments/4120035/
 ---
 
 <!-- Check whether the assignment is ready to release -->
