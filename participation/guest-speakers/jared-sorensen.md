@@ -3,7 +3,7 @@ layout: default
 img: action-castle.jpg
 img_link: http://www.memento-mori.com
 caption: Action Castle by Jared A. Sorensen
-title: think of questions for our guest speaker
+title: think of questions for our guest speaker Jared A. Sorensen
 type: participation
 speaker: Jared A. Sorensen
 active_tab: homework

@@ -1,16 +1,25 @@
 ---
 layout: default
-img: scienceworld.jpg
-img_link: https://cognitiveai.org
-caption: Science World
-title: think of questions for Peter Jansen
+img: ubisoft.jpg
+img_link: https://news.ubisoft.com/en-us/article/7Cm07zbBGy4Xml6WgYi25d/the-convergence-of-ai-and-creativity-introducing-ghostwriter
+caption: Ubisoft's Ghostwriter
+title: think of questions for our guest speaker Ben Swanson
 type: participation
-speaker: Peter Jansen
+speaker: Ben Swanson
 active_tab: homework
-release_date: 2024-01-18
-due_date: 2024-01-25 13:45:00EST
+release_date: 2024-02-17
+due_date: 2024-03-12 13:45:00EST
 materials:
-submission_link: https://www.gradescope.com/courses/704268/assignments/3964459/
+    - 
+        name: Ubisoft's Ghostwriter
+        url: https://news.ubisoft.com/en-us/article/7Cm07zbBGy4Xml6WgYi25d/the-convergence-of-ai-and-creativity-introducing-ghostwriter
+    -
+        name: Generating Video Game Scripts with Style
+        url: https://aclanthology.org/2023.nlp4convai-1.11/
+    -
+        name: Story Centaur&colon; Large Language Model Few Shot Learning as a Creative Writing Tool
+        url: https://aclanthology.org/2021.eacl-demos.29/
+submission_link: 
 ---
 
 <!-- Check whether the assignment is ready to release -->

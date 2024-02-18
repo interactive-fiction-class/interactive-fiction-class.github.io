@@ -3,7 +3,7 @@ layout: default
 img: vaarn.png
 img_link: https://vaultsofvaarn.com/2020/06/02/what-is-vaarn/
 caption: Vaults of Vaarn
-title: think of questions for our guest speaker
+title: think of questions for our guest speaker Leo Hunt
 type: participation
 speaker: Leo Hunt
 active_tab: homework

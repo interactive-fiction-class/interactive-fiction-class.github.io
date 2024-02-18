@@ -3,7 +3,7 @@ layout: default
 img: scribe.png
 img_link: https://ai.meta.com/blog/introducing-light-a-multiplayer-text-adventure-game-for-dialogue-research/
 caption: Learning in Interactive Games with Humans and Text (LIGHT)
-title: think of questions for our guest speaker
+title: think of questions for our guest speaker Jason Weston
 type: participation
 speaker: Jason Weston
 active_tab: homework

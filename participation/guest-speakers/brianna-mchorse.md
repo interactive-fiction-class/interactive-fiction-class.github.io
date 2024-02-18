@@ -3,7 +3,7 @@ layout: default
 img: hidden_door.png
 img_link: https://www.hiddendoor.co
 caption: Hidden Door
-title: think of questions for our guest speaker
+title: think of questions for our guest speaker Brianna McHorse
 type: participation
 speaker: Brianna McHorse
 active_tab: homework
