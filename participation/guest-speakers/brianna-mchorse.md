@@ -47,7 +47,7 @@ This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{
 
 {% if page.materials %}
 <div class="alert alert-info">
-The materials that you will need for this in-class activity are:
+The materials that you will need for this activity are:
 <ul>
 {% for item in page.materials %}
 <li><a href="{{item.url}}">{{ item.name }}</a></li>
