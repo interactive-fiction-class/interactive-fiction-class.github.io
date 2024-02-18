@@ -19,7 +19,7 @@ materials:
     -
         name: Story Centaur&colon; Large Language Model Few Shot Learning as a Creative Writing Tool
         url: https://aclanthology.org/2021.eacl-demos.29/
-submission_link: 
+submission_link: https://www.gradescope.com/courses/704268/assignments/4120872
 ---
 
 <!-- Check whether the assignment is ready to release -->
