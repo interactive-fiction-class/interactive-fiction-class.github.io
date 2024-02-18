@@ -30,7 +30,7 @@ Want to join the class, but didn't attend the first lecture? Here are the steps 
 {% if release_date < now and due_date >= now %}
 {% if page.type == "in-class" %}
 <!-- In class activity -->
-<div class="alert alert-info">
+<div class="alert alert-danger">
 The in-class activity for {{ page.release_date | date: "%A %b %-d" }} will be to <a href="{{page.url}}">{{ page.title }}</a>.  
 </div>
 <!-- Other participation activity -->
@@ -40,7 +40,7 @@ The participation activity <a href="{{page.url}}">{{ page.title }}</a> is due on
 </div>
 {% else %}
 <!-- Homework assignment -->
-<div class="alert alert-info">
+<div class="alert alert-success">
 <a href="{{page.url}}">{{page.type}} {{page.number}}: {{page.title}}</a> has been released.  
 {% if page.deliverables %}
 The assignment has multiple deliverables.
