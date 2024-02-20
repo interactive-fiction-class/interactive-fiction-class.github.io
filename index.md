@@ -121,6 +121,7 @@ Time and Place
 : Spring 2024, Tuesdays & Thursdays from 1:45-3:15pm EST in Towne 327
 : First day of class is January 18, 2024
 : Last day of class is April 30, 2024
+: Final project presentations will be held on May 7th from 9am-noon in Towne 100.
 
 Office Hours (see the [Staff](/staff.html) page for office hour locations)
 : Chris - TBD
