@@ -7,12 +7,12 @@ title: Planning and PDDL
 type: in-class
 active_tab: homework
 release_date: 2024-02-15
-due_date: 2024-02-21 23:59:00EST
+due_date: 2024-02-17 23:59:00EST
 materials:
     - 
         name: CIS-7000-planning.zip
         url: https://www.cis.upenn.edu/~ccb/teaching/2024sp/CIS-7000-planning.zip
-submission_link: https://www.gradescope.com/courses/704268/assignments/4132278
+submission_link: https://www.gradescope.com/courses/704268/assignments/4109293/
 ---
 
 <!-- Check whether the assignment is ready to release -->
