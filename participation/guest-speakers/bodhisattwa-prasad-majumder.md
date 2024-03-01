@@ -7,8 +7,8 @@ title: think of questions for our guest speaker Bodhisattwa Prasad Majumder
 type: participation
 speaker: Bodhisattwa Prasad Majumder
 active_tab: homework
-release_date: 2024-02-17
-due_date: 2024-02-29 13:45:00EST
+release_date: 2024-03-01
+due_date: 2024-03-14 13:45:00EST
 materials:
     - 
         name: CLIN&colon; A Continually Learning Language Agent for Rapid Task Adaptation and Generalization
