@@ -124,10 +124,10 @@ Time and Place
 : Final project presentations will be held on May 7th from 9am-noon in Towne 100.
 
 Office Hours (see the [Staff](/staff.html) page for office hour locations)
-: Chris - TBD
+: Chris - Thursdays from 3:15-5pm in Towne 280
 : Andrew - [By appointment](https://calendar.app.google/h3cWzezazMe9c8a69)
-: Anson - TBD
-: Kyle - TBD
+: Anson - Fridays noon-2pm on [Zoom](https://upenn.zoom.us/j/4447479378)
+: Kyle - Mondays 4-6pm in the Levine 6th floor bump
 
 
 Course Materials
