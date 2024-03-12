@@ -8,7 +8,7 @@ type: Project Milestone
 number: 3
 active_tab: homework
 release_date: 2024-03-21
-due_date: 2024-04-18 23:59:00EST
+due_date: 2024-04-23 23:59:00EST
 ---
 
 <!-- Check whether the assignment is ready to release -->
