@@ -157,7 +157,7 @@ You might ask "How did you create such a good prompt?"  Here's the secret: I did
 
 ### Prompt Augmentation 
 
-Prompt augmentation is common for image generation systems like DALLE-3, where a simple prompt like "make a picture of a wharf" gets augmented to be more elaborte 
+Prompt augmentation is common for image generation systems like DALLE-3, where a simple prompt like "make a picture of a wharf" gets augmented to be more elaborate 
 
 > A picturesque scene of a bustling wharf at sunset. The wharf is filled with activity, featuring docked boats of various sizes, from small fishing vessels to larger sailboats. People are seen walking along the wooden planks, some carrying fishing gear, while others are engaged in lively conversations. The setting sun casts a golden hue over the scene, with the water reflecting the vibrant colors of the sky. Seagulls fly overhead, adding to the lively atmosphere. The background shows a distant view of the town, with quaint buildings and a few trees dotting the landscape.
 
