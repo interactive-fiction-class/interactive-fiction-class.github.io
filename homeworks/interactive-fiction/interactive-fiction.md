@@ -125,7 +125,7 @@ You should replace `sk-helicone-XXXXXXX-XXXXXX` with your Helicone code which yo
 
 ## Part 1: Generate synthetic data
 
-We'd like to be able to convert stories into playable games.  To do we'd like to fine to a LLM on a bunch of data of stories paired with JSON objects that we can load into our `text_adventure_games` package.  Unfortunately, that data doesn't exist.  We'll create it ourself by generating stories from a bunch of existing text adventure games that were created by Jason Weston's group at Facebook Research.
+We'd like to be able to convert stories into playable games.  To do so, we'd like to fine to a LLM on a bunch of data of stories paired with JSON objects that we can load into our `text_adventure_games` package.  Unfortunately, that data doesn't exist.  We'll create it ourself by generating stories from a bunch of existing text adventure games that were created by Jason Weston's group at Facebook Research.
 
 Here's an example of what we'll do.  Given a game location in our JSON format, we'll have GPT-4 write a story for the game location.  
 
