@@ -94,7 +94,7 @@ This assignment will have 3 main parts:
 
 ### Using our Starter code
 
-We have provided [starter code for your GPT Parser]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You'll be making changes to the `HW3.ipynb` file.  You should read through the whole Python Notebook carefully, and add your code to all places marked TODO.
+We have provided [a Python Notebook and data for HW3]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You'll be making changes to the `HW3.ipynb` file.  You should read through the whole Python Notebook carefully, and add your code to all places marked TODO.
 
 #### Environment Setup
 
