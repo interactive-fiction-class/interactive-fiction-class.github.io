@@ -1,0 +1,615 @@
+{
+    "player": "The player",
+    "start_at": "Cottage",
+    "game_history": [],
+    "game_over": false,
+    "game_over_description": null,
+    "characters": [
+        {
+            "name": "The player",
+            "description": "You are a simple peasant destined for greatness.",
+            "commands": [],
+            "properties": {
+                "character_type": "human",
+                "is_dead": false
+            },
+            "persona": "I am on an adventure.",
+            "inventory": {
+                "lamp": {
+                    "name": "lamp",
+                    "description": "a lamp",
+                    "commands": [
+                        "light lamp"
+                    ],
+                    "properties": {
+                        "is_gettable": true,
+                        "is_lightable": true,
+                        "is_lit": false,
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "examine_text": "A LAMP.",
+                    "owner": "The player"
+                }
+            },
+            "location": "Cottage"
+        },
+        {
+            "name": "troll",
+            "description": "A mean troll",
+            "commands": [],
+            "properties": {
+                "character_type": "troll",
+                "is_dead": false,
+                "is_hungry": true
+            },
+            "persona": "I am hungry. The guard promised to feed me if I guard the drawbridge and keep people out of the castle.",
+            "inventory": {},
+            "location": "Drawbridge"
+        },
+        {
+            "name": "guard",
+            "description": "A castle guard",
+            "commands": [],
+            "properties": {
+                "character_type": "human",
+                "is_dead": false,
+                "is_conscious": true,
+                "emotional_state": "suspicious"
+            },
+            "persona": "I am suspicious of anyone trying to enter the castle. I will prevent keep people from entering and learning the castle's dark secrets.",
+            "inventory": {
+                "key": {
+                    "name": "key",
+                    "description": "a brass key",
+                    "commands": [],
+                    "properties": {
+                        "is_gettable": true,
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "examine_text": "THIS LOOKS USEFUL",
+                    "owner": "guard"
+                },
+                "sword": {
+                    "name": "sword",
+                    "description": "a short sword",
+                    "commands": [],
+                    "properties": {
+                        "is_gettable": true,
+                        "is_weapon": true,
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_surface": false,
+                        "is_wearable": false
+                    },
+                    "examine_text": "A SHARP SHORT SWORD.",
+                    "owner": "guard"
+                }
+            },
+            "location": "Courtyard"
+        },
+        {
+            "name": "princess",
+            "description": "A princess who is beautiful and lonely. She awaits her non-gender-stereotypical soulmate.",
+            "commands": [],
+            "properties": {
+                "character_type": "human",
+                "is_dead": false,
+                "is_royal": true,
+                "is_married": false,
+                "emotional_state": "sad and lonely"
+            },
+            "persona": "I am the princess. I am grieving my father's death. I feel alone.",
+            "inventory": {},
+            "location": "Tower"
+        },
+        {
+            "name": "ghost",
+            "description": "A ghost with bony, claw-like fingers and who is wearing a crown.",
+            "commands": [],
+            "properties": {
+                "character_type": "ghost",
+                "is_dead": true,
+                "is_banished": false
+            },
+            "persona": "I was murdered by the guard. I will haunt this castle until banished. If you linger before my apparition, I will plunge my ghostly hand inside you and stop your heart",
+            "inventory": {
+                "crown": {
+                    "name": "crown",
+                    "description": "a crown",
+                    "commands": [
+                        "wear crown"
+                    ],
+                    "properties": {
+                        "is_gettable": true,
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": true
+                    },
+                    "examine_text": "A CROWN FIT FOR A KING.",
+                    "owner": "ghost"
+                }
+            },
+            "location": "Dungeon"
+        }
+    ],
+    "locations": [
+        {
+            "name": "Cottage",
+            "description": "You are standing in a small cottage.",
+            "commands": [],
+            "properties": {},
+            "travel_descriptions": {
+                "out": ""
+            },
+            "blocks": {},
+            "connections": {
+                "out": "Garden Path"
+            },
+            "items": {
+                "pole": {
+                    "name": "pole",
+                    "description": "a fishing pole",
+                    "commands": [],
+                    "properties": {
+                        "is_gettable": true,
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "examine_text": "A SIMPLE FISHING POLE.",
+                    "location": "Cottage"
+                }
+            },
+            "characters": {
+                "The player": "The player"
+            },
+            "has_been_visited": true
+        },
+        {
+            "name": "Garden Path",
+            "description": "You are standing on a lush garden path. There is a cottage here.",
+            "commands": [],
+            "properties": {},
+            "travel_descriptions": {
+                "in": "",
+                "south": "",
+                "north": ""
+            },
+            "blocks": {},
+            "connections": {
+                "in": "Cottage",
+                "south": "Fishing Pond",
+                "north": "Winding Path"
+            },
+            "items": {
+                "rosebush": {
+                    "name": "rosebush",
+                    "description": "a rosebush",
+                    "commands": [
+                        "pick rose"
+                    ],
+                    "properties": {
+                        "is_gettable": false,
+                        "has_rose": true,
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_surface": true,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "examine_text": "THE ROSEBUSH CONTAINS A SINGLE RED ROSE.  IT IS BEAUTIFUL.",
+                    "location": "Garden Path"
+                }
+            },
+            "characters": {},
+            "has_been_visited": false
+        },
+        {
+            "name": "Fishing Pond",
+            "description": "You are at the edge of a small fishing pond.",
+            "commands": [],
+            "properties": {},
+            "travel_descriptions": {
+                "north": ""
+            },
+            "blocks": {},
+            "connections": {
+                "north": "Garden Path"
+            },
+            "items": {
+                "pond": {
+                    "name": "pond",
+                    "description": "a small fishing pond",
+                    "commands": [
+                        "catch fish",
+                        "catch fish with pole"
+                    ],
+                    "properties": {
+                        "is_gettable": false,
+                        "has_fish": true,
+                        "is_container": true,
+                        "is_drink": true,
+                        "is_food": false,
+                        "is_surface": true,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "examine_text": "THERE ARE FISH IN THE POND.",
+                    "location": "Fishing Pond"
+                }
+            },
+            "characters": {},
+            "has_been_visited": false
+        },
+        {
+            "name": "Winding Path",
+            "description": "You are walking along a winding path. There is a tall tree here.",
+            "commands": [],
+            "properties": {},
+            "travel_descriptions": {
+                "south": "",
+                "up": "",
+                "east": ""
+            },
+            "blocks": {},
+            "connections": {
+                "south": "Garden Path",
+                "up": "Top of the Tall Tree",
+                "east": "Drawbridge"
+            },
+            "items": {},
+            "characters": {},
+            "has_been_visited": false
+        },
+        {
+            "name": "Top of the Tall Tree",
+            "description": "You are the top of the tall tree.",
+            "commands": [],
+            "properties": {},
+            "travel_descriptions": {
+                "down": "",
+                "jump": ""
+            },
+            "blocks": {},
+            "connections": {
+                "down": "Winding Path",
+                "jump": "The Afterlife"
+            },
+            "items": {
+                "branch": {
+                    "name": "branch",
+                    "description": "a stout, dead branch",
+                    "commands": [],
+                    "properties": {
+                        "is_gettable": true,
+                        "is_weapon": true,
+                        "is_fragile": true,
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_surface": false,
+                        "is_wearable": false
+                    },
+                    "examine_text": "IT LOOKS LIKE IT WOULD MAKE A GOOD CLUB.",
+                    "location": "Top of the Tall Tree"
+                }
+            },
+            "characters": {},
+            "has_been_visited": false
+        },
+        {
+            "name": "The Afterlife",
+            "description": "You are dead. GAME OVER.",
+            "commands": [],
+            "properties": {
+                "game_over": true
+            },
+            "travel_descriptions": {},
+            "blocks": {},
+            "connections": {},
+            "items": {},
+            "characters": {},
+            "has_been_visited": false
+        },
+        {
+            "name": "Drawbridge",
+            "description": "You are standing on one side of a drawbridge leading to ACTION CASTLE.",
+            "commands": [],
+            "properties": {},
+            "travel_descriptions": {
+                "west": "",
+                "east": ""
+            },
+            "blocks": {
+                "east": {
+                    "_type": "Troll_Block"
+                }
+            },
+            "connections": {
+                "west": "Winding Path",
+                "east": "Courtyard"
+            },
+            "items": {},
+            "characters": {
+                "troll": "troll"
+            },
+            "has_been_visited": false
+        },
+        {
+            "name": "Courtyard",
+            "description": "You are in the courtyard of ACTION CASTLE.",
+            "commands": [],
+            "properties": {},
+            "travel_descriptions": {
+                "west": "",
+                "up": "",
+                "down": "",
+                "east": ""
+            },
+            "blocks": {
+                "east": {
+                    "_type": "Guard_Block"
+                }
+            },
+            "connections": {
+                "west": "Drawbridge",
+                "up": "Tower Stairs",
+                "down": "Dungeon Stairs",
+                "east": "Great Feasting Hall"
+            },
+            "items": {},
+            "characters": {
+                "guard": "guard"
+            },
+            "has_been_visited": false
+        },
+        {
+            "name": "Tower Stairs",
+            "description": "You are climbing the stairs to the tower. There is a locked door here.",
+            "commands": [],
+            "properties": {},
+            "travel_descriptions": {
+                "down": "",
+                "up": ""
+            },
+            "blocks": {
+                "up": {
+                    "_type": "Locked_Door",
+                    "location": "Tower Stairs",
+                    "door": "door",
+                    "connection": "Tower"
+                }
+            },
+            "connections": {
+                "down": "Courtyard",
+                "up": "Tower"
+            },
+            "items": {
+                "door": {
+                    "name": "door",
+                    "description": "a door",
+                    "commands": [
+                        "unlock door"
+                    ],
+                    "properties": {
+                        "is_gettable": false,
+                        "is_locked": true,
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_surface": true,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "examine_text": "THE DOOR IS SECURELY LOCKED.",
+                    "location": "Tower"
+                }
+            },
+            "characters": {},
+            "has_been_visited": false
+        },
+        {
+            "name": "Tower",
+            "description": "You are inside a tower.",
+            "commands": [],
+            "properties": {},
+            "travel_descriptions": {
+                "down": ""
+            },
+            "blocks": {
+                "down": {
+                    "_type": "Locked_Door",
+                    "location": "Tower Stairs",
+                    "door": "door",
+                    "connection": "Tower"
+                }
+            },
+            "connections": {
+                "down": "Tower Stairs"
+            },
+            "items": {
+                "door": {
+                    "name": "door",
+                    "description": "a door",
+                    "commands": [
+                        "unlock door"
+                    ],
+                    "properties": {
+                        "is_gettable": false,
+                        "is_locked": true,
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_surface": true,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "examine_text": "THE DOOR IS SECURELY LOCKED.",
+                    "location": "Tower"
+                }
+            },
+            "characters": {
+                "princess": "princess"
+            },
+            "has_been_visited": false
+        },
+        {
+            "name": "Dungeon Stairs",
+            "description": "You are climbing the stairs down to the dungeon.",
+            "commands": [],
+            "properties": {
+                "is_dark": true
+            },
+            "travel_descriptions": {
+                "up": "",
+                "down": ""
+            },
+            "blocks": {
+                "down": {
+                    "_type": "Darkness"
+                }
+            },
+            "connections": {
+                "up": "Courtyard",
+                "down": "Dungeon"
+            },
+            "items": {},
+            "characters": {},
+            "has_been_visited": false
+        },
+        {
+            "name": "Dungeon",
+            "description": "You are in the dungeon. There is a spooky ghost here.",
+            "commands": [],
+            "properties": {},
+            "travel_descriptions": {
+                "up": ""
+            },
+            "blocks": {},
+            "connections": {
+                "up": "Dungeon Stairs"
+            },
+            "items": {},
+            "characters": {
+                "ghost": "ghost"
+            },
+            "has_been_visited": false
+        },
+        {
+            "name": "Great Feasting Hall",
+            "description": "You stand inside the Great Feasting Hall.",
+            "commands": [],
+            "properties": {},
+            "travel_descriptions": {
+                "west": "",
+                "east": ""
+            },
+            "blocks": {},
+            "connections": {
+                "west": "Courtyard",
+                "east": "Throne Room"
+            },
+            "items": {
+                "candle": {
+                    "name": "candle",
+                    "description": "a strange candle",
+                    "commands": [
+                        "light candle",
+                        "read runes"
+                    ],
+                    "properties": {
+                        "is_gettable": true,
+                        "is_lightable": true,
+                        "is_lit": false,
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "examine_text": "THE CANDLE IS COVERED IN STARGE RUNES.",
+                    "location": "Great Feasting Hall"
+                }
+            },
+            "characters": {},
+            "has_been_visited": false
+        },
+        {
+            "name": "Throne Room",
+            "description": "This is the throne room of ACTION CASTLE.",
+            "commands": [],
+            "properties": {},
+            "travel_descriptions": {
+                "west": ""
+            },
+            "blocks": {},
+            "connections": {
+                "west": "Great Feasting Hall"
+            },
+            "items": {
+                "throne": {
+                    "name": "throne",
+                    "description": "An ornate golden throne.",
+                    "commands": [
+                        "sit on throne"
+                    ],
+                    "properties": {
+                        "is_gettable": false,
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_surface": true,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "examine_text": "",
+                    "location": "Throne Room"
+                }
+            },
+            "characters": {},
+            "has_been_visited": false
+        }
+    ],
+    "actions": [
+        "attack",
+        "catch fish",
+        "describe",
+        "drink",
+        "drop",
+        "eat",
+        "examine",
+        "get",
+        "give",
+        "go",
+        "inventory",
+        "light",
+        "pick rose",
+        "propose",
+        "quit",
+        "read runes",
+        "sequence",
+        "sit on throne",
+        "smell rose",
+        "unlock door",
+        "wear crown"
+    ]
+}
