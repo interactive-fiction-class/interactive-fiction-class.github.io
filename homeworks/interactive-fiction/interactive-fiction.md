@@ -2,7 +2,7 @@
 layout: default
 img: scribe.png
 img_link: https://parl.ai/projects/light/
-caption: Can we generate text adventure from stories?
+caption: Can we generate text adventure games from stories?
 title: Interactive Fiction
 type: Homework
 number: 3
@@ -79,7 +79,7 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-In HW1, we manually built our own text adventure games.  In HW2, we created a GPT Parser that could create evocative descritpions and do better understanding of user commands.  In this HW, we are going to try to use GPT to generate games.  Our goal for this HW is to take a few paragraphs of a work of fiction as input, and then generate a game as output.
+In [homework 1](https://interactive-fiction-class.org/homeworks/text-adventure-game/text-adventure-game.html), we manually built our own text adventure games.  In [homework 2](https://interactive-fiction-class.org/homeworks/gpt-parser/gpt-parser.html), we created a GPT Parser that could create evocative descritpions and do better understanding of user commands.  In this hoework assignment, we are going to try to use GPT to generate games.  Our goal for this homework is to take a few paragraphs of a work of fiction as input, and then generate a game as output.
 
 We'll approach this via fine-tuning GPT 3.5 to translate between fiction and a JSON data structure that we can load into our `text_adventure_game` format.  In order to do this we'll need a few hundred examples of fiction stories paired with an appropriate JSON output that represents that story in our game format.  
 
@@ -87,14 +87,14 @@ Where can we get that kind of data?  It doesn't exist, so we'll create a synthet
 
 After we have created the synthetic data of (fiction, JSON) pairs, we'll fine tune a model on that data.  After we have fine-tuned the model, we will try to generate a new game given a story as input.
 
-This HW will have 3 main parts:
+This assignment will have 3 main parts:
 1.  **Generate synthetic data** - You will familiarize youself with the LIGHT data and its JSON representation.  Given a JSON of a game state, you'll prompt GPT-4 to generate literary fiction in zero-shot fashion.  We'll generate fiction for 100 game states from LIGHT.  This will be our synthetic data set.   For this part will also experiment with "prompt augmentation" to make our fiction more interesting. 
 2.  **Fine-tune a model on your data** -  We will fine-tune GPT-3.5 to on our synthetic dataset.  We'll reverse the order of the inputs and outputs from part 1.  We'll use the fiction stories and as input, and genrate the game state for the story as output.
 3.  **Create a game from a story** -  After fine tuning, we will have you create game states from a story of your chosing or a story that you have written.  After you the generate the game states of the locations in JSON format, you will editing them into a playable game.
 
 ### Using our Starter code
 
-We have provided [starter code for your GPT Parser]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You'll be making changes to the `HW2.ipynb` file, which has a `GptParser` class with placeholder code for you to update.
+We have provided [starter code for your GPT Parser]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You'll be making changes to the `HW3.ipynb` file.  You should read through the whole Python Notebook carefully, and add your code to all places marked TODO.
 
 #### Environment Setup
 
