@@ -98,7 +98,7 @@ We have provided [starter code for your GPT Parser]({{page.materials[0].url}}). 
 
 #### Environment Setup
 
-To run this code in your Python IDE, you'll need to install the openai python package via `pip`, and you'll need to set two environment variables named `OPENAI_API_KEY` and `HELICONE_API_KEY`.  
+To run this code in your Python IDE, you'll need to install the openai python package via `pip`, and you'll need to set two environment variables named `OPENAI_API_KEY` and `HELICONE_API_KEY`.
 
 
 First [download the zip file]({{page.materials[0].url}}), then create a virtual environment and install
