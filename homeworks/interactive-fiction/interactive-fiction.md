@@ -92,6 +92,37 @@ This HW will have 3 main parts:
 2.  **Fine-tune a model on your data** -  We will fine-tune GPT-3.5 to on our synthetic dataset.  We'll reverse the order of the inputs and outputs from part 1.  We'll use the fiction stories and as input, and genrate the game state for the story as output.
 3.  **Create a game from a story** -  After fine tuning, we will have you create game states from a story of your chosing or a story that you have written.  After you the generate the game states of the locations in JSON format, you will editing them into a playable game.
 
+### Using our Starter code
+
+We have provided [starter code for your GPT Parser]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You'll be making changes to the `HW2.ipynb` file, which has a `GptParser` class with placeholder code for you to update.
+
+#### Environment Setup
+
+To run this code in your Python IDE, you'll need to install the openai python package via `pip`, and you'll need to set an environment variable called `OPENAI_API_KEY`.
+
+
+First [download the zip file]({{page.materials[0].url}}), then create a virtual environment and install
+the dependencies.  Here's how I recommend that you set up your environment:
+```
+$ unzip CIS-7000-HW3.zip
+$ cd CIS-7000/HW3/
+$ python3 -mvenv venv
+$ source venv/bin/activate
+(venv) $ pip install -e .'[dev]'
+(venv) $ pip install openai tiktoken
+```
+
+If you're using VS code then you can send your HELICONE_API_KEY and your OPENAI_API_KEY to it when you launch it from the command line:
+```
+$ cd path/to/homework/CIS-7000/HW3/
+$ source venv/bin/activate
+(venv) $ HELICONE_API_KEY=sk-helicone-XXXXXXX-XXXXXX OPENAI_API_KEY=sk-XXXXXXXXXXXXXXX   code .
+```
+You should replace `sk-helicone-XXXXXXX-XXXXXX` with your Helicone code which you can find [here](https://edstem.org/us/courses/50468/discussion/4413041), and `sk-XXXXXXXXXXXXXXX` with your OpenAI API key, which you can find [here](https://platform.openai.com/api-keys).  
+
+
+
+
 ## Part 1: Generate synthetic data
 
 We'd like to be able to convert stories into playable games.  To do we'd like to fine to a LLM on a bunch of data of stories paired with JSON objects that we can load into our `text_adventure_games` package.  Unfortunately, that data doesn't exist.  We'll create it ourself by generating stories from a bunch of existing text adventure games that were created by Jason Weston's group at Facebook Research.
