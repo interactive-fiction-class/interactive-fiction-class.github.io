@@ -13,7 +13,7 @@ materials:
     - 
         name: CLIN&colon; A Continually Learning Language Agent for Rapid Task Adaptation and Generalization
         url: https://allenai.github.io/clin/
-submission_link: https://www.gradescope.com/courses/704268/assignments/4120872
+submission_link: https://www.gradescope.com/courses/704268/assignments/4230067/
 ---
 
 <!-- Check whether the assignment is ready to release -->
