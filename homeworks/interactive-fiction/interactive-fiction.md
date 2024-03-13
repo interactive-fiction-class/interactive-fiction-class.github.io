@@ -181,7 +181,7 @@ Here's an example of what my fine-tuned model produced for this short passage fr
 -->
 
 
-**Note: for Part 2 and 3 of the HW, you'll be using your own account, so you'll pay for the fine tuning job yourself.  It will cost $20-$30 depending on your length. You should only need to run fine-tuning once.  You can reduce costs by working in a group, and/or by limiting the number of fine-training examples you use to 100 items.**    
+**Note: for Part 2 and 3 of the HW, you'll be using your own account, so you'll pay for the fine tuning job yourself.  It will cost \$20-\$30 depending on your length. You should only need to run fine-tuning once.  You can reduce costs by working in a group, and/or by limiting the number of fine-training examples you use to 100 items.**    
 
 
 ## Part 3: Create a game from a story
