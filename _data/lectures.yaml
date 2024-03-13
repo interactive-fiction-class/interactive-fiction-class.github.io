@@ -148,8 +148,8 @@
   title: 
   activities:
   homework_due:
-    - title: "HW4"
-      url:
+    - title: "HW4: Building an AI Game Master"
+      url: ai-gm/ai-gm.html
 -
   date: 2024-04-04
   title: 
