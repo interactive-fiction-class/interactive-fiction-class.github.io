@@ -184,7 +184,7 @@ Here's an example of what my fine-tuned model produced for this short passage fr
 **Note: for Part 2 and 3 of the HW, you'll be using your own account, so you'll pay for the fine tuning job yourself.  It will cost $20-$30 depending on your length. You should only need to run fine-tuning once.  You can reduce costs by working in a group, and/or by limiting the number of fine-training examples you use to 100 items.**    
 
 
-##  Create a game from a story
+## Part 3: Create a game from a story
 
 For this part, let's make your own game by generating mutliple game locations with the custom stories and connect them into a text game. You can make your own write story, or pick one that you like.  Here's [a story that I wrote with GPT-3](the-eternal-country.txt), which you're welcome to use if you'd like. 
 
