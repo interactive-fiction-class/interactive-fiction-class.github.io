@@ -13,7 +13,7 @@ materials:
     - 
       name: CIS-7000-HW3.zip
       url: https://www.cis.upenn.edu/~ccb/teaching/2024sp/CIS-7000-HW3.zip
-submission_link: 
+submission_link: https://www.gradescope.com/courses/704268/assignments/4242609/
 readings:
 -
    title: Learning to Speak and Act in a Fantasy Text Adventure Game
