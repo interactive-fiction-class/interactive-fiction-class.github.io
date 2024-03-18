@@ -88,7 +88,7 @@ Write a project proposal that includes the following sections:
 
 # What to Submit
 Submit to Gradescope:
-* `proposal.pdf` which contains your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. Latex is preferred but not required.
+* `proposal.md` which contains your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. 
 
 Prepare the following for class:
 * A two minute "lightning" presentation pitching your idea to the class. You should add **a single slide** to this [Google Slides presentation](https://docs.google.com/presentation/d/15xL5RyF6se2B9KeC-hI4Ct_P6tBBiYAZyuX7FrJzEIo/edit?usp=sharing). _Please prepare at most a single slide. You will have time for a longer presentation at the end of the semester._
