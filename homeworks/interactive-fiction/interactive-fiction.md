@@ -181,7 +181,7 @@ Here's an example of what my fine-tuned model produced for this short passage fr
 -->
 
 
-**Note: for Part 2 and 3 of the HW, you'll be using your own account, so you'll pay for the fine tuning job yourself.  It will cost \$20-\$30 depending on your length. You should only need to run fine-tuning once.  You can reduce costs by working in a group, and/or by limiting the number of fine-training examples you use to 100 items.**    
+**Note: for Part 2 and 3 of the HW, you'll be using your own account, so you'll pay for the fine tuning job yourself.  It will cost &dollar;20-&dollar;30 depending on your length. You should only need to run fine-tuning once.  You can reduce costs by working in a group, and/or by limiting the number of fine-training examples you use to 100 items.**    
 
 
 ## Part 3: Create a game from a story
@@ -203,6 +203,42 @@ Please submit the following:
 - A README.md with a writeup that discusses what you learned by doing the homework, and analyzes each of the 3 parts.
 
 You should submit your completed homework to [Gradescope]({page.submission_link}).  You can work teams.  Only one team member should submit - be sure to specify who your partner was when you make your submission.  If your group is >2 students, you should do one extension per additional teammate and describe what youd di in the homework writeup.  The extensions are up to you!
+
+## Possible Extensions
+
+Here are some ideas for extensions you can do:
+
+### Comparison of prompting techniques for creating fiction
+
+In Part 1 of the homework , we have you generate stories via prompt augmentation.  As an extension you could compare how good those stories are versus simpler ways of prompting.  For instance, you could generate stories for the same locations using:
+
+The augmented prompting technique from the HW
+Your original prompt
+No prompt at all (just the JSON for the scene)
+You could display the different stories for a scene in random order to human judges (your teammates or your friends), and ask them to rank them from best story to worst story (allowing for ties).   If you collect judgments for many scenes, then you could see how often each prompting technique beats the others, according to human preferences.
+
+### Comparison of fine-tuning versus few-shot prompting and zero-shot prompting
+
+For Part 2 of the homework, we have you fine-tune GPT 3.5 to produce a JSON location from a story.  You could compare this fine-tuning strategy against few-shot prompting of GPT-4 where you give it 3-5 examples of (story, JSON) pairs.  You could also compare against a zero-shot  instruction following prompt where you give detailed instructions on what the JSON output should look like.  You could calculate how often each of the 3 strategies produces valid JSON that can be used to load a location.
+
+### Generating Python code for Actions or Blocks
+
+For part 3, we have you generate 5 locations and then manually edit them into a game.  We leave out several things that are needed for a game, including creating blocks and creating special actions.  You could try creating a few-shot GPT-4 model to automatically create Python code Actions or Blocks.  You could generate several examples, try to integrate them into your game by including them in a Python notebook, and then describe what you did and how well your approach worked.
+
+### Updating game objects based on the GptParser's descriptions
+
+In HW2, we used GPT to generate descriptions for our game.  Sometimes it hallucinated new items, or elaborated on existing items.  You could use what you learned in HW3 to try to create new in-game objects for things that the GptParser generated but aren't in the game already, and to update the descriptions of items that are already in the game to match GPT's descriptions.  Describe what you did, and show some examples.
+
+Generating Location JSON from images
+
+In this HW, we looked at fine-tuning GPT3.5 to generate JSON from locations from stories.  As an extension, you could try to  using GPT-4 Vision (gpt-4-vision-preview) to generate JSON by giving several examples of images (user) paired with JSON (assistant) in a few-shot prompt.  Then the user could give a new image, and it would generate game JSON describing that location.  You can document your prompt and how you created it, along with some example outputs, and your qualitative impressions of them.
+
+Creating an interactive world builder
+
+For part 3, we have you generate 5 locations and then manually edit them into a game.  Could you build a tool that allows a user to create the whole world interactively, rather than having to manually edit JSON together?
+
+
+
 
 # Recommended readings
 
