@@ -1,18 +1,18 @@
 ---
 layout: default
-img: LISP.png
-img_link: https://xkcd.com/224/
-caption: God Created the Universe in LISP 
-title: Planning and PDDL
+img: clip.png
+img_link: https://blog.dataiku.com/leveraging-joint-text-image-models-to-search-and-classify-images
+caption: Models Like CLIP Create Joint Text-Image Embeddings
+title:  Vision Language Models Tutorial🚀
 type: in-class
 active_tab: homework
-release_date: 2024-02-15
-due_date: 2024-02-17 23:59:00EST
+release_date: 2024-03-21
+due_date: 2024-03-21 23:59:00EST
 materials:
     - 
-        name: CIS-7000-planning.zip
-        url: https://www.cis.upenn.edu/~ccb/teaching/2024sp/CIS-7000-planning.zip
-submission_link: https://www.gradescope.com/courses/704268/assignments/4109293/
+        name: Vision Language Models Tutorial🚀
+        url: https://colab.research.google.com/drive/10q3t4BvZuPkp3ctbDejuictJosJraz97?usp=sharing
+submission_link: https://www.gradescope.com/courses/704268/assignments/4259379/
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -53,57 +53,27 @@ The materials that you will need for this in-class activity are:
 
 
 
-In Class Activity: Planning and PDDL
+In Class Activity: Vision Language Models Tutorial🚀
 =============================================================
 
-Today in class, we will look at a classical planning algorithms that use a language for defining plans called PDDL (Planning Domain Definition Language).  PDDL and classic planning are all defined in the Russell and Norvig textbook AI A Modern Approach, in chapter 11.  I also recommend this tutorial by Kory Becker: [Artificial Intelligence Planning with STRIPS, A Gentle Introduction](http://www.primaryobjects.com/2015/11/06/artificial-intelligence-planning-with-strips-a-gentle-introduction/).  She has an [online demo](https://stripsfiddle.herokuapp.com) that lets you upload your own PDDL-specified problems, and find solutions to them.  
+Today in class, play with vision language models.
 
 
-We will use this Python library:
-* [PDDL Parser](https://github.com/pucrs-automated-planning/pddl-parser)
+**What's Inside?** 🧳
+* [CLIP](https://arxiv.org/pdf/2103.00020.pdf): A quick tour of CLIP (Contrastive Language–Image Pre-training), where we'll learn how to use this model to link images with text descriptions. 🖼️💬
+* [LLaVA](https://llava-vl.github.io/): Next stop is LLaVA, a Large Multimodal Language Model that generates text given an image, opening up new avenues for interactive multimodal chatbots.🤖💬
 
-In PDDL, we can define **action schema** to represent actions.  Here is an example of an action schema for flying a plane from one location to another: 
-```
-(:action fly
-     :parameters (?p - plane ?from - airport ?to - airport)
-     :precondition (and (plane ?p) (airport ?from) (airport ?to) (at ?p ?from))
-     :effect (and (at ?p ?to)) (not (at ?p ?from)))
-)
-```
+**Hands-On Fun** 🛠️
 
-This defines an action called **fly**, which takes 3 arguments: a plane **p**, a starting airport **from** and a destination airport **to**.  In order for this action to be applied, several *preonditions* must be satisified:
-1. **p** must be a plane
-1. **from** must be be an airport
-1. **to** must be be an airport
-1. **p** must initially be located at **from**.
-
-
-
-Once the action is applied, then it has the *effect* of changing several states in the world.
-1. **p** is no longer located at **from** 
-1. **p** is now located at **to** 
-
-In general, a schema consists of:
-* an action name
-* a list of all the variables use in the schema
-* a precondition - a conjunction of literals (positive or negated atomic logical sentences)
-* an effect - a conjunction of literals
-
-_Note: The enforcement of argument types like `(plane ?p)` can be left out of the action schema if we specify types in the domain PDDL file._
-
-
+We'll be using the 🤗[`transformers`](https://huggingface.co/docs/transformers/en/index) library for interacting with these models. With it, you can wield the power of CLIP and LLaVA with just a few lines of code. Don't worry if you're new to this; we'll go step-by-step!
 
 
 ### What to do 
 
 1. Open [{{page.materials[0].name}}]({{page.materials[0].url}}).
-2. Unzip it 
-3. open CIS-7000/in_class_activities/planning/planning.ipynb
-3. Create pairs of PDDL files for the following problems:
-* `move-item-to-location`
-* `go-fishing`
-* `feed-troll`
-If you've got extra time, you're welcome to work on PDDL definitions for other parts of the Action Castle game.
+2. Save a copy to your own Google Drive 
+3. Work through the notebook with one or more partners.
+4. Ask if you've got any questions!
 
 
 4. Please submit your work to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
