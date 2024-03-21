@@ -9,6 +9,7 @@ number: 2
 active_tab: homework
 release_date: 2024-03-14
 due_date: 2024-04-09 23:59:00EST
+submission_link: https://www.gradescope.com/courses/704268/assignments/4259329/
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -101,9 +102,9 @@ __Title__ & __Author Names__: What are you calling your project? These are not g
 7. __Attribution__: For each of your team mates, write a couple sentences describing their main contributions to the project so far and what each person plans to do for the rest of the project.
 
 # What to Submit
-Submit the following to [Gradescope](https://www.gradescope.com/courses/354158/assignments/1944469):
+Submit the following to [Gradescope]({{page.submission_link}}):
 * `lit_review.pdf` which contains your literature review. This can be in any format you like. We find that using Google Docs and then downloading as a PDF works well for this sort of thing.
-* `milestone2.pdf` which contains your milestone 2 submission. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template. You may choose to use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm).
+* `milestone2.pdf` which contains your milestone 2 submission. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template. I recommend that you use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/association-for-computational-linguistics-acl-conference/jvxskxpnznfj).
 
 # Grading
 <div class="alert alert-warning" markdown="1">

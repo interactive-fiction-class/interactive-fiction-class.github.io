@@ -9,6 +9,7 @@ number: 3
 active_tab: homework
 release_date: 2024-03-21
 due_date: 2024-04-23 23:59:00EST
+submission_link: https://www.gradescope.com/courses/704268/assignments/4259249/edit
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -58,7 +59,9 @@ We want to emphasize that you shouldn't stress out too much about making this su
 
 To be specific, for this Milestone, you should:
 * Finish all baseline experiments and get as many preliminary results from your main experiments as possible. You should show significant progress towards your main experimental results.
-* Create your final report using one of the provided conference paper templates: [ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or [AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip) (Please ask us directly if you would like to use a template for a different conference. Also, if you are not familiar with LaTeX, let us know.) 
+* Create your final report using a conference paper template. I recommend that you use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/association-for-computational-linguistics-acl-conference/jvxskxpnznfj).
+
+(Please ask us directly if you would like to use a template for a different conference. Also, if you are not familiar with LaTeX, let us know.) 
 * Fill in as much of the final report as possible given your current results. Your report contain the sections outlined below. 
 
 ## Project Final Report
@@ -99,5 +102,5 @@ This section is our grading rubric for the final report. This Milestone will not
 </div>
 
 # What to Submit
-Submit the following to [Gradescope](https://www.gradescope.com/courses/354158/assignments/1987904):
-* `milestone3.pdf` which contains your milestone 3 submission. To make grading easier, your report should include section headers corresponding to each of the bulleted points. As stated earlier, the use of LaTeX and a conference template is required. You may choose to use the [template from ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip). Please message us directly if you'd like to use a LaTeX template from a different conference.
+Submit the following to [Gradescope]({{page.submission_link}}:
+* `milestone3.pdf` which contains your milestone 3 submission. To make grading easier, your report should include section headers corresponding to each of the bulleted points. As stated earlier, the use of LaTeX and a conference template is required. I recommend that you use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/association-for-computational-linguistics-acl-conference/jvxskxpnznfj). Please message us directly if you'd like to use a LaTeX template from a different conference.
