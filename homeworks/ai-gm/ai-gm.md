@@ -3,6 +3,8 @@ layout: default
 caption: Let's build our own AI Dungeon!
 title: Building an AI Game Master
 type: Homework
+image: mouse_character_image.png
+caption: Mausritter character portrait
 number: 4
 active_tab: homework
 release_date: 2024-03-19
