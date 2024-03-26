@@ -8,6 +8,9 @@ active_tab: homework
 release_date: 2024-03-19
 due_date: 2024-04-02 23:59:00EST
 materials:
+   -
+      name: hw4.ipynb
+      url: /homeworks/ai-gm/hw4.ipynb
 submission_link:
 readings:
   - title: Kani&colon; A Lightweight and Highly Hackable Framework for Building Language Model Applications
@@ -131,6 +134,7 @@ Please submit the following:
 - Completed `hw4.ipynb`
 - The most recent transcripts of your character creator agent and AI GMs: `creator-TIME.json`, `gm-TIME.json` ,
   and `gm-structureless-TIME.json`
+- The images you generated of your character (saved in the `dalle/` folder)
 - A `README.md` that describes your high-level implementation of each part of the homework and any interesting findings
 
 You should submit your completed homework to [Gradescope]({page.submission_link}). You can work in teams. Only one team
