@@ -123,7 +123,7 @@ the command line:
 ```
 $ cd path/to/hw4
 $ source venv/bin/activate
-(venv) $ OPENAI_API_KEY=sk-helicone-XXXXXXX-XXXXXX code .
+(venv) $ HELICONE_API_KEY=sk-helicone-XXXXXXX-XXXXXX code .
 ```
 
 You should replace `sk-helicone-XXXXXXX-XXXXXX` with your Helicone key which you can
