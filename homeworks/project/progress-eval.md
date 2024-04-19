@@ -3,7 +3,7 @@ layout: default
 img: estimating_time.png
 caption: Don't Panic
 img_link: https://xkcd.com/1658/
-title: Final Report Draft
+title: Human Evaluation
 type: Project Milestone
 number: 4
 active_tab: homework
