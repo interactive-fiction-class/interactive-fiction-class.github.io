@@ -188,10 +188,13 @@
   date: 2024-04-30
   title: 
   activities:
+  homework_due:
+    - title: "Project Milestone 4"
+      url: project/progress-eval.html
 -
   date: 2024-05-07
   title: Final Presentations
   activities:
   homework_due:
-    - title: "Project Milestone 4"
+    - title: "Project Milestone 5"
       url: project/project-final.html
