@@ -32,12 +32,6 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 {% endif %}
 <!-- End of check whether the assignment is up to date -->
 
-
-<div class="alert alert-info">
-Your report is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
-Your presentation is due Thursday April 21 before class.
-</div>
-
 {% if page.materials %}
 <div class="alert alert-info">
 You can download the materials for this assignment here:
@@ -110,8 +104,6 @@ This section is our grading rubric for the final report.
 </div>
 
 # What to Submit
-Submit the following to Gradescope before class on **Thursday April 21**:
 * A link to your pre-recorded video presentation. This can be on any video hosting platform ([YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/watch), etc.). Please double check that the video link is visible to the public before submitting. 
 
-Submit the following to Gradescope by midnight on **Monday April 25**:
 * `report.pdf` which contains your project report. The use of LaTeX and a conference template is required. You may choose to use the [template from ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip). Please message us directly if you'd like to use a LaTeX template from a different conference.
