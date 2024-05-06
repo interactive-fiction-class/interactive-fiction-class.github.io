@@ -46,7 +46,7 @@ You can download the materials for this assignment here:
 
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
-For your final project you should prepare a 10 minute video presentation for the class and a report documenting what you accomplished. 
+For your final project you should prepare a 10-15 minute video presentation for the class and a report documenting what you accomplished. 
 
 ## Video Presentation
 For this semester we are requiring all presentations to be in pre-recorded video form -- this will allow us to move through presentations quickly while simultaneously leaving you with a nice artifact that you can show off to friends/colleagues/future employers.
@@ -66,9 +66,9 @@ Your presentation will be graded on the following criteria.
 
 
 ## Project Final Report
-Your final report is a document that describes what you have accomplished in your project this semester. You are very welcome and *encouraged* to draw content from all previous reports you have submitted so far. At this point in the class, all of you have read and presented on academic papers. You should use those journal and conference papers as inspiration for what a good writeup looks like. For additional inspiration, [here's an example of a final report from 2020](example_report.pdf).
+Your final report is a document that describes what you have accomplished in your project this semester. You are very welcome and *encouraged* to draw content from all previous reports you have submitted so far. At this point in the class, all of you have read and presented on academic papers. You should use those journal and conference papers as inspiration for what a good writeup looks like. For additional inspiration, 
 
-For your final report, the use of LaTeX and a conference template is required. You may choose to use the [template from ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip). Please directly message us if you'd like to use a LaTeX template from a different conference.
+For your final report, the use of LaTeX and a conference template is required. I recommend that you use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/association-for-computational-linguistics-acl-conference/jvxskxpnznfj).
 
 ### Report Sections
 The report should have the following sections.
@@ -106,4 +106,4 @@ This section is our grading rubric for the final report.
 # What to Submit
 * A link to your pre-recorded video presentation. This can be on any video hosting platform ([YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/watch), etc.). Please double check that the video link is visible to the public before submitting. 
 
-* `report.pdf` which contains your project report. The use of LaTeX and a conference template is required. You may choose to use the [template from ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip). Please message us directly if you'd like to use a LaTeX template from a different conference.
+* `report.pdf` which contains your project report. The use of LaTeX and a conference template is required. You may choose to use the [template from ACL](https://www.overleaf.com/latex/templates/association-for-computational-linguistics-acl-conference/jvxskxpnznfj). 
