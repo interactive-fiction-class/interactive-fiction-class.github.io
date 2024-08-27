@@ -7,8 +7,8 @@
   lessons:
     - 
       title: Intro to the class, Interactive Fiction, and Automated Story Generation 
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e102b40-cc8f-4f84-ba0e-b0fb01590fce
-      length: 59 minutes
+      video: 
+      length: 
       slides: slides/1_text-adventure-games.pdf
       readings:
         -
@@ -33,52 +33,6 @@
           authors: Mark Riedl
           url: https://mark-riedl.medium.com/an-introduction-to-ai-story-generation-7f99a450f615
           title: An Introduction to AI Story Generation
-    - 
-      title: Conversation with Game Designer Jared Sorensen
-      guest_speaker: Jared A. Sorensen
-      guest_url: http://www.memento-mori.com
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73c957cf-7a3a-4a79-b030-b1010023dc42
-      length: 1 hour 22 minutes
-      slides: 
-      readings:
-
-      optional:
-        -
-          authors: Grizel
-          title: Play Snowhaven on itch.io
-          url: https://grizel.itch.io/snowhaven
-        -  
-          authors: Chris Ainsley/adventuron.io
-          url: https://adventuron.blogspot.com/2019/07/video-tutorial-beginners-guide-to.html
-          title: Video Tutorial - Beginners Guide To Coding An Illustrated Text Adventure Game
-          length: 35 minutes
-        -
-          authors: Jared Sorensen
-          url: https://www.youtube.com/watch?v=Sehaj4mw38s
-          title: Action Castle at PAX East 2011
-          length: 12 minutes
-        -
-          authors: H2G2.com
-          url: https://h2g2.com/edited_entry/A20600641
-          title: "How to Make a Text-Based Adventure: Commands and Parser"
-
-    - 
-      title: Guest lecture by Peter Jansen
-      guest_speaker: Peter Jansen
-      guest_url: https://cognitiveai.org
-      video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1de1c8d-c8e0-45e3-a3be-b103000d0935
-      length: 1 hour 22 minutes
-      slides: slides/24-01-11-peter-jansen-overview-of-text-games-and-world-modeling.pdf
-      readings:
-        -
-          title: ScienceWorld&colon; Is your Agent Smarter than a 5th Grader?
-          url: https://sciworld.apps.allenai.org
-          authors: Ruoyao Wang, Peter Jansen, Marc-Alexandre Côté, Prithviraj Ammanabrolu
-      optional:
-        -
-          authors: Various
-          url: https://www.textgames.org
-          title: Interactive Virtual Environments&colon; A list of research articles published on interactive text-based virtual environments, agents, and related areas.
 
   hw:
     -
@@ -96,13 +50,11 @@
   lessons:
     - 
       title: Neural Language Models + Transformers
-      guest_speaker: Daphne Ippolito
-      guest_url: https://www.seas.upenn.edu/~daphnei/
+      slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
+      guest_speaker: 
+      guest_url: 
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e89106d-8358-45e6-a36c-ae210157dafb
-      old_length: 1 hour 32 mins
-      slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
       readings:
         -
           title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
@@ -135,13 +87,11 @@
           url: https://www.wired.com/story/ai-text-generator-too-dangerous-to-make-public/
     - 
       title: Transformers, Continued
-      guest_speaker: Daphne Ippolito
-      guest_url: https://www.seas.upenn.edu/~daphnei/
+      guest_speaker: 
+      guest_url: 
       slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=42c62328-b795-46a1-9d36-ae2301571b61
-      old_length: 1 hour 33 mins
       readings:
         -
           title: The Curious Case of Neural Text Degeneration
@@ -175,8 +125,6 @@
       guest_url: 
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=99ce80a0-c4c8-4684-bd18-ae2801534544
-      old_length: 1 hour 15 mins
       readings:
         -
           title: Language Models are Few-Shot Learners (GPT-3 paper)
@@ -192,8 +140,6 @@
       slides: https://docs.google.com/presentation/d/1qFjLt5DZ2aH9e4Eu0Bx1XoSjtiF1iQdKx4xDxxsy-fg/edit?usp=sharing
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b945aba2-14c7-4693-b1dd-ae2a015add1a
-      old_length: 1 hour 46 mins
       readings:
         -
           title: Hierarchical Neural Story Generation
@@ -214,21 +160,9 @@
           authors: Nick Walton/Latitude
       presentations:
         -
-          title: Attention is All You Need
-          url: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
-          presenters: "Marta Garcia Ferreiro & Stefan Papazov"
-        -
-          title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
-          url: https://dl.acm.org/doi/10.1145/3442188.3445922
-          presenters: "Salvatore Giorgi & Keith Golden"
-        -
-          title: "Do Massively Pretrained Language Models Make Better Storytellers?"
-          url: https://aclanthology.org/K19-1079/
-          presenters: "Wesley Gill, Adrian Wang, & Daniel Tao"
-        -
-          title: "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
-          url: https://aclanthology.org/D19-1410/
-          presenters: Yuxuan Wang        
+          title: 
+          url: 
+          presenters:         
   hw:
     -
       title: "Homework 2: Generating Descriptions"
@@ -248,8 +182,6 @@
       slides: https://drive.google.com/file/d/15NY1bEg6ZZg5e3Ny0PIWvZNRpANAnInv/view?usp=sharing
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ac6fee3-a97a-40bd-9b6a-ae2f014f59a9
-      old_length: 1 hour 16 mins
       readings:
         -
           title: "Scripts Plans Goals and Understanding: An Inquiry Into Human Knowledge Structures (Chapter 3: Scripts)"
@@ -283,8 +215,7 @@
       title: Understanding Procedures
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f81c1d74-af45-447d-acdd-ae31016dc87e
-      old_length: 1 hour 29 mins
+      slides: https://docs.google.com/presentation/d/105BQYe7jyp5zSlVXORG1aJugOosUvcqk
       readings:
         -
           title: Implicit Representations of Meaning in Neural Language Models
@@ -306,17 +237,12 @@
           title: "SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference"
           authors: Rowan Zellers, Yonatan Bisk, Roy Schwartz, Yejin Choi
           url: https://aclanthology.org/D18-1009/          
-      guest_speaker: Harry Li Zhang
-      guest_url: http://zharry.com
-      guest_speaker2: Veronica Qing Lyu
-      guest_url2: https://veronica320.github.io/
-      slides: https://docs.google.com/presentation/d/105BQYe7jyp5zSlVXORG1aJugOosUvcqk
+      
     - 
       title: Guided Story Generation
       slides: https://drive.google.com/file/d/1UH23icbixj0fvwjPh7U99MS6CUriMAYy/view?usp=sharing
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8cea1b51-3614-49f2-89f1-ae36015912aa&start=450
       readings:
         -
           title: "Plan-And-Write: Towards Better Automatic Storytelling"
@@ -343,20 +269,11 @@
       slides: https://drive.google.com/file/d/1J5Z4Q7GwFD-T9R_amZOX6bxEq2oj0pxY/view?usp=sharing
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ebe8c581-fbe2-4de2-9937-ae38015e5614
       presentations:
         -
-          title: Controllable Neural Story Plot Generation via Reward Shaping
-          url: https://www.ijcai.org/proceedings/2019/829
-          presenters: "Ning Wan & Hongyu Zhang"
-        -
-          title: "Unsupervised Learning of Narrative Schemas and their Participants"
-          url: https://aclanthology.org/P09-1068/
-          presenters: "Ruochun Wang, Yixuan Meng, & Charles Howland"
-        -
-          title: "PlotMachines: Outline-Conditioned Generation with Dynamic Plot State Tracking"
-          url: https://aclanthology.org/2020.emnlp-main.349/
-          presenters: "Anshul Wadhawan, Karmanya Aggarwal, & Pooja Dattatri"
+          title: 
+          url: 
+          presenters: 
   hw:
     -
       title: "Homework 3: Plot Graph Generation"
@@ -382,7 +299,6 @@
       slides: slides/Search-and-Planning.pdf
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4ba6aa8a-01c6-4236-955e-ae3d015a4e33
       optional:
         - 
           title: "Artificial Intelligence: A Modern Approach, Chapter 3"
@@ -397,7 +313,6 @@
       slides: slides/Search-and-Planning.pdf
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3673be5f-af5f-4876-9fda-ae3f0158dcde
       readings:     
       optional:
         - 
@@ -413,11 +328,8 @@
           url: http://www.primaryobjects.com/2015/11/06/artificial-intelligence-planning-with-strips-a-gentle-introduction/
     - 
       title: Story Planning + Drama Management
-      guest_speaker: Stephen G. Ware
-      guest_url: http://stephengware.com/
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=87c84497-a145-4fa1-bd3a-ae4401525e71
       slides: slides/Sabre.pdf
       optional:
         -
@@ -469,7 +381,6 @@
       title: Façade Playthrough + Module 3 Paper Presentations
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04ced777-7234-4c0e-a027-ae460159cebc
       readings:
         -
           title: "Learning Norms from Stories: A Prior for Value Aligned Agents"
@@ -498,21 +409,9 @@
           authors: William Wallace Cook 
       presentations:
         -
-          presenters: Haoyu Wang
-          title: Story Telling as Planning and Learning
-          url: https://www.sciencedirect.com/science/article/pii/0304422X85900154      
-        -
-          presenters: "Benjamin Demers & Saurabh Shah"
-          title: Drama Management and Player Modeling for Interactive Fiction Games
-          url: https://www.cc.gatech.edu/faculty/ashwin/papers/er-09-10.pdf
-        -
-          presenters: Adrian Binkley
-          title: Integrating Plot, Character and Natural Language Processing in the Interactive Drama Façade
-          url: https://www.semanticscholar.org/paper/Integrating-Plot%2C-Character-and-Natural-Language-in-Mateas-Stern/6c92ac4eb449b53ce9a7b0dd94316da17a394446
-        -
-          presenters: "Paul Scott & Andrew Zhao"
-          title: "Controlling narrative generation with planning trajectories: The role of constraints"
-          url: https://www.researchgate.net/publication/220920127_Controlling_Narrative_Generation_with_Planning_Trajectories_The_Role_of_Constraints
+          presenters:
+          title: 
+          url: 
 -
   module_number: 4
   start_date: 2024-03-01
@@ -525,7 +424,6 @@
       slides: slides/Commonsense-Reasoning.pdf
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ec56c54e-980b-42d7-b864-ae4b01578757
       readings:
         -
           title: Machine Common Sense Concept Paper
@@ -557,7 +455,6 @@
       slides: slides/CIS700-KnowledgeBases.pdf
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d0bb2997-cba8-47cf-b6d9-ae4d01582e07
       readings:
         -
           title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
@@ -593,13 +490,12 @@
           url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf
     -
       title: Midsemester Recap + Ontologies
-      guest_speaker: Susan Brown
-      guest_url: https://verbs.colorado.edu/brownsw/
+      guest_speaker: 
+      guest_url: 
       readings:
       slides: slides/CIS700-Recap-Ontologies.pdf
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31d9b840-2179-44f4-b32a-ae59014effdd
       readings:
         -
           title: The Rich Event Ontology
@@ -622,22 +518,10 @@
           authors: "Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning"
       presentations:
         -
-          presenters: "Weiqiu You, Yifei Li, & Yukai Yang"
-          title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
-          url: https://dl.acm.org/doi/10.5555/3298023.3298212
-        -
-          presenters: "Manni Arora & Yongzhe Zhu"
-          title: Machine Common Sense Concept Paper
-          url: https://arxiv.org/abs/1810.07528
-        -
-          presenters: "Xuanyu Wu, Zhaoyi Hou, & Xinyue Wang"
-          title: "NaturalLI: Natural Logic Inference for Common Sense Reasoning"
-          url: https://www.aclweb.org/anthology/D14-1059
-        -
-          presenters: "Xiaofeng Wang, Zhihang Yuan, & Tianyi Zhang"
-          title: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
-          url: https://ojs.aaai.org//index.php/AAAI/article/view/4160
-
+          presenters: 
+          title: 
+          url: 
+        
 
   hw:
     -
@@ -657,7 +541,6 @@
       slides: https://docs.google.com/presentation/d/1RLeEDymHWpMheNZwO7tgOWEc0t-tm7uUEXWjInEIycQ/edit?usp=sharing
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=64fa4b7b-71bf-43a5-84f7-ae62014b51c7
       readings:
         -
           title: Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models
@@ -693,7 +576,6 @@
       title: Character-Based Generation
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3ce65a8d-0b80-4f96-8e90-ae6701445d2c&start=58
       readings:
         -
           title: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
@@ -711,7 +593,6 @@
       title: Module 5 Paper Presentations
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7779bdc9-b1eb-446c-9826-ae69014e9d1b&start=112
       readings:
         -
           title: Recipes for Building an Open-Domain Chatbot
@@ -726,28 +607,13 @@
           authors: "Joao Sedoc, Daphne Ippolito, Arun Kirubarajan, Jai Thirani, Lyle Ungar, Chris Callison-Burch"
           url: https://www.cis.upenn.edu/~ccb/publications/chateval-demo.pdf
       presentations:
-        -
-          presenters: "Zhihua Zhang, Zach (Zichen) Li, & Anish Neervannan"
-          title: "DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation"
-          url: https://aclanthology.org/2020.acl-demos.30/
-        -
-          presenters: "Kenneth Schumacher, Matthew Burke, & Ke Zhao"
-          title: Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models
-          url: https://arxiv.org/abs/1507.04808
-        -
-          presenters: "Enora Rice, Kennedy Ellison, & Anna Nixon"
-          title: "I love your chain mail! Making knights smile in a fantasy game world: Open-domain goal-oriented dialogue agents"
-          url: https://arxiv.org/abs/2002.02878
-        -
-          presenters: "Elizabeth Dinella & Alexander Feng"
-          title: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
-          url: https://aclanthology.org/N18-2111/
+      
   hw:
     -
-      title: "Homework 6: Alexa Action-Castle"
+      title: "Homework 6: 
       percentage: 10%
-      due_date: 2024-04-11
-      url: alexa_action_castle/alexa-action-castle.html
+      due_date: 2024
+      url: 
 
 -
   module_number: 6
@@ -763,7 +629,6 @@
       slides: https://drive.google.com/file/d/1hAJULY3V4unuk2wA-DT4-1qx-kkT8-2k/view?usp=sharing
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7847067e-5150-4b4b-be61-ae6e014e8b2f&start=159
       readings:
         -
           title: Playing Text-Adventure Games with Graph-Based Deep Reinforcement Learning
@@ -790,7 +655,6 @@
       slides: slides/22-04-07_Mixed-Methods.pdf
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8f446ba9-1174-44c1-bbf8-ae700141572f&start=104
       readings:
         -
           title: Neurosymbolic automated story generation [thesis]
@@ -798,12 +662,11 @@
           url: https://smartech.gatech.edu/handle/1853/64643
     -
       title: Theory of Mind and Intent in Procedural Agents
-      guest_speaker: Jonathan May
+      guest_speaker: 
       slides: slides/22-04-12_Jon-May_Theory-of-Mind.pptx
-      guest_url: https://www.isi.edu/~jonmay/
+      guest_url: 
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=102314f2-6c07-4410-b872-ae750156c8cb
       readings:
         -
           title: Grounding Conversations with Improvised Dialogues
@@ -827,12 +690,11 @@
           authors: Lara J. Martin, Brent Harrison, and Mark O. Riedl
     -
       title: Story Evaluation + Module 6 Paper Presentations
-      guest_speaker: Elizabeth Clark
-      guest_url: https://eaclark07.github.io/
+      guest_speaker: 
+      guest_url: 
       slides: slides/22-04-14_Elizabeth-Clark_Evaluation-for-Story-Generation.pdf
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26a154bd-180d-4d4b-8c2e-ae77015c2e00
       readings:
         -
           title: "Evaluation of Text Generation: A Survey"
@@ -911,22 +773,14 @@
           authors: Mina Lee, Percy Liang, Qian Yang
           url: https://arxiv.org/abs/2201.06796
       presentations:
-        -
-          presenters: "Jong-Min Choi & Joongwon Kim"
-          title: "Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences"
-          url: https://aclanthology.org/2021.emnlp-main.54/
-        -
-          presenters: Leon Zhou
-          title: Deep Reinforcement Learning with a Natural Language Action Space
-          url: https://aclanthology.org/P16-1153/    
+ 
     -
       title: Visual Storytelling
-      guest_speaker: Ting-Hao Kenneth Huang
-      guest_url: http://kennethhuang.cc/
+      guest_speaker: 
+      guest_url: 
       slides: slides/22-04-19_Kenneth-Huang_VIST.pdf
       video: 
       length:
-      old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8630db50-e1a7-4631-b6a0-ae7c01463b1a
       readings:
         -
           title: "Stretch-VST: Getting Flexible With Visual Stories"
