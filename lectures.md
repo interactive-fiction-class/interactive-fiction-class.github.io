@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CMSC XXXXX - Lectures
+title: CIS 700 - Lectures
 active_tab: lectures
 ---
 
@@ -10,6 +10,11 @@ active_tab: lectures
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
 <!-- End create a HTML anchor for the most recent lecture -->
 
+<!--
+<div class="alert alert-info">
+You can <a href="https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=8b5f2734-0738-4f52-90f5-ab3c01236b7c">watch recordings of the lecture videos online</a>.
+</div>
+-->
 
 <div class="alert alert-info">
 The lecture schedule will be updated as the term progresses. You can find more details under the <a href="/modules.html">Modules</a> tab.
