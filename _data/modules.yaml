@@ -610,7 +610,7 @@
       
   hw:
     -
-      title: "Homework 6: 
+      title: "Homework 6: "
       percentage: 10%
       due_date: 2024
       url: 
@@ -624,8 +624,8 @@
   lessons:
     -
       title: Reinforcement Learning for Playing Interactive Fiction 
-      guest_speaker: Prithviraj (Raj) Ammanabrolu
-      guest_url: http://prithvirajva.com/
+      guest_speaker: 
+      guest_url: 
       slides: https://drive.google.com/file/d/1hAJULY3V4unuk2wA-DT4-1qx-kkT8-2k/view?usp=sharing
       video: 
       length:

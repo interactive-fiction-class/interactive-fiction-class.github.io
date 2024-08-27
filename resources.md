@@ -1,5 +1,5 @@
 ---
-title: CIS 700 - Resources
+title: CMSC 491/691-11 - Resources
 layout: default
 img: play-if-card.png
 active_tab: resources 
