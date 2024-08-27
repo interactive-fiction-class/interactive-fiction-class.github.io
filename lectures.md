@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CMSC 491/691-11 - Lectures
+title: CMSC XXXXX - Lectures
 active_tab: lectures
 ---
 

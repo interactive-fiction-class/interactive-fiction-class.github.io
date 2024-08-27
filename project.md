@@ -1,5 +1,5 @@
 ---
-title: CMSC 491/691-11 - Final Project
+title: CIS 700 - Final Project
 layout: default
 img: play-if-card.png
 active_tab: homework 
