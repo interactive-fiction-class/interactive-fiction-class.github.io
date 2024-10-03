@@ -1,200 +1,76 @@
 -
   date: 2024-01-18
-  title: Intro to the class, Interactive Fiction, and Automated Story Generation
-  activities: 
-    -
-      title: Play a text adventure game
-      url: play-text-adventures/play-text-adventures.html
+  title: Text Adventure Games
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=476ff7fb-88df-4860-ad40-b0fb0165be89
 -
   date: 2024-01-23
-  title: Conversation with Game Designer Jared Sorensen
-  activities: 
-    -
-      title: Start on HW1
-      url: homeworks/text-adventure-game/text-adventure-game.html
+  title: Conversation with Jared Sorensen and introduction to Python Text Adventure Game framework
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73c957cf-7a3a-4a79-b030-b1010023dc42
 -
   date: 2024-01-25
-  title: Guest lecture by Peter Jansen
-  activities: 
-    -
-      title:
-      url:
--
-  date: 2024-01-30
-  type: deadline
-  homework_due:   
-    -
-      title: "HW1: Build a Text-Adventure Game (5%)"
-      url: text-adventure-game/text-adventure-game.html
--
-  date: 2024-01-30
-  title: Intro to Large Language Models
-  activities: 
-    -
-      title:
-      url:
--
-  date: 2024-01-31
-  title: Course Selection Period ends
-  type: no_lecture
+  title: Peter Jansen Guest Lecture - An Overview of Text Games and World Modeling
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1de1c8d-c8e0-45e3-a3be-b103000d0935
 -
   date: 2024-02-01
-  title: 
-  activities:
-    -
-      title:
-      url: 
+  title: State of the art in Large Language Models
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c2cce256-daf7-4a21-8303-b115000de6d0
 -
   date: 2024-02-06
-  title: 
-  activities:
+  title: LLM Function Calling and Kani
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=87f85d9c-6f2a-44ea-8d70-b114016766ae
 -
-  date: 2024-02-08
-  title: 
-  activities:
+  date: 2024-02-08 
+  title: Embeddings and RAG
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7472365c-feaf-4eb7-8582-b1140165d3b0
 -
-  date: 2024-02-13
-  title: 
-  activities:
+  date: 2024-02-13 
+  title: Search in AI
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=22e257e3-1dc9-4cce-a42a-b1260004241c
 -
-  date: 2024-02-15
-  type: deadline
-  homework_due:
-    -
-      title: 
-      url: 
+  date: 2024-02-15 
+  title: Classical Planning in Artificial Intelligence with PDDL
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4bfea8c7-195c-4387-9558-b1260005222c
 -
-  date: 2024-02-15
-  title: 
-  activities:
--
-  date: 2024-02-20
-  title: 
-  activities:
-    -
-      title: Planning and PDDL
-      url: planning/planning-and-pddl.html
+  date: 2024-02-20 
+  title: Harry Li Zhang - LLMs versus Text Adventure Games
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=98e4842e-6573-42e6-9d49-b1260006ae67
 -
   date: 2024-02-22
-  type: deadline
-  homework_due:   
-    -
-      title: Paper Summaries 1
-      url: https://www.gradescope.com/courses/354158/assignments/1836304
--
-  date: 2024-02-22
-  title: 
-  activities:
+  title: Conversation with game designer Brianna McHorse of OpenDoor
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3b2d6095-c13a-4946-9223-b125016dbfe3
 -
   date: 2024-02-27
-  title: 
-  activities:
+  title: Conversation with Jason Weston of Meta AI
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=82565bd9-59df-44c7-98ee-b126000341cf
 -
-  date: 2024-02-27
-  title: Drop Period ends
-  type: no_lecture         
+  date: 2024-02-29 
+  title: Conversation with game designer Leo Hunt
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a43d44ee-7484-4b6f-93f8-b125016a42b8
 -
-  date: 2024-02-29
-  title: 
-  activities:
--
-  date: 2024-03-05
-  title: No Class (Spring Break)
-  type: no_lecture
--
-  date: 2024-03-07
-  title: No Class (Spring Break)
-  type: no_lecture
--
-  date: 2024-03-12
-  title: 
-  activities:
--
-  date: 2024-03-14
-  title: 
-  activities:
+  date: 2024-03-17
+  title: Guest Lecture by Bodhisattwa Prasad Majumder - Continual Learning with Language Agents
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=56208716-9c01-4830-82e8-b13a00fea561
 -
   date: 2024-03-19
-  title: 
-  activities:
-  homework_due:
-    - title: "HW3: Interactive Fiction"
-      url: interactive-fiction/interactive-fiction.html
+  title: OpenAI video demo from Juston Fotre
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=748f25cf-f92b-4d94-b473-b13a00f2ac12
 -
   date: 2024-03-21
-  title: 
-  activities:
-- 
-  date: 2024-03-22
-  title: Grade Type Change Deadline
-  type: no_lecture
+  title: Multimodal Models with Language and Vision by Artemis Panagopoulou
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4363a87c-6dc4-4878-9c19-b13a015db39e
 -
   date: 2024-03-26
-  title: 
-  activities:
-  homework_due:
-    - title: "Project Milestone 1"
-      url: project/project-proposal.html
+  title: Project Pitches
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3ead6d9-582e-4d1c-b9bb-b14100039f8b
 -
   date: 2024-03-28
-  title: 
-  activities:
-- 
-  date: 2024-04-02
-  title: Last day to withdraw from a course
-  type: no_lecture
+  title: Project Pitches - part 2
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ddd12147-0c66-4786-89e8-b142001b1f44
 -
-  date: 2024-04-02
-  title: 
-  activities:
-  homework_due:
-    - title: "HW4: Building an AI Game Master"
-      url: ai-gm/ai-gm.html
+  date: 2024-03-28 
+  title: Paper Presentation - WordCraft
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b9d2a22d-dacc-4eed-ae6a-b1420019f721
 -
-  date: 2024-04-04
-  title: 
-  activities:
--
-  date: 2024-04-09
-  title: 
-  activities:
-  homework_due:
-    - title: "Project Milestone 2"
-      url: project/progress-report1.html
--
-  date: 2024-04-11
-  title: 
-  activities:
--
-  date: 2024-04-16
-  title: 
-  activities:
--
-  date: 2024-04-18
-  title: 
-  activities:
--
-  date: 2024-04-23
-  title: 
-  activities:
-  homework_due:
-    - title: "Project Milestone 3"
-      url: project/progress-report2.html
--
-  date: 2024-04-25
-  title: 
-  activities:
--
-  date: 2024-04-30
-  title: 
-  activities:
-  homework_due:
-    - title: "Project Milestone 4"
-      url: project/progress-eval.html
--
-  date: 2024-05-07
-  title: Final Presentations
-  activities:
-  homework_due:
-    - title: "Project Milestone 5"
-      url: project/project-final.html
+  date: 2024-04-03
+  title: Guest Lecture by Lilach Mollick - Using Interactive Fiction to Teach
+  recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1291692e-e3ae-4ead-bd09-b1480015de74  
