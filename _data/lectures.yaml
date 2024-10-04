@@ -2,14 +2,50 @@
   date: 2024-01-18
   title: Text Adventure Games
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=476ff7fb-88df-4860-ad40-b0fb0165be89
+  readings:
+        -
+          authors: Mark Riedl
+          url: https://mark-riedl.medium.com/an-introduction-to-ai-story-generation-7f99a450f615
+          title: An Introduction to AI Story Generation
+        -
+          authors: Jason Scott
+          url: https://www.youtube.com/watch?v=LRhbcDzbGSU
+          title: "GET LAMP: The Text Adventure Documentary"
+          length: 2 hours
+          optional: true
 -
   date: 2024-01-23
-  title: Conversation with Jared Sorensen and introduction to Python Text Adventure Game framework
+  title: Conversation with Game Designer Jared Sorensen 
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73c957cf-7a3a-4a79-b030-b1010023dc42
+  readings:
+        -
+          title: Action Castle
+          url: http://memento-mori.com/pdf/parsely-preview-n-play-edition
+          authors: Jared Sorensen
+        -
+          title: Memento Mori games
+          url: http://www.memento-mori.com
+          authors: Jared Sorensen
+          optional: true
 -
   date: 2024-01-25
-  title: Peter Jansen Guest Lecture - An Overview of Text Games and World Modeling
+  title: An Overview of Text Games and World Modeling
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1de1c8d-c8e0-45e3-a3be-b103000d0935
+  speaker: Peter Jansen
+  speaker_url: https://cognitiveai.org
+  readings:
+        -
+          title: A Systematic Survey of Text Worlds as Embodied Natural Language Environments
+          url: https://aclanthology.org/2022.wordplay-1.1.pdf
+          authors: Peter A. Jansen
+        -
+          title: "TextWorld: A Learning Environment for Text-based Games"
+          url: https://www.semanticscholar.org/paper/TextWorld%3A-A-Learning-Environment-for-Text-based-Côté-Kádár/89daae27e7df4a418b9610d307ce3df0e30fc8a2
+          authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Ruo Yu Tao, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischler
+        -
+          title: "Interactive Fiction Games: A Colossal Adventure"
+          url: https://www.semanticscholar.org/paper/Interactive-Fiction-Games%3A-A-Colossal-Adventure-Hausknecht-Ammanabrolu/221d453c165aca6bc1a054289eb510e558a23dca
+          authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan
 -
   date: 2024-02-01
   title: State of the art in Large Language Models
@@ -17,10 +53,19 @@
 -
   date: 2024-02-06
   title: LLM Function Calling and Kani
+  speaker: Andrew Zhu
+  speaker_url: https://zhu.codes
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=87f85d9c-6f2a-44ea-8d70-b114016766ae
+  readings:
+        -
+          title: Kani&colon; A Lightweight and Highly Hackable Framework for Building Language Model Applications
+          url: https://arxiv.org/abs/2309.05542
+          authors: Andrew Zhu, Liam Dugan, Alyssa Hwang, Chris Callison-Burch
 -
   date: 2024-02-08 
   title: Embeddings and RAG
+  speaker: Samar Haider
+  speaker_url: https://samarh.github.io
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7472365c-feaf-4eb7-8582-b1140165d3b0
 -
   date: 2024-02-13 
@@ -32,31 +77,91 @@
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4bfea8c7-195c-4387-9558-b1260005222c
 -
   date: 2024-02-20 
-  title: Harry Li Zhang - LLMs versus Text Adventure Games
+  title: LLMs versus Text Adventure Games
+  speaker: Harry Li Zhang
+  speaker_url: https://zharry29.github.io
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=98e4842e-6573-42e6-9d49-b1260006ae67
+  readings:
+        -
+          title: PDDLEGO&colon; Iterative Planning in Textual Environments
+          url: https://aclanthology.org/2024.starsem-1.17/
+          authors: Li Zhang, Peter Jansen, Tianyi Zhang, Peter Clark, Chris Callison-Burch, Niket Tandon
+        -
+          title: PROC2PDDL&colon; Open-Domain Planning Representations from Texts
+          url: https://aclanthology.org/2024.nlrse-1.2/
+          authors: Tianyi Zhang, Li Zhang, Zhaoyi Hou, Ziyu Wang, Yuling Gu, Peter Clark, Chris Callison-Burch, Niket Tandon
 -
   date: 2024-02-22
-  title: Conversation with game designer Brianna McHorse of OpenDoor
+  title: Conversation with game designer Brianna McHorse of HiddenDoor
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3b2d6095-c13a-4946-9223-b125016dbfe3
+  readings:
+        -
+          title: Hidden Door
+          url: https://www.hiddendoor.co
 -
   date: 2024-02-27
   title: Conversation with Jason Weston of Meta AI
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=82565bd9-59df-44c7-98ee-b126000341cf
+  readings:
+    - 
+        title: Learning to Speak and Act in a Fantasy Text Adventure Game
+        authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
+        url: https://arxiv.org/abs/1903.03094
+    - 
+        title: Generating Interactive Worlds with Text 
+        authors: Angela Fan, Jack Urbanek, Pratik Ringshia, Emily Dinan, Emma Qian, Siddharth Karamcheti, Shrimai Prabhumoye, Douwe Kiela, Tim Rocktaschel, Arthur Szlam, Jason Weston
+        url: https://arxiv.org/abs/1911.09194
+    - 
+        title: I love your chain mail! Making knights smile in a fantasy game world&colon; Open-domain goal-oriented dialogue agents
+        authors: Shrimai Prabhumoye, Margaret Li, Jack Urbanek, Emily Dinan, Douwe Kiela, Jason Weston, Arthur Szlam
+        url: https://arxiv.org/abs/2002.02878
+    - 
+        title: How to Motivate Your Dragon&colon; Teaching Goal-driven Agents to Speak and Act in Fantasy Worlds 
+        authors: Prithviraj Ammanabrolu, Jack Urbanek, Margaret Li, Arthur Szlam, Tim Rocktäschel, Jason Weston
+        url: https://arxiv.org/abs/2010.00685
 -
   date: 2024-02-29 
   title: Conversation with game designer Leo Hunt
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a43d44ee-7484-4b6f-93f8-b125016a42b8
+  readings:
+    - 
+        title: Vaults of Vaarn SRD (System Reference Document)
+        authors: Leo Hunt
+        url: https://vaarn.github.io/#/?id=vaults-of-vaarn
+    - 
+        title: Vaults of Vaarn - Zine 1
+        authors: Leo Hunt
+        url: https://graculusdroog.itch.io/vaults-of-vaarn
+    - 
+        title: Vaults of Vaarn - Zine 2
+        authors: Leo Hunt
+        url: https://graculusdroog.itch.io/vaults-of-vaarn-2
+    - 
+        title: Vaults of Vaarn - Zine 3
+        authors: Leo Hunt
+        url: https://graculusdroog.itch.io/vaults-of-vaarn-3
 -
   date: 2024-03-17
-  title: Guest Lecture by Bodhisattwa Prasad Majumder - Continual Learning with Language Agents
+  title: Continual Learning with Language Agents
+  speaker: Bodhisattwa Prasad Majumder
+  speaker_url: https://www.majumderb.com
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=56208716-9c01-4830-82e8-b13a00fea561
+  readings:
+    - 
+        title: CLIN&colon; A Continually Learning Language Agent for Rapid Task Adaptation and Generalization
+        authors: Bodhisattwa Prasad Majumder, Bhavana Dalvi Mishra, Peter Jansen, Oyvind Tafjord, Niket Tandon, Li Zhang, Chris Callison-Burch, Peter Clark
+        url: https://allenai.github.io/clin/
 -
   date: 2024-03-19
-  title: OpenAI video demo from Juston Fotre
+  title: OpenAI video demo
+  speaker: Juston Fotre
+  speaker_url: https://www.linkedin.com/in/justonforte/
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=748f25cf-f92b-4d94-b473-b13a00f2ac12
 -
   date: 2024-03-21
-  title: Multimodal Models with Language and Vision by Artemis Panagopoulou
+  title: Multimodal Models with Language and Vision 
+  speaker: Artemis Panagopoulou
+  speaker_url: https://artemisp.github.io
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4363a87c-6dc4-4878-9c19-b13a015db39e
 -
   date: 2024-03-26
@@ -70,7 +175,18 @@
   date: 2024-03-28 
   title: Paper Presentation - WordCraft
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b9d2a22d-dacc-4eed-ae6a-b1420019f721
+  readings:
+    - 
+        title: Wordcraft&colon; Story Writing With Large Language Models
+        authors: Ann Yuan, Andy Coenen, Emily Reif, Daphne Ippolito
+        url: https://dl.acm.org/doi/abs/10.1145/3490099.3511105
+    - 
+        title: Wordcraft Writers Workshop
+        authors: Robin Sloan, Diana Hamilton, Eugenia Triantafyllou, Ken Liu, Allison Parrish, Yudhanjaya Wijeratne, Nelly Geraldine García-Rosas, Wole Talabi, Ernest Hebert, Michelle Taransky, Joseph Mosconi, Jamie Brew, Aaron Winslow
+        url: https://wordcraft-writers-workshop.appspot.com
 -
   date: 2024-04-03
-  title: Guest Lecture by Lilach Mollick - Using Interactive Fiction to Teach
+  title: Using Interactive Fiction to Teach
+  speaker: Lilach Mollick
+  speaker_url: https://ai-analytics.wharton.upenn.edu/generative-ai-labs/about-us/
   recording: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1291692e-e3ae-4ead-bd09-b1480015de74  
